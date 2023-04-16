@@ -17,16 +17,7 @@ body {
   background: var(--color-bg);
 }
 
-a {
-  color: unset;
-  text-decoration: none;
-}
-
 h1, h2, h3, h4, p {
   font-family: var(--font-family);
   color: #fff;
-}
-
-.section__padding {
-  padding-bottom: 1rem;
 }
