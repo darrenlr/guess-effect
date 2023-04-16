@@ -1,21 +1,30 @@
-// Hint.js
 import React, { useState } from "react";
+import styles from "../styles/Hint.module.css";
 
-const Hint = ({ hint, data }) => {
+const Hint = ({ hint, data, onRevealHint }) => {
 	const [revealed, setRevealed] = useState(false);
 
 	const revealHint = () => {
 		setRevealed(true);
+		onRevealHint();
 	};
 
 	return (
-		<li>
+		<>
 			{revealed ? (
-				`${hint}: ${data}`
+				<>
+					<span className={styles.label}>{hint}: </span>
+					<span className={styles.hint}>{data}</span>
+				</>
 			) : (
-				<button onClick={revealHint}>Reveal {hint}</button>
+				<>
+					<span className={styles.label}>{hint}: </span>
+					<button className={styles.button} onClick={revealHint}>
+						Reveal
+					</button>
+				</>
 			)}
-		</li>
+		</>
 	);
 };
 

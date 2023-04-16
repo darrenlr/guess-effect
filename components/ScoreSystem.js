@@ -14,7 +14,7 @@ const ScoreSystem = ({ gameData }) => {
 	}, [gameData]);
 
 	const onRevealHint = () => {
-		setScore(score - 10);
+		setScore((prevScore) => prevScore - 10);
 	};
 
 	const getTodaysGame = (gameData) => {

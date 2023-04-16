@@ -8,12 +8,12 @@
             "publisher": "Sony Interactive Entertainment",
             "developer": "Insomniac Games",
             "genre": "FPS",
-            "platforms": ["PS3"],
-            "metacriticScore": 84
+            "platforms": ["PS3", "PSP"],
+            "metacritic": 84
         }
     },
     {
-        "date": "2023-04-75",
+        "date": "2023-04-17",
         "releaseDate": "2019-03-03",
         "title": "Example Game 2",
         "boxArtUrl": "/images/resistance.jpg",
@@ -22,7 +22,7 @@
             "developer": "Example Developer 2",
             "genre": "Adventure",
             "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-            "metacriticScore": 90
+            "metacritic": 90
         }
     }
   ]  
