@@ -1,8 +1,11 @@
-// ReleaseDate.js
 import React from "react";
 
 const ReleaseDate = ({ date }) => {
-	return <h3 style={{ textAlign: "center" }}>Release Date: {date}</h3>;
+	return (
+		<div>
+			<h4 style={{ marginTop: "2rem" }}>Release Date: {date}</h4>
+		</div>
+	);
 };
 
 export default ReleaseDate;

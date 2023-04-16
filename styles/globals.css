@@ -1,7 +1,32 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --font-family: 'Press Start 2p', cursive;
+
+  --color-bg: #202225;
+  --color-game : #212529;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
- 
-  color: white;
-  background-color: #202225;
-  font-family: 'VT323', monospace;
+  background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+.section__padding {
+  padding-bottom: 1rem;
 }

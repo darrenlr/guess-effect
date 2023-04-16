@@ -1,16 +1,24 @@
 .card {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  justify-self: center;
   border-spacing: 0;
   border: 1px solid #38444d;
   border-radius: 4px;
   background-color: #192734;
+  padding: 1rem;
+  max-width: 690px;
 }
 
   .boxArt {
     width: 250px;
     height: 300px;
     object-fit: cover;
+    border-spacing: 0;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-right: 50px;
   }
   
   .hints {

@@ -16,10 +16,10 @@ const Home = () => {
 	}, []);
 
 	return (
-		<div>
+		<>
 			<Navbar />
 			<ScoreSystem gameData={gameData} />
-		</div>
+		</>
 	);
 };
 
