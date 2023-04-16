@@ -1,0 +1,27 @@
+[
+    {
+        "date": "2023-04-16",
+        "releaseDate": "1994-06-03",
+        "title": "Example Game 1",
+        "boxArtUrl": "/images/resistance.jpg",
+        "publisher": "Example Publisher 1",
+        "developer": "Example Developer 1",
+        "genre": "Action",
+        "platforms": ["PC", "PS4", "Xbox One"],
+        "metacriticScore": 72
+    },
+    {
+        "date": "2023-04-75",
+        "releaseDate": "2019-03-03",
+        "title": "Example Game 2",
+        "boxArtUrl": "/images/resistance.jpg",
+        "publisher": "Example Publisher 2",
+        "developer": "Example Developer 2",
+        "genre": "Adventure",
+        "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
+        "metacriticScore": 90
+    }
+  ]  
+  
+  
+  

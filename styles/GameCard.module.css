@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  border-spacing: 0;
+  border: 1px solid #38444d;
+  border-radius: 4px;
+  background-color: #192734;
+}
+
+  .boxArt {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .hints {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  

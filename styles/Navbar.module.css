@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .title {
+    margin: 0 1rem;
+  }
+  
+  .iconBtn {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconBtn:focus {
+    outline: none;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: white;
+  }
