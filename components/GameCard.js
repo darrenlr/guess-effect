@@ -29,7 +29,7 @@ const GameCard = ({ gameData, onRevealHint }) => {
 					<button
 						className={styles.blurButton}
 						onClick={reduceBlur}
-						disabled={blurAmount <= 5}
+						disabled={blurAmount <= 10}
 					>
 						Reveal (-5)
 					</button>
