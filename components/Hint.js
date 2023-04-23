@@ -10,21 +10,21 @@ const Hint = ({ hint, data, onRevealHint, points }) => {
 	};
 
 	return (
-		<>
+		<div className={styles.hint}>
+			<div className={styles.hintKey}>{hint}: </div>
+
 			{revealed ? (
 				<>
-					<span className={styles.label}>{hint}: </span>
-					<span className={styles.hint}>{data}</span>
+					<span className={styles.hintValue}>{data}</span>
 				</>
 			) : (
 				<>
-					<span className={styles.label}>{hint}: </span>
 					<button className={styles.button} onClick={revealHint}>
 						Reveal (-{points})
 					</button>
 				</>
 			)}
-		</>
+		</div>
 	);
 };
 

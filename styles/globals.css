@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
   --font-family: 'Press Start 2p', cursive;
+  --font-family-main: 'Poppins', sans-serif;
 
   --color-bg: #202225;
   --color-game : #212529;

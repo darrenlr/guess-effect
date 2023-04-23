@@ -1,24 +1,80 @@
-.card {
+.container{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  justify-self: center;
+  flex-direction: column;
   border-spacing: 0;
   border: 1px solid #38444d;
   border-radius: 4px;
   background-color: #192734;
   padding: 1rem;
-  width: 840px;
+  width: 100%;
+  max-width: 940px;
+  box-sizing: border-box;
 }
 
+.gameCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.boxArt {
+  flex: 0 0 350px;
+  margin: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxArtWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.blurButton {
+  background-color: #fff;
+  height: 100%;
+  cursor: pointer;
+  color: #282c34;
+  font-weight: 600;
+  font-size: calc(10px + .3vmin);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: var(--font-family-main);
+  text-align: center;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.blurButton:hover {
+  background-color: #3e8e41;
+}
+
+.blurButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.gameInfo {
+  flex: 1;
+}
+
+.hintRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 770px) {
   .boxArt {
-    max-width: 350px;
-    max-height: 400px;
-    object-fit: cover;
-    border-spacing: 0;
-    border: 1px solid red;
-    border-radius: 4px;
-    margin-right: 50px;
+    flex-basis: 235px;
   }
 
-  
+  .gameInfo {
+    width: 100%;
+  }
+}

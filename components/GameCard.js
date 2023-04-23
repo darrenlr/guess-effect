@@ -1,44 +1,80 @@
-import React from "react";
+import React, { useState } from "react";
 import Hint from "./Hint";
+import Image from "next/image";
 import styles from "../styles/GameCard.module.css";
 
-const hintPoints = [
-	{ hint: "publisher", points: 15 },
-	{ hint: "developer", points: 25 },
-	{ hint: "genre", points: 5 },
-	{ hint: "platforms", points: 5 },
-	{ hint: "metacritic", points: 10 },
-	{ hint: "plot", points: 40 },
-	// and so on
-];
-
 const GameCard = ({ gameData, onRevealHint }) => {
+	const [blurAmount, setBlurAmount] = useState(25);
+
+	const reduceBlur = () => {
+		setBlurAmount((prevBlurAmount) => Math.max(0, prevBlurAmount - 5));
+		onRevealHint(5);
+	};
+
 	return (
-		<div className={styles.card}>
-			<img src={gameData.boxArtUrl} alt="Box Art" className={styles.boxArt} />
-			<table className={styles.hints}>
-				<thead>
-					<tr>
-						<th>
-							<h4>???</h4>
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-					{hintPoints.map((hintObj) => (
-						<tr key={hintObj.hint}>
-							<td>
-								<Hint
-									hint={hintObj.hint}
-									data={gameData.hints[hintObj.hint]}
-									onRevealHint={onRevealHint}
-									points={hintObj.points}
-								/>
-							</td>
-						</tr>
-					))}
-				</tbody>
-			</table>
+		<div className={styles.container}>
+			<div className={styles.gameCard}>
+				<div className={styles.boxArt}>
+					<div className={styles.boxArtWrapper}>
+						<Image
+							src={gameData.boxArtUrl}
+							alt="Box Art"
+							width={350}
+							height={260}
+							objectFit="fill"
+							layout="responsive"
+							style={{ filter: `blur(${blurAmount}px)` }}
+						/>
+					</div>
+					<button
+						className={styles.blurButton}
+						onClick={reduceBlur}
+						disabled={blurAmount <= 5}
+					>
+						Reveal (-5)
+					</button>
+				</div>
+				<div className={styles.gameInfo}>
+					<Hint
+						hint="publisher"
+						data={gameData.hints.publisher}
+						onRevealHint={onRevealHint}
+						points={15}
+					/>
+					<Hint
+						hint="developer"
+						data={gameData.hints.developer}
+						onRevealHint={onRevealHint}
+						points={25}
+					/>
+					<div className={styles.hintRow}>
+						<Hint
+							hint="genre"
+							data={gameData.hints.genre}
+							onRevealHint={onRevealHint}
+							points={5}
+						/>
+						<Hint
+							hint="platforms"
+							data={gameData.hints.platforms}
+							onRevealHint={onRevealHint}
+							points={5}
+						/>
+					</div>
+					<Hint
+						hint="metacritic"
+						data={gameData.hints.metacritic}
+						onRevealHint={onRevealHint}
+						points={10}
+					/>
+					<Hint
+						hint="plot"
+						data={gameData.hints.plot}
+						onRevealHint={onRevealHint}
+						points={40}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 };

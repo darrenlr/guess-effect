@@ -1,44 +1,52 @@
 .button-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .button-label {
-    font-size: 1.2rem;
-    margin-right: 1rem;
-    color: white;
-  }
-  
-  .button {
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    padding: 8px 16px;
-    background-color: #333;
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    font-family: var(--font-family);
-  }
-  
-  .button:focus {
-    outline: none;
-  }
-  
-  .button:hover {
-    background-color: #3e8e41;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
-  .label, .hint {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: var(--font-family);
+.button {
+  background-color: #fff;
+  height: 100%;
+  cursor: pointer;
+  color: #282c34;
+  font-weight: 600;
+  font-size: calc(10px + .3vmin);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: var(--font-family-main);
+  text-align: center;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.hint {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  margin: 16px 8px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: var(--font-family-main);
+}
+
+.hintKey {
+  margin-right: 12px;
+  font-weight: 700;
+}
+
+.hintValue {
+  word-break: break-word;
+}
+
+@media (max-width: 770px) {
+  .button {
+    width: 100%;
+    box-sizing: border-box; /* Add this line */
   }
+}

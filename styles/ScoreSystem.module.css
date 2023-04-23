@@ -5,3 +5,9 @@
   justify-content: center;
   gap: 2rem
 }
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10px;
+  }
+}
