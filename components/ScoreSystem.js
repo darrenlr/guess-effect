@@ -1,6 +1,5 @@
 // ScoreSystem.js
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
 import ReleaseDate from "./ReleaseDate";
 import GameCard from "./GameCard";
 import styles from "../styles/ScoreSystem.module.css";
@@ -13,14 +12,14 @@ const ScoreSystem = ({ gameData }) => {
 		setGame(getTodaysGame(gameData));
 	}, [gameData]);
 
-	const onRevealHint = () => {
-		setScore((prevScore) => prevScore - 10);
-	};
-
 	const getTodaysGame = (gameData) => {
 		const today = new Date();
 		const dateString = today.toISOString().split("T")[0];
 		return gameData.find((game) => game.date === dateString);
+	};
+
+	const onRevealHint = (points) => {
+		setScore((prevScore) => prevScore - points);
 	};
 
 	return (

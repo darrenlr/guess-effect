@@ -1,6 +1,6 @@
 [
     {
-        "date": "2023-04-16",
+        "date": "2023-04-23",
         "releaseDate": "1994-06-03",
         "title": "Resistance: Fall of Man",
         "boxArtUrl": "/images/resistance.jpg",
@@ -9,7 +9,8 @@
             "developer": "Insomniac Games",
             "genre": "FPS",
             "platforms": ["PS3", "PSP"],
-            "metacritic": 84
+            "metacritic": 84,
+            "plot": "set in an alternate history where Earth has been invaded by a hostile alien race. The player takes on the role of an American soldier who is part of a military force sent to Europe to fight the alien threat. The game features a variety of weapons and enemies, and includes both single-player and multiplayer modes. Throughout the game, the player uncovers secrets about the alien invasion and discovers ways to fight back against the invaders."
         }
     },
     {

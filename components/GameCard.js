@@ -2,6 +2,16 @@ import React from "react";
 import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
 
+const hintPoints = [
+	{ hint: "publisher", points: 15 },
+	{ hint: "developer", points: 25 },
+	{ hint: "genre", points: 5 },
+	{ hint: "platforms", points: 5 },
+	{ hint: "metacritic", points: 10 },
+	{ hint: "plot", points: 40 },
+	// and so on
+];
+
 const GameCard = ({ gameData, onRevealHint }) => {
 	return (
 		<div className={styles.card}>
@@ -15,14 +25,14 @@ const GameCard = ({ gameData, onRevealHint }) => {
 					</tr>
 				</thead>
 				<tbody>
-					{Object.entries(gameData.hints).map(([key, value]) => (
-						<tr key={key}>
+					{hintPoints.map((hintObj) => (
+						<tr key={hintObj.hint}>
 							<td>
 								<Hint
-									key={key}
-									hint={key}
-									data={value}
+									hint={hintObj.hint}
+									data={gameData.hints[hintObj.hint]}
 									onRevealHint={onRevealHint}
+									points={hintObj.points}
 								/>
 							</td>
 						</tr>

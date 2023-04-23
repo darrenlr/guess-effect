@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styles from "../styles/Hint.module.css";
 
-const Hint = ({ hint, data, onRevealHint }) => {
+const Hint = ({ hint, data, onRevealHint, points }) => {
 	const [revealed, setRevealed] = useState(false);
 
 	const revealHint = () => {
 		setRevealed(true);
-		onRevealHint();
+		onRevealHint(points);
 	};
 
 	return (
@@ -20,7 +20,7 @@ const Hint = ({ hint, data, onRevealHint }) => {
 				<>
 					<span className={styles.label}>{hint}: </span>
 					<button className={styles.button} onClick={revealHint}>
-						Reveal
+						Reveal (-{points})
 					</button>
 				</>
 			)}
