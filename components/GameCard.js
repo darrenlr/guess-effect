@@ -5,6 +5,14 @@ import styles from "../styles/GameCard.module.css";
 
 const GameCard = ({ gameData, onRevealHint }) => {
 	const [blurAmount, setBlurAmount] = useState(25);
+	const [isFlashing, setIsFlashing] = useState(false);
+
+	const handleButtonClick = () => {
+		setIsFlashing(true);
+		setTimeout(() => {
+			setIsFlashing(false);
+		}, 500);
+	};
 
 	const reduceBlur = () => {
 		setBlurAmount((prevBlurAmount) => Math.max(0, prevBlurAmount - 5));
@@ -12,20 +20,19 @@ const GameCard = ({ gameData, onRevealHint }) => {
 	};
 
 	return (
-		<div className={styles.container}>
-			<div className={styles.gameCard}>
+		<>
+			<div className={`${styles.gameCard} ${isFlashing ? styles.flash : ""}`}>
 				<div className={styles.boxArt}>
 					<div className={styles.boxArtWrapper}>
 						<Image
 							src={gameData.boxArtUrl}
 							alt="Box Art"
-							width={350}
-							height={260}
-							objectFit="fill"
-							layout="responsive"
+							width={300}
+							height={360}
 							style={{ filter: `blur(${blurAmount}px)` }}
 						/>
 					</div>
+
 					<button
 						className={styles.blurButton}
 						onClick={reduceBlur}
@@ -75,7 +82,7 @@ const GameCard = ({ gameData, onRevealHint }) => {
 					/>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

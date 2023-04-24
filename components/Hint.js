@@ -19,7 +19,7 @@ const Hint = ({ hint, data, onRevealHint, points }) => {
 				</>
 			) : (
 				<>
-					<button className={styles.button} onClick={revealHint}>
+					<button className={styles.hintButton} onClick={revealHint}>
 						Reveal (-{points})
 					</button>
 				</>

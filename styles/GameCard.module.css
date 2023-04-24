@@ -1,58 +1,46 @@
-.container{
+.gameCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
   border-spacing: 0;
   border: 1px solid #38444d;
   border-radius: 4px;
-  background-color: #192734;
+  /* background-color: #192734; */
+  background-color: #C4CFA1;
   padding: 1rem;
   width: 100%;
   max-width: 940px;
   box-sizing: border-box;
 }
 
-.gameCard {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .boxArt {
-  flex: 0 0 350px;
-  margin: 16px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-right: 20px;
 }
 
 .boxArtWrapper {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #38444d;
+  border: 4px solid #38444d;
+  border-radius: 4px;
   overflow: hidden; 
+  margin-bottom: 16px;
 }
 
 .blurButton {
   background-color: #fff;
-  height: 100%;
   cursor: pointer;
   color: #282c34;
   font-weight: 600;
   font-size: calc(10px + .3vmin);
   border-radius: 4px;
   padding: 4px 8px;
-  font-family: var(--font-family-main);
+  font-family: var(--font-family);
   text-align: center;
-  margin-top: 8px;
   transition: background-color 0.2s ease;
 }
 
 .blurButton:hover {
-  background-color: #3e8e41;
+  background-color: #b0b0b0;
 }
 
 .blurButton:disabled {
@@ -61,7 +49,9 @@
 }
 
 .gameInfo {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .hintRow {
@@ -71,12 +61,54 @@
   margin-bottom: 16px;
 }
 
-@media (max-width: 770px) {
-  .boxArt {
-    flex-basis: 235px;
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(3px, 0, 0);
+  }
+}
+
+.gameCard.flash {
+  animation: flash 0.5s linear, shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+
+@media screen and (max-width: 768px) {
+  .gameCard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .gameInfo {
     width: 100%;
+  }
+
+  .hintRow {
+    display: block;
+    margin-bottom: 0;
   }
 }
