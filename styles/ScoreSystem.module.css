@@ -3,11 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem
 }
 
 @media (max-width: 770px) {
-  .container {
+  .container .innerContainer {
     margin: 0 10px;
   }
 }

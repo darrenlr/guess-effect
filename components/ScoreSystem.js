@@ -26,7 +26,7 @@ const ScoreSystem = ({ gameData }) => {
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} />}
 			{game && <GameCard gameData={game} onRevealHint={onRevealHint} />}
-			<p>Score: {score}</p>
+			<p style={{ margin: "2rem" }}>Score: {score}</p>
 		</div>
 	);
 };

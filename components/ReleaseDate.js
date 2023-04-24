@@ -3,7 +3,7 @@ import React from "react";
 const ReleaseDate = ({ date }) => {
 	return (
 		<div>
-			<h4 style={{ marginTop: "2rem" }}>Release Date: {date}</h4>
+			<h4 style={{ margin: "2rem" }}>Release Date: {date}</h4>
 		</div>
 	);
 };

@@ -1,26 +1,30 @@
 import React, { useState } from "react";
 import Hint from "./Hint";
 import Image from "next/image";
+import SearchBar from "./SearchBar";
 import styles from "../styles/GameCard.module.css";
 
 const GameCard = ({ gameData, onRevealHint }) => {
-	const [blurAmount, setBlurAmount] = useState(25);
+	const [blurAmount, setBlurAmount] = useState(20);
 	const [isFlashing, setIsFlashing] = useState(false);
 
-	const handleButtonClick = () => {
+	const reduceBlur = () => {
+		setBlurAmount((prevBlurAmount) => Math.max(0, prevBlurAmount - 5));
+		onRevealHint(5);
+
 		setIsFlashing(true);
 		setTimeout(() => {
 			setIsFlashing(false);
 		}, 500);
 	};
 
-	const reduceBlur = () => {
-		setBlurAmount((prevBlurAmount) => Math.max(0, prevBlurAmount - 5));
-		onRevealHint(5);
+	const handleSearch = (searchText) => {
+		// Perform search and update the game data based on the searchText
 	};
 
 	return (
 		<>
+			<SearchBar onSearch={handleSearch} />
 			<div className={`${styles.gameCard} ${isFlashing ? styles.flash : ""}`}>
 				<div className={styles.boxArt}>
 					<div className={styles.boxArtWrapper}>
@@ -36,7 +40,7 @@ const GameCard = ({ gameData, onRevealHint }) => {
 					<button
 						className={styles.blurButton}
 						onClick={reduceBlur}
-						disabled={blurAmount <= 10}
+						disabled={blurAmount <= 0}
 					>
 						Reveal (-5)
 					</button>
