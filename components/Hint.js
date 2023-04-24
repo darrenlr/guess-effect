@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styles from "../styles/Hint.module.css";
 
-const Hint = ({ hint, data, onRevealHint, points }) => {
-	const [revealed, setRevealed] = useState(false);
+const Hint = ({ hint, data, onRevealHint, points, isRevealed = false }) => {
+	const [revealed, setRevealed] = useState(isRevealed);
 
 	const revealHint = () => {
 		setRevealed(true);

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import Select from "react-select";
+import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
-const SearchBar = ({ onSearch }) => {
+const SearchBar = ({ onSubmit }) => {
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [options, setOptions] = useState([]);
 
 	const handleSearch = async (inputValue) => {
-		if (inputValue) {
+		if (inputValue.length > 2) {
 			const apiKey = publicRuntimeConfig.RAWG_API_KEY;
 			const response = await fetch(
 				`https://api.rawg.io/api/games?key=${apiKey}&search=${inputValue}`
@@ -27,7 +27,10 @@ const SearchBar = ({ onSearch }) => {
 		}
 	};
 
-	const handleSubmit = () => {};
+	const handleSubmit = (selectedOption) => {
+		onSubmit(selectedOption.value);
+		setSelectedOption(null);
+	};
 
 	const handleInputChange = (inputValue) => {
 		handleSearch(inputValue);
@@ -50,7 +53,7 @@ const SearchBar = ({ onSearch }) => {
 
 	return (
 		<div className={styles.searchContainer}>
-			<Select
+			<GameSelect
 				className={styles.searchInput}
 				placeholder="Search video game names..."
 				value={selectedOption}
@@ -61,7 +64,10 @@ const SearchBar = ({ onSearch }) => {
 				noOptionsMessage={noOptionsMessage}
 				isClearable
 			/>
-			<button className={styles.submitButton} onClick={handleSubmit}>
+			<button
+				className={styles.submitButton}
+				onClick={() => handleSubmit(selectedOption)}
+			>
 				Submit
 			</button>
 		</div>
