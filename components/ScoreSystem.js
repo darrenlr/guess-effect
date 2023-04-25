@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
+import Image from "next/image";
 import ReleaseDate from "./ReleaseDate";
 import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
@@ -17,7 +18,7 @@ const initialGameState = {
 		plot: false,
 		boxArt: 25,
 	},
-	wrongGuesses: [],
+	guesses: [],
 	remainingGuessCount: 5,
 };
 
@@ -30,6 +31,8 @@ const ScoreSystem = ({ gameData }) => {
 	const [score, setScore] = useState(100);
 	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
+	const [hearts, setHearts] = useState(Array(5).fill("/images/heart.png"));
+	const [heartAnimationClass, setHeartAnimationClass] = useState("");
 	const [isModalVisible, setIsModalVisible] = useState(false);
 
 	const todaysDate = useMemo(() => {
@@ -55,38 +58,65 @@ const ScoreSystem = ({ gameData }) => {
 	}, [game, currentGameState.releaseDate]);
 
 	useEffect(() => {
-		if (currentGameState.remainingGuessCount === 0) {
-			setScore(0);
-			setCurrentGameState((prevState) => ({
-				...prevState,
-				hints: {
-					publisher: true,
-					developer: true,
-					genre: true,
-					platforms: true,
-					metacritic: true,
-					plot: true,
-					boxArt: 0,
-				},
-			}));
-			setIsModalVisible(true);
-		}
+		const updatedHearts = Array.from({ length: 5 }, (_, index) =>
+			index < currentGameState.remainingGuessCount
+				? "/images/heart.png"
+				: "/images/heart-black.png"
+		);
+		setHearts(updatedHearts);
 	}, [currentGameState.remainingGuessCount]);
+
+	const handleGameOver = (resetScore) => {
+		if (resetScore) {
+			setScore(0);
+		}
+		setCurrentGameState((prevState) => ({
+			...prevState,
+			hints: {
+				publisher: true,
+				developer: true,
+				genre: true,
+				platforms: true,
+				metacritic: true,
+				plot: true,
+				boxArt: 0,
+			},
+		}));
+		setIsModalVisible(true);
+	};
+
+	useEffect(() => {
+		if (currentGameState.remainingGuessCount === 0) {
+			handleGameOver(true);
+		}
+	}, [currentGameState.remainingGuessCount, currentGameState.guesses]);
 
 	const onRevealHint = (points) => {
 		setScore((prevScore) => prevScore - points);
 	};
 
 	const handleGuess = (guess) => {
+		setCurrentGameState((prevState) => ({
+			...prevState,
+			guesses: [...prevState.guesses, guess],
+		}));
+
 		if (guess === game.title) {
-			setIsModalVisible(true);
+			handleGameOver(false);
 		} else {
-			setIsWrongGuess(true);
 			setCurrentGameState((prevState) => ({
 				...prevState,
 				remainingGuessCount: prevState.remainingGuessCount - 1,
-				wrongGuesses: [...prevState.wrongGuesses, guess],
 			}));
+
+			setHeartAnimationClass(styles.pulse);
+
+			setTimeout(() => {
+				setHeartAnimationClass(styles.fadeOut);
+			}, 500);
+
+			setIsWrongGuess(true);
+
 			setTimeout(() => {
 				setIsWrongGuess(false);
 			}, 500);
@@ -106,7 +136,19 @@ const ScoreSystem = ({ gameData }) => {
 					isWrongGuess={isWrongGuess}
 				/>
 			)}
-			<p style={{ margin: "2rem" }}>Score: {score}</p>
+			<div className={styles.heartsContainer}>
+				{hearts.map((heartSrc, index) => (
+					<Image
+						key={index}
+						src={heartSrc}
+						alt="Heart"
+						width={30}
+						height={30}
+					/>
+				))}
+			</div>
+
+			<p style={{ margin: "1rem" }}>Score: {score}</p>
 			<GameOverModal
 				show={isModalVisible}
 				gameTitle={game ? game.title : ""}
