@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import ReleaseDate from "./ReleaseDate";
 import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
-import WinnerModal from "./WinnerModal";
+import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import styles from "../styles/ScoreSystem.module.css";
 
@@ -15,6 +15,7 @@ const initialGameState = {
 		platforms: false,
 		metacritic: false,
 		plot: false,
+		boxArt: 25,
 	},
 	wrongGuesses: [],
 	remainingGuessCount: 5,
@@ -22,38 +23,55 @@ const initialGameState = {
 
 const ScoreSystem = ({ gameData }) => {
 	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", []);
-
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState
 	);
-
 	const [score, setScore] = useState(100);
 	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
 
-	useEffect(() => {
-		const todaysGame = getTodaysGame(gameData);
-		setGame(todaysGame);
-	}, [gameData]);
-
-	const getTodaysGame = (gameData) => {
+	const todaysDate = useMemo(() => {
 		const today = new Date();
-		const dateString = today.toISOString().split("T")[0];
-		return gameData.find((game) => game.date === dateString);
-	};
+		return today.toISOString().split("T")[0];
+	}, []);
+
+	const getTodaysGame = useMemo(() => {
+		return gameData.find((game) => game.date === todaysDate);
+	}, [gameData, todaysDate]);
 
 	useEffect(() => {
-		if (game) {
-			if (game.releaseDate !== currentGameState.releaseDate) {
-				setCurrentGameState({
-					...initialGameState,
-					releaseDate: game.releaseDate,
-				});
-			}
+		setGame(getTodaysGame);
+	}, [getTodaysGame]);
+
+	useEffect(() => {
+		if (game && game.releaseDate !== currentGameState.releaseDate) {
+			setCurrentGameState({
+				...initialGameState,
+				releaseDate: game.releaseDate,
+			});
 		}
-	}, [game]);
+	}, [game, currentGameState.releaseDate]);
+
+	useEffect(() => {
+		if (currentGameState.remainingGuessCount === 0) {
+			setScore(0);
+			setCurrentGameState((prevState) => ({
+				...prevState,
+				hints: {
+					publisher: true,
+					developer: true,
+					genre: true,
+					platforms: true,
+					metacritic: true,
+					plot: true,
+					boxArt: 0,
+				},
+			}));
+			setIsModalVisible(true);
+		}
+	}, [currentGameState.remainingGuessCount]);
 
 	const onRevealHint = (points) => {
 		setScore((prevScore) => prevScore - points);
@@ -64,12 +82,11 @@ const ScoreSystem = ({ gameData }) => {
 			setIsModalVisible(true);
 		} else {
 			setIsWrongGuess(true);
-
-			setGameState((prevState) => ({
+			setCurrentGameState((prevState) => ({
 				...prevState,
 				remainingGuessCount: prevState.remainingGuessCount - 1,
+				wrongGuesses: [...prevState.wrongGuesses, guess],
 			}));
-
 			setTimeout(() => {
 				setIsWrongGuess(false);
 			}, 500);
@@ -84,13 +101,13 @@ const ScoreSystem = ({ gameData }) => {
 				<GameCard
 					gameData={game}
 					gameState={currentGameState}
+					setGameState={setCurrentGameState}
 					onRevealHint={onRevealHint}
 					isWrongGuess={isWrongGuess}
 				/>
 			)}
 			<p style={{ margin: "2rem" }}>Score: {score}</p>
-
-			<WinnerModal
+			<GameOverModal
 				show={isModalVisible}
 				gameTitle={game ? game.title : ""}
 				score={score}

@@ -3,27 +3,38 @@ import Hint from "./Hint";
 import Image from "next/image";
 import styles from "../styles/GameCard.module.css";
 
-const GameCard = ({ gameData, gameState, onRevealHint, isWrongGuess }) => {
-	const [blurAmount, setBlurAmount] = useState(20);
+const GameCard = ({
+	gameData,
+	gameState,
+	setGameState,
+	onRevealHint,
+	isWrongGuess,
+}) => {
+	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
+
+	useEffect(() => {
+		setBlurAmount(gameState.hints.boxArt);
+	}, [gameState.hints.boxArt]);
 
 	const reduceBlur = () => {
-		setBlurAmount((prevBlurAmount) => Math.max(0, prevBlurAmount - 5));
+		const newBlurAmount = Math.max(0, blurAmount - 5);
+		setBlurAmount(newBlurAmount);
+
 		onRevealHint(5);
-	};
 
-	const saveGameStateToLocalStorage = (newGameState) => {
-		const storedGameState =
-			JSON.parse(localStorage.getItem("CURRENT_GAME_STATE")) || {};
-
-		storedGameState.hints = newGameState;
-		localStorage.setItem("CURRENT_GAME_STATE", JSON.stringify(storedGameState));
+		setGameState((prevState) => {
+			const updatedHints = { ...prevState.hints, boxArt: newBlurAmount };
+			return { ...prevState, hints: updatedHints };
+		});
 	};
 
 	const handleRevealHint = (hint, points) => {
 		onRevealHint(points);
 
-		const updatedState = { ...gameState.hints, [hint]: true };
-		saveGameStateToLocalStorage(updatedState);
+		setGameState((prevState) => {
+			const updatedHints = { ...prevState.hints, [hint]: true };
+			return { ...prevState, hints: updatedHints };
+		});
 	};
 
 	return (
@@ -40,13 +51,15 @@ const GameCard = ({ gameData, gameState, onRevealHint, isWrongGuess }) => {
 						/>
 					</div>
 
-					<button
-						className={styles.blurButton}
-						onClick={reduceBlur}
-						disabled={blurAmount <= 0}
-					>
-						Reveal (-5)
-					</button>
+					{blurAmount <= 10 ? (
+						<button className={styles.blurButton} disabled>
+							Give Up?
+						</button>
+					) : (
+						<button className={styles.blurButton} onClick={reduceBlur}>
+							Reveal (-5)
+						</button>
+					)}
 				</div>
 				<div className={styles.gameInfo}>
 					<Hint
