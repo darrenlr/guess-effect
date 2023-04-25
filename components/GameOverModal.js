@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../styles/WinnerModal.module.css";
+import styles from "../styles/GameOverModal.module.css";
 
-const WinnerModal = ({ show, gameTitle, score, onClose }) => {
+const GameOverModal = ({ show, gameTitle, score, onClose }) => {
 	if (!show) {
 		return null;
 	}
@@ -10,8 +10,9 @@ const WinnerModal = ({ show, gameTitle, score, onClose }) => {
 		<div className={styles.modalOverlay}>
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
-					<h2>Winner!</h2>
-					<p>{gameTitle}</p>
+					<h2>GAME OVER</h2>
+					<p>the game was:</p>
+					<h3>{gameTitle}</h3>
 					<p>Score: {score}</p>
 					<button className={styles.closeButton} onClick={onClose}>
 						Close
@@ -22,4 +23,4 @@ const WinnerModal = ({ show, gameTitle, score, onClose }) => {
 	);
 };
 
-export default WinnerModal;
+export default GameOverModal;
