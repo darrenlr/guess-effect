@@ -2,12 +2,12 @@
   display: flex;
   gap: 0.5rem;
   margin: 16px 8px;
-  text-transform: uppercase;
   color: #fff;
   font-family: var(--font-family-main);
 }
 
 .hintKey {
+  text-transform: uppercase;
   font-weight: 700;
 }
 

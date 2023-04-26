@@ -8,14 +8,25 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 		onRevealHint(points);
 	};
 
+	const renderData = () => {
+		if (Array.isArray(data)) {
+			return data.map((item, index) => (
+				<React.Fragment key={index}>
+					<span className={styles.hintValue}>{item}</span>
+					<br />
+				</React.Fragment>
+			));
+		} else {
+			return <span className={styles.hintValue}>{data}</span>;
+		}
+	};
+
 	return (
 		<div className={styles.hint}>
 			<div className={styles.hintKey}>{hint}: </div>
 
 			{revealed ? (
-				<>
-					<span className={styles.hintValue}>{data}</span>
-				</>
+				<div>{renderData()}</div>
 			) : (
 				<>
 					<button className={styles.hintButton} onClick={revealHint}>
