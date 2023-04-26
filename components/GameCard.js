@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Hint from "./Hint";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
 
 const GameCard = ({
@@ -11,10 +11,31 @@ const GameCard = ({
 	isWrongGuess,
 }) => {
 	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
+	const [primaryColors, setPrimaryColors] = useState(["#000", "#020073"]);
+	const imgRef = useRef(null);
+
+	useEffect(() => {
+		if (imgRef.current && imgRef.current.complete) {
+			extractColors();
+		}
+	}, [imgRef]);
 
 	useEffect(() => {
 		setBlurAmount(gameState.hints.boxArt);
 	}, [gameState.hints.boxArt]);
+
+	const extractColors = async () => {
+		const { default: ColorThief } = await import("colorthief");
+		const colorThief = new ColorThief();
+		const colors = colorThief.getPalette(imgRef.current, 2);
+
+		console.log(colors);
+
+		const formattedColors = colors.map(
+			(color) => `rgb(${color[0]}, ${color[1]}, ${color[2]})`
+		);
+		setPrimaryColors(formattedColors);
+	};
 
 	const reduceBlur = () => {
 		const newBlurAmount = Math.max(0, blurAmount - 5);
@@ -39,15 +60,22 @@ const GameCard = ({
 
 	return (
 		<>
-			<div className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}>
+			<div
+				className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}
+				style={{
+					background: `linear-gradient(to bottom, ${primaryColors[0]}, ${primaryColors[1]})`,
+				}}
+			>
 				<div className={styles.boxArt}>
 					<div className={styles.boxArtWrapper}>
-						<Image
+						<img
 							src={gameData.boxArtUrl}
 							alt="Box Art"
 							width={300}
 							height={360}
 							style={{ filter: `blur(${blurAmount}px)` }}
+							onLoad={extractColors}
+							ref={imgRef}
 						/>
 					</div>
 
@@ -76,22 +104,22 @@ const GameCard = ({
 						points={25}
 						isRevealed={gameState.hints.developer}
 					/>
-					<div className={styles.hintRow}>
-						<Hint
-							hint="genre"
-							data={gameData.hints.genre}
-							onRevealHint={() => handleRevealHint("genre", 5)}
-							points={5}
-							isRevealed={gameState.hints.genre}
-						/>
-						<Hint
-							hint="platforms"
-							data={gameData.hints.platforms}
-							onRevealHint={() => handleRevealHint("platforms", 5)}
-							points={5}
-							isRevealed={gameState.hints.platforms}
-						/>
-					</div>
+
+					<Hint
+						hint="genre"
+						data={gameData.hints.genre}
+						onRevealHint={() => handleRevealHint("genre", 5)}
+						points={5}
+						isRevealed={gameState.hints.genre}
+					/>
+					<Hint
+						hint="platforms"
+						data={gameData.hints.platforms}
+						onRevealHint={() => handleRevealHint("platforms", 5)}
+						points={5}
+						isRevealed={gameState.hints.platforms}
+					/>
+
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}

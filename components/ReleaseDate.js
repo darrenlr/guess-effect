@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "../styles/ReleaseDate.module.css";
 
 const ReleaseDate = ({ date }) => {
 	return (
-		<div>
-			<h4 style={{ margin: "2rem" }}>Release Date: {date}</h4>
-		</div>
+		<>
+			<h4 className={styles.releaseDate}>Release Date: {date}</h4>
+		</>
 	);
 };
 
