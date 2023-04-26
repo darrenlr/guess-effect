@@ -1,6 +1,6 @@
 [
     {
-        "date": "2023-04-25",
+        "date": "2023-04-26",
         "releaseDate": "1994-06-03",
         "title": "Resistance: Fall of Man",
         "boxArtUrl": "/images/resistance.jpg",
@@ -10,20 +10,21 @@
             "genre": "FPS",
             "platforms": ["PS3", "PSP"],
             "metacritic": 84,
-            "plot": "set in an alternate history where Earth has been invaded by a hostile alien race. The player takes on the role of an American soldier who is part of a military force sent to Europe to fight the alien threat. The game features a variety of weapons and enemies, and includes both single-player and multiplayer modes. Throughout the game, the player uncovers secrets about the alien invasion and discovers ways to fight back against the invaders."
+            "plot": "Set in an alternate history where Earth has been invaded by a hostile alien race. The player takes on the role of an American soldier who is part of a military force sent to Europe to fight the alien threat. The game features a variety of weapons and enemies, and includes both single-player and multiplayer modes. Throughout the game, the player uncovers secrets about the alien invasion and discovers ways to fight back against the invaders."
         }
     },
     {
-        "date": "2023-04-16",
-        "releaseDate": "2019-03-03",
-        "title": "Example Game 2",
-        "boxArtUrl": "/images/resistance.jpg",
+        "date": "2023-04-27",
+        "releaseDate": "2007-11-20",
+        "title": "Mass Effect",
+        "boxArtUrl": "/images/mass-effect.jpeg",
         "hints": {
-            "publisher": "Example Publisher 2",
-            "developer": "Example Developer 2",
+            "publisher": ["Microsoft Game Studios", "EA"],
+            "developer": "BioWare",
             "genre": "Adventure",
-            "platforms": ["PC", "PS4", "Xbox One", "Nintendo Switch"],
-            "metacritic": 90
+            "platforms": ["PC", "PS3", "Xbox 360", "Windows"],
+            "metacritic": 90,
+            "plot": "**** ****** was the very start of the trilogy about Commander Shepard in his journey to save the universe from Reapers - an old civilisation that wants to kill every possible rational being in order to prevail any wars. You play as Shepard. With flexible backstory and different classes you travel to Eden Prime with Captain Anderson and Nihlus Kryik, you and your team must discover the mystery behind the attack on the human colony. In the process, it is revealed that another Spectre, Saron, has become rogue and escapes the planet to awoke Reapers and start a full-scale war with the galaxy."
         }
     }
   ]  
