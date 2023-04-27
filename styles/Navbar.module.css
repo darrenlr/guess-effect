@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    margin: 0.8rem;
     gap: 1.4rem;
   }
   
   .title {
-    margin: 0 0.5rem;
+    font-size: 1.5rem;
   }
   
   .iconBtn {
@@ -24,4 +24,18 @@
   .icon {
     font-size: 1.5rem;
     color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      gap: 0.8rem
+    }
+
+    .title {
+      text-align: center;
+    }
+  
+    .icon {
+      font-size: 1.2rem;
+    }
   }

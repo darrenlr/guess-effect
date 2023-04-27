@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/GameOverModal.module.css";
+import confetti from "canvas-confetti";
 
 const GameOverModal = ({ show, gameTitle, score, onClose }) => {
+	useEffect(() => {
+		if (show) {
+			const confettiAnimation = confetti.create(undefined, {
+				resize: true,
+				useWorker: true,
+			});
+			confettiAnimation({
+				zIndex: 101,
+				particleCount: 100,
+				spread: 60,
+				origin: { y: 0.6 },
+			});
+		}
+	}, [show]);
+
 	if (!show) {
 		return null;
 	}

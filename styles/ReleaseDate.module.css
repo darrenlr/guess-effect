@@ -1,27 +1,17 @@
-/* .releaseDate {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    background-color: #0704bc;
-    border: 2px solid #2c2c2c;
-    color: #2c2c2c;
-    font-family: var(--font-family);
-    font-size: 12px;
-    text-shadow: 1px 1px 0 #808080;
-    box-shadow: inset -2px -2px 0 #808080;
-    padding: 6px 12px;
-    transition: all 0.1s ease-out;
-    cursor: pointer;
-    outline: none;
-  } */
+.releaseDate {
+  margin: 2rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #eeeeee;
+  border: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  text-shadow: 1px 1px 0 #808080;
+  font-family: var(--font-family);
+}
 
+@media screen and (max-width: 768px) {
   .releaseDate {
-    margin: 2rem;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #eeeeee;
-    border: 2px solid #2c2c2c;
-    color: #2c2c2c;
-    text-shadow: 1px 1px 0 #808080;
-    font-family: var(--font-family);
+    margin: 1rem;
+    font-size: 0.75rem;
   }
+}

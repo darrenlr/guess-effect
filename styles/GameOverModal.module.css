@@ -8,13 +8,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 100;
   }
   
   .modal {
-    background: linear-gradient(to bottom, #000, #020073);
     box-shadow: 0px 0px 2px #000;
-    background-color: #c4cfa1;
+    background-color: #192734;
     border: 2px solid #fff;
     border-radius: 8px;
     padding: 1rem;
@@ -46,5 +45,14 @@
   
   .closeButton:hover {
     background-color: #b0b0b0;
+  }
+
+  .confettiContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
   }
   

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
 
@@ -11,7 +10,7 @@ const GameCard = ({
 	isWrongGuess,
 }) => {
 	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
-	const [primaryColors, setPrimaryColors] = useState(["#000", "#020073"]);
+	const [primaryColors, setPrimaryColors] = useState(["", ""]);
 	const imgRef = useRef(null);
 
 	useEffect(() => {
@@ -91,35 +90,35 @@ const GameCard = ({
 				</div>
 				<div className={styles.gameInfo}>
 					<Hint
-						hint="publisher"
+						hint="publisher(s)"
 						data={gameData.hints.publisher}
 						onRevealHint={onRevealHint}
 						points={0}
 						isRevealed={gameState.hints.publisher}
 					/>
 					<Hint
-						hint="developer"
+						hint="developer(s)"
 						data={gameData.hints.developer}
 						onRevealHint={() => handleRevealHint("developer", 25)}
 						points={25}
 						isRevealed={gameState.hints.developer}
 					/>
-
-					<Hint
-						hint="genre"
-						data={gameData.hints.genre}
-						onRevealHint={() => handleRevealHint("genre", 5)}
-						points={5}
-						isRevealed={gameState.hints.genre}
-					/>
-					<Hint
-						hint="platforms"
-						data={gameData.hints.platforms}
-						onRevealHint={() => handleRevealHint("platforms", 5)}
-						points={5}
-						isRevealed={gameState.hints.platforms}
-					/>
-
+					<div className={styles.hintRow}>
+						<Hint
+							hint="genre(s)"
+							data={gameData.hints.genre}
+							onRevealHint={() => handleRevealHint("genre", 5)}
+							points={5}
+							isRevealed={gameState.hints.genre}
+						/>
+						<Hint
+							hint="platform(s)"
+							data={gameData.hints.platforms}
+							onRevealHint={() => handleRevealHint("platforms", 5)}
+							points={5}
+							isRevealed={gameState.hints.platforms}
+						/>
+					</div>
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}

@@ -104,20 +104,13 @@ const ScoreSystem = ({ gameData }) => {
 		if (guess === game.title) {
 			handleGameOver(false);
 		} else {
-			setCurrentGameState((prevState) => ({
-				...prevState,
-				remainingGuessCount: prevState.remainingGuessCount - 1,
-			}));
-
-			setHeartAnimationClass(styles.pulse);
-
-			setTimeout(() => {
-				setHeartAnimationClass(styles.fadeOut);
-			}, 500);
-
 			setIsWrongGuess(true);
 
 			setTimeout(() => {
+				setCurrentGameState((prevState) => ({
+					...prevState,
+					remainingGuessCount: prevState.remainingGuessCount - 1,
+				}));
 				setIsWrongGuess(false);
 			}, 500);
 		}
@@ -144,6 +137,11 @@ const ScoreSystem = ({ gameData }) => {
 						alt="Heart"
 						width={30}
 						height={30}
+						className={
+							isWrongGuess && index === currentGameState.remainingGuessCount - 1
+								? styles.blink
+								: ""
+						}
 					/>
 				))}
 			</div>

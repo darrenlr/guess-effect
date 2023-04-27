@@ -55,7 +55,7 @@ const SearchBar = ({ onSubmit }) => {
 		<div className={styles.searchContainer}>
 			<GameSelect
 				className={styles.searchInput}
-				placeholder="Search video game names..."
+				placeholder="Guess the game..."
 				value={selectedOption}
 				onChange={setSelectedOption}
 				onInputChange={handleInputChange}
