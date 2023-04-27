@@ -34,7 +34,7 @@
   font-weight: 600;
   font-size: calc(10px + .3vmin);
   border-radius: 4px;
-  padding: 4px 8px;
+  padding: 12px 8px;
   font-family: var(--font-family);
   text-align: center;
   transition: background-color 0.2s ease;

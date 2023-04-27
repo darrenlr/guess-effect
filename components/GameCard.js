@@ -28,8 +28,6 @@ const GameCard = ({
 		const colorThief = new ColorThief();
 		const colors = colorThief.getPalette(imgRef.current, 2);
 
-		console.log(colors);
-
 		const formattedColors = colors.map(
 			(color) => `rgb(${color[0]}, ${color[1]}, ${color[2]})`
 		);

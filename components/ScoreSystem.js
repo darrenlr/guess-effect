@@ -17,12 +17,14 @@ const initialGameState = {
 		metacritic: false,
 		plot: false,
 		boxArt: 25,
+		points: 100,
 	},
 	guesses: [],
 	remainingGuessCount: 5,
 };
 
 const ScoreSystem = ({ gameData }) => {
+	const [isMounted, setIsMounted] = useState(false);
 	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", []);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
@@ -32,8 +34,9 @@ const ScoreSystem = ({ gameData }) => {
 	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [hearts, setHearts] = useState(Array(5).fill("/images/heart.png"));
-	const [heartAnimationClass, setHeartAnimationClass] = useState("");
 	const [isModalVisible, setIsModalVisible] = useState(false);
+
+	const test = false;
 
 	const todaysDate = useMemo(() => {
 		const today = new Date();
@@ -66,9 +69,25 @@ const ScoreSystem = ({ gameData }) => {
 		setHearts(updatedHearts);
 	}, [currentGameState.remainingGuessCount]);
 
+	useEffect(() => {
+		if (currentGameState.remainingGuessCount === 0) {
+			handleGameOver(true);
+		}
+	}, [currentGameState.remainingGuessCount, currentGameState.guesses]);
+
+	useEffect(() => {
+		setIsMounted(true);
+	}, []);
+
 	const handleGameOver = (resetScore) => {
 		if (resetScore) {
-			setScore(0);
+			setCurrentGameState((prevState) => ({
+				...prevState,
+				hints: {
+					...prevState.hints,
+					points: 0,
+				},
+			}));
 		}
 		setCurrentGameState((prevState) => ({
 			...prevState,
@@ -85,14 +104,14 @@ const ScoreSystem = ({ gameData }) => {
 		setIsModalVisible(true);
 	};
 
-	useEffect(() => {
-		if (currentGameState.remainingGuessCount === 0) {
-			handleGameOver(true);
-		}
-	}, [currentGameState.remainingGuessCount, currentGameState.guesses]);
-
 	const onRevealHint = (points) => {
-		setScore((prevScore) => prevScore - points);
+		setCurrentGameState((prevState) => ({
+			...prevState,
+			hints: {
+				...prevState.hints,
+				points: prevState.hints.points - points,
+			},
+		}));
 	};
 
 	const handleGuess = (guess) => {
@@ -116,7 +135,7 @@ const ScoreSystem = ({ gameData }) => {
 		}
 	};
 
-	return (
+	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} />}
 			<SearchBar onSubmit={handleGuess} />
@@ -125,35 +144,56 @@ const ScoreSystem = ({ gameData }) => {
 					gameData={game}
 					gameState={currentGameState}
 					setGameState={setCurrentGameState}
-					onRevealHint={onRevealHint}
+					onRevealHint={(points) => onRevealHint(points)}
 					isWrongGuess={isWrongGuess}
 				/>
 			)}
-			<div className={styles.heartsContainer}>
-				{hearts.map((heartSrc, index) => (
-					<Image
-						key={index}
-						src={heartSrc}
-						alt="Heart"
-						width={30}
-						height={30}
-						className={
-							isWrongGuess && index === currentGameState.remainingGuessCount - 1
-								? styles.blink
-								: ""
-						}
-					/>
-				))}
-			</div>
+			<div className={styles.statsContainer}>
+				<div>
+					<h4>Misses: </h4>
+					{currentGameState.guesses.map((guess, index) => (
+						<p
+							key={index}
+							style={{
+								marginTop: "1rem",
+								fontSize: "0.8rem",
+							}}
+						>
+							{guess}
+						</p>
+					))}
+				</div>
+				<div className={styles.stats}>
+					<div className={styles.heartsContainer}>
+						{hearts.map((heartSrc, index) => (
+							<Image
+								key={index}
+								src={heartSrc}
+								alt="Heart"
+								width={30}
+								height={30}
+								className={
+									isWrongGuess &&
+									index === currentGameState.remainingGuessCount - 1
+										? styles.blink
+										: ""
+								}
+							/>
+						))}
+					</div>
 
-			<p style={{ margin: "1rem" }}>Score: {score}</p>
+					<p>Score: {currentGameState.hints.points ?? 100}</p>
+				</div>
+			</div>
 			<GameOverModal
 				show={isModalVisible}
 				gameTitle={game ? game.title : ""}
-				score={score}
+				score={currentGameState.hints.points ?? 100}
 				onClose={() => setIsModalVisible(false)}
 			/>
 		</div>
+	) : (
+		<div className={styles.loader}></div>
 	);
 };
 
