@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
 
-const SearchBar = ({ onSubmit }) => {
+const SearchBar = ({ onSubmit, isGameOver }) => {
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [options, setOptions] = useState([]);
 
@@ -58,6 +58,7 @@ const SearchBar = ({ onSubmit }) => {
 				filterOption={filterOption}
 				noOptionsMessage={noOptionsMessage}
 				isClearable
+				isDisabled={isGameOver}
 			/>
 			<button
 				className={styles.submitButton}

@@ -20,12 +20,18 @@ const initialGameState = {
 		points: 100,
 	},
 	guesses: [],
-	remainingGuessCount: 5,
+	remainingGuessCount: 1,
 };
+
+const initialGameHistory = {
+	wins: 0,
+	games: 0,
+	scores: [],
+  };
 
 const ScoreSystem = ({ gameData }) => {
 	const [isMounted, setIsMounted] = useState(false);
-	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", []);
+	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState
@@ -35,8 +41,7 @@ const ScoreSystem = ({ gameData }) => {
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [hearts, setHearts] = useState(Array(5).fill("/images/heart.png"));
 	const [isModalVisible, setIsModalVisible] = useState(false);
-
-	const test = false;
+	const [isGameOver, setIsGameOver] = useState(false);
 
 	const todaysDate = useMemo(() => {
 		const today = new Date();
@@ -80,6 +85,8 @@ const ScoreSystem = ({ gameData }) => {
 	}, []);
 
 	const handleGameOver = (resetScore) => {
+		setIsGameOver(true);
+
 		if (resetScore) {
 			setCurrentGameState((prevState) => ({
 				...prevState,
@@ -89,6 +96,7 @@ const ScoreSystem = ({ gameData }) => {
 				},
 			}));
 		}
+
 		setCurrentGameState((prevState) => ({
 			...prevState,
 			hints: {
@@ -99,8 +107,24 @@ const ScoreSystem = ({ gameData }) => {
 				metacritic: true,
 				plot: true,
 				boxArt: 0,
+				points: currentGameState.hints.points, 
 			},
 		}));
+
+		setGameHistory((prevState) => ({
+			...prevState,
+			wins: resetScore ? prevState.wins : prevState.wins + 1,
+			games: prevState.games + 1,
+			scores: [
+			  ...prevState.scores,
+			  {
+				releaseDate: game.releaseDate,
+				date: todaysDate,
+				score: currentGameState.hints.points ?? 0,
+			  },
+			],
+		}));
+
 		setIsModalVisible(true);
 	};
 
@@ -138,7 +162,7 @@ const ScoreSystem = ({ gameData }) => {
 	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} />}
-			<SearchBar onSubmit={handleGuess} />
+			<SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
 			{game && (
 				<GameCard
 					gameData={game}

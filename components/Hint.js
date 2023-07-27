@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../styles/Hint.module.css";
 
 const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
@@ -7,6 +7,10 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 		setRevealed(true);
 		onRevealHint(points);
 	};
+
+	useEffect(() => {
+		setRevealed(isRevealed);
+	  }, [isRevealed]);
 
 	const renderData = () => {
 		if (Array.isArray(data)) {
