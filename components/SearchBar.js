@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
 
 const SearchBar = ({ onSubmit }) => {
 	const [selectedOption, setSelectedOption] = useState(null);
@@ -10,22 +8,19 @@ const SearchBar = ({ onSubmit }) => {
 
 	const handleSearch = async (inputValue) => {
 		if (inputValue.length > 2) {
-			const apiKey = publicRuntimeConfig.RAWG_API_KEY;
-			const response = await fetch(
-				`https://api.rawg.io/api/games?key=${apiKey}&search=${inputValue}`
-			);
+			const response = await fetch(`/api/games?search=${inputValue}`);
 			const data = await response.json();
 
 			const gameOptions = data.results.map((game) => ({
 				value: game.name,
 				label: game.name,
 			}));
-
+	
 			setOptions(gameOptions);
 		} else {
 			setOptions([]);
 		}
-	};
+	};	
 
 	const handleSubmit = (selectedOption) => {
 		onSubmit(selectedOption.value);
