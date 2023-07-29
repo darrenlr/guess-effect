@@ -63,6 +63,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 			<button
 				className={styles.submitButton}
 				onClick={() => handleSubmit(selectedOption)}
+				disabled={isGameOver || !selectedOption}
 			>
 				Submit
 			</button>
