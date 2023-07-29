@@ -52,6 +52,8 @@ const ScoreSystem = ({ gameData }) => {
 		return today.toISOString().split("T")[0];
 	}, []);
 
+	console.log(todaysDate);
+
 	const getTodaysGame = useMemo(() => {
 		return gameData.find((game) => game.date === todaysDate);
 	}, [gameData, todaysDate]);
