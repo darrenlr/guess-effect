@@ -24,6 +24,12 @@
   margin-top: 1rem;
 }
 
+.statsMobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
 .heartsContainer {
 	display: flex;
 	justify-content: center;
@@ -75,5 +81,13 @@
 @media screen and (max-width: 768px) {
   .container .innerContainer {
     margin: 0 10px;
+  }
+
+   .stats {
+    display: none;
+  }
+
+  .statsMobile {
+    display: flex;
   }
 }

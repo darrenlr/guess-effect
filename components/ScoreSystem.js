@@ -205,6 +205,26 @@ const ScoreSystem = ({ gameData }) => {
 	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} />}
+			<div className={`${styles.stats} ${styles.statsMobile}`}>
+					<div className={styles.heartsContainer}>
+						{currentGameState.life.hearts.map((heartSrc, index) => (
+							<Image
+								key={index}
+								src={heartSrc}
+								alt="Heart"
+								width={30}
+								height={30}
+								className={
+									isWrongGuess &&
+									index === currentGameState.life.remainingGuessCount - 1
+										? styles.blink
+										: ""
+								}
+							/>
+						))}
+					</div>
+					<p>Score: {currentGameState.hints.points ?? 100}</p>
+				</div>
 			<SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
 			{game && currentGameState && (
 				<GameCard
