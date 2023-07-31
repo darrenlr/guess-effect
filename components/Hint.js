@@ -12,6 +12,12 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 		setRevealed(isRevealed);
 	  }, [isRevealed]);
 
+	useEffect(() => {
+		if (data === null) {
+			setRevealed(true);
+		}
+	}, [data]);
+
 	const renderData = () => {
 		if (Array.isArray(data)) {
 			return data.map((item, index) => (
@@ -21,7 +27,7 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 				</React.Fragment>
 			));
 		} else {
-			return <span className={styles.hintValue}>{data}</span>;
+			return <span className={styles.hintValue}>{data || "-none-"}</span>;
 		}
 	};
 

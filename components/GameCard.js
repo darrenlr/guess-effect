@@ -47,7 +47,9 @@ const GameCard = ({
 	};
 
 	const handleRevealHint = (hint, points) => {
-		onRevealHint(points);
+		if (hint !== null) {
+			onRevealHint(points);
+		  }
 
 		setGameState((prevState) => {
 			const updatedHints = { ...prevState.hints, [hint]: true };
