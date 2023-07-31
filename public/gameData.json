@@ -14,17 +14,87 @@
         }
     },
     {
-        "date": "2023-07-30",
-        "releaseDate": "2007-06-03",
-        "title": "Mass Effect",
-        "boxArtUrl": "/images/mass-effect.jpeg",
+        "date": "2023-08-01",
+        "releaseDate": "2016-09-15",
+        "title": "Persona 5",
+        "boxArtUrl": "/images/persona-5.jpg",
         "hints": {
-            "publisher": ["Microsoft Game Studios", "EA"],
-            "developer": "BioWare",
-            "genre": "Adventure",
-            "platforms": ["PC", "PS3", "Xbox 360", "Windows"],
+            "publisher": ["Atlus (JP & NA)", "Deep Silver (EU)"],
+            "developer": "P-Studio",
+            "genre": ["Action", "Adventure", "RPG"],
+            "platforms": ["PS3", "PS4"],
+            "metacritic": 93,
+            "plot": "******* takes place in modern-day Tokyo and follows a high school student known by the pseudonym Joker who transfers to a new school after he is falsely accused of assault, and put on probation. Over the course of a school year, he and other students awaken to a special power, becoming a group of secret vigilantes known as the Phantom Thieves of Hearts. They explore the Metaverse, a supernatural realm born from humanity's subconscious desires, to steal malevolent intent from the hearts of adults. As with previous games in the series, the party battles enemies known as Shadows using physical manifestations of their psyche known as Personas. The game incorporates role-playing and dungeon crawling elements alongside social simulation scenarios."
+        }
+    },
+    {
+        "date": "2023-08-02",
+        "releaseDate": "2019-11-08",
+        "title": "Death Stranding",
+        "boxArtUrl": "/images/death-stranding.jpg",
+        "hints": {
+            "publisher": ["Sony Interactive Entertainment"],
+            "developer": "Kojima Productions",
+            "genre": ["Action", "Adventure", "RPG"],
+            "platforms": "PS4",
+            "metacritic": 84,
+            "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
+        }
+    },
+    {
+        "date": "2023-08-03",
+        "releaseDate": "2016-02-25",
+        "title": "Stardew Valley",
+        "boxArtUrl": "/images/stardew-valley.png",
+        "hints": {
+            "publisher": ["Concerned Ape", "Chucklefish"],
+            "developer": ["Concerned Ape", "Chucklefish"],
+            "genre": ["RPG", "Indie", "Simulation"],
+            "platforms": ["PC"],
+            "metacritic": 89,
+            "plot": "****** ****** is a farming simulation game that begins with the player inheriting a farm in a small town from their grandfather. Tired of their life in a corporate job in a bustling city, the player decides to leave their cubicle and start a new life in the rural town of Stardew Valley. Upon arriving, they find the farm overgrown and in disrepair, and the town suffering from the influence of the Joja Corporation. The player must restore the farm to its former glory by planting and tending crops, raising livestock, mining for resources, and engaging with the local community."
+        }
+    },
+    {
+        "date": "2023-08-04",
+        "releaseDate": "1991-07-19",
+        "title": "Final Fantasy IV",
+        "boxArtUrl": "/images/final-fantasy-4.png",
+        "hints": {
+            "publisher": "Square",
+            "developer": "Square",
+            "genre": "RPG",
+            "platforms": "SNES",
+            "metacritic": null,
+            "plot": "Venture into the magical world of Stardust Echoes, where elemental spirits coexist with advanced technology. When a once-revered artifact is stolen, it's up to young mechanic Aria and enigmatic sorcerer Kayden to reclaim it. Immerse yourself in an epic adventure, battling fearsome foes and unraveling ancient mysteries, where the line between magic and technology blurs in this stunning, action-packed RPG."
+        }
+    },
+    {
+        "date": "2023-08-05",
+        "releaseDate": "2017-02-24",
+        "title": "Hollow Knight",
+        "boxArtUrl": "/images/hollow-knight.png",
+        "hints": {
+            "publisher": "Team Cherry",
+            "developer": "Team Cherry",
+            "genre": ["Action", "Indie", "Platformer"],
+            "platforms": "PC",
+            "metacritic": 88,
+            "plot": "Descend into the mysterious depths of ****** ******, an evocative and atmospheric action-adventure game. Set in the sprawling, insect-ridden kingdom of Hallownest, you'll unravel ancient mysteries, confront terrifying beasts, and brave the darkness to uncover the secrets of the fallen kingdom. Master unique powers, meet bizarre creatures, and explore twisted caverns in this beautifully hand-drawn experience that echoes with haunting melodies."
+        }
+    },
+    {
+        "date": "2023-08-06",
+        "releaseDate": "2001-11-15",
+        "title": "Halo: Combat Evolved",
+        "boxArtUrl": "/images/halo.png",
+        "hints": {
+            "publisher": "Microsoft Studios",
+            "developer": "Bungie",
+            "genre": ["FPS", "Action", "Adventure"],
+            "platforms": "Xbox",
             "metacritic": 90,
-            "plot": "**** ****** was the very start of the trilogy about Commander Shepard in his journey to save the universe from Reapers - an old civilisation that wants to kill every possible rational being in order to prevail any wars. You play as Shepard. With flexible backstory and different classes you travel to Eden Prime with Captain Anderson and Nihlus Kryik, you and your team must discover the mystery behind the attack on the human colony. In the process, it is revealed that another Spectre, Saron, has become rogue and escapes the planet to awoke Reapers and start a full-scale war with the galaxy."
+            "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of Halo."
         }
     }
   ]  
