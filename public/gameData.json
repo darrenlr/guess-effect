@@ -33,7 +33,7 @@
         "title": "Death Stranding",
         "boxArtUrl": "/images/death-stranding.jpg",
         "hints": {
-            "publisher": ["Sony Interactive Entertainment"],
+            "publisher": "Sony Interactive Entertainment",
             "developer": "Kojima Productions",
             "genre": ["Action", "Adventure", "RPG"],
             "platforms": "PS4",
