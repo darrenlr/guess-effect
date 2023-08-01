@@ -52,7 +52,21 @@ const ScoreSystem = ({ gameData }) => {
 		return today.toISOString().split("T")[0];
 	}, []);
 
-	console.log(todaysDate);
+	const highestScore = useMemo(() => {
+		if (gameHistory.scores.length > 0) {
+	  	return gameHistory.scores.reduce((highScore, game) => 
+			game.score > highScore ? game.score : highScore, 0);
+		}
+		return 0;
+  	}, [gameHistory]);
+  
+  	const averageScore = useMemo(() => {
+		if (gameHistory.scores.length > 0) {
+	  	let totalScore = gameHistory.scores.reduce((total, game) => total + game.score, 0);
+	  	return Math.round(totalScore / gameHistory.scores.length);
+		}
+		return 0;
+  	}, [gameHistory]);
 
 	const getTodaysGame = useMemo(() => {
 		return gameData.find((game) => game.date === todaysDate);
@@ -273,10 +287,14 @@ const ScoreSystem = ({ gameData }) => {
 				</div>
 			</div>
 			<GameOverModal
-				show={isModalVisible}
-				gameTitle={game ? game.title : ""}
-				score={modalScore}
-				onClose={() => setIsModalVisible(false)}
+  				show={isModalVisible}
+  				gameTitle={game ? game.title : ""}
+  				score={modalScore}
+  				gamesPlayed={gameHistory.games}
+  				highestScore={highestScore}
+  				averageScore={averageScore}
+  				gamesWon={gameHistory.wins}
+  				onClose={() => setIsModalVisible(false)}
 			/>
 		</div>
 	) : (

@@ -40,7 +40,6 @@
     font-family: var(--font-family);
     text-align: center;
     transition: background-color 0.2s ease;
-    margin-top: 1rem;
   }
   
   .closeButton:hover {
@@ -55,4 +54,23 @@
     bottom: 0;
     z-index: 1001;
   }
+
+  .statsRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em; 
+  }
   
+  .statsRow div {
+    text-align: center;
+  }
+  .statsRow div p {
+    margin-bottom: 0.75em;
+  }
+  
+  .statsRow div span {
+    font-family: var(--font-family); 
+    color: white
+
+  }
