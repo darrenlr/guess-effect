@@ -72,5 +72,13 @@
   .statsRow div span {
     font-family: var(--font-family); 
     color: white
+  }
 
+  @media screen and (max-width: 768px) {
+    .statsRow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.9em; 
+    }
   }
