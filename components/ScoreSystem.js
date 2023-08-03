@@ -39,7 +39,6 @@ const ScoreSystem = ({ gameData }) => {
 		"CURRENT_GAME_STATE",
 		initialGameState
 	);
-	const [score, setScore] = useState(100);
 	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
@@ -78,7 +77,6 @@ const ScoreSystem = ({ gameData }) => {
 
 	useEffect(() => {
 		if (todaysDate !== currentGameState.date && getTodaysGame) {
-			setGameHistory(initialGameHistory);
 		  	setCurrentGameState({
 			...initialGameState,
 			releaseDate: getTodaysGame.releaseDate,
@@ -195,17 +193,14 @@ const ScoreSystem = ({ gameData }) => {
 				let updatedGuesses = [...prevState.life.guesses, guess];
 				let updatedRemainingGuessCount = prevState.life.remainingGuessCount - 1;
 	
-				if (updatedRemainingGuessCount === 0) {
-					handleGameOver(true);
-				}
-	
 				return {
 					...prevState,
 					life: {
 						...prevState.life,
 						guesses: updatedGuesses,
 						remainingGuessCount: updatedRemainingGuessCount,
-					},				};
+					},				
+				};
 			});
 	
 			setIsWrongGuess(true);
@@ -230,7 +225,7 @@ const ScoreSystem = ({ gameData }) => {
 								height={30}
 								className={
 									isWrongGuess &&
-									index === currentGameState.life.remainingGuessCount - 1
+									index === currentGameState.life.remainingGuessCount
 										? styles.blink
 										: ""
 								}
