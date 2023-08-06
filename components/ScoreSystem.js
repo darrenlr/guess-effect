@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import Image from "next/image";
 import ReleaseDate from "./ReleaseDate";
 import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
 import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
+import { stripBrackets } from '../utlis/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
 
 const initialGameState = {
@@ -48,9 +49,14 @@ const ScoreSystem = ({ gameData }) => {
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
 
+	const gameOverRef = useRef(null);
+
+  	const triggerGameOver = () => {
+    	setIsGuessCountUpdated(true);
+	};
+
 	const todaysDate = useMemo(() => {
 		const today = new Date();
-
 		return today.toISOString().split("T")[0];
 	}, []);
 
@@ -110,7 +116,7 @@ const ScoreSystem = ({ gameData }) => {
 		}
 	  }, [game, currentGameState.releaseDate, gameHistory.scores]);	  
 
-	  useEffect(() => {
+	useEffect(() => {
 		const updatedHearts = Array.from({ length: 5 }, (_, index) =>
 			index < currentGameState.life.remainingGuessCount
 				? "/images/heart.png"
@@ -141,6 +147,10 @@ const ScoreSystem = ({ gameData }) => {
 		setModalScore(currentGameState.hints.points);
 	}, [isGameOver]);
 
+	useEffect(() => {
+		gameOverRef.current = triggerGameOver;
+	}, []);
+
 	const handleGameOver = (resetScore) => {
 		setIsGameOver(true);
 		let finalScore = resetScore ? 0 : currentGameState.hints.points;
@@ -154,6 +164,8 @@ const ScoreSystem = ({ gameData }) => {
 				developer: true,
 				genre: true,
 				platforms: true,
+				modes: true,
+				engine: true,
 				metacritic: true,
 				plot: true,
 				boxArt: 0,
@@ -189,7 +201,10 @@ const ScoreSystem = ({ gameData }) => {
 	};
 
 	const handleGuess = (guess) => {
-		if (guess === game.title) {
+		const cleanedGuess = stripBrackets(guess);
+		const cleanedGameTitle = stripBrackets(game.title);
+	
+		if (cleanedGuess === cleanedGameTitle) {
 			handleGameOver(false);
 		} else {
 			setCurrentGameState((prevState) => {
@@ -212,7 +227,7 @@ const ScoreSystem = ({ gameData }) => {
 				setIsWrongGuess(false);
 			}, 500);
 		}
-	};
+	};	
 
 	return isMounted ? (
 		<div className={styles.container}>
@@ -245,6 +260,8 @@ const ScoreSystem = ({ gameData }) => {
 					setGameState={setCurrentGameState}
 					onRevealHint={(points) => onRevealHint(points)}
 					isWrongGuess={isWrongGuess}
+					setIsGuessCountUpdated={setIsGuessCountUpdated}
+					isGameOver={isGameOver}
 				/>
 			)}
 			<div className={styles.statsContainer}>

@@ -28,6 +28,18 @@
     align-items: center;
     gap: 2rem;
   }
+
+  .revealConfirmText {
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+
+  .revealModalContainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
   
   .closeButton {
     background-color: #fff;

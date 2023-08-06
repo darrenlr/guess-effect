@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
+import RevealAllModal from "./RevealAllModal";
 
 const GameCard = ({
 	gameData,
@@ -8,10 +9,14 @@ const GameCard = ({
 	setGameState,
 	onRevealHint,
 	isWrongGuess,
+	setIsGuessCountUpdated,
+	isGameOver
 }) => {
 	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
 	const [firstClick, setFirstClick] = useState(true);
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
 	const imgRef = useRef(null);
 
 	useEffect(() => {
@@ -51,7 +56,6 @@ const GameCard = ({
 			hintPenalty = 15;
 		}
 	
-		console.log("New blur amount:", newBlurAmount); 
 		setBlurAmount(newBlurAmount);
 		onRevealHint(hintPenalty);
 	
@@ -81,6 +85,40 @@ const GameCard = ({
 		});
 	};
 
+	const handleRevealAll = () => {
+		setIsModalOpen(false);
+	
+		setGameState(prevState => {
+			let updatedHints = {};
+			for (let key in prevState.hints) {
+				updatedHints[key] = key === "boxArt" ? 8 : true;
+			}
+			updatedHints.points = 0;
+			return { ...prevState, hints: updatedHints };
+		});
+	};
+
+	const areAllHintsRevealed = () => {
+		for (let key in gameState.hints) {
+			if (key !== "points" && key !== "boxArt" && !gameState.hints[key]) {
+				return false;
+			}
+		}
+		return true;
+	};
+
+	const handleGiveUp = () => {
+		setGameState(prevState => ({
+			...prevState,
+			life: {
+				...prevState.life,
+				remainingGuessCount: 0
+			}
+		}));
+
+		setIsGuessCountUpdated(true);
+	};
+
 	return (
 		<>
 			<div
@@ -104,20 +142,27 @@ const GameCard = ({
 						</div>
 					</div>
 					<button
-						className={`${styles.blurButton} ${blurAmount <= 10 ? styles.hidden : ""}`}
+						className={`hintButton ${blurAmount <= 10 ? styles.hidden : ""}`}
 						onClick={blurAmount > 10 ? reduceBlur : null}
 					>
 						{blurAmount > 17 && firstClick ? "Clear Heavy Smog (-10)" : (blurAmount > 10 ? "Clear Smog (-15)" : "")}
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
-					<Hint
-						hint="publisher(s)"
-						data={gameData.hints.publisher}
-						onRevealHint={onRevealHint}
-						points={0}
-						isRevealed={gameState.hints.publisher}
-					/>
+					<div className={styles.hintRow}>
+						<Hint
+							hint="publisher(s)"
+							data={gameData.hints.publisher}
+							onRevealHint={onRevealHint}
+							points={0}
+							isRevealed={gameState.hints.publisher}
+						/>
+						{!isGameOver && (
+       						<button className="hintButton revealAll" onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
+            					{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
+        					</button>
+    					)}
+					</div>
 					<Hint
 						hint="developer(s)"
 						data={gameData.hints.developer}
@@ -171,6 +216,11 @@ const GameCard = ({
 					/>
 				</div>
 			</div>
+			<RevealAllModal
+    			isOpen={isModalOpen}
+    			onCancel={() => setIsModalOpen(false)}
+    			onConfirm={handleRevealAll}
+			/>
 		</>
 	);
 };
