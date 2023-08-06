@@ -11,6 +11,7 @@ const GameCard = ({
 }) => {
 	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
+	const [firstClick, setFirstClick] = useState(true);
 	const imgRef = useRef(null);
 
 	useEffect(() => {
@@ -35,17 +36,40 @@ const GameCard = ({
 	};
 
 	const reduceBlur = () => {
-		const newBlurAmount = Math.max(0, blurAmount - 8);
+		const scanContainer = document.querySelector(`.${styles.scanContainer}`);
+		const scanElement = scanContainer.querySelector(`.${styles.scanEffect}`);
+	
+		let newBlurAmount;
+		let hintPenalty;
+	
+		if (firstClick) {
+			newBlurAmount = Math.max(0, blurAmount - 22);
+			hintPenalty = 10;
+			setFirstClick(false);
+		} else {
+			newBlurAmount = Math.max(0, blurAmount - 8);
+			hintPenalty = 15;
+		}
+	
+		console.log("New blur amount:", newBlurAmount); 
 		setBlurAmount(newBlurAmount);
-
-		onRevealHint(5);
-
+		onRevealHint(hintPenalty);
+	
 		setGameState((prevState) => {
 			const updatedHints = { ...prevState.hints, boxArt: newBlurAmount };
 			return { ...prevState, hints: updatedHints };
 		});
-	};
-
+	
+		if (!scanElement) {
+			const newScanElement = document.createElement('div');
+			newScanElement.className = styles.scanEffect;
+			scanContainer.appendChild(newScanElement);
+			newScanElement.addEventListener("animationend", () => {
+				scanContainer.removeChild(newScanElement);
+			});
+		}
+	};	
+	  
 	const handleRevealHint = (hint, points) => {
 		if (hint !== null) {
 			onRevealHint(points);
@@ -67,24 +91,24 @@ const GameCard = ({
 			>
 				<div className={styles.boxArt}>
 					<div className={styles.boxArtWrapper}>
-						<img
-							src={gameData.boxArtUrl}
-							alt="Box Art"
-							width={300}
-							height={360}
-							style={{ filter: `blur(${blurAmount}px)` }}
-							onLoad={extractColors}
-							ref={imgRef}
-						/>
+						<div className={styles.scanContainer}>
+    						<img
+        						src={gameData.boxArtUrl}
+        						alt="Box Art"
+        						width={300}
+        						height={360}
+								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
+        						onLoad={extractColors}
+        						ref={imgRef}
+    						/>
+						</div>
 					</div>
-
 					<button
-  						className={`${styles.blurButton} ${blurAmount <= 8 ? styles.hidden : ""}`}
-  						onClick={blurAmount > 8 ? reduceBlur : null}
+						className={`${styles.blurButton} ${blurAmount <= 10 ? styles.hidden : ""}`}
+						onClick={blurAmount > 10 ? reduceBlur : null}
 					>
-  						{blurAmount > 8 ? "Clear Smog (-5)" : ""}
+						{blurAmount > 17 && firstClick ? "Clear Heavy Smog (-10)" : (blurAmount > 10 ? "Clear Smog (-15)" : "")}
 					</button>
-
 				</div>
 				<div className={styles.gameInfo}>
 					<Hint
@@ -97,8 +121,8 @@ const GameCard = ({
 					<Hint
 						hint="developer(s)"
 						data={gameData.hints.developer}
-						onRevealHint={() => handleRevealHint("developer", 25)}
-						points={25}
+						onRevealHint={() => handleRevealHint("developer", 15)}
+						points={15}
 						isRevealed={gameState.hints.developer}
 					/>
 					<div className={styles.hintRow}>
@@ -134,15 +158,15 @@ const GameCard = ({
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}
-						onRevealHint={() => handleRevealHint("metacritic", 10)}
-						points={10}
+						onRevealHint={() => handleRevealHint("metacritic", 5)}
+						points={5}
 						isRevealed={gameState.hints.metacritic}
 					/>
 					<Hint
 						hint="plot"
 						data={gameData.hints.plot}
-						onRevealHint={() => handleRevealHint("plot", 40)}
-						points={40}
+						onRevealHint={() => handleRevealHint("plot", 35)}
+						points={35}
 						isRevealed={gameState.hints.plot}
 					/>
 				</div>
