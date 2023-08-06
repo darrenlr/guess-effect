@@ -121,8 +121,8 @@ const GameCard = ({
 					<Hint
 						hint="developer(s)"
 						data={gameData.hints.developer}
-						onRevealHint={() => handleRevealHint("developer", 15)}
-						points={15}
+						onRevealHint={() => handleRevealHint("developer", 20)}
+						points={20}
 						isRevealed={gameState.hints.developer}
 					/>
 					<div className={styles.hintRow}>
@@ -165,8 +165,8 @@ const GameCard = ({
 					<Hint
 						hint="plot"
 						data={gameData.hints.plot}
-						onRevealHint={() => handleRevealHint("plot", 35)}
-						points={35}
+						onRevealHint={() => handleRevealHint("plot", 40)}
+						points={40}
 						isRevealed={gameState.hints.plot}
 					/>
 				</div>
