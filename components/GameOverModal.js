@@ -28,7 +28,7 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 			<div className={styles.modalContainer}>
 			  <h2>GAME OVER</h2>
 			  <p>the game was:</p>
-			  <h3>{gameTitle}</h3>
+			  <h3 style={{ textAlign: 'center' }}>{gameTitle}</h3>
 			  <p>Score: {score}</p>
 			  <div className={styles.statsRow}>
 				<div>

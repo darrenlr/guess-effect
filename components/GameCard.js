@@ -35,7 +35,7 @@ const GameCard = ({
 	};
 
 	const reduceBlur = () => {
-		const newBlurAmount = Math.max(0, blurAmount - 5);
+		const newBlurAmount = Math.max(0, blurAmount - 8);
 		setBlurAmount(newBlurAmount);
 
 		onRevealHint(5);
@@ -78,15 +78,13 @@ const GameCard = ({
 						/>
 					</div>
 
-					{blurAmount <= 10 ? (
-						<button className={styles.blurButton} disabled>
-							Give Up?
-						</button>
-					) : (
-						<button className={styles.blurButton} onClick={reduceBlur}>
-							Reveal (-5)
-						</button>
-					)}
+					<button
+  						className={`${styles.blurButton} ${blurAmount <= 8 ? styles.hidden : ""}`}
+  						onClick={blurAmount > 8 ? reduceBlur : null}
+					>
+  						{blurAmount > 8 ? "Clear Smog (-5)" : ""}
+					</button>
+
 				</div>
 				<div className={styles.gameInfo}>
 					<Hint
@@ -119,6 +117,20 @@ const GameCard = ({
 							isRevealed={gameState.hints.platforms}
 						/>
 					</div>
+					<Hint
+						hint="modes(s)"
+						data={gameData.hints.modes}
+						onRevealHint={onRevealHint}
+						points={0}
+						isRevealed={gameState.hints.modes}
+					/>
+					<Hint
+						hint="engine"
+						data={gameData.hints.engine}
+						onRevealHint={onRevealHint}
+						points={0}
+						isRevealed={gameState.hints.engine}
+					/>
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}

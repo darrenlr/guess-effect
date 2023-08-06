@@ -26,7 +26,7 @@
   font-size: 12px;
   text-shadow: 1px 1px 0 #808080;
   box-shadow: inset -2px -2px 0 #808080;
-  padding: 12px;
+  padding: 8px;
   transition: all 0.1s ease-out;
   cursor: pointer;
   outline: none;

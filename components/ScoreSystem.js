@@ -14,9 +14,11 @@ const initialGameState = {
 		developer: false,
 		genre: false,
 		platforms: false,
+		modes: true,
+		engine: true,
 		metacritic: false,
 		plot: false,
-		boxArt: 25,
+		boxArt: 24,
 		points: 100,
 	},
 	life: {
@@ -48,6 +50,7 @@ const ScoreSystem = ({ gameData }) => {
 
 	const todaysDate = useMemo(() => {
 		const today = new Date();
+		return '2023-08-07';
 		return today.toISOString().split("T")[0];
 	}, []);
 
