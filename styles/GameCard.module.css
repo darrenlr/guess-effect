@@ -115,6 +115,14 @@
   }
 }
 
+.desktopButton {
+  display: block;
+}
+
+.mobileButton {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .gameCard {
     flex-direction: column;
@@ -129,5 +137,18 @@
   .hintRow {
     display: block;
     margin-bottom: 0;
+  }
+
+  .hintButton.revealAll {
+    display: none;
+  }
+
+  .desktopButton {
+    display: none;
+  }
+
+  .mobileButton {
+    display: block;
+    margin-top: 1rem; 
   }
 }

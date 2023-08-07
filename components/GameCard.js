@@ -158,10 +158,10 @@ const GameCard = ({
 							isRevealed={gameState.hints.publisher}
 						/>
 						{!isGameOver && (
-       						<button className="hintButton revealAll" onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
+        					<button className={`hintButton revealAll ${styles.desktopButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
             					{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
         					</button>
-    					)}
+   						)}
 					</div>
 					<Hint
 						hint="developer(s)"
@@ -215,6 +215,11 @@ const GameCard = ({
 						isRevealed={gameState.hints.plot}
 					/>
 				</div>
+				{!isGameOver && (
+        			<button className={`hintButton revealAll ${styles.mobileButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
+            			{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
+        			</button>
+   				)}
 			</div>
 			<RevealAllModal
     			isOpen={isModalOpen}
