@@ -131,8 +131,9 @@ const GameCard = ({
 					<div className={styles.boxArtWrapper}>
 						<div className={styles.scanContainer}>
     						<img
-        						src={gameData.boxArtUrl}
-        						alt="Box Art"
+								src={`https:${gameData.boxArt.fields.file.url}`}
+								crossOrigin="anonymous"
+								alt="Box Art"
         						width={300}
         						height={360}
 								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
@@ -152,7 +153,7 @@ const GameCard = ({
 					<div className={styles.hintRow}>
 						<Hint
 							hint="publisher(s)"
-							data={gameData.hints.publisher}
+							data={gameData.hints.fields.publisher}
 							onRevealHint={onRevealHint}
 							points={0}
 							isRevealed={gameState.hints.publisher}
@@ -165,22 +166,22 @@ const GameCard = ({
 					</div>
 					<Hint
 						hint="developer(s)"
-						data={gameData.hints.developer}
+						data={gameData.hints.fields.developer}
 						onRevealHint={() => handleRevealHint("developer", 20)}
 						points={20}
-						isRevealed={gameState.hints.developer}
+						isRevealed={gameState.developer}
 					/>
 					<div className={styles.hintRow}>
 						<Hint
 							hint="genre(s)"
-							data={gameData.hints.genre}
+							data={gameData.hints.fields.genre}
 							onRevealHint={() => handleRevealHint("genre", 5)}
 							points={5}
 							isRevealed={gameState.hints.genre}
 						/>
 						<Hint
 							hint="platform(s)"
-							data={gameData.hints.platforms}
+							data={gameData.hints.fields.platform}
 							onRevealHint={() => handleRevealHint("platforms", 5)}
 							points={5}
 							isRevealed={gameState.hints.platforms}
@@ -188,28 +189,28 @@ const GameCard = ({
 					</div>
 					<Hint
 						hint="modes(s)"
-						data={gameData.hints.modes}
+						data={gameData.hints.fields.mode}
 						onRevealHint={onRevealHint}
 						points={0}
 						isRevealed={gameState.hints.modes}
 					/>
 					<Hint
 						hint="engine"
-						data={gameData.hints.engine}
+						data={gameData.hints.fields.engine}
 						onRevealHint={onRevealHint}
 						points={0}
 						isRevealed={gameState.hints.engine}
 					/>
 					<Hint
 						hint="metacritic"
-						data={gameData.hints.metacritic}
+						data={gameData.hints.fields.metacritic}
 						onRevealHint={() => handleRevealHint("metacritic", 5)}
 						points={5}
 						isRevealed={gameState.hints.metacritic}
 					/>
 					<Hint
 						hint="plot"
-						data={gameData.hints.plot}
+						data={gameData.hints.fields.plot}
 						onRevealHint={() => handleRevealHint("plot", 40)}
 						points={40}
 						isRevealed={gameState.hints.plot}

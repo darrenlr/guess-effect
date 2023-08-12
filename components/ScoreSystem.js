@@ -35,7 +35,7 @@ const initialGameHistory = {
 	scores: [],
   };
 
-const ScoreSystem = ({ gameData }) => {
+const ScoreSystem = () => {
 	const [isMounted, setIsMounted] = useState(false);
 	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
@@ -45,7 +45,6 @@ const ScoreSystem = ({ gameData }) => {
 	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
-	const [isGameOver, setIsGameOver] = useLocalStorage("IS_GAME_OVER", false);
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
 
@@ -59,6 +58,8 @@ const ScoreSystem = ({ gameData }) => {
 		const today = new Date();
 		return today.toISOString().split("T")[0];
 	}, []);
+
+	const isGameOver = gameHistory.scores.some(scoreEntry => scoreEntry.date === todaysDate);
 
 	const highestScore = useMemo(() => {
 		if (gameHistory.scores.length > 0) {
@@ -76,24 +77,26 @@ const ScoreSystem = ({ gameData }) => {
 		return 0;
   	}, [gameHistory]);
 
-	const getTodaysGame = useMemo(() => {
-		return gameData.find((game) => game.date === todaysDate);
-	}, [gameData, todaysDate]);
+	  useEffect(() => {
+		const fetchData = async () => {
+			const today = new Date().toISOString().split('T')[0];
+			const response = await fetch(`/api/contentfulGame?date=${today}`);
+			const data = await response.json();
+			setGame(data);
+		};
+	
+		fetchData();
+	}, []);
 
 	useEffect(() => {
-		setGame(getTodaysGame);
-	}, [getTodaysGame]);
-
-	useEffect(() => {
-		if (todaysDate !== currentGameState.date && getTodaysGame) {
+		if (todaysDate !== currentGameState.date && game) {
 		  	setCurrentGameState({
 			...initialGameState,
-			releaseDate: getTodaysGame.releaseDate,
+			releaseDate: game.releaseDate,
 			date: todaysDate,
 		  });
-		  setIsGameOver(false);
 		}
-	  }, [todaysDate, getTodaysGame, currentGameState.date]);
+	  }, [todaysDate, game, currentGameState.date]);
 
 	useEffect(() => {
 		if (game && game.releaseDate !== currentGameState.releaseDate) {
@@ -152,7 +155,6 @@ const ScoreSystem = ({ gameData }) => {
 	}, []);
 
 	const handleGameOver = (resetScore) => {
-		setIsGameOver(true);
 		let finalScore = resetScore ? 0 : currentGameState.hints.points;
 	
 		setModalScore(finalScore);
