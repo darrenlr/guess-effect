@@ -169,7 +169,7 @@ const GameCard = ({
 						data={gameData.hints.fields.developer}
 						onRevealHint={() => handleRevealHint("developer", 20)}
 						points={20}
-						isRevealed={gameState.developer}
+						isRevealed={gameState.hints.developer}
 					/>
 					<div className={styles.hintRow}>
 						<Hint
