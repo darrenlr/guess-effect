@@ -8,12 +8,6 @@ const client = createClient({
   accessToken: serverRuntimeConfig.CONTENTFUL_ACCESS_TOKEN,
 });
 
-const getSecondsUntilMidnight = () => {
-    const now = new Date();
-    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
-    return (midnight - now) / 1000;
-};
-
 const fetchGameByDate = async (date) => {
   const entries = await client.getEntries({
     content_type: 'game',
@@ -31,9 +25,7 @@ export default async (req, res) => {
     const { date } = req.query;
     const data = await fetchGameByDate(date);
 
-    const secondsUntilMidnight = getSecondsUntilMidnight();
-
-    res.setHeader('Cache-Control', `s-maxage=${secondsUntilMidnight}, stale-while-revalidate`);
+    console.log('logged');
 
     res.status(200).json(data);
 };

@@ -80,13 +80,23 @@ const ScoreSystem = () => {
 	  useEffect(() => {
 		const fetchData = async () => {
 			const today = new Date().toISOString().split('T')[0];
-			const response = await fetch(`/api/contentfulGame?date=${today}`);
-			const data = await response.json();
-			setGame(data);
+			
+			const cachedGameData = JSON.parse(localStorage.getItem('GAME_DATA'));
+	
+			if (cachedGameData && cachedGameData.date === today) {
+				setGame(cachedGameData);
+			} else {
+				const response = await fetch(`/api/contentfulGame?date=${today}`);
+				const data = await response.json();
+				
+				localStorage.setItem('GAME_DATA', JSON.stringify(data));
+	
+				setGame(data);
+			}
 		};
 	
 		fetchData();
-	}, []);
+	}, []);	
 
 	useEffect(() => {
 		if (todaysDate !== currentGameState.date && game) {
