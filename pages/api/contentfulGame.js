@@ -25,7 +25,5 @@ export default async (req, res) => {
     const { date } = req.query;
     const data = await fetchGameByDate(date);
 
-    console.log('logged');
-
     res.status(200).json(data);
 };
