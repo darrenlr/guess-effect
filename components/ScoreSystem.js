@@ -203,8 +203,8 @@ const ScoreSystem = () => {
 	};
 
 	const handleGuess = (guess) => {
-		const cleanedGuess = stripBrackets(guess);
-		const cleanedGameTitle = stripBrackets(game.title);
+		const cleanedGuess = stripBrackets(guess).toLowerCase();
+		const cleanedGameTitle = stripBrackets(game.title).toLowerCase();
 	
 		if (cleanedGuess === cleanedGameTitle) {
 			handleGameOver(false);
