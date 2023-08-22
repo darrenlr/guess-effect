@@ -35,14 +35,13 @@ const initialGameHistory = {
 	scores: [],
   };
 
-const ScoreSystem = () => {
+const ScoreSystem = ({ game }) => {
 	const [isMounted, setIsMounted] = useState(false);
 	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState
 	);
-	const [game, setGame] = useState(null);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
@@ -76,27 +75,6 @@ const ScoreSystem = () => {
 		}
 		return 0;
   	}, [gameHistory]);
-
-	  useEffect(() => {
-		const fetchData = async () => {
-			const today = new Date().toISOString().split('T')[0];
-			
-			const cachedGameData = JSON.parse(localStorage.getItem('GAME_DATA'));
-	
-			if (cachedGameData && cachedGameData.date === today) {
-				setGame(cachedGameData);
-			} else {
-				const response = await fetch(`/api/contentfulGame?date=${today}`);
-				const data = await response.json();
-				
-				localStorage.setItem('GAME_DATA', JSON.stringify(data));
-	
-				setGame(data);
-			}
-		};
-	
-		fetchData();
-	}, []);	
 
 	useEffect(() => {
 		if (todaysDate !== currentGameState.date && game) {

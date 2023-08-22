@@ -1,28 +1,32 @@
 [
     {
-        "date": "2023-07-31",
+        "date": "2023-08-22",
         "releaseDate": "2005-06-03",
         "title": "Resistance: Fall of Man",
-        "boxArtUrl": "/images/resistance.jpg",
+        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.png",
         "hints": {
             "publisher": "Sony Interactive Entertainment",
             "developer": "Insomniac Games",
             "genre": "FPS",
-            "platforms": ["PS3", "PSP"],
+            "platforms": "PS3",
+            "modes": ["Single-player", "Multiplayer", "Cooperative"],
+            "engine": "Insomnia Engine",
             "metacritic": 84,
             "plot": "Set in an alternate history where Earth has been invaded by a hostile alien race. The player takes on the role of an American soldier who is part of a military force sent to Europe to fight the alien threat. The game features a variety of weapons and enemies, and includes both single-player and multiplayer modes. Throughout the game, the player uncovers secrets about the alien invasion and discovers ways to fight back against the invaders."
         }
     },
     {
-        "date": "2023-08-01",
+        "date": "2023-08-23",
         "releaseDate": "2016-09-15",
         "title": "Persona 5",
-        "boxArtUrl": "/images/persona-5.jpg",
+        "boxArtUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r76.png",
         "hints": {
             "publisher": ["Atlus (JP & NA)", "Deep Silver (EU)"],
             "developer": "P-Studio",
             "genre": ["Action", "Adventure", "RPG"],
             "platforms": ["PS3", "PS4"],
+            "modes": "Single-player",
+            "engine": null,
             "metacritic": 93,
             "plot": "******* takes place in modern-day Tokyo and follows a high school student known by the pseudonym Joker who transfers to a new school after he is falsely accused of assault, and put on probation. Over the course of a school year, he and other students awaken to a special power, becoming a group of secret vigilantes known as the Phantom Thieves of Hearts. They explore the Metaverse, a supernatural realm born from humanity's subconscious desires, to steal malevolent intent from the hearts of adults. As with previous games in the series, the party battles enemies known as Shadows using physical manifestations of their psyche known as Personas. The game incorporates role-playing and dungeon crawling elements alongside social simulation scenarios."
         }
