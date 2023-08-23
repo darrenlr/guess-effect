@@ -32,17 +32,19 @@
         }
     },
     {
-        "date": "2023-08-05",
-        "releaseDate": "2017-02-24",
-        "title": "Hollow Knight",
-        "boxArtUrl": "/images/hollow-knight.png",
+        "date": "2023-08-24",
+        "releaseDate": "2010-05-14",
+        "title": "Alan Wake",
+        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2dft.png",
         "hints": {
-            "publisher": "Team Cherry",
-            "developer": "Team Cherry",
-            "genre": ["Action", "Indie", "Platformer"],
-            "platforms": "PC",
-            "metacritic": 88,
-            "plot": "Descend into the mysterious depths of ****** ******, an evocative and atmospheric action-adventure game. Set in the sprawling, insect-ridden kingdom of Hallownest, you'll unravel ancient mysteries, confront terrifying beasts, and brave the darkness to uncover the secrets of the fallen kingdom. Master unique powers, meet bizarre creatures, and explore twisted caverns in this beautifully hand-drawn experience that echoes with haunting melodies."
+            "publisher": "Microsoft Game Studios",
+            "developer": "Remedy Entertainment",
+            "genre": ["Action-adventure", "Third-person shooter"],
+            "platforms": "Xbox 360",
+            "modes": "Single-player",
+            "engine": null,
+            "metacritic": 83,
+            "plot": "When the wife of the best-selling writer **** **** disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love."
         }
     },
     {
