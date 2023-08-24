@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
+import useLocalStorage from "../hooks/useLocalStorage";
+
+const initialGameHistory = {
+	wins: 0,
+	games: 0,
+	scores: [],
+  };
 
 const Home = () => {
+   const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
    const [game, setGame] = useState(null);
 
    useEffect(() => {
@@ -23,8 +31,8 @@ const Home = () => {
 
    return (
       <>
-         <Navbar />
-         <ScoreSystem game={game} />
+         <Navbar gameHistory={gameHistory} />
+         <ScoreSystem game={game} gameHistory={gameHistory} setGameHistory={setGameHistory} />
       </>
    );
 };

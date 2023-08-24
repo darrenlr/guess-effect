@@ -29,15 +29,10 @@ const initialGameState = {
 	},
 };
 
-const initialGameHistory = {
-	wins: 0,
-	games: 0,
-	scores: [],
-  };
 
-const ScoreSystem = ({ game }) => {
+
+const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isMounted, setIsMounted] = useState(false);
-	const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState
