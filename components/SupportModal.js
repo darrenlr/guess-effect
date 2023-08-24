@@ -14,7 +14,7 @@ const SupportModal = ({ closeModal }) => {
 				<div className={styles.modalContainer}>
 					<h3>Support</h3>
 					<p>Thank you so much for playing!</p>
-					<p>If you've enjoyed, please consider supporting, this will give you access to the game archives when they go live!</p>
+					<p>If you&apos;ve enjoyed, please consider supporting, this will give you access to the game archives when they go live!</p>
 				</div>
 			</div>
 		</div>

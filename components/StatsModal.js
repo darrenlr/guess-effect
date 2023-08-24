@@ -37,4 +37,4 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 	  );
 	};
 	
-	export default StatsModal;
+export default StatsModal;
