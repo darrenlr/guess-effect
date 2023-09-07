@@ -1,18 +1,18 @@
 [
     {
-        "date": "2023-08-25",
-        "releaseDate": "2005-06-03",
-        "title": "Resistance: Fall of Man",
-        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.png",
+        "date": "2023-09-07",
+        "releaseDate": "2002-03-26",
+        "title": "Star Wars: Jedi Knight II - Jedi Outcast",
+        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
         "hints": {
-            "publisher": "Sony Interactive Entertainment",
-            "developer": "Insomniac Games",
-            "genre": "FPS",
-            "platforms": "PS3",
+            "publisher": ["LucasArts", "Activision"],
+            "developer": "Raven Software",
+            "genre": ["First-person shooter", "Third-person shooter", "Hack and slash"],
+            "platforms": "PC",
             "modes": ["Single-player", "Multiplayer", "Cooperative"],
-            "engine": "Insomnia Engine",
-            "metacritic": 84,
-            "plot": "Set in an alternate history where Earth has been invaded by a hostile alien race. The player takes on the role of an American soldier who is part of a military force sent to Europe to fight the alien threat. The game features a variety of weapons and enemies, and includes both single-player and multiplayer modes. Throughout the game, the player uncovers secrets about the alien invasion and discovers ways to fight back against the invaders."
+            "engine": "id Tech 3",
+            "metacritic": 89,
+            "plot": "Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future."
         }
     },
     {
