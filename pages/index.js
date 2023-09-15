@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
 import useLocalStorage from "../hooks/useLocalStorage";
+import Footer from "../components/Footer";
 
 const initialGameHistory = {
 	wins: 0,
@@ -33,6 +34,7 @@ const Home = () => {
       <>
          <Navbar gameHistory={gameHistory} />
          <ScoreSystem game={game} gameHistory={gameHistory} setGameHistory={setGameHistory} />
+         <Footer />
       </>
    );
 };

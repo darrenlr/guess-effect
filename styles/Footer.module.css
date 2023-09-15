@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      gap: 16px;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+    font-size: 12px;
+}
+
+.links p {
+    font-family: var(--font-family-main);
+    font-weight: bold;
+}
+
+.links a {
+    font-family: var(--font-family-main);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: start;
+    font-size: 12px;
+    color: #bbb; /* General color for .thanks, can be overridden by child selectors */
+}
+
+.thanks p, .thanks span, .thanks a {
+    font-family: var(--font-family-main);
+}
+
+.thanks a {
+    color: #fff;
+}
+
+.thanks a:hover {
+    text-decoration: underline;
+}
