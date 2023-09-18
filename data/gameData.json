@@ -1,8 +1,8 @@
 [
     {
-        "date": "2023-09-15",
+        "date": "2023-09-18",
         "releaseDate": "2002-03-26",
-        "title": "Star Wars: Jedi Knight II - Jedi Outcast",
+        "title": "Star Wars Jedi Knight II: Jedi Outcast",
         "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
         "hints": {
             "publisher": ["LucasArts", "Activision"],
@@ -16,7 +16,7 @@
         }
     },
     {
-        "date": "2023-08-26",
+        "date": "2023-09-19",
         "releaseDate": "2016-09-15",
         "title": "Persona 5",
         "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r76.png",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "date": "2023-08-24",
+        "date": "2023-09-20",
         "releaseDate": "2010-05-14",
         "title": "Alan Wake",
         "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2dft.png",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "date": "2023-08-06",
+        "date": "2023-09-21",
         "releaseDate": "2001-11-15",
         "title": "Halo: Combat Evolved",
         "boxArtUrl": "/images/halo.png",
@@ -62,7 +62,7 @@
         }
     },
     {
-        "date": "2023-08-07",
+        "date": "2023-09-22",
         "releaseDate": "2013-10-17",
         "title": "The Stanley Parable",
         "boxArtUrl": "/images/stanley-parable.png",
@@ -78,7 +78,7 @@
         }
     },
     {
-        "date": "2023-08-08",
+        "date": "2023-09-22",
         "releaseDate": "2019-11-08",
         "title": "Death Stranding",
         "boxArtUrl": "/images/death-stranding.jpg",
@@ -94,7 +94,7 @@
         }
     },
     {
-        "date": "2023-08-09",
+        "date": "2023-09-23",
         "releaseDate": "2016-02-25",
         "title": "Stardew Valley",
         "boxArtUrl": "/images/stardew-valley.png",
@@ -110,7 +110,7 @@
         }
     },
     {
-        "date": "2023-08-10",
+        "date": "2023-09-24",
         "releaseDate": "1991-07-19",
         "title": "Final Fantasy IV",
         "boxArtUrl": "/images/final-fantasy-4.png",
@@ -126,7 +126,7 @@
         }
     },
     {
-        "date": "2023-08-11",
+        "date": "2023-09-25",
         "releaseDate": "2016-02-09",
         "title": "Firewatch",
         "boxArtUrl": "/images/firewatch.png",
@@ -142,7 +142,7 @@
         }
     },
     {
-        "date": "2023-08-12",
+        "date": "2023-09-26",
         "releaseDate": "2001-07-23",
         "title": "Max Payne",
         "boxArtUrl": "/images/max-payne.png",
@@ -158,7 +158,7 @@
         }
     },
     {
-        "date": "2023-08-13",
+        "date": "2023-09-27",
         "releaseDate": "2006-07-11",
         "title": "Prey",
         "boxArtUrl": "/images/prey.png",

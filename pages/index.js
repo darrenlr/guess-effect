@@ -7,6 +7,8 @@ import Footer from "../components/Footer";
 const initialGameHistory = {
 	wins: 0,
 	games: 0,
+   currentStreak: 0,
+   longestStreak:0,
 	scores: [],
   };
 

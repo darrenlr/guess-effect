@@ -71,6 +71,28 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		return 0;
   	}, [gameHistory]);
 
+	  const calculateStreaks = (scores) => {
+		let currentStreak = 0;
+		let longestStreak = 0;
+		let tempStreak = 0;
+	
+		for (let score of scores) {
+			if (score.score > 0) {
+				tempStreak++;
+				currentStreak++;
+			} else {
+				tempStreak = 0;
+				currentStreak = 0;
+			}
+			longestStreak = Math.max(longestStreak, tempStreak);
+		}
+	
+		return {
+			currentStreak,
+			longestStreak,
+		};
+	}	
+
 	useEffect(() => {
 		if (todaysDate !== currentGameState.date && game) {
 		  	setCurrentGameState({
@@ -141,6 +163,12 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		let finalScore = resetScore ? 0 : currentGameState.hints.points;
 	
 		setModalScore(finalScore);
+
+		const { currentStreak, longestStreak } = calculateStreaks([...gameHistory.scores, {
+			releaseDate: game.releaseDate,
+			date: todaysDate,
+			score: finalScore,
+		}]);		
 	
 		setCurrentGameState((prevState) => ({
 			...prevState,
@@ -162,6 +190,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			...prevState,
 			wins: resetScore ? prevState.wins : prevState.wins + 1,
 			games: prevState.games + 1,
+			currentStreak,
+        	longestStreak,
 			scores: [
 				...prevState.scores,
 				{
@@ -294,6 +324,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
   				highestScore={highestScore}
   				averageScore={averageScore}
   				gamesWon={gameHistory.wins}
+				currentStreak={gameHistory.currentStreak}
+				longestStreak={gameHistory.longestStreak}
   				onClose={() => setIsModalVisible(false)}
 			/>
 		</div>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
 
-const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, onClose }) => {
+const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, currentStreak, longestStreak, onClose }) => {
 	useEffect(() => {
 		if (show) {
 			const confettiAnimation = confetti.create(undefined, {
@@ -46,6 +46,16 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 				<div>
 				  <p>{gamesWon}</p>
 				  <span>Wins</span>
+				</div>
+			  </div>
+			  <div className={styles.statsRow}>
+				<div>
+					<p>{currentStreak}</p>
+					<span>Current Streak</span>
+				</div>
+				<div>
+					<p>{longestStreak}</p>
+					<span>Longest Streak</span>
 				</div>
 			  </div>
 			  <button className={styles.closeButton} onClick={onClose}>

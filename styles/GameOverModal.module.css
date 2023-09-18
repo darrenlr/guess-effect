@@ -26,8 +26,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 2rem;
-  }
+    height: 100%; 
+}
 
   .revealConfirmText {
     text-align: center;
@@ -69,9 +71,9 @@
 
   .statsRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 2em; 
+    gap: 2em;
   }
   
   .statsRow div {

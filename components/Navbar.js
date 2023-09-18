@@ -76,6 +76,8 @@ const Navbar = ({gameHistory}) => {
   					highestScore={highestScore}
   					averageScore={averageScore}
   					gamesWon={gameHistory.wins}
+					currentStreak={gameHistory.currentStreak}
+					longestStreak={gameHistory.longestStreak}
 				 />}
 
 		</div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/GameOverModal.module.css";
 
-const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, gamesWon }) => {
+const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, gamesWon, currentStreak, longestStreak }) => {
 	const handleClickOutside = (event) => {
 		if (event.target.className === styles.modalOverlay) {
 			closeModal();
@@ -14,13 +14,15 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 			<div className={styles.modalContainer}>
 			  <h2>Stats</h2>
 			  <div className={styles.statsRow}>
+			  <div>
+				  <p>{highestScore}</p>
+				  <span>High Score</span>
+				</div>
+			  </div>
+			  <div className={styles.statsRow}>
 				<div>
 				  <p>{gamesPlayed}</p>
 				  <span>Played</span>
-				</div>
-				<div>
-				  <p>{highestScore}</p>
-				  <span>High</span>
 				</div>
 				<div>
 				  <p>{averageScore}</p>
@@ -29,6 +31,16 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 				<div>
 				  <p>{gamesWon}</p>
 				  <span>Wins</span>
+				</div>
+			  </div>
+			  <div className={styles.statsRow}>
+				<div>
+					<p>{currentStreak}</p>
+					<span>Current Streak</span>
+				</div>
+				<div>
+					<p>{longestStreak}</p>
+					<span>Max Streak</span>
 				</div>
 			  </div>
 			</div>
