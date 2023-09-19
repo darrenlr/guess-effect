@@ -12,9 +12,9 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
 			<div className={styles.modalContainer}>
-			  <h2>Stats</h2>
+			  <h3>Stats</h3>
 			  <div className={styles.statsRow}>
-			  <div>
+			  	<div>
 				  <p>{highestScore}</p>
 				  <span>High Score</span>
 				</div>
@@ -22,7 +22,7 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 			  <div className={styles.statsRow}>
 				<div>
 				  <p>{gamesPlayed}</p>
-				  <span>Played</span>
+				  <span>Games</span>
 				</div>
 				<div>
 				  <p>{averageScore}</p>

@@ -12,7 +12,7 @@ const GuessEffectModal = ({ closeModal }) => {
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
-					<h4>Guess Effect</h4>
+					<h3>Guess Effect</h3>
 					<div>• Guess the video based on the original release date.</div>
 					<div>• Trade points to reveal hints</div>
 					<div>• Game ends after 5 incorrect guesses</div>

@@ -12,7 +12,7 @@ const ArchiveModal = ({ closeModal }) => {
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
-					<h3>Archives</h3>
+					<h4>Archives</h4>
 					<p>Coming soon...</p>
 				</div>
 			</div>

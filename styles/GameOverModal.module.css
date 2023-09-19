@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    margin: 1rem;
     height: 100%; 
 }
 
@@ -71,9 +72,8 @@
 
   .statsRow {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+    justify-content: space-evenly;
+    width: 100%;
   }
   
   .statsRow div {
@@ -85,14 +85,14 @@
   
   .statsRow div span {
     font-family: var(--font-family); 
-    color: white
+    color: white;
+    font-size: 13px;
   }
 
   @media screen and (max-width: 768px) {
     .statsRow {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 0.9em; 
+      justify-content: space-evenly;
+      width: 100%; 
     }
   }
