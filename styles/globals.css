@@ -59,3 +59,11 @@ h1, h2, h3, h4, p {
   box-shadow: 2px 2px 0 #404040, 3px 3px 0 #404040, 4px 4px 0 #404040;
   cursor: not-allowed;
 }
+
+@media (hover: none) {
+  .hintButton:hover {
+    background-color: #eeeeee;
+    box-shadow: inset -2px -2px 0 #808080;
+    transform: none;
+  }
+}
