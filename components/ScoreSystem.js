@@ -305,7 +305,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 								height={30}
 								className={
 									isWrongGuess &&
-									index === currentGameState.life.remainingGuessCount - 1
+									index === currentGameState.life.remainingGuessCount
 										? styles.blink
 										: ""
 								}
