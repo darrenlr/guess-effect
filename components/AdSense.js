@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 
 const AdSense = ({ adSlot }) => {
-  useEffect(() => {
-    if (window) {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  }, []);
+//   useEffect(() => {
+//     if (window) {
+//       (window.adsbygoogle = window.adsbygoogle || []).push({});
+//     }
+//   }, []);
 
   return (
     <ins
