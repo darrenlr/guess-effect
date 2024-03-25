@@ -2,21 +2,21 @@ import React, { useEffect } from "react";
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
 
-const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, currentStreak, longestStreak, onClose }) => {
+const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, currentStreak, longestStreak, gameWon, onClose }) => {
 	useEffect(() => {
-		if (show) {
+		if (show && gameWon) {
 			const confettiAnimation = confetti.create(undefined, {
-				resize: true,
-				useWorker: true,
+			  resize: true,
+			  useWorker: true,
 			});
 			confettiAnimation({
-				zIndex: 101,
-				particleCount: 100,
-				spread: 60,
-				origin: { y: 0.6 },
+			  zIndex: 101,
+			  particleCount: 100,
+			  spread: 60,
+			  origin: { y: 0.6 },
 			});
-		}
-	}, [show]);
+		  }
+		}, [show, gameWon]);
 
 	if (!show) {
 		return null;

@@ -326,7 +326,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
   				gamesWon={gameHistory.wins}
 				currentStreak={gameHistory.currentStreak}
 				longestStreak={gameHistory.longestStreak}
-  				onClose={() => setIsModalVisible(false)}
+				gameWon={currentGameState.life.remainingGuessCount !== 0}
+				onClose={() => setIsModalVisible(false)}
 			/>
 		</div>
 	) : (
