@@ -1,14 +1,18 @@
 import React, { useState } from "react";
+import { ThreeDots } from "react-loader-spinner";
 import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
 
 const SearchBar = ({ onSubmit, isGameOver }) => {
+	const [isLoading, setIsLoading] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [options, setOptions] = useState([]);
 
 	const handleSearch = async (inputValue) => {
 		if (inputValue.length > 2) {
+			setIsLoading(true);
 			const response = await fetch(`/api/games?search=${inputValue}`);
+			
 			const data = await response.json();
 
 			const gameOptions = data.results.map((game) => ({
@@ -17,6 +21,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 			}));
 	
 			setOptions(gameOptions);
+			setIsLoading(false);
 		} else {
 			setOptions([]);
 		}
@@ -60,6 +65,22 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 				isClearable
 				isDisabled={isGameOver}
 			/>
+
+
+        <div className={styles.loader}>
+            <ThreeDots
+                visible={isLoading}
+                height="80"
+                width="100%"
+                color="#000"
+                radius="9"
+                ariaLabel="three-dots-loading"
+                wrapperStyle={{}}
+                wrapperClass=""
+            />
+        </div>
+  
+
 			<button
 				className={styles.submitButton}
 				onClick={() => handleSubmit(selectedOption)}
