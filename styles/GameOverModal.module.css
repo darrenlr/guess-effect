@@ -89,6 +89,14 @@
     font-size: 13px;
   }
 
+  .victory {
+    color: gold;
+  }
+  
+  .defeat {
+    color: red;
+  }
+
   @media screen and (max-width: 768px) {
     .statsRow {
       display: flex;
