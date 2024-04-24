@@ -58,7 +58,7 @@ const Navbar = ({gameHistory}) => {
 			<button className={styles.iconBtn} onClick={handleShowSupportModal}>
 				<FontAwesomeIcon icon={faHeart} className={styles.icon} />
 			</button>
-			<h1 className={styles.title}>Guess Effect</h1>
+			<h1 className={styles.title}>Guess Effect</h1><p>(beta)</p>
 			<button className={styles.iconBtn} onClick={handleShowGuessEffectModal}>
 				<FontAwesomeIcon icon={faCircleQuestion} className={styles.icon} />
 			</button>

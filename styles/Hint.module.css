@@ -15,6 +15,16 @@
   word-break: break-word;
 }
 
+.hintMeta {
+  border-radius: 6px;
+}
+
+.hintMetaScore {
+  padding: 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
 .hintButton {
   height: 100%;
   width: 100%;
