@@ -246,7 +246,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	return isMounted ? (
 		<div className={styles.container}>
-			{game && <ReleaseDate date={game.releaseDate} />}
+			{game && <ReleaseDate date={game.releaseDate} region={game.region} />}
 			<div className={`${styles.stats} ${styles.statsMobile}`}>
 					<div className={styles.heartsContainer}>
 						{currentGameState.life.hearts.map((heartSrc, index) => (

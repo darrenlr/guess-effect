@@ -1,179 +1,121 @@
 [
-    {
-        "date": "2024-03-25",
-        "releaseDate": "2002-03-26",
-        "title": "Star Wars Jedi Knight II: Jedi Outcast",
-        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
-        "hints": {
-            "publisher": ["LucasArts", "Activision"],
-            "developer": "Raven Software",
-            "genre": ["First-person shooter", "Third-person shooter", "Hack and slash"],
-            "platforms": "PC",
-            "modes": ["Single-player", "Multiplayer", "Cooperative"],
-            "engine": "id Tech 3",
-            "metacritic": 89,
-            "plot": "Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future."
-        }
-    },
-    {
-        "date": "2024-04-24",
-        "releaseDate": "2016-09-15",
-        "title": "Persona 5",
-        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r76.png",
-        "hints": {
-            "publisher": ["Atlus (JP & NA)", "Deep Silver (EU)"],
-            "developer": "P-Studio",
-            "genre": ["Action", "Adventure", "RPG"],
-            "platforms": ["PS3", "PS4"],
-            "modes": "Single-player",
-            "engine": null,
-            "metacritic": 93,
-            "plot": "******* takes place in modern-day Tokyo and follows a high school student known by the pseudonym Joker who transfers to a new school after he is falsely accused of assault, and put on probation. Over the course of a school year, he and other students awaken to a special power, becoming a group of secret vigilantes known as the Phantom Thieves of Hearts. They explore the Metaverse, a supernatural realm born from humanity's subconscious desires, to steal malevolent intent from the hearts of adults. As with previous games in the series, the party battles enemies known as Shadows using physical manifestations of their psyche known as Personas. The game incorporates role-playing and dungeon crawling elements alongside social simulation scenarios."
-        }
-    },
-    {
-        "date": "2024-04-23",
-        "releaseDate": "2010-05-14",
-        "title": "Alan Wake",
-        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2dft.png",
-        "hints": {
-            "publisher": "Microsoft Game Studios",
-            "developer": "Remedy Entertainment",
-            "genre": ["Action-adventure", "Third-person shooter"],
-            "platforms": "Xbox 360",
-            "modes": "Single-player",
-            "engine": null,
-            "metacritic": 83,
-            "plot": "When the wife of the best-selling writer **** **** disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love."
-        }
-    },
-    {
-        "date": "2024-03-28",
-        "releaseDate": "2001-11-15",
-        "title": "Halo: Combat Evolved",
-        "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.png",
-        "hints": {
-            "publisher": "Microsoft Studios",
-            "developer": "Bungie",
-            "genre": ["FPS", "Action", "Adventure"],
-            "platforms": "Xbox",
-            "metacritic": 90,
-            "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of Halo."
-        }
-    },
-    {
-        "date": "2024-03-29",
-        "releaseDate": "2013-10-17",
-        "title": "The Stanley Parable",
-        "boxArtUrl": "/images/stanley-parable.png",
-        "hints": {
-            "publisher": "Galactic Cafe",
-            "developer": "Galactic Cafe",
-            "genre": ["Interactive story", "Indie", "Adventure"],
-            "platforms": "PC",
-            "modes": "Single-player",
-            "engine": "Source",
-            "metacritic": 88,
-            "plot": "A first-person exploration game which ponders questions related to player agency, narrative pacing, escapism through gaming, objective-driven game design, authorial intent, and the conflict of interest between players and game creators."
-        }
-    },
-    {
-        "date": "2024-03-30",
-        "releaseDate": "2019-11-08",
-        "title": "Death Stranding",
-        "boxArtUrl": "/images/death-stranding.jpg",
-        "hints": {
-            "publisher": "Sony Interactive Entertainment",
-            "developer": "Kojima Productions",
-            "genre": ["Action", "Adventure", "RPG"],
-            "platforms": "PS4",
-            "modes": "Single-player",
-            "engine": "Decima",
-            "metacritic": 84,
-            "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
-        }
-    },
-    {
-        "date": "2023-12-13",
-        "releaseDate": "2016-02-25",
-        "title": "Stardew Valley",
-        "boxArtUrl": "/images/stardew-valley.png",
-        "hints": {
-            "publisher": ["Concerned Ape", "Chucklefish"],
-            "developer": ["Concerned Ape", "Chucklefish"],
-            "genre": ["RPG", "Indie", "Simulation"],
-            "platforms": ["PC"],
-            "modes": "Single-player",
-            "engine": "Microsoft XNA",
-            "metacritic": 89,
-            "plot": "****** ****** is a farming simulation game that begins with the player inheriting a farm in a small town from their grandfather. Tired of their life in a corporate job in a bustling city, the player decides to leave their cubicle and start a new life in the rural town of Stardew Valley. Upon arriving, they find the farm overgrown and in disrepair, and the town suffering from the influence of the Joja Corporation. The player must restore the farm to its former glory by planting and tending crops, raising livestock, mining for resources, and engaging with the local community."
-        }
-    },
-    {
-        "date": "2023-09-24",
-        "releaseDate": "1991-07-19",
-        "title": "Final Fantasy IV",
-        "boxArtUrl": "/images/final-fantasy-4.png",
-        "hints": {
-            "publisher": "Square",
-            "developer": "Square",
-            "genre": "RPG",
-            "platforms": "SNES",
-            "modes": "Single-player",
-            "engine": null,
-            "metacritic": null,
-            "plot": "Venture into the magical world of Stardust Echoes, where elemental spirits coexist with advanced technology. When a once-revered artifact is stolen, it's up to young mechanic Aria and enigmatic sorcerer Kayden to reclaim it. Immerse yourself in an epic adventure, battling fearsome foes and unraveling ancient mysteries, where the line between magic and technology blurs in this stunning, action-packed RPG."
-        }
-    },
-    {
-        "date": "2023-09-25",
-        "releaseDate": "2016-02-09",
-        "title": "Firewatch",
-        "boxArtUrl": "/images/firewatch.png",
-        "hints": {
-            "publisher": "Panic",
-            "developer": "Campo Santo",
-            "genre": ["Adventure", "Indie"],
-            "platforms": ["PS4", "PC", "Mac", "Linux"],
-            "modes": "Single-player",
-            "engine": "Unity",
-            "metacritic": 76,
-            "plot": "You, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you. Your only human connection is over a handheld radio, which you’ll use to speak with your supervisor Delilah about the things both of you are experiencing."
-        }
-    },
-    {
-        "date": "2023-09-26",
-        "releaseDate": "2001-07-23",
-        "title": "Max Payne",
-        "boxArtUrl": "/images/max-payne.png",
-        "hints": {
-            "publisher": "Gathering of Developers",
-            "developer": "Remedy Entertainment",
-            "genre": "Third-person shooter",
-            "platforms": ["PC"],
-            "modes": "Single-player",
-            "engine": "MAX-FX",
-            "metacritic": 89,
-            "plot": "In December 2001, as New York City is enduring the tail end of the worst snow blizzard in the history of the city, *** *****, a renegade DEA agent and former NYPD detective, is standing at the top of a skyscraper with a sniper rifle in his hands, smiling, as police units arrive on the scene to arrest him. He then experiences flashbacks from three years ago and the last two days he experienced. Three years earlier, on August 22nd 1998, Max was working as a regular NYPD detective, having just finished his day's work. His longtime friend and DEA agent, Alex Balder, invites him to transfer into the DEA, but Max declines the offer, wanting to focus on his full-time life with his wife, Michelle, and their newborn daughter, Rose. As he returns to his house in New Jersey, he finds that a trio of junkies had broken into his house, all addicted on a brand new designer drug, Valkyr. Max receives a call from a mysterious woman who seems pleased at the trouble in the house and refuses to call for help. Max rushes to aid his family and kill the junkies, but is too late as he finds his wife shot dead, and his daughter slaughtered. After his family's funeral, Payne accepts Alex's offer, and transfers to the DEA at his own request to stop the spreading of the drugs."
-        }
-    },
-    {
-        "date": "2023-09-27",
-        "releaseDate": "2006-07-11",
-        "title": "Prey",
-        "boxArtUrl": "/images/prey.png",
-        "hints": {
-            "publisher": "2K Games",
-            "developer": "Human Head Studios",
-            "genre": "FPS",
-            "platforms": ["Xbox 360", "PC"],
-            "modes": ["Single-player", "Multiplayer"],
-            "engine": "id Tech 4",
-            "metacritic": 79,
-            "plot": "**** tells the story of Tommy, a Cherokee garage mechanic stuck on a reservation going nowhere. Abducted along with his people to a menacing mothership orbiting Earth, he sets out to save himself and his girlfriend and eventually his planet."
-        }
+  {
+    "date": "08/09/2024",
+    "region": "NA",
+    "releaseDate": "2006-07-11",
+    "title": "Prey (2006)",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co55mn.webp",
+    "hints": {
+      "publisher": ["2k Games"],
+      "developer": ["Human Head Studios"],
+      "genre": ["FPS", "Action", "Puzzle"],
+      "platforms": ["Xbox 360", "PC"],
+      "modes": ["Single-player", "Multiplayer"],
+      "engine": "id Tech 4",
+      "metacritic": 79,
+      "plot": "**** tells the story of Tommy, a Cherokee garage mechanic stuck on a reservation going nowhere. Abducted along with his people to a menacing mothership orbiting Earth, he sets out to save himself and his girlfriend and eventually his planet."
     }
-  ]  
-  
-  
-  
+  },
+  {
+    "date": "09/09/2024",
+    "region": "NA/EU",
+    "releaseDate": "2001-07-23",
+    "title": "Max Payne",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wb2.webp",
+    "hints": {
+      "publisher": ["Gathering of Developers"],
+      "developer": ["Remedy Entertainment"],
+      "genre": ["Third-person shooter"],
+      "platforms": ["PC"],
+      "modes": ["Single-player", "Multiplayer"],
+      "engine": "MAX-FX",
+      "metacritic": 89,
+      "plot": "In December 2001, as New York City is enduring the tail end of the worst snow blizzard in the history of the city, *** *****, a renegade DEA agent and former NYPD detective, is standing at the top of a skyscraper with a sniper rifle in his hands, smiling, as police units arrive on the scene to arrest him. He then experiences flashbacks from three years ago and the last two days he experienced. Three years earlier, on August 22nd 1998, Max was working as a regular NYPD detective, having just finished his day's work. His longtime friend and DEA agent, Alex Balder, invites him to transfer into the DEA, but Max declines the offer, wanting to focus on his full-time life with his wife, Michelle, and their newborn daughter, Rose. As he returns to his house in New Jersey, he finds that a trio of junkies had broken into his house, all addicted on a brand new designer drug, Valkyr. Max receives a call from a mysterious woman who seems pleased at the trouble in the house and refuses to call for help. Max rushes to aid his family and kill the junkies, but is too late as he finds his wife shot dead, and his daughter slaughtered. After his family's funeral, Payne accepts Alex's offer, and transfers to the DEA at his own request to stop the spreading of the drugs."
+    }
+  },
+  {
+    "date": "10/09/2024",
+    "region": "WW",
+    "releaseDate": "2016-02-25",
+    "title": "Stardew Valley",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.webp",
+    "hints": {
+      "publisher": ["Concerned Ape", "Chucklefish"],
+      "developer": ["Concerned Ape", "Chucklefish"],
+      "genre": ["RPG", "Indie", "Simulation"],
+      "platforms": ["PC"],
+      "modes": ["Single-player"],
+      "engine": "Microsoft XNA",
+      "metacritic": 76,
+      "plot": "You, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you. Your only human connection is over a handheld radio, which you’ll use to speak with your supervisor Delilah about the things both of you are experiencing."
+    }
+  },
+  {
+    "date": "11/09/2024",
+    "region": "WW",
+    "releaseDate": "2019-11-08",
+    "title": "Death Stranding",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5vq8.webp",
+    "hints": {
+      "publisher": ["Sony Interactive Entertainment"],
+      "developer": ["Kojima Productions"],
+      "genre": ["Action", "Adventure", "RPG"],
+      "platforms": ["PS4"],
+      "modes": ["Single-player"],
+      "engine": "Decima",
+      "metacritic": 84,
+      "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
+    }
+  },
+  {
+    "date": "12/09/2024",
+    "region": "WW",
+    "releaseDate": "2013-10-17",
+    "title": "The Stanley Parable",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.webp",
+    "hints": {
+      "publisher": ["Galactic Cafe"],
+      "developer": ["Galactic Cafe"],
+      "genre": ["Interactive story", "Indie", "Adventure"],
+      "platforms": ["PC"],
+      "modes": ["Single-player"],
+      "engine": "Source",
+      "metacritic": 88,
+      "plot": "A first-person exploration game which ponders questions related to player agency, narrative pacing, escapism through gaming, objective-driven game design, authorial intent, and the conflict of interest between players and game creators."
+    }
+  },
+  {
+    "date": "13/09/2024",
+    "region": "NA",
+    "releaseDate": "2001-11-15",
+    "title": "Halo: Combat Evolved",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.webp",
+    "hints": {
+      "publisher": ["Microsoft Game Studios"],
+      "developer": ["Bungie"],
+      "genre": ["FPS", "Action", "Adventure"],
+      "platforms": ["Xbox"],
+      "modes": ["Single-player", "Multiplayer"],
+      "engine": "Blam! Engine",
+      "metacritic": 90,
+      "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of ****."
+    }
+  },
+  {
+    "date": "14/09/2024",
+    "region": "NA/EU",
+    "releaseDate": "2002-03-28",
+    "title": "Star Wars Jedi Knight II: Jedi Outcast",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
+    "hints": {
+      "publisher": ["LucasArts (NA)", "Activision (WW)"],
+      "developer": ["Raven Software"],
+      "genre": ["FPS", "Third-person shooter", "Adventure"],
+      "platforms": ["PC"],
+      "modes": ["Single-player", "Multiplayer"],
+      "engine": "id Tech 3",
+      "metacritic": 89,
+      "plot": "Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future."
+    }
+  }
+]
