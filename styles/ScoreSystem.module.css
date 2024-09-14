@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container .innerContainer {
     margin: 0 10px;
   }

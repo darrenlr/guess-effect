@@ -8,7 +8,7 @@ const ReleaseDate = ({ date, region }) => {
 
   return (
     <>
-      <h4 className={styles.releaseDate}>Released: {dateString} ({region})</h4>
+      <h4 className={styles.releaseDate}>{dateString} ({region})</h4>
     </>
   );
 };

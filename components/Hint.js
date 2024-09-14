@@ -3,6 +3,7 @@ import styles from "../styles/Hint.module.css";
 
 const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
   const [revealed, setRevealed] = useState(isRevealed);
+  const [isFlickering, setIsFlickering] = useState(false);
   
   useEffect(() => {
     setRevealed(isRevealed);
@@ -23,7 +24,7 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
     if (Array.isArray(data)) {
       return data.map((item, index) => (
         <React.Fragment key={index}>
-          <span className={styles.hintValue}>{item}</span>
+          <span className={styles.hintValueArray}>{item}</span>
           <br />
         </React.Fragment>
       ));
@@ -52,7 +53,7 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 
   return (
     <div className={styles.hint}>
-      <div className={styles.hintKey}>{hint}: </div>
+      <div className={`${styles.hintKey} ${hint === 'plot' ? styles.hintKeyPlot : ''}`}>{hint}: </div>
 
       {revealed ? (
         <div>{renderData()}</div>

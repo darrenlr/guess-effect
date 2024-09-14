@@ -150,7 +150,6 @@ const GameCard = ({
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
-					<div className={styles.hintRow}>
 						<Hint
 							hint="publisher(s)"
 							data={gameData.hints.publisher}
@@ -158,12 +157,7 @@ const GameCard = ({
 							points={0}
 							isRevealed={gameState.hints.publisher}
 						/>
-						{!isGameOver && (
-        					<button className={`hintButton revealAll ${styles.desktopButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-            					{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
-        					</button>
-   						)}
-					</div>
+						
 					<Hint
 						hint="developer(s)"
 						data={gameData.hints.developer}
@@ -187,20 +181,22 @@ const GameCard = ({
 							isRevealed={gameState.hints.platforms}
 						/>
 					</div>
-					<Hint
-						hint="modes(s)"
-						data={gameData.hints.modes}
-						onRevealHint={onRevealHint}
-						points={0}
-						isRevealed={gameState.hints.modes}
-					/>
-					<Hint
-						hint="engine"
-						data={gameData.hints.engine}
-						onRevealHint={onRevealHint}
-						points={0}
-						isRevealed={gameState.hints.engine}
-					/>
+					<div className={styles.hintRow}>
+						<Hint
+							hint="modes(s)"
+							data={gameData.hints.modes}
+							onRevealHint={onRevealHint}
+							points={0}
+							isRevealed={gameState.hints.modes}
+						/>
+						<Hint
+							hint="engine"
+							data={gameData.hints.engine}
+							onRevealHint={onRevealHint}
+							points={0}
+							isRevealed={gameState.hints.engine}
+						/>
+					</div>
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}
@@ -215,12 +211,13 @@ const GameCard = ({
 						points={40}
 						isRevealed={gameState.hints.plot}
 					/>
+					{!isGameOver && (
+        				<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
+            				{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
+        				</button>
+   					)}
 				</div>
-				{!isGameOver && (
-        			<button className={`hintButton revealAll ${styles.mobileButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-            			{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
-        			</button>
-   				)}
+				
 			</div>
 			<RevealAllModal
     			isOpen={isModalOpen}

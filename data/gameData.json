@@ -1,6 +1,6 @@
 [
   {
-    "date": "2024-09-08",
+    "date": "2024-09-12",
     "region": "NA",
     "releaseDate": "2006-07-11",
     "title": "Prey",
@@ -68,7 +68,7 @@
     }
   },
   {
-    "date": "2024-09-12",
+    "date": "2024-09-14",
     "region": "WW",
     "releaseDate": "2013-10-17",
     "title": "The Stanley Parable",
@@ -99,23 +99,6 @@
       "engine": "Blam! Engine",
       "metacritic": 90,
       "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of ****."
-    }
-  },
-  {
-    "date": "2024-09-14",
-    "region": "NA/EU",
-    "releaseDate": "2002-03-28",
-    "title": "Star Wars Jedi Knight II: Jedi Outcast",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
-    "hints": {
-      "publisher": ["LucasArts (NA)", "Activision (WW)"],
-      "developer": ["Raven Software"],
-      "genre": ["FPS", "Third-person shooter", "Adventure"],
-      "platforms": ["PC"],
-      "modes": ["Single-player", "Multiplayer"],
-      "engine": "id Tech 3",
-      "metacritic": 89,
-      "plot": "Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future."
     }
   }
 ]

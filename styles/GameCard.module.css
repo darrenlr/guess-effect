@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1rem;
   border-spacing: 0;
   border: 2px solid #fff;
   border-radius: 8px;
@@ -22,7 +22,7 @@
   display: flex;
   border: 1px solid #fff;
   border-radius: 8px;
-  box-shadow: 0px 0px 20px lightgrey;
+
   overflow: hidden; 
   margin-bottom: 0.5rem;
 }
@@ -35,12 +35,19 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  border: 2px solid #fff;
+  background-color: #000;
+  padding: 0.5rem;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 8px; 
 }
 
 .hintRow {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   justify-content: space-between;
-  width: 100%;
 }
 
 @keyframes blink {
@@ -92,7 +99,8 @@
 .scanContainer {
   position: relative;
   overflow: hidden;
-  height: 360px;
+  height: 100%; 
+  width: 100%; 
 }
 
 .scanEffect {
@@ -115,15 +123,11 @@
   }
 }
 
-.desktopButton {
+.revealAllButton {
   display: block;
 }
 
-.mobileButton {
-  display: none;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .gameCard {
     flex-direction: column;
     align-items: center;
@@ -139,15 +143,11 @@
     margin-bottom: 0;
   }
 
-  .hintButton.revealAll {
-    display: none;
+  .hintButton {
+    width: 100%;
   }
 
-  .desktopButton {
-    display: none;
-  }
-
-  .mobileButton {
+  .revealAllButton {
     display: block;
     margin-top: 1rem; 
   }

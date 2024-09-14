@@ -3,7 +3,7 @@
 
 :root {
   --font-family: 'Press Start 2p', cursive;
-  --font-family-main: 'Poppins', sans-serif;
+  --font-family-main: "Courier New", Courier, monospace;
 
   --color-bg: #202225;
   --color-game : #212529;
