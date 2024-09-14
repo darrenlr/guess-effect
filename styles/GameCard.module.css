@@ -14,13 +14,13 @@
 
 .boxArt {
   display: flex;
-  gap: 1rem;;
+  gap: 1rem;
   flex-direction: column;
 }
 
 .boxArtWrapper {
   display: flex;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 8px;
 
   overflow: hidden; 

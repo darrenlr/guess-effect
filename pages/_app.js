@@ -6,7 +6,7 @@ import AdSense from "../components/AdSense";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <title>Guess Effect (Development)</title>
+      <title>Guess Effect (Beta)</title>
       <Component {...pageProps} />
       <SpeedInsights />
       <Analytics />
