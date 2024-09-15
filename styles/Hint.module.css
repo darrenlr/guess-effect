@@ -15,10 +15,6 @@
   word-break: break-word;
 }
 
-.hintValueArray {
-  white-space: nowrap;
-}
-
 .hintMeta {
   border-radius: 6px;
 }
