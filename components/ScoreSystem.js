@@ -37,7 +37,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState,
-		game.releaseDate
+		game.date
 	);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
