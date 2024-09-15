@@ -9,6 +9,7 @@ import { stripBrackets } from '../utlis/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
 
 const initialGameState = {
+	date: null,
 	releaseDate: "",
 	hints: {
 		publisher: true,
@@ -35,7 +36,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isMounted, setIsMounted] = useState(false);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
-		initialGameState
+		initialGameState,
+		game.date
 	);
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
@@ -95,13 +97,34 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		if (todaysDate !== currentGameState.date && game) {
-		  	setCurrentGameState({
+		  setCurrentGameState({
 			...initialGameState,
 			releaseDate: game.releaseDate,
 			date: todaysDate,
 		  });
+		} else if (isGameOver) {
+		  setCurrentGameState((prevState) => ({
+			...prevState,
+			hints: {
+			  publisher: true,
+			  developer: true,
+			  genre: true,
+			  platforms: true,
+			  modes: true,
+			  engine: true,
+			  metacritic: true,
+			  plot: true,
+			  boxArt: 0,
+			  points: prevState.hints.points,
+			},
+			life: {
+				guesses: prevState.life.guesses,
+				remainingGuessCount: prevState.life.remainingGuessCount,
+				hearts: Array(5).fill("/images/heart.png"),
+			},
+		  }));
 		}
-	  }, [todaysDate, game, currentGameState.date]);
+	  }, [todaysDate, game, currentGameState.date, isGameOver]);
 
 	useEffect(() => {
 		if (game && game.releaseDate !== currentGameState.releaseDate) {
@@ -170,9 +193,10 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			score: finalScore,
 		}]);		
 	
-		setCurrentGameState((prevState) => ({
-			...prevState,
-			hints: {
+		setCurrentGameState((prevState) => {
+			const updatedGameState = {
+			  ...prevState,
+			  hints: {
 				publisher: true,
 				developer: true,
 				genre: true,
@@ -182,26 +206,31 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				metacritic: true,
 				plot: true,
 				boxArt: 0,
-				points: finalScore, 
-			},
-		}));
+				points: finalScore,
+			  },
+			};
+			
+			// Save immediately to localStorage
+			window.localStorage.setItem("CURRENT_GAME_STATE", JSON.stringify(updatedGameState));
+			
+			return updatedGameState;
+		  });
 	
-		setGameHistory((prevState) => ({
+		  setGameHistory((prevState) => ({
 			...prevState,
 			wins: resetScore ? prevState.wins : prevState.wins + 1,
 			games: prevState.games + 1,
-			currentStreak,
-        	longestStreak,
 			scores: [
-				...prevState.scores,
-				{
-					releaseDate: game.releaseDate,
-					date: todaysDate,
-					score: finalScore,
-				},
+			  ...prevState.scores,
+			  {
+				releaseDate: game.releaseDate,
+				date: todaysDate,
+				score: finalScore,
+			  },
 			],
-		}));
+		  }));
 	
+		setModalScore(finalScore);
 		setIsModalVisible(true);
 	};	
 

@@ -53,41 +53,37 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 
 	return (
 		<div className={styles.searchContainer}>
-			<GameSelect
-				className={styles.searchInput}
-				placeholder="Guess the game..."
-				value={selectedOption}
-				onChange={setSelectedOption}
-				onInputChange={handleInputChange}
-				options={options}
-				filterOption={filterOption}
-				noOptionsMessage={noOptionsMessage}
-				isClearable
-				isDisabled={isGameOver}
-			/>
-
-
-        <div className={styles.loader}>
-            <ThreeDots
-                visible={isLoading}
-                height="80"
-                width="100%"
-                color="#000"
-                radius="9"
-                ariaLabel="three-dots-loading"
-                wrapperStyle={{}}
-                wrapperClass=""
-            />
-        </div>
-  
-
-			<button
-				className={styles.submitButton}
-				onClick={() => handleSubmit(selectedOption)}
-				disabled={isGameOver || !selectedOption}
-			>
-				Submit
-			</button>
+  			<div className={styles.inputWrapper}>
+    			<GameSelect
+      				className={styles.searchInput}
+      				placeholder="Guess the game..."
+      				value={selectedOption}
+      				onChange={setSelectedOption}
+      				onInputChange={handleInputChange}
+      				options={options}
+      				filterOption={filterOption}
+      				noOptionsMessage={noOptionsMessage}
+      				isClearable
+      				isDisabled={isGameOver}
+    			/>
+    			{isLoading && (
+      				<div className={styles.loader}>
+        				<ThreeDots
+          					height="20"
+          					width="20"
+          					color="#000"
+          					ariaLabel="three-dots-loading"
+        				/>
+      				</div>
+    			)}
+  			</div>
+  		<button
+    		className={styles.submitButton}
+    		onClick={() => handleSubmit(selectedOption)}
+    		disabled={isGameOver || !selectedOption}
+  		>
+    		Submit
+  		</button>
 		</div>
 	);
 };

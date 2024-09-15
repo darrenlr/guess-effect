@@ -1,10 +1,16 @@
 .searchContainer {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 95%;
   max-width: 940px;
-  font-family: var(--font-family-main)
+  font-family: var(--font-family-main);
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .searchInput {
@@ -39,6 +45,15 @@
   background-color: #f0f0f0;
 }
 
+.loader {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  z-index: 10;
+}
+
 .submitButton {
   height: 34px;
   text-align: center;
@@ -62,19 +77,4 @@
 .submitButton:disabled {
   background-color: #ccc;
   cursor: not-allowed;
-}
-
-.loader {
-  position: absolute;
-  right: 160px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  z-index: 10;
-}
-
-@media screen and (max-width: 767px) {
-  .loader {
-    width: 20px;
-  }
 }

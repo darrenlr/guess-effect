@@ -34,11 +34,16 @@ const Home = () => {
 
    return (
       <>
-         <Navbar gameHistory={gameHistory} />
-         <ScoreSystem game={game} gameHistory={gameHistory} setGameHistory={setGameHistory} />
-         <Footer />
+        <Navbar gameHistory={gameHistory} />
+        {game ? (
+          <ScoreSystem game={game} gameHistory={gameHistory} setGameHistory={setGameHistory} />
+        ) : (
+          <p>Loading game data...</p>
+        )}
+        <Footer />
       </>
-   );
+    );
+    
 };
 
 export default Home;
