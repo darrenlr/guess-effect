@@ -240,7 +240,9 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			releaseDate: game.releaseDate,
 			date: todaysDate,
 			score: finalScore,
-		}]);		
+		}]);
+		
+		console.log(currentStreak);
 	
 		setCurrentGameState((prevState) => {
 			const updatedGameState = {
@@ -269,6 +271,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			...prevState,
 			wins: resetScore ? prevState.wins : prevState.wins + 1,
 			games: prevState.games + 1,
+			currentStreak: currentStreak,
+			longestStreak: longestStreak,
 			scores: [
 			  ...prevState.scores,
 			  {
