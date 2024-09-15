@@ -9,8 +9,8 @@ export default async (req, res) => {
 
   const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&search=${search}`);
 
-  console.log("Response status:", response.status);
-  console.log("Response headers:", response.headers);
+  // console.log("Response status:", response.status);
+  // console.log("Response headers:", response.headers);
 
   const text = await response.text();
 
