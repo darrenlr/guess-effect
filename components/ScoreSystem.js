@@ -94,6 +94,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	}	
 
 	useEffect(() => {
+		console.log(todaysDate)
+		console.log(currentGameState.date)
 		if (todaysDate !== currentGameState.date && game) {
 		  setCurrentGameState({
 			...initialGameState,

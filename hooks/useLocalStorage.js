@@ -21,12 +21,14 @@ function useLocalStorage(key, initialValue) {
 	});
 
 	useEffect(() => {
-		try {
+		if (storedValue !== initialValue) {
+		  try {
 			window.localStorage.setItem(key, JSON.stringify(storedValue));
-		} catch (error) {
+		  } catch (error) {
 			console.error("Error while setting item to localStorage:", error);
+		  }
 		}
-	}, [key, storedValue]);
+	  }, [key, storedValue, initialValue]);
 
 	return [storedValue, setStoredValue];
 }

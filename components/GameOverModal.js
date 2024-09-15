@@ -26,7 +26,7 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 		<div className={styles.modalOverlay}>
 		  <div className={styles.modal}>
 			<div className={styles.modalContainer}>
-				<h2 className={gameWon ? styles.victory : styles.defeat}>
+				<h2 style={{ textAlign: 'center' }} className={gameWon ? styles.victory : styles.defeat}>
   					{gameWon ? "VICTORY ACHIEVED" : "DEFEATED"}
 				</h2>			
 				<p>the game was:</p>
