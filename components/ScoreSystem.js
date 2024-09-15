@@ -113,7 +113,12 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			  metacritic: true,
 			  plot: true,
 			  boxArt: 0,
-			  points: prevState.hints.points, // Restore the final score
+			  points: prevState.hints.points,
+			},
+			life: {
+				guesses: prevState.life.guesses,
+				remainingGuessCount: prevState.life.remainingGuessCount,
+				hearts: Array(5).fill("/images/heart.png"),
 			},
 		  }));
 		}
