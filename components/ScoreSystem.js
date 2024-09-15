@@ -44,6 +44,54 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
 
+	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
+	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
+
+	useEffect(() => {
+		const targetScore = currentGameState.hints.points;
+		const duration = 200; // Duration of the animation in milliseconds
+		const stepTime = 50; // Interval between updates
+		const scoreDifference = targetScore - animatedScore;
+		const steps = duration / stepTime;
+		const stepSize = scoreDifference / steps;
+	
+		const intervalId = setInterval(() => {
+		  setAnimatedScore((prevScore) => {
+			const nextScore = prevScore + stepSize;
+			if ((stepSize > 0 && nextScore >= targetScore) || (stepSize < 0 && nextScore <= targetScore)) {
+			  clearInterval(intervalId);
+			  return targetScore;
+			}
+			return nextScore;
+		  });
+		}, stepTime);
+	
+		return () => clearInterval(intervalId);
+	  }, [currentGameState.hints.points]);
+
+	  useEffect(() => {
+		const targetBonus = currentGameState.life.remainingGuessCount * 20;
+		const duration = 200; // Duration of the animation in milliseconds
+		const stepTime = 50; // Interval between updates
+		const bonusDifference = targetBonus - animatedBonus;
+		const steps = duration / stepTime;
+		const stepSize = bonusDifference / steps;
+	
+		const intervalId = setInterval(() => {
+		  setAnimatedBonus((prevBonus) => {
+			const nextBonus = prevBonus + stepSize;
+			if ((stepSize > 0 && nextBonus >= targetBonus) || (stepSize < 0 && nextBonus <= targetBonus)) {
+			  clearInterval(intervalId);
+			  return targetBonus;
+			}
+			return nextBonus;
+		  });
+		}, stepTime);
+	
+		return () => clearInterval(intervalId);
+	  }, [currentGameState.life.remainingGuessCount]);  
+
+
 	const gameOverRef = useRef(null);
 
   	const triggerGameOver = () => {
@@ -120,7 +168,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			life: {
 				guesses: prevState.life.guesses,
 				remainingGuessCount: prevState.life.remainingGuessCount,
-				hearts: Array(5).fill("/images/heart.png"),
+				hearts: prevState.life.hearts,
 			},
 		  }));
 		}
@@ -175,7 +223,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		setIsModalVisible(isGameOver);
-		setModalScore(currentGameState.hints.points);
+		setModalScore(currentGameState.hints.points + (currentGameState.life.remainingGuessCount * 20));
 	}, [isGameOver]);
 
 	useEffect(() => {
@@ -183,7 +231,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	}, []);
 
 	const handleGameOver = (resetScore) => {
-		let finalScore = resetScore ? 0 : currentGameState.hints.points;
+		let score = resetScore ? 0 : currentGameState.hints.points;
+		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
 	
 		setModalScore(finalScore);
 
@@ -206,7 +255,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				metacritic: true,
 				plot: true,
 				boxArt: 0,
-				points: finalScore,
+				points: score,
 			  },
 			};
 			
@@ -294,7 +343,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 							/>
 						))}
 					</div>
-					<p>Score: {currentGameState.hints.points ?? 100}</p>
+					<p>Bonus: {Math.round(animatedBonus)}</p>
+					<p>Score: {Math.round(animatedScore)}</p>
 				</div>
 			<SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
 			{game && currentGameState && (
@@ -342,7 +392,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 						))}
 					</div>
 
-					<p>Score: {currentGameState.hints.points ?? 100}</p>
+					<p>Bonus: {Math.round(animatedBonus)}</p>
+					<p>Score: {Math.round(animatedScore)}</p>
 				</div>
 			</div>
 			<GameOverModal
