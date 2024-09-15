@@ -119,6 +119,8 @@ const GameCard = ({
 		setIsGuessCountUpdated(true);
 	};
 
+
+
 	return (
 		<>
 			<div
@@ -213,7 +215,7 @@ const GameCard = ({
 					/>
 					{!isGameOver && (
         				<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-            				{areAllHintsRevealed() ? "Give Up" : "Reveal All? (-100)"}
+            				{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
         				</button>
    					)}
 				</div>

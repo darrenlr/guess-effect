@@ -3,7 +3,6 @@ import styles from "../styles/Hint.module.css";
 
 const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
   const [revealed, setRevealed] = useState(isRevealed);
-  const [isFlickering, setIsFlickering] = useState(false);
   
   useEffect(() => {
     setRevealed(isRevealed);
