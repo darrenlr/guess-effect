@@ -9,6 +9,7 @@ import { stripBrackets } from '../utlis/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
 
 const initialGameState = {
+	date: null,
 	releaseDate: "",
 	hints: {
 		publisher: true,
@@ -94,9 +95,13 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	}	
 
 	useEffect(() => {
-		console.log(todaysDate)
-		console.log(currentGameState.date)
-		if (todaysDate !== currentGameState.date && game) {
+		if (!currentGameState.date && game) {
+			setCurrentGameState({
+			  ...initialGameState,
+			  releaseDate: game.releaseDate,
+			  date: todaysDate,
+			});
+		} else if (todaysDate !== currentGameState.date && game) {
 		  setCurrentGameState({
 			...initialGameState,
 			releaseDate: game.releaseDate,
