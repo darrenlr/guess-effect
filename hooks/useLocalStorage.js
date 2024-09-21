@@ -11,14 +11,16 @@ function useLocalStorage(key, initialValue, gameReleaseDate) {
 	  try {
 		const item = window.localStorage.getItem(key);
 		const parsedItem = item ? JSON.parse(item) : initialValue;
-  
-		// If no date is stored or the stored date doesn't match today's date, reset the game state
-		if (!parsedItem?.date || parsedItem.date !== todaysDate) {
-		  return {
-			...initialValue,
-			releaseDate: gameReleaseDate,
-			date: todaysDate,  // Set today's date here
-		  };
+
+		if (gameReleaseDate) {
+			// If no date is stored or the stored date doesn't match today's date, reset the game state
+			if (!parsedItem?.date || parsedItem.date !== todaysDate) {
+		  		return {
+				...initialValue,
+				releaseDate: gameReleaseDate,
+				date: todaysDate, 
+		  		};
+			}
 		}
   
 		return parsedItem;
@@ -27,7 +29,7 @@ function useLocalStorage(key, initialValue, gameReleaseDate) {
 		return {
 		  ...initialValue,
 		  releaseDate: gameReleaseDate,
-		  date: todaysDate,  // Set today's date here
+		  date: todaysDate,
 		};
 	  }
 	});
