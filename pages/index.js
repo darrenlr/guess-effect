@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Footer from "../components/Footer";
+import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
+import { db } from '../utils/firebase'; 
 
 const initialGameHistory = {
 	wins: 0,

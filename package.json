@@ -19,6 +19,7 @@
     "colorthief": "^2.4.0",
     "contentful": "^10.4.2",
     "fast-average-color": "^9.3.0",
+    "firebase": "^10.13.2",
     "fontsource-vt323": "^4.0.0",
     "next": "13.3.0",
     "react": "18.2.0",

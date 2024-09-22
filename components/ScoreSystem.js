@@ -5,8 +5,11 @@ import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
 import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
-import { stripBrackets } from '../utlis/stringUtils';
+import { stripBrackets } from '../utils/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
+
+import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
+import { db } from '../utils/firebase'; 
 
 const initialGameState = {
 	date: null,
@@ -28,9 +31,37 @@ const initialGameState = {
 		remainingGuessCount: 5,
 		hearts: Array(5).fill("/images/heart.png"),
 	},
+	hasPlayed: false,
 };
 
+const trackPlayer = async () => {
+	const today = new Date().toISOString().split("T")[0];
+	const docRef = doc(db, 'playerCounts', today);
+	const docSnap = await getDoc(docRef);
+  
+	if (docSnap.exists()) {
+	  // Increment the existing count
+	  await updateDoc(docRef, { count: docSnap.data().count + 1 });
+	} else {
+	  // Create a new document for today with count 1
+	  await setDoc(docRef, { count: 1 });
+	}
+  
+	const updatedDoc = await getDoc(docRef);
+	return updatedDoc.data().count;
+  };
 
+  const fetchPlayerCount = async () => {
+	const today = new Date().toISOString().split("T")[0];
+	const docRef = doc(db, "playerCounts", today);
+	const docSnap = await getDoc(docRef);
+  
+	if (docSnap.exists()) {
+	  return docSnap.data().count;
+	}
+
+	return 0;
+  };  
 
 const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isMounted, setIsMounted] = useState(false);
@@ -43,9 +74,17 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
+	const [playerCount, setPlayerCount] = useState(0);
 
 	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
 	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
+
+	useEffect(() => {
+		// Fetch the player count on component mount
+		fetchPlayerCount().then((count) => {
+		  setPlayerCount(count);
+		});
+	  }, []);
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
@@ -69,7 +108,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		return () => clearInterval(intervalId);
 	  }, [currentGameState.hints.points]);
 
-	  useEffect(() => {
+	useEffect(() => {
 		const targetBonus = currentGameState.life.remainingGuessCount * 20;
 		const duration = 200; // Duration of the animation in milliseconds
 		const stepTime = 50; // Interval between updates
@@ -89,8 +128,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		}, stepTime);
 	
 		return () => clearInterval(intervalId);
-	  }, [currentGameState.life.remainingGuessCount]);  
-
+	}, [currentGameState.life.remainingGuessCount]);  
 
 	const gameOverRef = useRef(null);
 
@@ -149,6 +187,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			...initialGameState,
 			releaseDate: game.releaseDate,
 			date: todaysDate,
+			hasPlayed: false,
 		  });
 		} else if (isGameOver) {
 		  setCurrentGameState((prevState) => ({
@@ -241,8 +280,6 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			date: todaysDate,
 			score: finalScore,
 		}]);
-		
-		console.log(currentStreak);
 	
 		setCurrentGameState((prevState) => {
 			const updatedGameState = {
@@ -259,15 +296,16 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				boxArt: 0,
 				points: score,
 			  },
+			  hasPlayed: true,
 			};
 			
 			// Save immediately to localStorage
 			window.localStorage.setItem("CURRENT_GAME_STATE", JSON.stringify(updatedGameState));
 			
 			return updatedGameState;
-		  });
+		});
 	
-		  setGameHistory((prevState) => ({
+		setGameHistory((prevState) => ({
 			...prevState,
 			wins: resetScore ? prevState.wins : prevState.wins + 1,
 			games: prevState.games + 1,
@@ -281,7 +319,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				score: finalScore,
 			  },
 			],
-		  }));
+		}));
+
+		trackPlayer().then((count) => {
+			setPlayerCount(count); 
+		});
 	
 		setModalScore(finalScore);
 		setIsModalVisible(true);
@@ -364,7 +406,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			)}
 			<div className={styles.statsContainer}>
 				<div>
-					<h4>Misses: </h4>
+					<p>Misses: </p>
 					{currentGameState.life.guesses.map((guess, index) => (
 						<p
 							key={index}
@@ -376,6 +418,31 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 							{guess}
 						</p>
 					))}
+				</div>
+				<div>
+					<p
+						style={{
+							fontSize: "0.55rem",
+						}}
+					>
+						Players today: {playerCount}
+					</p>
+					<p
+						style={{
+							marginTop: "1rem",
+							marginBottom: "1rem",
+							fontSize: "0.55rem",
+						}}
+					>
+						Avg score: {playerCount}
+					</p>
+					<p
+						style={{
+							fontSize: "0.55rem",
+						}}
+					>
+						Avg attempts: {playerCount}
+					</p>
 				</div>
 				<div className={styles.stats}>
 					<div className={styles.heartsContainer}>
