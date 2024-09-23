@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
+import usePlayerStats from "../hooks/usePlayerStats";
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
 
-const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, currentStreak, longestStreak, gameWon, onClose }) => {
+const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, globalAverageScore, globalAverageGuesses, globalWinners, playerCount, gameWon, onClose }) => {
 	useEffect(() => {
 		if (show && gameWon) {
 			const confettiAnimation = confetti.create(undefined, {
@@ -26,13 +27,13 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 		<div className={styles.modalOverlay}>
 		  <div className={styles.modal}>
 			<div className={styles.modalContainer}>
-				<h2 style={{ textAlign: 'center' }} className={gameWon ? styles.victory : styles.defeat}>
+				<h1 style={{ textAlign: 'center' }} className={gameWon ? styles.victory : styles.defeat}>
   					{gameWon ? "VICTORY ACHIEVED" : "DEFEATED"}
-				</h2>			
+				</h1>			
 				<p>the game was:</p>
-				<h3 style={{ textAlign: 'center' }}>{gameTitle}</h3>
-			  	<p>Score: {score}</p>
-			  <div className={styles.statsRow}>
+				<h2 style={{ textAlign: 'center' }}>{gameTitle}</h2>
+			  	<h3>Score: {score}</h3>
+			  <div className={styles.statsRow}  style={{ marginBottom: '1.5rem', marginTop: '1rem'}}>
 				<div>
 				  <p>{gamesPlayed}</p>
 				  <span>Played</span>
@@ -50,14 +51,25 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 				  <span>Wins</span>
 				</div>
 			  </div>
+			  <h4>Global stats</h4>
 			  <div className={styles.statsRow}>
 				<div>
-					<p>{currentStreak}</p>
-					<span>Current Streak</span>
+					<p>{globalAverageScore}</p>
+					<span>Avg Score</span>
 				</div>
 				<div>
-					<p>{longestStreak}</p>
-					<span>Longest Streak</span>
+					<p>{globalAverageGuesses}</p>
+					<span>Avg Guesses</span>
+				</div>
+			  </div>
+			  <div className={styles.statsRow}>
+				<div>
+					<p>{globalWinners}</p>
+					<span>Winners</span>
+				</div>
+				<div>
+					<p>{playerCount - globalWinners}</p>
+					<span>Losers</span>
 				</div>
 			  </div>
 			  <button className={styles.closeButton} onClick={onClose}>

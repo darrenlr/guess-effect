@@ -152,31 +152,33 @@ const GameCard = ({
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
+					<div className={styles.hintRow}>
 						<Hint
-							hint="publisher(s)"
+							hint="publishers"
 							data={gameData.hints.publisher}
 							onRevealHint={onRevealHint}
 							points={0}
 							isRevealed={gameState.hints.publisher}
 						/>
 						
-					<Hint
-						hint="developer(s)"
-						data={gameData.hints.developer}
-						onRevealHint={() => handleRevealHint("developer", 20)}
-						points={20}
-						isRevealed={gameState.hints.developer}
-					/>
+						<Hint
+							hint="developers"
+							data={gameData.hints.developer}
+							onRevealHint={() => handleRevealHint("developer", 20)}
+							points={20}
+							isRevealed={gameState.hints.developer}
+						/>
+					</div>
 					<div className={styles.hintRow}>
 						<Hint
-							hint="genre(s)"
+							hint="genres"
 							data={gameData.hints.genre}
 							onRevealHint={() => handleRevealHint("genre", 5)}
 							points={5}
 							isRevealed={gameState.hints.genre}
 						/>
 						<Hint
-							hint="platform(s)"
+							hint="platforms"
 							data={gameData.hints.platforms}
 							onRevealHint={() => handleRevealHint("platforms", 5)}
 							points={5}

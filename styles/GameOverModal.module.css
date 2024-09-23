@@ -13,7 +13,7 @@
   
   .modal {
     box-shadow: 0px 0px 2px #000;
-    background-color: #192734;
+    background-color: #000;
     border: 2px solid #fff;
     border-radius: 8px;
     padding: 1rem;
@@ -79,14 +79,17 @@
   .statsRow div {
     text-align: center;
   }
+
   .statsRow div p {
+    font-family: var(--font-family-main); 
+    font-size: 23px;
     margin-bottom: 0.75em;
   }
   
   .statsRow div span {
-    font-family: var(--font-family); 
+    font-family: var(--font-family-main); 
     color: white;
-    font-size: 13px;
+    font-size: 23px;
   }
 
   .victory {
@@ -98,9 +101,11 @@
   }
 
   @media screen and (max-width: 768px) {
-    .statsRow {
-      display: flex;
-      justify-content: space-evenly;
-      width: 100%; 
+    .statsRow div p {
+      font-size: 18px;
+    }
+    
+    .statsRow div span {
+      font-size: 18px;
     }
   }

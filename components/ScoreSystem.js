@@ -35,23 +35,28 @@ const initialGameState = {
 	hasPlayed: false,
 };
 
-const trackPlayer = async (finalScore, guesses) => {
+const trackPlayer = async (finalScore, usedGuesses, hasWon) => {
 	const today = new Date().toISOString().split("T")[0];
 	const docRef = doc(db, 'playerStats', today);
 	const docSnap = await getDoc(docRef);
+	let winner = hasWon ? 1 : 0;
   
 	if (docSnap.exists()) {
 	  await updateDoc(docRef, { 
 		count: docSnap.data().count + 1 ,
 		totalScore: docSnap.data().totalScore + finalScore,
-		totalGuesses: docSnap.data().totalGuesses + guesses,
+		totalGuesses: docSnap.data().totalGuesses + usedGuesses,
+		totalWinners: docSnap.data().totalWinners + winner,
+		highScore: finalScore > docSnap.data().highScore ? finalScore : docSnap.data().highScore,
 	});
 	} else {
 	  // Create a new document for today with count 1
 	  await setDoc(docRef, { 
 		count: 1,
 		totalScore: finalScore,
-		totalGuesses: guesses,
+		totalGuesses: usedGuesses,
+		totalWinners: winner,
+		highScore: finalScore,
 	});
 	}
   
@@ -67,7 +72,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		game.date
 	);
 	const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
-	const { playerCount, globalAverageScore, globalAverageGuesses } = usePlayerStats(playerStatsUpdated);
+	const { playerCount, globalAverageScore, globalAverageGuesses, globalWinners, globalHighScore } = usePlayerStats(playerStatsUpdated);
 
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
@@ -263,8 +268,10 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const handleGameOver = async (resetScore) => {
 		let score = resetScore ? 0 : currentGameState.hints.points;
 		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
-		let guesses = currentGameState.life.remainingGuessCount;
-	
+		let usedGuesses = resetScore ? 5 : 5 - currentGameState.life.remainingGuessCount;
+
+		usedGuesses = usedGuesses === 0 ? 1 : usedGuesses;	
+
 		setModalScore(finalScore);
 
 		const { currentStreak, longestStreak } = calculateStreaks([...gameHistory.scores, {
@@ -313,7 +320,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			],
 		}));
 
-		await trackPlayer(finalScore, guesses);
+		await trackPlayer(finalScore, usedGuesses, !resetScore);
 
     	setPlayerStatsUpdated(prev => !prev);
 	
@@ -363,6 +370,16 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} region={game.region} />}
+			<div>
+					<p
+						style={{
+							fontSize: "0.55rem",
+							marginBottom: "1rem"
+						}}
+					>
+						Players today: {playerCount}
+					</p>
+				</div>
 			<div className={`${styles.stats} ${styles.statsMobile}`}>
 					<div className={styles.heartsContainer}>
 						{currentGameState.life.hearts.map((heartSrc, index) => (
@@ -411,31 +428,6 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 						</p>
 					))}
 				</div>
-				<div>
-					<p
-						style={{
-							fontSize: "0.55rem",
-						}}
-					>
-						Players today: {playerCount}
-					</p>
-					<p
-						style={{
-							marginTop: "1rem",
-							marginBottom: "1rem",
-							fontSize: "0.55rem",
-						}}
-					>
-						Avg score: {globalAverageScore}
-					</p>
-					<p
-						style={{
-							fontSize: "0.55rem",
-						}}
-					>
-						Avg attempts: {globalAverageGuesses}
-					</p>
-				</div>
 				<div className={styles.stats}>
 					<div className={styles.heartsContainer}>
 						{currentGameState.life.hearts.map((heartSrc, index) => (
@@ -467,8 +459,10 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
   				highestScore={highestScore}
   				averageScore={averageScore}
   				gamesWon={gameHistory.wins}
-				currentStreak={gameHistory.currentStreak}
-				longestStreak={gameHistory.longestStreak}
+				globalAverageScore={globalAverageScore}
+				globalAverageGuesses={globalAverageGuesses}
+				globalWinners={globalWinners}
+				playerCount={playerCount}
 				gameWon={currentGameState.life.remainingGuessCount !== 0}
 				onClose={() => setIsModalVisible(false)}
 			/>

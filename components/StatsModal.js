@@ -14,7 +14,7 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 			<div className={styles.modalContainer}>
 			  <h3>Stats</h3>
 			  <div className={styles.statsRow}>
-			  	<div>
+				<div>
 				  <p>{highestScore}</p>
 				  <span>High Score</span>
 				</div>
@@ -36,7 +36,7 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 			  <div className={styles.statsRow}>
 				<div>
 					<p>{currentStreak}</p>
-					<span>Current Streak</span>
+					<span>Streak</span>
 				</div>
 				<div>
 					<p>{longestStreak}</p>
