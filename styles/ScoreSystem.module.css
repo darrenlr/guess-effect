@@ -30,6 +30,24 @@
   justify-content: center;
 }
 
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.players p {
+  font-size: 1rem;
+  font-family: var(--font-family-main);
+}
+
+.playersMobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
 .heartsContainer {
 	display: flex;
 	justify-content: center;
@@ -92,4 +110,14 @@
     margin-bottom: 1rem;
     display: flex;
   }
+
+  .players {
+    display: none;
+  }
+
+  .playersMobile {
+    margin-top: 1rem;
+    display: flex;
+  }
+  
 }

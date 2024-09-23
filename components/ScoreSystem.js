@@ -370,16 +370,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} region={game.region} />}
-			<div>
-					<p
-						style={{
-							fontSize: "0.55rem",
-							marginBottom: "1rem"
-						}}
-					>
-						Players today: {playerCount}
-					</p>
-				</div>
+			<div className={styles.players}>
+				<p>
+					Players today: {playerCount}
+				</p>
+			</div>
 			<div className={`${styles.stats} ${styles.statsMobile}`}>
 					<div className={styles.heartsContainer}>
 						{currentGameState.life.hearts.map((heartSrc, index) => (
@@ -413,6 +408,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 					isGameOver={isGameOver}
 				/>
 			)}
+			<div className={`${styles.players} ${styles.playersMobile}`}>
+				<p>
+						Players today: {playerCount}
+					</p>
+				</div>
 			<div className={styles.statsContainer}>
 				<div>
 					<p>Misses: </p>
