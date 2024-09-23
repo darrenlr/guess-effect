@@ -34,33 +34,44 @@ const initialGameState = {
 	hasPlayed: false,
 };
 
-const trackPlayer = async () => {
+const trackPlayer = async (finalScore, guesses) => {
 	const today = new Date().toISOString().split("T")[0];
-	const docRef = doc(db, 'playerCounts', today);
+	const docRef = doc(db, 'playerStats', today);
 	const docSnap = await getDoc(docRef);
   
 	if (docSnap.exists()) {
-	  // Increment the existing count
-	  await updateDoc(docRef, { count: docSnap.data().count + 1 });
+	  await updateDoc(docRef, { 
+		count: docSnap.data().count + 1 ,
+		totalScore: docSnap.data().totalScore + finalScore,
+		totalGuesses: docSnap.data().totalGuesses + guesses,
+	});
 	} else {
 	  // Create a new document for today with count 1
-	  await setDoc(docRef, { count: 1 });
+	  await setDoc(docRef, { 
+		count: 1,
+		totalScore: finalScore,
+		totalGuesses: guesses,
+	});
 	}
   
 	const updatedDoc = await getDoc(docRef);
 	return updatedDoc.data().count;
   };
 
-  const fetchPlayerCount = async () => {
+  const fetchPlayerStats = async () => {
 	const today = new Date().toISOString().split("T")[0];
-	const docRef = doc(db, "playerCounts", today);
+	const docRef = doc(db, "playerStats", today);
 	const docSnap = await getDoc(docRef);
   
 	if (docSnap.exists()) {
-	  return docSnap.data().count;
+		const { count, totalScore, totalGuesses } = docSnap.data();
+		const averageScore = count > 0 ? totalScore / count : 0;
+		const averageGuesses = count > 0 ? totalGuesses / count : 0;
+
+		return { count, averageScore, averageGuesses };
 	}
 
-	return 0;
+	return { count: 0, averageScore: 0, averageGuesses: 0 };
   };  
 
 const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
@@ -75,16 +86,19 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
 	const [playerCount, setPlayerCount] = useState(0);
+	const [globalAverageScore, setGlobalAverageScore] = useState(0);
+	const [globalAverageGuesses, setGlobalAverageGuesses] = useState(0);
 
 	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
 	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
 
 	useEffect(() => {
-		// Fetch the player count on component mount
-		fetchPlayerCount().then((count) => {
+		fetchPlayerStats().then(({ count, averageScore, averageGuesses }) => {
 		  setPlayerCount(count);
+		  setGlobalAverageScore(Math.round(averageScore));
+		  setGlobalAverageGuesses(Math.round(averageGuesses));
 		});
-	  }, []);
+	}, []);
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
@@ -272,6 +286,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const handleGameOver = (resetScore) => {
 		let score = resetScore ? 0 : currentGameState.hints.points;
 		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
+		let guesses = currentGameState.life.remainingGuessCount;
 	
 		setModalScore(finalScore);
 
@@ -321,8 +336,13 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			],
 		}));
 
-		trackPlayer().then((count) => {
+		trackPlayer(finalScore, guesses).then((count) => {
 			setPlayerCount(count); 
+
+			fetchPlayerStats().then(({ averageScore, averageGuesses }) => {
+				setGlobalAverageScore(Math.round(averageScore));
+				setGlobalAverageGuesses(Math.round(averageGuesses));
+			  });
 		});
 	
 		setModalScore(finalScore);
@@ -434,14 +454,14 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 							fontSize: "0.55rem",
 						}}
 					>
-						Avg score: {playerCount}
+						Avg score: {globalAverageScore}
 					</p>
 					<p
 						style={{
 							fontSize: "0.55rem",
 						}}
 					>
-						Avg attempts: {playerCount}
+						Avg attempts: {globalAverageGuesses}
 					</p>
 				</div>
 				<div className={styles.stats}>
