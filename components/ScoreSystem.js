@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
 import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
+import usePlayerStats from "../hooks/usePlayerStats";
 import { stripBrackets } from '../utils/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
 
@@ -58,22 +59,6 @@ const trackPlayer = async (finalScore, guesses) => {
 	return updatedDoc.data().count;
   };
 
-  const fetchPlayerStats = async () => {
-	const today = new Date().toISOString().split("T")[0];
-	const docRef = doc(db, "playerStats", today);
-	const docSnap = await getDoc(docRef);
-  
-	if (docSnap.exists()) {
-		const { count, totalScore, totalGuesses } = docSnap.data();
-		const averageScore = count > 0 ? totalScore / count : 0;
-		const averageGuesses = count > 0 ? totalGuesses / count : 0;
-
-		return { count, averageScore, averageGuesses };
-	}
-
-	return { count: 0, averageScore: 0, averageGuesses: 0 };
-  };  
-
 const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isMounted, setIsMounted] = useState(false);
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
@@ -81,24 +66,16 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		initialGameState,
 		game.date
 	);
+	const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
+	const { playerCount, globalAverageScore, globalAverageGuesses } = usePlayerStats(playerStatsUpdated);
+
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
-	const [playerCount, setPlayerCount] = useState(0);
-	const [globalAverageScore, setGlobalAverageScore] = useState(0);
-	const [globalAverageGuesses, setGlobalAverageGuesses] = useState(0);
 
 	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
 	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
-
-	useEffect(() => {
-		fetchPlayerStats().then(({ count, averageScore, averageGuesses }) => {
-		  setPlayerCount(count);
-		  setGlobalAverageScore(Math.round(averageScore));
-		  setGlobalAverageGuesses(Math.round(averageGuesses));
-		});
-	}, []);
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
@@ -283,7 +260,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		gameOverRef.current = triggerGameOver;
 	}, []);
 
-	const handleGameOver = (resetScore) => {
+	const handleGameOver = async (resetScore) => {
 		let score = resetScore ? 0 : currentGameState.hints.points;
 		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
 		let guesses = currentGameState.life.remainingGuessCount;
@@ -336,14 +313,9 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			],
 		}));
 
-		trackPlayer(finalScore, guesses).then((count) => {
-			setPlayerCount(count); 
+		await trackPlayer(finalScore, guesses);
 
-			fetchPlayerStats().then(({ averageScore, averageGuesses }) => {
-				setGlobalAverageScore(Math.round(averageScore));
-				setGlobalAverageGuesses(Math.round(averageGuesses));
-			  });
-		});
+    	setPlayerStatsUpdated(prev => !prev);
 	
 		setModalScore(finalScore);
 		setIsModalVisible(true);
