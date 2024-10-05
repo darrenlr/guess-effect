@@ -29,8 +29,8 @@ const initialGameState = {
 	},
 	life: {
 		guesses: [],
-		remainingGuessCount: 5,
-		hearts: Array(5).fill("/images/heart.png"),
+		remainingGuessCount: 4,
+		hearts: Array(4).fill("/images/heart.png"),
 	},
 	hasPlayed: false,
 };
@@ -80,7 +80,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [modalScore, setModalScore] = useState(null);
 
 	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
-	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
+	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 25);
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
@@ -105,7 +105,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	  }, [currentGameState.hints.points]);
 
 	useEffect(() => {
-		const targetBonus = currentGameState.life.remainingGuessCount * 20;
+		const targetBonus = currentGameState.life.remainingGuessCount * 25;
 		const duration = 200; // Duration of the animation in milliseconds
 		const stepTime = 50; // Interval between updates
 		const bonusDifference = targetBonus - animatedBonus;
@@ -231,7 +231,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	  }, [game, currentGameState.releaseDate, gameHistory.scores]);	  
 
 	useEffect(() => {
-		const updatedHearts = Array.from({ length: 5 }, (_, index) =>
+		const updatedHearts = Array.from({ length: 4 }, (_, index) =>
 			index < currentGameState.life.remainingGuessCount
 				? "/images/heart.png"
 				: "/images/heart-black.png"
@@ -258,7 +258,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		setIsModalVisible(isGameOver);
-		setModalScore(currentGameState.hints.points + (currentGameState.life.remainingGuessCount * 20));
+		setModalScore(currentGameState.hints.points + (currentGameState.life.remainingGuessCount * 25));
 	}, [isGameOver]);
 
 	useEffect(() => {
@@ -267,8 +267,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	const handleGameOver = async (resetScore) => {
 		let score = resetScore ? 0 : currentGameState.hints.points;
-		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
-		let usedGuesses = resetScore ? 5 : 5 - currentGameState.life.remainingGuessCount;
+		let finalScore = score + (currentGameState.life.remainingGuessCount * 25);
+		let usedGuesses = resetScore ? 4 : 4 - currentGameState.life.remainingGuessCount;
 
 		usedGuesses = usedGuesses === 0 ? 1 : usedGuesses;	
 
@@ -429,24 +429,32 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 					))}
 				</div>
 				<div className={styles.stats}>
-					<div className={styles.heartsContainer}>
-						{currentGameState.life.hearts.map((heartSrc, index) => (
-							<Image
-								key={index}
-								src={heartSrc}
-								alt="Heart"
-								width={30}
-								height={30}
-								className={
-									isWrongGuess &&
-									index === currentGameState.life.remainingGuessCount
-										? styles.blink
-										: ""
-								}
-							/>
-						))}
+					<div className={styles.heartsWrapper}>
+						<div className={styles.heartsContainer}>
+							{currentGameState.life.hearts.map((heartSrc, index) => (
+								<Image
+									key={index}
+									src={heartSrc}
+									alt="Heart"
+									width={30}
+									height={30}
+									className={
+										isWrongGuess &&
+										index === currentGameState.life.remainingGuessCount
+											? styles.blink
+											: ""
+									}
+								/>
+							))}
+						</div>
+						{/* <p
+							style={{
+								fontSize: "0.8rem",
+							}}
+						>
+							(x25)
+						</p> */}
 					</div>
-
 					<p>Bonus: {Math.round(animatedBonus)}</p>
 					<p>Score: {Math.round(animatedScore)}</p>
 				</div>
