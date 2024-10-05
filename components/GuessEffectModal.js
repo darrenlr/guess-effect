@@ -13,9 +13,13 @@ const GuessEffectModal = ({ closeModal }) => {
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
 					<h3>Guess Effect</h3>
-					<div>• Guess the video based on the original release date.</div>
-					<div>• Trade points to reveal hints</div>
-					<div>• Game ends after 5 incorrect guesses</div>
+					<ul className={styles.help}>
+						<li>Guess the videogame based on the initial release date (the earliest release date, considering staggered regional launches).</li>
+						<li>Trade points to reveal hints, including platforms (considering the first platform the game was released on globally).</li>
+						<li>Recieve bonus points for making fewer guesses.</li>
+						<li>The game ends after 4 incorrect guesses.</li>
+					</ul>
+				
 				</div>
 			</div>
 		</div>

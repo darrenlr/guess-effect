@@ -5,8 +5,12 @@ import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
 import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
-import { stripBrackets } from '../utlis/stringUtils';
+import usePlayerStats from "../hooks/usePlayerStats";
+import { stripBrackets } from '../utils/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
+
+import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
+import { db } from '../utils/firebase'; 
 
 const initialGameState = {
 	date: null,
@@ -25,12 +29,40 @@ const initialGameState = {
 	},
 	life: {
 		guesses: [],
-		remainingGuessCount: 5,
-		hearts: Array(5).fill("/images/heart.png"),
+		remainingGuessCount: 4,
+		hearts: Array(4).fill("/images/heart.png"),
 	},
+	hasPlayed: false,
 };
 
-
+const trackPlayer = async (finalScore, usedGuesses, hasWon) => {
+	const today = new Date().toISOString().split("T")[0];
+	const docRef = doc(db, 'playerStats', today);
+	const docSnap = await getDoc(docRef);
+	let winner = hasWon ? 1 : 0;
+  
+	if (docSnap.exists()) {
+	  await updateDoc(docRef, { 
+		count: docSnap.data().count + 1 ,
+		totalScore: docSnap.data().totalScore + finalScore,
+		totalGuesses: docSnap.data().totalGuesses + usedGuesses,
+		totalWinners: docSnap.data().totalWinners + winner,
+		highScore: finalScore > docSnap.data().highScore ? finalScore : docSnap.data().highScore,
+	});
+	} else {
+	  // Create a new document for today with count 1
+	  await setDoc(docRef, { 
+		count: 1,
+		totalScore: finalScore,
+		totalGuesses: usedGuesses,
+		totalWinners: winner,
+		highScore: finalScore,
+	});
+	}
+  
+	const updatedDoc = await getDoc(docRef);
+	return updatedDoc.data().count;
+  };
 
 const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [isMounted, setIsMounted] = useState(false);
@@ -39,13 +71,16 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		initialGameState,
 		game.date
 	);
+	const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
+	const { playerCount, globalAverageScore, globalAverageGuesses, globalWinners, globalHighScore } = usePlayerStats(playerStatsUpdated);
+
 	const [isWrongGuess, setIsWrongGuess] = useState(false);
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
 	const [modalScore, setModalScore] = useState(null);
 
 	const [animatedScore, setAnimatedScore] = useState(currentGameState.hints.points);
-	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 20);
+	const [animatedBonus, setAnimatedBonus] = useState(currentGameState.life.remainingGuessCount * 25);
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
@@ -69,8 +104,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		return () => clearInterval(intervalId);
 	  }, [currentGameState.hints.points]);
 
-	  useEffect(() => {
-		const targetBonus = currentGameState.life.remainingGuessCount * 20;
+	useEffect(() => {
+		const targetBonus = currentGameState.life.remainingGuessCount * 25;
 		const duration = 200; // Duration of the animation in milliseconds
 		const stepTime = 50; // Interval between updates
 		const bonusDifference = targetBonus - animatedBonus;
@@ -89,8 +124,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		}, stepTime);
 	
 		return () => clearInterval(intervalId);
-	  }, [currentGameState.life.remainingGuessCount]);  
-
+	}, [currentGameState.life.remainingGuessCount]);  
 
 	const gameOverRef = useRef(null);
 
@@ -149,6 +183,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			...initialGameState,
 			releaseDate: game.releaseDate,
 			date: todaysDate,
+			hasPlayed: false,
 		  });
 		} else if (isGameOver) {
 		  setCurrentGameState((prevState) => ({
@@ -196,7 +231,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	  }, [game, currentGameState.releaseDate, gameHistory.scores]);	  
 
 	useEffect(() => {
-		const updatedHearts = Array.from({ length: 5 }, (_, index) =>
+		const updatedHearts = Array.from({ length: 4 }, (_, index) =>
 			index < currentGameState.life.remainingGuessCount
 				? "/images/heart.png"
 				: "/images/heart-black.png"
@@ -223,17 +258,20 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		setIsModalVisible(isGameOver);
-		setModalScore(currentGameState.hints.points + (currentGameState.life.remainingGuessCount * 20));
+		setModalScore(currentGameState.hints.points + (currentGameState.life.remainingGuessCount * 25));
 	}, [isGameOver]);
 
 	useEffect(() => {
 		gameOverRef.current = triggerGameOver;
 	}, []);
 
-	const handleGameOver = (resetScore) => {
+	const handleGameOver = async (resetScore) => {
 		let score = resetScore ? 0 : currentGameState.hints.points;
-		let finalScore = score + (currentGameState.life.remainingGuessCount * 20);
-	
+		let finalScore = score + (currentGameState.life.remainingGuessCount * 25);
+		let usedGuesses = resetScore ? 4 : 4 - currentGameState.life.remainingGuessCount;
+
+		usedGuesses = usedGuesses === 0 ? 1 : usedGuesses;	
+
 		setModalScore(finalScore);
 
 		const { currentStreak, longestStreak } = calculateStreaks([...gameHistory.scores, {
@@ -241,8 +279,6 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 			date: todaysDate,
 			score: finalScore,
 		}]);
-		
-		console.log(currentStreak);
 	
 		setCurrentGameState((prevState) => {
 			const updatedGameState = {
@@ -259,15 +295,16 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				boxArt: 0,
 				points: score,
 			  },
+			  hasPlayed: true,
 			};
 			
 			// Save immediately to localStorage
 			window.localStorage.setItem("CURRENT_GAME_STATE", JSON.stringify(updatedGameState));
 			
 			return updatedGameState;
-		  });
+		});
 	
-		  setGameHistory((prevState) => ({
+		setGameHistory((prevState) => ({
 			...prevState,
 			wins: resetScore ? prevState.wins : prevState.wins + 1,
 			games: prevState.games + 1,
@@ -281,7 +318,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				score: finalScore,
 			  },
 			],
-		  }));
+		}));
+
+		await trackPlayer(finalScore, usedGuesses, !resetScore);
+
+    	setPlayerStatsUpdated(prev => !prev);
 	
 		setModalScore(finalScore);
 		setIsModalVisible(true);
@@ -329,6 +370,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	return isMounted ? (
 		<div className={styles.container}>
 			{game && <ReleaseDate date={game.releaseDate} region={game.region} />}
+			{/* <div className={styles.players}>
+				<p>
+					Players today: {playerCount}
+				</p>
+			</div> */}
 			<div className={`${styles.stats} ${styles.statsMobile}`}>
 					<div className={styles.heartsContainer}>
 						{currentGameState.life.hearts.map((heartSrc, index) => (
@@ -362,9 +408,14 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 					isGameOver={isGameOver}
 				/>
 			)}
+			{/* <div className={`${styles.players} ${styles.playersMobile}`}>
+				<p>
+						Players today: {playerCount}
+				</p>
+			</div> */}
 			<div className={styles.statsContainer}>
 				<div>
-					<h4>Misses: </h4>
+					<p>Misses: </p>
 					{currentGameState.life.guesses.map((guess, index) => (
 						<p
 							key={index}
@@ -378,24 +429,32 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 					))}
 				</div>
 				<div className={styles.stats}>
-					<div className={styles.heartsContainer}>
-						{currentGameState.life.hearts.map((heartSrc, index) => (
-							<Image
-								key={index}
-								src={heartSrc}
-								alt="Heart"
-								width={30}
-								height={30}
-								className={
-									isWrongGuess &&
-									index === currentGameState.life.remainingGuessCount
-										? styles.blink
-										: ""
-								}
-							/>
-						))}
+					<div className={styles.heartsWrapper}>
+						<div className={styles.heartsContainer}>
+							{currentGameState.life.hearts.map((heartSrc, index) => (
+								<Image
+									key={index}
+									src={heartSrc}
+									alt="Heart"
+									width={30}
+									height={30}
+									className={
+										isWrongGuess &&
+										index === currentGameState.life.remainingGuessCount
+											? styles.blink
+											: ""
+									}
+								/>
+							))}
+						</div>
+						{/* <p
+							style={{
+								fontSize: "0.8rem",
+							}}
+						>
+							(x25)
+						</p> */}
 					</div>
-
 					<p>Bonus: {Math.round(animatedBonus)}</p>
 					<p>Score: {Math.round(animatedScore)}</p>
 				</div>
@@ -408,8 +467,10 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
   				highestScore={highestScore}
   				averageScore={averageScore}
   				gamesWon={gameHistory.wins}
-				currentStreak={gameHistory.currentStreak}
-				longestStreak={gameHistory.longestStreak}
+				globalAverageScore={globalAverageScore}
+				globalAverageGuesses={globalAverageGuesses}
+				globalWinners={globalWinners}
+				playerCount={playerCount}
 				gameWon={currentGameState.life.remainingGuessCount !== 0}
 				onClose={() => setIsModalVisible(false)}
 			/>
