@@ -48,12 +48,12 @@ const GameCard = ({
 		let hintPenalty;
 	
 		if (firstClick) {
-			newBlurAmount = Math.max(0, blurAmount - 22);
-			hintPenalty = 10;
+			newBlurAmount = Math.max(0, blurAmount - 20);
+			hintPenalty = 5;
 			setFirstClick(false);
 		} else {
-			newBlurAmount = Math.max(0, blurAmount - 8);
-			hintPenalty = 15;
+			newBlurAmount = Math.max(0, blurAmount - 7);
+			hintPenalty = 10;
 		}
 	
 		setBlurAmount(newBlurAmount);
@@ -145,10 +145,10 @@ const GameCard = ({
 						</div>
 					</div>
 					<button
-						className={`hintButton ${blurAmount <= 10 ? styles.hidden : ""}`}
-						onClick={blurAmount > 10 ? reduceBlur : null}
+						className={`hintButton ${blurAmount <= 13 ? styles.hidden : ""}`}
+						onClick={blurAmount > 13 ? reduceBlur : null}
 					>
-						{blurAmount > 17 && firstClick ? "Clear Heavy Smog (-10)" : (blurAmount > 10 ? "Clear Smog (-15)" : "")}
+						{blurAmount > 19 && firstClick ? "Clear Heavy Smog (-5)" : (blurAmount > 13 ? "Clear Smog (-10)" : "")}
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
@@ -211,8 +211,8 @@ const GameCard = ({
 					<Hint
 						hint="plot"
 						data={gameData.hints.plot}
-						onRevealHint={() => handleRevealHint("plot", 40)}
-						points={40}
+						onRevealHint={() => handleRevealHint("plot", 50)}
+						points={50}
 						isRevealed={gameState.hints.plot}
 					/>
 					{!isGameOver && (
