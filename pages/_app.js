@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <SpeedInsights />
       <Analytics />
-      <AdSense adSlot="7606066193" />
+      {/* <AdSense adSlot="7606066193" /> */}
     </>
   )
 }
