@@ -1,16 +1,39 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import usePlayerStats from "../hooks/usePlayerStats";
+import ShareButton from "./ShareButton";
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
 
-const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, averageScore, gamesWon, globalAverageScore, globalAverageGuesses, globalWinners, playerCount, gameWon, onClose }) => {
+const GameOverModal = ({ 
+	show, 
+	gameTitle, 
+	score, 
+	gamesPlayed, 
+	highestScore, 
+	averageScore, 
+	gamesWon,
+	remainingGuesses,
+	releaseDate, 
+	globalAverageScore, 
+	globalAverageGuesses, 
+	globalWinners, 
+	playerCount, 
+	gameWon,
+	onClose, 
+}) => {
 	const [animatedScore, setAnimatedScore] = useState(0);
 	const [isScoreAnimationDone, setIsScoreAnimationDone] = useState(false);
 	const [highestScoreScale, setHighestScoreScale] = useState(1);
 
+	const handleClickOutside = (event) => {
+		if (event.target.className === styles.modalOverlay) {
+			onClose();
+		}
+	};
+
 	useEffect(() => {
         if (show) {
-            const duration = 10000; 
+            const duration = 5000; 
             const increment = score / (duration / 100); 
             let currentScore = 0;
 
@@ -66,13 +89,12 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
         }
     }, [isScoreAnimationDone, show, gameWon, score, highestScore]);
 
-
 	if (! show) {
 		return null;
 	}
 
 	return (
-		<div className={styles.modalOverlay}>
+		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
 			<div className={styles.modalContainer}>
 				<h1 style={{ textAlign: 'center' }} className={gameWon ? styles.victory : styles.defeat}>
@@ -120,9 +142,11 @@ const GameOverModal = ({ show, gameTitle, score, gamesPlayed, highestScore, aver
 					<span>Losers</span>
 				</div>
 			  </div>
-			  <button className={styles.closeButton} onClick={onClose}>
-				Close
-			  </button>
+			  <ShareButton
+			  	score={score}
+				remainingGuesses={remainingGuesses}
+				releaseDate={releaseDate}
+			  />
 			</div>
 		  </div>
 		</div>

@@ -44,23 +44,6 @@
     gap: 2rem;
   }
   
-  .closeButton {
-    background-color: #fff;
-    cursor: pointer;
-    color: #282c34;
-    font-weight: 600;
-    font-size: calc(10px + 0.3vmin);
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-family: var(--font-family);
-    text-align: center;
-    transition: background-color 0.2s ease;
-  }
-  
-  .closeButton:hover {
-    background-color: #b0b0b0;
-  }
-
   .confettiContainer {
     position: absolute;
     top: 0;
