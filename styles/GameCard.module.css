@@ -44,8 +44,7 @@
 .hintRow {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -140,6 +139,7 @@
   .hintRow {
     display: block;
     margin-bottom: 0;
+    flex-wrap: wrap;
   }
 
   .hintButton {
