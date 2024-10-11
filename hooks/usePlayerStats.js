@@ -2,6 +2,16 @@ import { useState, useEffect } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../utils/firebase';
 
+const getCollectionName = () => {
+  const branch = process.env.NEXT_PUBLIC_BRANCH || 'main'; 
+
+  if (branch === 'release') {
+    return "playerStats-release";
+  }
+
+  return "playerStats";
+};
+
 const usePlayerStats = (triggerUpdate) => {
   const [playerCount, setPlayerCount] = useState(0);
   const [globalAverageScore, setGlobalAverageScore] = useState(0);
@@ -10,8 +20,10 @@ const usePlayerStats = (triggerUpdate) => {
   const [globalHighScore, setGlobalHighScore] = useState(0);
 
   const fetchPlayerStats = async () => {
+    const collectionName = getCollectionName();
+
     const today = new Date().toISOString().split("T")[0];
-    const docRef = doc(db, "playerStats", today);
+    const docRef = doc(db, collectionName, today);
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {

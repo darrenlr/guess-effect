@@ -12,17 +12,27 @@ import styles from "../styles/ScoreSystem.module.css";
 import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
 import { db } from '../utils/firebase'; 
 
+const getCollectionName = () => {
+	const branch = process.env.NEXT_PUBLIC_BRANCH || 'main'; 
+  
+	if (branch === 'release') {
+	  return "playerStats-release";
+	}
+  
+	return "playerStats";
+  };
+
 const initialGameState = {
 	date: null,
 	releaseDate: "",
 	hints: {
-		publisher: true,
+		publisher: false,
 		developer: false,
 		genre: false,
 		platforms: false,
 		modes: true,
 		engine: true,
-		metacritic: false,
+		metacritic: true,
 		plot: false,
 		boxArt: 40,
 		points: 100,
@@ -36,8 +46,9 @@ const initialGameState = {
 };
 
 const trackPlayer = async (finalScore, usedGuesses, hasWon) => {
+	const collectionName = getCollectionName();
 	const today = new Date().toISOString().split("T")[0];
-	const docRef = doc(db, 'playerStats', today);
+	const docRef = doc(db, collectionName, today);
 	const docSnap = await getDoc(docRef);
 	let winner = hasWon ? 1 : 0;
   

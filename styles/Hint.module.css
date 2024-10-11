@@ -26,33 +26,9 @@
 }
 
 .hintButton {
-  height: 100%;
-  max-width: 100%;
-  text-align: center;
-  background-color: #eeeeee;
-  border: 2px solid #2c2c2c;
-  color: #2c2c2c;
-  font-family: var(--font-family);
-  font-size: 12px;
-  text-shadow: 1px 1px 0 #808080;
-  box-shadow: inset -2px -2px 0 #808080;
-  padding: 8px;
-  cursor: pointer;
-  outline: none;
-}
-
-.hintButton:hover {
-  background-color: #c7c5c5;
-  box-shadow: inset 0 0 0 #919191;
-  transform: translate(1px, 1px);
-}
-
-.hintButton:disabled {
-  background-color: #808080;
-  border-color: #404040;
-  text-shadow: 1px 1px 0 #404040;
-  box-shadow: 2px 2px 0 #404040, 3px 3px 0 #404040, 4px 4px 0 #404040;
-  cursor: not-allowed;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 767px) {
@@ -63,7 +39,7 @@
   }
 
   .hintKey {
-    flex: 0 0 40%;
+    flex: 0 0 35%;
   }
 
   .hintKeyPlot {

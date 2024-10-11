@@ -7,11 +7,11 @@ export default function handler(req, res) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const gameData = JSON.parse(fileContent);
 
-    const { date } = req.query;
+    const date = req.query.date || new Date().toISOString().split('T')[0];
 
     const gameInfo = gameData.find((game) => game.date === date);
 
-    if (!gameInfo) {
+    if (! gameInfo) {
       return res.status(404).json({ error: 'Game not found' });
     }
 

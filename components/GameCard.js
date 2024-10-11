@@ -152,23 +152,20 @@ const GameCard = ({
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
-					<div className={styles.hintRow}>
-						<Hint
-							hint="publishers"
-							data={gameData.hints.publisher}
-							onRevealHint={onRevealHint}
-							points={0}
-							isRevealed={gameState.hints.publisher}
-						/>
-						
-						<Hint
-							hint="developers"
-							data={gameData.hints.developer}
-							onRevealHint={() => handleRevealHint("developer", 20)}
-							points={20}
-							isRevealed={gameState.hints.developer}
-						/>
-					</div>
+					<Hint
+						hint="publishers"
+						data={gameData.hints.publisher}
+						onRevealHint={() => handleRevealHint("publisher", 20)}
+						points={20}
+						isRevealed={gameState.hints.publisher}
+					/>
+					<Hint
+						hint="developers"
+						data={gameData.hints.developer}
+						onRevealHint={() => handleRevealHint("developer", 20)}
+						points={20}
+						isRevealed={gameState.hints.developer}
+					/>
 					<div className={styles.hintRow}>
 						<Hint
 							hint="genres"
@@ -204,15 +201,15 @@ const GameCard = ({
 					<Hint
 						hint="metacritic"
 						data={gameData.hints.metacritic}
-						onRevealHint={() => handleRevealHint("metacritic", 5)}
-						points={5}
+						onRevealHint={onRevealHint}
+						points={0}
 						isRevealed={gameState.hints.metacritic}
 					/>
 					<Hint
 						hint="plot"
 						data={gameData.hints.plot}
-						onRevealHint={() => handleRevealHint("plot", 50)}
-						points={50}
+						onRevealHint={() => handleRevealHint("plot", 40)}
+						points={40}
 						isRevealed={gameState.hints.plot}
 					/>
 					{!isGameOver && (
