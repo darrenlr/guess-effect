@@ -478,6 +478,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
   				highestScore={highestScore}
   				averageScore={averageScore}
   				gamesWon={gameHistory.wins}
+				remainingGuesses={currentGameState.life.remainingGuessCount}
+				releaseDate={game.releaseDate}
 				globalAverageScore={globalAverageScore}
 				globalAverageGuesses={globalAverageGuesses}
 				globalWinners={globalWinners}
