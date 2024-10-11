@@ -58,9 +58,11 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
         <div>{renderData()}</div>
       ) : (
         <>
-          <button className="hintButton" onClick={revealHint}>
-            Reveal (-{points})
-          </button>
+          <div className={styles.hintButton}>
+            <button className="hintButton" onClick={revealHint}>
+              Reveal (-{points})
+            </button>
+          </div>
         </>
       )}
     </div>

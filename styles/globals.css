@@ -25,7 +25,6 @@ h1, h2, h3, h4, p {
 }
 
 .hintButton {
-  height: 100%;
   width: 100%;
   text-align: center;
   background-color: #eeeeee;
@@ -35,7 +34,7 @@ h1, h2, h3, h4, p {
   font-size: 12px;
   text-shadow: 1px 1px 0 #808080;
   box-shadow: inset -2px -2px 0 #808080;
-  padding: 8px;
+  padding: 8px 1px;
   transition: all 0.1s ease-out;
   cursor: pointer;
   outline: none;
