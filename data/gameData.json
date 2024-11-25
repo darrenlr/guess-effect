@@ -1,104 +1,1540 @@
 [
   {
-    "date": "2024-10-11",
+    "date": "2024-11-25",
     "region": "NA",
     "releaseDate": "2006-07-11",
-    "title": "Prey",
+    "title": "Prey (2006)",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co55mn.webp",
     "hints": {
-      "publisher": ["2k Games"],
-      "developer": ["Human Head Studios"],
-      "genre": ["FPS", "Action", "Puzzle"],
-      "platforms": ["Xbox 360", "PC"],
-      "modes": ["Single-player", "Multiplayer"],
+      "publisher": [
+        "2k Games"
+      ],
+      "developer": [
+        "Human Head Studios"
+      ],
+      "genre": [
+        "FPS",
+        "Action",
+        "Puzzle"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
       "engine": "id Tech 4",
       "metacritic": 79,
       "plot": "**** tells the story of Tommy, a Cherokee garage mechanic stuck on a reservation going nowhere. Abducted along with his people to a menacing mothership orbiting Earth, he sets out to save himself and his girlfriend and eventually his planet."
     }
   },
   {
-    "date": "2024-10-12",
+    "date": "2024-11-26",
     "region": "NA/EU",
     "releaseDate": "2001-07-23",
     "title": "Max Payne",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wb2.webp",
     "hints": {
-      "publisher": ["Gathering of Developers"],
-      "developer": ["Remedy Entertainment"],
-      "genre": ["Third-person shooter"],
-      "platforms": ["PC"],
-      "modes": ["Single-player", "Multiplayer"],
+      "publisher": [
+        "Gathering of Developers"
+      ],
+      "developer": [
+        "Remedy Entertainment"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
       "engine": "MAX-FX",
       "metacritic": 89,
       "plot": "In December 2001, as New York City is enduring the tail end of the worst snow blizzard in the history of the city, *** *****, a renegade DEA agent and former NYPD detective, is standing at the top of a skyscraper with a sniper rifle in his hands, smiling, as police units arrive on the scene to arrest him. He then experiences flashbacks from three years ago and the last two days he experienced. Three years earlier, on August 22nd 1998, Max was working as a regular NYPD detective, having just finished his day's work. His longtime friend and DEA agent, Alex Balder, invites him to transfer into the DEA, but Max declines the offer, wanting to focus on his full-time life with his wife, Michelle, and their newborn daughter, Rose. As he returns to his house in New Jersey, he finds that a trio of junkies had broken into his house, all addicted on a brand new designer drug, Valkyr. Max receives a call from a mysterious woman who seems pleased at the trouble in the house and refuses to call for help. Max rushes to aid his family and kill the junkies, but is too late as he finds his wife shot dead, and his daughter slaughtered. After his family's funeral, Payne accepts Alex's offer, and transfers to the DEA at his own request to stop the spreading of the drugs."
     }
   },
   {
-    "date": "2024-10-13",
+    "date": "2024-11-27",
     "region": "WW",
     "releaseDate": "2016-02-25",
     "title": "Stardew Valley",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.webp",
     "hints": {
-      "publisher": ["Concerned Ape", "Chucklefish"],
-      "developer": ["Concerned Ape", "Chucklefish"],
-      "genre": ["RPG", "Indie", "Simulation"],
-      "platforms": ["PC"],
-      "modes": ["Single-player"],
+      "publisher": [
+        "Concerned Ape",
+        "Chucklefish"
+      ],
+      "developer": [
+        "Concerned Ape",
+        "Chucklefish"
+      ],
+      "genre": [
+        "RPG",
+        "Indie",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
       "engine": "Microsoft XNA",
       "metacritic": 76,
-      "plot": "You, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you. Your only human connection is over a handheld radio, which you’ll use to speak with your supervisor Delilah about the things both of you are experiencing."
+      "plot": "You, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you. Your only human connection is over a handheld radio, which youll use to speak with your supervisor Delilah about the things both of you are experiencing."
     }
   },
   {
-    "date": "2024-10-14",
+    "date": "2024-11-28",
     "region": "WW",
     "releaseDate": "2019-11-08",
     "title": "Death Stranding",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5vq8.webp",
     "hints": {
-      "publisher": ["Sony Interactive Entertainment"],
-      "developer": ["Kojima Productions"],
-      "genre": ["Action", "Adventure", "RPG"],
-      "platforms": ["PS4"],
-      "modes": ["Single-player"],
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Kojima Productions"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
       "engine": "Decima",
       "metacritic": 84,
       "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
     }
   },
   {
-    "date": "2024-10-15",
+    "date": "2024-11-29",
+    "region": "JP",
+    "releaseDate": "2004-11-04",
+    "title": "The Legend of Zelda: The Minish Cap",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 89,
+      "plot": "While at a festival with Princess Zelda, Link encounters a mysterious mage called Vaati who turns the princess to stone. Helpless to stop them, Link is asked by the king to meet with a race of tiny people known as the Minish, who may be able to help with their predicament. On his travels, Link teams up with a talking cap called Ezlo, who is able to shrink Link to the size of a Minish so that he can meet with them. With his newfound abilities, Link must save the kingdom from Vaati's menace."
+    }
+  },
+  {
+    "date": "2024-11-30",
+    "region": "NA",
+    "releaseDate": "2001-11-15",
+    "title": "Halo: Combat Evolved",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Bungie"
+      ],
+      "genre": [
+        "FPS",
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Blam! Engine",
+      "metacritic": 90,
+      "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of ****."
+    }
+  },
+  {
+    "date": "2024-12-01",
+    "region": "NA/EU",
+    "releaseDate": "2002-03-28",
+    "title": "Star Wars Jedi Knight II: Jedi Outcast",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y67.png",
+    "hints": {
+      "publisher": [
+        "LucasArts (NA)",
+        "Activision (WW)"
+      ],
+      "developer": [
+        "Raven Software"
+      ],
+      "genre": [
+        "FPS",
+        "Third-person shooter",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 3",
+      "metacritic": 89,
+      "plot": "Several years have passed since Kyle avenged his father's death and saved the Valley of the Jedi from Jerec and his band of Dark Jedi. Allowing his Force powers to languish for fear of falling to the dark side, Kyle entrusted his lightsaber to Luke Skywalker, vowing never to use it again. But when a new and menacing threat to the galaxy emerges, Kyle knows he must reclaim his past in order to save his future"
+    }
+  },
+  {
+    "date": "2024-12-02",
+    "region": "JP",
+    "releaseDate": "2016-09-15",
+    "title": "Persona 5",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r76.png",
+    "hints": {
+      "publisher": [
+        "Atlus (JP & NA)",
+        "Deep Silver (EU)"
+      ],
+      "developer": [
+        "P-Studo"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PS3",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 93,
+      "plot": "******* takes place in modern-day Tokyo and follows a high school student known by the pseudonym Joker who transfers to a new school after he is falsely accused of assault, and put on probation. Over the course of a school year, he and other students awaken to a special power, becoming a group of secret vigilantes known as the Phantom Thieves of Hearts. They explore the Metaverse, a supernatural realm born from humanity's subconscious desires, to steal malevolent intent from the hearts of adults. As with previous games in the series, the party battles enemies known as Shadows using physical manifestations of their psyche known as Personas. The game incorporates role-playing and dungeon crawling elements alongside social simulation scenarios."
+    }
+  },
+  {
+    "date": "2024-12-03",
+    "region": "EU",
+    "releaseDate": "2010-05-14",
+    "title": "Alan Wake",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2dft.png",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Remedy Entertainment"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "When the wife of the best-selling writer **** **** disappears on their vacation, his search turns up pages from a thriller he doesnt even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love."
+    }
+  },
+  {
+    "date": "2024-12-04",
+    "region": "WW",
+    "releaseDate": "2015-05-05",
+    "title": "Wolfenstein: The Old Blood",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21et.png",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "MachineGamaes"
+      ],
+      "genre": [
+        "FPS",
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS4",
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "id Tech 5",
+      "metacritic": 76,
+      "plot": "The year is 1946 and the Nazis are on the brink of winning World War II. In an effort to turn the tide in the allies favor, B.J. Blazkowicz must embark on an epic, two-part mission deep within Bavaria."
+    }
+  },
+  {
+    "date": "2024-12-05",
+    "region": "WW",
+    "releaseDate": "2017-09-14",
+    "title": "Divinity: Original Sin 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y5v.webp",
+    "hints": {
+      "publisher": [
+        "Larian Studios"
+      ],
+      "developer": [
+        "Larian Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "******** Engine",
+      "metacritic": 95,
+      "plot": "The Divine is dead. The Void approaches. And the powers latent within you are soon to awaken. The battle for Divinity has begun. Choose wisely and trust sparingly; darkness lurks within every heart. "
+    }
+  },
+  {
+    "date": "2024-12-06",
+    "region": "NA",
+    "releaseDate": "2010-10-19",
+    "title": "Vanquish",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co24l9.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "PlatinumGames"
+      ],
+      "genre": [
+        "Action",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 79,
+      "plot": "Take the fight to evil Russian robots using a rocket-powered self-adapting battlesuit in this innovative third-person shooter from Resident Evil creator Shinji Mikami."
+    }
+  },
+  {
+    "date": "2024-12-07",
+    "region": "NA",
+    "releaseDate": "1996-11-22",
+    "title": "Command & Conquer: Red Alert",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nx0.webp",
+    "hints": {
+      "publisher": [
+        "Westwood Studios (NA)",
+        "Virgin Interactive Entertainment (EU)"
+      ],
+      "developer": [
+        "Westwood Studios"
+      ],
+      "genre": [
+        "Strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 81,
+      "plot": "In 1946, Albert Einstein finishes his time machine, dubbed the Chronosphere, and travels back in time to 1924, just after Adolf Hitler was released from prison in Landsberg. There, he creates a time paradox which erases the dictator from history, and returns to his starting point. With Nazi Germany removed from history, the Soviet Union is left unopposed as Joseph Stalin sees an opportunity to expand into Eastern Europe. In response, most of Europe ally against this new threat, and start a desperate war against the new aggressor."
+    }
+  },
+  {
+    "date": "2024-12-08",
+    "region": "JP",
+    "releaseDate": "2005-12-22",
+    "title": "Kingdom Hearts II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co30t1.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "Square Enix Product Development Division 1"
+      ],
+      "genre": [
+        "RPG",
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 87,
+      "plot": "Sora, Donald and Goofy awaken in Twilight Town. Bent on the quest to find Riku and King Mickey Mouse, the three begin their journey. However, they soon discover that while they have been asleep, the Heartless are back. Not only that, but new enemies also showed up during their absence. Sora, Donald and Goofy set off on a quest to rid the world of the Heartless once more, uncovering the many secrets that linger about Ansem and the mysterious Organization XIII."
+    }
+  },
+  {
+    "date": "2024-12-09",
+    "region": "WW",
+    "releaseDate": "2016-04-05",
+    "title": "Enter the Gungeon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rdg.webp",
+    "hints": {
+      "publisher": [
+        "Dodge Roll"
+      ],
+      "developer": [
+        "Devolver Digital"
+      ],
+      "genre": [
+        "Indie",
+        "Rouguelike",
+        "Bullet hell"
+      ],
+      "platforms": [
+        "PS4",
+        "PC",
+        "Linux",
+        "macOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unity",
+      "metacritic": 84,
+      "plot": "The game takes place in a planet inhabited by living bullets. You play as one of six adventurers trying entering a considerable fortress to find a gun that can destroy ones past."
+    }
+  },
+  {
+    "date": "2024-12-10",
+    "region": "JP",
+    "releaseDate": "1987-12-17",
+    "title": "Mega Man",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5x4b.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "Action",
+        "Platformer"
+      ],
+      "platforms": [
+        "Famicom",
+        "NES"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "Brilliant scientist Dr. Light conceived the construction of fully-operational human-like experimental robots to perform specific everyday duties. Dr. Light, and his assistant Dr. Wily, encouraged by their very first near-human robot - **** *** - proceeded to develop six additional Humanoids, all programmed to perform prescribed rituals. But, with the exception of **** ***, all of Dr. Light's near-human robot experimentation went awry. Assistant Dr. Wily turned disloyal, re-programming Dr. Light's Humanoids, now bent on destroying opposition so Dr. Wily could control the world and its resources. Resisting re-programming, **** *** is chosen as the defender of the universe and its inhabitants. **** *** dares to single-handedly penetrate seven separate empires of Monsteropolis, eliminating the leaders and followers of these sovereignties"
+    }
+  },
+  {
+    "date": "2024-12-11",
+    "region": "WW",
+    "releaseDate": "2016-12-06",
+    "title": "The Last Guardian",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co271e.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "SIE Japan Studio",
+        " Team Ico"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 82,
+      "plot": "The main protagonist is a nameless boy, who is kept as a prisoner in cyclopean castle ruins and has to escape. While in captivity, the boys first task is to befriends his cellmate, a fantasy creature named Trico, who is a gigantic half-bird, half-cat hybrid that slightly reminds a hippogriff."
+    }
+  },
+  {
+    "date": "2024-12-12",
+    "region": "NA",
+    "releaseDate": "2014-03-11",
+    "title": "Titanfall",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wo1.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Respawn Entertainment"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 85,
+      "plot": "Set in the distant future, where the deep-space travel is finally available to the humankind, colonies are established on distant planets. Interstellar Manufacturing Corporation began exploiting the colonists, mining the resources on the so-called Frontier planets. Many of the colonists join the resistance to fight back."
+    }
+  },
+  {
+    "date": "2024-12-13",
+    "region": "NA",
+    "releaseDate": "2004-12-06",
+    "title": "The Lord of the Rings: The Battle for Middle-earth",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20og.webp",
+    "hints": {
+      "publisher": [
+        "EA Games"
+      ],
+      "developer": [
+        "EA Los Angeles"
+      ],
+      "genre": [
+        "Real-time strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "SAGE",
+      "metacritic": 82,
+      "plot": " Control the legendary heroes, massive armies, and epic campaigns of Middle-earth based upon all three films of *** **** ** *** ***** trilogy. From waging all-out combat among the vast forces of good and evil to controlling your favorite heroes and characters to managing the troops and resources of your side, the fate of a living, breathing Middle-earth is in your hands."
+    }
+  },
+  {
+    "date": "2024-12-14",
+    "region": "WW",
+    "releaseDate": "1998-10-29",
+    "title": "Fallout 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8ado.webp",
+    "hints": {
+      "publisher": [
+        "Interplay Productions"
+      ],
+      "developer": [
+        "Black Isle Studios"
+      ],
+      "genre": [
+        "RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 86,
+      "plot": "Set in a post-apocalyptic era many decades after a nuclear war broke out and eliminated most of the world as we know it. America is turned into the Wasteland, a grim world full of ugly ghouls, powerful super mutants, mad robots and raiders, and various factions fighting for power. There are also many pre-war Vaults, some of which allowed their inhabitants to survive the war."
+    }
+  },
+  {
+    "date": "2024-12-15",
+    "region": "WW",
+    "releaseDate": "2021-03-26",
+    "title": "It Takes Two",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2t97.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Hazelight Studios"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Platformer"
+      ],
+      "platforms": [
+        "PS4",
+        "PS5",
+        "PC",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 88,
+      "plot": "Bring your favorite co-op partner and together step into the shoes of May and Cody. As the couple is going through a divorce, through unknown means their minds are transported into two dolls which their daughter, Rose, made to represent them. Now they must reluctantly find a way to get back into their bodies, a quest which takes them through the most wild, unexpected and fantastical journey imaginable."
+    }
+  },
+  {
+    "date": "2024-12-16",
+    "region": "NA",
+    "releaseDate": "2018-09-16",
+    "title": "Star Wars: The Force Unleashed",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25xx.webp",
+    "hints": {
+      "publisher": [
+        "LucasArts"
+      ],
+      "developer": [
+        "LucasArts",
+        "Aspyr Media",
+        "Krome Studios",
+        "n- Space",
+        "Universomo"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS2",
+        "PS3",
+        "PSP",
+        "Wii",
+        "Xbox 360",
+        "iOS",
+        "J2ME",
+        "N-Gage"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Ronin",
+      "metacritic": 69,
+      "plot": "Darth Vader's secret apprentice, codenamed Starkiller, is trained in the Dark Side to defeat the enemies of the Empire, but must find his own path when his master betrays him."
+    }
+  },
+  {
+    "date": "2024-12-17",
+    "region": "NA",
+    "releaseDate": "1996-04-19",
+    "title": "Duke Nukam 3D",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y7x.webp",
+    "hints": {
+      "publisher": [
+        "FormGen"
+      ],
+      "developer": [
+        "3D Realms"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "MS-DOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Build",
+      "metacritic": 84,
+      "plot": "Aliens have landed in futuristic Los Angeles and it's up to the **** to bring the pain and show them the door. "
+    }
+  },
+  {
+    "date": "2024-12-18",
+    "region": "NA",
+    "releaseDate": "2002-08-29",
+    "title": "Mafia",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qrt.webp",
+    "hints": {
+      "publisher": [
+        "Gathering of Developers"
+      ],
+      "developer": [
+        "Illusion Softworks"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "LS3D",
+      "metacritic": 88,
+      "plot": "Its 1930. After an inadvertent brush with the mafia, cabdriver Tommy Angelo is reluctantly thrust into the world of organized crime. Initially, he is uneasy about falling in with the Salieri family, but soon the rewards become too big to ignore. As he rises through the ranks, the paydays keep getting bigger, but the jobs get even dirtier. Tommy may ultimately earn the respect of the Salieris, but becoming a Made Man will leave him more conflicted than ever with the new life he has chosen."
+    }
+  },
+  {
+    "date": "2024-12-19",
+    "region": "NA",
+    "releaseDate": "2004-11-02",
+    "title": "Ratchet & Clank: Up Your Arsenal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1oyn.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "Action",
+        "Platformer",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 91,
+      "plot": "******* and ***** return to planet Veldin, where theyve been called upon by the president of the galaxy to stop Dr. Nefarious as he plots to exterminate all organic life. Together with the Q-Force and Captain Qwark, ******* and ***** set off on another intergalactic quest to uncover the schemes of the sinister Dr. Nefarious and save the galaxy again!"
+    }
+  },
+  {
+    "date": "2024-12-20",
+    "region": "WW",
+    "releaseDate": "2018-11-09",
+    "title": "Tetris Effect",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2kfy.webp",
+    "hints": {
+      "publisher": [
+        "Enhance"
+      ],
+      "developer": [
+        "Resonair",
+        "Monstars Inc."
+      ],
+      "genre": [
+        "Puzzle",
+        "Music"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 90,
+      "plot": "Named after a real-world phenomenon where players brains are so engrossed that images of the iconic falling Tetrimino blocks linger in their vision, thoughts, and even dreams, ****** ****** amplifies this magical feeling of total immersion by surrounding you with fantastic, fully three-dimensional worlds that react and evolve based on how you play. Music, backgrounds, sounds, special effectseverything, down to the ****** pieces themselves, pulse, dance, shimmer, and explode in perfect sync with how youre playing."
+    }
+  },
+  {
+    "date": "2024-12-21",
+    "region": "WW",
+    "releaseDate": "2021-10-26",
+    "title": "Marvel's Guardians of the Galaxy",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39pu.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "Edios-Montral"
+      ],
+      "genre": [
+        "Adventure",
+        "Shooter",
+        "RPG"
+      ],
+      "platforms": [
+        "PS4",
+        "PS5",
+        "PC",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Dawn Engine",
+      "metacritic": 80,
+      "plot": "In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown."
+    }
+  },
+  {
+    "date": "2024-12-22",
+    "region": "NA",
+    "releaseDate": "1999-11-22",
+    "title": "Unreal Tournament",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2k3b.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive",
+        "Epic Games"
+      ],
+      "developer": [
+        "Epic Games",
+        "Digital Extremes"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine",
+      "metacritic": 92,
+      "plot": "During the Human/Skaarj war, the New Earth Government was formed. Mining was the primary method of financing the war, though was unpopular with the working class, who grew weary of the working conditions and the war. The humans were losing the war, and riots broke out. The Terran system was surrounded by Skaarj forces, but a government team destroyed their mothership, and the Skaarj withdrew. Afterward, mining incidents were on the increase, and efforts to deal with them were unsuccessful. The government then came up with the idea of giving the violence an outlet instead. \"Consensual murder\" was legalized in the year 2291, enabling people to fight to the death under organized conditions. Mining conglomerates worked with the government and organized leagues, which proved successful. One such company, the Liandri Mining Corporation, capitalized on the fights by tri-casting them; this proved to be more popular than the combat itself, their popularity increasing with brutality. By 2341, what is now called the \"Tournament\" became a professional sport more profitable than mining. Liandri Mining Corporation annually hosts the \"Grand Tournament\", the most popular event in the sport"
+    }
+  },
+  {
+    "date": "2024-12-23",
+    "region": "WW",
+    "releaseDate": "2017-02-24",
+    "title": "Hollow Knight",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.webp",
+    "hints": {
+      "publisher": [
+        "Team Cherry"
+      ],
+      "developer": [
+        "Team Cherry"
+      ],
+      "genre": [
+        "Metroidvania"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 88,
+      "plot": "In a vast, hauntingly beautiful world deep beneath the earth, you assume the role of a small but determined warrior exploring ancient, forgotten kingdoms. Armed with a simple yet powerful blade, you traverse treacherous landscapes, confront mysterious creatures, and unravel secrets hidden in the shadows. As you journey through this intricate maze of caverns, the atmosphere shifts from eerie silence to intense combat, demanding both skill and strategy. The story unfolds in fragments, inviting you to piece together the history of a fallen civilization and uncover the truth behind your own quest."
+    }
+  },
+  {
+    "date": "2024-12-24",
+    "region": "NA",
+    "releaseDate": "2011-03-08",
+    "title": "Dragon Age II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mw1.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "BioWare"
+      ],
+      "genre": [
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC",
+        "Mac OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Eclipse Engine",
+      "metacritic": 81,
+      "plot": "Set in the world of Thedas, players assume the role of Hawke, a human mage, rogue or warrior who arrives in the city of Kirkwall as a lowly refugee and becomes its legendary champion over a turbulent decade of political and social conflict."
+    }
+  },
+  {
+    "date": "2024-12-25",
+    "region": "EU",
+    "releaseDate": "1995-11-17",
+    "title": "Worms",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xqo.webp",
+    "hints": {
+      "publisher": [
+        "Ocean Software"
+      ],
+      "developer": [
+        "Team17"
+      ],
+      "genre": [
+        "Action",
+        "Strategy",
+        "Arcade",
+        ""
+      ],
+      "platforms": [
+        "Amiga",
+        "Amiga CD32",
+        "Game Boy",
+        "MS-DOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "In this turn-based strategy classic, you command a team of quirky, heavily-armed invertebrates in a battle of wits, precision, and firepower. Each round offers a chaotic mix of explosive weapons, ranging from bazookas to sheep bombs, as you try to outmaneuver and outshoot your opponents across destructible landscapes. The objective is simple: eliminate the enemy team by any means necessary, but the path to victory is filled with unexpected twists and comic mishaps. With its blend of tactical depth and humorous action, this game invites players to engage in endless battles with friends or against the AI, making every match a unique and unpredictable experience."
+    }
+  },
+  {
+    "date": "2024-12-26",
+    "region": "NA",
+    "releaseDate": "2001-10-30",
+    "title": "Tony Hawk's Pro Skater 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6ss7.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Neversoft"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PlayStation",
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "Step into the shoes of legendary skateboarders as you shred through iconic urban environments, performing gravity-defying tricks and combos. With tight controls and a killer soundtrack, this experience lets you master everything from basic ollies to complex flip tricks, all while navigating ramps, rails, and half-pipes. Whether you're aiming for high scores or exploring each level to uncover hidden secrets, the action is fast, fluid, and endlessly addictive. Take on challenges, unlock new gear, and perfect your style in a skateboarding experience that sets the standard for the genre."
+    }
+  },
+  {
+    "date": "2024-12-27",
+    "region": "NA",
+    "releaseDate": "2013-04-16",
+    "title": "Injustice: Gods Among Us",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8616.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "NetherRealm Studios"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        " Wii U"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 80,
+      "plot": "The Joker has hoaxed Superman into killing Lois Lane and the couple's unborn son, all the while destroying Metropolis. Overcome with grief and anger, Superman takes revenge against the Joker; killing him in cold blood in front of Batman. While he has confronted his tormentor, Superman still cannot overcome the guilt of what the Joker made him do. Quickly, he takes control of various nations across the planet and establishes a new world order as the High Councillor to achieve world \"peace\". The heroes of the earth are confronted with a choice; join Superman's Regime or ally with Batman's Insurgency. A war ensues between the forces, one which will threaten the very survival of mankind."
+    }
+  },
+  {
+    "date": "2024-12-28",
+    "region": "NA",
+    "releaseDate": "2002-03-20",
+    "title": "Blood Omen 2: Legacy of Kain",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gy4.webp",
+    "hints": {
+      "publisher": [
+        "Edios: Interactive"
+      ],
+      "developer": [
+        "Crystal Dynamics"
+      ],
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS2",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 76,
+      "plot": "400 years have passed since the vampire Kain damned the world in the original ***** ****, choosing to rule the world in damnation rather than die for its salvation. Now Kain, who once controlled the land of Nosgoth with his vampire armies, finds his brethren slain and his dark powers stripped by a mysterious figure. To reclaim his rule and exact his vengeance, Kain must dispatch armies of zealot soldiers and overcome legions of demons in order to uncover the ominous plot that threatens the land he seeks to conquer."
+    }
+  },
+  {
+    "date": "2024-12-29",
     "region": "WW",
     "releaseDate": "2013-10-17",
     "title": "The Stanley Parable",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.webp",
     "hints": {
-      "publisher": ["Galactic Cafe"],
-      "developer": ["Galactic Cafe"],
-      "genre": ["Interactive story", "Indie", "Adventure"],
-      "platforms": ["PC"],
-      "modes": ["Single-player"],
+      "publisher": [
+        "Galactic Cafe"
+      ],
+      "developer": [
+        "Galactic Cafe"
+      ],
+      "genre": [
+        "Interactive story",
+        "Indie",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
       "engine": "Source",
       "metacritic": 88,
       "plot": "A first-person exploration game which ponders questions related to player agency, narrative pacing, escapism through gaming, objective-driven game design, authorial intent, and the conflict of interest between players and game creators."
     }
   },
   {
-    "date": "2024-10-16",
-    "region": "NA",
-    "releaseDate": "2001-11-15",
-    "title": "Halo: Combat Evolved",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.webp",
+    "date": "2024-12-30",
+    "region": "WW",
+    "releaseDate": "2011-05-16",
+    "title": "Terraria",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.webp",
     "hints": {
-      "publisher": ["Microsoft Game Studios"],
-      "developer": ["Bungie"],
-      "genre": ["FPS", "Action", "Adventure"],
-      "platforms": ["Xbox"],
-      "modes": ["Single-player", "Multiplayer"],
-      "engine": "Blam! Engine",
+      "publisher": [
+        "505 Games"
+      ],
+      "developer": [
+        "Re-Logic"
+      ],
+      "genre": [
+        "Action",
+        "Indie",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 81,
+      "plot": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat? Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels? In the World of *******, the choice is yours!"
+    }
+  },
+  {
+    "date": "2024-12-31",
+    "region": "NA",
+    "releaseDate": "2008-11-18",
+    "title": "Need for Speed: Undercover",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co209n.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "EA Black Box",
+        "Exient Entertainment",
+        "Piranha Games",
+        "Firebrand Games"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "PS3",
+        "PSP",
+        "Nintendo DS",
+        "Wii",
+        "Xbox 360",
+        "BlackBerry",
+        "Symbian",
+        "webOS",
+        "Windows Phone"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "EAGL",
+      "metacritic": 82,
+      "plot": "Take on jobs and compete in races to prove yourself as you infiltrate and take down an international crime syndicate. As you win each race, youll go deeper into the underworld web that rules Tri-City and then tear it apart right under their noses. You make the calls, but dont break your cover: inside the car or out of it, one mistake here could be your last"
+    }
+  },
+  {
+    "date": "2025-01-01",
+    "region": "JP",
+    "releaseDate": "1996-02-27",
+    "title": "Pokemon Red Version",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5pi4.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Game Freak"
+      ],
+      "genre": [
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "Game Boy"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "The player character starts out in Pallet Town. When the player character tries to leave the town without a ******* of their own, they are stopped in the nick of time by Professor Oak, who invites them to his lab. There, he gives them a *******of their own and a Pokdex, telling them about his dream to make a complete guide on every ******* in the world. After the player character battles their rival and leaves the lab, they are entitled to win every Gym Badge, compete in the ******* League, and fulfill Oak's dream by catching every Pokmon."
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "region": "JP",
+    "releaseDate": "2011-11-17",
+    "title": "Ni no Kuni: Wrath of the White Witch",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rbw.webp",
+    "hints": {
+      "publisher": [
+        "Level-5 (JP)",
+        "Namco Bandai Games"
+      ],
+      "developer": [
+        "Level-5"
+      ],
+      "genre": [
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok",
+      "metacritic": 84,
+      "plot": "A heart-warming tale of a young boy named Oliver, who embarks on a journey into a parallel world in an attempt to bring his mother back from the dead. Along the way, Oliver makes new friends and adopts many of the wonderful creatures that inhabit the world, raising them to battle other creatures on his behalf as he takes on formidable enemies."
+    }
+  },
+  {
+    "date": "2025-01-03",
+    "region": "WW",
+    "releaseDate": "2024-02-20",
+    "title": "Balatro",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co752b.webp",
+    "hints": {
+      "publisher": [
+        "Playstack"
+      ],
+      "developer": [
+        "LocalThunk"
+      ],
+      "genre": [
+        "Roguelike",
+        "Deck-building"
+      ],
+      "platforms": [
+        "PS4",
+        "PS5",
+        "PC",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Lve",
       "metacritic": 90,
-      "plot": "Bent on Humankind's extermination, a powerful fellowship of alien races known as the Covenant is wiping out Earth's fledgling interstellar empire. Climb into the boots of Master Chief, a biologically altered super-soldier, as you and the other surviving defenders of a devastated colony-world make a desperate attempt to lure the alien fleet away from earth. Shot down and marooned on the ancient ring-world Halo, you begin a guerilla-war against the Covenant. Fight for humanity against an alien onslaught as you race to uncover the mysteries of ****."
+      "plot": "Step into a world where the deck you build determines your fate as you navigate through a series of darkly comedic, yet perilous challenges. In this roguelike adventure, every decision matterswhether it's choosing the right cards, balancing risk and reward, or outwitting bizarre enemies. The setting is a surreal, ever-changing landscape filled with unexpected twists, where your strategic choices can lead to victory or hilarious disaster. With its unique blend of humor, strategy, and unpredictability, this journey offers a fresh and engaging take on the deck-building genre."
+    }
+  },
+  {
+    "date": "2025-01-04",
+    "region": "WW",
+    "releaseDate": "2015-04-14",
+    "title": "Mortal Combat X",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y08.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "NetherRealm Studios"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS4",
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 76,
+      "plot": "The plot is set about 20 years after the events of the previous game where the ending revealed that Shinnok used the void after Shao Kahn's death to attack Earthrealm with his army of Netherrealm forces. Several characters work together to steal Shinnok's amulet and imprison him inside, but eventually Mileena hatches a plan to release Shinnok by bringing the amulet to Quan Chi who escaped when Shinnok was imprisoned. The gap in years is mainly used to introduce the new characters to the cast, such as Cassie, the daughter of Johnny Cage and Sonya Blade (who married and divorced), Kotal Kahn as the new emperor of the Outworld, and Takeda, the son of Kenshi."
+    }
+  },
+  {
+    "date": "2025-01-05",
+    "region": "NA",
+    "releaseDate": "2003-01-14",
+    "title": "SimCity 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o4h.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Maxis"
+      ],
+      "genre": [
+        "City-building",
+        "Strategy",
+        "Simulation"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Step into the role of a city planner, where every decision shapes the growth of a bustling metropolis. Design neighborhoods, manage resources, and balance the needs of citizens as your urban creation evolves from a small town to a sprawling city. Handle challenges like traffic, pollution, and disasters while keeping the economy thriving and residents happy. The power to build and govern a vibrant city is in your hands."
+    }
+  },
+  {
+    "date": "2025-01-06",
+    "region": "NA",
+    "releaseDate": "2014-11-11",
+    "title": "Assassin's Creed Rogue",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xir.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Sofia"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "AnvilNext",
+      "metacritic": 74,
+      "plot": "1751. North America. Amidst the chaos and violence of the French and Indian War, Shay Patrick Cormac, a fearless young member of the Assassins order, undergoes a dark transformation that will shape the future of the brotherhood forever. After arguing over a dangerous mission gone tragically wrong, Shay is betrayed by the Assassins who attempt to end his life. Cast aside by those he once called brothers, Shay sets out on a mission to wipe out all who turned against him and ultimately become the most feared Assassin hunter in history. Introducing Assassins Creed Rogue, the darkest chapter in the Assassins Creed franchise yet. As Shay, you will experience the slow transformation from Assassin to Assassin Hunter. Follow your own creed and set off on an extraordinary journey through New York City, the wild river valley, and far away to the icy cold waters of the North Atlantic in pursuit of your ultimate goal to bring down the Assassins."
+    }
+  },
+  {
+    "date": "2025-01-07",
+    "region": "NA",
+    "releaseDate": "2011-10-18",
+    "title": "Batman: Arkham City",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1voh.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 94,
+      "plot": "In a sprawling, chaotic city turned prison, you step into the role of a legendary vigilante. Armed with cutting-edge gadgets and unmatched combat skills, you navigate dark alleys and towering rooftops, facing off against notorious criminals and uncovering a sinister conspiracy. Every corner of this open world teems with danger and mystery, demanding both stealth and strength as you fight to restore order."
+    }
+  },
+  {
+    "date": "2025-01-08",
+    "region": "NA",
+    "releaseDate": "1997-01-03",
+    "title": "Diablo",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ggo.webp",
+    "hints": {
+      "publisher": [
+        "Blizzard Entertainment",
+        "Davidson & Associates"
+      ],
+      "developer": [
+        "Blizzard North"
+      ],
+      "genre": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "Set in the fictional Kingdom of Khanduras, located in the world of Sanctuary, ****** has the player take control of a lone hero battling to rid the world of ******, the Lord of Terror. Beneath the town of Tristram, the player journeys through sixteen dungeon levels, ultimately entering Hell itself in order to face ******."
+    }
+  },
+  {
+    "date": "2025-01-09",
+    "region": "WW",
+    "releaseDate": "2013-04-23",
+    "title": "Don't Starve",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qqw.webp",
+    "hints": {
+      "publisher": [
+        "Klei Entertainment"
+      ],
+      "developer": [
+        "Klei Entertainment"
+      ],
+      "genre": [
+        "Survival",
+        "Indie"
+      ],
+      "platforms": [
+        "PC",
+        "Linux",
+        "OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 79,
+      "plot": "Stranded in a mysterious and unforgiving wilderness, you must gather resources, craft tools, and fend off strange creatures to survive. Every day is a fight against hunger, insanity, and the elements as you struggle to maintain your fragile grip on life. The world is as dark and eerie as it is unpredictable, where one wrong move could mean your demise. How long can you last before the wilderness claims you?"
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "region": "NA",
+    "releaseDate": "2008-10-28",
+    "title": "Fallout 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ycw.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Action"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Gamebryo",
+      "metacritic": 91,
+      "plot": "In a post-apocalyptic wasteland, you emerge from an underground vault to a world ravaged by nuclear war. As you search for your missing father, you navigate through the ruins of civilization, making choices that shape your destiny and the fate of those around you. Survival requires cunning, resourcefulness, and the ability to decide between right and wrong in a world where the lines are blurred."
+    }
+  },
+  {
+    "date": "2025-01-11",
+    "region": "JP",
+    "releaseDate": "1987-02-20",
+    "title": "Contra",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4ben.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami"
+      ],
+      "genre": [
+        "Arcade",
+        "Action",
+        "Run and gun"
+      ],
+      "platforms": [
+        "Arcade"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "In ******, the player controls one of two armed military commandos named Bill \"Mad Dog\" Rizer and Lance \"Scorpion\" Bean, who are sent on a mission to neutralize a terrorist group called the Red Falcon Organization that is planning to take over the Earth. Details of the game's setting varies between supplementary materials: the Japanese versions sets the game in the year 2633 on the fictional \"Galuga archipelago\" near New Zealand, whereas the manual for the American NES version sets the game during the present in an unnamed South American island. The American storyline also changes the identity of \"Red Falcon\" from being the name of a terrorist organization to the name of an alien entity."
+    }
+  },
+  {
+    "date": "2025-01-12",
+    "region": "JP",
+    "releaseDate": "2015-03-12",
+    "title": "Yakuza 0",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co252x.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Ryu Ga Gotoku Studio"
+      ],
+      "genre": [
+        "RPG",
+        "Action",
+        "Adventure",
+        "Beat 'em up"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 85,
+      "plot": "Set in the neon-lit streets of 1980s Japan, you step into the shoes of two hardened criminals navigating the dangerous world of organized crime. As tensions rise and loyalties are tested, you'll fight, brawl, and hustle your way through a city teeming with life, uncovering dark secrets and forging unexpected alliances. Balancing intense action with moments of heartfelt drama, this journey explores the complexities of honor, power, and survival in a world where every choice can have life-altering consequences."
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "region": "WW",
+    "releaseDate": "2024-02-08",
+    "title": "Helldivers 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co741o.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Arrowhead Game Studios"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS5",
+        "PC"
+      ],
+      "modes": [
+        "Multiplayer "
+      ],
+      "engine": "Autodesk Stingray",
+      "metacritic": 82,
+      "plot": "For Super Earth!"
+    }
+  },
+  {
+    "date": "2025-01-14",
+    "region": "WW",
+    "releaseDate": "1997-05-13",
+    "title": "Shadow Warrior",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3g3u.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive"
+      ],
+      "developer": [
+        "3D Realms"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "MS-DOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "Lo Wang is a bodyguard for Zilla Enterprises, which has control over every major industry in Japan. However, this has led to corruption. Master Zilla, the president of the Zilla Enterprise, is planning to conquer Japan using creatures from the \"dark side\". When he discovers this, Lo Wang quit his job as a bodyguard. Master Zilla realizes the threat that Lo Wang poses and sends his creatures to battle him"
     }
   }
 ]
