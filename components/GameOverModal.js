@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import usePlayerStats from "../hooks/usePlayerStats";
 import ShareButton from "./ShareButton";
+import CountdownTimer from './CountdownTimer';
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
 
@@ -147,6 +148,7 @@ const GameOverModal = ({
 				remainingGuesses={remainingGuesses}
 				releaseDate={releaseDate}
 			  />
+			  <CountdownTimer />
 			</div>
 		  </div>
 		</div>
