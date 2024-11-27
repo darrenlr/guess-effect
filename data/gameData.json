@@ -85,8 +85,8 @@
         "Single-player"
       ],
       "engine": "Microsoft XNA",
-      "metacritic": 76,
-      "plot": "You, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you. Your only human connection is over a handheld radio, which youll use to speak with your supervisor Delilah about the things both of you are experiencing."
+      "metacritic": 89,
+      "plot": "You've inherited your grandfather's old farm plot. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore ******* ****** to greatness!"
     }
   },
   {
@@ -114,7 +114,7 @@
         "Single-player"
       ],
       "engine": "Decima",
-      "metacritic": 84,
+      "metacritic": 82,
       "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
     }
   },
@@ -129,7 +129,8 @@
         "Nintendo"
       ],
       "developer": [
-        "Capcom"
+        "Capcom",
+        "Flagship"
       ],
       "genre": [
         "Action",
