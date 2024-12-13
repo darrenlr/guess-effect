@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="canonical" href="https://guesseffect.wtf" />
         <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          rel="stylesheet"
+        />
+        <link
           rel="preload"
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
           as="style"
