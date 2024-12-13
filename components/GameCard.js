@@ -136,7 +136,7 @@ const GameCard = ({
     						<Image
 								src={`https://${gameData.boxArtUrl}`}
 								crossOrigin="anonymous"
-								alt="Box Art"
+								alt="Game Box Art"
         						width={300}
         						height={360}
 								priority
