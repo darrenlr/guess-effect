@@ -135,11 +135,11 @@ const GameCard = ({
 						<div className={styles.scanContainer}>
     						<Image
 								src={`https://${gameData.boxArtUrl}`}
-								crossOrigin="anonymous"
 								alt="Game Box Art"
         						width={300}
         						height={360}
 								priority
+								loading="eager"
 								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
         						onLoadingComplete={extractColors}
         						ref={imgRef}
