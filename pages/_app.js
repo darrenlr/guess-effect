@@ -7,6 +7,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <title>Guess Effect (Beta)</title>
+      <Head>
+        <link rel="canonical" href="https://guesseffect.wtf" />
+      </Head>
       <Component {...pageProps} />
       <SpeedInsights />
       <Analytics />
