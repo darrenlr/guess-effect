@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Press Start 2P';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T....woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v15/e3t4euO8T....woff2') format('woff2');
+}
+
 :root {
   --font-family: 'Press Start 2p', cursive;
   --font-family-main: "Courier New", Courier, monospace;

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
 import RevealAllModal from "./RevealAllModal";
+import Image from 'next/image';
 
 const GameCard = ({
 	gameData,
@@ -132,14 +133,15 @@ const GameCard = ({
 				<div className={styles.boxArt}>
 					<div className={styles.boxArtWrapper}>
 						<div className={styles.scanContainer}>
-    						<img
+    						<Image
 								src={`https://${gameData.boxArtUrl}`}
 								crossOrigin="anonymous"
-								alt="Box Art"
+								alt="Game Box Art"
         						width={300}
         						height={360}
+								priority
 								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
-        						onLoad={extractColors}
+        						onLoadingComplete={extractColors}
         						ref={imgRef}
     						/>
 						</div>
