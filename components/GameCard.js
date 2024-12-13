@@ -135,6 +135,7 @@ const GameCard = ({
 						<div className={styles.scanContainer}>
     						<Image
 								src={`https://${gameData.boxArtUrl}`}
+								crossOrigin="anonymous"
 								alt="Game Box Art"
         						width={300}
         						height={360}
