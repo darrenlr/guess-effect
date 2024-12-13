@@ -19,17 +19,6 @@ module.exports = {
 			destination: 'https://guesseffect.wtf/:path*',
 			permanent: true,
 		  },
-		  {
-			source: '/(.*)',
-			has: [
-			  {
-				type: 'protocol',
-				value: 'http',
-			  },
-			],
-			destination: 'https://guesseffect.wtf/:path*',
-			permanent: true,
-		  },
 		];
 	},
 };
