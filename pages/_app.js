@@ -12,16 +12,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="canonical" href="https://guesseffect.wtf" />
         <link
           rel="preload"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          as="style"
-        />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          rel="stylesheet"
-        />
-
-        <link
-          rel="preload"
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
           as="style"
         />
@@ -30,7 +20,6 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
           as="style"
         />
-
         <link
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
           rel="stylesheet"
