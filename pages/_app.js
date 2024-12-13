@@ -10,24 +10,6 @@ function MyApp({ Component, pageProps }) {
       <title>Guess Effect (Beta)</title>
       <Head>
         <link rel="canonical" href="https://guesseffect.wtf" />
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-          as="style"
-        />
-        <link
-          rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          as="style"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Component {...pageProps} />
       <SpeedInsights />

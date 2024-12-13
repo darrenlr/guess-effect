@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from "react";
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faCalendar,
@@ -6,6 +7,9 @@ import {
 	faCircleQuestion,
 	faChartColumn,
 } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faCalendar, faHeart, faCircleQuestion, faChartColumn);
+
 import styles from "../styles/Navbar.module.css";
 import SupportModal from './SupportModal';
 import ArchiveModal from "./ArchiveModal";
@@ -51,6 +55,7 @@ const Navbar = ({gameHistory}) => {
 	  }, [gameHistory]);
 
 	return (
+		
 		<div className={styles.navbar}>
 			<button className={styles.iconBtn} onClick={handleShowArchiveModal}>
 				<FontAwesomeIcon icon={faCalendar} className={styles.icon} />
