@@ -92,7 +92,7 @@ const GameCard = ({
 		setGameState(prevState => {
 			let updatedHints = {};
 			for (let key in prevState.hints) {
-				updatedHints[key] = key === "boxArt" ? 8 : true;
+				updatedHints[key] = key === "boxArt" ? 13 : true;
 			}
 			updatedHints.points = 0;
 			return { ...prevState, hints: updatedHints };
@@ -143,7 +143,7 @@ const GameCard = ({
 								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
         						onLoadingComplete={extractColors}
         						ref={imgRef}
-    						/>
+							/>
 						</div>
 					</div>
 					<button

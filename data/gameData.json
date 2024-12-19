@@ -783,6 +783,35 @@
   {
     "date": "2024-12-21",
     "region": "WW",
+    "releaseDate": "2021-04-30",
+    "title": "Returnal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wc1.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Housemarque"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Roguelike"
+      ],
+      "platforms": [
+        "PS5"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 86,
+      "plot": "Break the cycle of chaos on an always-changing alien planet where even death is no escape. After crash-landing on this shape-shifting world, Selene must search through the barren landscape of an ancient civilization for her escape. Isolated and alone, she finds herself fighting tooth and nail for survival. Again and again, shes defeated. Forced to restart her journey every time she dies."
+    }
+  },
+  {
+    "date": "2024-12-22",
+    "region": "WW",
     "releaseDate": "2021-10-26",
     "title": "Marvel's Guardians of the Galaxy",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39pu.webp",
@@ -811,37 +840,6 @@
       "engine": "Dawn Engine",
       "metacritic": 80,
       "plot": "In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown."
-    }
-  },
-  {
-    "date": "2024-12-22",
-    "region": "NA",
-    "releaseDate": "1999-11-22",
-    "title": "Unreal Tournament",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2k3b.webp",
-    "hints": {
-      "publisher": [
-        "GT Interactive",
-        "Epic Games"
-      ],
-      "developer": [
-        "Epic Games",
-        "Digital Extremes"
-      ],
-      "genre": [
-        "FPS"
-      ],
-      "platforms": [
-        "PC",
-        "Linux"
-      ],
-      "modes": [
-        "Single-player",
-        "Multiplayer"
-      ],
-      "engine": "Unreal Engine",
-      "metacritic": 92,
-      "plot": "During the Human/Skaarj war, the New Earth Government was formed. Mining was the primary method of financing the war, though was unpopular with the working class, who grew weary of the working conditions and the war. The humans were losing the war, and riots broke out. The Terran system was surrounded by Skaarj forces, but a government team destroyed their mothership, and the Skaarj withdrew. Afterward, mining incidents were on the increase, and efforts to deal with them were unsuccessful. The government then came up with the idea of giving the violence an outlet instead. \"Consensual murder\" was legalized in the year 2291, enabling people to fight to the death under organized conditions. Mining conglomerates worked with the government and organized leagues, which proved successful. One such company, the Liandri Mining Corporation, capitalized on the fights by tri-casting them; this proved to be more popular than the combat itself, their popularity increasing with brutality. By 2341, what is now called the \"Tournament\" became a professional sport more profitable than mining. Liandri Mining Corporation annually hosts the \"Grand Tournament\", the most popular event in the sport"
     }
   },
   {
@@ -1536,6 +1534,37 @@
       "engine": "",
       "metacritic": null,
       "plot": "Lo Wang is a bodyguard for Zilla Enterprises, which has control over every major industry in Japan. However, this has led to corruption. Master Zilla, the president of the Zilla Enterprise, is planning to conquer Japan using creatures from the \"dark side\". When he discovers this, Lo Wang quit his job as a bodyguard. Master Zilla realizes the threat that Lo Wang poses and sends his creatures to battle him"
+    }
+  },
+  {
+    "date": "2025-01-15",
+    "region": "NA",
+    "releaseDate": "1999-11-22",
+    "title": "Unreal Tournament",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2k3b.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive",
+        "Epic Games"
+      ],
+      "developer": [
+        "Epic Games",
+        "Digital Extremes"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine",
+      "metacritic": 92,
+      "plot": "During the Human/Skaarj war, the New Earth Government was formed. Mining was the primary method of financing the war, though was unpopular with the working class, who grew weary of the working conditions and the war. The humans were losing the war, and riots broke out. The Terran system was surrounded by Skaarj forces, but a government team destroyed their mothership, and the Skaarj withdrew. Afterward, mining incidents were on the increase, and efforts to deal with them were unsuccessful. The government then came up with the idea of giving the violence an outlet instead. \"Consensual murder\" was legalized in the year 2291, enabling people to fight to the death under organized conditions. Mining conglomerates worked with the government and organized leagues, which proved successful. One such company, the Liandri Mining Corporation, capitalized on the fights by tri-casting them; this proved to be more popular than the combat itself, their popularity increasing with brutality. By 2341, what is now called the \"Tournament\" became a professional sport more profitable than mining. Liandri Mining Corporation annually hosts the \"Grand Tournament\", the most popular event in the sport"
     }
   }
 ]

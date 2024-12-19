@@ -1,12 +1,12 @@
 .releaseDate {
   margin: 2rem 0.5rem;
   display: inline-block;
-  font-family: var(--font-family);
+  font-family: var(--font-family-main);
 }
 
 @media screen and (max-width: 767px) {
   .releaseDate {
     margin: 1.5rem 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
