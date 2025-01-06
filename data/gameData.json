@@ -1277,29 +1277,32 @@
     "date": "2025-01-06",
     "region": "NA",
     "releaseDate": "2014-11-11",
-    "title": "Assassin's Creed Rogue",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xir.webp",
+    "title": "Assassin's Creed Unity",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xiq.webp",
     "hints": {
       "publisher": [
         "Ubisoft"
       ],
       "developer": [
-        "Ubisoft Sofia"
+        "Ubisoft Montreal"
       ],
       "genre": [
         "Action-adventure",
         "Stealth"
       ],
       "platforms": [
-        "PS3",
-        "Xbox 360"
+        "PS4",
+        "Xbox One",
+        "PC",
+        "Stadia"
       ],
       "modes": [
-        "Single-player"
+        "Single-player",
+        "Multiplayer"
       ],
-      "engine": "AnvilNext",
-      "metacritic": 74,
-      "plot": "1751. North America. Amidst the chaos and violence of the French and Indian War, Shay Patrick Cormac, a fearless young member of the Assassins order, undergoes a dark transformation that will shape the future of the brotherhood forever. After arguing over a dangerous mission gone tragically wrong, Shay is betrayed by the Assassins who attempt to end his life. Cast aside by those he once called brothers, Shay sets out on a mission to wipe out all who turned against him and ultimately become the most feared Assassin hunter in history. Introducing Assassins Creed Rogue, the darkest chapter in the Assassins Creed franchise yet. As Shay, you will experience the slow transformation from Assassin to Assassin Hunter. Follow your own creed and set off on an extraordinary journey through New York City, the wild river valley, and far away to the icy cold waters of the North Atlantic in pursuit of your ultimate goal to bring down the Assassins."
+      "engine": "AnvilNext 2.0",
+      "metacritic": 72,
+      "plot": "Paris, 1789. You play as Arno Victor-Dorian, an assassin during the French Revolution. As the nation tears itself apart, Arno will expose the true powers behind the Revolution."
     }
   },
   {
