@@ -721,7 +721,7 @@
     }
   },
   {
-    "date": "2024-12-20",
+    "date": "2024-12-19",
     "region": "NA",
     "releaseDate": "2004-11-02",
     "title": "Ratchet & Clank: Up Your Arsenal",
@@ -1568,6 +1568,128 @@
       "engine": "Unreal Engine",
       "metacritic": 92,
       "plot": "During the Human/Skaarj war, the New Earth Government was formed. Mining was the primary method of financing the war, though was unpopular with the working class, who grew weary of the working conditions and the war. The humans were losing the war, and riots broke out. The Terran system was surrounded by Skaarj forces, but a government team destroyed their mothership, and the Skaarj withdrew. Afterward, mining incidents were on the increase, and efforts to deal with them were unsuccessful. The government then came up with the idea of giving the violence an outlet instead. \"Consensual murder\" was legalized in the year 2291, enabling people to fight to the death under organized conditions. Mining conglomerates worked with the government and organized leagues, which proved successful. One such company, the Liandri Mining Corporation, capitalized on the fights by tri-casting them; this proved to be more popular than the combat itself, their popularity increasing with brutality. By 2341, what is now called the \"Tournament\" became a professional sport more profitable than mining. Liandri Mining Corporation annually hosts the \"Grand Tournament\", the most popular event in the sport"
+    }
+  },
+  {
+    "date": "2025-01-16",
+    "region": "WW",
+    "releaseDate": "2021-05-07",
+    "title": "Resident Evil: Village",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2zpu.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "Survival Horror"
+      ],
+      "platforms": [
+        "PS5",
+        "PS4",
+        "PC",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Stadia"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RE Engine",
+      "metacritic": 83,
+      "plot": "A mysterious traveler arrives in a remote village searching for their missing child. The village, shrouded in mist, is controlled by a powerful matriarch and her monstrous followers. As the traveler unravels dark secrets, they must confront terrifying creatures, uncover the truth about their child, and survive a harrowing battle for their own humanity."
+    }
+  },
+  {
+    "date": "2025-01-17",
+    "region": "NA",
+    "releaseDate": "2004-11-15",
+    "title": "Metroid Prime 2: Echoes",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w7n.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Retro Studios"
+      ],
+      "genre": [
+        "FPS",
+        "Action",
+        "Adventure",
+        "Puzzle"
+      ],
+      "platforms": [
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RUDE",
+      "metacritic": 92,
+      "plot": "Samus Aran is sent to investigate a distress signal on a mysterious planet divided into two realms: light and dark. She discovers a dying alien species, the Luminoth, battling their dark counterparts, the Ing, who threaten to consume the planet entirely. Armed with advanced technology and her signature Power Suit, Samus must navigate the treacherous dual worlds, recover stolen energy, and confront a dark version of herself to save the planet and escape alive."
+    }
+  },
+  {
+    "date": "2025-01-18",
+    "region": "WW",
+    "releaseDate": "2013-11-22",
+    "title": "Ryse: Son of Rome",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r7y.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Studios"
+      ],
+      "developer": [
+        "Crytek"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "CryEngine",
+      "metacritic": 61,
+      "plot": "Marius Titus, a Roman soldier, witnesses the brutal murder of his family and embarks on a journey of vengeance. Rising through the ranks of the Roman army, he fights in epic battles and uncovers a conspiracy threatening Rome itself. Guided by visions from the gods, Marius must balance his quest for justice with loyalty to his empire, ultimately facing his destiny in a climactic confrontation that blurs the line between hero and legend."
+    }
+  },
+  {
+    "date": "2025-01-19",
+    "region": "JP",
+    "releaseDate": "2015-03-24",
+    "title": "Bloodborne",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rba.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "FromSoftware"
+      ],
+      "genre": [
+        "Action",
+        "RPG",
+        "Horror"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 92,
+      "plot": "A lone Hunter arrives in the ancient city of Yharnam, seeking a cure for a mysterious ailment. The city is gripped by a nightmarish plague that transforms its inhabitants into monstrous beasts. Armed with trick weapons and guided by cryptic whispers, the Hunter must unravel Yharnam’s eldritch secrets, face grotesque horrors, and confront the truth about the cosmic forces behind the city's descent into madness."
     }
   }
 ]
