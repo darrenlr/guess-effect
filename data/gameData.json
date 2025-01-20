@@ -1691,5 +1691,36 @@
       "metacritic": 92,
       "plot": "A lone Hunter arrives in the ancient city of Yharnam, seeking a cure for a mysterious ailment. The city is gripped by a nightmarish plague that transforms its inhabitants into monstrous beasts. Armed with trick weapons and guided by cryptic whispers, the Hunter must unravel Yharnam’s eldritch secrets, face grotesque horrors, and confront the truth about the cosmic forces behind the city's descent into madness."
     }
+  },
+  {
+    "date": "2025-01-20",
+    "region": "NA",
+    "releaseDate": "2012-08-09",
+    "title": "Dishonored",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5pcs.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Arkane Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS3"
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 88,
+      "plot": "Corvo Attano, the bodyguard of an Empress, is framed for her murder and the kidnapping of her daughter. Stripped of his honor and imprisoned, he escapes with the help of a mysterious group and gains supernatural powers from a godlike entity called the Outsider. Armed with these abilities and a thirst for justice, Corvo must navigate a plague-ridden city, confront corrupt officials, and uncover the conspiracy that betrayed him—all while deciding whether to take a path of vengeance or mercy."
+    }
   }
 ]
