@@ -1722,5 +1722,34 @@
       "metacritic": 88,
       "plot": "Corvo Attano, the bodyguard of an Empress, is framed for her murder and the kidnapping of her daughter. Stripped of his honor and imprisoned, he escapes with the help of a mysterious group and gains supernatural powers from a godlike entity called the Outsider. Armed with these abilities and a thirst for justice, Corvo must navigate a plague-ridden city, confront corrupt officials, and uncover the conspiracy that betrayed him—all while deciding whether to take a path of vengeance or mercy."
     }
+  },
+  {
+    "date": "2025-01-21",
+    "region": "NA",
+    "releaseDate": "2005-11-22",
+    "title": "Condemned: Criminal Origins",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2eis.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Monolith Productions"
+      ],
+      "genre": [
+        "Survival-horror",
+        "Action"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "LithTech Jupiter EX",
+      "metacritic": 81,
+      "plot": "Ethan Thomas, a forensic investigator, is framed for murder while pursuing a serial killer in a decaying city. As he hunts for the truth, Ethan uncovers a sinister force driving people to madness and violence. Armed with improvised weapons and his instincts, he must survive brutal encounters and confront his own unraveling sanity to expose the dark conspiracy behind the chaos."
+    }
   }
 ]
