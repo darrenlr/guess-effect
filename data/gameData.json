@@ -1751,5 +1751,34 @@
       "metacritic": 81,
       "plot": "Ethan Thomas, a forensic investigator, is framed for murder while pursuing a serial killer in a decaying city. As he hunts for the truth, Ethan uncovers a sinister force driving people to madness and violence. Armed with improvised weapons and his instincts, he must survive brutal encounters and confront his own unraveling sanity to expose the dark conspiracy behind the chaos."
     }
+  },
+  {
+    "date": "2025-01-22",
+    "region": "NA",
+    "releaseDate": "2006-08-24",
+    "title": "Dark Messiah of Might and Magic",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co23t5.webp"
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Arkane Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Action"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 72,
+      "plot": "Sareth, a young apprentice trained in magic and combat, is sent to recover a powerful artifact known as the Skull of Shadows. As he delves into a world of betrayal, warring factions, and dark prophecy, he discovers his true destiny and the demonic influence tied to his bloodline. With choices that shape his fate, Sareth must decide whether to embrace heroism or succumb to darkness."
+    }
   }
 ]
