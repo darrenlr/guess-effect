@@ -1784,7 +1784,7 @@
   {
     "date": "2025-01-23",
     "region": "NA",
-    "releaseDate": "1994-09-30",
+    "releaseDate": "1994-09-23",
     "title": "System Shock",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4e44.webp",
     "hints": {
@@ -1808,6 +1808,36 @@
       "engine": null,
       "metacritic": null,
       "plot": "A hacker awakens on a space station overtaken by SHODAN, a rogue AI that has turned the crew into cyborgs and mutants. As SHODAN plots to dominate Earth, the hacker must navigate the station’s dangers, solve intricate puzzles, and upgrade their abilities. The fate of humanity rests on their ability to outwit and destroy the malevolent AI."
+    }
+  },
+  {
+    "date": "2025-01-24",
+    "region": "NA",
+    "releaseDate": "2010-09-08",
+    "title": "Amnesia: The Dark Descent",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qq5.webp",
+    "hints": {
+      "publisher": [
+        "Frictional Games"
+      ],
+      "developer": [
+        "Frictional Games"
+      ],
+      "genre": [
+        "Survival Horror",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "Linux",
+        "OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "HPL Engine 2",
+      "metacritic": 85,
+      "plot": "Daniel awakens in a dark, foreboding castle with no memory of his past, guided only by a letter he wrote to himself. As he explores, he uncovers horrifying secrets about his actions and the ancient evil lurking within. Haunted by terrifying creatures and his own guilt, Daniel must solve puzzles and piece together his fragmented memories to survive the descent into madness."
     }
   }
 ]
