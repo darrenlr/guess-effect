@@ -1691,5 +1691,123 @@
       "metacritic": 92,
       "plot": "A lone Hunter arrives in the ancient city of Yharnam, seeking a cure for a mysterious ailment. The city is gripped by a nightmarish plague that transforms its inhabitants into monstrous beasts. Armed with trick weapons and guided by cryptic whispers, the Hunter must unravel Yharnam’s eldritch secrets, face grotesque horrors, and confront the truth about the cosmic forces behind the city's descent into madness."
     }
+  },
+  {
+    "date": "2025-01-20",
+    "region": "NA",
+    "releaseDate": "2012-10-09",
+    "title": "Dishonored",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5pcs.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Arkane Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 88,
+      "plot": "Corvo Attano, the bodyguard of an Empress, is framed for her murder and the kidnapping of her daughter. Stripped of his honor and imprisoned, he escapes with the help of a mysterious group and gains supernatural powers from a godlike entity called the Outsider. Armed with these abilities and a thirst for justice, Corvo must navigate a plague-ridden city, confront corrupt officials, and uncover the conspiracy that betrayed him—all while deciding whether to take a path of vengeance or mercy."
+    }
+  },
+  {
+    "date": "2025-01-21",
+    "region": "NA",
+    "releaseDate": "2005-11-22",
+    "title": "Condemned: Criminal Origins",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2eis.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Monolith Productions"
+      ],
+      "genre": [
+        "Survival-horror",
+        "Action"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "LithTech Jupiter EX",
+      "metacritic": 81,
+      "plot": "Ethan Thomas, a forensic investigator, is framed for murder while pursuing a serial killer in a decaying city. As he hunts for the truth, Ethan uncovers a sinister force driving people to madness and violence. Armed with improvised weapons and his instincts, he must survive brutal encounters and confront his own unraveling sanity to expose the dark conspiracy behind the chaos."
+    }
+  },
+  {
+    "date": "2025-01-22",
+    "region": "NA",
+    "releaseDate": "2006-10-24",
+    "title": "Dark Messiah of Might and Magic",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co23t5.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Arkane Studios"
+      ],
+      "genre": [
+        "RPG",
+        "Action"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 72,
+      "plot": "Sareth, a young apprentice trained in magic and combat, is sent to recover a powerful artifact known as the Skull of Shadows. As he delves into a world of betrayal, warring factions, and dark prophecy, he discovers his true destiny and the demonic influence tied to his bloodline. With choices that shape his fate, Sareth must decide whether to embrace heroism or succumb to darkness."
+    }
+  },
+  {
+    "date": "2025-01-23",
+    "region": "NA",
+    "releaseDate": "1994-09-30",
+    "title": "System Shock",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4e44.webp",
+    "hints": {
+      "publisher": [
+        "Origin Systems"
+      ],
+      "developer": [
+        "LookingGlass Technologies"
+      ],
+      "genre": [
+        "RPG",
+        "Action",
+        "Immersive Sim"
+      ],
+      "platforms": [
+        "MS-DOS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A hacker awakens on a space station overtaken by SHODAN, a rogue AI that has turned the crew into cyborgs and mutants. As SHODAN plots to dominate Earth, the hacker must navigate the station’s dangers, solve intricate puzzles, and upgrade their abilities. The fate of humanity rests on their ability to outwit and destroy the malevolent AI."
+    }
   }
 ]
