@@ -1839,5 +1839,36 @@
       "metacritic": 85,
       "plot": "Daniel awakens in a dark, foreboding castle with no memory of his past, guided only by a letter he wrote to himself. As he explores, he uncovers horrifying secrets about his actions and the ancient evil lurking within. Haunted by terrifying creatures and his own guilt, Daniel must solve puzzles and piece together his fragmented memories to survive the descent into madness."
     }
+  },
+  {
+    "date": "2025-01-25",
+    "region": "NA",
+    "releaseDate": "2011-08-30",
+    "title": "Driver San Francisco",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gdt.webp"
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Reflections"
+      ],
+      "genre": [
+        "Driving",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "Wii"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "John Tanner, a detective with a gift for high-speed driving, falls into a coma after a dangerous confrontation with a criminal mastermind, Jericho. While unconscious, Tanner finds himself in a surreal version of San Francisco where he can possess other drivers to stop Jericho’s schemes. Racing against time and reality, Tanner must use his unique ability to prevent a catastrophic plot and uncover the truth behind his condition."
+    }
   }
 ]
