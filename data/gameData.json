@@ -1870,5 +1870,33 @@
       "metacritic": 80,
       "plot": "John Tanner, a detective with a gift for high-speed driving, falls into a coma after a dangerous confrontation with a criminal mastermind, Jericho. While unconscious, Tanner finds himself in a surreal version of San Francisco where he can possess other drivers to stop Jericho’s schemes. Racing against time and reality, Tanner must use his unique ability to prevent a catastrophic plot and uncover the truth behind his condition."
     }
+  },
+  {
+    "date": "2025-01-26",
+    "region": "JP",
+    "releaseDate": "2005-02-17",
+    "title": "Devil May Cry 3: Dantes Awakening",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u6u.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 1"
+      ],
+      "genre": [
+        "Hack and slash",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Dante, a young demon hunter, is drawn into a deadly confrontation when his estranged twin brother, Vergil, opens a portal to the demon world. As the brothers clash over their conflicting ideals, Dante battles hordes of demons and powerful foes while discovering his own demonic heritage. In the end, he must embrace his true strength to stop Vergil’s plans and prevent the destruction of the human world."
+    }
   }
 ]
