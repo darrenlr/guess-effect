@@ -1872,31 +1872,63 @@
     }
   },
   {
-    "date": "2025-01-26",
+    "date": "2025-01-27",
     "region": "JP",
-    "releaseDate": "2005-02-17",
-    "title": "Devil May Cry 3: Dante's Awakening",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u6u.webp",
+    "releaseDate": "1997-04-27",
+    "title": "Star Fox 64",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e4k.webp",
     "hints": {
       "publisher": [
-        "Capcom"
+        "Nintendo"
       ],
       "developer": [
-        "Capcom Production Studio 1"
+        "Nintendo EAD"
       ],
       "genre": [
-        "Hack and slash",
-        "Action-adventure"
+        "Rail shooter",
+        "Shoot 'em up"
       ],
       "platforms": [
-        "PS2"
+        "Nintendo 64"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": "",
+      "plot": "Fox McCloud and his team of ace pilots are called to defend the Lylat System from the forces of Andross, a rogue scientist threatening galactic peace. Commanding the Arwing spacecraft, Fox leads daring missions across diverse planets, engaging in epic battles against Andross’s armies. With the fate of the galaxy at stake, Fox must confront his father’s legacy and face Andross in a final showdown."
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "region": "WW",
+    "releaseDate": "2009-10-16",
+    "title": "Machinarium",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27lo.webp",
+    "hints": {
+      "publisher": [
+        "Amanita Design"
+      ],
+      "developer": [
+        "Amanita Design"
+      ],
+      "genre": [
+        "Puzzle",
+        "Indie",
+        "Graphic adevnture"
+      ],
+      "platforms": [
+        "PC",
+        "OS X",
+        "Linux"
       ],
       "modes": [
         "Single-player"
       ],
-      "engine": "",
-      "metacritic": 84,
-      "plot": "Dante, a young demon hunter, is drawn into a deadly confrontation when his estranged twin brother, Vergil, opens a portal to the demon world. As the brothers clash over their conflicting ideals, Dante battles hordes of demons and powerful foes while discovering his own demonic heritage. In the end, he must embrace his true strength to stop Vergil’s plans and prevent the destruction of the human world."
+      "engine": "Adobe Flash Player",
+      "metacritic": 85,
+      "plot": "Fox McCloud and his team of ace pilots are called to defend the Lylat System from the forces of Andross, a rogue scientist threatening galactic peace. Commanding the Arwing spacecraft, Fox leads daring missions across diverse planets, engaging in epic battles against Andross’s armies. With the fate of the galaxy at stake, Fox must confront his father’s legacy and face Andross in a final showdown."
     }
   }
 ]
