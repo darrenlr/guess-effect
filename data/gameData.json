@@ -1872,6 +1872,34 @@
     }
   },
   {
+    "date": "2025-01-26",
+    "region": "JP",
+    "releaseDate": "2005-02-17",
+    "title": "Devil May Cry 3: Dante's Awakening",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u6u.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 1"
+      ],
+      "genre": [
+        "Hack and slash",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Dante, a young demon hunter, is drawn into a deadly confrontation when his estranged twin brother, Vergil, opens a portal to the demon world. As the brothers clash over their conflicting ideals, Dante battles hordes of demons and powerful foes while discovering his own demonic heritage. In the end, he must embrace his true strength to stop Vergil’s plans and prevent the destruction of the human world."
+    }
+  },
+  {
     "date": "2025-01-27",
     "region": "JP",
     "releaseDate": "1997-04-27",
