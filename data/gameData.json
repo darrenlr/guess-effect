@@ -1958,5 +1958,34 @@
       "metacritic": 85,
       "plot": "Fox McCloud and his team of ace pilots are called to defend the Lylat System from the forces of Andross, a rogue scientist threatening galactic peace. Commanding the Arwing spacecraft, Fox leads daring missions across diverse planets, engaging in epic battles against Andross’s armies. With the fate of the galaxy at stake, Fox must confront his father’s legacy and face Andross in a final showdown."
     }
+  },
+  {
+    "date": "2025-01-29",
+    "region": "NA",
+    "releaseDate": "1997-10-13",
+    "title": "Age of Empires",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zsh.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft"
+      ],
+      "developer": [
+        "Ensemble Studios"
+      ],
+      "genre": [
+        "Real-time strategy"
+      ],
+      "platforms": [
+        "PC",
+"Macintosh"
+      ],
+      "modes": [
+        "Single-player",
+"Multiplayer"
+      ],
+      "engine": "Genie",
+      "metacritic": "",
+      "plot": "Across different eras of history, leaders rise to build mighty civilizations, expand their empires, and wage strategic wars. Players gather resources, advance through technological ages, and command armies in epic battles to dominate rivals. Through careful planning and tactical prowess, they shape the course of history and forge legendary empires."
+    }
   }
 ]
