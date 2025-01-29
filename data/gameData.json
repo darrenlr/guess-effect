@@ -1987,5 +1987,35 @@
       "metacritic": "",
       "plot": "Across different eras of history, leaders rise to build mighty civilizations, expand their empires, and wage strategic wars. Players gather resources, advance through technological ages, and command armies in epic battles to dominate rivals. Through careful planning and tactical prowess, they shape the course of history and forge legendary empires."
     }
+  },
+  {
+    "date": "2025-01-30",
+    "region": "NA",
+    "releaseDate": "2009-11-17",
+    "title": "Left 4 Dead 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "FPS",
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 89,
+      "plot": "A group of four survivors fights to escape a deadly zombie outbreak sweeping across the southern United States. Traveling through infested cities, swamps, and highways, they must work together to battle hordes of infected and powerful mutated creatures. With limited supplies and no safe haven, their only hope is to reach the next evacuation point—if they can survive long enough."
+    }
   }
 ]
