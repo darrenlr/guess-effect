@@ -2044,5 +2044,33 @@
       "metacritic": 89,
       "plot": "Investigative journalist Miles Upshur breaks into a remote psychiatric asylum after receiving a mysterious tip. Inside, he discovers horrifying experiments, bloodthirsty patients, and a supernatural force lurking in the shadows. Trapped and unarmed, Miles must uncover the asylum’s dark secrets while evading the monstrosities that hunt him."
     }
+  },
+  {
+    "date": "2025-02-01",
+    "region": "EU",
+    "releaseDate": "2001-10-19",
+    "title": "Stronghold",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7nln.webp",
+    "hints": {
+      "publisher": [
+        "Gathering of Developers"
+      ],
+      "developer": [
+        "Firefly Studios"
+      ],
+      "genre": [
+        "Real-time Strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 81,
+      "plot": "In a medieval land torn by war, a noble lord must build and defend a thriving kingdom against rival factions. Balancing resource management, castle construction, and military strategy, they must withstand brutal sieges and expand their territory. Only through careful planning and tactical warfare can they unite the land and secure their legacy."
+    }
   }
 ]
