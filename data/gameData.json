@@ -2017,5 +2017,32 @@
       "metacritic": 89,
       "plot": "A group of four survivors fights to escape a deadly zombie outbreak sweeping across the southern United States. Traveling through infested cities, swamps, and highways, they must work together to battle hordes of infected and powerful mutated creatures. With limited supplies and no safe haven, their only hope is to reach the next evacuation point—if they can survive long enough."
     }
+  },
+  {
+    "date": "2025-01-31",
+    "region": "WW",
+    "releaseDate": "2013-09-04",
+    "title": "Outlast",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yat.webp",
+    "hints": {
+      "publisher": [
+        "Red Barrels"
+      ],
+      "developer": [
+        "Red Barrels"
+      ],
+      "genre": [
+        "Psychological horror"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 89,
+      "plot": "Investigative journalist Miles Upshur breaks into a remote psychiatric asylum after receiving a mysterious tip. Inside, he discovers horrifying experiments, bloodthirsty patients, and a supernatural force lurking in the shadows. Trapped and unarmed, Miles must uncover the asylum’s dark secrets while evading the monstrosities that hunt him."
+    }
   }
 ]
