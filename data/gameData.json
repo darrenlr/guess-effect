@@ -2072,5 +2072,35 @@
       "metacritic": 81,
       "plot": "In a medieval land torn by war, a noble lord must build and defend a thriving kingdom against rival factions. Balancing resource management, castle construction, and military strategy, they must withstand brutal sieges and expand their territory. Only through careful planning and tactical warfare can they unite the land and secure their legacy."
     }
+  },
+  {
+    "date": "2025-02-02",
+    "region": "NA",
+    "releaseDate": "2012-08-14",
+    "title": "Sleeping Dogs",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e3z.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "United Front Games"
+      ],
+      "genre": [
+        "Open world",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PS3",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok Physics",
+      "metacritic": 80,
+      "plot": "Wei Shen, an undercover cop, infiltrates the Hong Kong Triads to take down a powerful crime syndicate from within. As he rises through the ranks, he struggles to balance his duty as a cop with his loyalty to his newfound brothers in the gang. Caught between two worlds, Wei must navigate brutal combat, high-speed chases, and dangerous betrayals to complete his mission without losing himself."
+    }
   }
 ]
