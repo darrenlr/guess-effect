@@ -2103,4 +2103,33 @@
       "plot": "Wei Shen, an undercover cop, infiltrates the Hong Kong Triads to take down a powerful crime syndicate from within. As he rises through the ranks, he struggles to balance his duty as a cop with his loyalty to his newfound brothers in the gang. Caught between two worlds, Wei must navigate brutal combat, high-speed chases, and dangerous betrayals to complete his mission without losing himself."
     }
   }
+  ,{
+    "date": "2025-02-03",
+    "region": "NA",
+    "releaseDate": "1996-06-22",
+    "title": "Quake",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9bg9.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive"
+      ],
+      "developer": [
+        "id Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "MS-DOS",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 2",
+      "metacritic": "",
+      "plot": "A lone marine is sent through a mysterious portal to stop an ancient, malevolent entity threatening humanity. Battling through gothic dimensions filled with nightmarish creatures, he must locate runes of power to reach the heart of the evil. Armed with an arsenal of devastating weapons, he fights to survive and prevent the destruction of his world."
+    }
+  }
 ]
