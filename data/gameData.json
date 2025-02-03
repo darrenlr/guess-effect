@@ -2131,5 +2131,36 @@
       "metacritic": "",
       "plot": "A lone marine is sent through a mysterious portal to stop an ancient, malevolent entity threatening humanity. Battling through gothic dimensions filled with nightmarish creatures, he must locate runes of power to reach the heart of the evil. Armed with an arsenal of devastating weapons, he fights to survive and prevent the destruction of his world."
     }
+  },
+  {
+    "date": "2025-02-04",
+    "region": "WW",
+    "releaseDate": "2019-05-28",
+    "title": "Outer Wilds",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ac.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "Mobius Digital"
+      ],
+      "genre": [
+        "Action-adventure", 
+        "Sci-fi",
+        "Indie",
+        "Puzzle"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 85,
+      "plot": "A traveler explores a mysterious solar system trapped in a time loop, uncovering the secrets of an ancient civilization. As the sun nears its final moments, they piece together clues hidden across distant planets to understand the cycle and their place in it. With each reset, they dive deeper into the mystery, racing against time to find the truth before everything resets once more.",
+    }
   }
 ]
