@@ -2162,5 +2162,35 @@
       "metacritic": 85,
       "plot": "A traveler explores a mysterious solar system trapped in a time loop, uncovering the secrets of an ancient civilization. As the sun nears its final moments, they piece together clues hidden across distant planets to understand the cycle and their place in it. With each reset, they dive deeper into the mystery, racing against time to find the truth before everything resets once more."
     }
+  },
+  {
+    "date": "2025-02-05",
+    "region": "WW",
+    "releaseDate": "2018-02-13",
+    "title": "Kingdom Come: Deliverance",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4aqi.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Warhorse Studios"
+      ],
+      "genre": [
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "CryEngine",
+      "metacritic": 76,
+      "plot": "Henry, a blacksmith's son, is thrust into the chaos of a civil war after his village is destroyed by invading forces. Seeking revenge and a purpose, he trains in swordplay, diplomacy, and survival, navigating the harsh realities of medieval life. As he becomes entangled in noble conflicts and political intrigue, Henry must choose his path—whether as a warrior, a rogue, or a statesman—to shape the fate of the kingdom."
+    }
   }
 ]
