@@ -2220,5 +2220,35 @@
       "metacritic": 76,
       "plot": "Kratos, a ruthless Spartan warrior, is haunted by his past and seeks vengeance against Ares, the god who betrayed him. Guided by the gods of Olympus, he embarks on a perilous journey to find Pandora’s Box, the only weapon capable of killing a god. Battling mythical beasts and deadly foes, Kratos must confront his own darkness to claim his revenge and break free from his torment."
     }
+  },
+  {
+    "date": "2025-02-07",
+    "region": "EU",
+    "releaseDate": "2009-12-04",
+    "title": "The Saboteur",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co23vr.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok Physics",
+      "metacritic": 66,
+      "plot": "Sean Devlin, an Irish race car driver turned resistance fighter, seeks revenge against the Nazis occupying France. Using stealth, sabotage, and guerilla warfare, he dismantles enemy operations while aiding the French Resistance. As he strikes back against his enemies, he fights not just for personal vengeance but for the liberation of Paris itself."
+    }
   }
 ]
