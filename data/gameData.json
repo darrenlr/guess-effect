@@ -2192,5 +2192,33 @@
       "metacritic": 76,
       "plot": "Henry, a blacksmith's son, is thrust into the chaos of a civil war after his village is destroyed by invading forces. Seeking revenge and a purpose, he trains in swordplay, diplomacy, and survival, navigating the harsh realities of medieval life. As he becomes entangled in noble conflicts and political intrigue, Henry must choose his path—whether as a warrior, a rogue, or a statesman—to shape the fate of the kingdom."
     }
+  },
+  {
+    "date": "2025-02-06",
+    "region": "NA",
+    "releaseDate": "2005-03-22",
+    "title": "God of War",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Santa Monica Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Kinetica",
+      "metacritic": 76,
+      "plot": "Kratos, a ruthless Spartan warrior, is haunted by his past and seeks vengeance against Ares, the god who betrayed him. Guided by the gods of Olympus, he embarks on a perilous journey to find Pandora’s Box, the only weapon capable of killing a god. Battling mythical beasts and deadly foes, Kratos must confront his own darkness to claim his revenge and break free from his torment."
+    }
   }
 ]
