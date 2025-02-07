@@ -1839,5 +1839,416 @@
       "metacritic": 85,
       "plot": "Daniel awakens in a dark, foreboding castle with no memory of his past, guided only by a letter he wrote to himself. As he explores, he uncovers horrifying secrets about his actions and the ancient evil lurking within. Haunted by terrifying creatures and his own guilt, Daniel must solve puzzles and piece together his fragmented memories to survive the descent into madness."
     }
+  },
+  {
+    "date": "2025-01-25",
+    "region": "NA",
+    "releaseDate": "2011-08-30",
+    "title": "Driver San Francisco",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gdt.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Reflections"
+      ],
+      "genre": [
+        "Driving",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "Wii"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "John Tanner, a detective with a gift for high-speed driving, falls into a coma after a dangerous confrontation with a criminal mastermind, Jericho. While unconscious, Tanner finds himself in a surreal version of San Francisco where he can possess other drivers to stop Jericho’s schemes. Racing against time and reality, Tanner must use his unique ability to prevent a catastrophic plot and uncover the truth behind his condition."
+    }
+  },
+  {
+    "date": "2025-01-26",
+    "region": "JP",
+    "releaseDate": "2005-02-17",
+    "title": "Devil May Cry 3: Dante's Awakening",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u6u.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 1"
+      ],
+      "genre": [
+        "Hack and slash",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Dante, a young demon hunter, is drawn into a deadly confrontation when his estranged twin brother, Vergil, opens a portal to the demon world. As the brothers clash over their conflicting ideals, Dante battles hordes of demons and powerful foes while discovering his own demonic heritage. In the end, he must embrace his true strength to stop Vergil’s plans and prevent the destruction of the human world."
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "region": "JP",
+    "releaseDate": "1997-04-27",
+    "title": "Star Fox 64",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e4k.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo EAD"
+      ],
+      "genre": [
+        "Rail shooter",
+        "Shoot 'em up"
+      ],
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": "",
+      "plot": "Fox McCloud and his team of ace pilots are called to defend the Lylat System from the forces of Andross, a rogue scientist threatening galactic peace. Commanding the Arwing spacecraft, Fox leads daring missions across diverse planets, engaging in epic battles against Andross’s armies. With the fate of the galaxy at stake, Fox must confront his father’s legacy and face Andross in a final showdown."
+    }
+  },
+  {
+    "date": "2025-01-28",
+    "region": "WW",
+    "releaseDate": "2009-10-16",
+    "title": "Machinarium",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27lo.webp",
+    "hints": {
+      "publisher": [
+        "Amanita Design"
+      ],
+      "developer": [
+        "Amanita Design"
+      ],
+      "genre": [
+        "Puzzle",
+        "Indie",
+        "Graphic adevnture"
+      ],
+      "platforms": [
+        "PC",
+        "OS X",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Adobe Flash Player",
+      "metacritic": 85,
+      "plot": "Fox McCloud and his team of ace pilots are called to defend the Lylat System from the forces of Andross, a rogue scientist threatening galactic peace. Commanding the Arwing spacecraft, Fox leads daring missions across diverse planets, engaging in epic battles against Andross’s armies. With the fate of the galaxy at stake, Fox must confront his father’s legacy and face Andross in a final showdown."
+    }
+  },
+  {
+    "date": "2025-01-29",
+    "region": "NA",
+    "releaseDate": "1997-10-13",
+    "title": "Age of Empires",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zsh.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft"
+      ],
+      "developer": [
+        "Ensemble Studios"
+      ],
+      "genre": [
+        "Real-time strategy"
+      ],
+      "platforms": [
+        "PC",
+"Macintosh"
+      ],
+      "modes": [
+        "Single-player",
+"Multiplayer"
+      ],
+      "engine": "Genie",
+      "metacritic": "",
+      "plot": "Across different eras of history, leaders rise to build mighty civilizations, expand their empires, and wage strategic wars. Players gather resources, advance through technological ages, and command armies in epic battles to dominate rivals. Through careful planning and tactical prowess, they shape the course of history and forge legendary empires."
+    }
+  },
+  {
+    "date": "2025-01-30",
+    "region": "NA",
+    "releaseDate": "2009-11-17",
+    "title": "Left 4 Dead 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "FPS",
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 89,
+      "plot": "A group of four survivors fights to escape a deadly zombie outbreak sweeping across the southern United States. Traveling through infested cities, swamps, and highways, they must work together to battle hordes of infected and powerful mutated creatures. With limited supplies and no safe haven, their only hope is to reach the next evacuation point—if they can survive long enough."
+    }
+  },
+  {
+    "date": "2025-01-31",
+    "region": "WW",
+    "releaseDate": "2013-09-04",
+    "title": "Outlast",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yat.webp",
+    "hints": {
+      "publisher": [
+        "Red Barrels"
+      ],
+      "developer": [
+        "Red Barrels"
+      ],
+      "genre": [
+        "Psychological horror"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 89,
+      "plot": "Investigative journalist Miles Upshur breaks into a remote psychiatric asylum after receiving a mysterious tip. Inside, he discovers horrifying experiments, bloodthirsty patients, and a supernatural force lurking in the shadows. Trapped and unarmed, Miles must uncover the asylum’s dark secrets while evading the monstrosities that hunt him."
+    }
+  },
+  {
+    "date": "2025-02-01",
+    "region": "EU",
+    "releaseDate": "2001-10-19",
+    "title": "Stronghold",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7nln.webp",
+    "hints": {
+      "publisher": [
+        "Gathering of Developers"
+      ],
+      "developer": [
+        "Firefly Studios"
+      ],
+      "genre": [
+        "Real-time Strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 81,
+      "plot": "In a medieval land torn by war, a noble lord must build and defend a thriving kingdom against rival factions. Balancing resource management, castle construction, and military strategy, they must withstand brutal sieges and expand their territory. Only through careful planning and tactical warfare can they unite the land and secure their legacy."
+    }
+  },
+  {
+    "date": "2025-02-02",
+    "region": "NA",
+    "releaseDate": "2012-08-14",
+    "title": "Sleeping Dogs",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e3z.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "United Front Games"
+      ],
+      "genre": [
+        "Open world",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PS3",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok Physics",
+      "metacritic": 80,
+      "plot": "Wei Shen, an undercover cop, infiltrates the Hong Kong Triads to take down a powerful crime syndicate from within. As he rises through the ranks, he struggles to balance his duty as a cop with his loyalty to his newfound brothers in the gang. Caught between two worlds, Wei must navigate brutal combat, high-speed chases, and dangerous betrayals to complete his mission without losing himself."
+    }
+  }
+  ,{
+    "date": "2025-02-03",
+    "region": "NA",
+    "releaseDate": "1996-06-22",
+    "title": "Quake",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9bg9.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive"
+      ],
+      "developer": [
+        "id Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "MS-DOS",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 2",
+      "metacritic": "",
+      "plot": "A lone marine is sent through a mysterious portal to stop an ancient, malevolent entity threatening humanity. Battling through gothic dimensions filled with nightmarish creatures, he must locate runes of power to reach the heart of the evil. Armed with an arsenal of devastating weapons, he fights to survive and prevent the destruction of his world."
+    }
+  },
+  {
+    "date": "2025-02-04",
+    "region": "WW",
+    "releaseDate": "2019-05-28",
+    "title": "Outer Wilds",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ac.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "Mobius Digital"
+      ],
+      "genre": [
+        "Action-adventure", 
+        "Sci-fi",
+        "Indie",
+        "Puzzle"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 85,
+      "plot": "A traveler explores a mysterious solar system trapped in a time loop, uncovering the secrets of an ancient civilization. As the sun nears its final moments, they piece together clues hidden across distant planets to understand the cycle and their place in it. With each reset, they dive deeper into the mystery, racing against time to find the truth before everything resets once more."
+    }
+  },
+  {
+    "date": "2025-02-05",
+    "region": "WW",
+    "releaseDate": "2018-02-13",
+    "title": "Kingdom Come: Deliverance",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4aqi.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Warhorse Studios"
+      ],
+      "genre": [
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "CryEngine",
+      "metacritic": 76,
+      "plot": "Henry, a blacksmith's son, is thrust into the chaos of a civil war after his village is destroyed by invading forces. Seeking revenge and a purpose, he trains in swordplay, diplomacy, and survival, navigating the harsh realities of medieval life. As he becomes entangled in noble conflicts and political intrigue, Henry must choose his path—whether as a warrior, a rogue, or a statesman—to shape the fate of the kingdom."
+    }
+  },
+  {
+    "date": "2025-02-06",
+    "region": "NA",
+    "releaseDate": "2005-03-22",
+    "title": "God of War I",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Santa Monica Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Kinetica",
+      "metacritic": 76,
+      "plot": "Kratos, a ruthless Spartan warrior, is haunted by his past and seeks vengeance against Ares, the god who betrayed him. Guided by the gods of Olympus, he embarks on a perilous journey to find Pandora’s Box, the only weapon capable of killing a god. Battling mythical beasts and deadly foes, Kratos must confront his own darkness to claim his revenge and break free from his torment."
+    }
+  },
+  {
+    "date": "2025-02-07",
+    "region": "EU",
+    "releaseDate": "2009-12-04",
+    "title": "The Saboteur",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co23vr.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok Physics",
+      "metacritic": 66,
+      "plot": "Sean Devlin, an Irish race car driver turned resistance fighter, seeks revenge against the Nazis occupying France. Using stealth, sabotage, and guerilla warfare, he dismantles enemy operations while aiding the French Resistance. As he strikes back against his enemies, he fights not just for personal vengeance but for the liberation of Paris itself."
+    }
   }
 ]
