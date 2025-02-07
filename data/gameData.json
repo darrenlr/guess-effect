@@ -2250,5 +2250,34 @@
       "metacritic": 66,
       "plot": "Sean Devlin, an Irish race car driver turned resistance fighter, seeks revenge against the Nazis occupying France. Using stealth, sabotage, and guerilla warfare, he dismantles enemy operations while aiding the French Resistance. As he strikes back against his enemies, he fights not just for personal vengeance but for the liberation of Paris itself."
     }
+  },
+  {
+    "date": "2025-02-08",
+    "region": "NA",
+    "releaseDate": "1992-12-15",
+    "title": "Streets of Rage 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co49sn.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Sega"
+      ],
+      "genre": [
+        "Beat em Up",
+       "Arcade"
+      ],
+      "platforms": [
+        "Mega Drive/Genesis"
+      ],
+      "modes": [
+        "Single-player",
+        "Two-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "When their friend is kidnapped by a ruthless crime syndicate, a group of street fighters takes to the city to bring justice. Battling through gangs, corrupt officials, and powerful enforcers, they fight to dismantle the syndicate and rescue their ally. With fists, weapons, and teamwork, they wage war against crime to reclaim their city from the grip of chaos."
+    }
   }
 ]
