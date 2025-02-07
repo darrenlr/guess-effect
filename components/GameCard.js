@@ -140,10 +140,12 @@ const GameCard = ({
         						width={300}
         						height={360}
 								priority
-								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease' }}
+								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease', pointerEvents: 'none' }}
         						onLoadingComplete={extractColors}
         						ref={imgRef}
-							/>
+							// 	placeholder="blur"
+							// 	blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY2h3YXJlPSJodHRwOi8vc3YyMDAyLnhtbCIgYWJsaWVuY2U9Im1pY3JvZm9yaW5ndCImZmlsbD0iIzAwMDAwMDAiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBzdHJva2U9IiMwMDAwMDAiPjxwYXRoIGQ9Ik0wLDEwMHEtMTEtMTUtMTAtMTgtMTAtMTgtMTcgYWxzbyBwb3NpdGl2ZXMgbm9zdCBhbmltYXRlcyBhbmQgc2luZ2xlYXIgdGV4dC1kZWFsZXMuIiBzdHJva2U9IiMwMDAwMDAiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiA+PC9zdHJva2U+PC9wYXRoPjwvc3ZnPjw="
+						 	/>
 						</div>
 					</div>
 					<button
