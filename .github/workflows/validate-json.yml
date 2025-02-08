@@ -15,7 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Validate JSON
+      - name: Validate JSON with Schema
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
+          CONFIGURATION: strict
+          INPUT_SCHEMA: data/gameDataSchema.json
           INPUT_JSONS: data/gameData.json
+

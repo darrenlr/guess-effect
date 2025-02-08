@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["date", "region", "releaseDate", "title", "boxArtUrl", "hints"],
+    "properties": {
+      "date": {
+        "type": "string",
+        "format": "date",
+        "description": "The date of entry (YYYY-MM-DD)."
+      },
+      "region": {
+        "type": "string",
+        "description": "Region code (e.g., NA, EU, JP)."
+      },
+      "releaseDate": {
+        "type": "string",
+        "format": "date",
+        "description": "Original release date of the game (YYYY-MM-DD)."
+      },
+      "title": {
+        "type": "string",
+        "description": "Title of the game."
+      },
+      "boxArtUrl": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL of the game's box art."
+      },
+      "hints": {
+        "type": "object",
+        "required": ["publisher", "developer", "genre", "platforms", "modes", "engine", "metacritic", "plot"],
+        "properties": {
+          "publisher": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "List of publishers."
+          },
+          "developer": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "List of developers."
+          },
+          "genre": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "List of game genres."
+          },
+          "platforms": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "List of platforms."
+          },
+          "modes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Game modes (e.g., Single-player, Multiplayer)."
+          },
+          "engine": {
+            "type": ["string", "null"],
+            "description": "Game engine used (can be null or an empty string)."
+          },
+          "metacritic": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Metacritic score (0-100, or null if unavailable)."
+          },
+          "plot": {
+            "type": "string",
+            "description": "Short game plot summary."
+          }
+        }
+      }
+    }
+  }
+}
