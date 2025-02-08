@@ -61,7 +61,7 @@
             "description": "Game engine used (can be null or an empty string)."
           },
           "metacritic": {
-            "type": ["integer", "null"],
+            "type": ["integer", "string",  "null"],
             "minimum": 0,
             "maximum": 100,
             "description": "Metacritic score (0-100, or null if unavailable)."
