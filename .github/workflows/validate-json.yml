@@ -1,21 +1,21 @@
 name: Validate JSON
 
 on:
-  push:
+  pull_request:
     paths:
       - 'data/gameData.json'
-  pull_request:
+  push:
     paths:
       - 'data/gameData.json'
 
 jobs:
-  validate-json:
+  verify-json-validation:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Validate JSON
-        uses: OrRosenblatt/validate-json-action@0.1.0
-        with:
-          json-path: 'data/gameData.json'
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_JSONS: data/gameData.json
