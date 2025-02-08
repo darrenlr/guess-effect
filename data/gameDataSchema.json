@@ -25,7 +25,6 @@
       },
       "boxArtUrl": {
         "type": "string",
-        "format": "string",
         "description": "URL of the game's box art."
       },
       "hints": {
