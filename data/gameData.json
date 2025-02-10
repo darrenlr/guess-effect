@@ -2335,5 +2335,33 @@
       "metacritic": 86,
       "plot": "A special forces team is sent to a mysterious facility after an entire city vanishes, only to find themselves trapped in a world overrun by deadly dinosaurs. As they search for survivors and a way back home, they uncover a secret experiment that led to the catastrophe. Racing against time, they must battle prehistoric threats and unravel the truth before they become extinct themselves."
    }
+  },
+  {
+    "date": "2025-02-11",
+    "region": "WW",
+    "releaseDate": "2019-10-31",
+    "title": "Luigi's Mansion",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co22a9.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Next Level Games"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player",
+        "Coop"
+      ],
+      "engine": "",
+      "metacritic": 86,
+      "plot": "Luigi and his friends check into a luxurious hotel, only to be trapped by ghosts in a sinister plot. Armed with his trusty Poltergust, Luigi must explore the haunted floors, solve puzzles, and battle mischievous spirits to rescue his friends. With each eerie encounter, he uncovers the hotel’s secrets and faces a final showdown with its ghostly mastermind."
+    }
   }
 ]
