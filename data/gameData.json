@@ -2363,5 +2363,33 @@
       "metacritic": 86,
       "plot": "Luigi and his friends check into a luxurious hotel, only to be trapped by ghosts in a sinister plot. Armed with his trusty Poltergust, Luigi must explore the haunted floors, solve puzzles, and battle mischievous spirits to rescue his friends. With each eerie encounter, he uncovers the hotel’s secrets and faces a final showdown with its ghostly mastermind."
     }
+  },
+  {
+    "date": "2025-02-12",
+    "region": "JP",
+    "releaseDate": "2004-06-17",
+    "title": "Silent Hill 4: The Room",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vyk.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Team Silent"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS2",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 86,
+      "plot": "Henry Townshend finds himself trapped in his apartment, with no way out except a mysterious hole in his bathroom wall. Venturing into disturbing otherworldly realms, he uncovers a dark connection to a serial killer’s ritualistic murders. As the haunting presence grows stronger, Henry must unravel the mystery before his home—and his sanity—become his tomb."
+    }
   }
 ]
