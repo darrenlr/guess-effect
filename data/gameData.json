@@ -2391,5 +2391,34 @@
       "metacritic": 86,
       "plot": "Henry Townshend finds himself trapped in his apartment, with no way out except a mysterious hole in his bathroom wall. Venturing into disturbing otherworldly realms, he uncovers a dark connection to a serial killer’s ritualistic murders. As the haunting presence grows stronger, Henry must unravel the mystery before his home—and his sanity—become his tomb."
     }
+  },
+  {
+    "date": "2025-02-13",
+    "region": "JP",
+    "releaseDate": "1997-07-10",
+    "title": "Armored Core",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9d6e.webp",
+    "hints": {
+      "publisher": [
+        "FromSoftware"
+      ],
+      "developer": [
+        "FromSoftware"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player", 
+        "Multiplayer",
+        "Split screen"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "In a war-torn future controlled by powerful corporations, a mercenary pilot, known as a Raven, takes on high-risk missions using a customizable mech. As they navigate a web of corporate rivalries and hidden agendas, they uncover a deeper conflict threatening to destabilize the world. With each battle, the Raven must decide where their loyalty lies and whether they are merely a pawn or a force of change."
+    }
   }
 ]
