@@ -2420,5 +2420,35 @@
       "metacritic": null,
       "plot": "In a war-torn future controlled by powerful corporations, a mercenary pilot, known as a Raven, takes on high-risk missions using a customizable mech. As they navigate a web of corporate rivalries and hidden agendas, they uncover a deeper conflict threatening to destabilize the world. With each battle, the Raven must decide where their loyalty lies and whether they are merely a pawn or a force of change."
     }
+  },
+  {
+    "date": "2025-02-14",
+    "region": "WW",
+    "releaseDate": "2023-02-10",
+    "title": "Hogwarts Legacy",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gn3.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Games"
+      ],
+      "developer": [
+        "Avalanche Software"
+      ],
+      "genre": [
+        "Action",
+        "RPG"
+      ],
+      "platforms": [
+        "PS5",
+        "Xbox Series X/S",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 84,
+      "plot": "A young witch or wizard enters Hogwarts in the 1800s, discovering they possess a rare ability to harness ancient magic. As they navigate their studies, forge friendships, and duel dark forces, they uncover a hidden threat that could change the wizarding world forever. With danger lurking in the shadows, they must master their powers and decide the fate of this long-buried secret."
+    }
   }
 ]
