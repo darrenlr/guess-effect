@@ -2450,5 +2450,37 @@
       "metacritic": 84,
       "plot": "A young witch or wizard enters Hogwarts in the 1800s, discovering they possess a rare ability to harness ancient magic. As they navigate their studies, forge friendships, and duel dark forces, they uncover a hidden threat that could change the wizarding world forever. With danger lurking in the shadows, they must master their powers and decide the fate of this long-buried secret."
     }
-  }
+  },
+  {
+    "date": "2025-02-15",
+    "region": "WW",
+    "releaseDate": "2016-08-23",
+    "title": "Deus Ex: Mankind Divided",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25jt.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "Eidos-Montréal"
+      ],
+      "genre": [
+        "Action",
+        "RPG",
+        "FPS",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+      ],
+      "engine": "Dawn Engine",
+      "metacritic": 84,
+      "plot": "In a world divided between augmented humans and natural ones, Adam Jensen, a cybernetically enhanced agent, works to uncover a global conspiracy. Navigating a tense society on the brink of collapse, he infiltrates shadowy organizations, makes morally complex choices, and unearths the truth behind rising oppression and hidden manipulators. With his advanced abilities and tactical expertise, he must decide who to trust and how far he’s willing to go to change the future."
+}
+}
 ]
