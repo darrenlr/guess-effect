@@ -2481,6 +2481,35 @@
       "engine": "Dawn Engine",
       "metacritic": 84,
       "plot": "In a world divided between augmented humans and natural ones, Adam Jensen, a cybernetically enhanced agent, works to uncover a global conspiracy. Navigating a tense society on the brink of collapse, he infiltrates shadowy organizations, makes morally complex choices, and unearths the truth behind rising oppression and hidden manipulators. With his advanced abilities and tactical expertise, he must decide who to trust and how far he’s willing to go to change the future."
-}
-}
+    }
+  },
+  {
+    "date": "2025-02-16",
+    "region": "NA",
+    "releaseDate": "2005-11-08",
+    "title": "The Movies",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co50cc.webp",
+    "hints": {
+      "publisher": [
+        "Activision",
+        "Sega"
+      ],
+      "developer": [
+        "Lionhead Studios"
+      ],
+      "genre": [
+        "Simulator"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 84,
+      "plot": "As the head of a budding film studio, players build their empire from the silent era to the modern age of cinema. Managing actors, directors, and production crews, they must balance creativity with business to produce blockbuster hits while dealing with scandals and rival studios. Only those who master the art of filmmaking and studio management can create a lasting Hollywood legacy."
+    }
+  }
 ]
