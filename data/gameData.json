@@ -2540,5 +2540,33 @@
       "metacritic": 70,
       "plot": "During the era of space exploration, a faction of humans colonized the planet Helghan. In order to survive in the harsh environment, these people mutated to the point of no longer remaining human. They developed a passionate hatred for mankind, and eventually formed the Helghast Empire, attacking the planet Vekta controlled by the Interplanetary Strategic Alliance (ISA). As Helghast soldiers invade the planet's perimeter, the ISA forces are trying to hold the ground and find a way to stop them."
     }
+  },
+  {
+    "date": "2025-02-18",
+    "region": "NA",
+    "releaseDate": "1999-10-19",
+    "title": "Crash Team Racing",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7r52.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Kart Racing"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 88,
+      "plot": "An egotistical space alien by the name of Nitros Oxide comes to Earth and challenges Crash Bandicoot, his friends and foes to a racing competition before facing himself, threatening to turn the world into a concrete parking lot if he wins."
+    }
   }
 ]
