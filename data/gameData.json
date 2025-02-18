@@ -2568,5 +2568,32 @@
       "metacritic": 88,
       "plot": "An egotistical space alien by the name of Nitros Oxide comes to Earth and challenges Crash Bandicoot, his friends and foes to a racing competition before facing himself, threatening to turn the world into a concrete parking lot if he wins."
     }
+  },
+  {
+    "date": "2025-02-19",
+    "region": "JP",
+    "releaseDate": "2006-04-20",
+    "title": "Okami",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3mpk.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Clover Studios"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 93,
+      "plot": "Amaterasu, the sun goddess in the form of a white wolf, awakens to restore life and beauty to a world consumed by darkness. Armed with celestial brush techniques, she battles demons, solves puzzles, and aids those in need to break an ancient curse. As she journeys across the land, she must reclaim her lost power and defeat the evil threatening to plunge the world into eternal night."
+    }
   }
 ]
