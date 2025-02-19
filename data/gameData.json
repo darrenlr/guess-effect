@@ -2595,5 +2595,34 @@
       "metacritic": 93,
       "plot": "Amaterasu, the sun goddess in the form of a white wolf, awakens to restore life and beauty to a world consumed by darkness. Armed with celestial brush techniques, she battles demons, solves puzzles, and aids those in need to break an ancient curse. As she journeys across the land, she must reclaim her lost power and defeat the evil threatening to plunge the world into eternal night."
     }
+  },
+  {
+    "date": "2025-02-20",
+    "region": "NA",
+    "releaseDate": "2006-11-07",
+    "title": "Gears of War",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7r52.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Epic Games"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Coop",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine",
+      "metacritic": 94,
+      "plot": "On a planet ravaged by war, hardened soldier Marcus Fenix is freed from prison to help humanity’s last stand against the monstrous Locust Horde. Leading a squad of elite soldiers, he battles through devastated cities and underground lairs to stop the relentless enemy. With the fate of mankind hanging by a thread, Marcus must uncover the Locust’s secrets and fight to prevent total annihilation."
+    }
   }
 ]
