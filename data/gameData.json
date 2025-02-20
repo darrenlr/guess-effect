@@ -2624,5 +2624,33 @@
       "metacritic": 94,
       "plot": "On a planet ravaged by war, hardened soldier Marcus Fenix is freed from prison to help humanity’s last stand against the monstrous Locust Horde. Leading a squad of elite soldiers, he battles through devastated cities and underground lairs to stop the relentless enemy. With the fate of mankind hanging by a thread, Marcus must uncover the Locust’s secrets and fight to prevent total annihilation."
     }
+  },
+  {
+    "date": "2025-02-21",
+    "region": "NA",
+    "releaseDate": "2002-05-02",
+    "title": "The Elder Scrolls III: Morrowind",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2knd.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks (NA)",
+        "Ubisoft (PAL)"
+      ],
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "genre": [
+        "RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "NetImmerse",
+      "metacritic": 89,
+      "plot": "A mysterious outlander arrives on the island of Vvardenfell, unaware they are part of an ancient prophecy tied to the fate of *********. As they navigate political intrigue, warring factions, and a land plagued by disease and corruption, they uncover their true role in the struggle against a powerful, god-like enemy. With limitless choices shaping their journey, they must decide whether to embrace their destiny or forge their own path."
+    }
   }
 ]
