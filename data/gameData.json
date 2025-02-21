@@ -2652,5 +2652,35 @@
       "metacritic": 89,
       "plot": "A mysterious outlander arrives on the island of Vvardenfell, unaware they are part of an ancient prophecy tied to the fate of *********. As they navigate political intrigue, warring factions, and a land plagued by disease and corruption, they uncover their true role in the struggle against a powerful, god-like enemy. With limitless choices shaping their journey, they must decide whether to embrace their destiny or forge their own path."
     }
+  },
+  {
+    "date": "2025-02-22",
+    "region": "EU",
+    "releaseDate": "2010-06-25",
+    "title": "Singularity",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r7l.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Raven Software"
+      ],
+      "genre": [
+        "FPS",
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 76,
+      "plot": "A U.S. soldier investigating a Soviet island discovers a hidden experiment that has fractured time itself. Armed with a device that manipulates time, he battles mutated creatures and Soviet forces while uncovering a conspiracy that altered history. To prevent a catastrophic future, he must navigate shifting timelines and make a choice that will decide the fate of the world."
+    }
   }
 ]
