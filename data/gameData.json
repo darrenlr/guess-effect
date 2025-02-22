@@ -2682,5 +2682,32 @@
       "metacritic": 76,
       "plot": "A U.S. soldier investigating a Soviet island discovers a hidden experiment that has fractured time itself. Armed with a device that manipulates time, he battles mutated creatures and Soviet forces while uncovering a conspiracy that altered history. To prevent a catastrophic future, he must navigate shifting timelines and make a choice that will decide the fate of the world."
     }
+  },
+  {
+    "date": "2025-02-23",
+    "region": "JP",
+    "releaseDate": "1994-12-16",
+    "title": "King's Field",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4tgm.webp",
+    "hints": {
+      "publisher": [
+        "FromSoftware"
+      ],
+      "developer": [
+        "FromSoftware"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A lone warrior arrives on a cursed island shrouded in darkness, seeking a legendary artifact that may restore peace. As they explore its labyrinthine depths, they face relentless monsters, deadly traps, and cryptic lore left by a lost civilization. With no guidance but their own determination, they must uncover the island’s secrets and survive its horrors to fulfill their quest."
+    }
   }
 ]
