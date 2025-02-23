@@ -2709,5 +2709,34 @@
       "metacritic": null,
       "plot": "A lone warrior arrives on a cursed island shrouded in darkness, seeking a legendary artifact that may restore peace. As they explore its labyrinthine depths, they face relentless monsters, deadly traps, and cryptic lore left by a lost civilization. With no guidance but their own determination, they must uncover the island’s secrets and survive its horrors to fulfill their quest."
     }
+  },
+  {
+    "date": "2025-02-24",
+    "region": "NA",
+    "releaseDate": "2007-06-25",
+    "title": "The Darkness",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4eii.webp",
+    "hints": {
+      "publisher": [
+        "2K"
+      ],
+      "developer": [
+        "Starbreeze Studios"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 82,
+      "plot": "On his 21st birthday, mafia hit man Jackie Estacado is possessed by an ancient demonic force called *** ********. This further complicates his relationships with his mafia family, a corrupt police department and his childhood love Jenny."
+    }
   }
 ]
