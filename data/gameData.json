@@ -2738,5 +2738,33 @@
       "metacritic": 82,
       "plot": "On his 21st birthday, mafia hit man Jackie Estacado is possessed by an ancient demonic force called *** ********. This further complicates his relationships with his mafia family, a corrupt police department and his childhood love Jenny."
     }
+  },
+  {
+    "date": "2025-02-25",
+    "region": "JP",
+    "releaseDate": "2010-02-18",
+    "title": "Heavy Rain",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co94lc.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Quantic Dream"
+      ],
+      "genre": [
+        "Interactive drama",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok",
+      "metacritic": 87,
+      "plot": "A city is gripped by fear as the Origami Killer, a mysterious serial murderer, kidnaps another victim. Four strangers—a grieving father, a private detective, a journalist, and an FBI agent—become entangled in the case, each racing against time to uncover the truth. Their choices and actions shape the outcome, leading to multiple possible fates in this tense psychological thriller."
+    }
   }
 ]
