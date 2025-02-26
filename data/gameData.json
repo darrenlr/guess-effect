@@ -2796,5 +2796,39 @@
       "metacritic": 76,
       "plot": "A man awakens in a mysterious research facility with no memory of his past, only to discover he has powerful psychic abilities. As he escapes and pieces together his identity, he uncovers a conspiracy involving covert military experiments and a deadly mission gone wrong. With both enemies and his own past closing in, he must use his newfound powers to uncover the truth before it's too late."
     }
+  },
+  {
+    "date": "2025-02-27",
+    "region": "WW",
+    "releaseDate": "2023-09-18",
+    "title": "Lies of P",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6lxr.webp",
+    "hints": {
+      "publisher": [
+        "Neowiz"
+      ],
+      "developer": [
+        "Neowiz",
+        "Round8 Studio"
+      ],
+      "genre": [
+        "Action RPG",
+        "Soulslike"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "macOS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 80,
+      "plot": "In a dark, twisted city overrun by rogue puppets, a mysterious humanoid puppet awakens with a singular goal: to find his creator, Geppetto. As he battles monstrous automatons and uncovers a web of secrets, he must navigate a world filled with deception, choosing whether to embrace lies or the painful truth. With each choice shaping his fate, he fights to uncover his origins and determine what it means to be human."
+    }
   }
 ]
