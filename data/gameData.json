@@ -2830,5 +2830,32 @@
       "metacritic": 80,
       "plot": "In a dark, twisted city overrun by rogue puppets, a mysterious humanoid puppet awakens with a singular goal: to find his creator, Geppetto. As he battles monstrous automatons and uncovers a web of secrets, he must navigate a world filled with deception, choosing whether to embrace lies or the painful truth. With each choice shaping his fate, he fights to uncover his origins and determine what it means to be human."
     }
+  },
+  {
+    "date": "2025-02-28",
+    "region": "NA",
+    "releaseDate": "2001-09-25",
+    "title": "Ico",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3r78.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Team Ico"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "A young boy with horns is imprisoned in an ancient castle, condemned by his own people. There, he meets a mysterious girl, Yorda, who is pursued by shadowy forces. Together, they must navigate the castle’s puzzles and dangers, forging a silent bond as they seek freedom before darkness consumes them both."
+    }
   }
 ]
