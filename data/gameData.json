@@ -2857,5 +2857,32 @@
       "metacritic": 90,
       "plot": "A young boy with horns is imprisoned in an ancient castle, condemned by his own people. There, he meets a mysterious girl, Yorda, who is pursued by shadowy forces. Together, they must navigate the castle’s puzzles and dangers, forging a silent bond as they seek freedom before darkness consumes them both."
     }
+  },
+  {
+    "date": "2025-03-01",
+    "region": "JP",
+    "releaseDate": "2001-10-12",
+    "title": "Phoenix Wright: Ace Attorney",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5z8s.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 4"
+      ],
+      "genre": [
+        "Visual Novel"
+      ],
+      "platforms": [
+        "Game Boy Advance"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A rookie defense attorney, ******* ******, takes on seemingly impossible cases to prove his clients’ innocence. Armed with sharp wit, bold objections, and a keen eye for contradictions, he uncovers hidden truths in the courtroom. As he faces eccentric witnesses and ruthless prosecutors, he must unravel complex mysteries and fight for justice against all odds."
+    }
   }
 ]
