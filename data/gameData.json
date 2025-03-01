@@ -2884,5 +2884,32 @@
       "metacritic": null,
       "plot": "A rookie defense attorney, ******* ******, takes on seemingly impossible cases to prove his clients’ innocence. Armed with sharp wit, bold objections, and a keen eye for contradictions, he uncovers hidden truths in the courtroom. As he faces eccentric witnesses and ruthless prosecutors, he must unravel complex mysteries and fight for justice against all odds."
     }
+  },
+  {
+    "date": "2025-03-02",
+    "region": "WW",
+    "releaseDate": "2023-11-23",
+    "title": "Quantum Error",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co29q3.webp",
+    "hints": {
+      "publisher": [
+        "TeammKill Media"
+      ],
+      "developer": [
+        "TeamKill Media"
+      ],
+      "genre": [
+        "Action horror"
+      ],
+      "platforms": [
+        "PS5"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 5",
+      "metacritic": 40,
+      "plot": "A firefighter, sent to respond to a distress call at a high-tech research facility, discovers a nightmare beyond comprehension. The site is overrun with grotesque creatures and twisted experiments, the result of a secretive AI-driven project gone horribly wrong. As reality bends and horrors intensify, he must fight to survive, uncover the truth, and escape before the madness consumes him."
+    }
   }
 ]
