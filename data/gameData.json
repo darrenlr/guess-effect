@@ -2911,5 +2911,33 @@
       "metacritic": 40,
       "plot": "A firefighter, sent to respond to a distress call at a high-tech research facility, discovers a nightmare beyond comprehension. The site is overrun with grotesque creatures and twisted experiments, the result of a secretive AI-driven project gone horribly wrong. As reality bends and horrors intensify, he must fight to survive, uncover the truth, and escape before the madness consumes him."
     }
+  },
+  {
+    "date": "2025-03-03",
+    "region": "WW",
+    "releaseDate": "2009-02-12",
+    "title": "Flower",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1q8r.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Thatgamecompany"
+      ],
+      "genre": [
+        "Adventure",
+        "Simulator"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Phyre Engine",
+      "metacritic": 40,
+      "plot": "A single petal drifts on the wind, guided by the player through lush landscapes, bringing life and color to the world. As it soars across open fields and decaying cities, the journey unfolds as a peaceful yet emotional exploration of nature’s beauty and resilience. With no words or danger, the experience is one of discovery, transformation, and serenity."
+    }
   }
 ]
