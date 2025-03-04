@@ -2939,5 +2939,34 @@
       "metacritic": 87,
       "plot": "A single petal drifts on the wind, guided by the player through lush landscapes, bringing life and color to the world. As it soars across open fields and decaying cities, the journey unfolds as a peaceful yet emotional exploration of nature’s beauty and resilience. With no words or danger, the experience is one of discovery, transformation, and serenity."
     }
+  },
+  {
+    "date": "2025-03-04",
+    "region": "JP",
+    "releaseDate": "2016-01-21",
+    "title": "Yakuza Kiwami",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1pbc.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Ryu Ga Gotoku Studio"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Beat em Up"
+      ],
+      "platforms": [
+        "PS3",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "After taking the fall for a crime he didn’t commit, Kazuma Kiryu spends ten years in prison, only to return to a changed Kamurocho. His former allies have turned against him, his childhood friend has vanished, and a mysterious girl holds the key to a missing fortune. As betrayal and violence erupt around him, Kiryu must fight to uncover the truth and reclaim his honor in the yakuza underworld."
+    }
   }
 ]
