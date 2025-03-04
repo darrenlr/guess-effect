@@ -2968,5 +2968,34 @@
       "metacritic": 80,
       "plot": "After taking the fall for a crime he didn’t commit, Kazuma Kiryu spends ten years in prison, only to return to a changed Kamurocho. His former allies have turned against him, his childhood friend has vanished, and a mysterious girl holds the key to a missing fortune. As betrayal and violence erupt around him, Kiryu must fight to uncover the truth and reclaim his honor in the yakuza underworld."
     }
+  },
+  {
+    "date": "2025-03-05",
+    "region": "NA",
+    "releaseDate": "2008-10-27",
+    "title": "LittleBigPlanet",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4p0f.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Media Molecule"
+      ],
+      "genre": [
+        "Platformer",
+        "Sandbox"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 95,
+      "plot": "In a whimsical, handcrafted world, a small, customizable hero embarks on a creative adventure filled with puzzles, platforming, and imagination. Along the way, they explore vibrant levels, overcome quirky challenges, and unlock new tools to shape their own unique worlds. With endless possibilities for creativity and collaboration, the journey is as much about making as it is about playing."
+    }
   }
 ]
