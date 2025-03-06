@@ -2997,5 +2997,33 @@
       "metacritic": 95,
       "plot": "In a whimsical, handcrafted world, a small, customizable hero embarks on a creative adventure filled with puzzles, platforming, and imagination. Along the way, they explore vibrant levels, overcome quirky challenges, and unlock new tools to shape their own unique worlds. With endless possibilities for creativity and collaboration, the journey is as much about making as it is about playing."
     }
+  },
+  {
+    "date": "2025-03-06",
+    "region": "NA",
+    "releaseDate": "2015-08-26",
+    "title": "Until Dawn",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2s5q.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Supermassive Games"
+      ],
+      "genre": [
+        "Survival-horror",
+        "Interactive drama"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Decima",
+      "metacritic": 79,
+      "plot": "A group of friends reunites at a remote mountain lodge, only to find themselves stalked by a deadly presence. As tensions rise and secrets unravel, their choices determine who survives the terrifying night. With danger lurking in every shadow, they must navigate fear, betrayal, and the unknown—where every decision could be their last."
+    }
   }
 ]
