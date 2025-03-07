@@ -3025,5 +3025,32 @@
       "metacritic": 79,
       "plot": "A group of friends reunites at a remote mountain lodge, only to find themselves stalked by a deadly presence. As tensions rise and secrets unravel, their choices determine who survives the terrifying night. With danger lurking in every shadow, they must navigate fear, betrayal, and the unknown—where every decision could be their last."
     }
+  },
+  {
+    "date": "2025-03-07",
+    "region": "JP",
+    "releaseDate": "1995-12-15",
+    "title": "Suikoden",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3r9m.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami Computer Entertainment Tokyo"
+      ],
+      "genre": [
+        "RPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "TrueMotion",
+      "metacritic": null,
+      "plot": "A young noble is thrust into a rebellion after discovering the corruption of the empire he once served. Gathering the 108 Stars of Destiny, he builds an army, forging alliances and leading battles to overthrow tyranny. As war rages, he must confront betrayal, uncover ancient mysteries, and determine the fate of the land."
+    }
   }
 ]
