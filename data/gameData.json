@@ -3052,5 +3052,33 @@
       "metacritic": null,
       "plot": "A young noble is thrust into a rebellion after discovering the corruption of the empire he once served. Gathering the 108 Stars of Destiny, he builds an army, forging alliances and leading battles to overthrow tyranny. As war rages, he must confront betrayal, uncover ancient mysteries, and determine the fate of the land."
     }
+  },
+  {
+    "date": "2025-03-08",
+    "region": "NA",
+    "releaseDate": "1998-10-30",
+    "title": "Grim Fandango",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25r3.webp",
+    "hints": {
+      "publisher": [
+        "LucasArts"
+      ],
+      "developer": [
+        "LucasArts"
+      ],
+      "genre": [
+        "Graphic adventure",
+        "Point-and-click"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "GrimE",
+      "metacritic": 94,
+      "plot": "Manny Calavera, a travel agent in the Land of the Dead, uncovers a corruption scheme that preys on lost souls. Determined to set things right, he embarks on a four-year journey through a noir-inspired underworld, facing gangsters, conspiracies, and supernatural dangers. With wit, charm, and a bit of luck, he must solve the mystery and help a deserving soul reach their final rest."
+    }
   }
 ]
