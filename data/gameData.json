@@ -3080,5 +3080,37 @@
       "metacritic": 94,
       "plot": "Manny Calavera, a travel agent in the Land of the Dead, uncovers a corruption scheme that preys on lost souls. Determined to set things right, he embarks on a four-year journey through a noir-inspired underworld, facing gangsters, conspiracies, and supernatural dangers. With wit, charm, and a bit of luck, he must solve the mystery and help a deserving soul reach their final rest."
     }
+  },
+  {
+    "date": "2025-03-09",
+    "region": "NA",
+    "releaseDate": "2005-11-08",
+    "title": "Gun",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28op.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "NeverSoft",
+        "Beenox"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player", 
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 79,
+      "plot": "Colton White, a gunslinger seeking vengeance, uncovers a deadly conspiracy tied to his past in the untamed American West. As he hunts down those responsible, he becomes entangled in a battle over lost treasure, corruption, and survival. Facing outlaws, soldiers, and lawless frontier towns, he must fight to uncover the truth and carve out his own destiny."
+    }
   }
 ]
