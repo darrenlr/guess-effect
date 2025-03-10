@@ -3112,5 +3112,33 @@
       "metacritic": 79,
       "plot": "Colton White, a gunslinger seeking vengeance, uncovers a deadly conspiracy tied to his past in the untamed American West. As he hunts down those responsible, he becomes entangled in a battle over lost treasure, corruption, and survival. Facing outlaws, soldiers, and lawless frontier towns, he must fight to uncover the truth and carve out his own destiny."
     }
+  },
+  {
+    "date": "2025-03-10",
+    "region": "NA",
+    "releaseDate": "2001-11-13",
+    "title": "Metal Gear Solid 2: Sons of Liberty",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5e1c.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami Computer Entertainment Japan"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 96,
+      "plot": "A special forces operative infiltrates a hijacked tanker to uncover a secret military project, only for the mission to take an unexpected turn. Years later, a new operative, Raiden, is sent to a massive offshore facility seized by terrorists threatening global catastrophe. As he unravels a web of deception, shadowy organizations, and hidden agendas, he must question who he can trust and what is real in a world of misinformation."
+    }
   }
 ]
