@@ -3140,5 +3140,33 @@
       "metacritic": 96,
       "plot": "A special forces operative infiltrates a hijacked tanker to uncover a secret military project, only for the mission to take an unexpected turn. Years later, a new operative, Raiden, is sent to a massive offshore facility seized by terrorists threatening global catastrophe. As he unravels a web of deception, shadowy organizations, and hidden agendas, he must question who he can trust and what is real in a world of misinformation."
     }
+  },
+  {
+    "date": "2025-03-11",
+    "region": "WW",
+    "releaseDate": "2008-12-21",
+    "title": "Speluncky",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co47m4.webp",
+    "hints": {
+      "publisher": [
+        "Mossmouth"
+      ],
+      "developer": [
+        "Mossmouth"
+      ],
+      "genre": [
+        "Platformer" 
+        "Roguelike"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "A fearless adventurer descends into a vast, ever-changing underground filled with deadly traps, hostile creatures, and hidden treasures. With each run, they must navigate procedurally generated caves, uncover secrets, and adapt to unexpected dangers. Every decision counts, as death is permanent, and only skill, strategy, and a bit of luck will lead to survival and fortune."
+    }
   }
 ]
