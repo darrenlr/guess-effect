@@ -3196,5 +3196,34 @@
       "metacritic": 84,
       "plot": "When the UNSC can't track down their most valued asset (Spartan 117: The Master Chief), they send a highly trained ONI soldier (Agent Locke) to bring him back. Master Chief is in search for something very important and will allow nothing to stand in his way, while Agent Locke has vowed to uphold justice and hunt for the truth. As these two titans fight their way through Forerunner and Covenant forces, the fate of the universe hangs in the balance yet again."
     }
+  },
+  {
+    "date": "2025-03-13",
+    "region": "WW",
+    "releaseDate": "2015-03-11",
+    "title": "Ori and the Blind Forest",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y41.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Studios"
+      ],
+      "developer": [
+        "Moon Studios"
+      ],
+      "genre": [
+        "Metroidvania",
+        "Platform-adventure"
+      ],
+      "platforms": [
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 88,
+      "plot": "A small guardian spirit, Ori, is separated from their home after a great calamity drains the forest of its life. To restore balance, Ori embarks on a perilous journey, overcoming dangerous creatures and treacherous landscapes while uncovering the forest’s tragic past. With the help of newfound abilities and allies, they must rekindle the light and save their dying world."
+    }
   }
 ]
