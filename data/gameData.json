@@ -3168,5 +3168,33 @@
       "metacritic": 90,
       "plot": "A fearless adventurer descends into a vast, ever-changing underground filled with deadly traps, hostile creatures, and hidden treasures. With each run, they must navigate procedurally generated caves, uncover secrets, and adapt to unexpected dangers. Every decision counts, as death is permanent, and only skill, strategy, and a bit of luck will lead to survival and fortune."
     }
+  },
+  {
+    "date": "2025-03-12",
+    "region": "WW",
+    "releaseDate": "2015-10-27",
+    "title": "Halo 5: Guardians",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Studios"
+      ],
+      "developer": [
+        "343 Industries"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "When the UNSC can't track down their most valued asset (Spartan 117: The Master Chief), they send a highly trained ONI soldier (Agent Locke) to bring him back. Master Chief is in search for something very important and will allow nothing to stand in his way, while Agent Locke has vowed to uphold justice and hunt for the truth. As these two titans fight their way through Forerunner and Covenant forces, the fate of the universe hangs in the balance yet again."
+    }
   }
 ]
