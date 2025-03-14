@@ -3241,7 +3241,7 @@
       ],
       "genre": [
         "RPG",
-"Action"
+        "Action"
       ],
       "platforms": [
         "Nintendo Switch"
@@ -3253,6 +3253,36 @@
       "engine": "RE Engine",
       "metacritic": 88,
       "plot": "Set in the ninja-inspired land of Kamura Village, explore lush ecosystems and battle fearsome monsters to become the ultimate hunter. It’s been half a century since the last calamity struck, but a terrifying new monster has reared its head and threatens to plunge the land into chaos once again."
+    }
+  }
+  ,
+  {
+    "date": "2025-03-15",
+    "region": "NA",
+    "releaseDate": "2010-03-16",
+    "title": "Metro 2033",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rd6.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "4A Games"
+      ],
+      "genre": [
+        "FPS",
+        "Survival Horror"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "4A Engine",
+      "metacritic": 77,
+      "plot": "In the aftermath of nuclear war, humanity clings to survival in the tunnels of the Moscow Metro, where mutants and rival factions threaten their existence. Artyom, a young survivor, is sent on a dangerous journey to warn others of an impending threat. Battling both the horrors of the surface and the darkness within, he must navigate the ruins of civilization and decide the fate of the last remnants of mankind."
     }
   }
 ]
