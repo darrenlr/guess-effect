@@ -3225,5 +3225,34 @@
       "metacritic": 88,
       "plot": "A small guardian spirit, Ori, is separated from their home after a great calamity drains the forest of its life. To restore balance, Ori embarks on a perilous journey, overcoming dangerous creatures and treacherous landscapes while uncovering the forest’s tragic past. With the help of newfound abilities and allies, they must rekindle the light and save their dying world."
     }
+  },
+  {
+    "date": "2025-03-14",
+    "region": "WW",
+    "releaseDate": "2021-03-26",
+    "title": "Monster Hunter Rise",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3uzk.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "RPG",
+"Action"
+      ],
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RE Engine",
+      "metacritic": 88,
+      "plot": "Set in the ninja-inspired land of Kamura Village, explore lush ecosystems and battle fearsome monsters to become the ultimate hunter. It’s been half a century since the last calamity struck, but a terrifying new monster has reared its head and threatens to plunge the land into chaos once again."
+    }
   }
 ]
