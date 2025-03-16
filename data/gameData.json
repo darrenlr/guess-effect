@@ -3310,5 +3310,32 @@
       "metacritic": 93,
       "plot": "A man named Tim embarks on a journey through surreal, time-bending worlds to rescue a kidnapped princess. As he manipulates time to solve puzzles, he uncovers fragments of his past and the deeper meaning behind his quest. In the end, perception is challenged, revealing a story not of heroism, but of obsession and regret."
     }
+  },
+  {
+    "date": "2025-03-17",
+    "region": "WW",
+    "releaseDate": "2022-09-22",
+    "title": "Doki Doku Literature Club!",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6p5e.webp",
+    "hints": {
+      "publisher": [
+        "Team Salvato"
+      ],
+      "developer": [
+        "Team Salvato"
+      ],
+      "genre": [
+        "Visual Novel"
+      ],
+      "platforms": [
+        "Linux", "MacOS", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RenPy",
+      "metacritic": 78,
+      "plot": "A seemingly lighthearted school club turns into a psychological horror experience as a new member bonds with four unique girls. As the story progresses, reality begins to unravel, revealing disturbing secrets and breaking the fourth wall. What starts as a simple romance quickly spirals into a nightmarish journey of manipulation, obsession, and existential dread."
+    }
   }
 ]
