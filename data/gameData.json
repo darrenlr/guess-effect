@@ -3337,5 +3337,32 @@
       "metacritic": 78,
       "plot": "A seemingly lighthearted school club turns into a psychological horror experience as a new member bonds with four unique girls. As the story progresses, reality begins to unravel, revealing disturbing secrets and breaking the fourth wall. What starts as a simple romance quickly spirals into a nightmarish journey of manipulation, obsession, and existential dread."
     }
+  },
+  {
+    "date": "2025-03-18",
+    "region": "WW",
+    "releaseDate": "2014-03-11",
+    "title": "Dark Souls II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2eoo.webp",
+    "hints": {
+      "publisher": [
+        "Bandai Namco Games"
+      ],
+      "developer": [
+        "FromSoftware"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 91,
+      "plot": "A cursed undead warrior arrives in the fallen kingdom of Drangleic, seeking a cure for their affliction. As they battle through ruined lands filled with lost souls, ancient kings, and monstrous foes, they uncover the cycle of light and dark that has doomed countless others before them. In the end, they must choose whether to embrace the inevitable fate of all kingdoms or attempt to break the cycle at a great cost."
+    }
   }
 ]
