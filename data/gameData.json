@@ -3364,5 +3364,32 @@
       "metacritic": 91,
       "plot": "A cursed undead warrior arrives in the fallen kingdom of Drangleic, seeking a cure for their affliction. As they battle through ruined lands filled with lost souls, ancient kings, and monstrous foes, they uncover the cycle of light and dark that has doomed countless others before them. In the end, they must choose whether to embrace the inevitable fate of all kingdoms or attempt to break the cycle at a great cost."
     }
+  },
+  {
+    "date": "2025-03-19",
+    "region": "WW",
+    "releaseDate": "2014-05-27",
+    "title": "Watch Dogs",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2p5w.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "Open-world", "Action Adventure"
+      ],
+      "platforms": [
+        "PC", "PS4", "PS3", "Xbox One", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Disrupt",
+      "metacritic": 80,
+      "plot": "Aiden Pearce, a skilled hacker seeking revenge for a family tragedy, uses Chicago’s citywide surveillance system as his weapon. Manipulating traffic lights, security cameras, and personal data, he hunts those responsible while navigating a world of crime and corruption. As his quest for justice blurs the line between hero and vigilante, he must decide how far he’s willing to go to protect those he loves."
+    }
   }
 ]
