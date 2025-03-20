@@ -3391,5 +3391,32 @@
       "metacritic": 80,
       "plot": "Aiden Pearce, a skilled hacker seeking revenge for a family tragedy, uses Chicago’s citywide surveillance system as his weapon. Manipulating traffic lights, security cameras, and personal data, he hunts those responsible while navigating a world of crime and corruption. As his quest for justice blurs the line between hero and vigilante, he must decide how far he’s willing to go to protect those he loves."
     }
+  },
+  {
+    "date": "2025-03-20",
+    "region": "WW",
+    "releaseDate": "2003-11-24",
+    "title": "SpyHunter 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co90ug.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Angel Studios"
+      ],
+      "genre": [
+        "Vehicular combat"
+      ],
+      "platforms": [
+        "Xbox", "PS2"
+      ],
+      "modes": [
+        "Single-player", "Split screen"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A highly skilled agent pilots the advanced Interceptor, a high-tech vehicle armed for combat, to stop a global terrorist organization. Racing through dangerous terrain, he battles enemy forces, uncovers a sinister conspiracy, and prevents a world-threatening catastrophe. With speed, firepower, and espionage, he must outmaneuver his enemies and complete his mission before it’s too late."
+    }
   }
 ]
