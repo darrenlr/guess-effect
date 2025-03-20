@@ -3418,5 +3418,32 @@
       "metacritic": null,
       "plot": "A highly skilled agent pilots the advanced Interceptor, a high-tech vehicle armed for combat, to stop a global terrorist organization. Racing through dangerous terrain, he battles enemy forces, uncovers a sinister conspiracy, and prevents a world-threatening catastrophe. With speed, firepower, and espionage, he must outmaneuver his enemies and complete his mission before it’s too late."
     }
+  },
+  {
+    "date": "2025-03-21",
+    "region": "NA",
+    "releaseDate": "1999-02-23",
+    "title": "Silent Hill",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vye.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Team Silent"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 86,
+      "plot": "Harry Mason searches for his missing daughter after a car crash leaves him stranded in the eerie town of Silent Hill. As he navigates its fog-covered streets and nightmarish otherworld, he encounters disturbing creatures and unraveling mysteries tied to a dark cult. With reality shifting around him, Harry must uncover the truth behind the town’s horrors and find his daughter before it’s too late."
+    }
   }
 ]
