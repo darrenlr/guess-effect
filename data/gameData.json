@@ -3445,5 +3445,32 @@
       "metacritic": 86,
       "plot": "Harry Mason searches for his missing daughter after a car crash leaves him stranded in the eerie town of Silent Hill. As he navigates its fog-covered streets and nightmarish otherworld, he encounters disturbing creatures and unraveling mysteries tied to a dark cult. With reality shifting around him, Harry must uncover the truth behind the town’s horrors and find his daughter before it’s too late."
     }
+  },
+  {
+    "date": "2025-03-22",
+    "region": "WW",
+    "releaseDate": "2011-07-11",
+    "title": "Bastion",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qlj.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "Supergiant Games"
+      ],
+      "genre": [
+        "Action RPG", "Indie"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Microsoft XNA",
+      "metacritic": 86,
+      "plot": "In a world shattered by a mysterious calamity, a young warrior known as the Kid navigates floating ruins to restore what was lost. Guided by the voice of a lone narrator, he battles strange creatures, uncovers the truth behind the disaster, and rebuilds the Bastion, a refuge with the power to reshape the world. In the end, he must choose between rewriting history or moving forward with what remains."
+    }
   }
 ]
