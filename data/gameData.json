@@ -3499,5 +3499,32 @@
       "metacritic": 95,
       "plot": "After awakening in a decaying research facility, Chell is forced to navigate deadly test chambers once again, guided by the malfunctioning AI, GLaDOS. With the help of Wheatley, a quirky robot, she attempts to escape, only to uncover deeper secrets about the facility’s past. As betrayals and power struggles unfold, Chell must outwit her foes and find a way to break free from the endless cycle of testing."
     }
+  },
+  {
+    "date": "2025-03-24",
+    "region": "NA",
+    "releaseDate": "2003-10-14",
+    "title": "Jak II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2agi.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure", "Platformer"
+      ],
+      "platforms": [
+        "PS2",
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Kinetica",
+      "metacritic": 87,
+      "plot": "Jak is thrust into a dystopian city ruled by a tyrannical baron after being experimented on and infused with dark powers. With the help of his loyal friend Daxter and a growing rebellion, he fights to overthrow the oppressive regime while struggling to control his newfound abilities. As he uncovers secrets about his past and the city’s future, Jak must embrace his destiny to bring down the corrupt forces that seek to control him."
+    }
   }
 ]
