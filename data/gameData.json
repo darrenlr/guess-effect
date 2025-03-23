@@ -3472,5 +3472,32 @@
       "metacritic": 86,
       "plot": "In a world shattered by a mysterious calamity, a young warrior known as the Kid navigates floating ruins to restore what was lost. Guided by the voice of a lone narrator, he battles strange creatures, uncovers the truth behind the disaster, and rebuilds the Bastion, a refuge with the power to reshape the world. In the end, he must choose between rewriting history or moving forward with what remains."
     }
+  },
+  {
+    "date": "2025-03-23",
+    "region": "WW",
+    "releaseDate": "2011-04-18",
+    "title": "Portal 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "Puzzle-platform"
+      ],
+      "platforms": [
+        "PC", "Mac OS X"
+      ],
+      "modes": [
+        "Single-player", "Co-op"
+      ],
+      "engine": "Source",
+      "metacritic": 95,
+      "plot": "After awakening in a decaying research facility, Chell is forced to navigate deadly test chambers once again, guided by the malfunctioning AI, GLaDOS. With the help of Wheatley, a quirky robot, she attempts to escape, only to uncover deeper secrets about the facility’s past. As betrayals and power struggles unfold, Chell must outwit her foes and find a way to break free from the endless cycle of testing."
+    }
   }
 ]
