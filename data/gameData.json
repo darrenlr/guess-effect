@@ -3526,5 +3526,32 @@
       "metacritic": 87,
       "plot": "Jak is thrust into a dystopian city ruled by a tyrannical baron after being experimented on and infused with dark powers. With the help of his loyal friend Daxter and a growing rebellion, he fights to overthrow the oppressive regime while struggling to control his newfound abilities. As he uncovers secrets about his past and the city’s future, Jak must embrace his destiny to bring down the corrupt forces that seek to control him."
     }
+  },
+  {
+    "date": "2025-03-25",
+    "region": "JP",
+    "releaseDate": "2009-10-23",
+    "title": "Bayonetta",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8nf4.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "PlatinumGames"
+      ],
+      "genre": [
+        "Action-adventure", "hack and slash"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "A powerful witch named ********* awakens from a centuries-long slumber with no memory of her past. Battling angelic forces and uncovering hidden truths, she embarks on a journey to piece together her lost history and the fate of her kind. With time running out, she must embrace her full power to stop an ancient conspiracy that threatens the balance of the universe."
+    }
   }
 ]
