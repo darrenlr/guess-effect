@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
           a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
           twq('config','ou7tq');
         `}
-      />
+      </Script>
       {/* <AdSense adSlot="7606066193" /> */}
       <Script
         strategy="afterInteractive"
