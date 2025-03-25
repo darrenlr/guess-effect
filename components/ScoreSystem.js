@@ -334,6 +334,13 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 		await trackPlayer(finalScore, usedGuesses, !resetScore);
 
     	setPlayerStatsUpdated(prev => !prev);
+
+		if (typeof twq === "function") {
+			twq('event', 'tw-ou7tq-ou7tq', {
+				value: finalScore,
+
+			});
+		}
 	
 		setModalScore(finalScore);
 		setIsModalVisible(true);
