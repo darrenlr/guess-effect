@@ -3553,5 +3553,32 @@
       "metacritic": 90,
       "plot": "A powerful witch named ********* awakens from a centuries-long slumber with no memory of her past. Battling angelic forces and uncovering hidden truths, she embarks on a journey to piece together her lost history and the fate of her kind. With time running out, she must embrace her full power to stop an ancient conspiracy that threatens the balance of the universe."
     }
+  },
+  {
+    "date": "2025-03-26",
+    "region": "WW",
+    "releaseDate": "2013-03-26",
+    "title": "Bioshock Infinite",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n12.webp",
+    "hints": {
+      "publisher": [
+        "2K"
+      ],
+      "developer": [
+        "Irrational Games"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 94,
+      "plot": "Booker DeWitt, a former Pinkerton agent, is sent to the floating city of Columbia to retrieve a mysterious girl named Elizabeth. As he navigates the city’s utopian facade, he uncovers dark secrets, violent civil unrest, and the truth about his own past. With reality-bending powers, he and Elizabeth must escape Columbia while unraveling a story of fate, redemption, and infinite possibilities."
+    }
   }
 ]
