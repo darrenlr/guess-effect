@@ -1,14 +1,46 @@
+import React, { useState, useRef, useEffect } from "react";
+import Calendar from "react-calendar";
 import styles from "../styles/Modal.module.css";
+import 'react-calendar/dist/Calendar.css';
 
-const ArchiveModal = ({ closeModal }) => {
+const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
+    const [isOpen, setIsOpen] = useState(true);
 
-	const handleClickOutside = (event) => {
-		if (event.target.className === styles.modalOverlay) {
-			closeModal();
-		}
-	};
+    const handleClickOutside = (event) => {
+        if (event.target.className === styles.modalOverlay) {
+            closeModal();
+        }
+    };
 
-	return (
+    const minDate = new Date("2024-11-25");
+    const maxDate = new Date();
+
+    maxDate.setDate(maxDate.getDate() - 1);
+
+    const getScoreForDate = (date) => {
+        const dateString = date.toISOString().split("T")[0];
+        const scoreEntry = gameHistory.scores.find((entry) => entry.date === dateString);
+        return scoreEntry ? scoreEntry.score : null;
+    };
+    
+    const renderDayContents = ({ date }) => {
+        if (date < minDate || date > maxDate) {
+            return null;
+        }
+
+        const score = getScoreForDate(date);
+        return (
+            <div className={styles.dotContainer}>
+                {score !== null ? (
+                    <div className={styles.score}>{score}</div>
+                ) : (
+                    <div className={styles.dot} style={{ backgroundColor: `#ffbd3f` }}></div>
+                )}
+            </div>
+        );
+    };
+
+    return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
@@ -22,6 +54,27 @@ const ArchiveModal = ({ closeModal }) => {
 			</div>
 		</div>
 	);
+
+    return (
+        <div className={styles.modalOverlay} onClick={handleClickOutside}>
+            {isOpen && (
+                <div className={styles.calendarContainer}>
+                    <Calendar
+                        onChange={(date) => {
+							const dateString = date.toISOString().split("T")[0];
+							setSelectedDate(dateString);
+							setIsOpen(false);
+							closeModal();
+						}}
+						dateFormat="yyyy-MM-dd"
+						minDate={minDate}
+						maxDate={maxDate}
+						tileContent={renderDayContents}
+                    />
+                </div>
+            )}
+        </div>
+    );
 };
 
 export default ArchiveModal;

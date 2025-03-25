@@ -16,7 +16,7 @@ import ArchiveModal from "./ArchiveModal";
 import GuessEffectModal from "./GuessEffectModal";
 import StatsModal from "./StatsModal";
 
-const Navbar = ({gameHistory}) => {
+const Navbar = ({gameHistory, setSelectedDate}) => {
 	const [showSupportModal, setShowSupportModal] = useState(false);
   	const [showArchiveModal, setShowArchiveModal] = useState(false);
 	const [showGuessEffectModal, setShowGuessEffectModal] = useState(false);
@@ -72,7 +72,12 @@ const Navbar = ({gameHistory}) => {
 			</button>
 
 			{showSupportModal && <SupportModal closeModal={() => setShowSupportModal(false)} />}
-			{showArchiveModal && <ArchiveModal closeModal={() => setShowArchiveModal(false)} />}
+			{showArchiveModal 
+				&& <ArchiveModal 
+					closeModal={() => setShowArchiveModal(false)} 
+					gameHistory={gameHistory}
+					setSelectedDate={setSelectedDate}
+					/>}
 			{showGuessEffectModal && <GuessEffectModal closeModal={() => setShowGuessEffectModal(false)} />}
 			{showStatsModal 
 				&& <StatsModal  

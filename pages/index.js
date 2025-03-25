@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
+import ArchiveScoreSystem from "../components/ArchiveScoreSystem";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Footer from "../components/Footer";
 
@@ -15,39 +16,68 @@ const initialGameHistory = {
 const Home = () => {
    const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
    const [game, setGame] = useState(null);
+   const [loading, setLoading] = useState(false);
+   const [error, setError] = useState(null);
+   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
 
    useEffect(() => {
-      const today = new Date().toISOString().split("T")[0];
-
       const fetchGameInfo = async (date) => {
+        setLoading(true);
          try {
             const res = await fetch(`/api/getGameInfo?date=${date}`);
+            if (!res.ok) {
+              throw new Error(`Failed to fetch game for date: ${date}`);
+            }    
             const data = await res.json();
             setGame(data);
          } catch (error) {
             console.error(error);
-         }
+         } finally {
+          setLoading(false);
+        }  
       };
 
-      fetchGameInfo(today);
-   }, []);
+      fetchGameInfo(selectedDate);
+   }, [selectedDate]);
+
+   const isArchiveGame = selectedDate !== new Date().toISOString().split("T")[0];
 
    return (
       <>
-        <Navbar gameHistory={gameHistory} />
+        <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
 
-        {game ? (
-          <ScoreSystem game={game} gameHistory={gameHistory} setGameHistory={setGameHistory} />
-        ) : (
-         <div className="loading-container">
+          {loading ? (
+          <div className="loading-container">
             <p className="loader"></p>
-         </div>
+          </div>
+        ) : game ? (
+          isArchiveGame ? (
+            <ArchiveScoreSystem game={game} />
+          ) : (
+            <ScoreSystem
+              game={game}
+              gameHistory={gameHistory}
+              setGameHistory={setGameHistory}
+            />
+          )
+        ) : (
+          <div className="loading-container">
+
+          <div className="error-container">
+            <p className="error-message">Your princess is in another castle! 
+              <br></br>
+              <br></br> 
+                No game found for the selected date.
+            </p>
+          </div>
+          </div>
         )}
+
         
         <Footer />
 
         <style jsx>{`
-          .loading-container {
+        .loading-container {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -111,6 +141,32 @@ const Home = () => {
   0%,30%   { transform:translateY(0); }
   80%,100% { transform:translateY(-260%); }
 }
+
+  .error-container {
+    position: relative;
+    padding: 16px; 
+    background-color: #000;
+    color: #fff; 
+    font-family: "Press Start 2P", cursive;
+    text-align: center; 
+    border: 2px dashed #fff; 
+    border-radius: 8px; 
+    width: max-content; 
+    box-sizing: border-box; 
+
+     @media (max-width: 768px) {
+    width: 90%; 
+  }
+
+  }
+
+  .error-message {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+
         `}</style>
       </>
     );

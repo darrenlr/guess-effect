@@ -80,7 +80,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const [currentGameState, setCurrentGameState] = useLocalStorage(
 		"CURRENT_GAME_STATE",
 		initialGameState,
-		game.date
+		game.releaseDate,
 	);
 	const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
 	const { playerCount, globalAverageScore, globalAverageGuesses, globalWinners, globalHighScore } = usePlayerStats(playerStatsUpdated);
@@ -95,8 +95,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		const targetScore = currentGameState.hints.points;
-		const duration = 200; // Duration of the animation in milliseconds
-		const stepTime = 50; // Interval between updates
+		const duration = 200;
+		const stepTime = 50;
 		const scoreDifference = targetScore - animatedScore;
 		const steps = duration / stepTime;
 		const stepSize = scoreDifference / steps;
@@ -117,8 +117,8 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 
 	useEffect(() => {
 		const targetBonus = currentGameState.life.remainingGuessCount * 25;
-		const duration = 200; // Duration of the animation in milliseconds
-		const stepTime = 50; // Interval between updates
+		const duration = 200;
+		const stepTime = 50;
 		const bonusDifference = targetBonus - animatedBonus;
 		const steps = duration / stepTime;
 		const stepSize = bonusDifference / steps;
@@ -352,7 +352,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	const handleGuess = (guess) => {
 		const cleanedGuess = stripBrackets(guess).toLowerCase();
 		const cleanedGameTitle = stripBrackets(game.title).toLowerCase();
-	
+
 		if (cleanedGuess === cleanedGameTitle) {
 			handleGameOver(false);
 		} else {
