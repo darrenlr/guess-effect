@@ -3580,5 +3580,32 @@
       "metacritic": 94,
       "plot": "Booker DeWitt, a former Pinkerton agent, is sent to the floating city of Columbia to retrieve a mysterious girl named Elizabeth. As he navigates the city’s utopian facade, he uncovers dark secrets, violent civil unrest, and the truth about his own past. With reality-bending powers, he and Elizabeth must escape Columbia while unraveling a story of fate, redemption, and infinite possibilities."
     }
+  },
+  {
+    "date": "2025-03-27",
+    "region": "NA",
+    "releaseDate": "2009-10-13",
+    "title": "Uncharted 2: Among Thieves",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure", "Third-person shooter"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Naughty Engine",
+      "metacritic": 96,
+      "plot": "Treasure hunter Nathan Drake is drawn into a dangerous quest for the legendary Cintamani Stone after uncovering a clue left by Marco Polo. His journey takes him across the globe, from war-torn cities to the icy peaks of the Himalayas, as he battles ruthless mercenaries and uncovers ancient secrets. With betrayal around every corner, Drake must rely on his wits, allies, and sheer determination to survive and claim the ultimate prize."
+    }
   }
 ]
