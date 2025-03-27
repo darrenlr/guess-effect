@@ -3607,5 +3607,32 @@
       "metacritic": 96,
       "plot": "Treasure hunter Nathan Drake is drawn into a dangerous quest for the legendary Cintamani Stone after uncovering a clue left by Marco Polo. His journey takes him across the globe, from war-torn cities to the icy peaks of the Himalayas, as he battles ruthless mercenaries and uncovers ancient secrets. With betrayal around every corner, Drake must rely on his wits, allies, and sheer determination to survive and claim the ultimate prize."
     }
+  },
+  {
+    "date": "2025-03-28",
+    "region": "WW",
+    "releaseDate": "2017-10-27",
+    "title": "Super Mario Odyssey",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo EPD"
+      ],
+      "developer": [
+        "Nintendo"
+      ],
+      "genre": [
+        "Action-adventure", "Platformer"
+      ],
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Naughty Engine",
+      "metacritic": 97,
+      "plot": "Mario embarks on a globe-trotting adventure to rescue Princess Peach from Bowser’s wedding plans. With the help of Cappy, a living hat that grants him the ability to possess objects and enemies, he travels across diverse kingdoms to collect Power Moons and stop the ceremony. Along the way, he discovers hidden secrets, faces off against Bowser’s minions, and ultimately challenges his greatest rival in a battle across the stars."
+    }
   }
 ]
