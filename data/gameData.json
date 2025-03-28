@@ -3634,5 +3634,59 @@
       "metacritic": 97,
       "plot": "Mario embarks on a globe-trotting adventure to rescue Princess Peach from Bowser’s wedding plans. With the help of Cappy, a living hat that grants him the ability to possess objects and enemies, he travels across diverse kingdoms to collect Power Moons and stop the ceremony. Along the way, he discovers hidden secrets, faces off against Bowser’s minions, and ultimately challenges his greatest rival in a battle across the stars."
     }
+  },
+  {
+    "date": "2025-03-29",
+    "region": "WW",
+    "releaseDate": "2018-10-26",
+    "title": "Red Dead Redemption 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar Games"
+      ],
+      "genre": [
+        "Action-adventure", "Open world"
+      ],
+      "platforms": [
+        "PS4", "Xbox One"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "RAGE",
+      "metacritic": 97,
+      "plot": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him."
+    }
+  },
+  {
+    "date": "2025-03-30",
+    "region": "WW",
+    "releaseDate": "2024-09-06",
+    "title": "Astro Bot",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Team Asobi"
+      ],
+      "genre": [
+        "Action-adventure", "Platformer"
+      ],
+      "platforms": [
+        "PS5"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "When the PS5 mothership is attacked by Astro’s long-standing galactic nemesis, scrambling its wires and scattering the crew throughout space, only Astro can make things right! Setting off on his biggest mission yet, he needs your help to rescue the stranded crew and rebuild the mothership."
+    }
   }
 ]
