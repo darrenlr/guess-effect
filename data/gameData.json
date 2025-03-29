@@ -3688,5 +3688,32 @@
       "metacritic": 94,
       "plot": "When the PS5 mothership is attacked by Astro’s long-standing galactic nemesis, scrambling its wires and scattering the crew throughout space, only Astro can make things right! Setting off on his biggest mission yet, he needs your help to rescue the stranded crew and rebuild the mothership."
     }
+  },
+  {
+    "date": "2025-03-29",
+    "region": "NA",
+    "releaseDate": "2001-05-22",
+    "title": "Red Faction",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co48x2.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Volition"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Geo-Mod",
+      "metacritic": 88,
+      "plot": "In a dystopian future, miners on Mars live under the oppressive rule of the Ultor Corporation, forced to endure harsh conditions and brutal treatment. When a rebellion ignites, a worker named Parker joins the fight, using guerrilla tactics and powerful weapons to take down Ultor’s forces. As the battle escalates, he uncovers hidden secrets beneath the planet’s surface that could change the fate of Mars forever."
+    }
   }
 ]
