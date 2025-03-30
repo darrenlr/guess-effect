@@ -134,13 +134,13 @@ const GameOverModal = ({
 				</div>
 			  </div>
 			  <div className={styles.statsRow}>
+			  <div>
+					<p>{playerCount}</p>
+					<span>Players</span>
+				</div>	
 				<div>
-					<p>{globalWinners}</p>
-					<span>Winners</span>
-				</div>
-				<div>
-					<p>{playerCount - globalWinners}</p>
-					<span>Losers</span>
+					<p>{playerCount > 0 ? ((globalWinners / playerCount) * 100).toFixed(1) : "0"}%</p>
+					<span>Win Rate</span>
 				</div>
 			  </div>
 			  <ShareButton
