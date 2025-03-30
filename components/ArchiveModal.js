@@ -13,8 +13,7 @@ const ArchiveModal = ({ closeModal }) => {
 			<div className={styles.modal}>
 				<div className={styles.modalContainer}>
 					<h4>Archives</h4>
-					<div>Coming soon...</div>
-					<div>Donating <b>ANY</b> amount will give you access to the game archives when they go live!</div>
+					<div>Coming VERY soon...</div>
 					<a href='https://ko-fi.com/S6S7EDM09' target='_blank' rel='noreferrer noopener'>
 						<img height='36' style={{border: '0px', height: '36px'}} src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' alt='Buy Me a Coffee at ko-fi.com' />
 					</a>
