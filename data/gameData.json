@@ -3692,6 +3692,33 @@
   {
     "date": "2025-03-31",
     "region": "NA",
+    "releaseDate": "2008-10-21",
+    "title": "Fable II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y2h.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Lionhead Studios"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 89,
+      "plot": "In the land of Albion, a young hero sets out on a quest for revenge against a tyrant who destroyed their childhood. As they grow in power, their choices shape their appearance, abilities, and the world around them—whether as a noble savior or a ruthless conqueror. With destiny in their hands, they must gather allies, master combat and magic, and ultimately decide the fate of Albion itself."
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "region": "NA",
     "releaseDate": "2001-05-22",
     "title": "Red Faction",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co48x2.webp",
