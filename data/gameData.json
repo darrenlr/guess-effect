@@ -3742,5 +3742,33 @@
       "metacritic": 88,
       "plot": "In a dystopian future, miners on Mars live under the oppressive rule of the Ultor Corporation, forced to endure harsh conditions and brutal treatment. When a rebellion ignites, a worker named Parker joins the fight, using guerrilla tactics and powerful weapons to take down Ultor’s forces. As the battle escalates, he uncovers hidden secrets beneath the planet’s surface that could change the fate of Mars forever."
     }
+  },
+  {
+    "date": "2025-04-02",
+    "region": "NA",
+    "releaseDate": "2006-03-21",
+    "title": "The Godfather",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4dyp.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Page 44 Studios", "Headgate Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PS2", "Xbox", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Renderware",
+      "metacritic": 77,
+      "plot": "In Little Italy in 1936, a young Aldo Trapani witnesses his father Johnny, a soldato in the Corleone family, being killed by the rival Barzini family. Don Vito Corleone comforts Aldo, telling him that when he is old enough and the time is right, he will have his revenge. Nine years later, in 1945, Aldo returns from World War II after serving in the U.S. Army. His mother Sarafina visits Vito during his daughter's wedding, telling him that Aldo has fallen in with a disreputable group of young thieves. Vito sends Luca Brasi to find Aldo and recruit him into the family."
+    }
   }
 ]
