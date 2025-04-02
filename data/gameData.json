@@ -3770,5 +3770,33 @@
       "metacritic": 77,
       "plot": "In Little Italy in 1936, a young Aldo Trapani witnesses his father Johnny, a soldato in the Corleone family, being killed by the rival Barzini family. Don Vito Corleone comforts Aldo, telling him that when he is old enough and the time is right, he will have his revenge. Nine years later, in 1945, Aldo returns from World War II after serving in the U.S. Army. His mother Sarafina visits Vito during his daughter's wedding, telling him that Aldo has fallen in with a disreputable group of young thieves. Vito sends Luca Brasi to find Aldo and recruit him into the family."
     }
+  },
+  {
+    "date": "2025-04-03",
+    "region": "WW",
+    "releaseDate": "2019-09-13",
+    "title": "Borderlands 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20r3.webp",
+    "hints": {
+      "publisher": [
+        "Gearbox Software"
+      ],
+      "developer": [
+        "2K Games"
+      ],
+      "genre": [
+        "Action RPG",
+        "FPS"
+      ],
+      "platforms": [
+        "PS4", "Xbox One", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 81,
+      "plot": "A new team of Vault Hunters arrives on the chaotic planet of Pandora to stop the Calypso Twins, cult leaders seeking ultimate power. Traveling across multiple planets, they battle ruthless bandits, alien creatures, and a growing army of fanatics while uncovering the secrets of the Vaults. With an arsenal of outrageous weapons and the fate of the galaxy at stake, they must take down the twins before their power consumes everything."
+    }
   }
 ]
