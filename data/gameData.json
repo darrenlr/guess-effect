@@ -3798,5 +3798,33 @@
       "metacritic": 81,
       "plot": "A new team of Vault Hunters arrives on the chaotic planet of Pandora to stop the Calypso Twins, cult leaders seeking ultimate power. Traveling across multiple planets, they battle ruthless bandits, alien creatures, and a growing army of fanatics while uncovering the secrets of the Vaults. With an arsenal of outrageous weapons and the fate of the galaxy at stake, they must take down the twins before their power consumes everything."
     }
+  },
+  {
+    "date": "2025-04-04",
+    "region": "WW",
+    "releaseDate": "2014-03-21",
+    "title": "inFAMOUS Second Son",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1izy.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sucker Punch Productions"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "In a world where superpowered individuals, called Conduits, are hunted, Delsin Rowe discovers his own abilities after a chance encounter. As he rebels against the oppressive government agency controlling Conduits, he absorbs new powers and must decide whether to be a hero or a villain. His choices shape the fate of Seattle and determine whether he will be its savior or its greatest threat."
+    }
   }
 ]
