@@ -3826,5 +3826,33 @@
       "metacritic": 80,
       "plot": "In a world where superpowered individuals, called Conduits, are hunted, Delsin Rowe discovers his own abilities after a chance encounter. As he rebels against the oppressive government agency controlling Conduits, he absorbs new powers and must decide whether to be a hero or a villain. His choices shape the fate of Seattle and determine whether he will be its savior or its greatest threat."
     }
+  },
+  {
+    "date": "2025-04-05",
+    "region": "WW",
+    "releaseDate": "2023-03-30",
+    "title": "Dredge",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9kyk.webp",
+    "hints": {
+      "publisher": [
+        "Team 17"
+      ],
+      "developer": [
+        "Black Salt Games"
+      ],
+      "genre": [
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS4", "PS5", "PC", "Switch", "Xbox One", "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 80,
+      "plot": "A lone fisherman arrives in a remote archipelago, taking on jobs to survive while uncovering strange, unsettling truths beneath the waters. As he upgrades his boat and explores deeper, he encounters eerie phenomena, hidden relics, and a growing sense of dread. With each catch and each nightfall, the line between reality and nightmare begins to blur."
+    }
   }
 ]
