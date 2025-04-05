@@ -3854,5 +3854,33 @@
       "metacritic": 80,
       "plot": "A lone fisherman arrives in a remote archipelago, taking on jobs to survive while uncovering strange, unsettling truths beneath the waters. As he upgrades his boat and explores deeper, he encounters eerie phenomena, hidden relics, and a growing sense of dread. With each catch and each nightfall, the line between reality and nightmare begins to blur."
     }
+  },
+  {
+    "date": "2025-04-06",
+    "region": "NA",
+    "releaseDate": "2005-06-21",
+    "title": "Destroy All Humans!",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1umj.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Sci-fi"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 70,
+      "plot": "An alien named Crypto-137 arrives on Earth in the 1950s to harvest human DNA and find his missing predecessor. Disguised as a human and armed with advanced weaponry, he wages chaos across towns and military bases, all while mocking human society. As the invasion escalates, Crypto uncovers conspiracies, clashes with government agents, and gets one step closer to total domination."
+    }
   }
 ]
