@@ -3882,5 +3882,33 @@
       "metacritic": 70,
       "plot": "An alien named Crypto-137 arrives on Earth in the 1950s to harvest human DNA and find his missing predecessor. Disguised as a human and armed with advanced weaponry, he wages chaos across towns and military bases, all while mocking human society. As the invasion escalates, Crypto uncovers conspiracies, clashes with government agents, and gets one step closer to total domination."
     }
+  },
+  {
+    "date": "2025-04-07",
+    "region": "WW",
+    "releaseDate": "2021-09-14",
+    "title": "Deathloop",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4nzt.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Arkane Lyon"
+      ],
+      "genre": [
+        "FPS",
+        "Sci-fi"
+      ],
+      "platforms": [
+        "PS5", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Void Engine",
+      "metacritic": 88,
+      "plot": "Take part in the eternal struggle between two extraordinary assassins. Take on the role of Colt as you search for a way to put an end to a timeloop trapping Blackreef while being hunted by the island’s inhabitants. Use powerful weapons and abilities to take out eight key targets across the stunning and chaotic island before the day resets. Lurking in the shadows is rival assassin Julianna whose sole mission is to take Colt out and keep the loop going. Learn from each cycle, try new paths and approaches to break the loop once and for all."
+    }
   }
 ]
