@@ -3910,5 +3910,32 @@
       "metacritic": 88,
       "plot": "Take part in the eternal struggle between two extraordinary assassins. Take on the role of Colt as you search for a way to put an end to a timeloop trapping Blackreef while being hunted by the island’s inhabitants. Use powerful weapons and abilities to take out eight key targets across the stunning and chaotic island before the day resets. Lurking in the shadows is rival assassin Julianna whose sole mission is to take Colt out and keep the loop going. Learn from each cycle, try new paths and approaches to break the loop once and for all."
     }
+  },
+  {
+    "date": "2025-04-08",
+    "region": "NA",
+    "releaseDate": "1999-03-12",
+    "title": "RollerCoaster Tycoon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r6q.webp",
+    "hints": {
+      "publisher": [
+        "Hasbro Interactive"
+      ],
+      "developer": [
+        "Chris Sawyer"
+      ],
+      "genre": [
+        "Management Sim"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "As the owner of a budding theme park empire, you design and manage every detail—from twisting coasters and thrilling rides to food stalls and staff schedules. Balancing fun with finances, you must keep guests happy while turning a profit. Success means growing your park into a beloved attraction, while failure leaves it a forgotten fairground."
+    }
   }
 ]
