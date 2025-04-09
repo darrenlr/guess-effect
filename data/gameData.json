@@ -3553,5 +3553,416 @@
       "metacritic": 90,
       "plot": "A powerful witch named ********* awakens from a centuries-long slumber with no memory of her past. Battling angelic forces and uncovering hidden truths, she embarks on a journey to piece together her lost history and the fate of her kind. With time running out, she must embrace her full power to stop an ancient conspiracy that threatens the balance of the universe."
     }
+  },
+  {
+    "date": "2025-03-26",
+    "region": "WW",
+    "releaseDate": "2013-03-26",
+    "title": "Bioshock Infinite",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n12.webp",
+    "hints": {
+      "publisher": [
+        "2K"
+      ],
+      "developer": [
+        "Irrational Games"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 94,
+      "plot": "Booker DeWitt, a former Pinkerton agent, is sent to the floating city of Columbia to retrieve a mysterious girl named Elizabeth. As he navigates the city’s utopian facade, he uncovers dark secrets, violent civil unrest, and the truth about his own past. With reality-bending powers, he and Elizabeth must escape Columbia while unraveling a story of fate, redemption, and infinite possibilities."
+    }
+  },
+  {
+    "date": "2025-03-27",
+    "region": "NA",
+    "releaseDate": "2009-10-13",
+    "title": "Uncharted 2: Among Thieves",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure", "Third-person shooter"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Naughty Engine",
+      "metacritic": 96,
+      "plot": "Treasure hunter Nathan Drake is drawn into a dangerous quest for the legendary Cintamani Stone after uncovering a clue left by Marco Polo. His journey takes him across the globe, from war-torn cities to the icy peaks of the Himalayas, as he battles ruthless mercenaries and uncovers ancient secrets. With betrayal around every corner, Drake must rely on his wits, allies, and sheer determination to survive and claim the ultimate prize."
+    }
+  },
+  {
+    "date": "2025-03-28",
+    "region": "WW",
+    "releaseDate": "2017-10-27",
+    "title": "Super Mario Odyssey",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo EPD"
+      ],
+      "developer": [
+        "Nintendo"
+      ],
+      "genre": [
+        "Action-adventure", "Platformer"
+      ],
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 97,
+      "plot": "Mario embarks on a globe-trotting adventure to rescue Princess Peach from Bowser’s wedding plans. With the help of Cappy, a living hat that grants him the ability to possess objects and enemies, he travels across diverse kingdoms to collect Power Moons and stop the ceremony. Along the way, he discovers hidden secrets, faces off against Bowser’s minions, and ultimately challenges his greatest rival in a battle across the stars."
+    }
+  },
+  {
+    "date": "2025-03-29",
+    "region": "WW",
+    "releaseDate": "2018-10-26",
+    "title": "Red Dead Redemption 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar Games"
+      ],
+      "genre": [
+        "Action-adventure", "Open world"
+      ],
+      "platforms": [
+        "PS4", "Xbox One"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "RAGE",
+      "metacritic": 97,
+      "plot": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him."
+    }
+  },
+  {
+    "date": "2025-03-30",
+    "region": "WW",
+    "releaseDate": "2024-09-06",
+    "title": "Astro Bot",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Team Asobi"
+      ],
+      "genre": [
+        "Action-adventure", "Platformer"
+      ],
+      "platforms": [
+        "PS5"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "When the PS5 mothership is attacked by Astro’s long-standing galactic nemesis, scrambling its wires and scattering the crew throughout space, only Astro can make things right! Setting off on his biggest mission yet, he needs your help to rescue the stranded crew and rebuild the mothership."
+    }
+  },
+  {
+    "date": "2025-03-31",
+    "region": "NA",
+    "releaseDate": "2008-10-21",
+    "title": "Fable II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y2h.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Lionhead Studios"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 89,
+      "plot": "In the land of Albion, a young hero sets out on a quest for revenge against a tyrant who destroyed their childhood. As they grow in power, their choices shape their appearance, abilities, and the world around them—whether as a noble savior or a ruthless conqueror. With destiny in their hands, they must gather allies, master combat and magic, and ultimately decide the fate of Albion itself."
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "region": "NA",
+    "releaseDate": "2001-05-22",
+    "title": "Red Faction",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co48x2.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Volition"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Geo-Mod",
+      "metacritic": 88,
+      "plot": "In a dystopian future, miners on Mars live under the oppressive rule of the Ultor Corporation, forced to endure harsh conditions and brutal treatment. When a rebellion ignites, a worker named Parker joins the fight, using guerrilla tactics and powerful weapons to take down Ultor’s forces. As the battle escalates, he uncovers hidden secrets beneath the planet’s surface that could change the fate of Mars forever."
+    }
+  },
+  {
+    "date": "2025-04-02",
+    "region": "NA",
+    "releaseDate": "2006-03-21",
+    "title": "The Godfather: The Game",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4dyp.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Page 44 Studios", "Headgate Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PS2", "Xbox", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Renderware",
+      "metacritic": 77,
+      "plot": "In Little Italy in 1936, a young Aldo Trapani witnesses his father Johnny, a soldato in the Corleone family, being killed by the rival Barzini family. Don Vito Corleone comforts Aldo, telling him that when he is old enough and the time is right, he will have his revenge. Nine years later, in 1945, Aldo returns from World War II after serving in the U.S. Army. His mother Sarafina visits Vito during his daughter's wedding, telling him that Aldo has fallen in with a disreputable group of young thieves. Vito sends Luca Brasi to find Aldo and recruit him into the family."
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "region": "WW",
+    "releaseDate": "2019-09-13",
+    "title": "Borderlands 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20r3.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Gearbox Software"
+      ],
+      "genre": [
+        "Action RPG",
+        "FPS"
+      ],
+      "platforms": [
+        "PS4", "Xbox One", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 81,
+      "plot": "A new team of Vault Hunters arrives on the chaotic planet of Pandora to stop the Calypso Twins, cult leaders seeking ultimate power. Traveling across multiple planets, they battle ruthless bandits, alien creatures, and a growing army of fanatics while uncovering the secrets of the Vaults. With an arsenal of outrageous weapons and the fate of the galaxy at stake, they must take down the twins before their power consumes everything."
+    }
+  },
+  {
+    "date": "2025-04-04",
+    "region": "WW",
+    "releaseDate": "2014-03-21",
+    "title": "inFAMOUS Second Son",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1izy.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sucker Punch Productions"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "In a world where superpowered individuals, called Conduits, are hunted, Delsin Rowe discovers his own abilities after a chance encounter. As he rebels against the oppressive government agency controlling Conduits, he absorbs new powers and must decide whether to be a hero or a villain. His choices shape the fate of Seattle and determine whether he will be its savior or its greatest threat."
+    }
+  },
+  {
+    "date": "2025-04-05",
+    "region": "WW",
+    "releaseDate": "2023-03-30",
+    "title": "Dredge",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9kyk.webp",
+    "hints": {
+      "publisher": [
+        "Team 17"
+      ],
+      "developer": [
+        "Black Salt Games"
+      ],
+      "genre": [
+        "RPG",
+        "Adventure"
+      ],
+      "platforms": [
+        "PS4", "PS5", "PC", "Switch", "Xbox One", "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 80,
+      "plot": "A lone fisherman arrives in a remote archipelago, taking on jobs to survive while uncovering strange, unsettling truths beneath the waters. As he upgrades his boat and explores deeper, he encounters eerie phenomena, hidden relics, and a growing sense of dread. With each catch and each nightfall, the line between reality and nightmare begins to blur."
+    }
+  },
+  {
+    "date": "2025-04-06",
+    "region": "NA",
+    "releaseDate": "2005-06-21",
+    "title": "Destroy All Humans!",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1umj.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Sci-fi"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 70,
+      "plot": "An alien named Crypto-137 arrives on Earth in the 1950s to harvest human DNA and find his missing predecessor. Disguised as a human and armed with advanced weaponry, he wages chaos across towns and military bases, all while mocking human society. As the invasion escalates, Crypto uncovers conspiracies, clashes with government agents, and gets one step closer to total domination."
+    }
+  },
+  {
+    "date": "2025-04-07",
+    "region": "WW",
+    "releaseDate": "2021-09-14",
+    "title": "Deathloop",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4nzt.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Arkane Lyon"
+      ],
+      "genre": [
+        "FPS",
+        "Sci-fi"
+      ],
+      "platforms": [
+        "PS5", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Void Engine",
+      "metacritic": 88,
+      "plot": "Take part in the eternal struggle between two extraordinary assassins. Take on the role of Colt as you search for a way to put an end to a timeloop trapping Blackreef while being hunted by the island’s inhabitants. Use powerful weapons and abilities to take out eight key targets across the stunning and chaotic island before the day resets. Lurking in the shadows is rival assassin Julianna whose sole mission is to take Colt out and keep the loop going. Learn from each cycle, try new paths and approaches to break the loop once and for all."
+    }
+  },
+  {
+    "date": "2025-04-08",
+    "region": "NA",
+    "releaseDate": "1999-03-12",
+    "title": "RollerCoaster Tycoon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2r6q.webp",
+    "hints": {
+      "publisher": [
+        "Hasbro Interactive"
+      ],
+      "developer": [
+        "Chris Sawyer"
+      ],
+      "genre": [
+        "Management Sim"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "As the owner of a budding theme park empire, you design and manage every detail—from twisting coasters and thrilling rides to food stalls and staff schedules. Balancing fun with finances, you must keep guests happy while turning a profit. Success means growing your park into a beloved attraction, while failure leaves it a forgotten fairground."
+    }
+  },
+  {
+    "date": "2025-04-09",
+    "region": "NA",
+    "releaseDate": "2003-11-19",
+    "title": "Manhunt",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcm.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar North"
+      ],
+      "genre": [
+        "Stealth"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 76,
+      "plot": "A death row inmate wakes up to find he’s been spared—only to be forced into a deadly game orchestrated by a sadistic director. Stalked through brutal urban environments, he must use stealth and violence to survive while cameras capture every gruesome act. As the line between survival and cruelty blurs, he realizes escape may cost more than just blood."
+    }
   }
 ]
