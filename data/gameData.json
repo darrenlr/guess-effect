@@ -3964,5 +3964,32 @@
       "metacritic": 76,
       "plot": "A death row inmate wakes up to find he’s been spared—only to be forced into a deadly game orchestrated by a sadistic director. Stalked through brutal urban environments, he must use stealth and violence to survive while cameras capture every gruesome act. As the line between survival and cruelty blurs, he realizes escape may cost more than just blood."
     }
+  },
+  {
+    "date": "2025-04-10",
+    "region": "JP",
+    "releaseDate": "2008-02-05",
+    "title": "Demon's Souls",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27sk.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "FromSoftware", "Japan Studio"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "PhyreEngine",
+      "metacritic": 89,
+      "plot": "A lone warrior enters the cursed kingdom of Boletaria, now overrun by demons after a forbidden ritual awakens an ancient, soul-devouring entity. Battling through ruined lands and grotesque foes, they seek to gain power by collecting souls and putting an end to the spreading madness. Every step forward is hard-earned, and only those who master patience and perseverance can hope to lift the fog and restore peace."
+    }
   }
 ]
