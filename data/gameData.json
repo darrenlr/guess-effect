@@ -3991,5 +3991,32 @@
       "metacritic": 89,
       "plot": "A lone warrior enters the cursed kingdom of Boletaria, now overrun by demons after a forbidden ritual awakens an ancient, soul-devouring entity. Battling through ruined lands and grotesque foes, they seek to gain power by collecting souls and putting an end to the spreading madness. Every step forward is hard-earned, and only those who master patience and perseverance can hope to lift the fog and restore peace."
     }
+  },
+  {
+    "date": "2025-04-11",
+    "region": "WW",
+    "releaseDate": "2012-10-23",
+    "title": "Hotline Miami",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.webp",
+    "hints": {
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "developer": [
+        "Dennaton Games"
+      ],
+      "genre": [
+        "Top-down Shooter", "Indie"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+      ],
+      "engine": "GameMaker",
+      "metacritic": 85,
+      "plot": "A mysterious man receives cryptic phone calls instructing him to eliminate targets across Miami. Donning animal masks and wielding brutal weapons, he descends into a surreal, hyper-violent world filled with bloodshed and confusion. As the bodies pile up, he begins to question who’s behind the messages—and what’s real in the chaos."
+    }
   }
 ]
