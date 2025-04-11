@@ -4018,5 +4018,32 @@
       "metacritic": 85,
       "plot": "A mysterious man receives cryptic phone calls instructing him to eliminate targets across Miami. Donning animal masks and wielding brutal weapons, he descends into a surreal, hyper-violent world filled with bloodshed and confusion. As the bodies pile up, he begins to question who’s behind the messages—and what’s real in the chaos."
     }
+  },
+  {
+    "date": "2025-04-12",
+    "region": "NA",
+    "releaseDate": "1993-09-30",
+    "title": "Myst",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y96.webp",
+    "hints": {
+      "publisher": [
+        "Broderbund"
+      ],
+      "developer": [
+        "Cyan"
+      ],
+      "genre": [
+        "Graphic adventure", "Point-and-click", "Puzzle"
+      ],
+      "platforms": [
+        "Mac OS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A stranger arrives on a mysterious island filled with strange machines, abandoned structures, and books that transport them to other worlds. With no guidance, they must explore, solve intricate puzzles, and uncover the story of a family torn apart by power and betrayal. Only by understanding the past can they unlock the secrets of the island and decide its fate."
+    }
   }
 ]
