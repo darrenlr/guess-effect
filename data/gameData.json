@@ -4045,5 +4045,32 @@
       "metacritic": null,
       "plot": "A stranger arrives on a mysterious island filled with strange machines, abandoned structures, and books that transport them to other worlds. With no guidance, they must explore, solve intricate puzzles, and uncover the story of a family torn apart by power and betrayal. Only by understanding the past can they unlock the secrets of the island and decide its fate."
     }
+  },
+  {
+    "date": "2025-04-13",
+    "region": "NA",
+    "releaseDate": "2001-09-25",
+    "title": "Silent Hill 2",
+    "boxArtUrl": images.igdb.com/igdb/image/upload/t_cover_big/co2vyg.webp"",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Team Silent"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 89,
+      "plot": "James Sunderland arrives in the fog-covered town of Silent Hill after receiving a letter from his deceased wife, urging him to meet her there. As he searches through the haunted streets and twisted realities, he encounters disturbing figures and other tormented souls. With each step, James is forced to confront his guilt, grief, and the dark truth buried within his own mind."
+    }
   }
 ]
