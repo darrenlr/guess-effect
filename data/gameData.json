@@ -4099,5 +4099,32 @@
       "metacritic": 68,
       "plot": "On a floating city called the Ark, built as a refuge from a flooded world, two factions clash over its future—Security fights to maintain order, while the Resistance seeks freedom from oppression. Players join one side in a fast-paced conflict, using parkour movement and customizable weapons to turn the tide. As the city teeters on the brink of collapse, every choice shapes the struggle for survival and control."
     }
+  },
+  {
+    "date": "2025-04-15",
+    "region": "JP",
+    "releaseDate": "2007-06-21",
+    "title": "Folklore",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4cg1.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Game Republic"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 75,
+      "plot": "Two strangers, a young woman seeking answers about her mother and a journalist chasing a mysterious letter, are drawn to the quiet Irish village of Doolin. There, they discover a gateway to the Netherworld, a realm of spirits and myth. Exploring different realms and battling folkloric creatures, they uncover hidden truths about death, memory, and the stories we leave behind."
+    }
   }
 ]
