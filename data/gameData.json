@@ -4126,5 +4126,32 @@
       "metacritic": 75,
       "plot": "Two strangers, a young woman seeking answers about her mother and a journalist chasing a mysterious letter, are drawn to the quiet Irish village of Doolin. There, they discover a gateway to the Netherworld, a realm of spirits and myth. Exploring different realms and battling folkloric creatures, they uncover hidden truths about death, memory, and the stories we leave behind."
     }
+  },
+  {
+    "date": "2025-04-16",
+    "region": "JP",
+    "releaseDate": "2002-03-28",
+    "title": "Kingdom Hearts",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co30zf.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 85,
+      "plot": "A boy named Sora is separated from his friends when their world is consumed by darkness. Armed with a magical weapon called the Keyblade, he travels across a variety of worlds inspired by classic tales, battling shadowy creatures and forming alliances with iconic characters. As he searches for his lost friends, he uncovers a deeper conflict between light and darkness that could decide the fate of all worlds."
+    }
   }
 ]
