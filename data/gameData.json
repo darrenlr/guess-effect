@@ -4153,5 +4153,32 @@
       "metacritic": 85,
       "plot": "A boy named Sora is separated from his friends when their world is consumed by darkness. Armed with a magical weapon called the Keyblade, he travels across a variety of worlds inspired by classic tales, battling shadowy creatures and forming alliances with iconic characters. As he searches for his lost friends, he uncovers a deeper conflict between light and darkness that could decide the fate of all worlds."
     }
+  },
+  {
+    "date": "2025-04-17",
+    "region": "WW",
+    "releaseDate": "2013-06-14",
+    "title": "The Last of Us",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Havok",
+      "metacritic": 95,
+      "plot": "In a world ravaged by a fungal outbreak that’s turned much of humanity into monsters, a hardened survivor named Joel is tasked with escorting a young girl, Ellie, across a devastated America. What begins as a simple job becomes a harrowing journey of trust, sacrifice, and survival. As they face both the infected and the cruelty of other survivors, their bond grows—and Joel must decide how far he’ll go to protect her."
+    }
   }
 ]
