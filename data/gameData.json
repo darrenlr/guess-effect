@@ -4207,5 +4207,32 @@
       "metacritic": 77,
       "plot": "Detective Tequila Yuen returns to the streets of Hong Kong after a fellow officer goes missing, only to uncover a war between rival crime syndicates. Caught in a storm of betrayal and violence, he uses his unmatched gunplay and slow-motion acrobatics to take down enemies and get to the truth. As the body count rises, Tequila must fight through chaos to save his family and restore justice."
     }
+  },
+  {
+    "date": "2025-04-19",
+    "region": "WW",
+    "releaseDate": "2016-06-29",
+    "title": "Inside",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2fca.webp",
+    "hints": {
+      "publisher": [
+        "Playdead"
+      ],
+      "developer": [
+        "Playdead"
+      ],
+      "genre": [
+        "Puzzle-platform", "Indie"
+      ],
+      "platforms": [
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 93,
+      "plot": "A boy flees through a bleak, oppressive world filled with shadowy figures and disturbing experiments. As he navigates eerie landscapes and avoids capture, he uncovers a dark facility conducting mind-control and horrific research. With no dialogue or clear guidance, his journey spirals into surreal, haunting revelations—leading to a finale both shocking and mysterious."
+    }
   }
 ]
