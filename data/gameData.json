@@ -4234,5 +4234,32 @@
       "metacritic": 93,
       "plot": "A boy flees through a bleak, oppressive world filled with shadowy figures and disturbing experiments. As he navigates eerie landscapes and avoids capture, he uncovers a dark facility conducting mind-control and horrific research. With no dialogue or clear guidance, his journey spirals into surreal, haunting revelations—leading to a finale both shocking and mysterious."
     }
+  },
+  {
+    "date": "2025-04-20",
+    "region": "JP",
+    "releaseDate": "1986-08-26",
+    "title": "Castlevania",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6dcb.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami"
+      ],
+      "genre": [
+        "Action", "Platform"
+      ],
+      "platforms": [
+        "Famicom Disk System"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A lone vampire hunter enters the dark halls of a cursed castle to defeat Count Dracula, who has risen to spread terror across the land. Armed with a holy whip and limited tools, he battles through legions of monsters, traps, and the undead. With skill and perseverance, he fights to end the vampire lord’s reign and bring peace to a haunted world."
+    }
   }
 ]
