@@ -4261,5 +4261,32 @@
       "metacritic": null,
       "plot": "A lone vampire hunter enters the dark halls of a cursed castle to defeat Count Dracula, who has risen to spread terror across the land. Armed with a holy whip and limited tools, he battles through legions of monsters, traps, and the undead. With skill and perseverance, he fights to end the vampire lord’s reign and bring peace to a haunted world."
     }
+  },
+  {
+    "date": "2025-04-21",
+    "region": "NA",
+    "releaseDate": "1999-02-17",
+    "title": "Syphon Filter",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y7j.webp",
+    "hints": {
+      "publisher": [
+        "989 Studios"
+      ],
+      "developer": [
+        "Eidetic"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "Gabe Logan, an elite agent, is tasked with stopping a deadly bioweapon known as Syphon Filter from falling into the wrong hands. As he uncovers a global conspiracy, he faces rogue agents, terrorists, and corrupt officials. With time running out, he must track the virus, expose the truth, and prevent a catastrophe."
+    }
   }
 ]
