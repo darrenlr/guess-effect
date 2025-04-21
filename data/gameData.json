@@ -4288,5 +4288,32 @@
       "metacritic": 90,
       "plot": "Gabe Logan, an elite agent, is tasked with stopping a deadly bioweapon known as Syphon Filter from falling into the wrong hands. As he uncovers a global conspiracy, he faces rogue agents, terrorists, and corrupt officials. With time running out, he must track the virus, expose the truth, and prevent a catastrophe."
     }
+  },
+  {
+    "date": "2025-04-22",
+    "region": "NA",
+    "releaseDate": "2007-09-12",
+    "title": "Heavenly Sword",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w52.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Ninja Theory"
+      ],
+      "genre": [
+        "Action-adventure", "hack and slash"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 79,
+      "plot": "Nariko, a warrior of a doomed clan, wields the legendary ******** ***** to defend her people from a ruthless invading king. The sword grants immense power, but slowly drains the life of its wielder. As her strength fades, Nariko battles overwhelming odds, uncovering her destiny and embracing sacrifice to protect those she loves."
+    }
   }
 ]
