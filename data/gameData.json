@@ -4315,5 +4315,32 @@
       "metacritic": 79,
       "plot": "Nariko, a warrior of a doomed clan, wields the legendary ******** ***** to defend her people from a ruthless invading king. The sword grants immense power, but slowly drains the life of its wielder. As her strength fades, Nariko battles overwhelming odds, uncovering her destiny and embracing sacrifice to protect those she loves."
     }
+  },
+  {
+    "date": "2025-04-23",
+    "region": "WW",
+    "releaseDate": "2024-09-09",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5vab.webp",
+    "hints": {
+      "publisher": [
+        "Focus Entertainment"
+      ],
+      "developer": [
+        "Saber St. Petersburg"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS5", "Xbox Series X/S", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Swarm Engine",
+      "metacritic": 82,
+      "plot": "A battle-hardened Ultramarine returns to the frontlines as the galaxy faces a new, overwhelming threat from the Tyranids. With relentless enemies swarming entire worlds, he leads a brutal charge through war-torn battlefields, wielding bolter and chainsword with deadly precision. As chaos deepens, he must stand as humanity’s shield against extinction, no matter the cost."
+    }
   }
 ]
