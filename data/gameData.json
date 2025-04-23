@@ -4342,5 +4342,32 @@
       "metacritic": 82,
       "plot": "A battle-hardened Ultramarine returns to the frontlines as the galaxy faces a new, overwhelming threat from the Tyranids. With relentless enemies swarming entire worlds, he leads a brutal charge through war-torn battlefields, wielding bolter and chainsword with deadly precision. As chaos deepens, he must stand as humanity’s shield against extinction, no matter the cost."
     }
+  },
+  {
+    "date": "2025-04-24",
+    "region": "JP",
+    "releaseDate": "2000-07-07",
+    "title": "Final Fantasy IX",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2unc.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square"
+      ],
+      "genre": [
+        "JRPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "A thief named Zidane kidnaps a princess, only to discover she wanted to escape her royal life all along. Joined by a diverse group of allies, they uncover a plot that threatens their entire world, diving into themes of identity, purpose, and mortality. As destinies intertwine and truths are revealed, they must stand together to confront an ancient force bent on destruction."
+    }
   }
 ]
