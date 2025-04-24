@@ -4369,5 +4369,32 @@
       "metacritic": 94,
       "plot": "A thief named Zidane kidnaps a princess, only to discover she wanted to escape her royal life all along. Joined by a diverse group of allies, they uncover a plot that threatens their entire world, diving into themes of identity, purpose, and mortality. As destinies intertwine and truths are revealed, they must stand together to confront an ancient force bent on destruction."
     }
+  },
+  {
+    "date": "2025-04-25",
+    "region": "WW",
+    "releaseDate": "2014-04-04",
+    "title": "The Elder Scrolls Online",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "ZeniMax Online Studios"
+      ],
+      "genre": [
+        "MMO", "RPG"
+      ],
+      "platforms": [
+        "PC", "macOS"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "HeroEngine",
+      "metacritic": 71,
+      "plot": "Amid a continent torn by war and ancient rivalries, three alliances clash for control of a powerful throne, while a darker threat looms from beyond. As a soul-shriven hero freed from the clutches of a Daedric Prince, you forge your own path—joining factions, exploring vast lands, and uncovering lost histories. Whether through blades, magic, or diplomacy, your actions shape the fate of Tamriel in an ever-evolving world."
+    }
   }
 ]
