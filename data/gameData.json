@@ -4396,5 +4396,32 @@
       "metacritic": 71,
       "plot": "Amid a continent torn by war and ancient rivalries, three alliances clash for control of a powerful throne, while a darker threat looms from beyond. As a soul-shriven hero freed from the clutches of a Daedric Prince, you forge your own path—joining factions, exploring vast lands, and uncovering lost histories. Whether through blades, magic, or diplomacy, your actions shape the fate of Tamriel in an ever-evolving world."
     }
+  },
+  {
+    "date": "2025-04-26",
+    "region": "NA",
+    "releaseDate": "2007-09-13",
+    "title": "Crysis",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2on1.webp",
+    "hints": {
+      "publisher": [
+        "Crytek"
+      ],
+      "developer": [
+        "Crytek"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "CryEngine 2",
+      "metacritic": 91,
+      "plot": "A special forces soldier equipped with a high-tech nanosuit is sent to a remote island to investigate a mysterious alien presence and a North Korean military threat. As the situation escalates, he faces not only human enemies but an alien force capable of reshaping the battlefield. With superhuman strength, speed, and stealth, he must adapt to survive and stop an invasion that could engulf the world."
+    }
   }
 ]
