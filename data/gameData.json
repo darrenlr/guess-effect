@@ -4477,5 +4477,32 @@
       "metacritic": 69,
       "plot": "Ancient warriors known as the Tenno awaken from centuries of cryosleep to find a solar system ruled by corrupt factions and hostile forces. Clad in powerful biomechanical suits called Warframes, they embark on missions across planets to fight oppression and uncover their forgotten past. Guided by a mysterious figure, they must master their abilities and survive in a constantly evolving war."
     }
+  },
+  {
+    "date": "2025-04-29",
+    "region": "WW",
+    "releaseDate": "2018-01-23",
+    "title": "Subnautica",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1iqw.webp",
+    "hints": {
+      "publisher": [
+        "Unknown Worlds Entertainment"
+      ],
+      "developer": [
+        "Unknown Worlds Entertainment"
+      ],
+      "genre": [
+        "Action-adventure", "Survival"
+      ],
+      "platforms": [
+        "PC", "macOS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 87,
+      "plot": "After crash-landing on an alien ocean planet, a lone survivor must explore the vast underwater world to find resources, craft equipment, and uncover the fate of those who came before. As they dive deeper into the depths, they encounter breathtaking beauty—and terrifying dangers. Survival means mastering the ocean’s secrets and facing what lurks in the dark below."
+    }
   }
 ]
