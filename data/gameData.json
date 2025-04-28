@@ -4450,5 +4450,32 @@
       "metacritic": 93,
       "plot": "Sam Fisher, a covert operative for a secret government agency, is sent on dangerous missions to prevent global threats. Using stealth, gadgets, and lethal precision, he infiltrates enemy territory, gathers intelligence, and eliminates targets without leaving a trace. In a world of shadows and shifting loyalties, success depends on staying unseen and striking before anyone knows he was there."
     }
+  },
+  {
+    "date": "2025-04-28",
+    "region": "WW",
+    "releaseDate": "2013-03-25",
+    "title": "Warframe",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nhi.webp",
+    "hints": {
+      "publisher": [
+        "Digital Extremes"
+      ],
+      "developer": [
+        "Digital Extremes"
+      ],
+      "genre": [
+        "TPS", "Action RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Evolution",
+      "metacritic": 69,
+      "plot": "Ancient warriors known as the Tenno awaken from centuries of cryosleep to find a solar system ruled by corrupt factions and hostile forces. Clad in powerful biomechanical suits called Warframes, they embark on missions across planets to fight oppression and uncover their forgotten past. Guided by a mysterious figure, they must master their abilities and survive in a constantly evolving war."
+    }
   }
 ]
