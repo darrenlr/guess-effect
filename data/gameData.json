@@ -4504,5 +4504,32 @@
       "metacritic": 87,
       "plot": "After crash-landing on an alien ocean planet, a lone survivor must explore the vast underwater world to find resources, craft equipment, and uncover the fate of those who came before. As they dive deeper into the depths, they encounter breathtaking beauty—and terrifying dangers. Survival means mastering the ocean’s secrets and facing what lurks in the dark below."
     }
+  },
+  {
+    "date": "2025-04-30",
+    "region": "NA",
+    "releaseDate": "2011-08-06",
+    "title": "Dead Island",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3lym.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Techland"
+      ],
+      "genre": [
+        "Action role-playing", "Survival horror"
+      ],
+      "platforms": [
+        "PC", "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Chrome Engine",
+      "metacritic": 71,
+      "plot": "The island of Banoi is a lush, tropical paradise in the South Pacific where its flagship Royal Palms Resort serves as the ultimate getaway for vacationers with money to burn. However, all good things must soon come to an end - and the picturesque resort falls into madness, carnage and chaos after a mysterious and contagious zombie outbreak claims its once peaceful atmosphere. Cut off from the rest of the world, only four individuals who strangely find themselves immune to zombification have the power to protect the remaining survivors from the horrors of the island, to discover what's really going on and find a way to escape before their own fatal ends"
+    }
   }
 ]
