@@ -4529,7 +4529,35 @@
       ],
       "engine": "Chrome Engine",
       "metacritic": 71,
-      "plot": "The island of Banoi is a lush, tropical paradise in the South Pacific where its flagship Royal Palms Resort serves as the ultimate getaway for vacationers with money to burn. However, all good things must soon come to an end - and the picturesque resort falls into madness, carnage and chaos after a mysterious and contagious zombie outbreak claims its once peaceful atmosphere. Cut off from the rest of the world, only four individuals who strangely find themselves immune to zombification have the power to protect the remaining survivors from the horrors of the island, to discover what's really going on and find a way to escape before their own fatal ends"
+      "plot": "The island of Banoi is a lush, tropical paradise in the South Pacific where its flagship Royal Palms Resort serves as the ultimate getaway for vacationers with money to burn. However, all good things must soon come to an end - and the picturesque resort falls into madness, carnage and chaos after a mysterious and contagious zombie outbreak claims its once peaceful atmosphere. Cut off from the rest of the world, only four individuals who strangely find themselves immune to zombification have the power to protect the remaining survivors from the horrors of the island, to discover what's really going on and find a way to escape before their own fatal ends."
+    }
+  }
+  ,
+  {
+    "date": "2025-05-01",
+    "region": "JP",
+    "releaseDate": "2012-022-09",
+    "title": "Gravity Rush",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3lym.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Japan Studio"
+      ],
+      "genre": [
+        "Action adventure"
+      ],
+      "platforms": [
+        "PS Vita"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "CPhreEngine",
+      "metacritic": 83,
+      "plot": "A young woman named Kat awakens with no memory and discovers she can manipulate gravity with the help of a mysterious cat. Using her newfound powers, she protects a floating city from monstrous creatures and strange gravitational anomalies. As she uncovers hidden truths about her past and the city's fate, Kat must defy gravity itself to save the world around her."
     }
   }
 ]
