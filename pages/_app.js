@@ -7,9 +7,10 @@ import Script from 'next/script';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <title>Guess Effect (Beta)</title>
+      <title>Guess Effect</title>
       <Head>
         <link rel="canonical" href="https://guesseffect.wtf" />
+        <meta name="description" content="Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
       </Head>
       <Component {...pageProps} />
       <SpeedInsights />
