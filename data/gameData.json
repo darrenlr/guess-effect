@@ -4586,5 +4586,32 @@
       "metacritic": 92,
       "plot": "A human child falls into an underground world inhabited by monsters, where every encounter can end in battle—or mercy. As they journey through strange and heartfelt places, their choices shape not only their fate but the fate of everyone they meet. In a world where violence isn’t the only path, understanding and kindness may be the key to changing everything."
     }
+  },
+  {
+    "date": "2025-05-03",
+    "region": "JP",
+    "releaseDate": "2001-12-13",
+    "title": "Fatal Frame",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9jki.webp",
+    "hints": {
+      "publisher": [
+        "Tecmo"
+      ],
+      "developer": [
+        "Tecmo"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 74,
+      "plot": "A young girl enters a haunted mansion in search of her missing brother, only to find it filled with restless spirits bound by a dark ritual. Armed with the Camera Obscura, she must photograph the ghosts to weaken and banish them. As she uncovers the tragic history behind the curse, she realizes that facing the past is the only way to survive."
+    }
   }
 ]
