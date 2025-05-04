@@ -4640,5 +4640,33 @@
       "metacritic": 94,
       "plot": "Trapped in a lawless prison district run by Gotham’s worst criminals, Batman must uncover the secret behind a deadly plot orchestrated by Hugo Strange. As he faces off against iconic foes and navigates shifting alliances, he races against time to stop a sinister plan that threatens his life and the entire city. With danger around every corner, he must rely on his skills, intellect, and moral code to bring justice to the chaos."
     }
+  },
+  {
+    "date": "2025-05-05",
+    "region": "NA",
+    "releaseDate": "2010-05-25",
+    "title": "Blur",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4azn.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Bizarre Creations"
+      ],
+      "genre": [
+        "Racing",
+        "Vehicular combat"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Horizon",
+      "metacritic": 82,
+      "plot": "In a high-speed, neon-lit racing league, drivers compete using not just skill, but power-ups that turn every race into a chaotic battleground. As challengers rise through the ranks, they unlock faster cars, tougher opponents, and deadly new tools. Victory depends on mastering both speed and strategy in this electrified fight for the finish line."
+    }
   }
 ]
