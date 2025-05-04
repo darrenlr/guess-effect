@@ -4613,5 +4613,32 @@
       "metacritic": 74,
       "plot": "A young girl enters a haunted mansion in search of her missing brother, only to find it filled with restless spirits bound by a dark ritual. Armed with the Camera Obscura, she must photograph the ghosts to weaken and banish them. As she uncovers the tragic history behind the curse, she realizes that facing the past is the only way to survive."
     }
+  },
+  {
+    "date": "2025-05-04",
+    "region": "NA",
+    "releaseDate": "2011-10-18",
+    "title": "Batman: Arkham City",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1voh.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros Interactive Entertainment"
+      ],
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 94,
+      "plot": "Trapped in a lawless prison district run by Gotham’s worst criminals, Batman must uncover the secret behind a deadly plot orchestrated by Hugo Strange. As he faces off against iconic foes and navigates shifting alliances, he races against time to stop a sinister plan that threatens his life and the entire city. With danger around every corner, he must rely on his skills, intellect, and moral code to bring justice to the chaos."
+    }
   }
 ]
