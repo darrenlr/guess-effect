@@ -45,36 +45,6 @@ const initialGameState = {
     hasPlayed: false,
 };
 
-// const trackPlayer = async (finalScore, usedGuesses, hasWon) => {
-//     const collectionName = getCollectionName();
-//     const today = new Date().toISOString().split("T")[0];
-//     const docRef = doc(db, collectionName, today);
-//     const docSnap = await getDoc(docRef);
-//     let winner = hasWon ? 1 : 0;
-  
-//     if (docSnap.exists()) {
-//       await updateDoc(docRef, { 
-//         count: docSnap.data().count + 1 ,
-//         totalScore: docSnap.data().totalScore + finalScore,
-//         totalGuesses: docSnap.data().totalGuesses + usedGuesses,
-//         totalWinners: docSnap.data().totalWinners + winner,
-//         highScore: finalScore > docSnap.data().highScore ? finalScore : docSnap.data().highScore,
-//     });
-//     } else {
-//       // Create a new document for today with count 1
-//       await setDoc(docRef, { 
-//         count: 1,
-//         totalScore: finalScore,
-//         totalGuesses: usedGuesses,
-//         totalWinners: winner,
-//         highScore: finalScore,
-//     });
-//     }
-  
-//     const updatedDoc = await getDoc(docRef);
-//     return updatedDoc.data().count;
-//   };
-
 const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
     const [isMounted, setIsMounted] = useState(false);
     const [archivedGameState, setArchivedGameState] = useArchiveLocalStorage(

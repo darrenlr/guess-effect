@@ -27,14 +27,26 @@ const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
         if (date < minDate || date > maxDate) {
             return null;
         }
-
+    
         const score = getScoreForDate(date);
+        
+        let backgroundColor = '#636363';
+        if (score !== null) {
+            if (score < 75) {
+                backgroundColor = '#ff6874';
+            } else if (score >= 75 && score <= 149) {
+                backgroundColor = '#ffbd3f';
+            } else {
+                backgroundColor = '#00ce7a';
+            }
+        }
+    
         return (
             <div className={styles.dotContainer}>
                 {score !== null ? (
-                    <div className={styles.score}>{score}</div>
+                    <div className={styles.score} style={{ backgroundColor }}>{score}</div>
                 ) : (
-                    <div className={styles.dot} style={{ backgroundColor: `#ffbd3f` }}></div>
+                    <div className={styles.dot} style={{ backgroundColor }}></div>
                 )}
             </div>
         );
