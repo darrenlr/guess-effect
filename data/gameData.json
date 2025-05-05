@@ -4668,5 +4668,32 @@
       "metacritic": 82,
       "plot": "In a high-speed, neon-lit racing league, drivers compete using not just skill, but power-ups that turn every race into a chaotic battleground. As challengers rise through the ranks, they unlock faster cars, tougher opponents, and deadly new tools. Victory depends on mastering both speed and strategy in this electrified fight for the finish line."
     }
+  },
+  {
+    "date": "2025-05-06",
+    "region": "NA",
+    "releaseDate": "2005-03-15",
+    "title": "Cold Fear",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zv0.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Darkworks"
+      ],
+      "genre": [
+        "Survival-horror", "Third-person shooter"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 71,
+      "plot": "A U.S. Coast Guard officer boards a drifting Russian whaling ship in stormy waters, only to find the crew either dead or mutated by a horrific parasite. As he searches for survivors and answers, he uncovers a deadly bioweapon experiment gone wrong. Battling the elements and monstrosities aboard the ship, he must escape before the nightmare consumes him too."
+    }
   }
 ]
