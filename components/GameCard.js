@@ -188,7 +188,7 @@ const GameCard = ({
 					</div>
 					<div className={styles.hintRow}>
 						<Hint
-							hint="modes(s)"
+							hint="modes"
 							data={gameData.hints.modes}
 							onRevealHint={onRevealHint}
 							points={0}
