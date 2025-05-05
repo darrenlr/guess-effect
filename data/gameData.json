@@ -3528,7 +3528,7 @@
     }
   },
   {
-    "date": "2025-04-14",
+    "date": "2025-03-25",
     "region": "JP",
     "releaseDate": "2009-10-23",
     "title": "Bayonetta",
@@ -3963,6 +3963,710 @@
       "engine": "RenderWare",
       "metacritic": 76,
       "plot": "A death row inmate wakes up to find he’s been spared—only to be forced into a deadly game orchestrated by a sadistic director. Stalked through brutal urban environments, he must use stealth and violence to survive while cameras capture every gruesome act. As the line between survival and cruelty blurs, he realizes escape may cost more than just blood."
+    }
+  },
+  {
+    "date": "2025-04-10",
+    "region": "JP",
+    "releaseDate": "2008-02-05",
+    "title": "Demon's Souls",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27sk.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "FromSoftware", "Japan Studio"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "PhyreEngine",
+      "metacritic": 89,
+      "plot": "A lone warrior enters the cursed kingdom of Boletaria, now overrun by demons after a forbidden ritual awakens an ancient, soul-devouring entity. Battling through ruined lands and grotesque foes, they seek to gain power by collecting souls and putting an end to the spreading madness. Every step forward is hard-earned, and only those who master patience and perseverance can hope to lift the fog and restore peace."
+    }
+  },
+  {
+    "date": "2025-04-11",
+    "region": "WW",
+    "releaseDate": "2012-10-23",
+    "title": "Hotline Miami",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.webp",
+    "hints": {
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "developer": [
+        "Dennaton Games"
+      ],
+      "genre": [
+        "Top-down Shooter", "Indie"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "GameMaker",
+      "metacritic": 85,
+      "plot": "A mysterious man receives cryptic phone calls instructing him to eliminate targets across Miami. Donning animal masks and wielding brutal weapons, he descends into a surreal, hyper-violent world filled with bloodshed and confusion. As the bodies pile up, he begins to question who’s behind the messages—and what’s real in the chaos."
+    }
+  },
+  {
+    "date": "2025-04-12",
+    "region": "NA",
+    "releaseDate": "1993-09-30",
+    "title": "Myst",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y96.webp",
+    "hints": {
+      "publisher": [
+        "Broderbund"
+      ],
+      "developer": [
+        "Cyan"
+      ],
+      "genre": [
+        "Graphic adventure", "Point-and-click", "Puzzle"
+      ],
+      "platforms": [
+        "Mac OS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A stranger arrives on a mysterious island filled with strange machines, abandoned structures, and books that transport them to other worlds. With no guidance, they must explore, solve intricate puzzles, and uncover the story of a family torn apart by power and betrayal. Only by understanding the past can they unlock the secrets of the island and decide its fate."
+    }
+  },
+  {
+    "date": "2025-04-13",
+    "region": "NA",
+    "releaseDate": "2001-09-25",
+    "title": "Silent Hill 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vyg.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Team Silent"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 89,
+      "plot": "James Sunderland arrives in the fog-covered town of Silent Hill after receiving a letter from his deceased wife, urging him to meet her there. As he searches through the haunted streets and twisted realities, he encounters disturbing figures and other tormented souls. With each step, James is forced to confront his guilt, grief, and the dark truth buried within his own mind."
+    }
+  },
+  {
+    "date": "2025-04-14",
+    "region": "NA",
+    "releaseDate": "2011-05-10",
+    "title": "Brink",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1pxk.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Splash Damage"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player", "Co-op", "Multiplayer"
+      ],
+      "engine": "id Tech 4",
+      "metacritic": 68,
+      "plot": "On a floating city called the Ark, built as a refuge from a flooded world, two factions clash over its future—Security fights to maintain order, while the Resistance seeks freedom from oppression. Players join one side in a fast-paced conflict, using parkour movement and customizable weapons to turn the tide. As the city teeters on the brink of collapse, every choice shapes the struggle for survival and control."
+    }
+  },
+  {
+    "date": "2025-04-15",
+    "region": "JP",
+    "releaseDate": "2007-06-21",
+    "title": "Folklore",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4cg1.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Game Republic"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 75,
+      "plot": "Two strangers, a young woman seeking answers about her mother and a journalist chasing a mysterious letter, are drawn to the quiet Irish village of Doolin. There, they discover a gateway to the Netherworld, a realm of spirits and myth. Exploring different realms and battling folkloric creatures, they uncover hidden truths about death, memory, and the stories we leave behind."
+    }
+  },
+  {
+    "date": "2025-04-16",
+    "region": "JP",
+    "releaseDate": "2002-03-28",
+    "title": "Kingdom Hearts",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co30zf.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 85,
+      "plot": "A boy named Sora is separated from his friends when their world is consumed by darkness. Armed with a magical weapon called the Keyblade, he travels across a variety of worlds inspired by classic tales, battling shadowy creatures and forming alliances with iconic characters. As he searches for his lost friends, he uncovers a deeper conflict between light and darkness that could decide the fate of all worlds."
+    }
+  },
+  {
+    "date": "2025-04-17",
+    "region": "WW",
+    "releaseDate": "2013-06-14",
+    "title": "The Last of Us",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Havok",
+      "metacritic": 95,
+      "plot": "In a world ravaged by a fungal outbreak that’s turned much of humanity into monsters, a hardened survivor named Joel is tasked with escorting a young girl, Ellie, across a devastated America. What begins as a simple job becomes a harrowing journey of trust, sacrifice, and survival. As they face both the infected and the cruelty of other survivors, their bond grows—and Joel must decide how far he’ll go to protect her."
+    }
+  },
+  {
+    "date": "2025-04-18",
+    "region": "NA",
+    "releaseDate": "2007-09-05",
+    "title": "Stranglehold",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u7e.webp",
+    "hints": {
+      "publisher": [
+        "Midway Games"
+      ],
+      "developer": [
+        "Midway Studios Chicago", "Tiger Hill Entertainment"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 77,
+      "plot": "Detective Tequila Yuen returns to the streets of Hong Kong after a fellow officer goes missing, only to uncover a war between rival crime syndicates. Caught in a storm of betrayal and violence, he uses his unmatched gunplay and slow-motion acrobatics to take down enemies and get to the truth. As the body count rises, Tequila must fight through chaos to save his family and restore justice."
+    }
+  },
+  {
+    "date": "2025-04-19",
+    "region": "WW",
+    "releaseDate": "2016-06-29",
+    "title": "Inside",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2fca.webp",
+    "hints": {
+      "publisher": [
+        "Playdead"
+      ],
+      "developer": [
+        "Playdead"
+      ],
+      "genre": [
+        "Puzzle-platform", "Indie"
+      ],
+      "platforms": [
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 93,
+      "plot": "A boy flees through a bleak, oppressive world filled with shadowy figures and disturbing experiments. As he navigates eerie landscapes and avoids capture, he uncovers a dark facility conducting mind-control and horrific research. With no dialogue or clear guidance, his journey spirals into surreal, haunting revelations—leading to a finale both shocking and mysterious."
+    }
+  },
+  {
+    "date": "2025-04-20",
+    "region": "JP",
+    "releaseDate": "1986-08-26",
+    "title": "Castlevania",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6dcb.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami"
+      ],
+      "genre": [
+        "Action", "Platform"
+      ],
+      "platforms": [
+        "Famicom Disk System"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "A lone vampire hunter enters the dark halls of a cursed castle to defeat Count Dracula, who has risen to spread terror across the land. Armed with a holy whip and limited tools, he battles through legions of monsters, traps, and the undead. With skill and perseverance, he fights to end the vampire lord’s reign and bring peace to a haunted world."
+    }
+  },
+  {
+    "date": "2025-04-21",
+    "region": "NA",
+    "releaseDate": "1999-02-17",
+    "title": "Syphon Filter",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y7j.webp",
+    "hints": {
+      "publisher": [
+        "989 Studios"
+      ],
+      "developer": [
+        "Eidetic"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "Gabe Logan, an elite agent, is tasked with stopping a deadly bioweapon known as Syphon Filter from falling into the wrong hands. As he uncovers a global conspiracy, he faces rogue agents, terrorists, and corrupt officials. With time running out, he must track the virus, expose the truth, and prevent a catastrophe."
+    }
+  },
+  {
+    "date": "2025-04-22",
+    "region": "NA",
+    "releaseDate": "2007-09-12",
+    "title": "Heavenly Sword",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w52.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Ninja Theory"
+      ],
+      "genre": [
+        "Action-adventure", "hack and slash"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 79,
+      "plot": "Nariko, a warrior of a doomed clan, wields the legendary ******** ***** to defend her people from a ruthless invading king. The sword grants immense power, but slowly drains the life of its wielder. As her strength fades, Nariko battles overwhelming odds, uncovering her destiny and embracing sacrifice to protect those she loves."
+    }
+  },
+  {
+    "date": "2025-04-23",
+    "region": "WW",
+    "releaseDate": "2024-09-09",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5vab.webp",
+    "hints": {
+      "publisher": [
+        "Focus Entertainment"
+      ],
+      "developer": [
+        "Saber St. Petersburg"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS5", "Xbox Series X/S", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Swarm Engine",
+      "metacritic": 82,
+      "plot": "A battle-hardened Ultramarine returns to the frontlines as the galaxy faces a new, overwhelming threat from the Tyranids. With relentless enemies swarming entire worlds, he leads a brutal charge through war-torn battlefields, wielding bolter and chainsword with deadly precision. As chaos deepens, he must stand as humanity’s shield against extinction, no matter the cost."
+    }
+  },
+  {
+    "date": "2025-04-24",
+    "region": "JP",
+    "releaseDate": "2000-07-07",
+    "title": "Final Fantasy IX",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2unc.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square"
+      ],
+      "genre": [
+        "JRPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 94,
+      "plot": "A thief named Zidane kidnaps a princess, only to discover she wanted to escape her royal life all along. Joined by a diverse group of allies, they uncover a plot that threatens their entire world, diving into themes of identity, purpose, and mortality. As destinies intertwine and truths are revealed, they must stand together to confront an ancient force bent on destruction."
+    }
+  },
+  {
+    "date": "2025-04-25",
+    "region": "WW",
+    "releaseDate": "2014-04-04",
+    "title": "The Elder Scrolls Online",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "ZeniMax Online Studios"
+      ],
+      "genre": [
+        "MMO", "RPG"
+      ],
+      "platforms": [
+        "PC", "macOS"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "HeroEngine",
+      "metacritic": 71,
+      "plot": "Amid a continent torn by war and ancient rivalries, three alliances clash for control of a powerful throne, while a darker threat looms from beyond. As a soul-shriven hero freed from the clutches of a Daedric Prince, you forge your own path—joining factions, exploring vast lands, and uncovering lost histories. Whether through blades, magic, or diplomacy, your actions shape the fate of Tamriel in an ever-evolving world."
+    }
+  },
+  {
+    "date": "2025-04-26",
+    "region": "NA",
+    "releaseDate": "2007-09-13",
+    "title": "Crysis",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2on1.webp",
+    "hints": {
+      "publisher": [
+        "Crytek"
+      ],
+      "developer": [
+        "Crytek"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "CryEngine 2",
+      "metacritic": 91,
+      "plot": "A special forces soldier equipped with a high-tech nanosuit is sent to a remote island to investigate a mysterious alien presence and a North Korean military threat. As the situation escalates, he faces not only human enemies but an alien force capable of reshaping the battlefield. With superhuman strength, speed, and stealth, he must adapt to survive and stop an invasion that could engulf the world."
+    }
+  },
+  {
+    "date": "2025-04-27",
+    "region": "NA",
+    "releaseDate": "2002-11-18",
+    "title": "Tom Clancy's Splinter Cell",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co95ri.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "Stealth"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 2",
+      "metacritic": 93,
+      "plot": "Sam Fisher, a covert operative for a secret government agency, is sent on dangerous missions to prevent global threats. Using stealth, gadgets, and lethal precision, he infiltrates enemy territory, gathers intelligence, and eliminates targets without leaving a trace. In a world of shadows and shifting loyalties, success depends on staying unseen and striking before anyone knows he was there."
+    }
+  },
+  {
+    "date": "2025-04-28",
+    "region": "WW",
+    "releaseDate": "2013-03-25",
+    "title": "Warframe",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nhi.webp",
+    "hints": {
+      "publisher": [
+        "Digital Extremes"
+      ],
+      "developer": [
+        "Digital Extremes"
+      ],
+      "genre": [
+        "TPS", "Action RPG"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Evolution",
+      "metacritic": 69,
+      "plot": "Ancient warriors known as the Tenno awaken from centuries of cryosleep to find a solar system ruled by corrupt factions and hostile forces. Clad in powerful biomechanical suits called Warframes, they embark on missions across planets to fight oppression and uncover their forgotten past. Guided by a mysterious figure, they must master their abilities and survive in a constantly evolving war."
+    }
+  },
+  {
+    "date": "2025-04-29",
+    "region": "WW",
+    "releaseDate": "2018-01-23",
+    "title": "Subnautica",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1iqw.webp",
+    "hints": {
+      "publisher": [
+        "Unknown Worlds Entertainment"
+      ],
+      "developer": [
+        "Unknown Worlds Entertainment"
+      ],
+      "genre": [
+        "Action-adventure", "Survival"
+      ],
+      "platforms": [
+        "PC", "macOS"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 87,
+      "plot": "After crash-landing on an alien ocean planet, a lone survivor must explore the vast underwater world to find resources, craft equipment, and uncover the fate of those who came before. As they dive deeper into the depths, they encounter breathtaking beauty—and terrifying dangers. Survival means mastering the ocean’s secrets and facing what lurks in the dark below."
+    }
+  },
+  {
+    "date": "2025-04-30",
+    "region": "NA",
+    "releaseDate": "2011-08-06",
+    "title": "Dead Island",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3lym.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Techland"
+      ],
+      "genre": [
+        "Action role-playing", "Survival horror"
+      ],
+      "platforms": [
+        "PC", "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Chrome Engine",
+      "metacritic": 71,
+      "plot": "The island of Banoi is a lush, tropical paradise in the South Pacific where its flagship Royal Palms Resort serves as the ultimate getaway for vacationers with money to burn. However, all good things must soon come to an end - and the picturesque resort falls into madness, carnage and chaos after a mysterious and contagious zombie outbreak claims its once peaceful atmosphere. Cut off from the rest of the world, only four individuals who strangely find themselves immune to zombification have the power to protect the remaining survivors from the horrors of the island, to discover what's really going on and find a way to escape before their own fatal ends."
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "region": "JP",
+    "releaseDate": "2012-02-09",
+    "title": "Gravity Rush",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5tgy.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Japan Studio"
+      ],
+      "genre": [
+        "Action adventure"
+      ],
+      "platforms": [
+        "PS Vita"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "A young woman named Kat awakens with no memory and discovers she can manipulate gravity with the help of a mysterious cat. Using her newfound powers, she protects a floating city from monstrous creatures and strange gravitational anomalies. As she uncovers hidden truths about her past and the city's fate, Kat must defy gravity itself to save the world around her."
+    }
+  }
+  ,
+  {
+    "date": "2025-05-02",
+    "region": "WW",
+    "releaseDate": "2015-08-15",
+    "title": "Undertale",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2855.webp",
+    "hints": {
+      "publisher": [
+        "Toby Fox"
+      ],
+      "developer": [
+        "Toby Fox"
+      ],
+      "genre": [
+        "Indie", "RPG"
+      ],
+      "platforms": [
+        "PC", "OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "GameMaker: Studio",
+      "metacritic": 92,
+      "plot": "A human child falls into an underground world inhabited by monsters, where every encounter can end in battle—or mercy. As they journey through strange and heartfelt places, their choices shape not only their fate but the fate of everyone they meet. In a world where violence isn’t the only path, understanding and kindness may be the key to changing everything."
+    }
+  },
+  {
+    "date": "2025-05-03",
+    "region": "JP",
+    "releaseDate": "2001-12-13",
+    "title": "Fatal Frame",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9jki.webp",
+    "hints": {
+      "publisher": [
+        "Tecmo"
+      ],
+      "developer": [
+        "Tecmo"
+      ],
+      "genre": [
+        "Survival-horror"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 74,
+      "plot": "A young girl enters a haunted mansion in search of her missing brother, only to find it filled with restless spirits bound by a dark ritual. Armed with the Camera Obscura, she must photograph the ghosts to weaken and banish them. As she uncovers the tragic history behind the curse, she realizes that facing the past is the only way to survive."
+    }
+  },
+  {
+    "date": "2025-05-04",
+    "region": "NA",
+    "releaseDate": "2011-10-18",
+    "title": "Batman: Arkham City",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1voh.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros Interactive Entertainment"
+      ],
+      "developer": [
+        "Rocksteady Studios"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 94,
+      "plot": "Trapped in a lawless prison district run by Gotham’s worst criminals, Batman must uncover the secret behind a deadly plot orchestrated by Hugo Strange. As he faces off against iconic foes and navigates shifting alliances, he races against time to stop a sinister plan that threatens his life and the entire city. With danger around every corner, he must rely on his skills, intellect, and moral code to bring justice to the chaos."
+    }
+  },
+  {
+    "date": "2025-05-05",
+    "region": "NA",
+    "releaseDate": "2010-05-25",
+    "title": "Blur",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4azn.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Bizarre Creations"
+      ],
+      "genre": [
+        "Racing",
+        "Vehicular combat"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Horizon",
+      "metacritic": 82,
+      "plot": "In a high-speed, neon-lit racing league, drivers compete using not just skill, but power-ups that turn every race into a chaotic battleground. As challengers rise through the ranks, they unlock faster cars, tougher opponents, and deadly new tools. Victory depends on mastering both speed and strategy in this electrified fight for the finish line."
     }
   }
 ]

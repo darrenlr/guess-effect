@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
-import ArchiveScoreSystem from "../components/ArchiveScoreSystem";
+import ArchivedGame from "../components/ArchivedGame";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Footer from "../components/Footer";
 
@@ -52,7 +52,11 @@ const Home = () => {
           </div>
         ) : game ? (
           isArchiveGame ? (
-            <ArchiveScoreSystem game={game} />
+            <ArchivedGame 
+              game={game} 
+              gameHistory={gameHistory}
+              setGameHistory={setGameHistory}
+            />
           ) : (
             <ScoreSystem
               game={game}
