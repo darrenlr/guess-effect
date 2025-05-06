@@ -4695,5 +4695,32 @@
       "metacritic": 71,
       "plot": "A U.S. Coast Guard officer boards a drifting Russian whaling ship in stormy waters, only to find the crew either dead or mutated by a horrific parasite. As he searches for survivors and answers, he uncovers a deadly bioweapon experiment gone wrong. Battling the elements and monstrosities aboard the ship, he must escape before the nightmare consumes him too."
     }
+  },
+  {
+    "date": "2025-05-07",
+    "region": "NA",
+    "releaseDate": "1999-06-22",
+    "title": "Ape Escape",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gzc.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sony Computer Entertainment"
+      ],
+      "genre": [
+        "Platform", "Action-adventure"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "The doctors trustfull test apes have escaped and it's up to you to get out there and retrieve all of them."
+    }
   }
 ]
