@@ -5,12 +5,6 @@ import ArchivedGame from "../components/ArchivedGame";
 import MessageModal from "../components/MessageModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Footer from "../components/Footer";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faCalendar,
-} from "@fortawesome/free-solid-svg-icons";
-library.add(faCalendar);
 
 
 const initialGameHistory = {

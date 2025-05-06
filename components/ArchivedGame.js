@@ -9,7 +9,7 @@ import usePlayerStats from "../hooks/usePlayerStats";
 import { stripBrackets } from '../utils/stringUtils';
 import styles from "../styles/ScoreSystem.module.css";
 
-import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../utils/firebase'; 
 
 const getCollectionName = () => {
