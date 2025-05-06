@@ -91,6 +91,22 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         return () => clearInterval(intervalId);
       }, [archivedGameState.hints.points]);
 
+    const trackPlayer = async () => {
+        const collectionName = getCollectionName();
+        const today = new Date(game.date).toISOString().split("T")[0];
+        const docRef = doc(db, collectionName, today);
+        const docSnap = await getDoc(docRef);
+        
+        if (docSnap.exists()) {
+            await updateDoc(docRef, { 
+                count: docSnap.data().count + 1 ,
+            });
+        }
+        
+        const updatedDoc = await getDoc(docRef);
+        return updatedDoc.exists() ? updatedDoc.data().count : null;
+    };
+
     useEffect(() => {
         const targetBonus = archivedGameState.life.remainingGuessCount * 25;
         const duration = 200;
@@ -291,11 +307,13 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
               },
             ],
         }))
-        };
+       
 
-        //await trackPlayer(finalScore, usedGuesses, !resetScore);
+        await trackPlayer();
 
         setPlayerStatsUpdated(prev => !prev);
+
+    };
 
         if (typeof twq === "function") {
             twq('event', 'tw-ou7tq-ou7tq', {
@@ -457,7 +475,6 @@ Beatae aperiam et ir
                 gamesWon={gameHistory.wins}
                 remainingGuesses={archivedGameState.life.remainingGuessCount}
                 releaseDate={game.releaseDate}
-                playerCount={playerCount}
                 gameWon={
 					archivedGameState.hasOwnProperty('score')
 					? archivedGameState.score > 0

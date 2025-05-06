@@ -2,8 +2,16 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import ScoreSystem from "../components/ScoreSystem";
 import ArchivedGame from "../components/ArchivedGame";
+import MessageModal from "../components/MessageModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Footer from "../components/Footer";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faCalendar,
+} from "@fortawesome/free-solid-svg-icons";
+library.add(faCalendar);
+
 
 const initialGameHistory = {
 	wins: 0,
@@ -45,6 +53,21 @@ const Home = () => {
    return (
       <>
         <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
+
+        <MessageModal
+          messageKey="message_v1"
+          messageContent={
+            <>
+              <div style={{ fontSize: "1.4rem" }}>
+                Game archives are now <strong>LIVE</strong>!
+              </div>
+              <div style={{ marginTop: "1.8rem"}}>
+                Access via the calendar icon in the nav bar.
+              </div>
+            </>
+          }
+        />
+
 
           {loading ? (
           <div className="loading-container">
