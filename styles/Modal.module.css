@@ -33,6 +33,14 @@
     margin: 2rem;
   }
 
+  .modalContainer a {
+      color: #fff;
+  }
+  
+  .modalContainer a:hover {
+      text-decoration: underline;
+  }
+
   .help {
     display: flex;
     flex-direction: column;
@@ -44,3 +52,43 @@
     font-family: var(--font-family-main);
     text-align: start;
   }
+
+  .dotContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16px;
+    margin-top: 0.5rem;
+}
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .score {
+    background-color: #00ce7a; 
+    color: white; 
+    border-radius: 75%;
+    padding: 5px 10px; 
+    display: inline-block; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.socialLinks a img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.socialLinks a img:hover {
+  transform: scale(1.1);
+}

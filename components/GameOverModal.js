@@ -20,7 +20,8 @@ const GameOverModal = ({
 	globalWinners, 
 	playerCount, 
 	gameWon,
-	onClose, 
+	onClose,
+	archivedGame, 
 }) => {
 	const [animatedScore, setAnimatedScore] = useState(0);
 	const [isScoreAnimationDone, setIsScoreAnimationDone] = useState(false);
@@ -122,6 +123,8 @@ const GameOverModal = ({
 				  <span>Wins</span>
 				</div>
 			  </div>
+			  {!archivedGame && (
+				<>
 			  <h4>Global stats</h4>
 			  <div className={styles.statsRow}>
 				<div>
@@ -133,6 +136,7 @@ const GameOverModal = ({
 					<span>Avg Guesses</span>
 				</div>
 			  </div>
+			  
 			  <div className={styles.statsRow}>
 			  <div>
 					<p>{playerCount}</p>
@@ -148,7 +152,10 @@ const GameOverModal = ({
 				remainingGuesses={remainingGuesses}
 				releaseDate={releaseDate}
 			  />
-			  <CountdownTimer />
+			  
+			  		<CountdownTimer />
+			  	</>
+			  )}
 			</div>
 		  </div>
 		</div>

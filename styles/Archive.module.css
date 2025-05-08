@@ -1,0 +1,80 @@
+.iconBtn {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .iconBtn:focus {
+    outline: none;
+  }
+  
+  .icon {
+    width: 1.5rem; 
+    height: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+.archiveContainer {
+    font-size: calc(10px + .6vmin);
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+
+.archiveModal {
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: #15202b;
+    top: 120px;
+}
+
+
+.datePickerWrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .datePickerDropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .dayWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score {
+    font-size: 0.8rem;
+    color: green;
+  }
+  
+  .noScore {
+    width: 5px;
+    height: 5px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 2px;
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
