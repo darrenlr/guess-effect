@@ -131,14 +131,14 @@ const GameCard = ({
 				}}
 			>
 				<div className={styles.boxArt}>
-					<div className={styles.boxArtWrapper}>
-						<div className={styles.scanContainer}>
+					<div className={styles.scanContainer}>
+						<div className={styles.boxArtWrapper}>
     						<Image
 								src={`https://${gameData.boxArtUrl}`}
 								crossOrigin="anonymous"
 								alt="Game Box Art"
-        						width={300}
-        						height={360}
+        						width={264}
+        						height={352}
 								priority
 								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease', pointerEvents: 'none' }}
         						onLoadingComplete={extractColors}
