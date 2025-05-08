@@ -4695,5 +4695,59 @@
       "metacritic": 71,
       "plot": "A U.S. Coast Guard officer boards a drifting Russian whaling ship in stormy waters, only to find the crew either dead or mutated by a horrific parasite. As he searches for survivors and answers, he uncovers a deadly bioweapon experiment gone wrong. Battling the elements and monstrosities aboard the ship, he must escape before the nightmare consumes him too."
     }
+  },
+  {
+    "date": "2025-05-07",
+    "region": "NA",
+    "releaseDate": "1999-06-22",
+    "title": "Ape Escape",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gzc.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sony Computer Entertainment"
+      ],
+      "genre": [
+        "Platform", "Action-adventure"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 90,
+      "plot": "The doctors trustfull test apes have escaped and it's up to you to get out there and retrieve all of them."
+    }
+  },
+  {
+    "date": "2025-05-08",
+    "region": "NA",
+    "releaseDate": "2010-08-17",
+    "title": "Kane & Lynch 2: Dog Days",
+"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2crk.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix Europe"
+      ],
+      "developer": [
+        "IO Interactive"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 63,
+      "plot": "Two violent criminals, Kane and Lynch, reunite in Shanghai for a weapons deal that quickly spirals into chaos. As they try to survive a city-wide manhunt, their brutal path leaves destruction and betrayal in its wake. With the line between right and wrong long erased, they push forward through bloodshed, desperation, and a bond forged in violence."
+    }
   }
 ]
