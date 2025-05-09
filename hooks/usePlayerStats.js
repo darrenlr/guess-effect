@@ -18,6 +18,7 @@ const usePlayerStats = (triggerUpdate) => {
   const [globalAverageGuesses, setGlobalAverageGuesses] = useState(0);
   const [globalWinners, setGlobalWinners] = useState(0);
   const [globalHighScore, setGlobalHighScore] = useState(0);
+  const [lastUpdated, setLastUpdated] = useState(null);
 
   const fetchPlayerStats = async () => {
     const collectionName = getCollectionName();
@@ -27,23 +28,24 @@ const usePlayerStats = (triggerUpdate) => {
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
-      const { count, totalScore, totalGuesses, totalWinners, highScore } = docSnap.data();
+      const { count, totalScore, totalGuesses, totalWinners, highScore, lastUpdated } = docSnap.data();
       const averageScore = count > 0 ? totalScore / count : 0;
       const averageGuesses = count > 0 ? totalGuesses / count : 0;
 
-      return { count, averageScore, averageGuesses, totalWinners, highScore };
+      return { count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated };
     }
 
-    return { count: 0, averageScore: 0, averageGuesses: 0, totalWinners: 0, highScore: 0 };
+    return { count: 0, averageScore: 0, averageGuesses: 0, totalWinners: 0, highScore: 0, lastUpdated: null };
   };
 
   useEffect(() => {
-    fetchPlayerStats().then(({ count, averageScore, averageGuesses, totalWinners, highScore }) => {
+    fetchPlayerStats().then(({ count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated }) => {
       setPlayerCount(count);
       setGlobalAverageScore(Math.round(averageScore));
       setGlobalAverageGuesses(Math.round(averageGuesses));
       setGlobalWinners(totalWinners);
       setGlobalHighScore(highScore);
+      setLastUpdated(lastUpdated)
     });
   }, [triggerUpdate]);
 
@@ -53,6 +55,7 @@ const usePlayerStats = (triggerUpdate) => {
     globalAverageGuesses,
     globalWinners,
     globalHighScore,
+    lastUpdated,
   };
 };
 

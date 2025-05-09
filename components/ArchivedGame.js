@@ -11,6 +11,7 @@ import styles from "../styles/ScoreSystem.module.css";
 
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../utils/firebase'; 
+import { serverTimestamp } from 'firebase/firestore';
 
 const getCollectionName = () => {
 	const branch = process.env.NEXT_PUBLIC_BRANCH || 'main'; 
@@ -100,10 +101,12 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         if (docSnap.exists()) {
             await updateDoc(docRef, { 
                 count: docSnap.data().count + 1 ,
+                lastUpdated: serverTimestamp(),
             });
         }
         
         const updatedDoc = await getDoc(docRef);
+        
         return updatedDoc.exists() ? updatedDoc.data().count : null;
     };
 
