@@ -18,7 +18,7 @@ const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
     maxDate.setDate(maxDate.getDate() - 1);
 
     const getScoreForDate = (date) => {
-        const dateString = date.toISOString().split("T")[0];
+        const dateString = date.toLocaleDateString('sv-SE');
         const scoreEntry = gameHistory.scores.find((entry) => entry.date === dateString);
         return scoreEntry ? scoreEntry.score : null;
     };
@@ -72,7 +72,7 @@ const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
                 <div className={styles.calendarContainer}>
                     <Calendar
                         onChange={(date) => {
-							const dateString = date.toISOString().split("T")[0];
+							    const dateString = date.toLocaleDateString('sv-SE');
 							setSelectedDate(dateString);
                             
 							setTimeout(() => {
