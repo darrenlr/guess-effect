@@ -4782,7 +4782,7 @@
     "region": "JP",
     "releaseDate": "2017-02-23",
     "title": "Nier:Automata",
-"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.webp",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.webp",
     "hints": {
       "publisher": [
         "Square Enix"
@@ -4802,6 +4802,33 @@
       "engine": "",
       "metacritic": 88,
       "plot": "In a distant future where humanity has fled to the moon, androids are sent to Earth to fight a war against alien machines that have taken over the planet. As 2B, a combat android, and her allies battle through the ruins, they begin to question their purpose, the nature of their enemies, and what it truly means to be alive. Beneath the conflict lies a haunting cycle of identity, loss, and the search for meaning in a world long abandoned."
+    }
+  },
+  {
+    "date": "2025-05-11",
+    "region": "NA",
+    "releaseDate": "2007-08-21",
+    "title": "Bioshock",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mli.webp",
+    "hints": {
+      "publisher": [
+        "2K"
+      ],
+      "developer": [
+        "2K Boston"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 2",
+      "metacritic": 96,
+      "plot": "A man survives a plane crash and discovers a hidden underwater city built on the ideals of freedom and science, now decaying into chaos. As he explores its eerie halls, he battles mutated inhabitants and uncovers dark secrets behind the city's fall. Guided by a mysterious voice, he must decide who to trust in a world where nothing is as it seems."
     }
   }
 ]
