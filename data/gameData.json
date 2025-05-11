@@ -4830,5 +4830,86 @@
       "metacritic": 96,
       "plot": "A man survives a plane crash and discovers a hidden underwater city built on the ideals of freedom and science, now decaying into chaos. As he explores its eerie halls, he battles mutated inhabitants and uncovers dark secrets behind the city's fall. Guided by a mysterious voice, he must decide who to trust in a world where nothing is as it seems."
     }
+  },
+  {
+    "date": "2025-05-12",
+    "region": "WW",
+    "releaseDate": "2018-01-25",
+    "title": "Celeste",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3byy.webp",
+    "hints": {
+      "publisher": [
+        "Maddy Makes Games"
+      ],
+      "developer": [
+        "Maddy Makes Games"
+      ],
+      "genre": [
+        "Platformer", "Indie"
+      ],
+      "platforms": [
+        "PS4", "Switch", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Microsoft XNA",
+      "metacritic": 92,
+      "plot": "A young woman named Madeline climbs a treacherous mountain, confronting both physical obstacles and her own inner struggles. As she ascends, the journey becomes a metaphor for anxiety, self-doubt, and growth. With each fall and triumph, she learns to accept all parts of herself and find strength in persistence."
+    }
+  },
+  {
+    "date": "2025-05-13",
+    "region": "NA",
+    "releaseDate": "2004-09-10",
+    "title": "Burnout 3: Takedown",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y53.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Criterion Games"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PS2", "Xbox"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 94,
+      "plot": "In a high-octane world of street racing, speed alone isn't enough—aggression and wreckage rule the road. Drivers earn rewards by taking out rivals, causing massive crashes, and chaining risky moves at breakneck speeds. Every race is a chaotic, adrenaline-fueled battle for dominance, where style and destruction go hand in hand."
+    }
+  },
+  {
+    "date": "2025-05-14",
+    "region": "WW",
+    "releaseDate": "2019-04-26",
+    "title": "Days Gone",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co94bn.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertianment"
+      ],
+      "developer": [
+        "Bend Studio"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 71,
+      "plot": "In a post-apocalyptic world overrun by feral, infected creatures, a drifter and former outlaw named Deacon rides through the ruins of society on his motorcycle. Haunted by loss and driven by love, he searches for hope, answers, and a reason to keep going. Along the way, he faces hostile survivors, harsh environments, and the ever-present threat of the horde."
+    }
   }
 ]
