@@ -101,6 +101,7 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         if (docSnap.exists()) {
             await updateDoc(docRef, { 
                 count: docSnap.data().count + 1 ,
+                archiveCount: (docSnap.data().archiveCount || 0) + 1,
                 lastUpdated: serverTimestamp(),
             });
         }
