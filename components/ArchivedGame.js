@@ -55,7 +55,7 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         game.releaseDate
 	);
     const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
-    const { playerCount, globalAverageScore, globalAverageGuesses, globalWinners, globalHighScore } = usePlayerStats(playerStatsUpdated);
+    const { playerCount, globalAverageScore, globalAverageGuesses, globalWinners, globalHighScore } = usePlayerStats(playerStatsUpdated, new Date(game.date).toISOString().split("T")[0]);
 
     const [isWrongGuess, setIsWrongGuess] = useState(false);
     const [isModalVisible, setIsModalVisible] = useState(false);
@@ -487,8 +487,8 @@ Beatae aperiam et ir
                     : archivedGameState.life.remainingGuessCount !== 0
 				}
                 archivedGame={true}
-                // globalWinners={globalWinners}
-                // playerCount={playerCount}
+                globalWinners={globalWinners}
+                playerCount={playerCount}
                 onClose={() => setIsModalVisible(false)}
             />
         </div>
