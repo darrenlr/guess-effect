@@ -136,6 +136,9 @@ const GameOverModal = ({
 					<span>Avg Guesses</span>
 				</div>
 			  </div>
+
+			   	</>
+			  )}
 			  
 			  <div className={styles.statsRow}>
 			  <div>
@@ -147,6 +150,8 @@ const GameOverModal = ({
 					<span>Win Rate</span>
 				</div>
 			  </div>
+			  {!archivedGame && (
+				<>
 			  <ShareButton
 			  	score={score}
 				remainingGuesses={remainingGuesses}

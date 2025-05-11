@@ -12,7 +12,7 @@ const getCollectionName = () => {
   return "playerStats";
 };
 
-const usePlayerStats = (triggerUpdate) => {
+const usePlayerStats = (triggerUpdate, date = null) => {
   const [playerCount, setPlayerCount] = useState(0);
   const [archivePlayerCount, setArchivePlayerCount] = useState(0);
   const [globalAverageScore, setGlobalAverageScore] = useState(0);
@@ -21,10 +21,10 @@ const usePlayerStats = (triggerUpdate) => {
   const [globalHighScore, setGlobalHighScore] = useState(0);
   const [lastUpdated, setLastUpdated] = useState(null);
 
-  const fetchPlayerStats = async () => {
+  const fetchPlayerStats = async (targetDate) => {
     const collectionName = getCollectionName();
 
-    const today = new Date().toISOString().split("T")[0];
+    const today = targetDate || new Date().toISOString().split("T")[0];
     const docRef = doc(db, collectionName, today);
     const docSnap = await getDoc(docRef);
 
@@ -40,7 +40,7 @@ const usePlayerStats = (triggerUpdate) => {
   };
 
   useEffect(() => {
-    fetchPlayerStats().then(({ count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount }) => {
+    fetchPlayerStats(date).then(({ count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount }) => {
       setPlayerCount(count);
       setArchivePlayerCount(archiveCount);
       setGlobalAverageScore(Math.round(averageScore));
@@ -49,7 +49,7 @@ const usePlayerStats = (triggerUpdate) => {
       setGlobalHighScore(highScore);
       setLastUpdated(lastUpdated)
     });
-  }, [triggerUpdate]);
+  }, [triggerUpdate, date]);
 
   return {
     playerCount,
