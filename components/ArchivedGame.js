@@ -92,16 +92,19 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         return () => clearInterval(intervalId);
       }, [archivedGameState.hints.points]);
 
-    const trackPlayer = async () => {
+    const trackPlayer = async (hasWon) => {
         const collectionName = getCollectionName();
         const today = new Date(game.date).toISOString().split("T")[0];
         const docRef = doc(db, collectionName, today);
         const docSnap = await getDoc(docRef);
+
+        let winner = hasWon ? 1 : 0;
         
         if (docSnap.exists()) {
             await updateDoc(docRef, { 
                 count: docSnap.data().count + 1 ,
                 archiveCount: (docSnap.data().archiveCount || 0) + 1,
+                totalWinners: docSnap.data().totalWinners + winner,
                 lastUpdated: serverTimestamp(),
             });
         }
@@ -313,7 +316,7 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
         }))
        
 
-        await trackPlayer();
+        await trackPlayer(! resetScore);
 
         setPlayerStatsUpdated(prev => !prev);
 
@@ -479,12 +482,13 @@ Beatae aperiam et ir
                 gamesWon={gameHistory.wins}
                 remainingGuesses={archivedGameState.life.remainingGuessCount}
                 releaseDate={game.releaseDate}
-                gameWon={
-					archivedGameState.hasOwnProperty('score')
-					? archivedGameState.score > 0
-					: archivedGameState.life.remainingGuessCount !== 0
+                gameWon={matchedScore
+                    ? matchedScore.score > 0
+                    : archivedGameState.life.remainingGuessCount !== 0
 				}
                 archivedGame={true}
+                // globalWinners={globalWinners}
+                // playerCount={playerCount}
                 onClose={() => setIsModalVisible(false)}
             />
         </div>
