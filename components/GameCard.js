@@ -50,11 +50,11 @@ const GameCard = ({
 	
 		if (firstClick) {
 			newBlurAmount = Math.max(0, blurAmount - 20);
-			hintPenalty = 5;
+			hintPenalty = 10;
 			setFirstClick(false);
 		} else {
 			newBlurAmount = Math.max(0, blurAmount - 7);
-			hintPenalty = 10;
+			hintPenalty = 20;
 		}
 	
 		setBlurAmount(newBlurAmount);
@@ -152,22 +152,22 @@ const GameCard = ({
 						className={`hintButton ${blurAmount <= 13 ? styles.hidden : ""}`}
 						onClick={blurAmount > 13 ? reduceBlur : null}
 					>
-						{blurAmount > 19 && firstClick ? "Clear Heavy Smog (-5)" : (blurAmount > 13 ? "Clear Smog (-10)" : "")}
+						{blurAmount > 19 && firstClick ? "Clear Heavy Smog (-10)" : (blurAmount > 13 ? "Clear Smog (-20)" : "")}
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
 					<Hint
 						hint="publishers"
 						data={gameData.hints.publisher}
-						onRevealHint={() => handleRevealHint("publisher", 20)}
-						points={20}
+						onRevealHint={() => handleRevealHint("publisher", 10)}
+						points={10}
 						isRevealed={gameState.hints.publisher}
 					/>
 					<Hint
 						hint="developers"
 						data={gameData.hints.developer}
-						onRevealHint={() => handleRevealHint("developer", 20)}
-						points={20}
+						onRevealHint={() => handleRevealHint("developer", 10)}
+						points={10}
 						isRevealed={gameState.hints.developer}
 					/>
 					<div className={styles.hintRow}>
