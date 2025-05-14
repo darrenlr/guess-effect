@@ -4911,5 +4911,32 @@
       "metacritic": 71,
       "plot": "In a post-apocalyptic world overrun by feral, infected creatures, a drifter and former outlaw named Deacon rides through the ruins of society on his motorcycle. Haunted by loss and driven by love, he searches for hope, answers, and a reason to keep going. Along the way, he faces hostile survivors, harsh environments, and the ever-present threat of the horde."
     }
+  },
+  {
+    "date": "2025-05-15",
+    "region": "WW",
+    "releaseDate": "2020-03-20",
+    "title": "DOOM Eternal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "id Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS4", "Xbox One", "PC", "Stadia"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "id Tech 7",
+      "metacritic": 88,
+      "plot": "Humanity is on the brink of extinction as demonic forces consume Earth, and only the Doom Slayer stands in their way. Armed with brutal weapons and unmatched fury, he tears through hellish armies across dimensions to stop the invasion at its source. With ancient secrets and cosmic threats unfolding, his relentless war becomes a battle for the very soul of the universe."
+    }
   }
 ]
