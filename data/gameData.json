@@ -4938,5 +4938,32 @@
       "metacritic": 88,
       "plot": "Humanity is on the brink of extinction as demonic forces consume Earth, and only the Doom Slayer stands in their way. Armed with brutal weapons and unmatched fury, he tears through hellish armies across dimensions to stop the invasion at its source. With ancient secrets and cosmic threats unfolding, his relentless war becomes a battle for the very soul of the universe."
     }
+  },
+  {
+    "date": "2025-05-16",
+    "region": "WW",
+    "releaseDate": "2014-09-09",
+    "title": "Destiny",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rco.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Bungie"
+      ],
+      "genre": [
+        "FPS", "MMO"
+      ],
+      "platforms": [
+        "PS4", "PS3", "Xbox One", "Xbox 360"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Tiger",
+      "metacritic": 76,
+      "plot": "In a future where humanity's last safe city stands beneath a mysterious celestial being called the Traveler, Guardians rise to defend it from alien threats and ancient darkness. As one of these resurrected warriors, you wield powerful abilities and high-tech weapons to explore distant worlds and reclaim lost knowledge. The fight spans galaxies, where legends are forged in the light—and tested in the shadows."
+    }
   }
 ]
