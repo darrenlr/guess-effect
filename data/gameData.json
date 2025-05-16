@@ -4965,5 +4965,32 @@
       "metacritic": 76,
       "plot": "In a future where humanity's last safe city stands beneath a mysterious celestial being called the Traveler, Guardians rise to defend it from alien threats and ancient darkness. As one of these resurrected warriors, you wield powerful abilities and high-tech weapons to explore distant worlds and reclaim lost knowledge. The fight spans galaxies, where legends are forged in the light—and tested in the shadows."
     }
+  },
+  {
+    "date": "2025-05-17",
+    "region": "EU",
+    "releaseDate": "1997-11-28",
+    "title": "Grand Theft Auto",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lb0.webp",
+    "hints": {
+      "publisher": [
+        "BMG Interactive"
+      ],
+      "developer": [
+        "DMA Design"
+      ],
+      "genre": [
+        "FPS", "MMO"
+      ],
+      "platforms": [
+        "PC", "MS-DOS"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": null,
+      "plot": "As an aspiring young thug, your mission in this video game is to perform odd jobs for the mob, picking up points along the way by committing random crimes ranging from auto theft to hit-and-runs to murder."
+    }
   }
 ]
