@@ -4992,5 +4992,86 @@
       "metacritic": null,
       "plot": "As an aspiring young thug, your mission in this video game is to perform odd jobs for the mob, picking up points along the way by committing random crimes ranging from auto theft to hit-and-runs to murder."
     }
+  },
+  {
+    "date": "2025-05-18",
+    "region": "JP",
+    "releaseDate": "2000-02-10",
+    "title": "Vagrant Story",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rso.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square Product Development Division 4"
+      ],
+      "genre": [
+        "JRPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 92,
+      "plot": "A master riskbreaker named Ashley Riot is sent to investigate a cult and the mysterious city of Leá Monde, where ancient magic and political intrigue collide. As he delves deeper, memories blur and reality fractures, revealing a haunting past and a web of manipulation. Caught between truth and illusion, Ashley must uncover his role in a conflict that threatens to consume both body and soul."
+    }
+  },
+  {
+    "date": "2025-05-19",
+    "region": "JP",
+    "releaseDate": "2008-10-09",
+    "title": "Linger in Shadows",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3bch.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Plastic"
+      ],
+      "genre": [
+        "Interactive art", "Indie"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Pico Engine",
+      "metacritic": 59,
+      "plot": "A surreal, interactive experience unfolds as you guide a mysterious creature through a dreamlike world filled with abstract imagery and cryptic events. Blending art, music, and hidden symbolism, it invites you to manipulate time and perspective to uncover its story. It's not about victory or defeat, but interpretation—an exploration of light, shadow, and the unknown."
+    }
+  },
+  {
+    "date": "2025-05-20",
+    "region": "JP",
+    "releaseDate": "2007-12-06",
+    "title": "Lost Odyssey",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3tos.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Mistwalker", "Feelplus"
+      ],
+      "genre": [
+        "JRPG", "Turn-based strategy"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 78,
+      "plot": "An immortal man named Kaim has lived for a thousand years, but remembers almost none of it. As a looming magical catastrophe threatens the world, he embarks on a journey to recover his lost memories and stop the destruction. Alongside others burdened by the same curse, he confronts both ancient grief and present danger, discovering the pain and beauty of a life that never ends."
+    }
   }
 ]
