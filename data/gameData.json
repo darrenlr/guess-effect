@@ -5073,5 +5073,32 @@
       "metacritic": 78,
       "plot": "An immortal man named Kaim has lived for a thousand years, but remembers almost none of it. As a looming magical catastrophe threatens the world, he embarks on a journey to recover his lost memories and stop the destruction. Alongside others burdened by the same curse, he confronts both ancient grief and present danger, discovering the pain and beauty of a life that never ends."
     }
+  },
+  {
+    "date": "2025-05-21",
+    "region": "NA",
+    "releaseDate": "2005-04-19",
+    "title": "Psychonauts",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co38t0.webp",
+    "hints": {
+      "publisher": [
+        "Majesco Entertainment"
+      ],
+      "developer": [
+        "Double Fine Productions"
+      ],
+      "genre": [
+        "Platform", "Adventure", "Puzzle"
+      ],
+      "platforms": [
+        "Xbox", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 88,
+      "plot": "A young boy named Raz sneaks into a secret training camp for psychic spies, determined to become one himself. As he explores the minds of others—each a strange, imaginative world—he uncovers a sinister plot threatening both the campers and their sanity. With quirky humor and heart, Raz must master his powers to save the day and prove he's meant to be a true Psychonaut."
+    }
   }
 ]
