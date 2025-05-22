@@ -5100,5 +5100,32 @@
       "metacritic": 88,
       "plot": "A young boy named Raz sneaks into a secret training camp for psychic spies, determined to become one himself. As he explores the minds of others—each a strange, imaginative world—he uncovers a sinister plot threatening both the campers and their sanity. With quirky humor and heart, Raz must master his powers to save the day and prove he's meant to be a true Psychonaut."
     }
+  },
+  {
+    "date": "2025-05-22",
+    "region": "NA",
+    "releaseDate": "2010-05-11",
+    "title": "Skate 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o4l.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "EA Black Box"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "In a sprawling city built for skaters, you rise from wipeouts to legend by building a skateboarding empire. With a focus on creativity, precision, and physics-based tricks, every stair set, rail, and ramp becomes a canvas. Whether solo or with a crew, it’s all about style, flow, and pushing the boundaries of what’s possible on four wheels."
+    }
   }
 ]
