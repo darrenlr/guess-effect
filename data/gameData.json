@@ -5127,5 +5127,32 @@
       "metacritic": 80,
       "plot": "In a sprawling city built for skaters, you rise from wipeouts to legend by building a skateboarding empire. With a focus on creativity, precision, and physics-based tricks, every stair set, rail, and ramp becomes a canvas. Whether solo or with a crew, it’s all about style, flow, and pushing the boundaries of what’s possible on four wheels."
     }
+  },
+  {
+    "date": "2025-05-23",
+    "region": "JP",
+    "releaseDate": "2002-03-07",
+    "title": "Onimusha 2: Samurai's Destiny",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4qzs.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 2"
+      ],
+      "genre": [
+        "Action-adventure", "hack and slash"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Set in ancient Japan, the plot revolves around a new main protagonist, Jubei Yagyu, who is on a quest of revenge as he battles a demon army led by Nobunaga Oda, a sinister warlord who eliminated the Yagyu clan. Across his quest, Jubei learns of his oni heritage which grants him powers to slay the demons and meets new allies who also wish to defeat Nobunaga."
+    }
   }
 ]
