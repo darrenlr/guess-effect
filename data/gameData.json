@@ -5154,5 +5154,32 @@
       "metacritic": 84,
       "plot": "Set in ancient Japan, the plot revolves around a new main protagonist, Jubei Yagyu, who is on a quest of revenge as he battles a demon army led by Nobunaga Oda, a sinister warlord who eliminated the Yagyu clan. Across his quest, Jubei learns of his oni heritage which grants him powers to slay the demons and meets new allies who also wish to defeat Nobunaga."
     }
+  },
+  {
+    "date": "2025-05-24",
+    "region": "NA",
+    "releaseDate": "2009-03-17",
+    "title": "Grand Theft Auto: Chinatown Wars",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lba.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar Leeds"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 93,
+      "plot": "After the death of his father, a young Triad member arrives in a crime-ridden city to deliver a family heirloom and uncover the truth behind the murder. Caught between loyalty, betrayal, and the violent world of organized crime, he climbs the ranks while navigating corrupt cops and rival gangs. In a city that never stops moving, survival means doing whatever it takes."
+    }
   }
 ]
