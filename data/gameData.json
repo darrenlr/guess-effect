@@ -5181,5 +5181,112 @@
       "metacritic": 93,
       "plot": "After the death of his father, a young Triad member arrives in a crime-ridden city to deliver a family heirloom and uncover the truth behind the murder. Caught between loyalty, betrayal, and the violent world of organized crime, he climbs the ranks while navigating corrupt cops and rival gangs. In a city that never stops moving, survival means doing whatever it takes."
     }
+  },
+  {
+    "date": "2025-05-25",
+    "region": "JP",
+    "releaseDate": "2007-11-01",
+    "title": "Super Mario Galaxy",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21ro.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo EAD Tokyo"
+      ],
+      "developer": [
+        "Nintendo"
+      ],
+      "genre": [
+        "Platform", "Action-adventure"
+      ],
+      "platforms": [
+        "Wii"
+      ],
+      "modes": [
+        "Single-player", "Co-op"
+      ],
+      "engine": "",
+      "metacritic": 97,
+      "plot": "Every hundred years, a huge comet flies by in the skies above the Mushroom Kingdom. One year, that comet filled the entire sky, and from it fell a stream of shooting stars. The Toads scooped up the Star Bits and brought them to the castle, where they were reborn as a great Power Star. It was a happy time in the Mushroom Kingdom. Then one night Mario received a letter..."
+    },
+  {
+    "date": "2025-05-26",
+    "region": "JP",
+    "releaseDate": "2017-11-17",
+    "title": "Star Wars: Battlefront II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "DICE"
+      ],
+      "genre": [
+        "FPS", "Third-person shooter"
+      ],
+      "platforms": [
+        "PS4", "Xbox One", "PC"
+      ],
+      "modes": [
+        "Single-player", "multiplayer"
+      ],
+      "engine": "Frostbite 3",
+      "metacritic": 68,
+      "plot": "Spanning decades of galactic conflict, a soldier from an elite Imperial unit begins to question her allegiance after the fall of the Empire. Her journey weaves through key moments in a vast war, crossing paths with iconic heroes and villains. Whether fighting on the ground, in space, or as legendary characters, every battle helps shape the fate of the galaxy."
+    }
+  },
+  {
+    "date": "2025-05-27",
+    "region": "NA",
+    "releaseDate": "2013-06-25",
+    "title": "Ride to Hell: Retribution",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6p1x.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Eutechnyx"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 19,
+      "plot": "A Vietnam veteran returns home to find his brother murdered by a violent biker gang. Fueled by rage, he sets out on a brutal path of revenge, tearing through anyone who stands in his way. In a world of crime, betrayal, and chaos, his mission becomes a relentless ride for justice—or payback."
+    }
+  },
+  {
+    "date": "2025-05-28",
+    "region": "NA",
+    "releaseDate": "2011-09-11",
+    "title": "Resistance 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b3y.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player", "multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "In a world devastated by an alien invasion, a former soldier embarks on a desperate journey across a ruined America to deliver a weapon that could end the war. Haunted by loss and burdened with responsibility, he battles the monstrous Chimera and the crumbling remnants of humanity. As the odds grow darker, his mission becomes the last hope for human survival."
+    }
   }
 ]
