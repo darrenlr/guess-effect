@@ -5289,5 +5289,32 @@
       "metacritic": 83,
       "plot": "In a world devastated by an alien invasion, a former soldier embarks on a desperate journey across a ruined America to deliver a weapon that could end the war. Haunted by loss and burdened with responsibility, he battles the monstrous Chimera and the crumbling remnants of humanity. As the odds grow darker, his mission becomes the last hope for human survival."
     }
+  },
+  {
+    "date": "2025-05-29",
+    "region": "NA",
+    "releaseDate": "2000-03-28",
+    "title": "Soldier of Fortune",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5xso.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Raven Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "id Tech 2",
+      "metacritic": null,
+      "plot": "A hardened mercenary takes on covert missions around the globe to stop a dangerous terrorist organization from unleashing weapons of mass destruction. With brutal realism and a wide arsenal, he infiltrates enemy strongholds and eliminates threats with precision. Every mission is a deadly race against time, where success means preventing global catastrophe."
+    }
   }
 ]
