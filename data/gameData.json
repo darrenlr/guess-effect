@@ -5316,5 +5316,32 @@
       "metacritic": null,
       "plot": "A hardened mercenary takes on covert missions around the globe to stop a dangerous terrorist organization from unleashing weapons of mass destruction. With brutal realism and a wide arsenal, he infiltrates enemy strongholds and eliminates threats with precision. Every mission is a deadly race against time, where success means preventing global catastrophe."
     }
+  },
+  {
+    "date": "2025-05-30",
+    "region": "WW",
+    "releaseDate": "2022-07-19",
+    "title": "Stray",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "BlueTwelve Studio"
+      ],
+      "genre": [
+        "Adventure", "Cat"
+      ],
+      "platforms": [
+        "PS4", "PS5", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 83,
+      "plot": "A lost cat navigates a decaying cybercity inhabited by robots, machines, and hidden dangers, searching for a way back to the surface. Alongside a small drone companion, it uncovers secrets buried beneath neon-lit alleys and forgotten technology. In a world without humans, survival depends on curiosity, agility, and uncovering the truth behind what was left behind."
+    }
   }
 ]
