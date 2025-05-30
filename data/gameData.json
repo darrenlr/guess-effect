@@ -5343,5 +5343,32 @@
       "metacritic": 83,
       "plot": "A lost cat navigates a decaying cybercity inhabited by robots, machines, and hidden dangers, searching for a way back to the surface. Alongside a small drone companion, it uncovers secrets buried beneath neon-lit alleys and forgotten technology. In a world without humans, survival depends on curiosity, agility, and uncovering the truth behind what was left behind."
     }
+  },
+  {
+    "date": "2025-05-31",
+    "region": "JP",
+    "releaseDate": "1999-01-28",
+    "title": "Bloody Roar 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co489q.webp",
+    "hints": {
+      "publisher": [
+        "Hudson Soft"
+      ],
+      "developer": [
+        "Raizing"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "In a world where certain fighters can transform into powerful beast forms, a new tournament draws warriors with dark pasts and hidden agendas. As alliances form and rivalries ignite, each combatant battles not only for victory but for answers about a shadowy organization manipulating them. Beneath the clash of claws and fists lies a deeper struggle for identity, freedom, and survival."
+    }
   }
 ]
