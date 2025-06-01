@@ -5397,5 +5397,32 @@
       "metacritic": null,
       "plot": "The evil Gnasty Gnorc has turned all the dragons in the Dragon Lands into crystal. He has also stolen the dragons' gems by locking them up in chests or turning them into soldiers for his army. But he forgot about one little dragon: Spyro. Now Spyro has to travel through the dragon kingdom and free all the dragons from their crystal prison, recover the dragons' gems and defeat Gnasty Gnorc."
     }
+  },
+  {
+    "date": "2025-06-02",
+    "region": "WW",
+    "releaseDate": "2008-07-24",
+    "title": "Siren: Blood Curse",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2i48.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Japan Studio"
+      ],
+      "genre": [
+        "Survival-horror", "Stealth"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 78,
+      "plot": "A TV crew investigating a cursed Japanese village becomes trapped in a nightmarish cycle of time, haunted by undead villagers and a dark ritual. As reality fractures, the characters must survive shifting timelines and uncover the village’s grim secrets. Only by understanding the curse—and each other—can they hope to escape the horror that binds them."
+    }
   }
 ]
