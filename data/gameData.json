@@ -5451,5 +5451,32 @@
       "metacritic": 71,
       "plot": "After awakening on a mysterious planet at the edge of the galaxy, an explorer begins a vast journey across countless worlds, each procedurally generated and filled with alien life, resources, and secrets. With a damaged ship and fading memories, they uncover ancient technologies and cosmic mysteries tied to a distant, enigmatic force. The universe is boundless, and the path forward is shaped by curiosity, survival, and the will to discover."
     }
+  },
+  {
+    "date": "2025-06-04",
+    "region": "WW",
+    "releaseDate": "2021-11-19",
+    "title": "Battlefield 2042",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7dfn.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "DICE"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS4", "PS5", "Xbox One", "Xbox Series X/S", "PC"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Frostbite 3",
+      "metacritic": 68,
+      "plot": "In a near-future world ravaged by climate disasters and collapsing nations, stateless soldiers known as No-Pats fight for survival and influence. As global superpowers clash over dwindling resources, massive battles erupt across dynamic, ever-changing environments. With advanced technology and shifting alliances, warfare becomes unpredictable—and victory is anything but guaranteed."
+    }
   }
 ]
