@@ -5505,5 +5505,32 @@
       "metacritic": 91,
       "plot": "In a near-future world ravaged by climate disasters and collapsing nations, stateless soldiers known as No-Pats fight for survival and influence. As global superpowers clash over dwindling resources, massive battles erupt across dynamic, ever-changing environments. With advanced technology and shifting alliances, warfare becomes unpredictable—and victory is anything but guaranteed."
     }
+  },
+  {
+    "date": "2025-06-05",
+    "region": "WW",
+    "releaseDate": "2019-01-18",
+    "title": "ACE COMBAT 7: SKIES UNKNOWN",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ilk.webp",
+    "hints": {
+      "publisher": [
+        "Bandai Namco Entertainment"
+      ],
+      "developer": [
+        "Bandai Namco Studios"
+      ],
+      "genre": [
+        "Combat Flight Simulator"
+      ],
+      "platforms": [
+        "PS4", "Xbox One"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 80,
+      "plot": "In a war-torn sky where borders blur and loyalties shift, an ace pilot becomes a key player in a high-stakes conflict between rival nations. As cutting-edge aircraft clash at supersonic speeds, the pilot uncovers conspiracies and confronts the cost of war from above. Every mission tests skill, resolve, and the fine line between hero and weapon."
+    }
   }
 ]
