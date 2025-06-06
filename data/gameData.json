@@ -5532,5 +5532,32 @@
       "metacritic": 80,
       "plot": "In a war-torn sky where borders blur and loyalties shift, an ace pilot becomes a key player in a high-stakes conflict between rival nations. As cutting-edge aircraft clash at supersonic speeds, the pilot uncovers conspiracies and confronts the cost of war from above. Every mission tests skill, resolve, and the fine line between hero and weapon."
     }
+  },
+  {
+    "date": "2025-06-07",
+    "region": "WW",
+    "releaseDate": "2015-09-22",
+    "title": "SOMA",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a20.webp",
+    "hints": {
+      "publisher": [
+        "Frictional Games"
+      ],
+      "developer": [
+        "Frictional Games"
+      ],
+      "genre": [
+        "Survival horror"
+      ],
+      "platforms": [
+        "PS4", "PC", "Linux", "OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "HPL Engine 3",
+      "metacritic": 84,
+      "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
+    }
   }
 ]
