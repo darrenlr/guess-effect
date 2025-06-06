@@ -5559,5 +5559,32 @@
       "metacritic": 84,
       "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
     }
+  },
+  {
+    "date": "2025-06-08",
+    "region": "NA",
+    "releaseDate": "2011-01-19",
+    "title": "Dark Void",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2f09.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Alright Games"
+      ],
+      "genre": [
+        "Third-person shooter", "Action-adventure"
+      ],
+      "platforms": [
+        "PS3", "Xbox 360", "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 59,
+      "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
+    }
   }
 ]
