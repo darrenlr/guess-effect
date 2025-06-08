@@ -5586,5 +5586,32 @@
       "metacritic": 59,
       "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
     }
+  },
+  {
+    "date": "2025-06-09",
+    "region": "NA",
+    "releaseDate": "2004-09-21",
+    "title": "Def Jam: Fight for NY",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lis.webp",
+    "hints": {
+      "publisher": [
+        "EA Games"
+      ],
+      "developer": [
+        "AKI Corporation", "EA Canada"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS2", "Xbox", "PSP", "GameCube"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "In the underground world of street fighting, a rising brawler gets caught in a brutal turf war between hip-hop legends and ruthless crime bosses. As respect, loyalty, and control are fought for in gritty back-alley arenas, every punch brings the fighter closer to dominance—or downfall. Style, strength, and swagger determine who rules the streets."
+    }
   }
 ]
