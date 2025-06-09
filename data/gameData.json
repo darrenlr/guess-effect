@@ -5613,5 +5613,32 @@
       "metacritic": 83,
       "plot": "In the underground world of street fighting, a rising brawler gets caught in a brutal turf war between hip-hop legends and ruthless crime bosses. As respect, loyalty, and control are fought for in gritty back-alley arenas, every punch brings the fighter closer to dominance—or downfall. Style, strength, and swagger determine who rules the streets."
     }
+  },
+  {
+    "date": "2025-06-10",
+    "region": "NA",
+    "releaseDate": "2005-03-29",
+    "title": "Tom Clancy's Splinter Cell Chaos Theory",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co95re.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "Stealth"
+      ],
+      "platforms": [
+        "PS2", "Xbox", "PC"
+      ],
+      "modes": [
+        "Single-player", "Multiplayer"
+      ],
+      "engine": "Unreal Engine 2",
+      "metacritic": 94,
+      "plot": "As global tensions rise and cyber warfare threatens world stability, an elite operative is sent deep behind enemy lines to stop a cascading international crisis. Armed with cutting-edge tech and unmatched stealth skills, he uncovers a conspiracy that could spark open war. In the shadows, every silent move and split-second choice could mean the difference between peace and chaos."
+    }
   }
 ]
