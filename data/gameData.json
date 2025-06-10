@@ -5640,5 +5640,32 @@
       "metacritic": 94,
       "plot": "As global tensions rise and cyber warfare threatens world stability, an elite operative is sent deep behind enemy lines to stop a cascading international crisis. Armed with cutting-edge tech and unmatched stealth skills, he uncovers a conspiracy that could spark open war. In the shadows, every silent move and split-second choice could mean the difference between peace and chaos."
     }
+  },
+  {
+    "date": "2025-06-11",
+    "region": "WW",
+    "releaseDate": "2019-06-18",
+    "title": "Bloodstained: Ritual of the Night",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5qgf.webp",
+    "hints": {
+      "publisher": [
+        "505 Games"
+      ],
+      "developer": [
+        "ArtPlay"
+      ],
+      "genre": [
+        "Action RPG", "Metroidvania"
+      ],
+      "platforms": [
+        "PS4", "Xbox One", "PC"
+      ],
+      "modes": [
+        "Single-player", "Co-op"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 83,
+      "plot": "Miriam is an orphan afflicted by an alchemist's curse, which is slowly turning her skin into crystal. To stop the curse, Miriam must explore a demon-filled castle and locate its summoner, Gebel, who has suffered from the curse for a long time."
+    }
   }
 ]
