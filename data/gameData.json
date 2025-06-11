@@ -5667,5 +5667,158 @@
       "metacritic": 83,
       "plot": "Miriam is an orphan afflicted by an alchemist's curse, which is slowly turning her skin into crystal. To stop the curse, Miriam must explore a demon-filled castle and locate its summoner, Gebel, who has suffered from the curse for a long time."
     }
+  },
+  {
+    "date": "2025-06-12",
+    "region": "WW",
+    "releaseDate": "2013-08-15",
+    "title": "Gone Home",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/qwhxxrcxzw7inwfrfkbq.webp",
+    "hints": {
+      "publisher": [
+        "The Fullbright Company"
+      ],
+      "developer": [
+        "The Fullbright Company"
+      ],
+      "genre": [
+        "Exploration"
+      ],
+      "platforms": [
+        "PC", "OS X", "Linux"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 86,
+      "plot": "Returning to her family’s house after a year abroad, a young woman finds it eerily empty, with no sign of her parents or sister. As she explores the quiet, rain-soaked home, she pieces together a story told through notes, journals, and forgotten belongings. What unfolds is a deeply personal journey of love, identity, and the things we leave unsaid."
+    }
+  },
+  {
+  "date": "2025-06-13",
+  "region": "JP",
+  "releaseDate": "2007-05-10",
+  "title": "Final Fantasy Tactics: The War of the Lions",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1pn8.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "TOSE",
+      "Square Enix Product Development Division 4"
+    ],
+    "genre": [
+      "Turn‑Based Tactics",
+      "Strategy RPG"
+    ],
+    "platforms": [
+      "PlayStation Portable"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "A young noble cadet is drawn into a widescale civil conflict in a richly detailed kingdom, where battlefield tactics, shifting allegiances and political intrigue test his loyalties and shape his destiny as he uncovers corruption and betrayal."
+    }
+  }, 
+  {
+  "date": "2025-06-14",
+  "region": "NA",
+  "releaseDate": "2000-06-22",
+  "title": "Deus Ex",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co86dk.webp",
+  "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Ion Storm"
+    ],
+    "genre": [
+      "Action RPG",
+      "First-person shooter",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 1",
+    "metacritic": 90,
+    "plot": "A nano-augmented agent is sent on a mission to stop a bioterrorist attack, only to uncover a sprawling global conspiracy that forces him to question who he can trust and what the future holds."
+    }
+  },
+  {
+  "date": "2025-06-15",
+  "region": "NA",
+  "releaseDate": "2012-03-06",
+  "title": "Mass Effect 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "BioWare",
+      "BioWare Edmonton"
+    ],
+    "genre": [
+      "Action RPG",
+      "Third-person shooter",
+      "Science fiction"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 89,
+    "plot": "Commanding a soldier enhanced with advanced abilities, you lead the final stand against a colossal alien threat, rallying allies across worlds. Your choices carry immense weight—shaping the fate of characters, civilizations and even Earth itself. As the war reaches its climax, cooperation and sacrifice become pivotal in determining how the galaxy endures."
+    }
+  },
+  {
+  "date": "2025-06-16",
+  "region": "WW",
+  "releaseDate": "2014-10-07",
+  "title": "Alien: Isolation",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.webp",
+  "hints": {
+    "publisher": [
+      "SEGA"
+    ],
+    "developer": [
+      "Creative Assembly"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Stealth",
+      "Survival horror"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "PS4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "CATHODE",
+    "metacritic": 81,
+    "plot": "Set 15 years after the events of the original film, the game follows Amanda Ripley as she investigates the disappearance of her mother, Ellen Ripley, aboard the space station Sevastopol. The station is in disarray due to years of corporate negligence and the threat of a rampant alien creature. The game emphasizes stealth and survival horror gameplay, requiring the player to avoid, outsmart, and fight various enemies with equipment such as firearms, a motion tracker, stun baton, and a flamethrower."
   }
+}
 ]
