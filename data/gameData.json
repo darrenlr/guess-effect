@@ -5819,6 +5819,37 @@
     "engine": "CATHODE",
     "metacritic": 81,
     "plot": "Set 15 years after the events of the original film, the game follows Amanda Ripley as she investigates the disappearance of her mother, Ellen Ripley, aboard the space station Sevastopol. The station is in disarray due to years of corporate negligence and the threat of a rampant alien creature. The game emphasizes stealth and survival horror gameplay, requiring the player to avoid, outsmart, and fight various enemies with equipment such as firearms, a motion tracker, stun baton, and a flamethrower."
+    }
+  },
+  {
+  "date": "2025-06-17",
+  "region": "NA",
+  "releaseDate": "2010-03-23",
+  "title": "Just Cause 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7lbb.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Avalanche Studios"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Third-person shooter",
+      "Open world"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Havok Physics",
+    "metacritic": 81,
+    "plot": "An operative is dropped into a sprawling island nation ruled by a dictator. Armed with a grappling hook, parachute, and an arsenal of weapons and vehicles, he must ignite chaos to spark revolution and liberate the people of Panau."
   }
 }
 ]
