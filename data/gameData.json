@@ -5850,6 +5850,37 @@
     "engine": "Havok Physics",
     "metacritic": 81,
     "plot": "An operative is dropped into a sprawling island nation ruled by a dictator. Armed with a grappling hook, parachute, and an arsenal of weapons and vehicles, he must ignite chaos to spark revolution and liberate the people of Panau."
-  }
-}
+    }
+  },
+  {
+  "date": "2025-06-18",
+  "region": "WW",
+  "releaseDate": "2021-04-01",
+  "title": "Outriders",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e4r.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "People Can Fly"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Action RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 77,
+    "plot": "In a bleak sci‑fi future, humanity sends elite operatives to colonize a hostile planet called Enoch. Betrayed and exposed to a deadly anomaly, one of these Outriders discovers superhuman powers. Teaming up with others, they fight to reclaim Earth’s hope amid fierce battles, visceral gun‑play, and deep RPG‑style progression."
+    }
+  } 
 ]
