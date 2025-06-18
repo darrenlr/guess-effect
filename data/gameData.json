@@ -5882,5 +5882,36 @@
     "metacritic": 77,
     "plot": "In a bleak sci‑fi future, humanity sends elite operatives to colonize a hostile planet called Enoch. Betrayed and exposed to a deadly anomaly, one of these Outriders discovers superhuman powers. Teaming up with others, they fight to reclaim Earth’s hope amid fierce battles, visceral gun‑play, and deep RPG‑style progression."
     }
-  } 
+  },
+  {
+  "date": "2025-06-19",
+  "region": "NA",
+  "releaseDate": "2012-06-26",
+  "title": "Spec Ops: The Line",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2acb.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Yager Development"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Tactical shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 76,
+    "plot": "An elite Delta Force team is sent into a sandstorm-ravaged Dubai to investigate a distress signal, but as battles escalate they must confront the horrors of war and their own morality, enduring extreme sand-triggered combat and making decisions that blur the line between duty and devastation."
+    }
+  }
 ]
