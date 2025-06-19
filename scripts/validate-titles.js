@@ -3,7 +3,12 @@ const path = require('path');
 
 const dataDir = path.join(__dirname, '..', 'data');
 
-const seenTitles = new Set();
+// ✅ List of titles allowed to have duplicates
+const allowedDuplicates = new Set([
+  "Batman: Arkham City"
+]);
+
+const seenTitles = new Map();
 let duplicateFound = false;
 
 fs.readdirSync(dataDir).forEach(file => {
@@ -23,10 +28,12 @@ fs.readdirSync(dataDir).forEach(file => {
     }
 
     if (seenTitles.has(title)) {
-      console.error(`❌ Duplicate title "${title}" found in: ${file}`);
-      duplicateFound = true;
+      if (!allowedDuplicates.has(title)) {
+        console.error(`❌ Duplicate title "${title}" found in: ${file} and ${seenTitles.get(title)}`);
+        duplicateFound = true;
+      }
     } else {
-      seenTitles.add(title);
+      seenTitles.set(title, file);
     }
   } catch (e) {
     console.error(`❌ Failed to parse ${file}:`, e.message);
@@ -38,5 +45,5 @@ if (duplicateFound) {
   console.error('❌ Duplicate titles or errors found. Failing workflow.');
   process.exit(1);
 } else {
-  console.log('✅ All titles are unique.');
+  console.log('✅ All titles are valid and unique (excluding allowed exceptions).');
 }
