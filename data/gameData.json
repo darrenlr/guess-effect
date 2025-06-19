@@ -5913,5 +5913,150 @@
     "metacritic": 76,
     "plot": "An elite Delta Force team is sent into a sandstorm-ravaged Dubai to investigate a distress signal, but as battles escalate they must confront the horrors of war and their own morality, enduring extreme sand-triggered combat and making decisions that blur the line between duty and devastation."
     }
+  },
+  {
+  "date": "2025-06-20",
+  "region": "NA",
+  "releaseDate": "2008-10-07",
+  "title": "Fracture",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4v6f.webp",
+  "hints": {
+    "publisher": [
+      "LucasArts"
+    ],
+    "developer": [
+      "Day 1 Studios"
+    ],
+    "genre": [
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 63,
+    "plot": "Set in 2161, a fractured United States is divided between the Atlantic Alliance and the Pacificans following ecological disasters. Playing as Sergeant Jet Brody, a member of the Atlantic forces, you deploy futuristic weapons capable of deforming terrain to battle in strategic skirmishes and uncover devastating secrets behind the conflict."
+    }
+  },
+  {
+  "date": "2025-06-21",
+  "region": "WW",
+  "releaseDate": "2016-01-26",
+  "title": "The Witness",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3hih.webp",
+  "hints": {
+    "publisher": [
+      "Thekla, Inc."
+    ],
+    "developer": [
+      "Thekla, Inc."
+    ],
+    "genre": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "You awaken on a remote island covered in hundreds of interconnected puzzles. As you explore and solve line‑drawing challenges, you slowly uncover visual patterns and environmental clues that reveal hidden truths about the island and yourself."
+    }
+  },
+  {
+  "date": "2025-06-22",
+  "region": "WW",
+  "releaseDate": "1990-10-15",
+  "title": "The Secret of Monkey Island",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28bp.webp",
+  "hints": {
+    "publisher": [
+      "Lucasfilm Games"
+    ],
+    "developer": [
+      "Lucasfilm Games"
+    ],
+    "genre": [
+      "Point-and-click",
+      "Puzzle",
+      "Graphic adventure"
+    ],
+    "platforms": [
+      "Amiga",
+      "MS-DOS",
+      "Atari ST",
+      "Macintosh"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "SCUMM",
+    "metacritic": null,
+    "plot": "A young aspiring pirate arrives in a bustling Caribbean port to prove himself through a series of challenges. Along the way, he uncovers comic mysteries, confronts a legendary ghost pirate, and navigates clever dialogue puzzles to rescue a governor and discover the island’s hidden secret."
+    }
+  },
+  {
+  "date": "2025-06-23",
+  "region": "WW",
+  "releaseDate": "2013-10-08",
+  "title": "Beyond: Two Souls",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8r4w.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Quantic Dream"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Interactive drama"
+    ],
+    "platforms": [
+      "PS3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 70,
+    "plot": "A young woman bound to a supernatural entity uses her growing powers to navigate a nonlinear journey across many years. Along the way, she confronts profound mysteries, dangerous situations, and emotional scars while uncovering hidden truths about herself and those who influence her fate."
+    }
+  },
+  {
+  "date": "2025-06-24",
+  "region": "NA",
+  "releaseDate": "2003-07-16",
+  "title": "Star Wars: Knights of the Old Republic",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.webp",
+  "hints": {
+    "publisher": [
+      "LucasArts"
+    ],
+    "developer": [
+      "BioWare"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Odyssey",
+    "metacritic": 94,
+    "plot": "On the brink of galactic war four millennia before the Empire, you must master mysterious powers and lead a custom band of allies to confront a growing Sith menace. Choices matter as you navigate iconic Star Wars worlds, shaping your destiny and the fate of the Republic."
+    }
   }
 ]
