@@ -1,45 +1,43 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataDir = path.join(__dirname, '..', 'data');
+const filePath = path.join(__dirname, '..', 'data', 'gameData.json');
 
-// ✅ List of titles allowed to have duplicates
+// ✅ Titles allowed to be duplicated
 const allowedDuplicates = new Set([
   "Batman: Arkham City"
 ]);
 
-const seenTitles = new Map();
 let duplicateFound = false;
+const seenTitles = new Map();
 
-fs.readdirSync(dataDir).forEach(file => {
-  if (path.extname(file) !== '.json') return;
-
-  const filePath = path.join(dataDir, file);
+try {
   const rawData = fs.readFileSync(filePath, 'utf8');
+  const entries = JSON.parse(rawData);
 
-  try {
-    const jsonData = JSON.parse(rawData);
-    const title = jsonData.title;
+  entries.forEach((entry, index) => {
+    const title = entry.title;
 
     if (!title) {
-      console.error(`❌ Missing title in: ${file}`);
+      console.error(`❌ Missing title at index ${index}`);
       duplicateFound = true;
       return;
     }
 
     if (seenTitles.has(title)) {
       if (!allowedDuplicates.has(title)) {
-        console.error(`❌ Duplicate title "${title}" found in: ${file} and ${seenTitles.get(title)}`);
+        const firstIndex = seenTitles.get(title);
+        console.error(`❌ Duplicate title "${title}" at index ${index} (already seen at index ${firstIndex})`);
         duplicateFound = true;
       }
     } else {
-      seenTitles.set(title, file);
+      seenTitles.set(title, index);
     }
-  } catch (e) {
-    console.error(`❌ Failed to parse ${file}:`, e.message);
-    duplicateFound = true;
-  }
-});
+  });
+} catch (e) {
+  console.error(`❌ Failed to process file:`, e.message);
+  process.exit(1);
+}
 
 if (duplicateFound) {
   console.error('❌ Duplicate titles or errors found. Failing workflow.');
