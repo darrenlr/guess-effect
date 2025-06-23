@@ -6058,5 +6058,34 @@
     "metacritic": 94,
     "plot": "On the brink of galactic war four millennia before the Empire, you must master mysterious powers and lead a custom band of allies to confront a growing Sith menace. Choices matter as you navigate iconic Star Wars worlds, shaping your destiny and the fate of the Republic."
     }
+  },
+  {
+  "date": "2025-06-25",
+  "region": "NA",
+  "releaseDate": "2004-09-22",
+  "title": "ROME: Total War",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zt9.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Creative Assembly"
+    ],
+    "genre": [
+      "Real-time tactics",
+      "Turn-based strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "TW Engine 2",
+    "metacritic": 92,
+    "plot": "You lead a burgeoning empire on a campaign spanning Europe, North Africa, and the Near East, managing diplomacy, economy, and army movement on a grand strategy map. When armies clash, battles unfold in real-time with thousands of soldiers, allowing strategic tactics to determine victory. As factions rise and fall, you shape the future of Rome through conquest and political savvy."
+    }
   }
 ]
