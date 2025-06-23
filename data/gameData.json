@@ -6087,5 +6087,241 @@
     "metacritic": 92,
     "plot": "You lead a burgeoning empire on a campaign spanning Europe, North Africa, and the Near East, managing diplomacy, economy, and army movement on a grand strategy map. When armies clash, battles unfold in real-time with thousands of soldiers, allowing strategic tactics to determine victory. As factions rise and fall, you shape the future of Rome through conquest and political savvy."
     }
+  },
+  {
+    "date": "2025-06-26",
+    "region": "WW",
+    "releaseDate": "2015-07-07",
+    "title": "Rocket League",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.webp",
+    "hints": {
+      "publisher": [
+        "Psyonix"
+      ],
+      "developer": [
+        "Psyonix"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 86,
+      "plot": "You control rocket-powered cars in fast-paced arena soccer matches. Teams of up to eight compete to drive a ball into the opponent’s net using acrobatic stunts, strategic positioning, and explosive speed. With cross-platform play, customizable vehicles, and high-octane gameplay, it revolutionized competitive esports since launch."
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "region": "WW",
+    "releaseDate": "2017-04-25",
+    "title": "What Remains of Edith Finch",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rbj.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "Giant Sparrow"
+      ],
+      "genre": [
+        "Exploration",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 87,
+      "plot": "Returning to her ancestral family home, the last Finch explores interconnected vignettes detailing each relative's final moments. Each vignette uses unique mechanics that reveal emotional layers and surreal truths. Through exploration and discovery, the mystery of the family’s tragic legacy unfolds."
+    }
+  },
+  {
+    "date": "2025-06-28",
+    "region": "JP",
+    "releaseDate": "1996-06-23",
+    "title": "Super Mario 64",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co721v.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo EAD"
+      ],
+      "genre": [
+        "Platformer"
+      ],
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 90,
+      "plot": "A hero ventures into a magical castle and travels through paintings to rescue a princess from a fearsome menace. Along the way, he collects Power Stars by exploring varied worlds—leaping, flying, and solving platform-based challenges in pioneering 3D gameplay."
+    }
+  },
+  {
+    "date": "2025-06-29",
+    "region": "NA",
+    "releaseDate": "2005-11-15",
+    "title": "Shadow the Hedgehog",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1up3.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Sonic Team",
+        "Sega Studios USA"
+      ],
+      "genre": [
+        "Platform",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS2",
+        "GameCube",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 65,
+      "plot": "An amnesiac hedgehog with special powers joins a three‑way conflict between alien invaders, military forces, and a mad doctor, wielding weapons and vehicles in nonlinear missions that determine his loyalties and uncover the truth about his past."
+    }
+  },
+  {
+    "date": "2025-06-30",
+    "region": "NA",
+    "releaseDate": "2004-11-15",
+    "title": "Need for Speed: Underground 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co209h.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "EA Black Box"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "EAGL",
+      "metacritic": 82,
+      "plot": "In a city built for street racing culture, a young driver enters an underground scene marked by tuner cars, drift and drag challenges, and deep customization. Free-roam across diverse urban districts, take on rival crews, and rise through the ranks in high-stakes competitions that blend speed, style, and strategy."
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "region": "WW",
+    "releaseDate": "2008-01-22",
+    "title": "Burnout Paradise",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28p7.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Criterion Games"
+      ],
+      "genre": [
+        "Racing",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 88,
+      "plot": "In a vast open-world city, you tackle high-speed races, stunt challenges, and chaotic pursuits using diverse vehicles. Explore the streets, unlock events, and dominate rival players through arcade-style driving and explosive crashes."
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "region": "NA",
+    "releaseDate": "2010-06-01",
+    "title": "Alpha Protocol",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25mo.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 63,
+      "plot": "A clandestine agent uncovers a global conspiracy after a mission gone wrong, forced to go rogue as he navigates espionage, lethal conflicts, and personal betrayals. His decisions shape relationships and outcomes as he fights to prevent a catastrophic event."
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "region": "WW",
+    "releaseDate": "1999-02-01",
+    "title": "Crazy Taxi",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7jt6.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Hitmaker"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "Arcade",
+        "Dreamcast"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 82,
+      "plot": "Players assume the role of a taxi driver racing against time to deliver passengers across a bustling city. Earning tips involves pulling off daring stunts and precision driving. The arcade-style gameplay emphasizes fast-paced action and high-score challenges."
+    }
   }
 ]
