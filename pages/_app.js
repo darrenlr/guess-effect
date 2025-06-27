@@ -12,6 +12,19 @@ function MyApp({ Component, pageProps }) {
         <link rel="canonical" href="https://guesseffect.wtf" />
         <meta name="description" content="Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
       </Head>
+      {/* Google Analytics Script Loader */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-RRKN0TJDML"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RRKN0TJDML');
+        `}
+      </Script>
       <Component {...pageProps} />
       <SpeedInsights />
       <Analytics />
