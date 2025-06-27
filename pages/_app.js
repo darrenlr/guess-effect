@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-console.log("SpeedInsights component is imported:", SpeedInsights);
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -27,11 +26,8 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
-      <div id="debug-speed-insights">
-  <SpeedInsights />
-</div>
-
       <Analytics />
+      <SpeedInsights />
       <Script id="twitter-pixel" strategy="afterInteractive">
         {`
           !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
