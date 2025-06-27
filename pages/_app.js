@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
+console.log("SpeedInsights component is imported:", SpeedInsights);
 import Head from 'next/head';
 import Script from 'next/script';
 
@@ -26,7 +27,10 @@ function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
-      <SpeedInsights />
+      <div id="debug-speed-insights">
+  <SpeedInsights />
+</div>
+
       <Analytics />
       <Script id="twitter-pixel" strategy="afterInteractive">
         {`
