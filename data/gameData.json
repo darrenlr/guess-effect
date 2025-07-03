@@ -6323,5 +6323,354 @@
       "metacritic": 82,
       "plot": "Players assume the role of a taxi driver racing against time to deliver passengers across a bustling city. Earning tips involves pulling off daring stunts and precision driving. The arcade-style gameplay emphasizes fast-paced action and high-score challenges."
     }
+  },
+  {
+  "date": "2025-07-04",
+  "region": "WW",
+  "releaseDate": "2009-06-02",
+  "title": "Red Faction: Guerrilla",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9b.webp",
+  "hints": {
+    "publisher": [
+      "THQ"
+    ],
+    "developer": [
+      "Volition"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Open world"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Geo‑Mod 2.0",
+    "metacritic": 85,
+    "plot": "Set on a colonized Mars, a revolutionary demolitions expert joins a rebellion to overthrow a brutal occupying force. Using ingenuity and destructive weaponry, he dismantles strongholds and frees territories in a sprawling, destructible environment. As the insurgency grows, he confronts the costs of war and the power of resistance."
+    }
+  },
+  {
+  "date": "2025-07-05",
+  "region": "NA",
+  "releaseDate": "2007-06-26",
+  "title": "Overlord",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co247s.webp",
+  "hints": {
+    "publisher": [
+      "Codemasters"
+    ],
+    "developer": [
+      "Triumph Studios"
+    ],
+    "genre": [
+      "Action RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360",
+      "PS3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 76,
+    "plot": "A resurrected noble emerges from his ruined stronghold to reclaim his empire with the help of mischievous minions. He conquers villages, battles heroes, and spreads corruption across the land. Player choices influence alignment and narrative outcomes amid dark humor and satirical fantasy tropes."
+    }
+  },
+  {
+  "date": "2025-07-06",
+  "region": "WW",
+  "releaseDate": "1999-04-10",
+  "title": "Rayman 2: The Great Escape",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co81im.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montpellier"
+    ],
+    "genre": [
+      "Platformer",
+      "Adventure"
+    ],
+    "platforms": [
+      "Nintendo 64",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "RenderWare",
+    "metacritic": 87,
+    "plot": "A hero journeys through a vividly realized 3D world to free his land from mechanical pirates who've enslaved its inhabitants. Utilizing acrobatic moves, combat, and puzzle-solving across diverse environments, he recovers his lost abilities and exposes a larger threat. His quest culminates in rescuing friends and restoring peace to an enchanted realm."
+    }
+  },
+  {
+  "date": "2025-07-07",
+  "region": "JP",
+  "releaseDate": "2002-03-28",
+  "title": "Tekken 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co46rs.webp",
+  "hints": {
+    "publisher": [
+      "Namco"
+    ],
+    "developer": [
+      "Namco"
+    ],
+    "genre": [
+      "Fighting"
+    ],
+    "platforms": [
+      "Arcade",
+      "PS2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "The latest tournament returns with interactive arenas, multilevel stages and environmental hazards. A deeper story mode unfolds involving power struggles and vengeance. Featuring a mix of veteran and new fighters, each bout tests skill, strategy and timing."
+    }
+  },
+  {
+  "date": "2025-07-08",
+  "region": "WW",
+  "releaseDate": "2012-05-15",
+  "title": "Diablo III",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2l1u.webp",
+  "hints": {
+    "publisher": [
+      "Blizzard Entertainment"
+    ],
+    "developer": [
+      "Blizzard Entertainment"
+    ],
+    "genre": [
+      "Action RPG",
+      "Hack and Slash"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "A hero returns to a world besieged by demonic forces, confronting hordes of evil as they chase a fallen star. Vengeance and redemption intertwine as they journey across ruined landscapes, gathering allies and powerful artifacts. Along the way, their actions shape the fate of Sanctuary in a clash of celestial and infernal destinies."
+    }
+  },
+  {
+  "date": "2025-07-09",
+  "region": "WW",
+  "releaseDate": "1987-04-22",
+  "title": "Double Dragon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3b3h.webp",
+  "hints": {
+    "publisher": [
+      "Taito"
+    ],
+    "developer": [
+      "Technōs Japan"
+    ],
+    "genre": [
+      "Beat 'em up"
+    ],
+    "platforms": [
+      "Arcade"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Two martial‑arts brothers fight through gangs across a dystopian urban landscape to rescue a kidnapped loved one. They punch, kick, and swing weapons in cooperative combat, battling through alleys, factories, and rooftops. Their mission culminates in confronting the final gang leader to reclaim peace."
+    }
+  },
+  {
+  "date": "2025-07-10",
+  "region": "JP",
+  "releaseDate": "2011-09-22",
+  "title": "Dark Souls",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x78.webp",
+  "hints": {
+    "publisher": [
+      "Namco Bandai Games"
+    ],
+    "developer": [
+      "FromSoftware"
+    ],
+    "genre": [
+      "Action RPG"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Havok",
+    "metacritic": 89,
+    "plot": "A cursed warrior escapes a nightmarish asylum and embarks on a pilgrimage through a decaying kingdom. Challenging foes and labyrinthine environments demand careful strategy and resolve. Fragmented lore and cryptic clues urge exploration and perseverance against overwhelming odds."
+    }
+  },
+  {
+  "date": "2025-07-11",
+  "region": "WW",
+  "releaseDate": "2013-06-05",
+  "title": "State of Decay",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2jpa.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Undead Labs"
+    ],
+    "genre": [
+      "Survival horror",
+      "Action-adventure"
+    ],
+    "platforms": [
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "CryEngine 3",
+    "metacritic": 78,
+    "plot": "In a zombie‑infested open world, survivors must scavenge for resources, fortify a base, and build a community amid constant threats. Your leadership choices determine group morale and survival chances. As the undead menace grows, every decision has lasting consequences in this tense, emergent simulation."
+    }
+  },
+  {
+  "date": "2025-07-12",
+  "region": "WW",
+  "releaseDate": "2010-03-02",
+  "title": "Battlefield: Bad Company 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xbi.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "DICE"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Tactical shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Frostbite 1.5",
+    "metacritic": 88,
+    "plot": "A modern warfare squad embarks on a mission through snowy peaks, dense jungles, and dusty villages to stop a towering super-weapon. With fully destructible environments powered by the Frostbite engine, battles are dynamic and tactical. High-octane multiplayer and a charismatic squad narrative define their desperate fight."
+    }
+  },
+  {
+  "date": "2025-07-13",
+  "region": "NA",
+  "releaseDate": "2000-08-28",
+  "title": "Mario Tennis",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21yr.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Camelot Software Planning"
+    ],
+    "genre": [
+      "Sports (Tennis)"
+    ],
+    "platforms": [
+      "N64"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "A cast of beloved characters compete in fast-paced tennis matches across vibrant 3D courts. Players can choose from multiple gameplay modes, including tournaments, exhibitions, and quirky challenges like ring shot and piranha plant practice. With intuitive controls and lively arenas, it became a hallmark of social gaming on the console."
+    }
+  },
+  {
+  "date": "2025-07-14",
+  "region": "NA",
+  "releaseDate": "2004-11-16",
+  "title": "Half-Life 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.webp",
+  "hints": {
+    "publisher": [
+      "Valve"
+    ],
+    "developer": [
+      "Valve"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Source",
+    "metacritic": 96,
+    "plot": "A scientist fights to overthrow an alien regime controlling Earth by navigating dystopian cityscapes and confronting deadly enemies. Armed with advanced weapons and gadgets, he teams up with resistance fighters to dismantle oppressive forces. The story blends intense action with a compelling narrative of survival and rebellion."
+    }
+  },
+  {
+  "date": "2025-07-15",
+  "region": "JP",
+  "releaseDate": "2005-10-27",
+  "title": "Shadow of the Colossus",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ozz.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Team Ico"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PS2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "A lone wanderer ventures into a forbidden land to revive a lost loved one by defeating massive colossi. Each battle is a puzzle of strategy and agility, set in an atmospheric and expansive world. The journey explores themes of sacrifice, solitude, and the consequences of defying fate."
+    }
   }
 ]
