@@ -6672,5 +6672,175 @@
     "metacritic": 91,
     "plot": "A lone wanderer ventures into a forbidden land to revive a lost loved one by defeating massive colossi. Each battle is a puzzle of strategy and agility, set in an atmospheric and expansive world. The journey explores themes of sacrifice, solitude, and the consequences of defying fate."
     }
+  },
+  {
+  "date": "2025-07-16",
+  "region": "WW",
+  "releaseDate": "2016-10-07",
+  "title": "Mafia III",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mll.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Hangar 13"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Open world"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Fusion Engine",
+    "metacritic": 68,
+    "plot": "A Vietnam veteran returns to a crime-riddled city to avenge his surrogate family, destabilizing rival mob factions as he builds his own empire. Through gritty missions, chaotic combat, and driving sequences, he fights to gain control in a corrupt urban underworld. His choices and alliances define both personal vengeance and the fate of the city."
+    }
+  },
+  {
+  "date": "2025-07-17",
+  "region": "JP",
+  "releaseDate": "1998-01-29",
+  "title": "Panzer Dragoon Saga",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9sga.webp",
+  "hints": {
+    "publisher": [
+      "Sega Enterprises"
+    ],
+    "developer": [
+      "Team Andromeda"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "Sega Saturn"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A dragon rider and his companion set out on a quest through a crumbling world dominated by ancient powers. Traversing diverse landscapes, they engage in tactical, semi‑real‑time combat and uncover a secretive technology. As they confront believers and ghosts of the past, their mission reveals the fate of a lost civilization."
+    }
+  },
+  {
+  "date": "2025-07-18",
+  "region": "WW",
+  "releaseDate": "2008-09-07",
+  "title": "Spore",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ac9.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Maxis"
+    ],
+    "genre": [
+      "Life simulation",
+      "Real‑time strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Proprietary Maxis engine",
+    "metacritic": 84,
+    "plot": "From microscopic organism to spacefaring civilization, players guide a species through evolution, tribal growth, warfare, and galactic exploration. Procedural generation and user-created content drive a limitless world where every choice shapes ecology, culture, and technology. A creative sandbox experience blending strategy, simulation, and emergent storytelling."
+    }
+  },
+  {
+  "date": "2025-07-19",
+  "region": "WW",
+  "releaseDate": "2013-07-09",
+  "title": "Dota 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6ene.webp",
+  "hints": {
+    "publisher": [
+      "Valve"
+    ],
+    "developer": [
+      "Valve"
+    ],
+    "genre": [
+      "MOBA",
+      "Real-time strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "engine": "Source",
+    "metacritic": 90,
+    "plot": "Players control powerful heroes in 5‑v‑5 magical combat, aiming to destroy the opponent’s ancient stronghold. With dynamic itemization, strategic teamwork, and evolving battlefield conditions, outcome hinges on coordination and skill. Over years of updates, the game has become a cornerstone of competitive esports and cooperative PvE experiences."
+    }
+  },
+  {
+  "date": "2025-07-20",
+  "region": "JP",
+  "releaseDate": "2006-04-27",
+  "title": "Pro Evolution Soccer 6",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ug9.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Konami"
+    ],
+    "genre": [
+      "Sports"
+    ],
+    "platforms": [
+      "PS2",
+      "PC",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "RenderWare",
+    "metacritic": 86,
+    "plot": "A refined football simulation offering a fast-paced, realistic experience with improved AI and licensed leagues. Players can master gameplay mechanics across single‑player and online multiplayer modes. With enhanced realism and competitive depth, it became a standout title in its series."
+    }
+  },
+  {
+  "date": "2025-07-21",
+  "region": "WW",
+  "releaseDate": "2017-02-28",
+  "title": "Horizon Zero Dawn",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co<YOUR_IMAGE_ID>.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Guerrilla Games"
+    ],
+    "genre": [
+      "Action RPG"
+    ],
+    "platforms": [
+      "PS4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Decima",
+    "metacritic": 89,
+    "plot": "A skilled hunter ventures into a lush, machine-infested wild to unravel the mysteries of her origin and the downfall of ancient civilizations. She explores diverse environments, scavenges technology, and battles colossal mechanical creatures. Her journey weaves together environmental storytelling, mythic lore, and high-stakes confrontation."
+    }
   }
 ]
