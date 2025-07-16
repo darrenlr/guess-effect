@@ -10,7 +10,13 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Guess Effect</title>
         <link rel="canonical" href="https://guesseffect.wtf" />
-        <meta name="description" content="Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="A daily videogame guessing game. Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
+        <meta property="og:title" content="Guess Effect" />
+        <meta property="og:description" content="A daily videogame guessing game. Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
+        <meta property="og:url" content="https://guesseffect.wtf" />
+        <meta property="og:type" content="website" />
       </Head>
       {/* Google Analytics Script Loader */}
       <Script
