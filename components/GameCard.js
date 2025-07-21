@@ -3,6 +3,7 @@ import Hint from "./Hint";
 import styles from "../styles/GameCard.module.css";
 import RevealAllModal from "./RevealAllModal";
 import Image from 'next/image';
+import BoxArtCanvas from "./BoxArtCanvas";
 
 const GameCard = ({
 	gameData,
@@ -13,7 +14,7 @@ const GameCard = ({
 	setIsGuessCountUpdated,
 	isGameOver
 }) => {
-	const [blurAmount, setBlurAmount] = useState(gameState.hints.boxArt);
+	const [pixelationLevel, setPixelationLevel] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
 	const [firstClick, setFirstClick] = useState(true);
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,10 +27,6 @@ const GameCard = ({
 		}
 	}, [imgRef]);
 
-	useEffect(() => {
-		setBlurAmount(gameState.hints.boxArt);
-	}, [gameState.hints.boxArt]);
-
 	const extractColors = async () => {
 		const { default: ColorThief } = await import("colorthief");
 		const colorThief = new ColorThief();
@@ -41,44 +38,66 @@ const GameCard = ({
 		setPrimaryColors(formattedColors);
 	};
 
-	const reduceBlur = () => {
+	const reducePixelation = () => {
 		const scanContainer = document.querySelector(`.${styles.scanContainer}`);
-		const scanElement = scanContainer.querySelector(`.${styles.scanEffect}`);
-	
-		let newBlurAmount;
+		const scanElement = scanContainer?.querySelector(`.${styles.scanEffect}`);
+
 		let hintPenalty;
-	
+		let reductionAmount;
+
 		if (firstClick) {
-			newBlurAmount = Math.max(0, blurAmount - 20);
 			hintPenalty = 10;
+			reductionAmount = 6;
 			setFirstClick(false);
 		} else {
-			newBlurAmount = Math.max(0, blurAmount - 7);
+			reductionAmount = 4;
 			hintPenalty = 20;
 		}
-	
-		setBlurAmount(newBlurAmount);
+
 		onRevealHint(hintPenalty);
-	
-		setGameState((prevState) => {
-			const updatedHints = { ...prevState.hints, boxArt: newBlurAmount };
-			return { ...prevState, hints: updatedHints };
-		});
-	
-		if (!scanElement) {
-			const newScanElement = document.createElement('div');
+
+		if (scanContainer && !scanElement) {
+			const newScanElement = document.createElement("div");
 			newScanElement.className = styles.scanEffect;
 			scanContainer.appendChild(newScanElement);
+
 			newScanElement.addEventListener("animationend", () => {
 				scanContainer.removeChild(newScanElement);
 			});
 		}
-	};	
-	  
+
+		const initialPixelation = pixelationLevel;
+		const duration = 1000;
+		const stepTime = 20;
+
+		const steps = duration / stepTime;
+		const reductionPerStep = reductionAmount / steps;
+		let currentStep = 0;
+
+		const interval = setInterval(() => {
+			setPixelationLevel((prev) => {
+				const newLevel = Math.max(1, prev - reductionPerStep);
+				return newLevel;
+			});
+
+			currentStep++;
+			if (currentStep >= steps) {
+				clearInterval(interval);
+
+				setGameState((prevState) => {
+					const updatedHints = { ...prevState.hints, boxArt: Math.max(1, initialPixelation - reductionAmount) };
+					return { ...prevState, hints: updatedHints };
+				});
+
+				setPixelationLevel(Math.max(1, initialPixelation - reductionAmount));
+			}
+		}, stepTime);
+	};
+
 	const handleRevealHint = (hint, points) => {
 		if (hint !== null) {
 			onRevealHint(points);
-		  }
+		}
 
 		setGameState((prevState) => {
 			const updatedHints = { ...prevState.hints, [hint]: true };
@@ -88,11 +107,11 @@ const GameCard = ({
 
 	const handleRevealAll = () => {
 		setIsModalOpen(false);
-	
+
 		setGameState(prevState => {
 			let updatedHints = {};
 			for (let key in prevState.hints) {
-				updatedHints[key] = key === "boxArt" ? 13 : true;
+				updatedHints[key] = key === "boxArt" ? 12 : true;
 			}
 			updatedHints.points = 0;
 			return { ...prevState, hints: updatedHints };
@@ -133,26 +152,31 @@ const GameCard = ({
 				<div className={styles.boxArt}>
 					<div className={styles.scanContainer}>
 						<div className={styles.boxArtWrapper}>
-    						<Image
+							<BoxArtCanvas
 								src={`https://${gameData.boxArtUrl}`}
-								crossOrigin="anonymous"
-								alt="Game Box Art"
-        						width={264}
-        						height={352}
-								priority
-								style={{ filter: `blur(${blurAmount}px)`, transition: 'filter 2s ease', pointerEvents: 'none' }}
-        						onLoadingComplete={extractColors}
-        						ref={imgRef}
-							// 	placeholder="blur"
-							// 	blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY2h3YXJlPSJodHRwOi8vc3YyMDAyLnhtbCIgYWJsaWVuY2U9Im1pY3JvZm9yaW5ndCImZmlsbD0iIzAwMDAwMDAiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBzdHJva2U9IiMwMDAwMDAiPjxwYXRoIGQ9Ik0wLDEwMHEtMTEtMTUtMTAtMTgtMTAtMTgtMTcgYWxzbyBwb3NpdGl2ZXMgbm9zdCBhbmltYXRlcyBhbmQgc2luZ2xlYXIgdGV4dC1kZWFsZXMuIiBzdHJva2U9IiMwMDAwMDAiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiA+PC9zdHJva2U+PC9wYXRoPjwvc3ZnPjw="
-						 	/>
+								showCleanImage={isGameOver}
+								pixelSize={pixelationLevel}
+								width={264}
+								height={352}
+								onColorsExtracted={setPrimaryColors}
+							/>
 						</div>
 					</div>
+
 					<button
-						className={`hintButton ${blurAmount <= 13 ? styles.hidden : ""}`}
-						onClick={blurAmount > 13 ? reduceBlur : null}
+						style={{ marginTop: "5px" }}
+						className={`hintButton ${pixelationLevel <= 11 ? styles.hidden : ""}`}
+						onClick={reducePixelation}
 					>
-						{blurAmount > 19 && firstClick ? "Clear Heavy Smog (-10)" : (blurAmount > 13 ? "Clear Smog (-20)" : "")}
+						{pixelationLevel > 14 && firstClick ? (
+							<>
+								Clear Heavy Smog (-10)
+							</>
+						) : pixelationLevel > 11 ? (
+							<>
+								Clear Smog (-20)
+							</>
+						) : null}
 					</button>
 				</div>
 				<div className={styles.gameInfo}>
@@ -217,17 +241,17 @@ const GameCard = ({
 						isRevealed={gameState.hints.plot}
 					/>
 					{!isGameOver && (
-        				<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-            				{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
-        				</button>
-   					)}
+						<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
+							{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
+						</button>
+					)}
 				</div>
-				
+
 			</div>
 			<RevealAllModal
-    			isOpen={isModalOpen}
-    			onCancel={() => setIsModalOpen(false)}
-    			onConfirm={handleRevealAll}
+				isOpen={isModalOpen}
+				onCancel={() => setIsModalOpen(false)}
+				onConfirm={handleRevealAll}
 			/>
 		</>
 	);

@@ -62,7 +62,6 @@ const Home = () => {
           }
         />
 
-
           {loading ? (
           <div className="loading-container">
             <p className="loader"></p>

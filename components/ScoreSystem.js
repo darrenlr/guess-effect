@@ -35,7 +35,7 @@ const initialGameState = {
 		engine: true,
 		metacritic: true,
 		plot: false,
-		boxArt: 40,
+		boxArt: 20,
 		points: 100,
 	},
 	life: {
