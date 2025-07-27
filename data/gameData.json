@@ -7202,5 +7202,35 @@
       "metacritic": 83,
       "plot": "A master thief reunites with allies to perform a daring global heist on a remote island. Between ship battles, disguises, and high-stakes stealth missions, they uncover their family’s hidden legacy. With branching narrative moments and unlockable mini-games, the adventure blends cinematic flair and cooperative gameplay."
     }
+  },{
+  "date": "2025-07-28",
+  "region": "WW",
+  "releaseDate": "2016-03-08",
+  "title": "Tom Clancy’s The Division",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yvf.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Massive Entertainment",
+      "Red Storm Entertainment"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Action RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "engine": "Snowdrop",
+    "metacritic": null,
+    "plot": "Agents trained by a secret civil defense unit are deployed to reclaim and restore a pandemic-ravaged New York City. They must scavenge, upgrade gear, and navigate a criminal underworld as factions vie for control. The Dark Zone forces decisions between cooperation and betrayal in a shared-open world mission."
+    }
   }
 ]
