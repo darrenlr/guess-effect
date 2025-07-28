@@ -7202,7 +7202,8 @@
       "metacritic": 83,
       "plot": "A master thief reunites with allies to perform a daring global heist on a remote island. Between ship battles, disguises, and high-stakes stealth missions, they uncover their family’s hidden legacy. With branching narrative moments and unlockable mini-games, the adventure blends cinematic flair and cooperative gameplay."
     }
-  },{
+  },
+  {
   "date": "2025-07-28",
   "region": "WW",
   "releaseDate": "2016-03-08",
@@ -7231,6 +7232,157 @@
     "engine": "Snowdrop",
     "metacritic": null,
     "plot": "Agents trained by a secret civil defense unit are deployed to reclaim and restore a pandemic-ravaged New York City. They must scavenge, upgrade gear, and navigate a criminal underworld as factions vie for control. The Dark Zone forces decisions between cooperation and betrayal in a shared-open world mission."
+    }
+  },
+  {
+  "date": "2025-07-29",
+  "region": "NA",
+  "releaseDate": "2003-09-16",
+  "title": "The Simpsons: Hit & Run",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2uk7.webp",
+  "hints": {
+    "publisher": [
+      "Vivendi Universal Games"
+    ],
+    "developer": [
+      "Radical Entertainment"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Driving"
+    ],
+    "platforms": [
+      "PC",
+      "PS2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Pure3D",
+    "metacritic": 78,
+    "plot": "Characters traverse a fully explorable Springfield in a mission‑based driving game packed with humor, side‑quests, and collectibles. An alien conspiracy involving Buzz Cola and mysterious spy cameras unfolds through vehicle chases and on‑foot investigation. The style blends cartoon satire, sandbox gameplay, and episodic storytelling."
+    }
+  },
+  {
+  "date": "2025-07-30",
+  "region": "NA",
+  "releaseDate": "2004-11-30",
+  "title": "Prince of Persia: Warrior Within",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9x1a.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montreal"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PC",
+      "PS2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Dunia",
+    "metacritic": 83,
+    "plot": "A prince flees a time‑manipulating curse while hunted by a relentless incarnation of fate across a dark, dangerous island. He gains powerful sand‑based abilities and mastery of dual-wield combat to survive cultists, monsters, and fragmented environments. Through nonlinear exploration and brutal encounters, he confronts destiny amid emergent choices and game‑shaping decisions."
+    }
+  },
+  {
+  "date": "2025-07-31",
+  "region": "NA",
+  "releaseDate": "1999-08-13",
+  "title": "Legacy of Kain: Soul Reaver",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yal.webp",
+  "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Crystal Dynamics"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation",
+      "PC",
+      "Dreamcast"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "A vampiric wraith seeks revenge on his former master across haunted realms, shifting between physical and spectral planes to solve puzzles, battle undead foes, and uncover dark secrets about destiny and betrayal."
+    }
+  },
+  {
+  "date": "2025-08-01",
+  "region": "NA",
+  "releaseDate": "2007-11-12",
+  "title": "BlackSite: Area 51",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5x84.webp",
+  "hints": {
+    "publisher": [
+      "Midway Games"
+    ],
+    "developer": [
+      "Midway Studios Austin"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 60,
+    "plot": "A squad of elite soldiers is dispatched to reclaim a base overrun by alien‑mutated paradisiacal militia and monstrous creatures. As the mission unfolds, internal dissent and political cover‑ups mirror the moral fog of war. The mission apex reveals that the alien threat and government lies intertwine, forcing choices that redefine trust and duty."
+    }
+  },
+  {
+  "date": "2025-08-02",
+  "region": "WW",
+  "releaseDate": "2022-12-02",
+  "title": "Marvel’s Midnight Suns",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ofr.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Firaxis Games"
+    ],
+    "genre": [
+      "Tactical role‑playing"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single‑player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 83,
+    "plot": "You lead a customizable hero through supernatural combat missions and social exploration among legendary heroes in a haunted abbey. Turn-based card‑driven battles require strategic choices as you build relationships and unlock abilities. As a demonic threat looms, your team must balance friendship and fury to stop a cosmic apocalypse."
     }
   }
 ]
