@@ -111,7 +111,7 @@ const GameCard = ({
 		setGameState(prevState => {
 			let updatedHints = {};
 			for (let key in prevState.hints) {
-				updatedHints[key] = key === "boxArt" ? 12 : true;
+				updatedHints[key] = key === "boxArt" ? 10 : true;
 			}
 			updatedHints.points = 0;
 			return { ...prevState, hints: updatedHints };
@@ -140,7 +140,6 @@ const GameCard = ({
 	};
 
 
-
 	return (
 		<>
 			<div
@@ -155,7 +154,7 @@ const GameCard = ({
 							<BoxArtCanvas
 								src={`https://${gameData.boxArtUrl}`}
 								showCleanImage={isGameOver}
-								pixelSize={pixelationLevel}
+								pixelSize={gameState.hints.boxArt}
 								width={264}
 								height={352}
 								onColorsExtracted={setPrimaryColors}
@@ -165,14 +164,14 @@ const GameCard = ({
 
 					<button
 						style={{ marginTop: "5px" }}
-						className={`hintButton ${pixelationLevel <= 11 ? styles.hidden : ""}`}
+						className={`hintButton ${gameState.hints.boxArt <= 11 ? styles.hidden : ""}`}
 						onClick={reducePixelation}
 					>
-						{pixelationLevel > 14 && firstClick ? (
+						{gameState.hints.boxArt > 14 && firstClick ? (
 							<>
 								Clear Heavy Smog (-10)
 							</>
-						) : pixelationLevel > 11 ? (
+						) : gameState.hints.boxArt > 11 ? (
 							<>
 								Clear Smog (-20)
 							</>
