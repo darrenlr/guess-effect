@@ -7413,5 +7413,195 @@
       "metacritic": 85,
       "plot": "Players take on the roles of colorful crewmates on a spaceship completing mundane tasks, while one or more impostors lurk among them. Crewmates must identify and vote out impostors before they sabotage the mission or eliminate everyone. The social gameplay hinges on communication, deceit, and deduction in isolated settings."
     }
+  },
+  {
+  "date": "2025-08-04",
+  "region": "NA",
+  "releaseDate": "2002-09-01",
+  "title": "Turok: Evolution",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3p.webp",
+  "hints": {
+    "publisher": [
+      "Acclaim Entertainment"
+    ],
+    "developer": [
+      "Acclaim Studios Austin",
+      "RFX Interactive (GBA)"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Action-adventure (GBA)"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube",
+      "Game Boy Advance",
+      "Microsoft Windows"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 60,
+    "plot": "In this prequel to the Turok series, Tal'Set, a Native American warrior, battles Captain Tobias Bruckner in 1886 Texas. A rift opens, transporting Tal'Set to the Lost Lands, where he allies with the River Village to combat Lord Tyrannus and his reptilian forces, uncovering the origins of the Turok lineage."
   }
+},
+  {
+  "date": "2025-08-05",
+  "region": "WW",
+  "releaseDate": "2016-02-05",
+  "title": "XCOM 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Firaxis Games"
+    ],
+    "genre": [
+      "Turn-based tactics"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 88,
+    "plot": "Set 20 years after the events of *XCOM: Enemy Unknown*, Earth has fallen under alien rule. As the commander of the resistance, players must rebuild XCOM, leading a guerrilla war against the alien occupation to reclaim Earth and restore humanity's freedom."
+  }
+},
+  {
+  "date": "2025-08-06",
+  "region": "WW",
+  "releaseDate": "2004-11-16",
+  "title": "Vampire: The Masquerade – Bloodlines",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n14.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Troika Games"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "Microsoft Windows"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Source",
+    "metacritic": 80,
+    "plot": "Set in White Wolf Publishing's World of Darkness, the game follows a human who is killed and revived as a fledgling vampire. The game depicts the fledgling's journey through early 21st-century Los Angeles to uncover the truth behind a recently discovered relic that heralds the end of all vampires."
+  }
+},
+  {
+  "date": "2025-08-07",
+  "region": "WW",
+  "releaseDate": "2008-07-10",
+  "title": "Persona 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u07.webp",
+  "hints": {
+    "publisher": [
+      "Atlus"
+    ],
+    "developer": [
+      "Atlus"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "PlayStation 3 (via PSN)",
+      "PlayStation Vita",
+      "PC",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 91,
+    "plot": "Inaba, a quiet town in rural Japan, is shaken by a series of mysterious murders. As a transfer student, you and your friends discover a supernatural world within television screens. Balancing daily life with dungeon exploration, you must uncover the truth behind the murders and the enigmatic Midnight Channel."
+  }
+},
+{
+  "date": "2025-08-08",
+  "region": "WW",
+  "releaseDate": "2017-09-29",
+  "title": "Cuphead",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
+  "hints": {
+    "publisher": [
+      "Studio MDHR"
+    ],
+    "developer": [
+      "Studio MDHR"
+    ],
+    "genre": [
+      "Run and gun",
+      "Platformer"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "macOS",
+      "Nintendo Switch",
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Two brothers, Cuphead and Mugman, must repay their debt to the devil by battling a series of challenging bosses across fantastical worlds, using their unique weapons and abilities in this challenging run-and-gun adventure."
+  }
+},
+{
+  "date": "2025-08-09",
+  "region": "WW",
+  "releaseDate": "2015-03-26",
+  "title": "Pillars of Eternity",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8tzg.webp",
+  "hints": {
+    "publisher": [
+      "Paradox Interactive"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "Microsoft Windows",
+      "macOS",
+      "Linux",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 85,
+    "plot": "Set in the fantasy world of Eora, the game follows a protagonist known as the Watcher, who has the ability to see souls and memories. The story unfolds in the Dyrwood region, where a mysterious phenomenon causes infants to be born without souls, leading to widespread panic and political unrest. As the Watcher, players explore ancient ruins, uncover hidden truths, and navigate complex moral choices that impact the fate of the world."
+  }
+}
 ]
