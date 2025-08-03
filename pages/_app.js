@@ -8,13 +8,19 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Guess Effect</title>
+        <title>Guess Effect - Daily Video Game Guessing Game</title>
         <link rel="canonical" href="https://guesseffect.wtf" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="A daily videogame guessing game. Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
-        <meta property="og:title" content="Guess Effect" />
-        <meta property="og:description" content="A daily videogame guessing game. Think you know video games? Guess the title from its release date and limited hints. Trade points for clues, earn bonuses for smart guesses, and don't run out of lives!" />
+        <meta
+          name="description"
+          content="Play Guess Effect, the daily video game guessing game! Guess the title from its release date and hints, trade points for clues, and see if you can beat the challenge every day."
+        />
+        <meta name="keywords" content="daily video game guessing game, video game trivia, guess the game, gaming challenge, daily gaming challenge" />
+        <meta property="og:title" content="Daily Video Game Guessing Game – Guess Effect" />
+        <meta property="og:description" content="Play Guess Effect, the daily video game guessing game where you guess the title from its release date and clues." />
+        <meta name="twitter:title" content="Daily Video Game Guessing Game – Guess Effect" />
+        <meta name="twitter:description" content="Guess the video game from clues in Guess Effect, the daily challenge for gamers." />
         <meta property="og:url" content="https://guesseffect.wtf" />
         <meta property="og:type" content="website" />
       </Head>
