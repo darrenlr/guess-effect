@@ -21,6 +21,9 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="Play Guess Effect, the daily video game guessing game where you guess the title from its release date and clues." />
         <meta name="twitter:title" content="Daily Video Game Guessing Game – Guess Effect" />
         <meta name="twitter:description" content="Guess the video game from clues in Guess Effect, the daily challenge for gamers." />
+        <meta property="og:image" content="https://guesseffect.wtf/images/logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://guesseffect.wtf/images/logo.png" />
         <meta property="og:url" content="https://guesseffect.wtf" />
         <meta property="og:type" content="website" />
       </Head>
