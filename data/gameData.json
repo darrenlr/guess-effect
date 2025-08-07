@@ -7584,10 +7584,7 @@
     "platforms": [
       "Microsoft Windows",
       "macOS",
-      "Linux",
-      "PlayStation 4",
-      "Xbox One",
-      "Nintendo Switch"
+      "Linux"
     ],
     "modes": [
       "Single-player"
