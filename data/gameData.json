@@ -7509,7 +7509,7 @@
   "date": "2025-08-07",
   "region": "WW",
   "releaseDate": "2008-07-10",
-  "title": "Persona 4",
+  "title": "Shin Megami Tensei: Persona 4",
   "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u07.webp",
   "hints": {
     "publisher": [
@@ -7522,20 +7522,13 @@
       "Role-playing"
     ],
     "platforms": [
-      "PlayStation 2",
-      "PlayStation 3 (via PSN)",
-      "PlayStation Vita",
-      "PC",
-      "Nintendo Switch",
-      "PlayStation 4",
-      "Xbox One",
-      "Xbox Series X/S"
+      "PlayStation 2"
     ],
     "modes": [
       "Single-player"
     ],
     "engine": "Unreal Engine 4",
-    "metacritic": 91,
+    "metacritic": 90,
     "plot": "Inaba, a quiet town in rural Japan, is shaken by a series of mysterious murders. As a transfer student, you and your friends discover a supernatural world within television screens. Balancing daily life with dungeon exploration, you must uncover the truth behind the murders and the enigmatic Midnight Channel."
   }
 },
