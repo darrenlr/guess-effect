@@ -7551,16 +7551,13 @@
     ],
     "platforms": [
       "PC",
-      "Xbox One",
-      "macOS",
-      "Nintendo Switch",
-      "PlayStation 4"
+      "Xbox One"
     ],
     "modes": [
       "Single-player",
       "Co-op"
     ],
-    "engine": null,
+    "engine": "Unity",
     "metacritic": 88,
     "plot": "Two brothers, Cuphead and Mugman, must repay their debt to the devil by battling a series of challenging bosses across fantastical worlds, using their unique weapons and abilities in this challenging run-and-gun adventure."
   }
