@@ -7590,5 +7590,36 @@
     "metacritic": 85,
     "plot": "Set in the fantasy world of Eora, the game follows a protagonist known as the Watcher, who has the ability to see souls and memories. The story unfolds in the Dyrwood region, where a mysterious phenomenon causes infants to be born without souls, leading to widespread panic and political unrest. As the Watcher, players explore ancient ruins, uncover hidden truths, and navigate complex moral choices that impact the fate of the world."
   }
+},
+  {
+  "date": "2025-08-08",
+  "region": "WW",
+  "releaseDate": "2008-10-20",
+  "title": "Midnight Club: Los Angeles",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcu.webp",
+  "hints": {
+    "publisher": [
+      "Rockstar Games"
+    ],
+    "developer": [
+      "Rockstar San Diego",
+      "Rockstar London"
+    ],
+    "genre": [
+      "Racing"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360",
+      "PlayStation Portable"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "RAGE",
+    "metacritic": 81,
+    "plot": "A street racer navigates an expansive, open-world depiction of Los Angeles, competing in illegal races, customizing vehicles, and rising through underground ranks. With dynamic weather and day-night cycles, the city’s neighborhoods become your racetrack as rivals and the police challenge you at every turn. Player reputation, vehicle upgrades, and mastery of shortcuts define your journey to become the city's top driver."
+  }
 }
 ]
