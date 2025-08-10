@@ -7621,5 +7621,35 @@
     "metacritic": 81,
     "plot": "A street racer navigates an expansive, open-world depiction of Los Angeles, competing in illegal races, customizing vehicles, and rising through underground ranks. With dynamic weather and day-night cycles, the city’s neighborhoods become your racetrack as rivals and the police challenge you at every turn. Player reputation, vehicle upgrades, and mastery of shortcuts define your journey to become the city's top driver."
   }
+},
+  {
+  "date": "2025-08-11",
+  "region": "NA",
+  "releaseDate": "2012-02-07",
+  "title": "The Darkness II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxv.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Digital Extremes"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Evolution Engine",
+    "metacritic": 80,
+    "plot": "A mafia don wielding an ancient supernatural power unleashes devastating ‘Darkness’ abilities in a visceral, graphic-noir shooter. Quests for vengeance and truth spiral into a brutal conspiracy as he confronts enemies both human and demonic. Quad-wielding chaos meets moral decay in a stylized horror tale of corruption, power, and fate."
+  }
 }
 ]
