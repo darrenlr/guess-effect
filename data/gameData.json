@@ -7651,5 +7651,35 @@
     "metacritic": 80,
     "plot": "A mafia don wielding an ancient supernatural power unleashes devastating ‘Darkness’ abilities in a visceral, graphic-noir shooter. Quests for vengeance and truth spiral into a brutal conspiracy as he confronts enemies both human and demonic. Quad-wielding chaos meets moral decay in a stylized horror tale of corruption, power, and fate."
   }
+},
+  {
+  "date": "2025-08-12",
+  "region": "WW",
+  "releaseDate": "2015-11-10",
+  "title": "Fallout 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Bethesda Game Studios"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open world"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Creation Engine",
+    "metacritic": 87,
+    "plot": "You emerge as the sole survivor from underground vault isolation into a devastated, post-nuclear Boston, determined to reunite with family. As the world rebuilds around you, you must navigate warring factions, expand settlements, and make impactful choices in a dynamic open world. From scavenging ruins to crafting weapons and building communities, your journey shapes the fate of the Commonwealth."
+  }
 }
 ]
