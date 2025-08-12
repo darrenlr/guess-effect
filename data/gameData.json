@@ -7681,5 +7681,37 @@
     "metacritic": 87,
     "plot": "You emerge as the sole survivor from underground vault isolation into a devastated, post-nuclear Boston, determined to reunite with family. As the world rebuilds around you, you must navigate warring factions, expand settlements, and make impactful choices in a dynamic open world. From scavenging ruins to crafting weapons and building communities, your journey shapes the fate of the Commonwealth."
   }
+},
+  {
+  "date": "2025-08-13",
+  "region": "WW",
+  "releaseDate": "2023-06-06",
+  "title": "Amnesia: The Bunker",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5us3.webp",
+  "hints": {
+    "publisher": [
+      "Frictional Games"
+    ],
+    "developer": [
+      "Frictional Games"
+    ],
+    "genre": [
+      "Survival horror",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "HPL 3.5",
+    "metacritic": 77,
+    "plot": "A soldier trapped in a WWI bunker must survive an ever-present, adaptive monster by scavenging resources, managing a generator, and planning escape routes. Each decision and improvisation alter the horror experience, blending emergent sandbox gameplay with tense stealth. With darkness as a weapon and tools as lifelines, survival hinges on quick wits in a claustrophobic nightmare."
+  }
 }
+
 ]
