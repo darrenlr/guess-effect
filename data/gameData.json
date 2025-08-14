@@ -7415,333 +7415,507 @@
     }
   },
   {
-  "date": "2025-08-04",
+    "date": "2025-08-04",
+    "region": "NA",
+    "releaseDate": "2002-09-01",
+    "title": "Turok: Evolution",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3p.webp",
+    "hints": {
+      "publisher": [
+        "Acclaim Entertainment"
+      ],
+      "developer": [
+        "Acclaim Studios Austin",
+        "RFX Interactive (GBA)"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Action-adventure (GBA)"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "Xbox",
+        "GameCube",
+        "Game Boy Advance",
+        "Microsoft Windows"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 60,
+      "plot": "In this prequel to the Turok series, Tal'Set, a Native American warrior, battles Captain Tobias Bruckner in 1886 Texas. A rift opens, transporting Tal'Set to the Lost Lands, where he allies with the River Village to combat Lord Tyrannus and his reptilian forces, uncovering the origins of the Turok lineage."
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "region": "WW",
+    "releaseDate": "2016-02-05",
+    "title": "XCOM 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Firaxis Games"
+      ],
+      "genre": [
+        "Turn-based tactics"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 88,
+      "plot": "Set 20 years after the events of *XCOM: Enemy Unknown*, Earth has fallen under alien rule. As the commander of the resistance, players must rebuild XCOM, leading a guerrilla war against the alien occupation to reclaim Earth and restore humanity's freedom."
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "region": "WW",
+    "releaseDate": "2004-11-16",
+    "title": "Vampire: The Masquerade – Bloodlines",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n14.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Troika Games"
+      ],
+      "genre": [
+        "Action role-playing"
+      ],
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Source",
+      "metacritic": 80,
+      "plot": "Set in White Wolf Publishing's World of Darkness, the game follows a human who is killed and revived as a fledgling vampire. The game depicts the fledgling's journey through early 21st-century Los Angeles to uncover the truth behind a recently discovered relic that heralds the end of all vampires."
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "region": "WW",
+    "releaseDate": "2008-07-10",
+    "title": "Shin Megami Tensei: Persona 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u07.webp",
+    "hints": {
+      "publisher": [
+        "Atlus"
+      ],
+      "developer": [
+        "Atlus"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 90,
+      "plot": "Inaba, a quiet town in rural Japan, is shaken by a series of mysterious murders. As a transfer student, you and your friends discover a supernatural world within television screens. Balancing daily life with dungeon exploration, you must uncover the truth behind the murders and the enigmatic Midnight Channel."
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "region": "WW",
+    "releaseDate": "2017-09-29",
+    "title": "Cuphead",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
+    "hints": {
+      "publisher": [
+        "Studio MDHR"
+      ],
+      "developer": [
+        "Studio MDHR"
+      ],
+      "genre": [
+        "Run and gun",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "Unity",
+      "metacritic": 88,
+      "plot": "Two brothers, Cuphead and Mugman, must repay their debt to the devil by battling a series of challenging bosses across fantastical worlds, using their unique weapons and abilities in this challenging run-and-gun adventure."
+    }
+  },
+  {
+    "date": "2025-08-09",
+    "region": "WW",
+    "releaseDate": "2015-03-26",
+    "title": "Pillars of Eternity",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8tzg.webp",
+    "hints": {
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "Microsoft Windows",
+        "macOS",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 85,
+      "plot": "Set in the fantasy world of Eora, the game follows a protagonist known as the Watcher, who has the ability to see souls and memories. The story unfolds in the Dyrwood region, where a mysterious phenomenon causes infants to be born without souls, leading to widespread panic and political unrest. As the Watcher, players explore ancient ruins, uncover hidden truths, and navigate complex moral choices that impact the fate of the world."
+    }
+  },
+  {
+    "date": "2025-08-10",
+    "region": "WW",
+    "releaseDate": "2008-10-20",
+    "title": "Midnight Club: Los Angeles",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcu.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar San Diego",
+        "Rockstar London"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PlayStation Portable"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RAGE",
+      "metacritic": 81,
+      "plot": "A street racer navigates an expansive, open-world depiction of Los Angeles, competing in illegal races, customizing vehicles, and rising through underground ranks. With dynamic weather and day-night cycles, the city’s neighborhoods become your racetrack as rivals and the police challenge you at every turn. Player reputation, vehicle upgrades, and mastery of shortcuts define your journey to become the city's top driver."
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "region": "NA",
+    "releaseDate": "2012-02-07",
+    "title": "The Darkness II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxv.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Digital Extremes"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Evolution Engine",
+      "metacritic": 80,
+      "plot": "A mafia don wielding an ancient supernatural power unleashes devastating ‘Darkness’ abilities in a visceral, graphic-noir shooter. Quests for vengeance and truth spiral into a brutal conspiracy as he confronts enemies both human and demonic. Quad-wielding chaos meets moral decay in a stylized horror tale of corruption, power, and fate."
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "region": "WW",
+    "releaseDate": "2015-11-10",
+    "title": "Fallout 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "genre": [
+        "Action RPG",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Creation Engine",
+      "metacritic": 87,
+      "plot": "You emerge as the sole survivor from underground vault isolation into a devastated, post-nuclear Boston, determined to reunite with family. As the world rebuilds around you, you must navigate warring factions, expand settlements, and make impactful choices in a dynamic open world. From scavenging ruins to crafting weapons and building communities, your journey shapes the fate of the Commonwealth."
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "region": "WW",
+    "releaseDate": "2023-06-06",
+    "title": "Amnesia: The Bunker",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5us3.webp",
+    "hints": {
+      "publisher": [
+        "Frictional Games"
+      ],
+      "developer": [
+        "Frictional Games"
+      ],
+      "genre": [
+        "Survival horror",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "HPL 3.5",
+      "metacritic": 77,
+      "plot": "A soldier trapped in a WWI bunker must survive an ever-present, adaptive monster by scavenging resources, managing a generator, and planning escape routes. Each decision and improvisation alter the horror experience, blending emergent sandbox gameplay with tense stealth. With darkness as a weapon and tools as lifelines, survival hinges on quick wits in a claustrophobic nightmare."
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "region": "WW",
+    "releaseDate": "2003-10-15",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Remedy Entertainment"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Max-FX 2.0 (PC), RenderWare + Havok (console)",
+      "metacritic": 86,
+      "plot": "An embittered detective returns to the NYPD and falls into a fractured conspiracy while haunted by nightmares and reunited with a presumed-dead assassin. Between cinematic bullet-time gunfights and noir narration, alliances blur as they chase truths buried in tragedy. The narrative weaves a film-noir love story of fate, betrayal, and redemption set against a backdrop of gritty urban decay."
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "region": "JP",
+    "releaseDate": "2000-12-23",
+    "title": "The Bouncer",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2j.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "DreamFactory"
+      ],
+      "genre": [
+        "Beat 'em up",
+        "Action role-playing"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 66,
+      "plot": "A group of club bouncers springs into action when a special-forces team crashes through a roof to abduct a young girl. Their rescue mission unfolds across highly cinematic stages that mix dramatic cutscenes with beat-’em-up combat. Unique character perspectives and fast camera cuts shape an experimental action-movie experience."
+    }
+  },
+  {
+    "date": "2025-08-16",
+    "region": "WW",
+    "releaseDate": "2017-08-29",
+    "title": "ARK: Survival Evolved",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co493k.webp",
+    "hints": {
+      "publisher": [
+        "Studio Wildcard"
+      ],
+      "developer": [
+        "Studio Wildcard"
+      ],
+      "genre": [
+        "Survival",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 68,
+      "plot": "Stranded on a mysterious island teeming with prehistoric creatures, survivors must scavenge resources, craft tools, tame dinosaurs, and build shelters to endure the elements. Alliances form as tribes challenge and collaborate within a massive open world that blends survival instincts with emergent online conflicts. With relentless threats and untamed ecosystems, every day becomes a desperate struggle for dominance or coexistence in this hostile paradise."
+    }
+  },
+  {
+    "date": "2025-08-17",
+    "region": "NA",
+    "releaseDate": "2009-11-03",
+    "title": "Dragon Age: Origins",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "BioWare Edmonton"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360",
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Eclipse Engine",
+      "metacritic": 86,
+      "plot": "A hero from diverse origins joins an ancient order to battle a monstrous scourge gripping a fractured land. Survival hinges on uniting unlikely allies through strategy, tough moral choices, and tactical combat in a richly-realized fantasy setting. Each decision echoes across the realm as shadows of corruption threaten to consume every faction."
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "region": "NA",
+    "releaseDate": "2004-11-09",
+    "title": "Halo 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x77.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Bungie"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "Xbox",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Havok Physics",
+      "metacritic":  95,
+      "plot": "A hero returns to a galactic war torn by new threats and shifting alliances, where enemies become unlikely allies and betrayal lurks around every corner. As battles rage across both familiar and alien battlefields, he must navigate moral complexities and fierce combat in a universe on the brink. Legendary weapons, vehicle combat, and an evolving online battlefield define his harrowing struggle for survival and legacy."
+    }
+  }
+  {
+  "date": "2025-08-19",
   "region": "NA",
-  "releaseDate": "2002-09-01",
-  "title": "Turok: Evolution",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3p.webp",
+  "releaseDate": "2007-05-29",
+  "title": "Forza Motorsport 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39yh.webp",
   "hints": {
     "publisher": [
-      "Acclaim Entertainment"
+      "Microsoft Game Studios"
     ],
     "developer": [
-      "Acclaim Studios Austin",
-      "RFX Interactive (GBA)"
+      "Turn 10 Studios"
     ],
     "genre": [
-      "First-person shooter",
-      "Action-adventure (GBA)"
+      "Racing"
     ],
     "platforms": [
-      "PlayStation 2",
-      "Xbox",
-      "GameCube",
-      "Game Boy Advance",
-      "Microsoft Windows"
+      "Xbox"
     ],
     "modes": [
       "Single-player",
       "Multiplayer"
     ],
     "engine": null,
-    "metacritic": 60,
-    "plot": "In this prequel to the Turok series, Tal'Set, a Native American warrior, battles Captain Tobias Bruckner in 1886 Texas. A rift opens, transporting Tal'Set to the Lost Lands, where he allies with the River Village to combat Lord Tyrannus and his reptilian forces, uncovering the origins of the Turok lineage."
+    "metacritic": 91,
+    "plot": "Players take control of a wide variety of realistic vehicles to compete in races across diverse tracks and environments. The game emphasizes precision driving, car customization, and competition against both AI and human opponents. Success requires mastering handling, strategy, and adapting to dynamic racing conditions."
   }
 },
-  {
-  "date": "2025-08-05",
-  "region": "WW",
-  "releaseDate": "2016-02-05",
-  "title": "XCOM 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.webp",
+	{
+  "date": "2025-08-20",
+  "region": "NA",
+  "releaseDate": "2013-01-15",
+  "title": "DmC: Devil May Cry",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u77.webp",
   "hints": {
     "publisher": [
-      "2K Games"
+      "Capcom"
     ],
     "developer": [
-      "Firaxis Games"
+      "Ninja Theory"
     ],
     "genre": [
-      "Turn-based tactics"
+      "Action",
+      "Hack and slash"
     ],
     "platforms": [
-      "PC",
-      "PlayStation 4",
-      "Xbox One",
-      "Nintendo Switch"
+      "PS3",
+      "Xbox 360",
+      "PC"
     ],
     "modes": [
       "Single-player"
     ],
     "engine": "Unreal Engine 3",
-    "metacritic": 88,
-    "plot": "Set 20 years after the events of *XCOM: Enemy Unknown*, Earth has fallen under alien rule. As the commander of the resistance, players must rebuild XCOM, leading a guerrilla war against the alien occupation to reclaim Earth and restore humanity's freedom."
-  }
-},
-  {
-  "date": "2025-08-06",
-  "region": "WW",
-  "releaseDate": "2004-11-16",
-  "title": "Vampire: The Masquerade – Bloodlines",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n14.webp",
-  "hints": {
-    "publisher": [
-      "Activision"
-    ],
-    "developer": [
-      "Troika Games"
-    ],
-    "genre": [
-      "Action role-playing"
-    ],
-    "platforms": [
-      "Microsoft Windows"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Source",
-    "metacritic": 80,
-    "plot": "Set in White Wolf Publishing's World of Darkness, the game follows a human who is killed and revived as a fledgling vampire. The game depicts the fledgling's journey through early 21st-century Los Angeles to uncover the truth behind a recently discovered relic that heralds the end of all vampires."
-  }
-},
-  {
-  "date": "2025-08-07",
-  "region": "WW",
-  "releaseDate": "2008-07-10",
-  "title": "Shin Megami Tensei: Persona 4",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u07.webp",
-  "hints": {
-    "publisher": [
-      "Atlus"
-    ],
-    "developer": [
-      "Atlus"
-    ],
-    "genre": [
-      "Role-playing"
-    ],
-    "platforms": [
-      "PlayStation 2"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Unreal Engine 4",
-    "metacritic": 90,
-    "plot": "Inaba, a quiet town in rural Japan, is shaken by a series of mysterious murders. As a transfer student, you and your friends discover a supernatural world within television screens. Balancing daily life with dungeon exploration, you must uncover the truth behind the murders and the enigmatic Midnight Channel."
-  }
-},
-{
-  "date": "2025-08-08",
-  "region": "WW",
-  "releaseDate": "2017-09-29",
-  "title": "Cuphead",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
-  "hints": {
-    "publisher": [
-      "Studio MDHR"
-    ],
-    "developer": [
-      "Studio MDHR"
-    ],
-    "genre": [
-      "Run and gun",
-      "Platformer"
-    ],
-    "platforms": [
-      "PC",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player",
-      "Co-op"
-    ],
-    "engine": "Unity",
-    "metacritic": 88,
-    "plot": "Two brothers, Cuphead and Mugman, must repay their debt to the devil by battling a series of challenging bosses across fantastical worlds, using their unique weapons and abilities in this challenging run-and-gun adventure."
-  }
-},
-{
-  "date": "2025-08-09",
-  "region": "WW",
-  "releaseDate": "2015-03-26",
-  "title": "Pillars of Eternity",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8tzg.webp",
-  "hints": {
-    "publisher": [
-      "Paradox Interactive"
-    ],
-    "developer": [
-      "Obsidian Entertainment"
-    ],
-    "genre": [
-      "Role-playing"
-    ],
-    "platforms": [
-      "Microsoft Windows",
-      "macOS",
-      "Linux"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Unity",
-    "metacritic": 85,
-    "plot": "Set in the fantasy world of Eora, the game follows a protagonist known as the Watcher, who has the ability to see souls and memories. The story unfolds in the Dyrwood region, where a mysterious phenomenon causes infants to be born without souls, leading to widespread panic and political unrest. As the Watcher, players explore ancient ruins, uncover hidden truths, and navigate complex moral choices that impact the fate of the world."
-  }
-},
-  {
-  "date": "2025-08-10",
-  "region": "WW",
-  "releaseDate": "2008-10-20",
-  "title": "Midnight Club: Los Angeles",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcu.webp",
-  "hints": {
-    "publisher": [
-      "Rockstar Games"
-    ],
-    "developer": [
-      "Rockstar San Diego",
-      "Rockstar London"
-    ],
-    "genre": [
-      "Racing"
-    ],
-    "platforms": [
-      "PS3",
-      "Xbox 360",
-      "PlayStation Portable"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "RAGE",
-    "metacritic": 81,
-    "plot": "A street racer navigates an expansive, open-world depiction of Los Angeles, competing in illegal races, customizing vehicles, and rising through underground ranks. With dynamic weather and day-night cycles, the city’s neighborhoods become your racetrack as rivals and the police challenge you at every turn. Player reputation, vehicle upgrades, and mastery of shortcuts define your journey to become the city's top driver."
-  }
-},
-  {
-  "date": "2025-08-11",
-  "region": "NA",
-  "releaseDate": "2012-02-07",
-  "title": "The Darkness II",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxv.webp",
-  "hints": {
-    "publisher": [
-      "2K Games"
-    ],
-    "developer": [
-      "Digital Extremes"
-    ],
-    "genre": [
-      "First-person shooter"
-    ],
-    "platforms": [
-      "PC",
-      "PS3",
-      "Xbox 360"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Evolution Engine",
-    "metacritic": 80,
-    "plot": "A mafia don wielding an ancient supernatural power unleashes devastating ‘Darkness’ abilities in a visceral, graphic-noir shooter. Quests for vengeance and truth spiral into a brutal conspiracy as he confronts enemies both human and demonic. Quad-wielding chaos meets moral decay in a stylized horror tale of corruption, power, and fate."
-  }
-},
-  {
-  "date": "2025-08-12",
-  "region": "WW",
-  "releaseDate": "2015-11-10",
-  "title": "Fallout 4",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.webp",
-  "hints": {
-    "publisher": [
-      "Bethesda Softworks"
-    ],
-    "developer": [
-      "Bethesda Game Studios"
-    ],
-    "genre": [
-      "Action RPG",
-      "Open world"
-    ],
-    "platforms": [
-      "PC",
-      "PS4",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Creation Engine",
-    "metacritic": 87,
-    "plot": "You emerge as the sole survivor from underground vault isolation into a devastated, post-nuclear Boston, determined to reunite with family. As the world rebuilds around you, you must navigate warring factions, expand settlements, and make impactful choices in a dynamic open world. From scavenging ruins to crafting weapons and building communities, your journey shapes the fate of the Commonwealth."
-  }
-},
-  {
-  "date": "2025-08-13",
-  "region": "WW",
-  "releaseDate": "2023-06-06",
-  "title": "Amnesia: The Bunker",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5us3.webp",
-  "hints": {
-    "publisher": [
-      "Frictional Games"
-    ],
-    "developer": [
-      "Frictional Games"
-    ],
-    "genre": [
-      "Survival horror",
-      "Adventure"
-    ],
-    "platforms": [
-      "PC",
-      "PS4",
-      "Xbox One",
-      "Xbox Series X/S"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "HPL 3.5",
-    "metacritic": 77,
-    "plot": "A soldier trapped in a WWI bunker must survive an ever-present, adaptive monster by scavenging resources, managing a generator, and planning escape routes. Each decision and improvisation alter the horror experience, blending emergent sandbox gameplay with tense stealth. With darkness as a weapon and tools as lifelines, survival hinges on quick wits in a claustrophobic nightmare."
-  }
-},
-  {
-  "date": "2025-08-14",
-  "region": "WW",
-  "releaseDate": "2003-10-15",
-  "title": "Max Payne 2: The Fall of Max Payne",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.webp",
-  "hints": {
-    "publisher": [
-      "Rockstar Games"
-    ],
-    "developer": [
-      "Remedy Entertainment"
-    ],
-    "genre": [
-      "Third-person shooter"
-    ],
-    "platforms": [
-      "PC",
-      "Xbox",
-      "PlayStation 2"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Max-FX 2.0 (PC), RenderWare + Havok (console)",
-    "metacritic": 86,
-    "plot": "An embittered detective returns to the NYPD and falls into a fractured conspiracy while haunted by nightmares and reunited with a presumed-dead assassin. Between cinematic bullet-time gunfights and noir narration, alliances blur as they chase truths buried in tragedy. The narrative weaves a film-noir love story of fate, betrayal, and redemption set against a backdrop of gritty urban decay."
+    "metacritic": 83,
+    "plot": "A young man discovers his demonic heritage and battles powerful enemies to protect humanity from infernal forces. As he learns to control his abilities, he confronts both personal and cosmic conflicts. The journey challenges him to master combat skills, unravel mysteries, and face formidable foes in a dark, urban world."
   }
 }
-
-
 ]
