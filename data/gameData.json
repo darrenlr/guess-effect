@@ -7712,6 +7712,36 @@
     "metacritic": 77,
     "plot": "A soldier trapped in a WWI bunker must survive an ever-present, adaptive monster by scavenging resources, managing a generator, and planning escape routes. Each decision and improvisation alter the horror experience, blending emergent sandbox gameplay with tense stealth. With darkness as a weapon and tools as lifelines, survival hinges on quick wits in a claustrophobic nightmare."
   }
+},
+  {
+  "date": "2025-08-14",
+  "region": "WW",
+  "releaseDate": "2003-10-15",
+  "title": "Max Payne 2: The Fall of Max Payne",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.webp",
+  "hints": {
+    "publisher": [
+      "Rockstar Games"
+    ],
+    "developer": [
+      "Remedy Entertainment"
+    ],
+    "genre": [
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Max-FX 2.0 (PC), RenderWare + Havok (console)",
+    "metacritic": 86,
+    "plot": "An embittered detective returns to the NYPD and falls into a fractured conspiracy while haunted by nightmares and reunited with a presumed-dead assassin. Between cinematic bullet-time gunfights and noir narration, alliances blur as they chase truths buried in tragedy. The narrative weaves a film-noir love story of fate, betrayal, and redemption set against a backdrop of gritty urban decay."
+  }
 }
+
 
 ]
