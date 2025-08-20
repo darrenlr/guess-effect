@@ -7917,5 +7917,151 @@
     "metacritic": 83,
     "plot": "A young man discovers his demonic heritage and battles powerful enemies to protect humanity from infernal forces. As he learns to control his abilities, he confronts both personal and cosmic conflicts. The journey challenges him to master combat skills, unravel mysteries, and face formidable foes in a dark, urban world."
   }
+},
+	{
+  "date": "2025-08-21",
+  "region": "NA",
+  "releaseDate": "2010-10-19",
+  "title": "Fallout: New Vegas",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u60.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360",
+      "PS3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Gamebryo",
+    "metacritic": 84,
+    "plot": "In a post-nuclear Mojave Wasteland, a courier left for dead discovers a web of competing factions vying to control a desert metropolis built on the ruins of Las Vegas. Armed with alliances, reputation, and survival skills, they choose alliances or chart their own path through a world that rewards both power and pragmatism. Every decision reverberates across the landscape, reshaping the fate of the new frontier."
+  }
+},
+	{
+  "date": "2025-08-22",
+  "region": "NA",
+  "releaseDate": "2002-10-30",
+  "title": "Age of Mythology",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co907c.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Ensemble Studios"
+    ],
+    "genre": [
+      "Real-time strategy"
+    ],
+    "platforms": [
+      "PC",
+      "macOS"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "BANG!",
+    "metacritic": 89,
+    "plot": "A mythic commander embarks on a quest across ancient lands where gods, monsters, and legendary heroes collide. Commanding civilizations such as Greeks, Egyptians, and Norse—each with unique mythological powers—players wage war through deity-bestowed miracles and strategic troop management. The journey blends epic feats, divine intervention, and tactical dominance amid a richly imagined ancient world."
+  }
+},
+	{
+  "date": "2025-08-23",
+  "region": "NA",
+  "releaseDate": "2011-09-28",
+  "title": "The Binding of Isaac",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qll.webp",
+  "hints": {
+    "publisher": [
+      "Edmund McMillen"
+    ],
+    "developer": [
+      "Edmund McMillen",
+      "Florian Himsl"
+    ],
+    "genre": [
+      "Roguelike",
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Adobe Flash",
+    "metacritic": 84,
+    "plot": "A terrified child flees into his dark basement to escape his fanatical mother, embarking on a nightmarish journey through ever-changing, monster-filled dungeons. Armed only with tears and strange power-grants, he adapts and evolves to survive. Each descent through the depths is unpredictable, blending grotesque encounters, hidden treasures, and brutal challenges in a twisted roguelike odyssey."
+  }
+},
+{
+  "date": "2025-08-24",
+  "region": "NA",
+  "releaseDate": "2006-11-17",
+  "title": "Resistance: Fall of Man",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "In-house engine",
+    "metacritic": 86,
+    "plot": "A hardened soldier becomes humanity’s first weapon in a battle against a horrifying alien invasion spreading across post-war Britain. Armed with experimental weaponry and newfound resilience, he must sever the Chimera’s grip on the nation. Fast-paced firefights, tense environments, and widescreen cinematic flair define the struggle in this acclaimed PS3 launch title."
+  }
+},
+{
+  "date": "2025-08-25",
+  "region": "NA",
+  "releaseDate": "2017-12-01",
+  "title": "Xenoblade Chronicles 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o5h.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Monolith Soft"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "On a world made of living Titans drifting above endless clouds, a scavenger forms a bond with a sentient weapon. Together, they embark on a sprawling journey to reach a mythical paradise beyond the World Tree. Along the way, they forge alliances, uncover ancient legacies, and wield powers born of human-Blade symbiosis in an epic fight for survival."
+  }
 }
+
 ]
