@@ -8062,6 +8062,35 @@
     "metacritic": 83,
     "plot": "On a world made of living Titans drifting above endless clouds, a scavenger forms a bond with a sentient weapon. Together, they embark on a sprawling journey to reach a mythical paradise beyond the World Tree. Along the way, they forge alliances, uncover ancient legacies, and wield powers born of human-Blade symbiosis in an epic fight for survival."
   }
+},
+	{
+  "date": "2025-08-26",
+  "region": "NA",
+  "releaseDate": "2009-09-15",
+  "title": "Wet",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6yld.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Artificial Mind & Movement"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Build",
+    "metacritic": 69,
+    "plot": "A skilled operative dives into frenetic gunplay and sword-wielding stunts amid stylized, horror-tinged action. Fluid acrobatics—slides, wall-runs, jumps—trigger cinematic slow-motion sequences where she dispatches enemies with flair and bloodied precision. Shot-through levels unfold like pulpy action films, each move designed to elevate the spectacle and intensity."
+  }
 }
 
 ]
