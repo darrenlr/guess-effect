@@ -8091,6 +8091,36 @@
     "metacritic": 69,
     "plot": "A skilled operative dives into frenetic gunplay and sword-wielding stunts amid stylized, horror-tinged action. Fluid acrobatics—slides, wall-runs, jumps—trigger cinematic slow-motion sequences where she dispatches enemies with flair and bloodied precision. Shot-through levels unfold like pulpy action films, each move designed to elevate the spectacle and intensity."
   }
+},
+	{
+  "date": "2025-08-27",
+  "region": "NA",
+  "releaseDate": "2004-09-21",
+  "title": "Full Spectrum Warrior",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h7d.webp",
+  "hints": {
+    "publisher": [
+      "THQ"
+    ],
+    "developer": [
+      "Pandemic Studios"
+    ],
+    "genre": [
+      "Real-time tactics"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Havok 2",
+    "metacritic": 80,
+    "plot": "A squad leader directs two infantry fire-teams through intense urban warfare in a fictional desert nation, using realistic tactics and battlefield communication instead of direct aiming. With emphasis on coordination and terrain advantage, commanders must outmaneuver terrorists through split-second decisions and terrain awareness. The result is a gritty, cinematic experience blending military simulation with emergent real-time strategy."
+  }
 }
+
 
 ]
