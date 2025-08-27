@@ -8120,7 +8120,38 @@
     "metacritic": 80,
     "plot": "A squad leader directs two infantry fire-teams through intense urban warfare in a fictional desert nation, using realistic tactics and battlefield communication instead of direct aiming. With emphasis on coordination and terrain advantage, commanders must outmaneuver terrorists through split-second decisions and terrain awareness. The result is a gritty, cinematic experience blending military simulation with emergent real-time strategy."
   }
+},
+	{
+  "date": "2025-08-28",
+  "region": "NA",
+  "releaseDate": "2018-10-19",
+  "title": "Soulcalibur VI",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x6j.webp",
+  "hints": {
+    "publisher": [
+      "Bandai Namco Entertainment"
+    ],
+    "developer": [
+      "Bandai Namco Studios"
+    ],
+    "genre": [
+      "Fighting"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 85,
+    "plot": "Warriors from across time converge in a reimagining of a legendary weapon-based tournament, where the edge of every blade foretells fate. Each combatant battles through stages rooted in mythology and turmoil, wielding power drawn from their inner convictions. The clash of steel, strategy, and story brings swordsmanship and soul into a timeless, dramatic contest."
+  }
 }
+
 
 
 ]
