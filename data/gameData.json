@@ -8150,7 +8150,38 @@
     "metacritic": 85,
     "plot": "Warriors from across time converge in a reimagining of a legendary weapon-based tournament, where the edge of every blade foretells fate. Each combatant battles through stages rooted in mythology and turmoil, wielding power drawn from their inner convictions. The clash of steel, strategy, and story brings swordsmanship and soul into a timeless, dramatic contest."
   }
+},
+	{
+  "date": "2025-08-29",
+  "region": "NA",
+  "releaseDate": "2014-09-30",
+  "title": "Middle-earth: Shadow of Mordor",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20pd.webp",
+  "hints": {
+    "publisher": [
+      "Warner Bros. Interactive Entertainment"
+    ],
+    "developer": [
+      "Monolith Productions"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Open-world"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "LithTech Jupiter EX",
+    "metacritic": 84,
+    "plot": "A ranger resurrected alongside a spectral wraith embarks on a revenge-fueled journey across a perilous Mordor, navigating orc clans, espionage, and betrayal. The world remembers: enemies adapt and rise through the ranks in response to player actions, forging uniquely personal vendettas. Blending visceral combat and mythology, every confrontation reshapes the shape of vengeance in this dark Middle-earth chronicle."
+  }
 }
+
 
 
 
