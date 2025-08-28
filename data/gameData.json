@@ -8180,7 +8180,37 @@
     "metacritic": 84,
     "plot": "A ranger resurrected alongside a spectral wraith embarks on a revenge-fueled journey across a perilous Mordor, navigating orc clans, espionage, and betrayal. The world remembers: enemies adapt and rise through the ranks in response to player actions, forging uniquely personal vendettas. Blending visceral combat and mythology, every confrontation reshapes the shape of vengeance in this dark Middle-earth chronicle."
   }
+},
+	{
+  "date": "2025-08-30",
+  "region": "NA",
+  "releaseDate": "2020-06-19",
+  "title": "The Last of Us Part II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Survival"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Years after finding sanctuary, a survivor is drawn back into a brutal cycle of vengeance sparked by a catastrophic event. Traversing hostile environments and facing moral decay, they uncover and confront buried truths through physically and emotionally punishing encounters. The journey challenges ideas of forgiveness, empathy, and the weight of one's choices amid a world fractured by loss."
+  }
 }
+
 
 
 
