@@ -7856,363 +7856,500 @@
         "Multiplayer"
       ],
       "engine": "Havok Physics",
-      "metacritic":  95,
+      "metacritic": 95,
       "plot": "A hero returns to a galactic war torn by new threats and shifting alliances, where enemies become unlikely allies and betrayal lurks around every corner. As battles rage across both familiar and alien battlefields, he must navigate moral complexities and fierce combat in a universe on the brink. Legendary weapons, vehicle combat, and an evolving online battlefield define his harrowing struggle for survival and legacy."
     }
   },
   {
-  "date": "2025-08-19",
-  "region": "NA",
-  "releaseDate": "2007-05-29",
-  "title": "Forza Motorsport 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39yh.webp",
-  "hints": {
-    "publisher": [
-      "Microsoft Game Studios"
-    ],
-    "developer": [
-      "Turn 10 Studios"
-    ],
-    "genre": [
-      "Racing"
-    ],
-    "platforms": [
-      "Xbox 360"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": null,
-    "metacritic": 91,
-    "plot": "Players take control of a wide variety of realistic vehicles to compete in races across diverse tracks and environments. The game emphasizes precision driving, car customization, and competition against both AI and human opponents. Success requires mastering handling, strategy, and adapting to dynamic racing conditions."
+    "date": "2025-08-19",
+    "region": "NA",
+    "releaseDate": "2007-05-29",
+    "title": "Forza Motorsport 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39yh.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Turn 10 Studios"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "Players take control of a wide variety of realistic vehicles to compete in races across diverse tracks and environments. The game emphasizes precision driving, car customization, and competition against both AI and human opponents. Success requires mastering handling, strategy, and adapting to dynamic racing conditions."
+    }
+  },
+  {
+    "date": "2025-08-20",
+    "region": "NA",
+    "releaseDate": "2013-01-15",
+    "title": "DmC: Devil May Cry",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u77.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Ninja Theory"
+      ],
+      "genre": [
+        "Action",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 83,
+      "plot": "A young man discovers his demonic heritage and battles powerful enemies to protect humanity from infernal forces. As he learns to control his abilities, he confronts both personal and cosmic conflicts. The journey challenges him to master combat skills, unravel mysteries, and face formidable foes in a dark, urban world."
+    }
+  },
+  {
+    "date": "2025-08-21",
+    "region": "NA",
+    "releaseDate": "2010-10-19",
+    "title": "Fallout: New Vegas",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u60.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360",
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Gamebryo",
+      "metacritic": 84,
+      "plot": "In a post-nuclear Mojave Wasteland, a courier left for dead discovers a web of competing factions vying to control a desert metropolis built on the ruins of Las Vegas. Armed with alliances, reputation, and survival skills, they choose alliances or chart their own path through a world that rewards both power and pragmatism. Every decision reverberates across the landscape, reshaping the fate of the new frontier."
+    }
+  },
+  {
+    "date": "2025-08-22",
+    "region": "NA",
+    "releaseDate": "2002-10-30",
+    "title": "Age of Mythology",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co907c.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Ensemble Studios"
+      ],
+      "genre": [
+        "Real-time strategy"
+      ],
+      "platforms": [
+        "PC",
+        "macOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "BANG!",
+      "metacritic": 89,
+      "plot": "A mythic commander embarks on a quest across ancient lands where gods, monsters, and legendary heroes collide. Commanding civilizations such as Greeks, Egyptians, and Norse—each with unique mythological powers—players wage war through deity-bestowed miracles and strategic troop management. The journey blends epic feats, divine intervention, and tactical dominance amid a richly imagined ancient world."
+    }
+  },
+  {
+    "date": "2025-08-23",
+    "region": "NA",
+    "releaseDate": "2011-09-28",
+    "title": "The Binding of Isaac",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qll.webp",
+    "hints": {
+      "publisher": [
+        "Edmund McMillen"
+      ],
+      "developer": [
+        "Edmund McMillen",
+        "Florian Himsl"
+      ],
+      "genre": [
+        "Roguelike",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PC",
+        "macOS",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Adobe Flash",
+      "metacritic": 84,
+      "plot": "A terrified child flees into his dark basement to escape his fanatical mother, embarking on a nightmarish journey through ever-changing, monster-filled dungeons. Armed only with tears and strange power-grants, he adapts and evolves to survive. Each descent through the depths is unpredictable, blending grotesque encounters, hidden treasures, and brutal challenges in a twisted roguelike odyssey."
+    }
+  },
+  {
+    "date": "2025-08-24",
+    "region": "NA",
+    "releaseDate": "2006-11-17",
+    "title": "Resistance: Fall of Man",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment America"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "In-house engine",
+      "metacritic": 86,
+      "plot": "A hardened soldier becomes humanity’s first weapon in a battle against a horrifying alien invasion spreading across post-war Britain. Armed with experimental weaponry and newfound resilience, he must sever the Chimera’s grip on the nation. Fast-paced firefights, tense environments, and widescreen cinematic flair define the struggle in this acclaimed PS3 launch title."
+    }
+  },
+  {
+    "date": "2025-08-25",
+    "region": "NA",
+    "releaseDate": "2017-12-01",
+    "title": "Xenoblade Chronicles 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o5h.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Monolith Soft"
+      ],
+      "genre": [
+        "Action role-playing"
+      ],
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 83,
+      "plot": "On a world made of living Titans drifting above endless clouds, a scavenger forms a bond with a sentient weapon. Together, they embark on a sprawling journey to reach a mythical paradise beyond the World Tree. Along the way, they forge alliances, uncover ancient legacies, and wield powers born of human-Blade symbiosis in an epic fight for survival."
+    }
+  },
+  {
+    "date": "2025-08-26",
+    "region": "NA",
+    "releaseDate": "2009-09-15",
+    "title": "Wet",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6yld.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Artificial Mind & Movement"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Action"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Build",
+      "metacritic": 69,
+      "plot": "A skilled operative dives into frenetic gunplay and sword-wielding stunts amid stylized, horror-tinged action. Fluid acrobatics—slides, wall-runs, jumps—trigger cinematic slow-motion sequences where she dispatches enemies with flair and bloodied precision. Shot-through levels unfold like pulpy action films, each move designed to elevate the spectacle and intensity."
+    }
+  },
+  {
+    "date": "2025-08-27",
+    "region": "NA",
+    "releaseDate": "2004-09-21",
+    "title": "Full Spectrum Warrior",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h7d.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Pandemic Studios"
+      ],
+      "genre": [
+        "Real-time tactics"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Havok 2",
+      "metacritic": 80,
+      "plot": "A squad leader directs two infantry fire-teams through intense urban warfare in a fictional desert nation, using realistic tactics and battlefield communication instead of direct aiming. With emphasis on coordination and terrain advantage, commanders must outmaneuver terrorists through split-second decisions and terrain awareness. The result is a gritty, cinematic experience blending military simulation with emergent real-time strategy."
+    }
+  },
+  {
+    "date": "2025-08-28",
+    "region": "NA",
+    "releaseDate": "2018-10-19",
+    "title": "Soulcalibur VI",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x6j.webp",
+    "hints": {
+      "publisher": [
+        "Bandai Namco Entertainment"
+      ],
+      "developer": [
+        "Bandai Namco Studios"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PlayStation 4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 85,
+      "plot": "Warriors from across time converge in a reimagining of a legendary weapon-based tournament, where the edge of every blade foretells fate. Each combatant battles through stages rooted in mythology and turmoil, wielding power drawn from their inner convictions. The clash of steel, strategy, and story brings swordsmanship and soul into a timeless, dramatic contest."
+    }
+  },
+  {
+    "date": "2025-08-29",
+    "region": "NA",
+    "releaseDate": "2014-09-30",
+    "title": "Middle-earth: Shadow of Mordor",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20pd.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "Monolith Productions"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open-world"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "LithTech Jupiter EX",
+      "metacritic": 84,
+      "plot": "A ranger resurrected alongside a spectral wraith embarks on a revenge-fueled journey across a perilous Mordor, navigating orc clans, espionage, and betrayal. The world remembers: enemies adapt and rise through the ranks in response to player actions, forging uniquely personal vendettas. Blending visceral combat and mythology, every confrontation reshapes the shape of vengeance in this dark Middle-earth chronicle."
+    }
+  },
+  {
+    "date": "2025-08-30",
+    "region": "NA",
+    "releaseDate": "2020-06-19",
+    "title": "The Last of Us Part II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Survival"
+      ],
+      "platforms": [
+        "PlayStation 4",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 93,
+      "plot": "Years after finding sanctuary, a survivor is drawn back into a brutal cycle of vengeance sparked by a catastrophic event. Traversing hostile environments and facing moral decay, they uncover and confront buried truths through physically and emotionally punishing encounters. The journey challenges ideas of forgiveness, empathy, and the weight of one's choices amid a world fractured by loss."
+    }
+  },
+  {
+    "date": "2025-08-31",
+    "region": "NA",
+    "releaseDate": "2004-04-12",
+    "title": "Painkiller",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b98.webp",
+    "hints": {
+      "publisher": [
+        "DreamCatcher Interactive"
+      ],
+      "developer": [
+        "People Can Fly"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 81,
+      "plot": "A restless soul is trapped in Purgatory and offered entry to Heaven if they eliminate Lucifer’s demonic army. Armed with tarot-enhanced weapons and supernatural power, the protagonist battles through gothic arenas overrun with monstrous foes. The experience blends explosive, arena-style combat with an eerie, mythic underworld setting."
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "region": "NA",
+    "releaseDate": "2006-06-12",
+    "title": "Call of Juarez",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qqg.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Techland"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Chrome Engine 3",
+      "metacritic": 72,
+      "plot": "In a violent American frontier, a fortune-seeking ranch hand is framed for murder, prompting a relentless hunt by a tormented preacher. Their intertwined paths fuel a gritty duel of blood and vengeance across saloons, ghost towns, and dusty plains. With dynamic encounters and classic Western grit, every showdown tests resolve and righteousness in a world where justice is drawn at close range."
+    }
+  },
+  {
+    "date": "2025-09-02",
+    "region": "NA",
+    "releaseDate": "1998-12-01",
+    "title": "Thief: The Dark Project",
+    "boxArtUrl": "himages.igdb.com/igdb/image/upload/t_cover_big/co22ne.webp",
+    "hints": {
+      "publisher": [
+        "Eidos Interactive"
+      ],
+      "developer": [
+        "Looking Glass Studios"
+      ],
+      "genre": [
+        "Stealth-action"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Dark Engine",
+      "metacritic": 92,
+      "plot": "In a grim, steampunk city rife with corruption and supernatural influence, a master thief uses darkness and silence to his advantage. He navigates gothic cathedrals, watery aqueducts, and densely layered architecture to infiltrate and escape unseen. His mission blends clever non-lethal tactics, emergent AI reactions to light and sound, and immersive ambience into a pioneering stealth experience."
+    }
+  },
+  {
+    "date": "2025-09-03",
+    "region": "NA",
+    "releaseDate": "2019-02-15",
+    "title": "Metro Exodus",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1iuj.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "4A Games"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "4A Engine",
+      "metacritic": 82,
+      "plot": "A survivor emerges from underground tunnels into a desolate world, seeking to rebuild his life aboard a steam locomotive while evading mutated monstrosities and human threats. Journeying across a fractured, post-apocalyptic landscape, he must make choices that echo through emergent factions and volatile environments. With atmospheric storytelling and evolving open levels, every decision shapes both survival and hope in a ravaged realm."
+    }
+  },
+  {
+    "date": "2025-09-04",
+    "region": "NA",
+    "releaseDate": "2014-10-28",
+    "title": "Lords of the Fallen",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.webp",
+    "hints": {
+      "publisher": [
+        "CI Games"
+      ],
+      "developer": [
+        "Deck13"
+      ],
+      "genre": [
+        "Action role-playing"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Fledge Engine",
+      "metacritic": 73,
+      "plot": "A branded outcast wields branded powers and fights his way through demonic forces unleashed by a fallen god in a dark fantasy realm. As he traverses interconnected halls and forgotten cathedrals, every strategic swing and spell draws him closer to confronting ancient gods. The journey fuses righteous determination with brutal combat in a mythic struggle for redemption."
+    }
   }
-},
-	{
-  "date": "2025-08-20",
-  "region": "NA",
-  "releaseDate": "2013-01-15",
-  "title": "DmC: Devil May Cry",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u77.webp",
-  "hints": {
-    "publisher": [
-      "Capcom"
-    ],
-    "developer": [
-      "Ninja Theory"
-    ],
-    "genre": [
-      "Action",
-      "Hack and slash"
-    ],
-    "platforms": [
-      "PS3",
-      "Xbox 360",
-      "PC"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Unreal Engine 3",
-    "metacritic": 83,
-    "plot": "A young man discovers his demonic heritage and battles powerful enemies to protect humanity from infernal forces. As he learns to control his abilities, he confronts both personal and cosmic conflicts. The journey challenges him to master combat skills, unravel mysteries, and face formidable foes in a dark, urban world."
-  }
-},
-	{
-  "date": "2025-08-21",
-  "region": "NA",
-  "releaseDate": "2010-10-19",
-  "title": "Fallout: New Vegas",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u60.webp",
-  "hints": {
-    "publisher": [
-      "Bethesda Softworks"
-    ],
-    "developer": [
-      "Obsidian Entertainment"
-    ],
-    "genre": [
-      "Role-playing"
-    ],
-    "platforms": [
-      "PC",
-      "Xbox 360",
-      "PS3"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Gamebryo",
-    "metacritic": 84,
-    "plot": "In a post-nuclear Mojave Wasteland, a courier left for dead discovers a web of competing factions vying to control a desert metropolis built on the ruins of Las Vegas. Armed with alliances, reputation, and survival skills, they choose alliances or chart their own path through a world that rewards both power and pragmatism. Every decision reverberates across the landscape, reshaping the fate of the new frontier."
-  }
-},
-	{
-  "date": "2025-08-22",
-  "region": "NA",
-  "releaseDate": "2002-10-30",
-  "title": "Age of Mythology",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co907c.webp",
-  "hints": {
-    "publisher": [
-      "Microsoft Game Studios"
-    ],
-    "developer": [
-      "Ensemble Studios"
-    ],
-    "genre": [
-      "Real-time strategy"
-    ],
-    "platforms": [
-      "PC",
-      "macOS"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "BANG!",
-    "metacritic": 89,
-    "plot": "A mythic commander embarks on a quest across ancient lands where gods, monsters, and legendary heroes collide. Commanding civilizations such as Greeks, Egyptians, and Norse—each with unique mythological powers—players wage war through deity-bestowed miracles and strategic troop management. The journey blends epic feats, divine intervention, and tactical dominance amid a richly imagined ancient world."
-  }
-},
-	{
-  "date": "2025-08-23",
-  "region": "NA",
-  "releaseDate": "2011-09-28",
-  "title": "The Binding of Isaac",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qll.webp",
-  "hints": {
-    "publisher": [
-      "Edmund McMillen"
-    ],
-    "developer": [
-      "Edmund McMillen",
-      "Florian Himsl"
-    ],
-    "genre": [
-      "Roguelike",
-      "Action-adventure"
-    ],
-    "platforms": [
-      "PC",
-      "macOS",
-      "Linux"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Adobe Flash",
-    "metacritic": 84,
-    "plot": "A terrified child flees into his dark basement to escape his fanatical mother, embarking on a nightmarish journey through ever-changing, monster-filled dungeons. Armed only with tears and strange power-grants, he adapts and evolves to survive. Each descent through the depths is unpredictable, blending grotesque encounters, hidden treasures, and brutal challenges in a twisted roguelike odyssey."
-  }
-},
-{
-  "date": "2025-08-24",
-  "region": "NA",
-  "releaseDate": "2006-11-17",
-  "title": "Resistance: Fall of Man",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.webp",
-  "hints": {
-    "publisher": [
-      "Sony Computer Entertainment America"
-    ],
-    "developer": [
-      "Insomniac Games"
-    ],
-    "genre": [
-      "First-person shooter"
-    ],
-    "platforms": [
-      "PlayStation 3"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "In-house engine",
-    "metacritic": 86,
-    "plot": "A hardened soldier becomes humanity’s first weapon in a battle against a horrifying alien invasion spreading across post-war Britain. Armed with experimental weaponry and newfound resilience, he must sever the Chimera’s grip on the nation. Fast-paced firefights, tense environments, and widescreen cinematic flair define the struggle in this acclaimed PS3 launch title."
-  }
-},
-{
-  "date": "2025-08-25",
-  "region": "NA",
-  "releaseDate": "2017-12-01",
-  "title": "Xenoblade Chronicles 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o5h.webp",
-  "hints": {
-    "publisher": [
-      "Nintendo"
-    ],
-    "developer": [
-      "Monolith Soft"
-    ],
-    "genre": [
-      "Action role-playing"
-    ],
-    "platforms": [
-      "Nintendo Switch"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": null,
-    "metacritic": 83,
-    "plot": "On a world made of living Titans drifting above endless clouds, a scavenger forms a bond with a sentient weapon. Together, they embark on a sprawling journey to reach a mythical paradise beyond the World Tree. Along the way, they forge alliances, uncover ancient legacies, and wield powers born of human-Blade symbiosis in an epic fight for survival."
-  }
-},
-	{
-  "date": "2025-08-26",
-  "region": "NA",
-  "releaseDate": "2009-09-15",
-  "title": "Wet",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6yld.webp",
-  "hints": {
-    "publisher": [
-      "Bethesda Softworks"
-    ],
-    "developer": [
-      "Artificial Mind & Movement"
-    ],
-    "genre": [
-      "Third-person shooter",
-      "Action"
-    ],
-    "platforms": [
-      "PS3",
-      "Xbox 360"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Build",
-    "metacritic": 69,
-    "plot": "A skilled operative dives into frenetic gunplay and sword-wielding stunts amid stylized, horror-tinged action. Fluid acrobatics—slides, wall-runs, jumps—trigger cinematic slow-motion sequences where she dispatches enemies with flair and bloodied precision. Shot-through levels unfold like pulpy action films, each move designed to elevate the spectacle and intensity."
-  }
-},
-	{
-  "date": "2025-08-27",
-  "region": "NA",
-  "releaseDate": "2004-09-21",
-  "title": "Full Spectrum Warrior",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h7d.webp",
-  "hints": {
-    "publisher": [
-      "THQ"
-    ],
-    "developer": [
-      "Pandemic Studios"
-    ],
-    "genre": [
-      "Real-time tactics"
-    ],
-    "platforms": [
-      "PC",
-      "Xbox"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Havok 2",
-    "metacritic": 80,
-    "plot": "A squad leader directs two infantry fire-teams through intense urban warfare in a fictional desert nation, using realistic tactics and battlefield communication instead of direct aiming. With emphasis on coordination and terrain advantage, commanders must outmaneuver terrorists through split-second decisions and terrain awareness. The result is a gritty, cinematic experience blending military simulation with emergent real-time strategy."
-  }
-},
-	{
-  "date": "2025-08-28",
-  "region": "NA",
-  "releaseDate": "2018-10-19",
-  "title": "Soulcalibur VI",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x6j.webp",
-  "hints": {
-    "publisher": [
-      "Bandai Namco Entertainment"
-    ],
-    "developer": [
-      "Bandai Namco Studios"
-    ],
-    "genre": [
-      "Fighting"
-    ],
-    "platforms": [
-      "PlayStation 4",
-      "Xbox One",
-      "PC"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Unreal Engine 4",
-    "metacritic": 85,
-    "plot": "Warriors from across time converge in a reimagining of a legendary weapon-based tournament, where the edge of every blade foretells fate. Each combatant battles through stages rooted in mythology and turmoil, wielding power drawn from their inner convictions. The clash of steel, strategy, and story brings swordsmanship and soul into a timeless, dramatic contest."
-  }
-},
-	{
-  "date": "2025-08-29",
-  "region": "NA",
-  "releaseDate": "2014-09-30",
-  "title": "Middle-earth: Shadow of Mordor",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20pd.webp",
-  "hints": {
-    "publisher": [
-      "Warner Bros. Interactive Entertainment"
-    ],
-    "developer": [
-      "Monolith Productions"
-    ],
-    "genre": [
-      "Action-adventure",
-      "Open-world"
-    ],
-    "platforms": [
-      "PC",
-      "PS4",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "LithTech Jupiter EX",
-    "metacritic": 84,
-    "plot": "A ranger resurrected alongside a spectral wraith embarks on a revenge-fueled journey across a perilous Mordor, navigating orc clans, espionage, and betrayal. The world remembers: enemies adapt and rise through the ranks in response to player actions, forging uniquely personal vendettas. Blending visceral combat and mythology, every confrontation reshapes the shape of vengeance in this dark Middle-earth chronicle."
-  }
-},
-	{
-  "date": "2025-08-30",
-  "region": "NA",
-  "releaseDate": "2020-06-19",
-  "title": "The Last of Us Part II",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.webp",
-  "hints": {
-    "publisher": [
-      "Sony Interactive Entertainment"
-    ],
-    "developer": [
-      "Naughty Dog"
-    ],
-    "genre": [
-      "Action-adventure",
-      "Survival"
-    ],
-    "platforms": [
-      "PlayStation 4",
-      "PC"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": null,
-    "metacritic": 93,
-    "plot": "Years after finding sanctuary, a survivor is drawn back into a brutal cycle of vengeance sparked by a catastrophic event. Traversing hostile environments and facing moral decay, they uncover and confront buried truths through physically and emotionally punishing encounters. The journey challenges ideas of forgiveness, empathy, and the weight of one's choices amid a world fractured by loss."
-  }
-}
-
-
-
-
-
 ]
