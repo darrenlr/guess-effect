@@ -1977,11 +1977,11 @@
       ],
       "platforms": [
         "PC",
-"Macintosh"
+        "Macintosh"
       ],
       "modes": [
         "Single-player",
-"Multiplayer"
+        "Multiplayer"
       ],
       "engine": "Genie",
       "metacritic": "",
@@ -2102,8 +2102,8 @@
       "metacritic": 80,
       "plot": "Wei Shen, an undercover cop, infiltrates the Hong Kong Triads to take down a powerful crime syndicate from within. As he rises through the ranks, he struggles to balance his duty as a cop with his loyalty to his newfound brothers in the gang. Caught between two worlds, Wei must navigate brutal combat, high-speed chases, and dangerous betrayals to complete his mission without losing himself."
     }
-  }
-  ,{
+  },
+  {
     "date": "2025-02-03",
     "region": "NA",
     "releaseDate": "1996-06-22",
@@ -2146,7 +2146,7 @@
         "Mobius Digital"
       ],
       "genre": [
-        "Action-adventure", 
+        "Action-adventure",
         "Sci-fi",
         "Indie",
         "Puzzle"
@@ -2266,7 +2266,7 @@
       ],
       "genre": [
         "Beat em Up",
-       "Arcade"
+        "Arcade"
       ],
       "platforms": [
         "Mega Drive/Genesis"
@@ -2295,7 +2295,7 @@
       ],
       "genre": [
         "Action-adventure",
-       "Open world"
+        "Open world"
       ],
       "platforms": [
         "PS2"
@@ -2307,7 +2307,7 @@
       "metacritic": 95,
       "plot": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City push him down a different path."
     }
-   },
+  },
   {
     "date": "2025-02-10",
     "region": "JP",
@@ -2334,7 +2334,7 @@
       "engine": "",
       "metacritic": 86,
       "plot": "A special forces team is sent to a mysterious facility after an entire city vanishes, only to find themselves trapped in a world overrun by deadly dinosaurs. As they search for survivors and a way back home, they uncover a secret experiment that led to the catastrophe. Racing against time, they must battle prehistoric threats and unravel the truth before they become extinct themselves."
-   }
+    }
   },
   {
     "date": "2025-02-11",
@@ -2412,7 +2412,7 @@
         "PS1"
       ],
       "modes": [
-        "Single-player", 
+        "Single-player",
         "Multiplayer",
         "Split screen"
       ],
@@ -3105,7 +3105,7 @@
         "GameCube"
       ],
       "modes": [
-        "Single-player", 
+        "Single-player",
         "Multiplayer"
       ],
       "engine": "",
@@ -3328,7 +3328,9 @@
         "Visual Novel"
       ],
       "platforms": [
-        "Linux", "MacOS", "PC"
+        "Linux",
+        "MacOS",
+        "PC"
       ],
       "modes": [
         "Single-player"
@@ -3355,10 +3357,12 @@
         "Action RPG"
       ],
       "platforms": [
-        "PS3", "Xbox 360"
+        "PS3",
+        "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "",
       "metacritic": 91,
@@ -3379,13 +3383,19 @@
         "Ubisoft Montreal"
       ],
       "genre": [
-        "Open-world", "Action Adventure"
+        "Open-world",
+        "Action Adventure"
       ],
       "platforms": [
-        "PC", "PS4", "PS3", "Xbox One", "Xbox 360"
+        "PC",
+        "PS4",
+        "PS3",
+        "Xbox One",
+        "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Disrupt",
       "metacritic": 80,
@@ -3409,10 +3419,12 @@
         "Vehicular combat"
       ],
       "platforms": [
-        "Xbox", "PS2"
+        "Xbox",
+        "PS2"
       ],
       "modes": [
-        "Single-player", "Split screen"
+        "Single-player",
+        "Split screen"
       ],
       "engine": "",
       "metacritic": null,
@@ -3460,7 +3472,8 @@
         "Supergiant Games"
       ],
       "genre": [
-        "Action RPG", "Indie"
+        "Action RPG",
+        "Indie"
       ],
       "platforms": [
         "Xbox 360"
@@ -3490,10 +3503,12 @@
         "Puzzle-platform"
       ],
       "platforms": [
-        "PC", "Mac OS X"
+        "PC",
+        "Mac OS X"
       ],
       "modes": [
-        "Single-player", "Co-op"
+        "Single-player",
+        "Co-op"
       ],
       "engine": "Source",
       "metacritic": 95,
@@ -3514,7 +3529,8 @@
         "Naughty Dog"
       ],
       "genre": [
-        "Action-adventure", "Platformer"
+        "Action-adventure",
+        "Platformer"
       ],
       "platforms": [
         "PS2"
@@ -3541,10 +3557,12 @@
         "PlatinumGames"
       ],
       "genre": [
-        "Action-adventure", "hack and slash"
+        "Action-adventure",
+        "hack and slash"
       ],
       "platforms": [
-        "PS3", "Xbox 360"
+        "PS3",
+        "Xbox 360"
       ],
       "modes": [
         "Single-player"
@@ -3571,7 +3589,9 @@
         "FPS"
       ],
       "platforms": [
-        "PS3", "Xbox 360", "PC"
+        "PS3",
+        "Xbox 360",
+        "PC"
       ],
       "modes": [
         "Single-player"
@@ -3595,13 +3615,15 @@
         "Naughty Dog"
       ],
       "genre": [
-        "Action-adventure", "Third-person shooter"
+        "Action-adventure",
+        "Third-person shooter"
       ],
       "platforms": [
         "PS3"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Naughty Engine",
       "metacritic": 96,
@@ -3622,7 +3644,8 @@
         "Nintendo"
       ],
       "genre": [
-        "Action-adventure", "Platformer"
+        "Action-adventure",
+        "Platformer"
       ],
       "platforms": [
         "Nintendo Switch"
@@ -3649,13 +3672,16 @@
         "Rockstar Games"
       ],
       "genre": [
-        "Action-adventure", "Open world"
+        "Action-adventure",
+        "Open world"
       ],
       "platforms": [
-        "PS4", "Xbox One"
+        "PS4",
+        "Xbox One"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "RAGE",
       "metacritic": 97,
@@ -3676,7 +3702,8 @@
         "Team Asobi"
       ],
       "genre": [
-        "Action-adventure", "Platformer"
+        "Action-adventure",
+        "Platformer"
       ],
       "platforms": [
         "PS5"
@@ -3709,7 +3736,8 @@
         "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "",
       "metacritic": 89,
@@ -3736,7 +3764,8 @@
         "PS2"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Geo-Mod",
       "metacritic": 88,
@@ -3754,17 +3783,21 @@
         "Electronic Arts"
       ],
       "developer": [
-        "Page 44 Studios", "Headgate Studios"
+        "Page 44 Studios",
+        "Headgate Studios"
       ],
       "genre": [
         "Action-adventure",
         "Open world"
       ],
       "platforms": [
-        "PS2", "Xbox", "PC"
+        "PS2",
+        "Xbox",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Renderware",
       "metacritic": 77,
@@ -3789,10 +3822,13 @@
         "FPS"
       ],
       "platforms": [
-        "PS4", "Xbox One", "PC"
+        "PS4",
+        "Xbox One",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Unreal Engine 4",
       "metacritic": 81,
@@ -3845,7 +3881,12 @@
         "Adventure"
       ],
       "platforms": [
-        "PS4", "PS5", "PC", "Switch", "Xbox One", "Xbox Series X/S"
+        "PS4",
+        "PS5",
+        "PC",
+        "Switch",
+        "Xbox One",
+        "Xbox Series X/S"
       ],
       "modes": [
         "Single-player"
@@ -3873,7 +3914,8 @@
         "Sci-fi"
       ],
       "platforms": [
-        "PS2", "Xbox"
+        "PS2",
+        "Xbox"
       ],
       "modes": [
         "Single-player"
@@ -3901,10 +3943,12 @@
         "Sci-fi"
       ],
       "platforms": [
-        "PS5", "PC"
+        "PS5",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Void Engine",
       "metacritic": 88,
@@ -3976,7 +4020,8 @@
         "Sony Computer Entertainment"
       ],
       "developer": [
-        "FromSoftware", "Japan Studio"
+        "FromSoftware",
+        "Japan Studio"
       ],
       "genre": [
         "Action RPG"
@@ -3985,7 +4030,8 @@
         "PS3"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "PhyreEngine",
       "metacritic": 89,
@@ -4006,7 +4052,8 @@
         "Dennaton Games"
       ],
       "genre": [
-        "Top-down Shooter", "Indie"
+        "Top-down Shooter",
+        "Indie"
       ],
       "platforms": [
         "PC"
@@ -4033,7 +4080,9 @@
         "Cyan"
       ],
       "genre": [
-        "Graphic adventure", "Point-and-click", "Puzzle"
+        "Graphic adventure",
+        "Point-and-click",
+        "Puzzle"
       ],
       "platforms": [
         "Mac OS"
@@ -4090,10 +4139,14 @@
         "Survival-horror"
       ],
       "platforms": [
-        "PS3", "Xbox 360", "PC"
+        "PS3",
+        "Xbox 360",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Co-op", "Multiplayer"
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
       ],
       "engine": "id Tech 4",
       "metacritic": 68,
@@ -4174,7 +4227,8 @@
         "PS3"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Havok",
       "metacritic": 95,
@@ -4192,7 +4246,8 @@
         "Midway Games"
       ],
       "developer": [
-        "Midway Studios Chicago", "Tiger Hill Entertainment"
+        "Midway Studios Chicago",
+        "Tiger Hill Entertainment"
       ],
       "genre": [
         "Third-person shooter"
@@ -4201,7 +4256,8 @@
         "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Unreal Engine 3",
       "metacritic": 77,
@@ -4222,7 +4278,8 @@
         "Playdead"
       ],
       "genre": [
-        "Puzzle-platform", "Indie"
+        "Puzzle-platform",
+        "Indie"
       ],
       "platforms": [
         "Xbox One"
@@ -4249,7 +4306,8 @@
         "Konami"
       ],
       "genre": [
-        "Action", "Platform"
+        "Action",
+        "Platform"
       ],
       "platforms": [
         "Famicom Disk System"
@@ -4303,7 +4361,8 @@
         "Ninja Theory"
       ],
       "genre": [
-        "Action-adventure", "hack and slash"
+        "Action-adventure",
+        "hack and slash"
       ],
       "platforms": [
         "PS3"
@@ -4333,10 +4392,13 @@
         "Third-person shooter"
       ],
       "platforms": [
-        "PS5", "Xbox Series X/S", "PC"
+        "PS5",
+        "Xbox Series X/S",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Swarm Engine",
       "metacritic": 82,
@@ -4384,10 +4446,12 @@
         "ZeniMax Online Studios"
       ],
       "genre": [
-        "MMO", "RPG"
+        "MMO",
+        "RPG"
       ],
       "platforms": [
-        "PC", "macOS"
+        "PC",
+        "macOS"
       ],
       "modes": [
         "Multiplayer"
@@ -4417,7 +4481,8 @@
         "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "CryEngine 2",
       "metacritic": 91,
@@ -4456,7 +4521,7 @@
     "region": "WW",
     "releaseDate": "2013-03-25",
     "title": "Warframe",
-"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nhi.webp",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nhi.webp",
     "hints": {
       "publisher": [
         "Digital Extremes"
@@ -4465,13 +4530,15 @@
         "Digital Extremes"
       ],
       "genre": [
-        "TPS", "Action RPG"
+        "TPS",
+        "Action RPG"
       ],
       "platforms": [
         "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Evolution",
       "metacritic": 69,
@@ -4483,7 +4550,7 @@
     "region": "WW",
     "releaseDate": "2018-01-23",
     "title": "Subnautica",
-"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1iqw.webp",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1iqw.webp",
     "hints": {
       "publisher": [
         "Unknown Worlds Entertainment"
@@ -4492,10 +4559,12 @@
         "Unknown Worlds Entertainment"
       ],
       "genre": [
-        "Action-adventure", "Survival"
+        "Action-adventure",
+        "Survival"
       ],
       "platforms": [
-        "PC", "macOS"
+        "PC",
+        "macOS"
       ],
       "modes": [
         "Single-player"
@@ -4519,13 +4588,17 @@
         "Techland"
       ],
       "genre": [
-        "Action role-playing", "Survival horror"
+        "Action role-playing",
+        "Survival horror"
       ],
       "platforms": [
-        "PC", "PS3", "Xbox 360"
+        "PC",
+        "PS3",
+        "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Chrome Engine",
       "metacritic": 71,
@@ -4558,8 +4631,7 @@
       "metacritic": 83,
       "plot": "A young woman named Kat awakens with no memory and discovers she can manipulate gravity with the help of a mysterious cat. Using her newfound powers, she protects a floating city from monstrous creatures and strange gravitational anomalies. As she uncovers hidden truths about her past and the city's fate, Kat must defy gravity itself to save the world around her."
     }
-  }
-  ,
+  },
   {
     "date": "2025-05-02",
     "region": "WW",
@@ -4574,10 +4646,12 @@
         "Toby Fox"
       ],
       "genre": [
-        "Indie", "RPG"
+        "Indie",
+        "RPG"
       ],
       "platforms": [
-        "PC", "OS X"
+        "PC",
+        "OS X"
       ],
       "modes": [
         "Single-player"
@@ -4604,7 +4678,8 @@
         "Survival-horror"
       ],
       "platforms": [
-        "PS2", "Xbox"
+        "PS2",
+        "Xbox"
       ],
       "modes": [
         "Single-player"
@@ -4631,7 +4706,8 @@
         "Action-adventure"
       ],
       "platforms": [
-        "PS3", "Xbox 360"
+        "PS3",
+        "Xbox 360"
       ],
       "modes": [
         "Single-player"
@@ -4659,10 +4735,13 @@
         "Vehicular combat"
       ],
       "platforms": [
-        "PS3", "Xbox 360", "PC"
+        "PS3",
+        "Xbox 360",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "Horizon",
       "metacritic": 82,
@@ -4683,10 +4762,12 @@
         "Darkworks"
       ],
       "genre": [
-        "Survival-horror", "Third-person shooter"
+        "Survival-horror",
+        "Third-person shooter"
       ],
       "platforms": [
-        "PS2", "Xbox"
+        "PS2",
+        "Xbox"
       ],
       "modes": [
         "Single-player"
@@ -4701,7 +4782,7 @@
     "region": "NA",
     "releaseDate": "1999-06-22",
     "title": "Ape Escape",
-"boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gzc.webp",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gzc.webp",
     "hints": {
       "publisher": [
         "Sony Computer Entertainment"
@@ -4710,7 +4791,8 @@
         "Sony Computer Entertainment"
       ],
       "genre": [
-        "Platform", "Action-adventure"
+        "Platform",
+        "Action-adventure"
       ],
       "platforms": [
         "PS1"
@@ -4740,10 +4822,13 @@
         "Third-person shooter"
       ],
       "platforms": [
-        "PS3", "Xbox 360", "PC"
+        "PS3",
+        "Xbox 360",
+        "PC"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "",
       "metacritic": 63,
@@ -4767,10 +4852,12 @@
         "Third-person shooter"
       ],
       "platforms": [
-        "PS3", "Xbox 360"
+        "PS3",
+        "Xbox 360"
       ],
       "modes": [
-        "Single-player", "Co-op"
+        "Single-player",
+        "Co-op"
       ],
       "engine": "",
       "metacritic": 72,
@@ -4821,7 +4908,8 @@
         "FPS"
       ],
       "platforms": [
-        "Xbox 360", "PC"
+        "Xbox 360",
+        "PC"
       ],
       "modes": [
         "Single-player"
@@ -4845,10 +4933,13 @@
         "Maddy Makes Games"
       ],
       "genre": [
-        "Platformer", "Indie"
+        "Platformer",
+        "Indie"
       ],
       "platforms": [
-        "PS4", "Switch", "PC"
+        "PS4",
+        "Switch",
+        "PC"
       ],
       "modes": [
         "Single-player"
@@ -4875,10 +4966,12 @@
         "Racing"
       ],
       "platforms": [
-        "PS2", "Xbox"
+        "PS2",
+        "Xbox"
       ],
       "modes": [
-        "Single-player", "Multiplayer"
+        "Single-player",
+        "Multiplayer"
       ],
       "engine": "RenderWare",
       "metacritic": 94,
@@ -4911,5 +5004,3215 @@
       "metacritic": 71,
       "plot": "In a post-apocalyptic world overrun by feral, infected creatures, a drifter and former outlaw named Deacon rides through the ruins of society on his motorcycle. Haunted by loss and driven by love, he searches for hope, answers, and a reason to keep going. Along the way, he faces hostile survivors, harsh environments, and the ever-present threat of the horde."
     }
+  },
+  {
+    "date": "2025-05-15",
+    "region": "WW",
+    "releaseDate": "2020-03-20",
+    "title": "DOOM Eternal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "id Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC",
+        "Stadia"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 7",
+      "metacritic": 88,
+      "plot": "Humanity is on the brink of extinction as demonic forces consume Earth, and only the Doom Slayer stands in their way. Armed with brutal weapons and unmatched fury, he tears through hellish armies across dimensions to stop the invasion at its source. With ancient secrets and cosmic threats unfolding, his relentless war becomes a battle for the very soul of the universe."
+    }
+  },
+  {
+    "date": "2025-05-16",
+    "region": "WW",
+    "releaseDate": "2014-09-09",
+    "title": "Destiny",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rco.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Bungie"
+      ],
+      "genre": [
+        "FPS",
+        "MMO"
+      ],
+      "platforms": [
+        "PS4",
+        "PS3",
+        "Xbox One",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Tiger",
+      "metacritic": 76,
+      "plot": "In a future where humanity's last safe city stands beneath a mysterious celestial being called the Traveler, Guardians rise to defend it from alien threats and ancient darkness. As one of these resurrected warriors, you wield powerful abilities and high-tech weapons to explore distant worlds and reclaim lost knowledge. The fight spans galaxies, where legends are forged in the light—and tested in the shadows."
+    }
+  },
+  {
+    "date": "2025-05-17",
+    "region": "EU",
+    "releaseDate": "1997-11-28",
+    "title": "Grand Theft Auto",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lb0.webp",
+    "hints": {
+      "publisher": [
+        "BMG Interactive"
+      ],
+      "developer": [
+        "DMA Design"
+      ],
+      "genre": [
+        "FPS",
+        "MMO"
+      ],
+      "platforms": [
+        "PC",
+        "MS-DOS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": null,
+      "plot": "As an aspiring young thug, your mission in this video game is to perform odd jobs for the mob, picking up points along the way by committing random crimes ranging from auto theft to hit-and-runs to murder."
+    }
+  },
+  {
+    "date": "2025-05-18",
+    "region": "JP",
+    "releaseDate": "2000-02-10",
+    "title": "Vagrant Story",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rso.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "Square Product Development Division 4"
+      ],
+      "genre": [
+        "JRPG"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 92,
+      "plot": "A master riskbreaker named Ashley Riot is sent to investigate a cult and the mysterious city of Leá Monde, where ancient magic and political intrigue collide. As he delves deeper, memories blur and reality fractures, revealing a haunting past and a web of manipulation. Caught between truth and illusion, Ashley must uncover his role in a conflict that threatens to consume both body and soul."
+    }
+  },
+  {
+    "date": "2025-05-19",
+    "region": "JP",
+    "releaseDate": "2008-10-09",
+    "title": "Linger in Shadows",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3bch.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Plastic"
+      ],
+      "genre": [
+        "Interactive art",
+        "Indie"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Pico Engine",
+      "metacritic": 59,
+      "plot": "A surreal, interactive experience unfolds as you guide a mysterious creature through a dreamlike world filled with abstract imagery and cryptic events. Blending art, music, and hidden symbolism, it invites you to manipulate time and perspective to uncover its story. It's not about victory or defeat, but interpretation—an exploration of light, shadow, and the unknown."
+    }
+  },
+  {
+    "date": "2025-05-20",
+    "region": "JP",
+    "releaseDate": "2007-12-06",
+    "title": "Lost Odyssey",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3tos.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Mistwalker",
+        "Feelplus"
+      ],
+      "genre": [
+        "JRPG",
+        "Turn-based strategy"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 78,
+      "plot": "An immortal man named Kaim has lived for a thousand years, but remembers almost none of it. As a looming magical catastrophe threatens the world, he embarks on a journey to recover his lost memories and stop the destruction. Alongside others burdened by the same curse, he confronts both ancient grief and present danger, discovering the pain and beauty of a life that never ends."
+    }
+  },
+  {
+    "date": "2025-05-21",
+    "region": "NA",
+    "releaseDate": "2005-04-19",
+    "title": "Psychonauts",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co38t0.webp",
+    "hints": {
+      "publisher": [
+        "Majesco Entertainment"
+      ],
+      "developer": [
+        "Double Fine Productions"
+      ],
+      "genre": [
+        "Platform",
+        "Adventure",
+        "Puzzle"
+      ],
+      "platforms": [
+        "Xbox",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 88,
+      "plot": "A young boy named Raz sneaks into a secret training camp for psychic spies, determined to become one himself. As he explores the minds of others—each a strange, imaginative world—he uncovers a sinister plot threatening both the campers and their sanity. With quirky humor and heart, Raz must master his powers to save the day and prove he's meant to be a true Psychonaut."
+    }
+  },
+  {
+    "date": "2025-05-22",
+    "region": "NA",
+    "releaseDate": "2010-05-11",
+    "title": "Skate 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o4l.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "EA Black Box"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 80,
+      "plot": "In a sprawling city built for skaters, you rise from wipeouts to legend by building a skateboarding empire. With a focus on creativity, precision, and physics-based tricks, every stair set, rail, and ramp becomes a canvas. Whether solo or with a crew, it’s all about style, flow, and pushing the boundaries of what’s possible on four wheels."
+    }
+  },
+  {
+    "date": "2025-05-23",
+    "region": "JP",
+    "releaseDate": "2002-03-07",
+    "title": "Onimusha 2: Samurai's Destiny",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4qzs.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom Production Studio 2"
+      ],
+      "genre": [
+        "Action-adventure",
+        "hack and slash"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 84,
+      "plot": "Set in ancient Japan, the plot revolves around a new main protagonist, Jubei Yagyu, who is on a quest of revenge as he battles a demon army led by Nobunaga Oda, a sinister warlord who eliminated the Yagyu clan. Across his quest, Jubei learns of his oni heritage which grants him powers to slay the demons and meets new allies who also wish to defeat Nobunaga."
+    }
+  },
+  {
+    "date": "2025-05-24",
+    "region": "NA",
+    "releaseDate": "2009-03-17",
+    "title": "Grand Theft Auto: Chinatown Wars",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lba.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar Leeds"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Nintendo DS"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 93,
+      "plot": "After the death of his father, a young Triad member arrives in a crime-ridden city to deliver a family heirloom and uncover the truth behind the murder. Caught between loyalty, betrayal, and the violent world of organized crime, he climbs the ranks while navigating corrupt cops and rival gangs. In a city that never stops moving, survival means doing whatever it takes."
+    }
+  },
+  {
+    "date": "2025-05-25",
+    "region": "JP",
+    "releaseDate": "2007-11-01",
+    "title": "Super Mario Galaxy",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21ro.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo EAD Tokyo"
+      ],
+      "developer": [
+        "Nintendo"
+      ],
+      "genre": [
+        "Platform",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Wii"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "",
+      "metacritic": 97,
+      "plot": "Every hundred years, a huge comet flies by in the skies above the Mushroom Kingdom. One year, that comet filled the entire sky, and from it fell a stream of shooting stars. The Toads scooped up the Star Bits and brought them to the castle, where they were reborn as a great Power Star. It was a happy time in the Mushroom Kingdom. Then one night Mario received a letter..."
+    }
+  },
+  {
+    "date": "2025-05-26",
+    "region": "NA",
+    "releaseDate": "2017-11-17",
+    "title": "STAR WARS Battlefront II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "DICE"
+      ],
+      "genre": [
+        "FPS",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "multiplayer"
+      ],
+      "engine": "Frostbite 3",
+      "metacritic": 68,
+      "plot": "Spanning decades of galactic conflict, a soldier from an elite Imperial unit begins to question her allegiance after the fall of the Empire. Her journey weaves through key moments in a vast war, crossing paths with iconic heroes and villains. Whether fighting on the ground, in space, or as legendary characters, every battle helps shape the fate of the galaxy."
+    }
+  },
+  {
+    "date": "2025-05-27",
+    "region": "NA",
+    "releaseDate": "2013-06-25",
+    "title": "Ride to Hell: Retribution",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6p1x.webp",
+    "hints": {
+      "publisher": [
+        "Deep Silver"
+      ],
+      "developer": [
+        "Eutechnyx"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 19,
+      "plot": "A Vietnam veteran returns home to find his brother murdered by a violent biker gang. Fueled by rage, he sets out on a brutal path of revenge, tearing through anyone who stands in his way. In a world of crime, betrayal, and chaos, his mission becomes a relentless ride for justice—or payback."
+    }
+  },
+  {
+    "date": "2025-05-28",
+    "region": "NA",
+    "releaseDate": "2011-09-11",
+    "title": "Resistance 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b3y.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player",
+        "multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "In a world devastated by an alien invasion, a former soldier embarks on a desperate journey across a ruined America to deliver a weapon that could end the war. Haunted by loss and burdened with responsibility, he battles the monstrous Chimera and the crumbling remnants of humanity. As the odds grow darker, his mission becomes the last hope for human survival."
+    }
+  },
+  {
+    "date": "2025-05-29",
+    "region": "NA",
+    "releaseDate": "2000-03-28",
+    "title": "Soldier of Fortune",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5xso.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Raven Software"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 2",
+      "metacritic": null,
+      "plot": "A hardened mercenary takes on covert missions around the globe to stop a dangerous terrorist organization from unleashing weapons of mass destruction. With brutal realism and a wide arsenal, he infiltrates enemy strongholds and eliminates threats with precision. Every mission is a deadly race against time, where success means preventing global catastrophe."
+    }
+  },
+  {
+    "date": "2025-05-30",
+    "region": "WW",
+    "releaseDate": "2022-07-19",
+    "title": "Stray",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "BlueTwelve Studio"
+      ],
+      "genre": [
+        "Adventure",
+        "Cat"
+      ],
+      "platforms": [
+        "PS4",
+        "PS5",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 83,
+      "plot": "A lost cat navigates a decaying cybercity inhabited by robots, machines, and hidden dangers, searching for a way back to the surface. Alongside a small drone companion, it uncovers secrets buried beneath neon-lit alleys and forgotten technology. In a world without humans, survival depends on curiosity, agility, and uncovering the truth behind what was left behind."
+    }
+  },
+  {
+    "date": "2025-05-31",
+    "region": "JP",
+    "releaseDate": "1999-01-28",
+    "title": "Bloody Roar 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co489q.webp",
+    "hints": {
+      "publisher": [
+        "Hudson Soft"
+      ],
+      "developer": [
+        "Raizing"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "In a world where certain fighters can transform into powerful beast forms, a new tournament draws warriors with dark pasts and hidden agendas. As alliances form and rivalries ignite, each combatant battles not only for victory but for answers about a shadowy organization manipulating them. Beneath the clash of claws and fists lies a deeper struggle for identity, freedom, and survival."
+    }
+  },
+  {
+    "date": "2025-06-01",
+    "region": "NA",
+    "releaseDate": "1998-09-09",
+    "title": "Spyro the Dragon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3kmh.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "Platformer",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS1"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": null,
+      "plot": "The evil Gnasty Gnorc has turned all the dragons in the Dragon Lands into crystal. He has also stolen the dragons' gems by locking them up in chests or turning them into soldiers for his army. But he forgot about one little dragon: Spyro. Now Spyro has to travel through the dragon kingdom and free all the dragons from their crystal prison, recover the dragons' gems and defeat Gnasty Gnorc."
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "region": "WW",
+    "releaseDate": "2008-07-24",
+    "title": "Siren: Blood Curse",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2i48.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Japan Studio"
+      ],
+      "genre": [
+        "Survival-horror",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 78,
+      "plot": "A TV crew investigating a cursed Japanese village becomes trapped in a nightmarish cycle of time, haunted by undead villagers and a dark ritual. As reality fractures, the characters must survive shifting timelines and uncover the village’s grim secrets. Only by understanding the curse—and each other—can they hope to escape the horror that binds them."
+    }
+  },
+  {
+    "date": "2025-06-03",
+    "region": "NA",
+    "releaseDate": "2016-08-09",
+    "title": "No Man's Sky",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8j8v.webp",
+    "hints": {
+      "publisher": [
+        "Hello Games"
+      ],
+      "developer": [
+        "Hello Games"
+      ],
+      "genre": [
+        "Adventure",
+        "RPG",
+        "Indie"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 71,
+      "plot": "After awakening on a mysterious planet at the edge of the galaxy, an explorer begins a vast journey across countless worlds, each procedurally generated and filled with alien life, resources, and secrets. With a damaged ship and fading memories, they uncover ancient technologies and cosmic mysteries tied to a distant, enigmatic force. The universe is boundless, and the path forward is shaped by curiosity, survival, and the will to discover."
+    }
+  },
+  {
+    "date": "2025-06-04",
+    "region": "WW",
+    "releaseDate": "2021-11-19",
+    "title": "Battlefield 2042",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7dfn.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "DICE"
+      ],
+      "genre": [
+        "FPS"
+      ],
+      "platforms": [
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "PC"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Frostbite 3",
+      "metacritic": 68,
+      "plot": "In a near-future world ravaged by climate disasters and collapsing nations, stateless soldiers known as No-Pats fight for survival and influence. As global superpowers clash over dwindling resources, massive battles erupt across dynamic, ever-changing environments. With advanced technology and shifting alliances, warfare becomes unpredictable—and victory is anything but guaranteed."
+    }
+  },
+  {
+    "date": "2025-06-05",
+    "region": "NA",
+    "releaseDate": "2004-11-14",
+    "title": "Metal Gear Solid 3: Snake Eater",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5ei5.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami Computer Entertainment Japan"
+      ],
+      "genre": [
+        "Stealth",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "",
+      "metacritic": 91,
+      "plot": "In a near-future world ravaged by climate disasters and collapsing nations, stateless soldiers known as No-Pats fight for survival and influence. As global superpowers clash over dwindling resources, massive battles erupt across dynamic, ever-changing environments. With advanced technology and shifting alliances, warfare becomes unpredictable—and victory is anything but guaranteed."
+    }
+  },
+  {
+    "date": "2025-06-06",
+    "region": "WW",
+    "releaseDate": "2019-01-18",
+    "title": "ACE COMBAT 7: SKIES UNKNOWN",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ilk.webp",
+    "hints": {
+      "publisher": [
+        "Bandai Namco Entertainment"
+      ],
+      "developer": [
+        "Bandai Namco Studios"
+      ],
+      "genre": [
+        "Combat Flight Simulator"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 80,
+      "plot": "In a war-torn sky where borders blur and loyalties shift, an ace pilot becomes a key player in a high-stakes conflict between rival nations. As cutting-edge aircraft clash at supersonic speeds, the pilot uncovers conspiracies and confronts the cost of war from above. Every mission tests skill, resolve, and the fine line between hero and weapon."
+    }
+  },
+  {
+    "date": "2025-06-07",
+    "region": "WW",
+    "releaseDate": "2015-09-22",
+    "title": "SOMA",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a20.webp",
+    "hints": {
+      "publisher": [
+        "Frictional Games"
+      ],
+      "developer": [
+        "Frictional Games"
+      ],
+      "genre": [
+        "Survival horror"
+      ],
+      "platforms": [
+        "PS4",
+        "PC",
+        "Linux",
+        "OS X"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "HPL Engine 3",
+      "metacritic": 84,
+      "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
+    }
+  },
+  {
+    "date": "2025-06-08",
+    "region": "NA",
+    "releaseDate": "2011-01-19",
+    "title": "Dark Void",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2f09.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Alright Games"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 59,
+      "plot": "After waking up in an abandoned underwater facility, a man searches for answers amid flickering lights, malfunctioning machines, and eerie silence. As he uncovers the truth about a failed experiment and humanity’s last remnants, he’s forced to question what it means to be alive. In the depths of isolation, identity, and consciousness collide in a chilling descent into existential horror."
+    }
+  },
+  {
+    "date": "2025-06-09",
+    "region": "NA",
+    "releaseDate": "2004-09-21",
+    "title": "Def Jam: Fight for NY",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lis.webp",
+    "hints": {
+      "publisher": [
+        "EA Games"
+      ],
+      "developer": [
+        "AKI Corporation",
+        "EA Canada"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PS2",
+        "Xbox",
+        "PSP",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "",
+      "metacritic": 83,
+      "plot": "In the underground world of street fighting, a rising brawler gets caught in a brutal turf war between hip-hop legends and ruthless crime bosses. As respect, loyalty, and control are fought for in gritty back-alley arenas, every punch brings the fighter closer to dominance—or downfall. Style, strength, and swagger determine who rules the streets."
+    }
+  },
+  {
+    "date": "2025-06-10",
+    "region": "NA",
+    "releaseDate": "2005-03-29",
+    "title": "Tom Clancy's Splinter Cell Chaos Theory",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co95re.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "Stealth"
+      ],
+      "platforms": [
+        "PS2",
+        "Xbox",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 2",
+      "metacritic": 94,
+      "plot": "As global tensions rise and cyber warfare threatens world stability, an elite operative is sent deep behind enemy lines to stop a cascading international crisis. Armed with cutting-edge tech and unmatched stealth skills, he uncovers a conspiracy that could spark open war. In the shadows, every silent move and split-second choice could mean the difference between peace and chaos."
+    }
+  },
+  {
+    "date": "2025-06-11",
+    "region": "WW",
+    "releaseDate": "2019-06-18",
+    "title": "Bloodstained: Ritual of the Night",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5qgf.webp",
+    "hints": {
+      "publisher": [
+        "505 Games"
+      ],
+      "developer": [
+        "ArtPlay"
+      ],
+      "genre": [
+        "Action RPG",
+        "Metroidvania"
+      ],
+      "platforms": [
+        "PS4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 83,
+      "plot": "Miriam is an orphan afflicted by an alchemist's curse, which is slowly turning her skin into crystal. To stop the curse, Miriam must explore a demon-filled castle and locate its summoner, Gebel, who has suffered from the curse for a long time."
+    }
+  },
+  {
+    "date": "2025-06-12",
+    "region": "WW",
+    "releaseDate": "2013-08-15",
+    "title": "Gone Home",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/qwhxxrcxzw7inwfrfkbq.webp",
+    "hints": {
+      "publisher": [
+        "The Fullbright Company"
+      ],
+      "developer": [
+        "The Fullbright Company"
+      ],
+      "genre": [
+        "Exploration"
+      ],
+      "platforms": [
+        "PC",
+        "OS X",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 86,
+      "plot": "Returning to her family’s house after a year abroad, a young woman finds it eerily empty, with no sign of her parents or sister. As she explores the quiet, rain-soaked home, she pieces together a story told through notes, journals, and forgotten belongings. What unfolds is a deeply personal journey of love, identity, and the things we leave unsaid."
+    }
+  },
+  {
+    "date": "2025-06-13",
+    "region": "JP",
+    "releaseDate": "2007-05-10",
+    "title": "Final Fantasy Tactics: The War of the Lions",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1pn8.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "TOSE",
+        "Square Enix Product Development Division 4"
+      ],
+      "genre": [
+        "Turn‑Based Tactics",
+        "Strategy RPG"
+      ],
+      "platforms": [
+        "PlayStation Portable"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 88,
+      "plot": "A young noble cadet is drawn into a widescale civil conflict in a richly detailed kingdom, where battlefield tactics, shifting allegiances and political intrigue test his loyalties and shape his destiny as he uncovers corruption and betrayal."
+    }
+  },
+  {
+    "date": "2025-06-14",
+    "region": "NA",
+    "releaseDate": "2000-06-22",
+    "title": "Deus Ex",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co86dk.webp",
+    "hints": {
+      "publisher": [
+        "Eidos Interactive"
+      ],
+      "developer": [
+        "Ion Storm"
+      ],
+      "genre": [
+        "Action RPG",
+        "First-person shooter",
+        "Stealth"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 1",
+      "metacritic": 90,
+      "plot": "A nano-augmented agent is sent on a mission to stop a bioterrorist attack, only to uncover a sprawling global conspiracy that forces him to question who he can trust and what the future holds."
+    }
+  },
+  {
+    "date": "2025-06-15",
+    "region": "NA",
+    "releaseDate": "2012-03-06",
+    "title": "Mass Effect 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "BioWare",
+        "BioWare Edmonton"
+      ],
+      "genre": [
+        "Action RPG",
+        "Third-person shooter",
+        "Science fiction"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 89,
+      "plot": "Commanding a soldier enhanced with advanced abilities, you lead the final stand against a colossal alien threat, rallying allies across worlds. Your choices carry immense weight—shaping the fate of characters, civilizations and even Earth itself. As the war reaches its climax, cooperation and sacrifice become pivotal in determining how the galaxy endures."
+    }
+  },
+  {
+    "date": "2025-06-16",
+    "region": "WW",
+    "releaseDate": "2014-10-07",
+    "title": "Alien: Isolation",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.webp",
+    "hints": {
+      "publisher": [
+        "SEGA"
+      ],
+      "developer": [
+        "Creative Assembly"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Stealth",
+        "Survival horror"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "PS4",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "CATHODE",
+      "metacritic": 81,
+      "plot": "Set 15 years after the events of the original film, the game follows Amanda Ripley as she investigates the disappearance of her mother, Ellen Ripley, aboard the space station Sevastopol. The station is in disarray due to years of corporate negligence and the threat of a rampant alien creature. The game emphasizes stealth and survival horror gameplay, requiring the player to avoid, outsmart, and fight various enemies with equipment such as firearms, a motion tracker, stun baton, and a flamethrower."
+    }
+  },
+  {
+    "date": "2025-06-17",
+    "region": "NA",
+    "releaseDate": "2010-03-23",
+    "title": "Just Cause 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7lbb.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "Avalanche Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Third-person shooter",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Havok Physics",
+      "metacritic": 81,
+      "plot": "An operative is dropped into a sprawling island nation ruled by a dictator. Armed with a grappling hook, parachute, and an arsenal of weapons and vehicles, he must ignite chaos to spark revolution and liberate the people of Panau."
+    }
+  },
+  {
+    "date": "2025-06-18",
+    "region": "WW",
+    "releaseDate": "2021-04-01",
+    "title": "Outriders",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e4r.webp",
+    "hints": {
+      "publisher": [
+        "Square Enix"
+      ],
+      "developer": [
+        "People Can Fly"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Action RPG"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 77,
+      "plot": "In a bleak sci‑fi future, humanity sends elite operatives to colonize a hostile planet called Enoch. Betrayed and exposed to a deadly anomaly, one of these Outriders discovers superhuman powers. Teaming up with others, they fight to reclaim Earth’s hope amid fierce battles, visceral gun‑play, and deep RPG‑style progression."
+    }
+  },
+  {
+    "date": "2025-06-19",
+    "region": "NA",
+    "releaseDate": "2012-06-26",
+    "title": "Spec Ops: The Line",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2acb.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Yager Development"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Tactical shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 76,
+      "plot": "An elite Delta Force team is sent into a sandstorm-ravaged Dubai to investigate a distress signal, but as battles escalate they must confront the horrors of war and their own morality, enduring extreme sand-triggered combat and making decisions that blur the line between duty and devastation."
+    }
+  },
+  {
+    "date": "2025-06-20",
+    "region": "NA",
+    "releaseDate": "2008-10-07",
+    "title": "Fracture",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4v6f.webp",
+    "hints": {
+      "publisher": [
+        "LucasArts"
+      ],
+      "developer": [
+        "Day 1 Studios"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 63,
+      "plot": "Set in 2161, a fractured United States is divided between the Atlantic Alliance and the Pacificans following ecological disasters. Playing as Sergeant Jet Brody, a member of the Atlantic forces, you deploy futuristic weapons capable of deforming terrain to battle in strategic skirmishes and uncover devastating secrets behind the conflict."
+    }
+  },
+  {
+    "date": "2025-06-21",
+    "region": "WW",
+    "releaseDate": "2016-01-26",
+    "title": "The Witness",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3hih.webp",
+    "hints": {
+      "publisher": [
+        "Thekla, Inc."
+      ],
+      "developer": [
+        "Thekla, Inc."
+      ],
+      "genre": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 87,
+      "plot": "You awaken on a remote island covered in hundreds of interconnected puzzles. As you explore and solve line‑drawing challenges, you slowly uncover visual patterns and environmental clues that reveal hidden truths about the island and yourself."
+    }
+  },
+  {
+    "date": "2025-06-22",
+    "region": "WW",
+    "releaseDate": "1990-10-15",
+    "title": "The Secret of Monkey Island",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28bp.webp",
+    "hints": {
+      "publisher": [
+        "Lucasfilm Games"
+      ],
+      "developer": [
+        "Lucasfilm Games"
+      ],
+      "genre": [
+        "Point-and-click",
+        "Puzzle",
+        "Graphic adventure"
+      ],
+      "platforms": [
+        "Amiga",
+        "MS-DOS",
+        "Atari ST",
+        "Macintosh"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "SCUMM",
+      "metacritic": null,
+      "plot": "A young aspiring pirate arrives in a bustling Caribbean port to prove himself through a series of challenges. Along the way, he uncovers comic mysteries, confronts a legendary ghost pirate, and navigates clever dialogue puzzles to rescue a governor and discover the island’s hidden secret."
+    }
+  },
+  {
+    "date": "2025-06-23",
+    "region": "WW",
+    "releaseDate": "2013-10-08",
+    "title": "Beyond: Two Souls",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8r4w.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Quantic Dream"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Interactive drama"
+      ],
+      "platforms": [
+        "PS3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 70,
+      "plot": "A young woman bound to a supernatural entity uses her growing powers to navigate a nonlinear journey across many years. Along the way, she confronts profound mysteries, dangerous situations, and emotional scars while uncovering hidden truths about herself and those who influence her fate."
+    }
+  },
+  {
+    "date": "2025-06-24",
+    "region": "NA",
+    "releaseDate": "2003-07-16",
+    "title": "Star Wars: Knights of the Old Republic",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.webp",
+    "hints": {
+      "publisher": [
+        "LucasArts"
+      ],
+      "developer": [
+        "BioWare"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Odyssey",
+      "metacritic": 94,
+      "plot": "On the brink of galactic war four millennia before the Empire, you must master mysterious powers and lead a custom band of allies to confront a growing Sith menace. Choices matter as you navigate iconic Star Wars worlds, shaping your destiny and the fate of the Republic."
+    }
+  },
+  {
+    "date": "2025-06-25",
+    "region": "NA",
+    "releaseDate": "2004-09-22",
+    "title": "ROME: Total War",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zt9.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Creative Assembly"
+      ],
+      "genre": [
+        "Real-time tactics",
+        "Turn-based strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "TW Engine 2",
+      "metacritic": 92,
+      "plot": "You lead a burgeoning empire on a campaign spanning Europe, North Africa, and the Near East, managing diplomacy, economy, and army movement on a grand strategy map. When armies clash, battles unfold in real-time with thousands of soldiers, allowing strategic tactics to determine victory. As factions rise and fall, you shape the future of Rome through conquest and political savvy."
+    }
+  },
+  {
+    "date": "2025-06-26",
+    "region": "WW",
+    "releaseDate": "2015-07-07",
+    "title": "Rocket League",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.webp",
+    "hints": {
+      "publisher": [
+        "Psyonix"
+      ],
+      "developer": [
+        "Psyonix"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 86,
+      "plot": "You control rocket-powered cars in fast-paced arena soccer matches. Teams of up to eight compete to drive a ball into the opponent’s net using acrobatic stunts, strategic positioning, and explosive speed. With cross-platform play, customizable vehicles, and high-octane gameplay, it revolutionized competitive esports since launch."
+    }
+  },
+  {
+    "date": "2025-06-27",
+    "region": "WW",
+    "releaseDate": "2017-04-25",
+    "title": "What Remains of Edith Finch",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rbj.webp",
+    "hints": {
+      "publisher": [
+        "Annapurna Interactive"
+      ],
+      "developer": [
+        "Giant Sparrow"
+      ],
+      "genre": [
+        "Exploration",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 87,
+      "plot": "Returning to her ancestral family home, the last Finch explores interconnected vignettes detailing each relative's final moments. Each vignette uses unique mechanics that reveal emotional layers and surreal truths. Through exploration and discovery, the mystery of the family’s tragic legacy unfolds."
+    }
+  },
+  {
+    "date": "2025-06-28",
+    "region": "JP",
+    "releaseDate": "1996-06-23",
+    "title": "Super Mario 64",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co721v.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo EAD"
+      ],
+      "genre": [
+        "Platformer"
+      ],
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 90,
+      "plot": "A hero ventures into a magical castle and travels through paintings to rescue a princess from a fearsome menace. Along the way, he collects Power Stars by exploring varied worlds—leaping, flying, and solving platform-based challenges in pioneering 3D gameplay."
+    }
+  },
+  {
+    "date": "2025-06-29",
+    "region": "NA",
+    "releaseDate": "2005-11-15",
+    "title": "Shadow the Hedgehog",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1up3.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Sonic Team",
+        "Sega Studios USA"
+      ],
+      "genre": [
+        "Platform",
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PS2",
+        "GameCube",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 65,
+      "plot": "An amnesiac hedgehog with special powers joins a three‑way conflict between alien invaders, military forces, and a mad doctor, wielding weapons and vehicles in nonlinear missions that determine his loyalties and uncover the truth about his past."
+    }
+  },
+  {
+    "date": "2025-06-30",
+    "region": "NA",
+    "releaseDate": "2004-11-15",
+    "title": "Need for Speed: Underground 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co209h.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "EA Black Box"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "EAGL",
+      "metacritic": 82,
+      "plot": "In a city built for street racing culture, a young driver enters an underground scene marked by tuner cars, drift and drag challenges, and deep customization. Free-roam across diverse urban districts, take on rival crews, and rise through the ranks in high-stakes competitions that blend speed, style, and strategy."
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "region": "WW",
+    "releaseDate": "2008-01-22",
+    "title": "Burnout Paradise",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28p7.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Criterion Games"
+      ],
+      "genre": [
+        "Racing",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 88,
+      "plot": "In a vast open-world city, you tackle high-speed races, stunt challenges, and chaotic pursuits using diverse vehicles. Explore the streets, unlock events, and dominate rival players through arcade-style driving and explosive crashes."
+    }
+  },
+  {
+    "date": "2025-07-02",
+    "region": "NA",
+    "releaseDate": "2010-06-01",
+    "title": "Alpha Protocol",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25mo.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 63,
+      "plot": "A clandestine agent uncovers a global conspiracy after a mission gone wrong, forced to go rogue as he navigates espionage, lethal conflicts, and personal betrayals. His decisions shape relationships and outcomes as he fights to prevent a catastrophic event."
+    }
+  },
+  {
+    "date": "2025-07-03",
+    "region": "WW",
+    "releaseDate": "1999-02-01",
+    "title": "Crazy Taxi",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7jt6.webp",
+    "hints": {
+      "publisher": [
+        "Sega"
+      ],
+      "developer": [
+        "Hitmaker"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "Arcade",
+        "Dreamcast"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 82,
+      "plot": "Players assume the role of a taxi driver racing against time to deliver passengers across a bustling city. Earning tips involves pulling off daring stunts and precision driving. The arcade-style gameplay emphasizes fast-paced action and high-score challenges."
+    }
+  },
+  {
+    "date": "2025-07-04",
+    "region": "WW",
+    "releaseDate": "2009-06-02",
+    "title": "Red Faction: Guerrilla",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9b.webp",
+    "hints": {
+      "publisher": [
+        "THQ"
+      ],
+      "developer": [
+        "Volition"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Open world"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Geo‑Mod 2.0",
+      "metacritic": 85,
+      "plot": "Set on a colonized Mars, a revolutionary demolitions expert joins a rebellion to overthrow a brutal occupying force. Using ingenuity and destructive weaponry, he dismantles strongholds and frees territories in a sprawling, destructible environment. As the insurgency grows, he confronts the costs of war and the power of resistance."
+    }
+  },
+  {
+    "date": "2025-07-05",
+    "region": "NA",
+    "releaseDate": "2007-06-26",
+    "title": "Overlord",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co247s.webp",
+    "hints": {
+      "publisher": [
+        "Codemasters"
+      ],
+      "developer": [
+        "Triumph Studios"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360",
+        "PS3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 76,
+      "plot": "A resurrected noble emerges from his ruined stronghold to reclaim his empire with the help of mischievous minions. He conquers villages, battles heroes, and spreads corruption across the land. Player choices influence alignment and narrative outcomes amid dark humor and satirical fantasy tropes."
+    }
+  },
+  {
+    "date": "2025-07-06",
+    "region": "WW",
+    "releaseDate": "1999-04-10",
+    "title": "Rayman 2: The Great Escape",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co81im.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montpellier"
+      ],
+      "genre": [
+        "Platformer",
+        "Adventure"
+      ],
+      "platforms": [
+        "Nintendo 64",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 87,
+      "plot": "A hero journeys through a vividly realized 3D world to free his land from mechanical pirates who've enslaved its inhabitants. Utilizing acrobatic moves, combat, and puzzle-solving across diverse environments, he recovers his lost abilities and exposes a larger threat. His quest culminates in rescuing friends and restoring peace to an enchanted realm."
+    }
+  },
+  {
+    "date": "2025-07-07",
+    "region": "JP",
+    "releaseDate": "2002-03-28",
+    "title": "Tekken 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co46rs.webp",
+    "hints": {
+      "publisher": [
+        "Namco"
+      ],
+      "developer": [
+        "Namco"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "Arcade",
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 79,
+      "plot": "The latest tournament returns with interactive arenas, multilevel stages and environmental hazards. A deeper story mode unfolds involving power struggles and vengeance. Featuring a mix of veteran and new fighters, each bout tests skill, strategy and timing."
+    }
+  },
+  {
+    "date": "2025-07-08",
+    "region": "WW",
+    "releaseDate": "2012-05-15",
+    "title": "Diablo III",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2l1u.webp",
+    "hints": {
+      "publisher": [
+        "Blizzard Entertainment"
+      ],
+      "developer": [
+        "Blizzard Entertainment"
+      ],
+      "genre": [
+        "Action RPG",
+        "Hack and Slash"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 89,
+      "plot": "A hero returns to a world besieged by demonic forces, confronting hordes of evil as they chase a fallen star. Vengeance and redemption intertwine as they journey across ruined landscapes, gathering allies and powerful artifacts. Along the way, their actions shape the fate of Sanctuary in a clash of celestial and infernal destinies."
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "region": "WW",
+    "releaseDate": "1987-04-22",
+    "title": "Double Dragon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3b3h.webp",
+    "hints": {
+      "publisher": [
+        "Taito"
+      ],
+      "developer": [
+        "Technōs Japan"
+      ],
+      "genre": [
+        "Beat 'em up"
+      ],
+      "platforms": [
+        "Arcade"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "Two martial‑arts brothers fight through gangs across a dystopian urban landscape to rescue a kidnapped loved one. They punch, kick, and swing weapons in cooperative combat, battling through alleys, factories, and rooftops. Their mission culminates in confronting the final gang leader to reclaim peace."
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "region": "JP",
+    "releaseDate": "2011-09-22",
+    "title": "Dark Souls",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x78.webp",
+    "hints": {
+      "publisher": [
+        "Namco Bandai Games"
+      ],
+      "developer": [
+        "FromSoftware"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Havok",
+      "metacritic": 89,
+      "plot": "A cursed warrior escapes a nightmarish asylum and embarks on a pilgrimage through a decaying kingdom. Challenging foes and labyrinthine environments demand careful strategy and resolve. Fragmented lore and cryptic clues urge exploration and perseverance against overwhelming odds."
+    }
+  },
+  {
+    "date": "2025-07-11",
+    "region": "WW",
+    "releaseDate": "2013-06-05",
+    "title": "State of Decay",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2jpa.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Undead Labs"
+      ],
+      "genre": [
+        "Survival horror",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "CryEngine 3",
+      "metacritic": 78,
+      "plot": "In a zombie‑infested open world, survivors must scavenge for resources, fortify a base, and build a community amid constant threats. Your leadership choices determine group morale and survival chances. As the undead menace grows, every decision has lasting consequences in this tense, emergent simulation."
+    }
+  },
+  {
+    "date": "2025-07-12",
+    "region": "WW",
+    "releaseDate": "2010-03-02",
+    "title": "Battlefield: Bad Company 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xbi.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "DICE"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Tactical shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Frostbite 1.5",
+      "metacritic": 88,
+      "plot": "A modern warfare squad embarks on a mission through snowy peaks, dense jungles, and dusty villages to stop a towering super-weapon. With fully destructible environments powered by the Frostbite engine, battles are dynamic and tactical. High-octane multiplayer and a charismatic squad narrative define their desperate fight."
+    }
+  },
+  {
+    "date": "2025-07-13",
+    "region": "NA",
+    "releaseDate": "2000-08-28",
+    "title": "Mario Tennis",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21yr.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Camelot Software Planning"
+      ],
+      "genre": [
+        "Sports (Tennis)"
+      ],
+      "platforms": [
+        "N64"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "A cast of beloved characters compete in fast-paced tennis matches across vibrant 3D courts. Players can choose from multiple gameplay modes, including tournaments, exhibitions, and quirky challenges like ring shot and piranha plant practice. With intuitive controls and lively arenas, it became a hallmark of social gaming on the console."
+    }
+  },
+  {
+    "date": "2025-07-14",
+    "region": "NA",
+    "releaseDate": "2004-11-16",
+    "title": "Half-Life 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nmw.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 96,
+      "plot": "A scientist fights to overthrow an alien regime controlling Earth by navigating dystopian cityscapes and confronting deadly enemies. Armed with advanced weapons and gadgets, he teams up with resistance fighters to dismantle oppressive forces. The story blends intense action with a compelling narrative of survival and rebellion."
+    }
+  },
+  {
+    "date": "2025-07-15",
+    "region": "JP",
+    "releaseDate": "2005-10-27",
+    "title": "Shadow of the Colossus",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ozz.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Team Ico"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "A lone wanderer ventures into a forbidden land to revive a lost loved one by defeating massive colossi. Each battle is a puzzle of strategy and agility, set in an atmospheric and expansive world. The journey explores themes of sacrifice, solitude, and the consequences of defying fate."
+    }
+  },
+  {
+    "date": "2025-07-16",
+    "region": "WW",
+    "releaseDate": "2016-10-07",
+    "title": "Mafia III",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mll.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Hangar 13"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Fusion Engine",
+      "metacritic": 68,
+      "plot": "A Vietnam veteran returns to a crime-riddled city to avenge his surrogate family, destabilizing rival mob factions as he builds his own empire. Through gritty missions, chaotic combat, and driving sequences, he fights to gain control in a corrupt urban underworld. His choices and alliances define both personal vengeance and the fate of the city."
+    }
+  },
+  {
+    "date": "2025-07-17",
+    "region": "JP",
+    "releaseDate": "1998-01-29",
+    "title": "Panzer Dragoon Saga",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9sga.webp",
+    "hints": {
+      "publisher": [
+        "Sega Enterprises"
+      ],
+      "developer": [
+        "Team Andromeda"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "Sega Saturn"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A dragon rider and his companion set out on a quest through a crumbling world dominated by ancient powers. Traversing diverse landscapes, they engage in tactical, semi‑real‑time combat and uncover a secretive technology. As they confront believers and ghosts of the past, their mission reveals the fate of a lost civilization."
+    }
+  },
+  {
+    "date": "2025-07-18",
+    "region": "WW",
+    "releaseDate": "2008-09-07",
+    "title": "Spore",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ac9.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Maxis"
+      ],
+      "genre": [
+        "Life simulation",
+        "Real‑time strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Proprietary Maxis engine",
+      "metacritic": 84,
+      "plot": "From microscopic organism to spacefaring civilization, players guide a species through evolution, tribal growth, warfare, and galactic exploration. Procedural generation and user-created content drive a limitless world where every choice shapes ecology, culture, and technology. A creative sandbox experience blending strategy, simulation, and emergent storytelling."
+    }
+  },
+  {
+    "date": "2025-07-19",
+    "region": "WW",
+    "releaseDate": "2013-07-09",
+    "title": "Dota 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6ene.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "MOBA",
+        "Real-time strategy"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 90,
+      "plot": "Players control powerful heroes in 5‑v‑5 magical combat, aiming to destroy the opponent’s ancient stronghold. With dynamic itemization, strategic teamwork, and evolving battlefield conditions, outcome hinges on coordination and skill. Over years of updates, the game has become a cornerstone of competitive esports and cooperative PvE experiences."
+    }
+  },
+  {
+    "date": "2025-07-20",
+    "region": "JP",
+    "releaseDate": "2006-04-27",
+    "title": "Pro Evolution Soccer 6",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ug9.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami"
+      ],
+      "genre": [
+        "Sports"
+      ],
+      "platforms": [
+        "PS2",
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 86,
+      "plot": "A refined football simulation offering a fast-paced, realistic experience with improved AI and licensed leagues. Players can master gameplay mechanics across single‑player and online multiplayer modes. With enhanced realism and competitive depth, it became a standout title in its series."
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "region": "WW",
+    "releaseDate": "2017-02-28",
+    "title": "Horizon Zero Dawn",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2una.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Guerrilla Games"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "PS4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Decima",
+      "metacritic": 89,
+      "plot": "A skilled hunter ventures into a lush, machine-infested wild to unravel the mysteries of her origin and the downfall of ancient civilizations. She explores diverse environments, scavenges technology, and battles colossal mechanical creatures. Her journey weaves together environmental storytelling, mythic lore, and high-stakes confrontation."
+    }
+  },
+  {
+    "date": "2025-07-21",
+    "region": "WW",
+    "releaseDate": "2023-10-27",
+    "title": "Alan Wake II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6jar.webp",
+    "hints": {
+      "publisher": [
+        "Epic Games Publishing"
+      ],
+      "developer": [
+        "Remedy Entertainment"
+      ],
+      "genre": [
+        "Survival horror"
+      ],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Northlight Engine",
+      "metacritic": 89,
+      "plot": "An FBI profiler investigates a series of ritualistic murders in a small Pacific Northwest town while the famed writer tries to escape a looping nightmare by rewriting reality. Their paths intertwine in a haunting psychological thriller that blends exploration, survival‑style combat, and meta‑narrative storytelling."
+    }
+  },
+  {
+    "date": "2025-07-22",
+    "region": "WW",
+    "releaseDate": "2019-09-10",
+    "title": "Gears 5",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2oz5.webp",
+    "hints": {
+      "publisher": [
+        "Xbox Game Studios"
+      ],
+      "developer": [
+        "The Coalition"
+      ],
+      "genre": [
+        "Third‑person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 84,
+      "plot": "A seasoned soldier breaks away from her command to uncover a personal mystery and unravel a new threat to her home world. She traverses diverse environments—from frozen wastes to dense jungles—while discovering hidden secrets behind enemy forces. With a tactical squad at her side and multiple gameplay modes, she must rally allies across battlefronts to protect what remains."
+    }
+  },
+  {
+    "date": "2025-07-23",
+    "region": "EU",
+    "releaseDate": "2003-05-23",
+    "title": "Silent Hill 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5wkq.webp",
+    "hints": {
+      "publisher": [
+        "Konami"
+      ],
+      "developer": [
+        "Konami Computer Entertainment Tokyo"
+      ],
+      "genre": [
+        "Survival horror"
+      ],
+      "platforms": [
+        "PS2",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 85,
+      "plot": "A teenager returns to a sinister mist-shrouded town to uncover the truth about her origins and confront a cult that binds the town in nightmares. As reality fractures, hallucinatory horrors and puzzles warp perception and meaning. Solving cryptic clues and surviving grotesque encounters forces a journey into identity, fear, and a deep-rooted ritual legacy."
+    }
+  },
+  {
+    "date": "2025-07-24",
+    "region": "NA",
+    "releaseDate": "2008-10-21",
+    "title": "Far Cry 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vpo.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Dunia",
+      "metacritic": 85,
+      "plot": "A mercenary is sent to a conflict-torn African country to eliminate a notorious arms dealer. Battling malaria, shifting loyalties, and unpredictable violence, the struggle tests survival instincts. Players navigate a vast open world filled with factional politics, emergent trust and betrayal, and destructible environments."
+    }
+  },
+  {
+    "date": "2025-07-25",
+    "region": "JP",
+    "releaseDate": "1988-12-09",
+    "title": "Ninja Gaiden",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5053.webp",
+    "hints": {
+      "publisher": [
+        "Tecmo"
+      ],
+      "developer": [
+        "Tecmo"
+      ],
+      "genre": [
+        "Platform"
+      ],
+      "platforms": [
+        "NES"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A skilled ninja travels to America to avenge his father by finding hidden statues that, when united, can unleash an ancient demonic power. Battling cultists, supernatural enemies, and elaborate platforming challenges, he follows clues across shadowed cities and remote jungles. Cinematic cutscenes punctuate the journey in this fast-paced side-scroller known for its visual storytelling and demanding gameplay."
+    }
+  },
+  {
+    "date": "2025-07-26",
+    "region": "NA",
+    "releaseDate": "2002-11-18",
+    "title": "Metroid Prime",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Retro Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "FPS"
+      ],
+      "platforms": [
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 96,
+      "plot": "A lone bounty hunter investigates a derelict space station orbiting a seemingly deserted planet, uncovering experiments with an alien substance called Phazon. As she explores lush biomes and hostile environments, she acquires new abilities and technologies to access deeper areas. The adventure combines exploration, puzzle-solving, and combat into a cohesive, atmospheric sci‑fi first‑person journey."
+    }
+  },
+  {
+    "date": "2025-07-27",
+    "region": "NA",
+    "releaseDate": "2005-09-26",
+    "title": "Sly 3: Honor Among Thieves",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p0q.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sucker Punch Productions"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 83,
+      "plot": "A master thief reunites with allies to perform a daring global heist on a remote island. Between ship battles, disguises, and high-stakes stealth missions, they uncover their family’s hidden legacy. With branching narrative moments and unlockable mini-games, the adventure blends cinematic flair and cooperative gameplay."
+    }
+  },
+  {
+    "date": "2025-07-28",
+    "region": "WW",
+    "releaseDate": "2016-03-08",
+    "title": "Tom Clancy’s The Division",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yvf.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Massive Entertainment",
+        "Red Storm Entertainment"
+      ],
+      "genre": [
+        "Third-person shooter",
+        "Action RPG"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Snowdrop",
+      "metacritic": null,
+      "plot": "Agents trained by a secret civil defense unit are deployed to reclaim and restore a pandemic-ravaged New York City. They must scavenge, upgrade gear, and navigate a criminal underworld as factions vie for control. The Dark Zone forces decisions between cooperation and betrayal in a shared-open world mission."
+    }
+  },
+  {
+    "date": "2025-07-29",
+    "region": "NA",
+    "releaseDate": "2003-09-16",
+    "title": "The Simpsons: Hit & Run",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2uk7.webp",
+    "hints": {
+      "publisher": [
+        "Vivendi Universal Games"
+      ],
+      "developer": [
+        "Radical Entertainment"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Driving"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Pure3D",
+      "metacritic": 78,
+      "plot": "Characters traverse a fully explorable Springfield in a mission‑based driving game packed with humor, side‑quests, and collectibles. An alien conspiracy involving Buzz Cola and mysterious spy cameras unfolds through vehicle chases and on‑foot investigation. The style blends cartoon satire, sandbox gameplay, and episodic storytelling."
+    }
+  },
+  {
+    "date": "2025-07-30",
+    "region": "NA",
+    "releaseDate": "2004-11-30",
+    "title": "Prince of Persia: Warrior Within",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9x1a.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "PC",
+        "PS2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Dunia",
+      "metacritic": 83,
+      "plot": "A prince flees a time‑manipulating curse while hunted by a relentless incarnation of fate across a dark, dangerous island. He gains powerful sand‑based abilities and mastery of dual-wield combat to survive cultists, monsters, and fragmented environments. Through nonlinear exploration and brutal encounters, he confronts destiny amid emergent choices and game‑shaping decisions."
+    }
+  },
+  {
+    "date": "2025-07-31",
+    "region": "NA",
+    "releaseDate": "1999-08-13",
+    "title": "Legacy of Kain: Soul Reaver",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yal.webp",
+    "hints": {
+      "publisher": [
+        "Eidos Interactive"
+      ],
+      "developer": [
+        "Crystal Dynamics"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PlayStation",
+        "PC",
+        "Dreamcast"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "A vampiric wraith seeks revenge on his former master across haunted realms, shifting between physical and spectral planes to solve puzzles, battle undead foes, and uncover dark secrets about destiny and betrayal."
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "region": "NA",
+    "releaseDate": "2007-11-12",
+    "title": "BlackSite: Area 51",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5x84.webp",
+    "hints": {
+      "publisher": [
+        "Midway Games"
+      ],
+      "developer": [
+        "Midway Studios Austin"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 60,
+      "plot": "A squad of elite soldiers is dispatched to reclaim a base overrun by alien‑mutated paradisiacal militia and monstrous creatures. As the mission unfolds, internal dissent and political cover‑ups mirror the moral fog of war. The mission apex reveals that the alien threat and government lies intertwine, forcing choices that redefine trust and duty."
+    }
+  },
+  {
+    "date": "2025-08-02",
+    "region": "WW",
+    "releaseDate": "2022-12-02",
+    "title": "Marvel's Midnight Suns",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ofr.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Firaxis Games"
+      ],
+      "genre": [
+        "Tactical role‑playing"
+      ],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single‑player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 83,
+      "plot": "You lead a customizable hero through supernatural combat missions and social exploration among legendary heroes in a haunted abbey. Turn-based card‑driven battles require strategic choices as you build relationships and unlock abilities. As a demonic threat looms, your team must balance friendship and fury to stop a cosmic apocalypse."
+    }
+  },
+  {
+    "date": "2025-08-03",
+    "region": "WW",
+    "releaseDate": "2018-06-15",
+    "title": "Among Us",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.webp",
+    "hints": {
+      "publisher": [
+        "Innersloth"
+      ],
+      "developer": [
+        "Innersloth"
+      ],
+      "genre": [
+        "Party",
+        "Social deduction"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Unity",
+      "metacritic": 85,
+      "plot": "Players take on the roles of colorful crewmates on a spaceship completing mundane tasks, while one or more impostors lurk among them. Crewmates must identify and vote out impostors before they sabotage the mission or eliminate everyone. The social gameplay hinges on communication, deceit, and deduction in isolated settings."
+    }
+  },
+  {
+    "date": "2025-08-04",
+    "region": "NA",
+    "releaseDate": "2002-09-01",
+    "title": "Turok: Evolution",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3p.webp",
+    "hints": {
+      "publisher": [
+        "Acclaim Entertainment"
+      ],
+      "developer": [
+        "Acclaim Studios Austin",
+        "RFX Interactive (GBA)"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Action-adventure (GBA)"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "Xbox",
+        "GameCube",
+        "Game Boy Advance",
+        "Microsoft Windows"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 60,
+      "plot": "In this prequel to the Turok series, Tal'Set, a Native American warrior, battles Captain Tobias Bruckner in 1886 Texas. A rift opens, transporting Tal'Set to the Lost Lands, where he allies with the River Village to combat Lord Tyrannus and his reptilian forces, uncovering the origins of the Turok lineage."
+    }
+  },
+  {
+    "date": "2025-08-05",
+    "region": "WW",
+    "releaseDate": "2016-02-05",
+    "title": "XCOM 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Firaxis Games"
+      ],
+      "genre": [
+        "Turn-based tactics"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 88,
+      "plot": "Set 20 years after the events of *XCOM: Enemy Unknown*, Earth has fallen under alien rule. As the commander of the resistance, players must rebuild XCOM, leading a guerrilla war against the alien occupation to reclaim Earth and restore humanity's freedom."
+    }
+  },
+  {
+    "date": "2025-08-06",
+    "region": "WW",
+    "releaseDate": "2004-11-16",
+    "title": "Vampire: The Masquerade – Bloodlines",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n14.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Troika Games"
+      ],
+      "genre": [
+        "Action role-playing"
+      ],
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Source",
+      "metacritic": 80,
+      "plot": "Set in White Wolf Publishing's World of Darkness, the game follows a human who is killed and revived as a fledgling vampire. The game depicts the fledgling's journey through early 21st-century Los Angeles to uncover the truth behind a recently discovered relic that heralds the end of all vampires."
+    }
+  },
+  {
+    "date": "2025-08-07",
+    "region": "WW",
+    "releaseDate": "2008-07-10",
+    "title": "Shin Megami Tensei: Persona 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u07.webp",
+    "hints": {
+      "publisher": [
+        "Atlus"
+      ],
+      "developer": [
+        "Atlus"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 90,
+      "plot": "Inaba, a quiet town in rural Japan, is shaken by a series of mysterious murders. As a transfer student, you and your friends discover a supernatural world within television screens. Balancing daily life with dungeon exploration, you must uncover the truth behind the murders and the enigmatic Midnight Channel."
+    }
+  },
+  {
+    "date": "2025-08-08",
+    "region": "WW",
+    "releaseDate": "2017-09-29",
+    "title": "Cuphead",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
+    "hints": {
+      "publisher": [
+        "Studio MDHR"
+      ],
+      "developer": [
+        "Studio MDHR"
+      ],
+      "genre": [
+        "Run and gun",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "Unity",
+      "metacritic": 88,
+      "plot": "Two brothers, Cuphead and Mugman, must repay their debt to the devil by battling a series of challenging bosses across fantastical worlds, using their unique weapons and abilities in this challenging run-and-gun adventure."
+    }
+  },
+  {
+    "date": "2025-08-09",
+    "region": "WW",
+    "releaseDate": "2015-03-26",
+    "title": "Pillars of Eternity",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8tzg.webp",
+    "hints": {
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "Microsoft Windows",
+        "macOS",
+        "Linux"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unity",
+      "metacritic": 85,
+      "plot": "Set in the fantasy world of Eora, the game follows a protagonist known as the Watcher, who has the ability to see souls and memories. The story unfolds in the Dyrwood region, where a mysterious phenomenon causes infants to be born without souls, leading to widespread panic and political unrest. As the Watcher, players explore ancient ruins, uncover hidden truths, and navigate complex moral choices that impact the fate of the world."
+    }
+  },
+  {
+    "date": "2025-08-10",
+    "region": "WW",
+    "releaseDate": "2008-10-20",
+    "title": "Midnight Club: Los Angeles",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcu.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Rockstar San Diego",
+        "Rockstar London"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PlayStation Portable"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RAGE",
+      "metacritic": 81,
+      "plot": "A street racer navigates an expansive, open-world depiction of Los Angeles, competing in illegal races, customizing vehicles, and rising through underground ranks. With dynamic weather and day-night cycles, the city’s neighborhoods become your racetrack as rivals and the police challenge you at every turn. Player reputation, vehicle upgrades, and mastery of shortcuts define your journey to become the city's top driver."
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "region": "NA",
+    "releaseDate": "2012-02-07",
+    "title": "The Darkness II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mxv.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Digital Extremes"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PS3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Evolution Engine",
+      "metacritic": 80,
+      "plot": "A mafia don wielding an ancient supernatural power unleashes devastating ‘Darkness’ abilities in a visceral, graphic-noir shooter. Quests for vengeance and truth spiral into a brutal conspiracy as he confronts enemies both human and demonic. Quad-wielding chaos meets moral decay in a stylized horror tale of corruption, power, and fate."
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "region": "WW",
+    "releaseDate": "2015-11-10",
+    "title": "Fallout 4",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Bethesda Game Studios"
+      ],
+      "genre": [
+        "Action RPG",
+        "Open world"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Creation Engine",
+      "metacritic": 87,
+      "plot": "You emerge as the sole survivor from underground vault isolation into a devastated, post-nuclear Boston, determined to reunite with family. As the world rebuilds around you, you must navigate warring factions, expand settlements, and make impactful choices in a dynamic open world. From scavenging ruins to crafting weapons and building communities, your journey shapes the fate of the Commonwealth."
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "region": "WW",
+    "releaseDate": "2023-06-06",
+    "title": "Amnesia: The Bunker",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5us3.webp",
+    "hints": {
+      "publisher": [
+        "Frictional Games"
+      ],
+      "developer": [
+        "Frictional Games"
+      ],
+      "genre": [
+        "Survival horror",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "HPL 3.5",
+      "metacritic": 77,
+      "plot": "A soldier trapped in a WWI bunker must survive an ever-present, adaptive monster by scavenging resources, managing a generator, and planning escape routes. Each decision and improvisation alter the horror experience, blending emergent sandbox gameplay with tense stealth. With darkness as a weapon and tools as lifelines, survival hinges on quick wits in a claustrophobic nightmare."
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "region": "WW",
+    "releaseDate": "2003-10-15",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.webp",
+    "hints": {
+      "publisher": [
+        "Rockstar Games"
+      ],
+      "developer": [
+        "Remedy Entertainment"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox",
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Max-FX 2.0 (PC), RenderWare + Havok (console)",
+      "metacritic": 86,
+      "plot": "An embittered detective returns to the NYPD and falls into a fractured conspiracy while haunted by nightmares and reunited with a presumed-dead assassin. Between cinematic bullet-time gunfights and noir narration, alliances blur as they chase truths buried in tragedy. The narrative weaves a film-noir love story of fate, betrayal, and redemption set against a backdrop of gritty urban decay."
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "region": "JP",
+    "releaseDate": "2000-12-23",
+    "title": "The Bouncer",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2j.webp",
+    "hints": {
+      "publisher": [
+        "Square"
+      ],
+      "developer": [
+        "DreamFactory"
+      ],
+      "genre": [
+        "Beat 'em up",
+        "Action role-playing"
+      ],
+      "platforms": [
+        "PS2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 66,
+      "plot": "A group of club bouncers springs into action when a special-forces team crashes through a roof to abduct a young girl. Their rescue mission unfolds across highly cinematic stages that mix dramatic cutscenes with beat-’em-up combat. Unique character perspectives and fast camera cuts shape an experimental action-movie experience."
+    }
+  },
+  {
+    "date": "2025-08-16",
+    "region": "WW",
+    "releaseDate": "2017-08-29",
+    "title": "ARK: Survival Evolved",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co493k.webp",
+    "hints": {
+      "publisher": [
+        "Studio Wildcard"
+      ],
+      "developer": [
+        "Studio Wildcard"
+      ],
+      "genre": [
+        "Survival",
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PS4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 68,
+      "plot": "Stranded on a mysterious island teeming with prehistoric creatures, survivors must scavenge resources, craft tools, tame dinosaurs, and build shelters to endure the elements. Alliances form as tribes challenge and collaborate within a massive open world that blends survival instincts with emergent online conflicts. With relentless threats and untamed ecosystems, every day becomes a desperate struggle for dominance or coexistence in this hostile paradise."
+    }
+  },
+  {
+    "date": "2025-08-17",
+    "region": "NA",
+    "releaseDate": "2009-11-03",
+    "title": "Dragon Age: Origins",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "BioWare Edmonton"
+      ],
+      "genre": [
+        "Role-playing"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360",
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Eclipse Engine",
+      "metacritic": 86,
+      "plot": "A hero from diverse origins joins an ancient order to battle a monstrous scourge gripping a fractured land. Survival hinges on uniting unlikely allies through strategy, tough moral choices, and tactical combat in a richly-realized fantasy setting. Each decision echoes across the realm as shadows of corruption threaten to consume every faction."
+    }
+  },
+  {
+    "date": "2025-08-18",
+    "region": "NA",
+    "releaseDate": "2004-11-09",
+    "title": "Halo 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x77.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Bungie"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "Xbox",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Havok Physics",
+      "metacritic":  95,
+      "plot": "A hero returns to a galactic war torn by new threats and shifting alliances, where enemies become unlikely allies and betrayal lurks around every corner. As battles rage across both familiar and alien battlefields, he must navigate moral complexities and fierce combat in a universe on the brink. Legendary weapons, vehicle combat, and an evolving online battlefield define his harrowing struggle for survival and legacy."
+    }
+  },
+  {
+  "date": "2025-08-19",
+  "region": "NA",
+  "releaseDate": "2007-05-29",
+  "title": "Forza Motorsport 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39yh.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Turn 10 Studios"
+    ],
+    "genre": [
+      "Racing"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Players take control of a wide variety of realistic vehicles to compete in races across diverse tracks and environments. The game emphasizes precision driving, car customization, and competition against both AI and human opponents. Success requires mastering handling, strategy, and adapting to dynamic racing conditions."
   }
+},
+	{
+  "date": "2025-08-20",
+  "region": "NA",
+  "releaseDate": "2013-01-15",
+  "title": "DmC: Devil May Cry",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u77.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Ninja Theory"
+    ],
+    "genre": [
+      "Action",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 83,
+    "plot": "A young man discovers his demonic heritage and battles powerful enemies to protect humanity from infernal forces. As he learns to control his abilities, he confronts both personal and cosmic conflicts. The journey challenges him to master combat skills, unravel mysteries, and face formidable foes in a dark, urban world."
+  }
+},
+	{
+  "date": "2025-08-21",
+  "region": "NA",
+  "releaseDate": "2010-10-19",
+  "title": "Fallout: New Vegas",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u60.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360",
+      "PS3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Gamebryo",
+    "metacritic": 84,
+    "plot": "In a post-nuclear Mojave Wasteland, a courier left for dead discovers a web of competing factions vying to control a desert metropolis built on the ruins of Las Vegas. Armed with alliances, reputation, and survival skills, they choose alliances or chart their own path through a world that rewards both power and pragmatism. Every decision reverberates across the landscape, reshaping the fate of the new frontier."
+  }
+},
+	{
+  "date": "2025-08-22",
+  "region": "NA",
+  "releaseDate": "2002-10-30",
+  "title": "Age of Mythology",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co907c.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Ensemble Studios"
+    ],
+    "genre": [
+      "Real-time strategy"
+    ],
+    "platforms": [
+      "PC",
+      "macOS"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "BANG!",
+    "metacritic": 89,
+    "plot": "A mythic commander embarks on a quest across ancient lands where gods, monsters, and legendary heroes collide. Commanding civilizations such as Greeks, Egyptians, and Norse—each with unique mythological powers—players wage war through deity-bestowed miracles and strategic troop management. The journey blends epic feats, divine intervention, and tactical dominance amid a richly imagined ancient world."
+  }
+},
+	{
+  "date": "2025-08-23",
+  "region": "NA",
+  "releaseDate": "2011-09-28",
+  "title": "The Binding of Isaac",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qll.webp",
+  "hints": {
+    "publisher": [
+      "Edmund McMillen"
+    ],
+    "developer": [
+      "Edmund McMillen",
+      "Florian Himsl"
+    ],
+    "genre": [
+      "Roguelike",
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PC",
+      "macOS",
+      "Linux"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Adobe Flash",
+    "metacritic": 84,
+    "plot": "A terrified child flees into his dark basement to escape his fanatical mother, embarking on a nightmarish journey through ever-changing, monster-filled dungeons. Armed only with tears and strange power-grants, he adapts and evolves to survive. Each descent through the depths is unpredictable, blending grotesque encounters, hidden treasures, and brutal challenges in a twisted roguelike odyssey."
+  }
+},
+{
+  "date": "2025-08-24",
+  "region": "NA",
+  "releaseDate": "2006-11-17",
+  "title": "Resistance: Fall of Man",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4m.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "In-house engine",
+    "metacritic": 86,
+    "plot": "A hardened soldier becomes humanity’s first weapon in a battle against a horrifying alien invasion spreading across post-war Britain. Armed with experimental weaponry and newfound resilience, he must sever the Chimera’s grip on the nation. Fast-paced firefights, tense environments, and widescreen cinematic flair define the struggle in this acclaimed PS3 launch title."
+  }
+},
+{
+  "date": "2025-08-25",
+  "region": "NA",
+  "releaseDate": "2017-12-01",
+  "title": "Xenoblade Chronicles 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o5h.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Monolith Soft"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "On a world made of living Titans drifting above endless clouds, a scavenger forms a bond with a sentient weapon. Together, they embark on a sprawling journey to reach a mythical paradise beyond the World Tree. Along the way, they forge alliances, uncover ancient legacies, and wield powers born of human-Blade symbiosis in an epic fight for survival."
+  }
+},
+	{
+  "date": "2025-08-26",
+  "region": "NA",
+  "releaseDate": "2009-09-15",
+  "title": "Wet",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6yld.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Artificial Mind & Movement"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Build",
+    "metacritic": 69,
+    "plot": "A skilled operative dives into frenetic gunplay and sword-wielding stunts amid stylized, horror-tinged action. Fluid acrobatics—slides, wall-runs, jumps—trigger cinematic slow-motion sequences where she dispatches enemies with flair and bloodied precision. Shot-through levels unfold like pulpy action films, each move designed to elevate the spectacle and intensity."
+  }
+},
+	{
+  "date": "2025-08-27",
+  "region": "NA",
+  "releaseDate": "2004-09-21",
+  "title": "Full Spectrum Warrior",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h7d.webp",
+  "hints": {
+    "publisher": [
+      "THQ"
+    ],
+    "developer": [
+      "Pandemic Studios"
+    ],
+    "genre": [
+      "Real-time tactics"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Havok 2",
+    "metacritic": 80,
+    "plot": "A squad leader directs two infantry fire-teams through intense urban warfare in a fictional desert nation, using realistic tactics and battlefield communication instead of direct aiming. With emphasis on coordination and terrain advantage, commanders must outmaneuver terrorists through split-second decisions and terrain awareness. The result is a gritty, cinematic experience blending military simulation with emergent real-time strategy."
+  }
+},
+	{
+  "date": "2025-08-28",
+  "region": "NA",
+  "releaseDate": "2018-10-19",
+  "title": "Soulcalibur VI",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1x6j.webp",
+  "hints": {
+    "publisher": [
+      "Bandai Namco Entertainment"
+    ],
+    "developer": [
+      "Bandai Namco Studios"
+    ],
+    "genre": [
+      "Fighting"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 85,
+    "plot": "Warriors from across time converge in a reimagining of a legendary weapon-based tournament, where the edge of every blade foretells fate. Each combatant battles through stages rooted in mythology and turmoil, wielding power drawn from their inner convictions. The clash of steel, strategy, and story brings swordsmanship and soul into a timeless, dramatic contest."
+  }
+},
+	{
+  "date": "2025-08-29",
+  "region": "NA",
+  "releaseDate": "2014-09-30",
+  "title": "Middle-earth: Shadow of Mordor",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20pd.webp",
+  "hints": {
+    "publisher": [
+      "Warner Bros. Interactive Entertainment"
+    ],
+    "developer": [
+      "Monolith Productions"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Open-world"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "LithTech Jupiter EX",
+    "metacritic": 84,
+    "plot": "A ranger resurrected alongside a spectral wraith embarks on a revenge-fueled journey across a perilous Mordor, navigating orc clans, espionage, and betrayal. The world remembers: enemies adapt and rise through the ranks in response to player actions, forging uniquely personal vendettas. Blending visceral combat and mythology, every confrontation reshapes the shape of vengeance in this dark Middle-earth chronicle."
+  }
+},
+	{
+  "date": "2025-08-30",
+  "region": "NA",
+  "releaseDate": "2020-06-19",
+  "title": "The Last of Us Part II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Survival"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Years after finding sanctuary, a survivor is drawn back into a brutal cycle of vengeance sparked by a catastrophic event. Traversing hostile environments and facing moral decay, they uncover and confront buried truths through physically and emotionally punishing encounters. The journey challenges ideas of forgiveness, empathy, and the weight of one's choices amid a world fractured by loss."
+  }
+}
+
+
+
+
+
 ]

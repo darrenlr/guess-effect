@@ -1,0 +1,25 @@
+name: Validate JSON Titles
+
+on:
+  pull_request:
+    paths:
+      - 'data/gameData.json'
+  push:
+    paths:
+      - 'data/gameData.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run title validation script
+        run: node scripts/validate-titles.js

@@ -7,6 +7,7 @@ import GameOverModal from "./GameOverModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import usePlayerStats from "../hooks/usePlayerStats";
 import { stripBrackets } from '../utils/stringUtils';
+import { normaliseString } from '../utils/normaliseString';
 import styles from "../styles/ScoreSystem.module.css";
 
 import { doc, getDoc, updateDoc, setDoc } from 'firebase/firestore';
@@ -34,7 +35,7 @@ const initialGameState = {
 		engine: true,
 		metacritic: true,
 		plot: false,
-		boxArt: 40,
+		boxArt: 20,
 		points: 100,
 	},
 	life: {
@@ -357,8 +358,11 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 	};
 
 	const handleGuess = (guess) => {
-		const cleanedGuess = stripBrackets(guess).toLowerCase();
-		const cleanedGameTitle = stripBrackets(game.title).toLowerCase();
+		const cleanedGuess = normaliseString(stripBrackets(guess));
+		const cleanedGameTitle = normaliseString(stripBrackets(game.title));
+
+		console.log(`Guess: ${cleanedGuess}, Game Title: ${cleanedGameTitle}`);
+		console.log(cleanedGuess === cleanedGameTitle);
 
 		if (cleanedGuess === cleanedGameTitle) {
 			handleGameOver(false);

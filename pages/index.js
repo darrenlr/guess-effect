@@ -4,100 +4,133 @@ import ScoreSystem from "../components/ScoreSystem";
 import ArchivedGame from "../components/ArchivedGame";
 import MessageModal from "../components/MessageModal";
 import useLocalStorage from "../hooks/useLocalStorage";
+import Script from "next/script";
 import Footer from "../components/Footer";
 
-
 const initialGameHistory = {
-	wins: 0,
-	games: 0,
-   currentStreak: 0,
-   longestStreak:0,
-	scores: [],
-  };
+  wins: 0,
+  games: 0,
+  currentStreak: 0,
+  longestStreak: 0,
+  scores: [],
+};
 
 const Home = () => {
-   const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
-   const [game, setGame] = useState(null);
-   const [loading, setLoading] = useState(false);
-   const [error, setError] = useState(null);
-   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
+  const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
+  const [game, setGame] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
 
-   useEffect(() => {
-      const fetchGameInfo = async (date) => {
-        setLoading(true);
-         try {
-            const res = await fetch(`/api/getGameInfo?date=${date}`);
-            if (!res.ok) {
-              throw new Error(`Failed to fetch game for date: ${date}`);
-            }    
-            const data = await res.json();
-            setGame(data);
-         } catch (error) {
-            console.error(error);
-         } finally {
-          setLoading(false);
-        }  
-      };
+  useEffect(() => {
+    const fetchGameInfo = async (date) => {
+      setLoading(true);
+      try {
+        const res = await fetch(`/api/getGameInfo?date=${date}`);
+        if (!res.ok) {
+          throw new Error(`Failed to fetch game for date: ${date}`);
+        }
+        const data = await res.json();
+        setGame(data);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-      fetchGameInfo(selectedDate);
-   }, [selectedDate]);
+    fetchGameInfo(selectedDate);
+  }, [selectedDate]);
 
-   const isArchiveGame = selectedDate !== new Date().toISOString().split("T")[0];
+  const isArchiveGame = selectedDate !== new Date().toISOString().split("T")[0];
 
-   return (
-      <>
-        <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
-
-        <MessageModal
-          messageKey="message_v1"
-          messageContent={
-            <>
-              <div style={{ fontSize: "1.4rem" }}>
-                Game archives are now <strong>LIVE</strong>!
-              </div>
-              <div style={{ marginTop: "1.8rem"}}>
-                Access via the calendar icon in the nav bar.
-              </div>
-            </>
-          }
-        />
+  return (
+    <>
+      <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
 
 
-          {loading ? (
-          <div className="loading-container">
-            <p className="loader"></p>
-          </div>
-        ) : game ? (
-          isArchiveGame ? (
-            <ArchivedGame 
-              game={game} 
-              gameHistory={gameHistory}
-              setGameHistory={setGameHistory}
-            />
-          ) : (
-            <ScoreSystem
-              game={game}
-              gameHistory={gameHistory}
-              setGameHistory={setGameHistory}
-            />
-          )
+      {/* SEO: Hidden keyword section */}
+      <section className="sr-only">
+        <h1>Daily Video Game Guessing Game</h1>
+        <p>
+          Welcome to Guess Effect – the daily video game guessing game where you
+          guess the title from its release date, hints, and clues. Trade points
+          for hints, challenge friends, and see if you can keep your streak alive.
+        </p>
+      </section>
+
+      {/* SEO: Structured Data for Bing/Google */}
+      <Script type="application/ld+json" id="game-schema" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Game",
+          "name": "Guess Effect – Daily Video Game Guessing Game",
+          "description":
+            "Play Guess Effect, the daily video game guessing game where you guess the title from its release date and clues.",
+          "url": "https://guesseffect.wtf"
+        })}
+      </Script>
+
+
+      <MessageModal
+        messageKey="message_v1"
+        messageContent={
+          <>
+            <div style={{ fontSize: "1.4rem" }}>
+              Game archives are now <strong>LIVE</strong>!
+            </div>
+            <div style={{ marginTop: "1.8rem" }}>
+              Access via the calendar icon in the nav bar.
+            </div>
+          </>
+        }
+      />
+
+      {loading ? (
+        <div className="loading-container">
+          <p className="loader"></p>
+        </div>
+      ) : game ? (
+        isArchiveGame ? (
+          <ArchivedGame
+            game={game}
+            gameHistory={gameHistory}
+            setGameHistory={setGameHistory}
+          />
         ) : (
-          <div className="loading-container">
+          <ScoreSystem
+            game={game}
+            gameHistory={gameHistory}
+            setGameHistory={setGameHistory}
+          />
+        )
+      ) : (
+        <div className="loading-container">
 
           <div className="error-container">
-            <p className="error-message">Your princess is in another castle! 
+            <p className="error-message">Your princess is in another castle!
               <br></br>
-              <br></br> 
-                No game found for the selected date.
+              <br></br>
+              No game found for the selected date.
             </p>
           </div>
-          </div>
-        )}
+        </div>
+      )}
 
-        
-        <Footer />
 
-        <style jsx>{`
+      <Footer />
+
+      <style jsx>{`
+        .sr-only {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          border: 0;
+        }
         .loading-container {
             display: flex;
             justify-content: center;
@@ -189,9 +222,9 @@ const Home = () => {
   }
 
         `}</style>
-      </>
-    );
-    
+    </>
+  );
+
 };
 
 export default Home;
