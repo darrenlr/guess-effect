@@ -8351,5 +8351,33 @@
       "metacritic": 73,
       "plot": "A branded outcast wields branded powers and fights his way through demonic forces unleashed by a fallen god in a dark fantasy realm. As he traverses interconnected halls and forgotten cathedrals, every strategic swing and spell draws him closer to confronting ancient gods. The journey fuses righteous determination with brutal combat in a mythic struggle for redemption."
     }
+  },
+  {
+  "date": "2025-09-05",
+  "region": "NA",
+  "releaseDate": "2005-10-18",
+  "title": "Jak X: Combat Racing",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27zt.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Vehicular combat"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Kinetica",
+    "metacritic": 76,
+    "plot": "After being poisoned by their late patron, a pair of allies must race in a deadly championship, competing in armed vehicles across chaotic circuits for an antidote. Along the way, they dodge traps, unleash weaponized upgrades, and face fierce rivals in explosive, stylish combat. Every race is a survival spectacle where cunning, speed, and firepower determine who lives — or dies — behind the wheel."
   }
+}
 ]
