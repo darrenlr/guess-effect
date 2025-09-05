@@ -8379,5 +8379,34 @@
     "metacritic": 76,
     "plot": "After being poisoned by their late patron, a pair of allies must race in a deadly championship, competing in armed vehicles across chaotic circuits for an antidote. Along the way, they dodge traps, unleash weaponized upgrades, and face fierce rivals in explosive, stylish combat. Every race is a survival spectacle where cunning, speed, and firepower determine who lives — or dies — behind the wheel."
   }
+},
+  {
+  "date": "2025-09-06",
+  "region": "NA",
+  "releaseDate": "2013-06-04",
+  "title": "Remember Me",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9u.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Dontnod Entertainment"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PS3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 70,
+    "plot": "In a cyber-punk Paris of the near future, a memory hunter with a lost identity infiltrates neural networks to rewrite both others’ recollections and her own. Her journey unfolds amid neon-lit streets and digital nightmares, where each memory manipulated may reshape reality or betray the truth. The story blends fast-paced combat, customizable combos, and surreal memory-remixing into a haunting quest for self-discovery."
+  }
 }
 ]
