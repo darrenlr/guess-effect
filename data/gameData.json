@@ -8408,5 +8408,37 @@
     "metacritic": 70,
     "plot": "In a cyber-punk Paris of the near future, a memory hunter with a lost identity infiltrates neural networks to rewrite both others’ recollections and her own. Her journey unfolds amid neon-lit streets and digital nightmares, where each memory manipulated may reshape reality or betray the truth. The story blends fast-paced combat, customizable combos, and surreal memory-remixing into a haunting quest for self-discovery."
   }
+},
+  {
+  "date": "2025-09-06",
+  "region": "NA",
+  "releaseDate": "2020-12-10",
+  "title": "Cyberpunk 2077",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coaam3.webp",
+  "hints": {
+    "publisher": [
+      "CD Projekt RED"
+    ],
+    "developer": [
+      "CD Projekt RED"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open-world"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Stadia"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "REDengine 4",
+    "metacritic": 86,
+    "plot": "A renegade mercenary equipped with experimental cybernetic implants ventures into a neon-soaked megalopolis in search of a prototype that grants immortality. As alliances blur and corporate machinations shift, every choice determines whether survival means power, redemption, or ruin amid glittering decay. Open streets and dark alleys alike teem with opportunity and threats, where memory, identity, and humanity collide in a fractured future."
+  }
 }
+
 ]
