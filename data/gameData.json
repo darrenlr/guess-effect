@@ -8439,6 +8439,37 @@
     "metacritic": 86,
     "plot": "A renegade mercenary equipped with experimental cybernetic implants ventures into a neon-soaked megalopolis in search of a prototype that grants immortality. As alliances blur and corporate machinations shift, every choice determines whether survival means power, redemption, or ruin amid glittering decay. Open streets and dark alleys alike teem with opportunity and threats, where memory, identity, and humanity collide in a fractured future."
   }
+},
+  {
+  "date": "2025-09-08",
+  "region": "NA",
+  "releaseDate": "2016-11-11",
+  "title": "Dishonored 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9e29.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Arkane Studios"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Void Engine",
+    "metacritic": 88,
+    "plot": "A supernatural assassin reclaims the throne from a malevolent usurper by infiltrating a decadent coastal city filled with occult secrets and oppressors. Players wield a unique arsenal of stealth powers and gadgets to shape each encounter—choosing between subtle infiltration or bold confrontation. Architecture and environment become allies or adversaries as every choice echoes through a richly detailed world built on consequence and creativity."
+  }
 }
+
 
 ]
