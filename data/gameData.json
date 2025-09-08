@@ -8499,7 +8499,36 @@
     "metacritic": 78,
     "plot": "An elite agent infiltrates sprawling facilities, icy peaks, and orbiting installations to foil a criminal mastermind’s global weapon plot. Armed with high-tech gadgets, vehicular chases, and zero-gravity encounters, he fights across visually diverse terrains. Covert infiltration and high-octane combat intertwine in a cinematic campaign built for both solo operatives and team-based battles."
   }
+},
+  {
+  "date": "2025-09-10",
+  "region": "NA",
+  "releaseDate": "2016-05-03",
+  "title": "Battleborn",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u78.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Gearbox Software"
+    ],
+    "genre": [
+      "Hero shooter",
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 68,
+    "plot": "A band of intergalactic heroes unite to defend the universe’s last surviving star by battling relentless alien forces and dark conspiracies. Each hero wields unique abilities and progression paths in frenetic missions that shift between solo campaigns and competitive team clashes. The experience blends rich character customization, chaotic combat, and strategic hero selection in a bold, sci-fi shooter spectacle."
+  }
 }
-
-
 ]
