@@ -8530,5 +8530,36 @@
     "metacritic": 68,
     "plot": "A band of intergalactic heroes unite to defend the universe’s last surviving star by battling relentless alien forces and dark conspiracies. Each hero wields unique abilities and progression paths in frenetic missions that shift between solo campaigns and competitive team clashes. The experience blends rich character customization, chaotic combat, and strategic hero selection in a bold, sci-fi shooter spectacle."
   }
+},
+  {
+  "date": "2025-09-11",
+  "region": "NA",
+  "releaseDate": "2015-01-27",
+  "title": "Dying Light",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65yq.webp",
+  "hints": {
+    "publisher": [
+      "Warner Bros. Interactive Entertainment"
+    ],
+    "developer": [
+      "Techland"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Survival horror"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Chrome Engine",
+    "metacritic": 86,
+    "plot": "An operative infiltrates a quarantined city beset by a zombie epidemic, using parkour and brutal crafting mechanics to survive during the day. But when night falls, the hunted become the prey as more lethal, mutated threats emerge to stalk the shadows. Every rooftop chase and improvised combat encounter reminds you that survival hinges on agility, resourcefulness, and the will to endure beyond dusk."
+  }
 }
 ]
