@@ -8561,5 +8561,33 @@
     "metacritic": 86,
     "plot": "An operative infiltrates a quarantined city beset by a zombie epidemic, using parkour and brutal crafting mechanics to survive during the day. But when night falls, the hunted become the prey as more lethal, mutated threats emerge to stalk the shadows. Every rooftop chase and improvised combat encounter reminds you that survival hinges on agility, resourcefulness, and the will to endure beyond dusk."
   }
+},
+  {
+  "date": "2025-09-12",
+  "region": "NA",
+  "releaseDate": "2008-11-07",
+  "title": "Gears of War 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28gg.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Epic Games"
+    ],
+    "genre": [
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 91,
+    "plot": "In a world overrun by subterranean monsters, survivors rally in the aftermath of past horrors to mount a desperate counteroffensive. They battle through collapsing landscapes, use cover-based tactics and brutal executions to reclaim their lost cities. Every alliance, sacrifice, and firefight drives the struggle for mankind’s survival amid the encroaching Locust horde."
+  }
 }
 ]
