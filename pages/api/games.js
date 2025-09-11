@@ -5,7 +5,9 @@ export default async (req, res) => {
 
   const apiKey = process.env.RAWG_API_KEY;
 
-  const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&search=${search}`);
+  console.log(search);
+
+  const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&search=${search}&exclude_additions=true`);
 
   const text = await response.text();
 

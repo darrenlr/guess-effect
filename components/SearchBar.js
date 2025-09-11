@@ -11,7 +11,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 	const handleSearch = async (inputValue) => {
 		if (inputValue.length > 2) {
 			setIsLoading(true);
-			const response = await fetch(`/api/games?search=${inputValue}&ordering=-rating`);
+			const response = await fetch(`/api/games?search=${inputValue}`);
 			
 			const data = await response.json();
 
