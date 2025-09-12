@@ -8589,5 +8589,33 @@
     "metacritic": 91,
     "plot": "In a world overrun by subterranean monsters, survivors rally in the aftermath of past horrors to mount a desperate counteroffensive. They battle through collapsing landscapes, use cover-based tactics and brutal executions to reclaim their lost cities. Every alliance, sacrifice, and firefight drives the struggle for mankind’s survival amid the encroaching Locust horde."
   }
+},
+  {
+  "date": "2025-09-13",
+  "region": "EU",
+  "releaseDate": "2002-12-11",
+  "title": "The Getaway",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2k.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Team Soho"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Kinetica",
+    "metacritic": 72,
+    "plot": "After his wife’s death, an ex-criminal must navigate London’s underworld and evade both corrupt cops and crime bosses who want him silenced. Missions alternate between high-speed chases, gritty foot combat, and tense surveillance, with each perspective revealing more of a city wrapped in betrayal. The lack of health meters or minimaps heightens realism and forces every decision and confrontation to carry weight."
+  }
 }
+
 ]
