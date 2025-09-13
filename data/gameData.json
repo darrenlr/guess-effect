@@ -8616,6 +8616,36 @@
     "metacritic": 72,
     "plot": "After his wife’s death, an ex-criminal must navigate London’s underworld and evade both corrupt cops and crime bosses who want him silenced. Missions alternate between high-speed chases, gritty foot combat, and tense surveillance, with each perspective revealing more of a city wrapped in betrayal. The lack of health meters or minimaps heightens realism and forces every decision and confrontation to carry weight."
   }
+},
+  {
+  "date": "2025-09-14",
+  "region": "NA",
+  "releaseDate": "2007-10-10",
+  "title": "Team Fortress 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.webp",
+  "hints": {
+    "publisher": [
+      "Valve"
+    ],
+    "developer": [
+      "Valve"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Team-based multiplayer"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "engine": "Source",
+    "metacritic": 92,
+    "plot": "Characters represent distinctive archetypes locked in perpetual combat over objectives, each bringing unique abilities to shift the flow of battle. Set across whimsical, stylized arenas, teamwork, class synergy, and map control define the outcome rather than brute force. Far more than a shooter, it’s a living, evolving competition powered by community creations, continual updates, and emergent moments of chaos."
+  }
 }
+
 
 ]
