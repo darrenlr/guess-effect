@@ -8645,7 +8645,38 @@
     "metacritic": 92,
     "plot": "Characters represent distinctive archetypes locked in perpetual combat over objectives, each bringing unique abilities to shift the flow of battle. Set across whimsical, stylized arenas, teamwork, class synergy, and map control define the outcome rather than brute force. Far more than a shooter, it’s a living, evolving competition powered by community creations, continual updates, and emergent moments of chaos."
   }
+},
+  {
+  "date": "2025-09-15",
+  "region": "NA",
+  "releaseDate": "2010-02-09",
+  "title": "Dante’s Inferno",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28oa.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Visceral Games"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PSP"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Visceral Engine",
+    "metacritic": 80,
+    "plot": "After returning home to find his beloved claimed by a dark force, a tormented warrior descends through imagined circles of punishment to battle infernal beasts and reclaim what was lost. Each circle reflects a sin, twisted into grotesque landscapes and relentless adversaries shaped by the sins they embody. With divine powers and weapons borne of desperation, the hero must confront not only external monsters, but his own guilt and redemption in a hellish pilgrimage."
+  }
 }
+
 
 
 ]
