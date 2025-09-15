@@ -8353,330 +8353,327 @@
     }
   },
   {
-  "date": "2025-09-05",
-  "region": "NA",
-  "releaseDate": "2005-10-18",
-  "title": "Jak X: Combat Racing",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27zt.webp",
-  "hints": {
-    "publisher": [
-      "Sony Computer Entertainment"
-    ],
-    "developer": [
-      "Naughty Dog"
-    ],
-    "genre": [
-      "Vehicular combat"
-    ],
-    "platforms": [
-      "PlayStation 2"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Kinetica",
-    "metacritic": 76,
-    "plot": "After being poisoned by their late patron, a pair of allies must race in a deadly championship, competing in armed vehicles across chaotic circuits for an antidote. Along the way, they dodge traps, unleash weaponized upgrades, and face fierce rivals in explosive, stylish combat. Every race is a survival spectacle where cunning, speed, and firepower determine who lives — or dies — behind the wheel."
-  }
-},
+    "date": "2025-09-05",
+    "region": "NA",
+    "releaseDate": "2005-10-18",
+    "title": "Jak X: Combat Racing",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27zt.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Vehicular combat"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Kinetica",
+      "metacritic": 76,
+      "plot": "After being poisoned by their late patron, a pair of allies must race in a deadly championship, competing in armed vehicles across chaotic circuits for an antidote. Along the way, they dodge traps, unleash weaponized upgrades, and face fierce rivals in explosive, stylish combat. Every race is a survival spectacle where cunning, speed, and firepower determine who lives — or dies — behind the wheel."
+    }
+  },
   {
-  "date": "2025-09-06",
-  "region": "NA",
-  "releaseDate": "2013-06-04",
-  "title": "Remember Me",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9u.webp",
-  "hints": {
-    "publisher": [
-      "Capcom"
-    ],
-    "developer": [
-      "Dontnod Entertainment"
-    ],
-    "genre": [
-      "Action-adventure"
-    ],
-    "platforms": [
-      "PS3",
-      "Xbox 360",
-      "PC"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Unreal Engine 3",
-    "metacritic": 70,
-    "plot": "In a cyber-punk Paris of the near future, a memory hunter with a lost identity infiltrates neural networks to rewrite both others’ recollections and her own. Her journey unfolds amid neon-lit streets and digital nightmares, where each memory manipulated may reshape reality or betray the truth. The story blends fast-paced combat, customizable combos, and surreal memory-remixing into a haunting quest for self-discovery."
-  }
-},
+    "date": "2025-09-06",
+    "region": "NA",
+    "releaseDate": "2013-06-04",
+    "title": "Remember Me",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9u.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Dontnod Entertainment"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PS3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 70,
+      "plot": "In a cyber-punk Paris of the near future, a memory hunter with a lost identity infiltrates neural networks to rewrite both others’ recollections and her own. Her journey unfolds amid neon-lit streets and digital nightmares, where each memory manipulated may reshape reality or betray the truth. The story blends fast-paced combat, customizable combos, and surreal memory-remixing into a haunting quest for self-discovery."
+    }
+  },
   {
-  "date": "2025-09-07",
-  "region": "NA",
-  "releaseDate": "2020-12-10",
-  "title": "Cyberpunk 2077",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coaam3.webp",
-  "hints": {
-    "publisher": [
-      "CD Projekt RED"
-    ],
-    "developer": [
-      "CD Projekt RED"
-    ],
-    "genre": [
-      "Action RPG",
-      "Open-world"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation 4",
-      "Xbox One",
-      "Stadia"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "REDengine 4",
-    "metacritic": 86,
-    "plot": "A renegade mercenary equipped with experimental cybernetic implants ventures into a neon-soaked megalopolis in search of a prototype that grants immortality. As alliances blur and corporate machinations shift, every choice determines whether survival means power, redemption, or ruin amid glittering decay. Open streets and dark alleys alike teem with opportunity and threats, where memory, identity, and humanity collide in a fractured future."
-  }
-},
+    "date": "2025-09-07",
+    "region": "NA",
+    "releaseDate": "2020-12-10",
+    "title": "Cyberpunk 2077",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coaam3.webp",
+    "hints": {
+      "publisher": [
+        "CD Projekt RED"
+      ],
+      "developer": [
+        "CD Projekt RED"
+      ],
+      "genre": [
+        "Action RPG",
+        "Open-world"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Stadia"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "REDengine 4",
+      "metacritic": 86,
+      "plot": "A renegade mercenary equipped with experimental cybernetic implants ventures into a neon-soaked megalopolis in search of a prototype that grants immortality. As alliances blur and corporate machinations shift, every choice determines whether survival means power, redemption, or ruin amid glittering decay. Open streets and dark alleys alike teem with opportunity and threats, where memory, identity, and humanity collide in a fractured future."
+    }
+  },
   {
-  "date": "2025-09-08",
-  "region": "NA",
-  "releaseDate": "2016-11-11",
-  "title": "Dishonored 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9e29.webp",
-  "hints": {
-    "publisher": [
-      "Bethesda Softworks"
-    ],
-    "developer": [
-      "Arkane Studios"
-    ],
-    "genre": [
-      "Action-adventure",
-      "Stealth"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation 4",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Void Engine",
-    "metacritic": 88,
-    "plot": "A supernatural assassin reclaims the throne from a malevolent usurper by infiltrating a decadent coastal city filled with occult secrets and oppressors. Players wield a unique arsenal of stealth powers and gadgets to shape each encounter—choosing between subtle infiltration or bold confrontation. Architecture and environment become allies or adversaries as every choice echoes through a richly detailed world built on consequence and creativity."
-  }
-},
-{
-  "date": "2025-09-09",
-  "region": "NA",
-  "releaseDate": "2002-11-18",
-  "title": "James Bond 007: Nightfire",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26dt.webp",
-  "hints": {
-    "publisher": [
-      "Electronic Arts"
-    ],
-    "developer": [
-      "Eurocom"
-    ],
-    "genre": [
-      "First-person shooter"
-    ],
-    "platforms": [
-      "PlayStation 2",
-      "Xbox",
-      "GameCube"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Id Tech 3",
-    "metacritic": 78,
-    "plot": "An elite agent infiltrates sprawling facilities, icy peaks, and orbiting installations to foil a criminal mastermind’s global weapon plot. Armed with high-tech gadgets, vehicular chases, and zero-gravity encounters, he fights across visually diverse terrains. Covert infiltration and high-octane combat intertwine in a cinematic campaign built for both solo operatives and team-based battles."
-  }
-},
+    "date": "2025-09-08",
+    "region": "NA",
+    "releaseDate": "2016-11-11",
+    "title": "Dishonored 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9e29.webp",
+    "hints": {
+      "publisher": [
+        "Bethesda Softworks"
+      ],
+      "developer": [
+        "Arkane Studios"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Stealth"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Void Engine",
+      "metacritic": 88,
+      "plot": "A supernatural assassin reclaims the throne from a malevolent usurper by infiltrating a decadent coastal city filled with occult secrets and oppressors. Players wield a unique arsenal of stealth powers and gadgets to shape each encounter—choosing between subtle infiltration or bold confrontation. Architecture and environment become allies or adversaries as every choice echoes through a richly detailed world built on consequence and creativity."
+    }
+  },
   {
-  "date": "2025-09-10",
-  "region": "NA",
-  "releaseDate": "2016-05-03",
-  "title": "Battleborn",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u78.webp",
-  "hints": {
-    "publisher": [
-      "2K Games"
-    ],
-    "developer": [
-      "Gearbox Software"
-    ],
-    "genre": [
-      "Hero shooter",
-      "First-person shooter"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation 4",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Unreal Engine 3",
-    "metacritic": 68,
-    "plot": "A band of intergalactic heroes unite to defend the universe’s last surviving star by battling relentless alien forces and dark conspiracies. Each hero wields unique abilities and progression paths in frenetic missions that shift between solo campaigns and competitive team clashes. The experience blends rich character customization, chaotic combat, and strategic hero selection in a bold, sci-fi shooter spectacle."
-  }
-},
+    "date": "2025-09-09",
+    "region": "NA",
+    "releaseDate": "2002-11-18",
+    "title": "James Bond 007: Nightfire",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26dt.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Eurocom"
+      ],
+      "genre": [
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "Xbox",
+        "GameCube"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Id Tech 3",
+      "metacritic": 78,
+      "plot": "An elite agent infiltrates sprawling facilities, icy peaks, and orbiting installations to foil a criminal mastermind’s global weapon plot. Armed with high-tech gadgets, vehicular chases, and zero-gravity encounters, he fights across visually diverse terrains. Covert infiltration and high-octane combat intertwine in a cinematic campaign built for both solo operatives and team-based battles."
+    }
+  },
   {
-  "date": "2025-09-11",
-  "region": "NA",
-  "releaseDate": "2015-01-27",
-  "title": "Dying Light",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65yq.webp",
-  "hints": {
-    "publisher": [
-      "Warner Bros. Interactive Entertainment"
-    ],
-    "developer": [
-      "Techland"
-    ],
-    "genre": [
-      "Action-adventure",
-      "Survival horror"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation 4",
-      "Xbox One"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Chrome Engine",
-    "metacritic": 86,
-    "plot": "An operative infiltrates a quarantined city beset by a zombie epidemic, using parkour and brutal crafting mechanics to survive during the day. But when night falls, the hunted become the prey as more lethal, mutated threats emerge to stalk the shadows. Every rooftop chase and improvised combat encounter reminds you that survival hinges on agility, resourcefulness, and the will to endure beyond dusk."
-  }
-},
+    "date": "2025-09-10",
+    "region": "NA",
+    "releaseDate": "2016-05-03",
+    "title": "Battleborn",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1u78.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Gearbox Software"
+      ],
+      "genre": [
+        "Hero shooter",
+        "First-person shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 68,
+      "plot": "A band of intergalactic heroes unite to defend the universe’s last surviving star by battling relentless alien forces and dark conspiracies. Each hero wields unique abilities and progression paths in frenetic missions that shift between solo campaigns and competitive team clashes. The experience blends rich character customization, chaotic combat, and strategic hero selection in a bold, sci-fi shooter spectacle."
+    }
+  },
   {
-  "date": "2025-09-12",
-  "region": "NA",
-  "releaseDate": "2008-11-07",
-  "title": "Gears of War 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28gg.webp",
-  "hints": {
-    "publisher": [
-      "Microsoft Game Studios"
-    ],
-    "developer": [
-      "Epic Games"
-    ],
-    "genre": [
-      "Third-person shooter"
-    ],
-    "platforms": [
-      "Xbox 360"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": "Unreal Engine 3",
-    "metacritic": 91,
-    "plot": "In a world overrun by subterranean monsters, survivors rally in the aftermath of past horrors to mount a desperate counteroffensive. They battle through collapsing landscapes, use cover-based tactics and brutal executions to reclaim their lost cities. Every alliance, sacrifice, and firefight drives the struggle for mankind’s survival amid the encroaching Locust horde."
-  }
-},
+    "date": "2025-09-11",
+    "region": "NA",
+    "releaseDate": "2015-01-27",
+    "title": "Dying Light",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65yq.webp",
+    "hints": {
+      "publisher": [
+        "Warner Bros. Interactive Entertainment"
+      ],
+      "developer": [
+        "Techland"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Survival horror"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Chrome Engine",
+      "metacritic": 86,
+      "plot": "An operative infiltrates a quarantined city beset by a zombie epidemic, using parkour and brutal crafting mechanics to survive during the day. But when night falls, the hunted become the prey as more lethal, mutated threats emerge to stalk the shadows. Every rooftop chase and improvised combat encounter reminds you that survival hinges on agility, resourcefulness, and the will to endure beyond dusk."
+    }
+  },
   {
-  "date": "2025-09-13",
-  "region": "EU",
-  "releaseDate": "2002-12-11",
-  "title": "The Getaway",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2k.webp",
-  "hints": {
-    "publisher": [
-      "Sony Computer Entertainment"
-    ],
-    "developer": [
-      "Team Soho"
-    ],
-    "genre": [
-      "Action-adventure"
-    ],
-    "platforms": [
-      "PlayStation 2"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Kinetica",
-    "metacritic": 72,
-    "plot": "After his wife’s death, an ex-criminal must navigate London’s underworld and evade both corrupt cops and crime bosses who want him silenced. Missions alternate between high-speed chases, gritty foot combat, and tense surveillance, with each perspective revealing more of a city wrapped in betrayal. The lack of health meters or minimaps heightens realism and forces every decision and confrontation to carry weight."
-  }
-},
+    "date": "2025-09-12",
+    "region": "NA",
+    "releaseDate": "2008-11-07",
+    "title": "Gears of War 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28gg.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Epic Games"
+      ],
+      "genre": [
+        "Third-person shooter"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 91,
+      "plot": "In a world overrun by subterranean monsters, survivors rally in the aftermath of past horrors to mount a desperate counteroffensive. They battle through collapsing landscapes, use cover-based tactics and brutal executions to reclaim their lost cities. Every alliance, sacrifice, and firefight drives the struggle for mankind’s survival amid the encroaching Locust horde."
+    }
+  },
   {
-  "date": "2025-09-14",
-  "region": "NA",
-  "releaseDate": "2007-10-10",
-  "title": "Team Fortress 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.webp",
-  "hints": {
-    "publisher": [
-      "Valve"
-    ],
-    "developer": [
-      "Valve"
-    ],
-    "genre": [
-      "First-person shooter",
-      "Team-based multiplayer"
-    ],
-    "platforms": [
-      "PC",
-      "Xbox 360"
-    ],
-    "modes": [
-      "Multiplayer"
-    ],
-    "engine": "Source",
-    "metacritic": 92,
-    "plot": "Characters represent distinctive archetypes locked in perpetual combat over objectives, each bringing unique abilities to shift the flow of battle. Set across whimsical, stylized arenas, teamwork, class synergy, and map control define the outcome rather than brute force. Far more than a shooter, it’s a living, evolving competition powered by community creations, continual updates, and emergent moments of chaos."
-  }
-},
+    "date": "2025-09-13",
+    "region": "EU",
+    "releaseDate": "2002-12-11",
+    "title": "The Getaway",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2k.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Team Soho"
+      ],
+      "genre": [
+        "Action-adventure"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Kinetica",
+      "metacritic": 72,
+      "plot": "After his wife’s death, an ex-criminal must navigate London’s underworld and evade both corrupt cops and crime bosses who want him silenced. Missions alternate between high-speed chases, gritty foot combat, and tense surveillance, with each perspective revealing more of a city wrapped in betrayal. The lack of health meters or minimaps heightens realism and forces every decision and confrontation to carry weight."
+    }
+  },
   {
-  "date": "2025-09-15",
-  "region": "NA",
-  "releaseDate": "2010-02-09",
-  "title": "Dante's Inferno",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28oa.webp",
-  "hints": {
-    "publisher": [
-      "Electronic Arts"
-    ],
-    "developer": [
-      "Visceral Games"
-    ],
-    "genre": [
-      "Action-adventure",
-      "Hack and slash"
-    ],
-    "platforms": [
-      "PlayStation 3",
-      "Xbox 360",
-      "PSP"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Visceral Engine",
-    "metacritic": 80,
-    "plot": "After returning home to find his beloved claimed by a dark force, a tormented warrior descends through imagined circles of punishment to battle infernal beasts and reclaim what was lost. Each circle reflects a sin, twisted into grotesque landscapes and relentless adversaries shaped by the sins they embody. With divine powers and weapons borne of desperation, the hero must confront not only external monsters, but his own guilt and redemption in a hellish pilgrimage."
+    "date": "2025-09-14",
+    "region": "NA",
+    "releaseDate": "2007-10-10",
+    "title": "Team Fortress 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Team-based multiplayer"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Multiplayer"
+      ],
+      "engine": "Source",
+      "metacritic": 92,
+      "plot": "Characters represent distinctive archetypes locked in perpetual combat over objectives, each bringing unique abilities to shift the flow of battle. Set across whimsical, stylized arenas, teamwork, class synergy, and map control define the outcome rather than brute force. Far more than a shooter, it’s a living, evolving competition powered by community creations, continual updates, and emergent moments of chaos."
+    }
+  },
+  {
+    "date": "2025-09-15",
+    "region": "NA",
+    "releaseDate": "2010-02-09",
+    "title": "Dante's Inferno",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28oa.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Visceral Games"
+      ],
+      "genre": [
+        "Action-adventure",
+        "Hack and slash"
+      ],
+      "platforms": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PSP"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Visceral Engine",
+      "metacritic": 80,
+      "plot": "After returning home to find his beloved claimed by a dark force, a tormented warrior descends through imagined circles of punishment to battle infernal beasts and reclaim what was lost. Each circle reflects a sin, twisted into grotesque landscapes and relentless adversaries shaped by the sins they embody. With divine powers and weapons borne of desperation, the hero must confront not only external monsters, but his own guilt and redemption in a hellish pilgrimage."
+    }
   }
-}
-
-
-
 ]
