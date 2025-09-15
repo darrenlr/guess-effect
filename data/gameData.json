@@ -7207,7 +7207,7 @@
     "date": "2025-07-28",
     "region": "WW",
     "releaseDate": "2016-03-08",
-    "title": "Tom Clancy’s The Division",
+    "title": "Tom Clancy's The Division",
     "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yvf.webp",
     "hints": {
       "publisher": [
@@ -8674,6 +8674,124 @@
       "engine": "Visceral Engine",
       "metacritic": 80,
       "plot": "After returning home to find his beloved claimed by a dark force, a tormented warrior descends through imagined circles of punishment to battle infernal beasts and reclaim what was lost. Each circle reflects a sin, twisted into grotesque landscapes and relentless adversaries shaped by the sins they embody. With divine powers and weapons borne of desperation, the hero must confront not only external monsters, but his own guilt and redemption in a hellish pilgrimage."
+    }
+  },
+  {
+    "date": "2025-09-16",
+    "region": "WW",
+    "releaseDate": "2008-11-18",
+    "title": "Left 4 Dead",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qrm.webp",
+    "hints": {
+      "publisher": [
+        "Valve Corporation"
+      ],
+      "developer": [
+        "Valve Corporation"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Survival horror"
+      ],
+      "platforms": [
+        "PC (WW)",
+        "Xbox 360 (NA/AU)"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "engine": "Source",
+      "metacritic": 89,
+      "plot": "Four survivors must battle through courses of ruined cityscapes and desolate countryside teeming with monstrous infected, relying on team coordination to survive. The game adapts the intensity and pacing of zombie attacks dynamically in response to the players’ progress to keep tension high. Every playthrough feels shaped by unpredictable moments of desperation, sacrifice, and raw adrenaline in this cooperative struggle for survival."
+    }
+  },
+  {
+    "date": "2025-09-17",
+    "region": "JP",
+    "releaseDate": "1989-04-21",
+    "title": "Super Mario Land",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7o14.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo R&D1"
+      ],
+      "genre": [
+        "Platform"
+      ],
+      "platforms": [
+        "Game Boy"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A hero leaves the familiar kingdom behind to travel through unfamiliar lands where gravity, water, and even the skies betray expectations. He traverses four diverse regions, piloting strange vehicles and rescuing a princess while battling alien invaders. Though simple by later standards, every level is a test of agility, timing, and creativity in adapting Mario’s classic platforming for a tiny, handheld world."
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "region": "NA",
+    "releaseDate": "2006-11-22",
+    "title": "Tom Clancy's Rainbow Six Vegas",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8pff.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montreal"
+      ],
+      "genre": [
+        "First-person shooter",
+        "Tactical shooter"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 85,
+      "plot": "An elite counter-terrorism team descends on Las Vegas, where a terrorist siege threatens iconic landmarks. Players alternate between precision tactics and raw firefights, navigating urban chaos and high profile targets while commanding teammates in real time. With intense gunplay, cinematic flair, and destructible cover, every moment tests the balance of strategy and aggression."
+    }
+  },
+  {
+    "date": "2025-09-19",
+    "region": "WW",
+    "releaseDate": "2021-08-25",
+    "title": "Psychonauts 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1sod.webp",
+    "hints": {
+      "publisher": [
+        "Xbox Game Studios"
+      ],
+      "developer": [
+        "Double Fine Productions"
+      ],
+      "genre": [
+        "Platform",
+        "Adventure"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 4",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Unreal Engine 4",
+      "metacritic": 89,
+      "plot": "A young psychic agent fulfills lifelong dreams by joining a clandestine organization, only to discover its leader is compromised. Traveling through vivid mental landscapes and battling internal demons—both symbolic and literal—they must root out the corruption and save minds. It’s a journey of introspection, humor, and otherworldly powers where every trail through someone’s psyche reveals more about both villain and hero."
     }
   }
 ]
