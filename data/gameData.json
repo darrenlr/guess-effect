@@ -8709,33 +8709,6 @@
   },
   {
     "date": "2025-09-17",
-    "region": "JP",
-    "releaseDate": "1989-04-21",
-    "title": "Super Mario Land",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7o14.webp",
-    "hints": {
-      "publisher": [
-        "Nintendo"
-      ],
-      "developer": [
-        "Nintendo R&D1"
-      ],
-      "genre": [
-        "Platform"
-      ],
-      "platforms": [
-        "Game Boy"
-      ],
-      "modes": [
-        "Single-player"
-      ],
-      "engine": null,
-      "metacritic": null,
-      "plot": "A hero leaves the familiar kingdom behind to travel through unfamiliar lands where gravity, water, and even the skies betray expectations. He traverses four diverse regions, piloting strange vehicles and rescuing a princess while battling alien invaders. Though simple by later standards, every level is a test of agility, timing, and creativity in adapting Mario’s classic platforming for a tiny, handheld world."
-    }
-  },
-  {
-    "date": "2025-09-18",
     "region": "NA",
     "releaseDate": "2006-11-22",
     "title": "Tom Clancy's Rainbow Six Vegas",
@@ -8761,6 +8734,33 @@
       "engine": "Unreal Engine 3",
       "metacritic": 85,
       "plot": "An elite counter-terrorism team descends on Las Vegas, where a terrorist siege threatens iconic landmarks. Players alternate between precision tactics and raw firefights, navigating urban chaos and high profile targets while commanding teammates in real time. With intense gunplay, cinematic flair, and destructible cover, every moment tests the balance of strategy and aggression."
+    }
+  },
+  {
+    "date": "2025-09-18",
+    "region": "JP",
+    "releaseDate": "1989-04-21",
+    "title": "Super Mario Land",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7o14.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo R&D1"
+      ],
+      "genre": [
+        "Platform"
+      ],
+      "platforms": [
+        "Game Boy"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A hero leaves the familiar kingdom behind to travel through unfamiliar lands where gravity, water, and even the skies betray expectations. He traverses four diverse regions, piloting strange vehicles and rescuing a princess while battling alien invaders. Though simple by later standards, every level is a test of agility, timing, and creativity in adapting Mario’s classic platforming for a tiny, handheld world."
     }
   },
   {
