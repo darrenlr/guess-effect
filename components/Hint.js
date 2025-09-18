@@ -3,7 +3,7 @@ import styles from "../styles/Hint.module.css";
 
 const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
   const [revealed, setRevealed] = useState(isRevealed);
-  
+
   useEffect(() => {
     setRevealed(isRevealed);
   }, [isRevealed]);
@@ -30,23 +30,34 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
     } else {
       if (hint === 'metacritic') {
         let backgroundColor;
-		let color = '#262626';
+        let color = '#262626';
+
+        // If no data, return early with just a dash and no background
+        if (!data) {
+          return (
+            <div className={styles.hintMeta}>
+              <span className={styles.hintMetaScore} style={{ fontSize: "1rem" }}>{"-"}</span>
+            </div>
+          );
+        }
+
         const score = parseInt(data);
         if (score < 50) {
           backgroundColor = '#ff6874';
-		  color = '#fff'
+          color = '#fff'
         } else if (score >= 50 && score <= 74) {
           backgroundColor = '#ffbd3f';
         } else {
           backgroundColor = '#00ce7a';
         }
         return (
-			<div className={styles.hintMeta} style={{ backgroundColor }}>
-            <span className={styles.hintMetaScore} style={{ color }}>{data || "-none-"}</span>
+          <div className={styles.hintMeta} style={{ backgroundColor }}>
+            <span className={styles.hintMetaScore} style={{ color }}>{data}</span>
           </div>
         );
       }
-      return <span className={styles.hintValue}>{data || "-none-"}</span>;
+
+      return <span className={styles.hintValue}>{data || "-"}</span>;
     }
   };
 
