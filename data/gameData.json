@@ -8797,9 +8797,9 @@
   {
     "date": "2025-09-20",
     "region": "NA",
-    "releaseDate": "2010-05-11",
-    "title": "Skate 3",
-    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1o4l.webp",
+    "releaseDate": "2009-01-21",
+    "title": "Skate 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5x8f.webp",
     "hints": {
       "publisher": [
         "Electronic Arts"
@@ -8819,8 +8819,8 @@
         "Multiplayer"
       ],
       "engine": null,
-      "metacritic": 80,
-      "plot": "You lead a team of skaters in a city that embraces skateboarding culture, performing new tricks and challenges across plazas, ramps, and parks. The social aspects are front and center, letting players build crews, design parks, upload graphics, and compete with rivals. Every session blends creativity, rivalry, and skate-culture authenticity in a fully open street-skating world."
+      "metacritic": 84,
+      "plot": "A skater emerges from incarceration in a city where skateboarding has been outlawed and rebuilt, attempting to restore its vibrant scene. With challenges, contests, and dozens of tricks, they confront corporate suppression and zoned-out architecture designed to stifle all movement. Purpose-built momentum, creativity, and daring are required to turn the city back into a skater’s playground."
     }
   }
 ]
