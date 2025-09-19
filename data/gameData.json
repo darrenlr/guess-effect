@@ -8822,5 +8822,35 @@
       "metacritic": 84,
       "plot": "A skater emerges from incarceration in a city where skateboarding has been outlawed and rebuilt, attempting to restore its vibrant scene. With challenges, contests, and dozens of tricks, they confront corporate suppression and zoned-out architecture designed to stifle all movement. Purpose-built momentum, creativity, and daring are required to turn the city back into a skater’s playground."
     }
+  },
+  {
+  "date": "2025-09-21",
+  "region": "NA",
+  "releaseDate": "2010-09-07",
+  "title": "Spider-Man: Shattered Dimensions",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2xiv.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Beenox"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "Wii",
+      "Nintendo DS"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Goliath Engine",
+    "metacritic": 76,
+    "plot": "An artifact shatters the fabric of reality, forcing multiple versions of a web-slinging hero from four dimensions to recover its fragments. From noir-tinged stealth to fast-paced futuristic combat, each universe presents its own style and unique challenge. Battling iconic foes across diverse worlds, the journey forces the hero to grapple with identity, power, and the weight of heroic responsibility."
   }
+}
 ]
