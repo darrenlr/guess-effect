@@ -8852,5 +8852,35 @@
     "metacritic": 76,
     "plot": "An artifact shatters the fabric of reality, forcing multiple versions of a web-slinging hero from four dimensions to recover its fragments. From noir-tinged stealth to fast-paced futuristic combat, each universe presents its own style and unique challenge. Battling iconic foes across diverse worlds, the journey forces the hero to grapple with identity, power, and the weight of heroic responsibility."
   }
+},
+  {
+  "date": "2025-09-22",
+  "region": "WW",
+  "releaseDate": "2019-10-25",
+  "title": "The Outer Worlds",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2eew.webp",
+  "hints": {
+    "publisher": [
+      "Private Division"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 89,
+    "plot": "After journeying from cryosleep decades late, an unwitting colonist awakens amid corporate decay and conspiracies in a distant star system. With factions competing for dominance, alliances shift, and every decision—from dialogue to combat—shapes the outcome in this colony. Bold humor, twisted futurism, and moral choices combine to deliver a character-driven adventure where consent, loyalty, and survival intertwine."
+  }
 }
+
 ]
