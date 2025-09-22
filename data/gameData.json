@@ -8881,6 +8881,35 @@
     "metacritic": 89,
     "plot": "After journeying from cryosleep decades late, an unwitting colonist awakens amid corporate decay and conspiracies in a distant star system. With factions competing for dominance, alliances shift, and every decision—from dialogue to combat—shapes the outcome in this colony. Bold humor, twisted futurism, and moral choices combine to deliver a character-driven adventure where consent, loyalty, and survival intertwine."
   }
+},
+  {
+  "date": "2025-09-23",
+  "region": "NA",
+  "releaseDate": "2010-10-05",
+  "title": "Enslaved: Odyssey to the West",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2gko.webp",
+  "hints": {
+    "publisher": [
+      "Namco Bandai Games"
+    ],
+    "developer": [
+      "Ninja Theory"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 82,
+    "plot": "In a future where Earth has retreated into wild nature after catastrophic conflict, a resourceful survivor must escort a tech-savvy fugitive across ravaged landscapes stalked by rogue machines. Bound by a device that forces cooperation, they rely on each other’s contrasting strengths to overcome treacherous terrain, bandit threats, and environmental puzzles. Their odyssey of survival, trust and reclaiming hope unfolds amid beauty and danger, as old world ruins reveal both menace and memory."
+  }
 }
+
 
 ]
