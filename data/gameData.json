@@ -8909,7 +8909,36 @@
     "metacritic": 82,
     "plot": "In a future where Earth has retreated into wild nature after catastrophic conflict, a resourceful survivor must escort a tech-savvy fugitive across ravaged landscapes stalked by rogue machines. Bound by a device that forces cooperation, they rely on each other’s contrasting strengths to overcome treacherous terrain, bandit threats, and environmental puzzles. Their odyssey of survival, trust and reclaiming hope unfolds amid beauty and danger, as old world ruins reveal both menace and memory."
   }
+},
+  {
+  "date": "2025-09-24",
+  "region": "JP",
+  "releaseDate": "2007-12-06",
+  "title": "No More Heroes",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2qum.webp",
+  "hints": {
+    "publisher": [
+      "Marvelous (JP)"
+    ],
+    "developer": [
+      "Grasshopper Manufacture"
+    ],
+    "genre": [
+      "Action adventure",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "Wii"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "A self-styled assassin thrusts into a war of rank and reputation with nothing but a beam katana and dreams of being the top killer. Missions span open-world suburbs and seedy after-hours locales, with boss duels, side hustles, and outrageous characters shaping every challenge. It’s a narrative born from chaos, competition, and a touch of absurdity as ambitions clash and blood flows freely."
+  }
 }
+
 
 
 ]
