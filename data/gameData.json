@@ -8966,5 +8966,35 @@
     "metacritic": 69,
     "plot": "A hero relives pivotal moments from a legendary trilogy, mastering martial arts, supernatural powers, and epic gunplay across iconic film scenes. The journey weaves together alternative narrative paths and a climactic ending directed by the original storytellers. Each encounter blends cinematic spectacle with interactive combat in a vast simulation of destiny and choice."
   }
+},
+  {
+  "date": "2025-09-26",
+  "region": "WW",
+  "releaseDate": "2018-08-10",
+  "title": "We Happy Few",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nax.webp",
+  "hints": {
+    "publisher": [
+      "Gearbox Publishing"
+    ],
+    "developer": [
+      "Compulsion Games"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Survival"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 62,
+    "plot": "In a dystopian 1960s English setting, citizens are required to take a drug-called Joy that suppresses sorrow and truth. A group of individuals rejects this forced cheer and must survive by hiding, blending in, or escaping the city as they uncover a sinister conspiracy. The journey blends stealth, resource scavenging, and moral tensions in a world where conformity masks decay."
+  }
 }
 ]
