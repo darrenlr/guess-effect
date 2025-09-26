@@ -8996,5 +8996,37 @@
     "metacritic": 62,
     "plot": "In a dystopian 1960s English setting, citizens are required to take a drug-called Joy that suppresses sorrow and truth. A group of individuals rejects this forced cheer and must survive by hiding, blending in, or escaping the city as they uncover a sinister conspiracy. The journey blends stealth, resource scavenging, and moral tensions in a world where conformity masks decay."
   }
+},
+  {
+  "date": "2025-09-27",
+  "region": "NA",
+  "releaseDate": "2009-10-20",
+  "title": "Borderlands",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20tx.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "Gearbox Software"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Action RPG"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 85,
+    "plot": "Stranded on a desolate frontier planet, treasure hunters team up to seek out an alien vault rumored to house infinite riches. Battling wild fauna, bandits, and corrupt corporate forces, each Vault Hunter carves their own path across rugged terrain and underground ruins. With fast weapon-drops, over-the-top action, and co-op mayhem, survival depends on loot, strategy, and grit."
+  }
 }
+
 ]
