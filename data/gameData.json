@@ -9055,7 +9055,39 @@
     "metacritic": null,
     "plot": "A skilled federal agent is sent to a remote European village to rescue the president’s daughter, only to discover the locals are under a terrifying parasite’s control. Equipped with modern combat tools but immersed in horror and mystery, he must face grotesque enemies and unravel dark conspiracies. The journey blends resource management, intense set pieces, and psychological dread in a remote hostile environment."
   }
+},
+  {
+  "date": "2025-09-29",
+  "region": "WW",
+  "releaseDate": "2015-01-30",
+  "title": "Life is Strange",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Dontnod Entertainment"
+    ],
+    "genre": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 85,
+    "plot": "A photography student returns to her hometown and discovers the power to rewind time, using it to save a friend and unravel a mystery. Every choice ripples outward as she navigates personal secrets, friendships, and a violent storm threatening her world. The journey blends emotional storytelling, supernatural elements, and moral ambiguity in a narrative where every decision shapes your path."
+  }
 }
+
 
 
 ]
