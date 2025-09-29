@@ -9086,8 +9086,90 @@
     "metacritic": 85,
     "plot": "A photography student returns to her hometown and discovers the power to rewind time, using it to save a friend and unravel a mystery. Every choice ripples outward as she navigates personal secrets, friendships, and a violent storm threatening her world. The journey blends emotional storytelling, supernatural elements, and moral ambiguity in a narrative where every decision shapes your path."
   }
+},
+  {
+  "date": "2025-09-30",
+  "region": "NA",
+  "releaseDate": "2005-01-18",
+  "title": "The Punisher",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p2u.webp",
+  "hints": {
+    "publisher": [
+      "THQ"
+    ],
+    "developer": [
+      "Volition, Inc."
+    ],
+    "genre": [
+      "Action-adventure",
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 69,
+    "plot": "A vigilante driven by tragedy hunts down criminals and corrupt mobs in a city overrun with betrayal and violence. Armed with brutal weaponry, ruthless interrogations, and gritty morality, he pursues both justice and vengeance. Each mission tests how far one is willing to go when the line between law and retribution blurs."
+  }
+},
+  {
+  "date": "2025-10-01",
+  "region": "NA",
+  "releaseDate": "1998-06-29",
+  "title": "Banjo-Kazooie",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1zsj.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Rare"
+    ],
+    "genre": [
+      "3D Platformer"
+    ],
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "A bear and his bird companion set out on a whimsical journey to rescue the bear’s sister from an evil witch who steals beauty with dark magic. They explore themed worlds—haunted houses, snowfields, swamps—solving puzzles, finding collectibles, and mastering moves both quirky and precise. Each level builds toward a final confrontation in the witch’s lair, blending humor, challenge, and creativity in a radiant platforming adventure."
+  }
+},
+  {
+  "date": "2025-10-02",
+  "region": "NA",
+  "releaseDate": "2008-09-25",
+  "title": "Wipeout HD",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h0b.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Studio Liverpool"
+    ],
+    "genre": [
+      "Racing"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "In a future where anti-gravity ships race across stunning high-definition tracks, pilots push their reflexes to the limit in lightning-fast time trials and combat races. With remastered tracks, rich sound design, and smooth 60 fps performance, players compete both alone and in tight online battlegrounds. Visual flair, sense of speed, and techno-soundscapes combine to deliver a racing experience that feels both nostalgic and cutting-edge."
+  }
 }
-
-
-
 ]
