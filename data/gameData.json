@@ -9171,5 +9171,36 @@
     "metacritic": 87,
     "plot": "In a future where anti-gravity ships race across stunning high-definition tracks, pilots push their reflexes to the limit in lightning-fast time trials and combat races. With remastered tracks, rich sound design, and smooth 60 fps performance, players compete both alone and in tight online battlegrounds. Visual flair, sense of speed, and techno-soundscapes combine to deliver a racing experience that feels both nostalgic and cutting-edge."
   }
+},
+  {
+  "date": "2025-10-03",
+  "region": "EU",
+  "releaseDate": "2008-05-30",
+  "title": "GRID",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3o2w.webp",
+  "hints": {
+    "publisher": [
+      "Codemasters"
+    ],
+    "developer": [
+      "Codemasters"
+    ],
+    "genre": [
+      "Racing"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "EGO",
+    "metacritic": null,
+    "plot": "A global racing championship that pushes drivers to their limits across sun-drenched city circuits, winding mountain passes, and historic tracks. Players compete in high-performance cars, managing damage, tactics, and sponsorships as they climb the ranks. With adrenaline-fuelled overtakes and customizable events, each race tests precision, spectacle, and speed."
+  }
+}
 }
 ]
