@@ -9201,5 +9201,92 @@
     "metacritic": 87,
     "plot": "A global racing championship that pushes drivers to their limits across sun-drenched city circuits, winding mountain passes, and historic tracks. Players compete in high-performance cars, managing damage, tactics, and sponsorships as they climb the ranks. With adrenaline-fuelled overtakes and customizable events, each race tests precision, spectacle, and speed."
   }
+},
+  {
+  "date": "2025-10-04",
+  "region": "WW",
+  "releaseDate": "2025-02-18",
+  "title": "Avowed",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7nbb.webp",
+  "hints": {
+    "publisher": [
+      "Xbox Game Studios"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 5",
+    "metacritic": 80,
+    "plot": "An envoy of a powerful empire is dispatched to a strange land afflicted by a mysterious plague, only to uncover ancient magic, sinister secrets, and moral ambiguity in every collapsed village. As factions pull in different directions, every choice—whether forged in steel, sorcery, or diplomacy—reshapes the fate of the Living Lands. Your journey bridges old gods, mortal ambition, and the thin line between salvation and ruin."
+  }
+},
+  {
+  "date": "2025-10-05",
+  "region": "NA",
+  "releaseDate": "2012-10-02",
+  "title": "Resident Evil 6",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3pyq.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Survival horror",
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": "MT Framework",
+    "metacritic": 67,
+    "plot": "When a global bioterrorist outbreak threatens humanity, multiple agents from different backgrounds must traverse chaotic landscapes—from infected villages to modern cities—to contain the C-virus. With intertwined campaign paths, gameplay shifts between over-the-shoulder action, stealth, and cinematic horror. The battle isn’t just against monsters but also the moral compromises that arise when survival comes at any cost."
+  }
+},
+  {
+  "date": "2025-10-06",
+  "region": "NA",
+  "releaseDate": "2002-09-24",
+  "title": "Sly Cooper and the Thievius Raccoonus",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p0r.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Sucker Punch Productions"
+    ],
+    "genre": [
+      "Platform",
+      "Stealth"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Kinetica",
+    "metacritic": 88,
+    "plot": "A master thief raccoon returns from orphanage with plans to recover his family’s ancestral tome, stolen by a sinister gang, the Fiendish Five. Teaming up with a clever turtle engineer and a burly hippo getaway driver, he travels from dim rooftops in Paris to exotic locales to reclaim lost pages. His journey blends nimble stealth, acrobatic platforming, and vivid characters against a backdrop of betrayal and redemption."
+  }
 }
 ]
