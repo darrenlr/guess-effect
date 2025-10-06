@@ -9322,5 +9322,35 @@
     "metacritic": 82,
     "plot": "A massive convergence of superheroes unites teams to battle a rising threat as villains from across the Marvel universe launch destructive assaults. Players recruit diverse heroes each with distinct powers, navigate expansive missions, and unlock gear to enhance combat and abilities. Through cooperative play or solo campaigns, every alliance forged shapes a larger story about responsibility, power, and sacrifice."
   }
+},
+  {
+  "date": "2025-10-08",
+  "region": "NA",
+  "releaseDate": "2002-09-10",
+  "title": "Battlefield 1942",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xb2.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Digital Illusions CE (DICE)"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Refractor",
+    "metacritic": 89,
+    "plot": "Players assume roles in World War II as Allied or Axis forces, fighting through historical theaters using infantry, tanks, aircraft, and naval units. Key to success is teamwork and control points that shift the balance across large, vehicle-laden maps. The experience blends authentic battles, large scale combat, and strategic coordination in both solo and online multiplayer modes."
+  }
 }
+
 ]
