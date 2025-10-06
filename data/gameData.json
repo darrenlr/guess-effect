@@ -9288,5 +9288,39 @@
     "metacritic": 88,
     "plot": "A master thief raccoon returns from orphanage with plans to recover his family’s ancestral tome, stolen by a sinister gang, the Fiendish Five. Teaming up with a clever turtle engineer and a burly hippo getaway driver, he travels from dim rooftops in Paris to exotic locales to reclaim lost pages. His journey blends nimble stealth, acrobatic platforming, and vivid characters against a backdrop of betrayal and redemption."
   }
+},
+  {
+  "date": "2025-10-07",
+  "region": "NA",
+  "releaseDate": "2006-10-24",
+  "title": "Marvel: Ultimate Alliance",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8dcb.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Raven Software"
+    ],
+    "genre": [
+      "Action RPG"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation 2",
+      "PC",
+      "PlayStation Portable",
+      "Game Boy Advance",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": "Vicarious Visions Alchemy",
+    "metacritic": 82,
+    "plot": "A massive convergence of superheroes unites teams to battle a rising threat as villains from across the Marvel universe launch destructive assaults. Players recruit diverse heroes each with distinct powers, navigate expansive missions, and unlock gear to enhance combat and abilities. Through cooperative play or solo campaigns, every alliance forged shapes a larger story about responsibility, power, and sacrifice."
+  }
 }
 ]
