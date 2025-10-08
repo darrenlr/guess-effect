@@ -9441,5 +9441,33 @@
     "metacritic": null,
     "plot": "A demolition-style spectator sport adapts to digital arenas where drivers not only race but also clash in a spectacle of metal and momentum. Cars compete across tracks and destruction arenas, scoring points by wrecking rivals while surviving damage to stay alive. Chaos, risk, and calculated assaults define every collision-filled moment in this early PlayStation classic."
   }
+},
+  {
+  "date": "2025-10-12",
+  "region": "NA",
+  "releaseDate": "2011-06-07",
+  "title": "inFAMOUS 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co525u.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Sucker Punch Productions"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Open-world"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "A superpowered courier races to confront a mythical creature known only as the Beast, journeying through a flooded city to master chaotic powers and decide between light or darkness. Battling both human and supernatural enemies, every use of gifts and every choice shifts the fate of New Marais. Blending parkour, powers and moral consequences, the adventure forces identity, heroism, and consequence into sharp relief."
+  }
 }
 ]
