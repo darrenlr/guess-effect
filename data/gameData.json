@@ -9469,5 +9469,33 @@
     "metacritic": 85,
     "plot": "A superpowered courier races to confront a mythical creature known only as the Beast, journeying through a flooded city to master chaotic powers and decide between light or darkness. Battling both human and supernatural enemies, every use of gifts and every choice shifts the fate of New Marais. Blending parkour, powers and moral consequences, the adventure forces identity, heroism, and consequence into sharp relief."
   }
+},
+  {
+  "date": "2025-10-13",
+  "region": "NA",
+  "releaseDate": "2000-10-26",
+  "title": "TimeSplitters",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p36.webp",
+  "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Free Radical Design"
+    ],
+    "genre": [
+      "First-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A series of warriors across vastly different eras battle a malevolent alien race capable of tearing the fabric of history. Players traverse levels ranging from roaring 1930s mob-runways to futuristic spaceways, each with its own enemies and quirks. With split-screen multiplayer, custom maps, and time-bending gameplay, every jump through the ages feels unpredictable."
+  }
 }
 ]
