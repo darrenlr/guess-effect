@@ -9497,5 +9497,36 @@
     "metacritic": null,
     "plot": "A series of warriors across vastly different eras battle a malevolent alien race capable of tearing the fabric of history. Players traverse levels ranging from roaring 1930s mob-runways to futuristic spaceways, each with its own enemies and quirks. With split-screen multiplayer, custom maps, and time-bending gameplay, every jump through the ages feels unpredictable."
   }
+},
+  {
+  "date": "2025-10-14",
+  "region": "WW",
+  "releaseDate": "2020-09-17",
+  "title": "Hades",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39vc.webp",
+  "hints": {
+    "publisher": [
+      "Supergiant Games"
+    ],
+    "developer": [
+      "Supergiant Games"
+    ],
+    "genre": [
+      "Roguelike",
+      "Action role-playing"
+    ],
+    "platforms": [
+      "macOS",
+      "Nintendo Switch",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "A fallen prince of the underworld battles upward through naiad-infested caverns, lost gods, and nightmarish beasts, seeking escape from his infernal prison. Along the way, he forges tenuous alliances with gods, with each interaction shaping both epic conflicts and subtle revelations. With fluid combat, randomized rooms, and heartbreak-tinged narrative, every escape attempt becomes a testament to struggle, hope, and sacrifice beyond death."
+  }
 }
+
 ]
