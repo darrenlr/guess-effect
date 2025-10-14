@@ -9527,6 +9527,32 @@
     "metacritic": 93,
     "plot": "A fallen prince of the underworld battles upward through naiad-infested caverns, lost gods, and nightmarish beasts, seeking escape from his infernal prison. Along the way, he forges tenuous alliances with gods, with each interaction shaping both epic conflicts and subtle revelations. With fluid combat, randomized rooms, and heartbreak-tinged narrative, every escape attempt becomes a testament to struggle, hope, and sacrifice beyond death."
   }
+},
+  {
+  "date": "2025-10-15",
+  "region": "NA",
+  "releaseDate": "2002-10-22",
+  "title": "Reign of Fire",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1oyt.webp",
+  "hints": {
+    "publisher": [
+      "BAM! Entertainment"
+    ],
+    "developer": [
+      "Kuju Entertainment"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 56,
+    "plot": "In a wasteland overrun by dragons, a survivor-turned fighter uses scavenged military hardware to push back against flying beasts that have reduced humanity to pockets of resistance. Players alternate between vehicular combat, human defence missions, and draconic rampages to reclaim control over devastated landscapes. Each mission challenges both firepower and flight, put to test in battles where sheer survival depends on both cunning and courage."
+  }
 }
-
 ]
