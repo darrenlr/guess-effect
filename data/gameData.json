@@ -9672,5 +9672,35 @@
     "metacritic": 91,
     "plot": "When all the magical dragon eggs are stolen by a ruthless sorceress, a purple dragon must travel through exotic Forgotten Realms to recover them from hostile creatures and devious traps. Along the way, new allies, mini-games, and surprising friends help him navigate vast landscapes. The journey is a test of agility, wit, and courage—where every egg rescued brings back hope to a dragon’s world."
   }
+},
+  {
+  "date": "2025-10-20",
+  "region": "WW",
+  "releaseDate": "2025-02-28",
+  "title": "Monster Hunter Wilds",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co904o.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "RE Engine",
+    "metacritic": 88,
+    "plot": "Hunters explore a vast frontier known as the Forbidden Lands, where shifting ecosystems and monstrous creatures are as much a threat as the storms and terrain. Tasked with investigating a mysterious beast and protecting those who live on the edge of civilization, the player must adapt to dynamic weather, mutable landscapes and hidden dangers. Each hunt blends opportunity, risk, and resourcefulness in a world that feels alive and ever-changing."
+  }
 }
 ]
