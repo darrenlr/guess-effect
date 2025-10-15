@@ -9554,5 +9554,123 @@
     "metacritic": 56,
     "plot": "In a wasteland overrun by dragons, a survivor-turned fighter uses scavenged military hardware to push back against flying beasts that have reduced humanity to pockets of resistance. Players alternate between vehicular combat, human defence missions, and draconic rampages to reclaim control over devastated landscapes. Each mission challenges both firepower and flight, put to test in battles where sheer survival depends on both cunning and courage."
   }
+},
+  {
+  "date": "2025-10-16",
+  "region": "NA",
+  "releaseDate": "2008-10-16",
+  "title": "Saints Row 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yt7.webp",
+  "hints": {
+    "publisher": [
+      "THQ"
+    ],
+    "developer": [
+      "Volition"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Open-world"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Havok",
+    "metacritic": 80,
+    "plot": "After awakening from a coma, a gang leader returns to find his city overrun by rival gangs and corrupt powers. With the Saints fragmented and territory lost, he must rebuild his reputation by taking back Stilwater from the grasp of crime and betrayal. Edge-of-your-seat chaos, custom gangs, and a fully open city deliver both ruthless street justice and wild freedom."
+  }
+},
+  {
+  "date": "2025-10-17",
+  "region": "NA",
+  "releaseDate": "2012-08-21",
+  "title": "Transformers: Fall of Cybertron",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2scl.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "High Moon Studios"
+    ],
+    "genre": [
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 84,
+    "plot": "With the war ravaging their home planet, robotic warriors struggle between hope and desperation as one faction designs doomsday machines and another scrambles to escape the apocalyptic fate. Every mission turns from battlefield rescue to desperate resistance, featuring massive robot combat and betrayals that blur loyalties. With power, transformation, and sacrifice intertwined, the final days of a civilization become both epic and tragic."
+  }
+},
+{
+  "date": "2025-10-18",
+  "region": "JP",
+  "releaseDate": "2016-03-24",
+  "title": "Dark Souls III",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.webp",
+  "hints": {
+    "publisher": [
+      "FromSoftware"
+    ],
+    "developer": [
+      "FromSoftware"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "As ash falls and fire wanes, an unkindled warrior is drawn to a land teetering on ruin, seeking to kindle the flame before the Age of Fire ends. Facing grotesque beasts and haunted lords, the hero traverses ruined kingdoms, where every bonfire is a fragile haven in shadow. The journey demands mastery, patience, and will as despair and hope clash on every crumbling battlement."
+  }
+},
+{
+  "date": "2025-10-19",
+  "region": "NA",
+  "releaseDate": "2000-10-10",
+  "title": "Spyro: Year of the Dragon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7t4m.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "Platform",
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "When all the magical dragon eggs are stolen by a ruthless sorceress, a purple dragon must travel through exotic Forgotten Realms to recover them from hostile creatures and devious traps. Along the way, new allies, mini-games, and surprising friends help him navigate vast landscapes. The journey is a test of agility, wit, and courage—where every egg rescued brings back hope to a dragon’s world."
+  }
 }
 ]
