@@ -9702,5 +9702,34 @@
     "metacritic": 88,
     "plot": "Hunters explore a vast frontier known as the Forbidden Lands, where shifting ecosystems and monstrous creatures are as much a threat as the storms and terrain. Tasked with investigating a mysterious beast and protecting those who live on the edge of civilization, the player must adapt to dynamic weather, mutable landscapes and hidden dangers. Each hunt blends opportunity, risk, and resourcefulness in a world that feels alive and ever-changing."
   }
+},
+  {
+  "date": "2025-10-21",
+  "region": "JP",
+  "releaseDate": "1998-09-03",
+  "title": "Metal Gear Solid",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Konami Computer Entertainment Japan"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Stealth"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "A veteran operative infiltrates a nuclear weapons facility taken over by terrorists and must rely on stealth, cunning, and high-tech gadgetry to avert catastrophe. Navigating corridors, ventilation shafts and radar-guarded zones, the hero confronts deadly foes and hidden betrayals amid the cold isolation of a remote island base. With cinematic storytelling, layered deception and a ticking nuclear threat, every step in the darkness bears the weight of survival and legacy."
+  }
 }
+
 ]
