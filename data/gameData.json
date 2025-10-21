@@ -9730,5 +9730,34 @@
       "metacritic": 94,
       "plot": "A veteran operative infiltrates a nuclear weapons facility taken over by terrorists and must rely on stealth, cunning, and high-tech gadgetry to avert catastrophe. Navigating corridors, ventilation shafts and radar-guarded zones, the hero confronts deadly foes and hidden betrayals amid the cold isolation of a remote island base. With cinematic storytelling, layered deception and a ticking nuclear threat, every step in the darkness bears the weight of survival and legacy."
     }
+  },
+  {
+  "date": "2025-10-22",
+  "region": "NA",
+  "releaseDate": "2008-03-04",
+  "title": "God of War: Chains of Olympus",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3dip.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Ready at Dawn"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PlayStation Portable"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Ready at Dawn Engine 2.0",
+    "metacritic": 94,
+    "plot": "A demigod in servitude to the Olympian gods must defy fate as the world falls into chaos and the sun itself is stolen. Journeying through ancient ruins and catastrophic battlefields, he confronts dark gods and monstrous beasts wielding immense power. With chained blades and divine vengeance, every swing echoes the wrath of vengeance and sacrifice."
   }
+}
+
 ]
