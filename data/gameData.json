@@ -9758,6 +9758,92 @@
     "metacritic": 94,
     "plot": "A demigod in servitude to the Olympian gods must defy fate as the world falls into chaos and the sun itself is stolen. Journeying through ancient ruins and catastrophic battlefields, he confronts dark gods and monstrous beasts wielding immense power. With chained blades and divine vengeance, every swing echoes the wrath of vengeance and sacrifice."
   }
+},
+{
+  "date": "2025-10-23",
+  "region": "JP",
+  "releaseDate": "2005-12-08",
+  "title": "Rogue Galaxy",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26fu.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Level-5"
+    ],
+    "genre": [
+      "Action role-playing"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "A young bounty hunter joins a ragtag band of space pirates and travels across planets in a search for a legendary world, confronting galactic conspiracies and forging unlikely alliances along the way. Real-time battles, no visible loading between exploration and combat, and a rich cast deliver an epic adventure beyond the ordinary. Each world hides secrets, trials and personal growth in a universe where hope, betrayal and discovery intertwine."
+  }
+},
+{
+  "date": "2025-10-24",
+  "region": "NA",
+  "releaseDate": "2008-02-18",
+  "title": "FIFA Street 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20b7.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "EA Canada"
+    ],
+    "genre": [
+      "Sports",
+      "Arcade football"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "Nintendo DS"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 63,
+    "plot": "In a hyper-stylised street football world, celebrated international stars become larger-than-life icons who leap off walls, perform outrageous tricks and ignite every arena. Competing teams traverse exotic urban arenas—from rooftop parking lots to waterfront slums—where style, flair and goals combine into one electrifying spectacle. Every match blends skill, attitude and showmanship as players chase re-defined football glory."
+  }
+},
+  {
+  "date": "2025-10-25",
+  "region": "NA",
+  "releaseDate": "2005-01-11",
+  "title": "Mercenaries: Playground of Destruction",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ox1.webp",
+  "hints": {
+    "publisher": [
+      "LucasArts"
+    ],
+    "developer": [
+      "Pandemic Studios"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Open-world"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Havok Physics",
+    "metacritic": 84,
+    "plot": "A freelance mercenary enters a war-torn country to hunt high-value targets, hijack vehicles, and topple regimes by any means necessary. With explosions, chases, and freedom to wreak havoc across a hostile landscape, the player crafts their approach and payoff—choose infiltration, heavy firepower, or all-out destruction. Every contract completed and stronghold demolished brings both profit and danger in a chaotic sandbox of battlefield-scale mayhem."
+  }
 }
-
 ]
