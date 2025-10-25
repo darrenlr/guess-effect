@@ -9845,5 +9845,34 @@
     "metacritic": 84,
     "plot": "A freelance mercenary enters a war-torn country to hunt high-value targets, hijack vehicles, and topple regimes by any means necessary. With explosions, chases, and freedom to wreak havoc across a hostile landscape, the player crafts their approach and payoff—choose infiltration, heavy firepower, or all-out destruction. Every contract completed and stronghold demolished brings both profit and danger in a chaotic sandbox of battlefield-scale mayhem."
   }
+},
+  {
+  "date": "2025-10-26",
+  "region": "JP",
+  "releaseDate": "1999-12-11",
+  "title": "Gran Turismo 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20af.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Polyphony Digital"
+    ],
+    "genre": [
+      "Racing"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A simulation-racing sequel that expands the vehicle roster to hundreds and introduces rally and dirt tracks, challenging players to master both street circuits and off-road terrain. With two discs covering Arcade and Gran Turismo Mode, players can race, tune, and earn their driving licenses across a vast variety of cars and events. Every race demands precision driving, smart tuning, and patience as you climb the ranks of racing mastery."
+  }
 }
+
 ]
