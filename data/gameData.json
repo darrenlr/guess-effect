@@ -9873,6 +9873,35 @@
     "metacritic": null,
     "plot": "A simulation-racing sequel that expands the vehicle roster to hundreds and introduces rally and dirt tracks, challenging players to master both street circuits and off-road terrain. With two discs covering Arcade and Gran Turismo Mode, players can race, tune, and earn their driving licenses across a vast variety of cars and events. Every race demands precision driving, smart tuning, and patience as you climb the ranks of racing mastery."
   }
+},
+  {
+  "date": "2025-10-27",
+  "region": "NA",
+  "releaseDate": "2000-10-26",
+  "title": "SSX",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9232.webp",
+  "hints": {
+    "publisher": [
+      "EA Sports BIG"
+    ],
+    "developer": [
+      "EA Canada"
+    ],
+    "genre": [
+      "Sports",
+      "Racing"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Boarders compete in high-octane, over-the-top snowboarding courses with massive jumps and impossible tricks. Each run builds speed, style and boost as competitors perform huge aerial stunts and navigate tight rails and steep descents. As adrenaline soars, every race becomes a spectacle of skill, flair and pure arcade-driven speed."
+  }
 }
 
 ]
