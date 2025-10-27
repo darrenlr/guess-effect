@@ -9902,6 +9902,36 @@
     "metacritic": 93,
     "plot": "Boarders compete in high-octane, over-the-top snowboarding courses with massive jumps and impossible tricks. Each run builds speed, style and boost as competitors perform huge aerial stunts and navigate tight rails and steep descents. As adrenaline soars, every race becomes a spectacle of skill, flair and pure arcade-driven speed."
   }
+},
+  {
+  "date": "2025-10-28",
+  "region": "NA",
+  "releaseDate": "2007-08-28",
+  "title": "Warhawk",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2il4.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Incognito Entertainment",
+      "SCE Santa Monica Studio"
+    ],
+    "genre": [
+      "Third-person shooter",
+      "Vehicular combat"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "A multiplayer-only game where players engage in large-scale combat, piloting Warhawks (futuristic aircraft) and engaging in ground battles. The game emphasizes team-based strategies and offers various maps and game modes."
+  }
 }
+
 
 ]
