@@ -9931,7 +9931,37 @@
     "metacritic": 84,
     "plot": "A multiplayer-only game where players engage in large-scale combat, piloting Warhawks (futuristic aircraft) and engaging in ground battles. The game emphasizes team-based strategies and offers various maps and game modes."
   }
+},
+  {
+  "date": "2025-10-29",
+  "region": "NA",
+  "releaseDate": "2008-10-28",
+  "title": "MotorStorm: Pacific Rift",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26t6.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment America"
+    ],
+    "developer": [
+      "Evolution Studios"
+    ],
+    "genre": [
+      "Racing",
+      "Off-road"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "Set on a tropical Pacific island, racers navigate lush jungles, volcanic peaks and water-filled trails using a variety of off-road vehicles. With more tracks, vehicle classes and destructive terrain than its predecessor, every race is wild, chaotic and packed with vertical shortcuts. Split-screen and online multiplayer let teams compete in breathtaking, high-speed mayhem across natural and extreme environments."
+  }
 }
+
 
 
 ]
