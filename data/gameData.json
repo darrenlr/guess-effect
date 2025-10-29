@@ -9960,7 +9960,41 @@
     "metacritic": 82,
     "plot": "Set on a tropical Pacific island, racers navigate lush jungles, volcanic peaks and water-filled trails using a variety of off-road vehicles. With more tracks, vehicle classes and destructive terrain than its predecessor, every race is wild, chaotic and packed with vertical shortcuts. Split-screen and online multiplayer let teams compete in breathtaking, high-speed mayhem across natural and extreme environments."
   }
+},
+  {
+  "date": "2025-10-30",
+  "region": "WW",
+  "releaseDate": "2023-02-21",
+  "title": "Atomic Heart",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co68ag.webp",
+  "hints": {
+    "publisher": [
+      "Focus Entertainment",
+      "4Divinity"
+    ],
+    "developer": [
+      "Mundfish"
+    ],
+    "genre": [
+      "First-person shooter",
+      "Action RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 70,
+    "plot": "In an alternate-history Soviet Union, a facility spirals into chaos when its robotic creations rebel, forcing an agent to venture through dystopian labs, ruined landscapes, and monstrous machines. Armed with both conventional weapons and a strange polymer glove, he fights to uncover secrets and silence the collective intelligence behind the uprising. Every encounter tests his ingenuity, reflexes, and the fragile illusion of a controlled future."
+  }
 }
+
 
 
 
