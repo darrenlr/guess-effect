@@ -9993,9 +9993,35 @@
     "metacritic": 70,
     "plot": "In an alternate-history Soviet Union, a facility spirals into chaos when its robotic creations rebel, forcing an agent to venture through dystopian labs, ruined landscapes, and monstrous machines. Armed with both conventional weapons and a strange polymer glove, he fights to uncover secrets and silence the collective intelligence behind the uprising. Every encounter tests his ingenuity, reflexes, and the fragile illusion of a controlled future."
   }
+},
+  {
+  "date": "2025-10-31",
+  "region": "WW",
+  "releaseDate": "2017-04-28",
+  "title": "Little Nightmares",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.webp",
+  "hints": {
+    "publisher": [
+      "Bandai Namco Entertainment"
+    ],
+    "developer": [
+      "Tarsier Studios"
+    ],
+    "genre": [
+      "Puzzle-platform",
+      "Survival horror"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 78,
+    "plot": "A small child trapped on a mysterious vessel called the Maw must use stealth and courage to survive its twisted inhabitants and reach safety. Throughout dim corridors and grotesque dining rooms, the child learns to hide, run, and outwit larger, monstrous beings. Every shadow, creaking floorboard, and flickering light hides a threat in this haunting world where fear feels like its own character."
+  }
 }
-
-
-
-
 ]
