@@ -10023,5 +10023,33 @@
     "metacritic": 78,
     "plot": "A small child trapped on a mysterious vessel called the Maw must use stealth and courage to survive its twisted inhabitants and reach safety. Throughout dim corridors and grotesque dining rooms, the child learns to hide, run, and outwit larger, monstrous beings. Every shadow, creaking floorboard, and flickering light hides a threat in this haunting world where fear feels like its own character."
   }
+},
+  {
+  "date": "2025-11-01",
+  "region": "NA",
+  "releaseDate": "2010-03-16",
+  "title": "God of War III",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3koi.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Santa Monica Studio"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "A vengeful warrior climbs Mount Olympus to confront the gods and bring an end to a corrupt reign, unleashing chaos across divine realms. Blending brutal combat, epic set-pieces, and mythic power, every battle becomes a test of strength, wrath, and redemption. As old alliances crumble and titanic forces clash, the fate of Olympus hinges on this final, ferocious journey."
+  }
 }
 ]
