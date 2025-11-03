@@ -10113,7 +10113,66 @@
     "metacritic": 65,
     "plot": "Two rebels operate from disparate corners of the Matrix: one pilots a ship while the other infiltrates the dangerous digital world, engaging in high-stakes gun battles, martial arts and vehicular combat. Their missions run parallel with the events of a major film, revealing hidden truths and unseen scenes. Every choice, fight, and hack expands the story beyond the silver screen."
   }
+},
+  {
+  "date": "2025-11-04",
+  "region": "NA",
+  "releaseDate": "2013-04-09",
+  "title": "Guacamelee!",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2g6i.webp",
+  "hints": {
+    "publisher": [
+      "DrinkBox Studios"
+    ],
+    "developer": [
+      "DrinkBox Studios"
+    ],
+    "genre": [
+      "Metroidvania",
+      "Platform"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "PlayStation Vita"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "A masked luchador returns to his village only to find his beloved kidnapped and an evil force rising from the dead. He must traverse vibrant worlds inspired by Mexican folklore, battling skeletons and spirits with both martial arts and wrestling moves. With dimension-swapping powers and co-op combat, every fight and leap brings him closer to saving the Mexiverse."
+  }
+},
+  {
+  "date": "2025-11-05",
+  "region": "JP",
+  "releaseDate": "2001-07-19",
+  "title": "Final Fantasy X",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tr1.webp",
+  "hints": {
+    "publisher": [
+      "Square (JP)",
+      "Squaresoft (NA)"
+    ],
+    "developer": [
+      "Square Product Development Division 1"
+    ],
+    "genre": [
+      "JRPG"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "A star blitzball player is swept away from his home and into the fantastical world of Spira, where he joins a summoner on a pilgrimage to confront a malevolent force known as Sin. Across seas and temples, he learns that salvation may come at a terrible sacrifice. With friends bound by duty, faith, and memory, every battle and promise shapes the fate of his world."
+  }
 }
+
 
 
 ]
