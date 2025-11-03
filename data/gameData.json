@@ -10082,6 +10082,38 @@
     "metacritic": 80,
     "plot": "Survivors of humanity venture through shifting worlds overrun by powerful creatures and ancient evils, teaming up or going solo to withstand the onslaught. Wielding both firearms and melee weapons, they master unique archetypes and augment their build to tackle relentless foes. Every fight is a struggle to preserve hope in a reality torn by cosmic forces and the root of destruction."
   }
+},
+  {
+  "date": "2025-11-03",
+  "region": "NA",
+  "releaseDate": "2003-05-14",
+  "title": "Enter the Matrix",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1oum.webp",
+  "hints": {
+    "publisher": [
+      "Infogrames (Atari)"
+    ],
+    "developer": [
+      "Shiny Entertainment"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 65,
+    "plot": "Two rebels operate from disparate corners of the Matrix: one pilots a ship while the other infiltrates the dangerous digital world, engaging in high-stakes gun battles, martial arts and vehicular combat. Their missions run parallel with the events of a major film, revealing hidden truths and unseen scenes. Every choice, fight, and hack expands the story beyond the silver screen."
+  }
 }
+
 
 ]
