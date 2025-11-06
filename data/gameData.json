@@ -10199,5 +10199,122 @@
     "metacritic": 80,
     "plot": "Kat returns with gravity-shifting powers as she navigates a floating city threatened by a new cosmic danger. Joined by Raven and other allies, she battles massive foes while mastering different gravity styles to adapt and fight. As the city’s fate hangs in the balance, every leap and fall holds more than just survival — it may reshape her purpose and the universe itself."
   }
-}
+},
+  {
+  "date": "2025-11-07",
+  "region": "NA",
+  "releaseDate": "2012-04-13",
+  "title": "Fez",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rd9.webp",
+  "hints": {
+    "publisher": [
+      "Trapdoor"
+    ],
+    "developer": [
+      "Polytron Corporation"
+    ],
+    "genre": [
+      "Puzzle-platform"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Trixel",
+    "metacritic": 89,
+    "plot": "A quiet 2D creature called Gomez receives a fez hat that reveals his world is actually part of a larger 3D universe. By rotating perspectives between four viewpoints, he unravels hidden structures and discovers cube fragments across an interconnected landscape. His journey becomes a surreal exploration of space, time, and secret geometry."
+  }
+},
+{
+  "date": "2025-11-08",
+  "region": "JP",
+  "releaseDate": "2001-03-02",
+  "title": "Zone of the Enders",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co260o.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Kojima Productions"
+    ],
+    "genre": [
+      "Action",
+      "Third-person shooter"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "A young pilot is thrust into a war aboard a space station when he becomes linked to a powerful Orbital Frame. With blinding speed and devastating weapons, he must take down rival mechs and confront hidden conspiracies. As alliances shift and battles rage, his fight becomes a quest for freedom and understanding in a fragmented solar system."
+  }
+},
+  {
+  "date": "2025-11-09",
+  "region": "JP",
+  "releaseDate": "2013-07-13",
+  "title": "Pikmin 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p9e.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EAD"
+    ],
+    "genre": [
+      "Real-time strategy"
+    ],
+    "platforms": [
+      "Wii U"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "Three captains crash-land on a lush, alien planet and must lead armies of Pikmin to gather fruit and resources while avoiding dangerous creatures. As they build bridges, throw Pikmin, and solve puzzles, they uncover the planet’s secrets and work to prevent starvation back home. Every mission is a delicate balance between exploration, resource management, and combat in colorful but hostile terrain."
+  }
+},
+  {  
+  "date": "2025-11-10",  
+  "region": "EU",  
+  "releaseDate": "2008-06-20",  
+  "title": "Alone in the Dark",  
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co85wr.webp",  
+  "hints": {  
+    "publisher": [  
+      "Atari Interactive"  
+    ],  
+    "developer": [  
+      "Eden Games",  
+      "Hydravision Entertainment"  
+    ],  
+    "genre": [  
+      "Survival horror",  
+      "Action-adventure"  
+    ],  
+    "platforms": [  
+      "PC",  
+      "PlayStation 2",  
+      "Wii",  
+      "Xbox 360",  
+      "PlayStation 3"  
+    ],  
+    "modes": [  
+      "Single-player"  
+    ],  
+    "engine": "Twilight 2 / RenderWare",  
+    "metacritic": 58,  
+    "plot": "A lone investigator enters a dangerous recreation of Central Park where reality is twisted and darkness hides unspeakable conspiracies. He must gather items, fight supernatural and human threats, and solve episodic challenges to uncover the truth. Fire, physics and interactive environments become tools for survival, testing both his wits and resolve."  
+  }  
+}  
 ]
