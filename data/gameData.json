@@ -10171,8 +10171,33 @@
     "metacritic": 92,
     "plot": "A star blitzball player is swept away from his home and into the fantastical world of Spira, where he joins a summoner on a pilgrimage to confront a malevolent force known as Sin. Across seas and temples, he learns that salvation may come at a terrible sacrifice. With friends bound by duty, faith, and memory, every battle and promise shapes the fate of his world."
   }
+},
+{
+  "date": "2025-11-06",
+  "region": "EU",
+  "releaseDate": "2017-01-18",
+  "title": "Gravity Rush 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2q9u.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Japan Studio (Team Gravity)"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "Kat returns with gravity-shifting powers as she navigates a floating city threatened by a new cosmic danger. Joined by Raven and other allies, she battles massive foes while mastering different gravity styles to adapt and fight. As the city’s fate hangs in the balance, every leap and fall holds more than just survival — it may reshape her purpose and the universe itself."
+  }
 }
-
-
-
 ]
