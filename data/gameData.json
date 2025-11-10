@@ -10316,5 +10316,35 @@
     "metacritic": 58,  
     "plot": "A lone investigator enters a dangerous recreation of Central Park where reality is twisted and darkness hides unspeakable conspiracies. He must gather items, fight supernatural and human threats, and solve episodic challenges to uncover the truth. Fire, physics and interactive environments become tools for survival, testing both his wits and resolve."  
   }  
-}  
+},
+  {
+  "date": "2025-11-11",
+  "region": "WW",
+  "releaseDate": "2016-05-24",
+  "title": "Total War: Warhammer",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rq0.webp",
+  "hints": {
+    "publisher": [
+      "SEGA"
+    ],
+    "developer": [
+      "The Creative Assembly"
+    ],
+    "genre": [
+      "Turn-based strategy",
+      "Real-time tactics"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "TW Engine 3",
+    "metacritic": 86,
+    "plot": "In a realm torn by war between mankind and ancient races, entire armies of dwarfs, humans, vampires and orcs clash across a sprawling fantasy landscape. Command champions, exploit magical storms and lead vast battles where strategy and real-time tactics merge. The fate of the Old World lies in the balance as ancient powers rise and empires fall."
+  }
+}
+
 ]
