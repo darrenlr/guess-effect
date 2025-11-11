@@ -10345,6 +10345,225 @@
     "metacritic": 86,
     "plot": "In a realm torn by war between mankind and ancient races, entire armies of dwarfs, humans, vampires and orcs clash across a sprawling fantasy landscape. Command champions, exploit magical storms and lead vast battles where strategy and real-time tactics merge. The fate of the Old World lies in the balance as ancient powers rise and empires fall."
   }
+},
+  {
+  "date": "2025-11-12",
+  "region": "NA",
+  "releaseDate": "2013-10-29",
+  "title": "Battlefield 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nmf.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "DICE"
+    ],
+    "genre": [
+      "First-Person Shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Frostbite 3",
+    "metacritic": 81,
+    "plot": "Set during a fictional War of 2020, an elite squad known as Tombstone must navigate a geopolitical crisis as they evacuate American VIPs from Shanghai and struggle to find their way home. The conflict spans from China to Russia as experimental weapons and military forces clash in a global conflict."
+  }
+},
+  {
+  "date": "2025-11-13",
+  "region": "NA",
+  "releaseDate": "2014-11-18",
+  "title": "Dragon Age: Inquisition",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mvy.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "BioWare"
+    ],
+    "genre": [
+      "Action RPG",
+      "Fantasy"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Frostbite 3",
+    "metacritic": 85,
+    "plot": "A massive explosion tears open the sky and unleashes demons upon the world of Thedas. As the sole survivor marked with a mysterious power to seal the rifts, you become the Inquisitor and must lead a reborn organization to restore order and uncover the truth behind a cataclysmic event that threatens all of Thedas."
+  }
+},
+  {
+  "date": "2025-11-14",
+  "region": "NA",
+  "releaseDate": "2002-11-05",
+  "title": "Spyro: Enter the Dragonfly",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3qjh.webp",
+  "hints": {
+    "publisher": [
+      "Universal Interactive"
+    ],
+    "developer": [
+      "Check Six Studios",
+      "Equinoxe Digital Entertainment"
+    ],
+    "genre": [
+      "3D Platformer",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 56,
+    "plot": "During a celebration for the arrival of new dragonfly guardians for the baby dragons, the villain Ripto crashes the party and attempts to capture the dragonflies. His spell backfires, scattering the dragonflies across the Dragon Realm. Spyro must recover all ninety dragonflies using his new bubble breath ability to restore order to the realm."
+  }
+},
+{
+  "date": "2025-11-15",
+  "region": "WW",
+  "releaseDate": "2015-03-10",
+  "title": "Hotline Miami 2: Wrong Number",
+  "boxArtUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wf6.webp",
+  "hints": {
+    "publisher": [
+      "Devolver Digital"
+    ],
+    "developer": [
+      "Dennaton Games"
+    ],
+    "genre": [
+      "Top-Down Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "PlayStation Vita",
+      "Linux",
+      "Mac"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "GameMaker 7",
+    "metacritic": 74,
+    "plot": "The brutal conclusion to the Hotline Miami saga explores the events before, during, and after the original game's massacres. Players experience multiple perspectives across different factions with questionable motivations as escalating violence and retribution consume 1980s Miami, blurring the lines between reality and a haze of neon-soaked carnage."
+  }
+},
+  {
+  "date": "2025-11-16",
+  "region": "NA",
+  "releaseDate": "2006-10-31",
+  "title": "Need for Speed: Carbon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co209k.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "EA Black Box"
+    ],
+    "genre": [
+      "Arcade Racing",
+      "Street Racing"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox",
+      "Xbox 360",
+      "GameCube",
+      "Wii",
+      "Mac"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 77,
+    "plot": "Following the events of Most Wanted, you return to Palmont City where your racing career began. Build a crew of wingmen to help you race in an all-out war for the city, taking over rival territories one block at a time. The battle ultimately shifts to the treacherous Carbon Canyon, where reputations are made or lost on every dangerous curve."
+  }
+  },
+    {
+  "date": "2025-11-17",
+  "region": "NA",
+  "releaseDate": "1994-11-21",
+  "title": "Donkey Kong Country",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co70qn.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Rare"
+    ],
+    "genre": [
+      "Platformer"
+    ],
+    "platforms": [
+      "SNES"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "After a dark and stormy night, the gorilla discovers his entire banana hoard has been stolen by the reptilian Kremling army led by King K. Rool. Together with his nephew, they embark on an adventure across their island to recover the stolen bananas and defeat the Kremling forces."
+  }
+},
+  {
+  "date": "2025-11-18",
+  "region": "JP",
+  "releaseDate": "2009-12-17",
+  "title": "Final Fantasy XIII",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ukg.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Square Enix"
+    ],
+    "genre": [
+      "JRPG",
+      "Role-Playing"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Crystal Tools",
+    "metacritic": 83,
+    "plot": "A band of unsuspecting strangers find themselves branded as l'Cie, enemies of the state in the floating world of Cocoon. Hunted by the military and feared by the populace, they must flee for their lives while struggling against a fate imposed upon them by supernatural beings, racing to prevent an apocalyptic catastrophe that threatens both Cocoon and the world of Gran Pulse below."
+  }
 }
-
 ]
