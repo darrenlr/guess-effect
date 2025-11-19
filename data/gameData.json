@@ -10565,5 +10565,34 @@
     "metacritic": 83,
     "plot": "A band of unsuspecting strangers find themselves branded as l'Cie, enemies of the state in the floating world of Cocoon. Hunted by the military and feared by the populace, they must flee for their lives while struggling against a fate imposed upon them by supernatural beings, racing to prevent an apocalyptic catastrophe that threatens both Cocoon and the world of Gran Pulse below."
   }
+},
+  {
+  "date": "2025-11-19",
+  "region": "EU",
+  "releaseDate": "2010-11-24",
+  "title": "Gran Turismo 5",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20bm.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Polyphony Digital"
+    ],
+    "genre": [
+      "Racing",
+      "Simulation"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "The ultimate racing simulation features over 1,000 meticulously detailed vehicles across 77 tracks in 29 locations worldwide. Players progress through various driving challenges, earning licenses and credits to build their dream garage while competing in diverse racing disciplines including NASCAR, WRC rally, and Super GT championships."
+  }
 }
 ]
