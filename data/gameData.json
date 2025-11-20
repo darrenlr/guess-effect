@@ -10594,5 +10594,37 @@
     "metacritic": 84,
     "plot": "The ultimate racing simulation features over 1,000 meticulously detailed vehicles across 77 tracks in 29 locations worldwide. Players progress through various driving challenges, earning licenses and credits to build their dream garage while competing in diverse racing disciplines including NASCAR, WRC rally, and Super GT championships."
   }
+},
+  {
+  "date": "2025-11-20",
+  "region": "NA",
+  "releaseDate": "2003-11-06",
+  "title": "Prince of Persia: The Sands of Time",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co52j8.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montreal"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Platformer"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube",
+      "Game Boy Advance",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Jade",
+    "metacritic": 92,
+    "plot": "A young prince joins his father's army in attacking an Indian Maharajah's kingdom and obtains a mystical dagger capable of controlling time. Tricked by the treacherous Vizier into unleashing the Sands of Time, he transforms the palace inhabitants into savage monsters. Now he must work alongside the Maharajah's daughter to undo the catastrophe and return the sands to the hourglass."
+  }
 }
 ]
