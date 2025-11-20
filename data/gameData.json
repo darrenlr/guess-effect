@@ -10626,5 +10626,39 @@
     "metacritic": 92,
     "plot": "A young prince joins his father's army in attacking an Indian Maharajah's kingdom and obtains a mystical dagger capable of controlling time. Tricked by the treacherous Vizier into unleashing the Sands of Time, he transforms the palace inhabitants into savage monsters. Now he must work alongside the Maharajah's daughter to undo the catastrophe and return the sands to the hourglass."
   }
-}
+},
+  {
+  "date": "2025-11-21",
+  "region": "WW",
+  "releaseDate": "2023-04-21",
+  "title": "Dead Island 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5469.webp",
+  "hints": {
+    "publisher": [
+      "Deep Silver"
+    ],
+    "developer": [
+      "Dambuster Studios"
+    ],
+    "genre": [
+      "Action RPG",
+      "First-Person Action RPG",
+      "Survival Horror"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 75,
+    "plot": "Fifteen years after the original outbreak, Los Angeles faces a devastating zombie pandemic. Six immune survivors, dubbed 'Slayers,' escape a crashed evacuation plane only to discover they possess mysterious resistance to the infection that's turning the city into a quarantined hellscape."
+  }
+  }
 ]
