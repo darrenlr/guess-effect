@@ -10660,5 +10660,41 @@
     "metacritic": 75,
     "plot": "Fifteen years after the original outbreak, Los Angeles faces a devastating zombie pandemic. Six immune survivors, dubbed 'Slayers,' escape a crashed evacuation plane only to discover they possess mysterious resistance to the infection that's turning the city into a quarantined hellscape."
   }
+  },
+  {
+  "date": "2025-11-22",
+  "region": "WW",
+  "releaseDate": "2022-02-25",
+  "title": "Elden Ring",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4jni.webp",
+  "hints": {
+    "publisher": [
+      "Bandai Namco Entertainment",
+      "FromSoftware Inc."
+    ],
+    "developer": [
+      "FromSoftware Inc."
+    ],
+    "genre": [
+      "Action RPG",
+      "Soulslike",
+      "Open World"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "PvP"
+    ],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "In the Lands Between, the Elden Ring has been shattered, unleashing chaos across the realm. As a Tarnished warrior guided by grace, players must journey through a vast open world to recover the Great Runes held by demigod rulers, repair the Elden Ring, and become the new Elden Lord in this dark fantasy epic crafted by Hidetaka Miyazaki and George R.R. Martin."
   }
+}
 ]
