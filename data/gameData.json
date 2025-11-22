@@ -10696,5 +10696,68 @@
     "metacritic": 96,
     "plot": "In the Lands Between, the Elden Ring has been shattered, unleashing chaos across the realm. As a Tarnished warrior guided by grace, players must journey through a vast open world to recover the Great Runes held by demigod rulers, repair the Elden Ring, and become the new Elden Lord in this dark fantasy epic crafted by Hidetaka Miyazaki and George R.R. Martin."
   }
+},
+  {
+  "date": "2025-11-23",
+  "region": "WW",
+  "releaseDate": "2019-08-27",
+  "title": "Hunt: Showdown",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8o7i.webp",
+  "hints": {
+    "publisher": [
+      "Crytek"
+    ],
+    "developer": [
+      "Crytek"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "PvPvE",
+      "Extraction Shooter",
+      "Horror"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "CryEngine",
+    "metacritic": 82,
+    "plot": "Set in 1895 Louisiana, bounty hunters track and eliminate nightmarish monsters that have emerged from a dark supernatural plague. Hunters must compete against both twisted creatures and rival players to claim bounties and extract alive. Every death is permanent, and the bayou is filled with dangers both human and inhuman."
+  }
+},
+  {
+  "date": "2025-11-24",
+  "region": "WW",
+  "releaseDate": "2018-05-29",
+  "title": "Moonlighter",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vck.webp",
+  "hints": {
+    "publisher": [
+      "11 bit studios"
+    ],
+    "developer": [
+      "Digital Sun"
+    ],
+    "genre": [
+      "Action RPG",
+      "Roguelite",
+      "Shop Management"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 74,
+    "plot": "Will is a shopkeeper in the village of Rynoka who dreams of becoming a hero. By night, he explores dangerous dungeons filled with monsters to collect valuable artifacts. By day, he manages his family shop, selling the loot he's gathered while working to unlock the mysterious fifth dungeon that has remained sealed since the Gates were discovered."
+  }
 }
 ]
