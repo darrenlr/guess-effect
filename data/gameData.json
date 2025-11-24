@@ -10759,5 +10759,36 @@
     "metacritic": 74,
     "plot": "Will is a shopkeeper in the village of Rynoka who dreams of becoming a hero. By night, he explores dangerous dungeons filled with monsters to collect valuable artifacts. By day, he manages his family shop, selling the loot he's gathered while working to unlock the mysterious fifth dungeon that has remained sealed since the Gates were discovered."
   }
-}
+},
+  {
+  "date": "2025-11-25",
+  "region": "NA",
+  "releaseDate": "2011-11-15",
+  "title": "Rayman Origins",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1v7k.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montpellier"
+    ],
+    "genre": [
+      "Platformer",
+      "2D"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "Wii"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "UbiArt Framework",
+    "metacritic": 87,
+    "plot": "In the Glade of Dreams, Rayman and his friends' loud snoring disturbs an old granny from the Land of the Livid Dead. She retaliates by unleashing an army of evil Darktoons and monstrous creatures across the world. Rayman, Globox, and two Teensies must journey through vibrant worlds to rescue imprisoned Electoons and restore peace to their once-harmonious realm."
+  }
+  }
 ]
