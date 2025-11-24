@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
-import ScoreSystem from "../components/ScoreSystem";
-import ArchivedGame from "../components/ArchivedGame";
+import GameSystem from "../components/GameSystem";
 import MessageModal from "../components/MessageModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import Script from "next/script";
@@ -16,13 +16,20 @@ const initialGameHistory = {
 };
 
 const Daily = () => {
+  const router = useRouter();
   const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
   const [game, setGame] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
+  
+  // Get date from URL query param, default to today
+  const selectedDate = router.query.date || new Date().toISOString().split("T")[0];
+  const isArchiveGame = !!router.query.date;
 
   useEffect(() => {
+    // Don't fetch until router is ready
+    if (!router.isReady) return;
+
     const fetchGameInfo = async (date) => {
       setLoading(true);
       try {
@@ -40,13 +47,11 @@ const Daily = () => {
     };
 
     fetchGameInfo(selectedDate);
-  }, [selectedDate]);
-
-  const isArchiveGame = selectedDate !== new Date().toISOString().split("T")[0];
+  }, [selectedDate, router.isReady]);
 
   return (
     <>
-      <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
+      <Navbar gameHistory={gameHistory} />
 
 
       {/* SEO: Hidden keyword section */}
@@ -91,22 +96,14 @@ const Daily = () => {
           <p className="loader"></p>
         </div>
       ) : game ? (
-        isArchiveGame ? (
-          <ArchivedGame
-            game={game}
-            gameHistory={gameHistory}
-            setGameHistory={setGameHistory}
-          />
-        ) : (
-          <ScoreSystem
-            game={game}
-            gameHistory={gameHistory}
-            setGameHistory={setGameHistory}
-          />
-        )
+        <GameSystem
+          game={game}
+          gameHistory={gameHistory}
+          setGameHistory={setGameHistory}
+          isArchive={isArchiveGame}
+        />
       ) : (
         <div className="loading-container">
-
           <div className="error-container">
             <p className="error-message">Your princess is in another castle!
               <br></br>

@@ -11,17 +11,28 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 	const handleSearch = async (inputValue) => {
 		if (inputValue.length > 2) {
 			setIsLoading(true);
-			const response = await fetch(`/api/games?search=${inputValue}`);
-			
-			const data = await response.json();
+			try {
+				const response = await fetch(`/api/games?search=${inputValue}`);
+				
+				const data = await response.json();
 
-			const gameOptions = data.results.map((game) => ({
-				value: game.name,
-				label: game.name,
-			}));
-	
-			setOptions(gameOptions);
-			setIsLoading(false);
+				// Check if data.results exists before mapping
+				if (data && data.results && Array.isArray(data.results)) {
+					const gameOptions = data.results.map((game) => ({
+						value: game.name,
+						label: game.name,
+					}));
+					setOptions(gameOptions);
+				} else {
+					console.error('API response missing results:', data);
+					setOptions([]);
+				}
+			} catch (error) {
+				console.error('Error fetching games:', error);
+				setOptions([]);
+			} finally {
+				setIsLoading(false);
+			}
 		} else {
 			setOptions([]);
 		}

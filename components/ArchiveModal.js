@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/router";
 import Calendar from "react-calendar";
 import styles from "../styles/Modal.module.css";
 import 'react-calendar/dist/Calendar.css';
 
-const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
+const ArchiveModal = ({ closeModal, gameHistory }) => {
+    const router = useRouter();
     const [isOpen, setIsOpen] = useState(true);
 
     const handleClickOutside = (event) => {
@@ -73,7 +75,7 @@ const ArchiveModal = ({ closeModal, gameHistory, setSelectedDate }) => {
                     <Calendar
                         onChange={(date) => {
 							    const dateString = date.toLocaleDateString('sv-SE');
-							setSelectedDate(dateString);
+							router.push(`/daily?date=${dateString}`);
                             
 							setTimeout(() => {
                                 setIsOpen(false);
