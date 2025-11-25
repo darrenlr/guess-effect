@@ -51,13 +51,21 @@ const initialGameState = {
 const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) => {
 	const [isMounted, setIsMounted] = useState(false);
 	
-	// Use different hooks and keys based on whether it's an archive game
-	const storageKey = isArchive ? "ARCHIVED_GAME_STATE" : "CURRENT_GAME_STATE";
-	const [gameStateFromLocalStorage, setGameStateFromLocalStorage] = isArchive 
-		? useArchiveLocalStorage(storageKey, initialGameState, game.date, game.releaseDate)
-		: useLocalStorage(storageKey, initialGameState, game.releaseDate);
+	const [archiveGameState, setArchiveGameState] = useArchiveLocalStorage(
+		"ARCHIVED_GAME_STATE", 
+		initialGameState, 
+		game.date, 
+		game.releaseDate
+	);
+	const [currentGameState, setCurrentGameState] = useLocalStorage(
+		"CURRENT_GAME_STATE", 
+		initialGameState, 
+		game.releaseDate
+	);
 	
-	const [gameState, setGameState] = [gameStateFromLocalStorage, setGameStateFromLocalStorage];
+	const [gameState, setGameState] = isArchive
+		? [archiveGameState, setArchiveGameState]
+		: [currentGameState, setCurrentGameState];
 	
 	const [playerStatsUpdated, setPlayerStatsUpdated] = useState(false);
 	
@@ -374,6 +382,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
 			};
 			
 			// Save immediately to localStorage
+			const storageKey = isArchive ? "ARCHIVED_GAME_STATE" : "CURRENT_GAME_STATE";
 			window.localStorage.setItem(storageKey, JSON.stringify(updatedGameState));
 			
 			return updatedGameState;

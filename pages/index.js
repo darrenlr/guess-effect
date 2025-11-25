@@ -14,7 +14,7 @@ const Home = () => {
             <button className="mode-button daily-button">
               <span className="mode-icon">📅</span>
               <span className="mode-title">Daily</span>
-              <span className="mode-description">Play today's challenge</span>
+              <span className="mode-description">Play today&apos;s challenge</span>
             </button>
           </Link>
           
