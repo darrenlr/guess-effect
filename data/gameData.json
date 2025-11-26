@@ -10822,5 +10822,34 @@
     "metacritic": 71,
     "plot": "A young wizard returns for his second year at Hogwarts School of Witchcraft and Wizardry, only to find students mysteriously being petrified. He must investigate the legend of a hidden chamber and confront the heir of Slytherin before more students fall victim to the ancient evil lurking within the castle walls."
   }
+  },
+  {
+  "date": "2025-11-27",
+  "region": "NA",
+  "releaseDate": "2014-03-04",
+  "title": "South Park: The Stick of Truth",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Obsidian Entertainment"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Onyx",
+    "metacritic": 85,
+    "plot": "A new kid moves to the quiet mountain town and becomes embroiled in an epic live-action role-playing game where children battle as wizards, warriors, and elves for control of an all-powerful stick. What begins as childhood fantasy quickly escalates into a conflict involving aliens, Nazi zombies, and gnomes that threatens the entire town."
+  }
   }
 ]
