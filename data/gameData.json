@@ -10790,5 +10790,37 @@
     "metacritic": 87,
     "plot": "In the Glade of Dreams, Rayman and his friends' loud snoring disturbs an old granny from the Land of the Livid Dead. She retaliates by unleashing an army of evil Darktoons and monstrous creatures across the world. Rayman, Globox, and two Teensies must journey through vibrant worlds to rescue imprisoned Electoons and restore peace to their once-harmonious realm."
   }
+  },
+  {
+  "date": "2025-11-26",
+  "region": "WW",
+  "releaseDate": "2002-11-15",
+  "title": "Harry Potter and the Chamber of Secrets",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20dl.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Eurocom",
+      "KnowWonder",
+      "Argonaut Games"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 1",
+    "metacritic": 71,
+    "plot": "A young wizard returns for his second year at Hogwarts School of Witchcraft and Wizardry, only to find students mysteriously being petrified. He must investigate the legend of a hidden chamber and confront the heir of Slytherin before more students fall victim to the ancient evil lurking within the castle walls."
+  }
   }
 ]
