@@ -10851,5 +10851,33 @@
     "metacritic": 85,
     "plot": "A new kid moves to the quiet mountain town and becomes embroiled in an epic live-action role-playing game where children battle as wizards, warriors, and elves for control of an all-powerful stick. What begins as childhood fantasy quickly escalates into a conflict involving aliens, Nazi zombies, and gnomes that threatens the entire town."
   }
-  }
+  },
+  {
+  "date": "2025-11-28",
+  "region": "WW",
+  "releaseDate": "2013-10-23",
+  "title": "Path of Exile",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1n6w.webp",
+  "hints": {
+    "publisher": [
+      "Grinding Gear Games"
+    ],
+    "developer": [
+      "Grinding Gear Games"
+    ],
+    "genre": [
+      "Action RPG",
+      "Hack and slash"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Online Co-Op"
+    ],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "An exile struggles to survive on the dark continent of Wraeclast after being banished from their homeland. Fighting through hordes of monsters and exploring procedurally generated dungeons, they must gain enough power to exact revenge on those who wronged them while confronting ancient gods and malevolent forces threatening
 ]
