@@ -10881,5 +10881,32 @@
     "metacritic": 86,
     "plot": "An exile struggles to survive on the dark continent of Wraeclast after being banished from their homeland. Fighting through hordes of monsters and exploring procedurally generated dungeons, they must gain enough power to exact revenge on those who wronged them while confronting ancient gods and malevolent forces threatening"
   }
+  },
+  {
+  "date": "2025-11-29",
+  "region": "WW",
+  "releaseDate": "2011-11-18",
+  "title": "The Legend of Zelda: Skyward Sword",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5wrj.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EAD"
+    ],
+    "genre": [
+      "Action-adventure"
+    ],
+    "platforms": [
+      "Wii"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Link, a resident of the floating island of Skyloft, sets out to rescue his childhood friend Zelda after she is kidnapped and brought to the abandoned lands below the clouds. His quest reveals the origins of the Master Sword and lays the foundation for the kingdom of Hyrule."
   }
+}
 ]
