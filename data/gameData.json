@@ -10908,5 +10908,36 @@
     "metacritic": 93,
     "plot": "Link, a resident of the floating island of Skyloft, sets out to rescue his childhood friend Zelda after she is kidnapped and brought to the abandoned lands below the clouds. His quest reveals the origins of the Master Sword and lays the foundation for the kingdom of Hyrule."
   }
+},
+  {
+  "date": "2025-11-30",
+  "region": "WW",
+  "releaseDate": "2025-03-06",
+  "title": "Split Fiction",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co95gf.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Hazelight Studios"
+    ],
+    "genre": [
+      "Action-adventure",
+      "Platformer",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "modes": [
+      "Co-op"
+    ],
+    "engine": "Unreal Engine 5",
+    "metacritic": 91,
+    "plot": "Two contrasting writers, Mio and Zoe, become trapped in their own stories after being hooked up to a machine designed to steal their creative ideas. They must work together to escape the simulation, jumping between sci-fi and fantasy worlds while slowly bonding as strangers who need each other to survive."
+  }
 }
 ]
