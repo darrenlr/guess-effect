@@ -10939,5 +10939,34 @@
     "metacritic": 91,
     "plot": "Two contrasting writers, Mio and Zoe, become trapped in their own stories after being hooked up to a machine designed to steal their creative ideas. They must work together to escape the simulation, jumping between sci-fi and fantasy worlds while slowly bonding as strangers who need each other to survive."
   }
-}
+},
+  {
+  "date": "2025-12-01",
+  "region": "JP",
+  "releaseDate": "1996-03-21",
+  "title": "Kirby Super Star",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4qyi.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "HAL Laboratory"
+    ],
+    "genre": [
+      "Action",
+      "Platformer"
+    ],
+    "platforms": [
+      "Super Nintendo"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "An anthology of adventures starring Kirby across eight different games with varied gameplay styles. The pink hero uses his signature copy abilities to defeat enemies and overcome challenges, from racing King Dedede to exploring treasure-filled caves and thwarting Meta Knight's revenge."
+  }
+  }
 ]
