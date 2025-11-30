@@ -1,0 +1,266 @@
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import Navbar from "../components/Navbar";
+import EndlessGameSystem from "../components/EndlessGameSystem";
+import EndlessSummaryModal from "../components/EndlessSummaryModal";
+import EndlessStatsModal from "../components/EndlessStatsModal";
+import useEndlessMode from "../hooks/useEndlessMode";
+
+const Endless = () => {
+    const router = useRouter();
+    const mode = 'easy'; // For now, only easy mode
+    const { state, setState, stats, updateStats, clearState } = useEndlessMode(mode);
+    
+    const [allGames, setAllGames] = useState([]);
+    const [currentGame, setCurrentGame] = useState(null);
+    const [gameResults, setGameResults] = useState([]);
+    const [lives, setLives] = useState(10);
+    const [totalScore, setTotalScore] = useState(0);
+    const [currentStreak, setCurrentStreak] = useState(0);
+    const [longestStreak, setLongestStreak] = useState(0);
+    const [currentGameNumber, setCurrentGameNumber] = useState(1);
+    const [showSummary, setShowSummary] = useState(false);
+    const [showStatsModal, setShowStatsModal] = useState(false);
+    const [isGameCompleted, setIsGameCompleted] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Load all games from JSON
+    useEffect(() => {
+        const loadGames = async () => {
+            try {
+                const res = await fetch('/api/getAllGames');
+                if (res.ok) {
+                    const games = await res.json();
+                    setAllGames(games);
+                } else {
+                    console.error('Failed to load games');
+                }
+            } catch (error) {
+                console.error('Error loading games:', error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+        
+        loadGames();
+    }, []);
+
+    // Initialize or restore game state
+    useEffect(() => {
+        if (allGames.length === 0) return;
+
+        if (state) {
+            // Restore previous state
+            setGameResults(state.gameResults);
+            setLives(state.lives);
+            setTotalScore(state.totalScore);
+            setCurrentStreak(state.currentStreak);
+            setLongestStreak(state.longestStreak);
+            setCurrentGameNumber(state.currentGameNumber);
+            setCurrentGame(state.currentGame);
+            setIsGameCompleted(state.gameCompleted || false);
+        } else {
+            // Start new game
+            startNewRun();
+        }
+    }, [allGames, state]);
+
+    const getRandomGame = (excludeReleaseDates = []) => {
+        const availableGames = allGames.filter(
+            game => !excludeReleaseDates.includes(game.releaseDate)
+        );
+        
+        if (availableGames.length === 0) {
+            // If all games used, reset and allow repeats
+            return allGames[Math.floor(Math.random() * allGames.length)];
+        }
+        
+        return availableGames[Math.floor(Math.random() * availableGames.length)];
+    };
+
+    const startNewRun = () => {
+        const firstGame = getRandomGame();
+        const newState = {
+            gameResults: [],
+            lives: 10,
+            totalScore: 0,
+            currentStreak: 0,
+            longestStreak: 0,
+            currentGameNumber: 1,
+            currentGame: firstGame,
+            usedReleaseDates: [firstGame.releaseDate],
+        };
+        
+        setGameResults([]);
+        setLives(10);
+        setTotalScore(0);
+        setCurrentStreak(0);
+        setLongestStreak(0);
+        setCurrentGameNumber(1);
+        setCurrentGame(firstGame);
+        setShowSummary(false);
+        setIsGameCompleted(false);
+        
+        setState(newState);
+    };
+
+    const handleGameComplete = (result) => {
+        const newLives = result.won ? lives : lives - 1;
+        const newTotalScore = totalScore + result.score;
+        const newStreak = result.won ? currentStreak + 1 : 0;
+        const newLongestStreak = Math.max(longestStreak, newStreak);
+        const newResults = [...gameResults, result];
+
+        setGameResults(newResults);
+        setLives(newLives);
+        setTotalScore(newTotalScore);
+        setCurrentStreak(newStreak);
+        setLongestStreak(newLongestStreak);
+        setIsGameCompleted(true);
+
+        // Check if run is over
+        if (newLives === 0) {
+            updateStats(newTotalScore, newLongestStreak);
+            setShowSummary(true);
+            clearState(); // Clear the saved state
+        } else {
+            // Save updated state with current game still active (completed)
+            const updatedState = {
+                gameResults: newResults,
+                lives: newLives,
+                totalScore: newTotalScore,
+                currentStreak: newStreak,
+                longestStreak: newLongestStreak,
+                currentGameNumber: currentGameNumber,
+                currentGame: currentGame,
+                usedReleaseDates: newResults.map(r => r.gameReleaseDate),
+                gameCompleted: true,
+            };
+            setState(updatedState);
+        }
+    };
+
+    const handleNextGame = () => {
+        const usedReleaseDates = gameResults.map(r => r.gameReleaseDate);
+        const nextGame = getRandomGame(usedReleaseDates);
+        
+        // Check if all games have been played (incredibly unlikely but possible)
+        if (!nextGame) {
+            updateStats(totalScore, longestStreak);
+            setShowSummary(true);
+            clearState();
+            return;
+        }
+        
+        const nextGameNumber = currentGameNumber + 1;
+
+        setCurrentGame(nextGame);
+        setCurrentGameNumber(nextGameNumber);
+        setIsGameCompleted(false);
+
+        // Update state
+        const newState = {
+            gameResults,
+            lives,
+            totalScore,
+            currentStreak,
+            longestStreak,
+            currentGameNumber: nextGameNumber,
+            currentGame: nextGame,
+            usedReleaseDates: [...usedReleaseDates, nextGame.releaseDate],
+        };
+
+        setState(newState);
+    };
+
+    const handleGiveUp = () => {
+        if (confirm('Are you sure you want to give up this run? Your progress will be lost.')) {
+            updateStats(totalScore, longestStreak);
+            setShowSummary(true);
+            clearState();
+        }
+    };
+
+    const handlePlayAgain = () => {
+        startNewRun();
+    };
+
+    const handleBackToMenu = () => {
+        router.push('/');
+    };
+
+    if (isLoading) {
+        return (
+            <>
+                <Navbar 
+                    showCalendar={false} 
+                    showStats={true}
+                    onStatsClick={() => setShowStatsModal(true)}
+                    isEndlessMode={true}
+                />
+                <div style={{ textAlign: 'center', marginTop: '2rem', color: 'white' }}>
+                    Loading...
+                </div>
+            </>
+        );
+    }
+
+    return (
+        <>
+            <Navbar 
+                showCalendar={false} 
+                showStats={true}
+                onStatsClick={() => setShowStatsModal(true)}
+                isEndlessMode={true}
+            />
+            
+            {/* Total Score Display */}
+            <div style={{ 
+                textAlign: 'center', 
+                padding: '1rem',
+                color: 'white',
+                fontSize: '1.5rem',
+                fontWeight: 'bold'
+            }}>
+                Total Score: {totalScore}
+            </div>
+
+            {currentGame && !showSummary && (
+                <EndlessGameSystem
+                    game={currentGame}
+                    onNextGame={handleNextGame}
+                    onGameComplete={handleGameComplete}
+                    onGiveUp={handleGiveUp}
+                    currentGameNumber={currentGameNumber}
+                    totalScore={totalScore}
+                    lives={lives}
+                    currentStreak={currentStreak}
+                    gamesPlayed={gameResults.length}
+                    isCompleted={isGameCompleted}
+                />
+            )}
+
+            <EndlessSummaryModal
+                show={showSummary}
+                finalScore={totalScore}
+                gamesPlayed={gameResults.length}
+                gamesGuessed={gameResults.filter(r => r.won).length}
+                longestStreak={longestStreak}
+                gameResults={gameResults}
+                onPlayAgain={handlePlayAgain}
+                onBackToMenu={handleBackToMenu}
+                highScore={stats.highScore}
+                personalBestStreak={stats.longestStreak}
+            />
+
+            {showStatsModal && (
+                <EndlessStatsModal
+                    closeModal={() => setShowStatsModal(false)}
+                    stats={stats}
+                />
+            )}
+        </>
+    );
+};
+
+export default Endless;

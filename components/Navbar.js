@@ -16,7 +16,13 @@ import ArchiveModal from "./ArchiveModal";
 import GuessEffectModal from "./GuessEffectModal";
 import StatsModal from "./StatsModal";
 
-const Navbar = ({gameHistory = {scores: [], games: 0, wins: 0, currentStreak: 0, longestStreak: 0}, showCalendar = true, showStats = true}) => {
+const Navbar = ({
+	gameHistory = {scores: [], games: 0, wins: 0, currentStreak: 0, longestStreak: 0}, 
+	showCalendar = true, 
+	showStats = true,
+	onStatsClick = null,
+	isEndlessMode = false
+}) => {
 	const [showSupportModal, setShowSupportModal] = useState(false);
   	const [showArchiveModal, setShowArchiveModal] = useState(false);
 	const [showGuessEffectModal, setShowGuessEffectModal] = useState(false);
@@ -35,7 +41,11 @@ const Navbar = ({gameHistory = {scores: [], games: 0, wins: 0, currentStreak: 0,
 	};
 
 	const handleShowStatstModal = () => {
-		setShowStatsModal(true);
+		if (onStatsClick) {
+			onStatsClick();
+		} else {
+			setShowStatsModal(true);
+		}
 	};
 
 	const highestScore = useMemo(() => {

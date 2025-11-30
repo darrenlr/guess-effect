@@ -18,11 +18,13 @@ const Home = () => {
             </button>
           </Link>
           
-          <button className="mode-button endless-button" disabled>
-            <span className="mode-icon">♾️</span>
-            <span className="mode-title">Endless</span>
-            <span className="mode-description">Coming Soon</span>
-          </button>
+          <Link href="/endless">
+            <button className="mode-button endless-button">
+              <span className="mode-icon">♾️</span>
+              <span className="mode-title">Endless</span>
+              <span className="mode-description">Test your skills!</span>
+            </button>
+          </Link>
         </div>
       </div>
 
