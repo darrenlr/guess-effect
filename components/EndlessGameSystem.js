@@ -42,7 +42,9 @@ const EndlessGameSystem = ({
     lives,
     currentStreak,
     gamesPlayed,
-    isCompleted = false
+    isCompleted = false,
+    savedGameState = null,
+    onGameStateChange = null
 }) => {
     const [isMounted, setIsMounted] = useState(false);
     const [gameState, setGameState] = useState({
@@ -59,54 +61,82 @@ const EndlessGameSystem = ({
     const [isWrongGuess, setIsWrongGuess] = useState(false);
     const [isGameOverModalVisible, setIsGameOverModalVisible] = useState(false);
     const [isGuessCountUpdated, setIsGuessCountUpdated] = useState(false);
-    const [gameCompleted, setGameCompleted] = useState(isCompleted);
-    const [showContinueButton, setShowContinueButton] = useState(isCompleted);
+    const [gameCompleted, setGameCompleted] = useState(false);
+    const [showContinueButton, setShowContinueButton] = useState(false);
     const [gameResult, setGameResult] = useState(null);
+    const [isTransitioning, setIsTransitioning] = useState(false);
 
     const [animatedScore, setAnimatedScore] = useState(gameState.hints.points);
     const [animatedBonus, setAnimatedBonus] = useState(gameState.life.remainingGuessCount * 25);
+    
+    const previousGameRef = useRef(null);
+    const hasRestoredRef = useRef(false);
 
     // Reset game state when new game loads
     useEffect(() => {
         if (game) {
-            const shouldRevealHints = isCompleted;
-            setGameState({
-                ...initialGameState,
-                releaseDate: game.releaseDate,
-                hints: shouldRevealHints ? {
-                    publisher: true,
-                    developer: true,
-                    genre: true,
-                    platforms: true,
-                    modes: true,
-                    engine: true,
-                    metacritic: true,
-                    plot: true,
-                    boxArt: 0,
-                    points: 0,
-                } : initialGameState.hints,
-                life: {
-                    ...initialGameState.life,
-                    remainingGuessCount: lives,
-                    hearts: Array.from({ length: 10 }, (_, i) => 
-                        i < lives ? "/images/heart.png" : "/images/heart-black.png"
-                    ),
+            // Check if this is actually a new game (release date changed)
+            const isNewGame = previousGameRef.current !== game.releaseDate;
+            
+            if (isNewGame) {
+                // Only restore if we have savedGameState AND haven't restored before
+                const isRestoringCompletedGame = !hasRestoredRef.current && savedGameState !== null;
+                
+                if (isRestoringCompletedGame) {
+                    hasRestoredRef.current = true;
                 }
-            });
-            setGameCompleted(isCompleted);
-            setShowContinueButton(isCompleted);
-            setIsGameOverModalVisible(false);
-            if (isCompleted) {
-                setGameResult({
-                    gameTitle: game.title,
-                    gameReleaseDate: game.releaseDate,
-                    score: 0,
-                    won: false,
-                    guessed: false,
-                    skipped: true,
-                });
-            } else {
-                setGameResult(null);
+                
+                previousGameRef.current = game.releaseDate;
+                
+                // Always reset completion state for new games
+                setGameCompleted(isRestoringCompletedGame);
+                setShowContinueButton(isRestoringCompletedGame);
+                if (!isRestoringCompletedGame) {
+                    setGameResult(null);
+                }
+                
+                // Use saved game state if available, otherwise create fresh state
+                if (isRestoringCompletedGame) {
+                    setGameState(savedGameState);
+                } else {
+                    setGameState({
+                        releaseDate: game.releaseDate,
+                        hints: {
+                            publisher: false,
+                            developer: false,
+                            genre: false,
+                            platforms: false,
+                            modes: true,
+                            engine: true,
+                            metacritic: true,
+                            plot: false,
+                            boxArt: 20,
+                            points: 100,
+                        },
+                        life: {
+                            guesses: [],
+                            remainingGuessCount: lives,
+                            hearts: Array.from({ length: 10 }, (_, i) => 
+                                i < lives ? "/images/heart.png" : "/images/heart-black.png"
+                            ),
+                        }
+                    });
+                }
+                
+                // Set gameResult for restoring completed games
+                if (isRestoringCompletedGame) {
+                    setGameResult({
+                        gameTitle: game.title,
+                        gameReleaseDate: game.releaseDate,
+                        score: 0,
+                        won: false,
+                        guessed: false,
+                        skipped: true,
+                    });
+                }
+                
+                setIsGameOverModalVisible(false);
+                setIsTransitioning(false);
             }
         }
     }, [game, lives, isCompleted]);
@@ -206,8 +236,8 @@ const EndlessGameSystem = ({
         setGameCompleted(true);
 
         // Reveal all hints
-        setGameState((prevState) => ({
-            ...prevState,
+        const completedGameState = {
+            ...gameState,
             hints: {
                 publisher: true,
                 developer: true,
@@ -220,14 +250,17 @@ const EndlessGameSystem = ({
                 boxArt: 0,
                 points: score,
             },
-        }));
+        };
+        
+        setGameState(completedGameState);
 
         // Show continue button after a delay to let user see the answer
         setTimeout(() => {
             setShowContinueButton(true);
         }, 1500);
 
-        onGameComplete(result);
+        // Pass the completed game state to parent
+        onGameComplete({ ...result, gameState: completedGameState });
     };
 
     const handleSkip = () => {
@@ -235,13 +268,18 @@ const EndlessGameSystem = ({
     };
 
     const onRevealHint = (points) => {
-        setGameState((prevState) => ({
-            ...prevState,
-            hints: {
-                ...prevState.hints,
-                points: prevState.hints.points - points,
-            },
-        }));
+        setGameState((prevState) => {
+            const newState = {
+                ...prevState,
+                hints: {
+                    ...prevState.hints,
+                    points: prevState.hints.points - points,
+                },
+            };
+            // Update parent with new game state
+            onGameStateChange?.(newState);
+            return newState;
+        });
     };
 
     const handleGuess = (guess) => {
@@ -277,11 +315,28 @@ const EndlessGameSystem = ({
 
     const handleContinue = () => {
         setIsGameOverModalVisible(false);
-        onNextGame();
+        setIsTransitioning(true);
+        // Small delay to show transition
+        setTimeout(() => {
+            onNextGame();
+        }, 100);
     };
 
     return isMounted ? (
-        <div className={styles.container}>
+        <div className={styles.container} style={{ opacity: isTransitioning ? 0.5 : 1, transition: 'opacity 0.2s ease' }}>
+            {isTransitioning && (
+                <div style={{ 
+                    position: 'absolute', 
+                    top: '50%', 
+                    left: '50%', 
+                    transform: 'translate(-50%, -50%)',
+                    color: 'white',
+                    fontSize: '1.5rem',
+                    zIndex: 1000
+                }}>
+                    Loading next game...
+                </div>
+            )}
             {game && <ReleaseDate date={game.releaseDate} region={game.region} />}
             
             {/* Mobile stats - visible only on mobile */}

@@ -109,7 +109,10 @@ const Endless = () => {
         const newTotalScore = totalScore + result.score;
         const newStreak = result.won ? currentStreak + 1 : 0;
         const newLongestStreak = Math.max(longestStreak, newStreak);
-        const newResults = [...gameResults, result];
+        
+        // Don't include gameState in the result stored in gameResults array
+        const { gameState: _, ...resultWithoutGameState } = result;
+        const newResults = [...gameResults, resultWithoutGameState];
 
         setGameResults(newResults);
         setLives(newLives);
@@ -135,6 +138,7 @@ const Endless = () => {
                 currentGame: currentGame,
                 usedReleaseDates: newResults.map(r => r.gameReleaseDate),
                 gameCompleted: true,
+                currentGameState: result.gameState, // Store the hint states at top level
             };
             setState(updatedState);
         }
@@ -154,9 +158,9 @@ const Endless = () => {
         
         const nextGameNumber = currentGameNumber + 1;
 
+        setIsGameCompleted(false);
         setCurrentGame(nextGame);
         setCurrentGameNumber(nextGameNumber);
-        setIsGameCompleted(false);
 
         // Update state
         const newState = {
@@ -168,6 +172,7 @@ const Endless = () => {
             currentGameNumber: nextGameNumber,
             currentGame: nextGame,
             usedReleaseDates: [...usedReleaseDates, nextGame.releaseDate],
+            gameCompleted: false,
         };
 
         setState(newState);
@@ -187,6 +192,17 @@ const Endless = () => {
 
     const handleBackToMenu = () => {
         router.push('/');
+    };
+
+    const handleGameStateChange = (newGameState) => {
+        // Update localStorage with current game state (for ongoing games)
+        if (state) {
+            const updatedState = {
+                ...state,
+                currentGameState: newGameState,
+            };
+            setState(updatedState);
+        }
     };
 
     if (isLoading) {
@@ -237,6 +253,8 @@ const Endless = () => {
                     currentStreak={currentStreak}
                     gamesPlayed={gameResults.length}
                     isCompleted={isGameCompleted}
+                    savedGameState={state?.currentGameState}
+                    onGameStateChange={handleGameStateChange}
                 />
             )}
 
