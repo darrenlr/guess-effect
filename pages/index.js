@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <>
+      <Navbar showCalendar={false} showStats={false} />
       <div className="mode-selection-container">
-        <h1 className="title">Guess Effect</h1>
         <p className="subtitle">Choose Your Mode</p>
         
         <div className="mode-buttons">
@@ -31,18 +31,9 @@ const Home = () => {
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
-          min-height: 80vh;
-          padding: 20px;
+          justify-content: flex-start;
+          padding: 2rem 20px 20px;
           text-align: center;
-        }
-
-        .title {
-          font-family: var(--font-family);
-          font-size: 3.5rem;
-          color: #fff;
-          margin-bottom: 1rem;
-          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .subtitle {
@@ -115,10 +106,6 @@ const Home = () => {
         }
 
         @media (max-width: 768px) {
-          .title {
-            font-size: 2.5rem;
-          }
-
           .subtitle {
             font-size: 1rem;
           }
