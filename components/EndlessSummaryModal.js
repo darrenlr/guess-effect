@@ -29,11 +29,11 @@ const EndlessSummaryModal = ({
         <div className={styles.modalOverlay}>
             <div className={styles.modal}>
                 <div className={styles.modalContainer}>
-                    <h2 className={endlessStyles.summaryTitle}>🎮 Run Complete! 🎮</h2>
+                    <h2 className={endlessStyles.summaryTitle} style={{ textAlign: 'center' }}>Run Complete!</h2>
                     
                     <div className={endlessStyles.finalScoreSection}>
                         <div className={endlessStyles.mainScore}>
-                            <span className={endlessStyles.scoreLabel}>Final Score</span>
+                            <span className={endlessStyles.scoreLabel} style={{ fontFamily: 'var(--font-family-main)', color: 'white', fontSize: '1.3rem' }}>Total Score</span>
                             <span className={endlessStyles.scoreLarge}>{finalScore}</span>
                             {isNewHighScore && <span className={endlessStyles.newRecord}>🏆 NEW HIGH SCORE!</span>}
                         </div>
@@ -42,20 +42,20 @@ const EndlessSummaryModal = ({
                     <div className={endlessStyles.statsGrid}>
                         <div className={endlessStyles.statItem}>
                             <span className={endlessStyles.statValue}>{gamesPlayed}</span>
-                            <span className={endlessStyles.statLabel}>Games Played</span>
+                            <span className={endlessStyles.statLabel} style={{ fontFamily: 'var(--font-family-main)', color: 'white' }}>Games Played</span>
                         </div>
                         <div className={endlessStyles.statItem}>
                             <span className={endlessStyles.statValue}>{gamesGuessed}</span>
-                            <span className={endlessStyles.statLabel}>Games Guessed</span>
+                            <span className={endlessStyles.statLabel} style={{ fontFamily: 'var(--font-family-main)', color: 'white' }}>Games Guessed</span>
                         </div>
                         <div className={endlessStyles.statItem}>
                             <span className={endlessStyles.statValue}>{longestStreak}</span>
-                            <span className={endlessStyles.statLabel}>Best Streak</span>
+                            <span className={endlessStyles.statLabel} style={{ fontFamily: 'var(--font-family-main)', color: 'white' }}>Best Streak</span>
                             {isNewStreakRecord && <span className={endlessStyles.newRecord}>✨ NEW RECORD!</span>}
                         </div>
                         <div className={endlessStyles.statItem}>
                             <span className={endlessStyles.statValue}>{Math.round(gamesGuessed / gamesPlayed * 100)}%</span>
-                            <span className={endlessStyles.statLabel}>Success Rate</span>
+                            <span className={endlessStyles.statLabel} style={{ fontFamily: 'var(--font-family-main)', color: 'white' }}>Success Rate</span>
                         </div>
                     </div>
 
@@ -78,7 +78,7 @@ const EndlessSummaryModal = ({
                                     </div>
                                 ))}
                                 {guessedGames.length === 0 && (
-                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
+                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem', fontFamily: 'var(--font-family-main)', color: 'white' }}>
                                         No games guessed
                                     </div>
                                 )}
@@ -105,7 +105,7 @@ const EndlessSummaryModal = ({
                                     </div>
                                 ))}
                                 {skippedGames.length === 0 && (
-                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
+                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem', fontFamily: 'var(--font-family-main)', color: 'white' }}>
                                         No games skipped
                                     </div>
                                 )}
