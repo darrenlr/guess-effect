@@ -49,9 +49,6 @@ const EndlessGameCompletionModal = ({
                         fontFamily: 'var(--font-family)',
                         alignItems: 'center'
                     }}>
-                        <div>
-                            <strong>Total Score:</strong> <span>{totalScore}</span>
-                        </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center' }}>
                             <strong>Lives:</strong>
                             <Image
@@ -61,6 +58,9 @@ const EndlessGameCompletionModal = ({
                                 height={24}
                             />
                             <span>x{lives}</span>
+                        </div>
+                        <div style={{ fontSize: '1.4rem' }}>
+                            <strong>Total Score:</strong> <span>{totalScore}</span>
                         </div>
                     </div>
 

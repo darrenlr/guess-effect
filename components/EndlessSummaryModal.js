@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/GameOverModal.module.css";
 import endlessStyles from "../styles/EndlessMode.module.css";
 
@@ -14,10 +14,16 @@ const EndlessSummaryModal = ({
     highScore,
     personalBestStreak
 }) => {
+    const [showGuessedGames, setShowGuessedGames] = useState(false);
+    const [showSkippedGames, setShowSkippedGames] = useState(false);
+    
     if (!show) return null;
 
     const isNewHighScore = finalScore > highScore;
     const isNewStreakRecord = longestStreak > personalBestStreak;
+    
+    const guessedGames = gameResults.filter(r => r.won);
+    const skippedGames = gameResults.filter(r => !r.won);
 
     return (
         <div className={styles.modalOverlay}>
@@ -54,43 +60,57 @@ const EndlessSummaryModal = ({
                     </div>
 
                     <div className={endlessStyles.gamesList}>
-                        <h4>Games Guessed ({gameResults.filter(r => r.won).length})</h4>
-                        <div className={endlessStyles.gamesListScroll}>
-                            {gameResults.filter(r => r.won).map((result, index) => (
-                                <div 
-                                    key={index} 
-                                    className={`${endlessStyles.gameResultItem} ${endlessStyles.gameWon}`}
-                                >
-                                    <span className={endlessStyles.gameResultTitle}>{result.gameTitle}</span>
-                                    <span className={endlessStyles.gameResultScore}>{result.score}</span>
-                                </div>
-                            ))}
-                            {gameResults.filter(r => r.won).length === 0 && (
-                                <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
-                                    No games guessed
-                                </div>
-                            )}
-                        </div>
+                        <button 
+                            className={endlessStyles.gameListToggle}
+                            onClick={() => setShowGuessedGames(!showGuessedGames)}
+                        >
+                            Games Guessed ({guessedGames.length}) {showGuessedGames ? '▼' : '▶'}
+                        </button>
+                        {showGuessedGames && (
+                            <div className={endlessStyles.gamesListScroll}>
+                                {guessedGames.map((result, index) => (
+                                    <div 
+                                        key={index} 
+                                        className={`${endlessStyles.gameResultItem} ${endlessStyles.gameWon}`}
+                                    >
+                                        <span className={endlessStyles.gameResultTitle}>{result.gameTitle}</span>
+                                        <span className={endlessStyles.gameResultScore}>{result.score}</span>
+                                    </div>
+                                ))}
+                                {guessedGames.length === 0 && (
+                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
+                                        No games guessed
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
 
                     <div className={endlessStyles.gamesList}>
-                        <h4>Games Skipped ({gameResults.filter(r => !r.won).length})</h4>
-                        <div className={endlessStyles.gamesListScroll}>
-                            {gameResults.filter(r => !r.won).map((result, index) => (
-                                <div 
-                                    key={index} 
-                                    className={`${endlessStyles.gameResultItem} ${endlessStyles.gameLost}`}
-                                >
-                                    <span className={endlessStyles.gameResultTitle}>{result.gameTitle}</span>
-                                    <span className={endlessStyles.gameResultScore}>{result.score}</span>
-                                </div>
-                            ))}
-                            {gameResults.filter(r => !r.won).length === 0 && (
-                                <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
-                                    No games skipped
-                                </div>
-                            )}
-                        </div>
+                        <button 
+                            className={endlessStyles.gameListToggle}
+                            onClick={() => setShowSkippedGames(!showSkippedGames)}
+                        >
+                            Games Skipped ({skippedGames.length}) {showSkippedGames ? '▼' : '▶'}
+                        </button>
+                        {showSkippedGames && (
+                            <div className={endlessStyles.gamesListScroll}>
+                                {skippedGames.map((result, index) => (
+                                    <div 
+                                        key={index} 
+                                        className={`${endlessStyles.gameResultItem} ${endlessStyles.gameLost}`}
+                                    >
+                                        <span className={endlessStyles.gameResultTitle}>{result.gameTitle}</span>
+                                        <span className={endlessStyles.gameResultScore}>{result.score}</span>
+                                    </div>
+                                ))}
+                                {skippedGames.length === 0 && (
+                                    <div style={{ textAlign: 'center', opacity: 0.5, padding: '1rem' }}>
+                                        No games skipped
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
 
                     <div className={endlessStyles.buttonGroup}>

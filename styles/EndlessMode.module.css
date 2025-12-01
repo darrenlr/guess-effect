@@ -277,8 +277,27 @@
   margin-bottom: 1rem;
 }
 
+.gameListToggle {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 0.5rem;
+}
+
+.gameListToggle:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
 .gamesListScroll {
-  max-height: 300px;
+  max-height: 200px;
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;

@@ -12,7 +12,8 @@ const GameCard = ({
 	onRevealHint,
 	isWrongGuess,
 	setIsGuessCountUpdated,
-	isGameOver
+	isGameOver,
+	onGiveUp
 }) => {
 	const [pixelationLevel, setPixelationLevel] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
@@ -128,15 +129,21 @@ const GameCard = ({
 	};
 
 	const handleGiveUp = () => {
-		setGameState(prevState => ({
-			...prevState,
-			life: {
-				...prevState.life,
-				remainingGuessCount: 0
-			}
-		}));
+		// If onGiveUp handler is provided (endless mode), use it directly
+		if (onGiveUp) {
+			onGiveUp();
+		} else {
+			// Default behavior for daily mode
+			setGameState(prevState => ({
+				...prevState,
+				life: {
+					...prevState.life,
+					remainingGuessCount: 0
+				}
+			}));
 
-		setIsGuessCountUpdated(true);
+			setIsGuessCountUpdated(true);
+		}
 	};
 
 

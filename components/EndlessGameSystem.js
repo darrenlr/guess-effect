@@ -188,10 +188,10 @@ const EndlessGameSystem = ({
         return () => clearInterval(intervalId);
     }, [gameState.hints.points]);
 
-    // Update hearts display
+    // Update hearts display based on parent's lives prop
     useEffect(() => {
         const updatedHearts = Array.from({ length: 10 }, (_, index) =>
-            index < gameState.life.remainingGuessCount
+            index < lives
                 ? "/images/heart.png"
                 : "/images/heart-black.png"
         );
@@ -199,18 +199,11 @@ const EndlessGameSystem = ({
             ...prevState,
             life: {
                 ...prevState.life,
+                remainingGuessCount: lives,
                 hearts: updatedHearts,
             },
         }));
-    }, [gameState.life.remainingGuessCount]);
-
-    // Handle game over when lives run out during a single game
-    useEffect(() => {
-        if (isGuessCountUpdated && gameState.life.remainingGuessCount === 0) {
-            handleGameComplete(true); // lost all lives
-        }
-        setIsGuessCountUpdated(false);
-    }, [isGuessCountUpdated, gameState.life.remainingGuessCount]);
+    }, [lives]);
 
     useEffect(() => {
         setIsMounted(true);
@@ -261,17 +254,26 @@ const EndlessGameSystem = ({
         
         setGameState(completedGameState);
 
-        // Show modal after a brief delay
-        setTimeout(() => {
-            setShowContinueButton(true);
-        }, 300);
-
-        // Pass the completed game state to parent
+        // Pass the completed game state to parent first
         onGameComplete({ ...result, gameState: completedGameState });
+        
+        // Show modal after a brief delay, but only if user has lives remaining
+        setTimeout(() => {
+            // Check if this was the last life - if so, summary modal will show instead
+            const willHaveLivesLeft = lostLife ? lives > 1 : lives > 0;
+            if (willHaveLivesLeft) {
+                setShowContinueButton(true);
+            }
+        }, 300);
     };
 
     const handleSkip = () => {
-        handleGameComplete(true);
+        // Trigger animations (heart blink and card shake)
+        setIsWrongGuess(true);
+        setTimeout(() => {
+            setIsWrongGuess(false);
+            handleGameComplete(true);
+        }, 500);
     };
 
     const onRevealHint = (points) => {
@@ -350,7 +352,7 @@ const EndlessGameSystem = ({
                             height={30}
                             className={
                                 isWrongGuess &&
-                                index === gameState.life.remainingGuessCount
+                                index === gameState.life.remainingGuessCount - 1
                                     ? styles.blink
                                     : ""
                             }
@@ -374,6 +376,7 @@ const EndlessGameSystem = ({
                         isWrongGuess={isWrongGuess}
                         setIsGuessCountUpdated={setIsGuessCountUpdated}
                         isGameOver={gameCompleted}
+                        onGiveUp={handleSkip}
                     />
                 )
             )}
@@ -390,7 +393,7 @@ const EndlessGameSystem = ({
                                 height={30}
                                 className={
                                     isWrongGuess &&
-                                    index === gameState.life.remainingGuessCount
+                                    index === gameState.life.remainingGuessCount - 1
                                         ? styles.blink
                                         : ""
                                 }

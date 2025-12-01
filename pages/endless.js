@@ -149,6 +149,12 @@ const Endless = () => {
     };
 
     const handleNextGame = () => {
+        // Check if run is over (no lives left)
+        if (lives === 0) {
+            // Summary modal should already be showing
+            return;
+        }
+        
         const usedReleaseDates = gameResults.map(r => r.gameReleaseDate);
         const nextGame = getRandomGame(usedReleaseDates);
         
