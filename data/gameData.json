@@ -10968,5 +10968,35 @@
     "metacritic": null,
     "plot": "An anthology of adventures starring Kirby across eight different games with varied gameplay styles. The pink hero uses his signature copy abilities to defeat enemies and overcome challenges, from racing King Dedede to exploring treasure-filled caves and thwarting Meta Knight's revenge."
   }
+  },
+  {
+  "date": "2025-12-02",
+  "region": "WW",
+  "releaseDate": "2014-12-11",
+  "title": "The Talos Principle",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rb5.webp",
+  "hints": {
+    "publisher": [
+      "Devolver Digital"
+    ],
+    "developer": [
+      "Croteam"
+    ],
+    "genre": [
+      "Puzzle",
+      "First-Person"
+    ],
+    "platforms": [
+      "PC",
+      "Linux",
+      "OS X"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Serious Engine 4",
+    "metacritic": 85,
+    "plot": "You are an artificial intelligence in a simulation testing for true sentience after humanity's extinction. By solving puzzles you prove intelligence, and by defying the god-like overseer Elohim, you demonstrate free will and consciousness. Passing these tests allows you to escape into an android body and inherit humanity's legacy."
+  }
   }
 ]
