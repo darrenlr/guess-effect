@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 import GameCard from "./GameCard";
 import EndlessGameOverModal from "./EndlessGameOverModal";
 import EndlessSummaryModal from "./EndlessSummaryModal";
+import EndlessGameCompletionModal from "./EndlessGameCompletionModal";
 import HoldButton from "./HoldButton";
 import { stripBrackets } from '../utils/stringUtils';
 import { normaliseString } from '../utils/normaliseString';
@@ -65,6 +66,7 @@ const EndlessGameSystem = ({
     const [showContinueButton, setShowContinueButton] = useState(false);
     const [gameResult, setGameResult] = useState(null);
     const [isTransitioning, setIsTransitioning] = useState(false);
+    const [isLoadingGame, setIsLoadingGame] = useState(true);
 
     const [animatedScore, setAnimatedScore] = useState(gameState.hints.points);
     
@@ -78,6 +80,9 @@ const EndlessGameSystem = ({
             const isNewGame = previousGameRef.current !== game.releaseDate;
             
             if (isNewGame) {
+                // Set loading state when new game starts
+                setIsLoadingGame(true);
+                
                 // Only restore completed game state on FIRST load AND if parent says game was completed
                 const isRestoringCompletedGame = !hasRestoredRef.current && isCompleted && savedGameState !== null;
                 
@@ -143,6 +148,19 @@ const EndlessGameSystem = ({
                 
                 setIsGameOverModalVisible(false);
                 setIsTransitioning(false);
+                
+                // Preload box art image
+                if (game.boxArtUrl) {
+                    const img = document.createElement('img');
+                    img.onload = () => {
+                        setIsLoadingGame(false);
+                    };
+                    img.onerror = () => {
+                        // Even if image fails, show the game
+                        setIsLoadingGame(false);
+                    };
+                    img.src = `https://${game.boxArtUrl}`;
+                }
             }
         }
     }, [game, lives, savedGameState, isCompleted]);
@@ -243,10 +261,10 @@ const EndlessGameSystem = ({
         
         setGameState(completedGameState);
 
-        // Show continue button after a delay to let user see the answer
+        // Show modal after a brief delay
         setTimeout(() => {
             setShowContinueButton(true);
-        }, 1500);
+        }, 300);
 
         // Pass the completed game state to parent
         onGameComplete({ ...result, gameState: completedGameState });
@@ -344,16 +362,20 @@ const EndlessGameSystem = ({
             
             <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
             
-            {game && gameState && !isTransitioning && (
-                <GameCard
-                    gameData={game}
-                    gameState={gameState}
-                    setGameState={setGameState}
-                    onRevealHint={(points) => onRevealHint(points)}
-                    isWrongGuess={isWrongGuess}
-                    setIsGuessCountUpdated={setIsGuessCountUpdated}
-                    isGameOver={gameCompleted}
-                />
+            {isLoadingGame || isTransitioning ? (
+                <div className={styles.loader}></div>
+            ) : (
+                game && gameState && (
+                    <GameCard
+                        gameData={game}
+                        gameState={gameState}
+                        setGameState={setGameState}
+                        onRevealHint={(points) => onRevealHint(points)}
+                        isWrongGuess={isWrongGuess}
+                        setIsGuessCountUpdated={setIsGuessCountUpdated}
+                        isGameOver={gameCompleted}
+                    />
+                )
             )}
             
             <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ justifyContent: 'space-between', alignItems: 'center' }}>
@@ -391,28 +413,16 @@ const EndlessGameSystem = ({
                 >
                     Skip
                 </HoldButton>
-                {showContinueButton && (
-                    <button 
-                        className={endlessStyles.continueButton}
-                        onClick={handleContinue}
-                    >
-                        Continue
-                    </button>
-                )}
             </div>
 
-            {/* Game completed - show answer */}
-            {gameCompleted && (
-                <div style={{ textAlign: 'center', marginTop: '1rem', color: 'white' }}>
-                    <h2 style={{ color: gameResult?.won ? '#00ce7a' : '#ffbd3f', marginBottom: '1rem', fontSize: '2rem' }}>
-                        {gameResult?.won ? '✓ Correct!' : '✗ Skipped'}
-                    </h2>
-                    <h3 style={{ marginBottom: '1rem', fontSize: '1.5rem' }}>{game.title}</h3>
-                    {gameResult?.score > 0 && (
-                        <p style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>+{gameResult?.score} points</p>
-                    )}
-                </div>
-            )}
+            <EndlessGameCompletionModal
+                show={showContinueButton}
+                won={gameResult?.won || false}
+                gameTitle={game?.title || ''}
+                totalScore={totalScore}
+                lives={lives}
+                onContinue={handleContinue}
+            />
         </div>
     ) : (
         <div className={styles.loader}></div>
