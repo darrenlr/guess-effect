@@ -67,7 +67,6 @@ const EndlessGameSystem = ({
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     const [animatedScore, setAnimatedScore] = useState(gameState.hints.points);
-    const [animatedBonus, setAnimatedBonus] = useState(gameState.life.remainingGuessCount * 25);
     
     const previousGameRef = useRef(null);
     const hasRestoredRef = useRef(false);
@@ -79,8 +78,8 @@ const EndlessGameSystem = ({
             const isNewGame = previousGameRef.current !== game.releaseDate;
             
             if (isNewGame) {
-                // Only restore if we have savedGameState AND haven't restored before
-                const isRestoringCompletedGame = !hasRestoredRef.current && savedGameState !== null;
+                // Only restore completed game state on FIRST load AND if parent says game was completed
+                const isRestoringCompletedGame = !hasRestoredRef.current && isCompleted && savedGameState !== null;
                 
                 if (isRestoringCompletedGame) {
                     hasRestoredRef.current = true;
@@ -88,7 +87,7 @@ const EndlessGameSystem = ({
                 
                 previousGameRef.current = game.releaseDate;
                 
-                // Always reset completion state for new games
+                // Reset completion state for new games
                 setGameCompleted(isRestoringCompletedGame);
                 setShowContinueButton(isRestoringCompletedGame);
                 if (!isRestoringCompletedGame) {
@@ -96,10 +95,12 @@ const EndlessGameSystem = ({
                 }
                 
                 // Use saved game state if available, otherwise create fresh state
-                if (isRestoringCompletedGame) {
+                if (savedGameState) {
+                    // Restore the saved state (either in-progress or completed)
                     setGameState(savedGameState);
                 } else {
-                    setGameState({
+                    // No saved state, create fresh
+                    const freshState = {
                         releaseDate: game.releaseDate,
                         hints: {
                             publisher: false,
@@ -120,7 +121,12 @@ const EndlessGameSystem = ({
                                 i < lives ? "/images/heart.png" : "/images/heart-black.png"
                             ),
                         }
-                    });
+                    };
+                    setGameState(freshState);
+                    // Immediately save fresh state to localStorage
+                    if (onGameStateChange) {
+                        onGameStateChange(freshState);
+                    }
                 }
                 
                 // Set gameResult for restoring completed games
@@ -139,7 +145,7 @@ const EndlessGameSystem = ({
                 setIsTransitioning(false);
             }
         }
-    }, [game, lives, isCompleted]);
+    }, [game, lives, savedGameState, isCompleted]);
 
     // Animate score
     useEffect(() => {
@@ -163,29 +169,6 @@ const EndlessGameSystem = ({
 
         return () => clearInterval(intervalId);
     }, [gameState.hints.points]);
-
-    // Animate bonus
-    useEffect(() => {
-        const targetBonus = gameState.life.remainingGuessCount * 25;
-        const duration = 200;
-        const stepTime = 50;
-        const bonusDifference = targetBonus - animatedBonus;
-        const steps = duration / stepTime;
-        const stepSize = bonusDifference / steps;
-
-        const intervalId = setInterval(() => {
-            setAnimatedBonus((prevBonus) => {
-                const nextBonus = prevBonus + stepSize;
-                if ((stepSize > 0 && nextBonus >= targetBonus) || (stepSize < 0 && nextBonus <= targetBonus)) {
-                    clearInterval(intervalId);
-                    return targetBonus;
-                }
-                return nextBonus;
-            });
-        }, stepTime);
-
-        return () => clearInterval(intervalId);
-    }, [gameState.life.remainingGuessCount]);
 
     // Update hearts display
     useEffect(() => {
@@ -215,12 +198,18 @@ const EndlessGameSystem = ({
         setIsMounted(true);
     }, []);
 
+    // Update localStorage whenever gameState changes
+    useEffect(() => {
+        if (isMounted && game && !gameCompleted && onGameStateChange) {
+            onGameStateChange(gameState);
+        }
+    }, [gameState, isMounted, gameCompleted]);
+
     const handleGameComplete = (lostLife) => {
         if (gameCompleted) return;
         
         const score = lostLife ? 0 : gameState.hints.points;
-        const bonus = lostLife ? 0 : (gameState.life.remainingGuessCount * 25);
-        const finalScore = score + bonus;
+        const finalScore = score;
         const won = !lostLife;
 
         const result = {
@@ -268,18 +257,13 @@ const EndlessGameSystem = ({
     };
 
     const onRevealHint = (points) => {
-        setGameState((prevState) => {
-            const newState = {
-                ...prevState,
-                hints: {
-                    ...prevState.hints,
-                    points: prevState.hints.points - points,
-                },
-            };
-            // Update parent with new game state
-            onGameStateChange?.(newState);
-            return newState;
-        });
+        setGameState((prevState) => ({
+            ...prevState,
+            hints: {
+                ...prevState.hints,
+                points: prevState.hints.points - points,
+            },
+        }));
     };
 
     const handleGuess = (guess) => {
@@ -316,10 +300,7 @@ const EndlessGameSystem = ({
     const handleContinue = () => {
         setIsGameOverModalVisible(false);
         setIsTransitioning(true);
-        // Small delay to show transition
-        setTimeout(() => {
-            onNextGame();
-        }, 100);
+        onNextGame();
     };
 
     return isMounted ? (
@@ -358,13 +339,12 @@ const EndlessGameSystem = ({
                         />
                     ))}
                 </div>
-                <p>Bonus: {Math.round(animatedBonus)}</p>
                 <p>Score: {Math.round(animatedScore)}</p>
             </div>
             
             <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
             
-            {game && gameState && (
+            {game && gameState && !isTransitioning && (
                 <GameCard
                     gameData={game}
                     gameState={gameState}
@@ -397,7 +377,6 @@ const EndlessGameSystem = ({
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
-                    <p>Bonus: {Math.round(animatedBonus)}</p>
                     <p>Score: {Math.round(animatedScore)}</p>
                 </div>
             </div>

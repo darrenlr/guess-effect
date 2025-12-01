@@ -57,7 +57,11 @@ const Endless = () => {
             setCurrentStreak(state.currentStreak);
             setLongestStreak(state.longestStreak);
             setCurrentGameNumber(state.currentGameNumber);
-            setCurrentGame(state.currentGame);
+            // Find the game by release date instead of storing the whole object
+            const game = allGames.find(g => g.releaseDate === state.currentGameReleaseDate);
+            if (game) {
+                setCurrentGame(game);
+            }
             setIsGameCompleted(state.gameCompleted || false);
         } else {
             // Start new game
@@ -87,7 +91,7 @@ const Endless = () => {
             currentStreak: 0,
             longestStreak: 0,
             currentGameNumber: 1,
-            currentGame: firstGame,
+            currentGameReleaseDate: firstGame.releaseDate,
             usedReleaseDates: [firstGame.releaseDate],
         };
         
@@ -135,7 +139,7 @@ const Endless = () => {
                 currentStreak: newStreak,
                 longestStreak: newLongestStreak,
                 currentGameNumber: currentGameNumber,
-                currentGame: currentGame,
+                currentGameReleaseDate: currentGame.releaseDate,
                 usedReleaseDates: newResults.map(r => r.gameReleaseDate),
                 gameCompleted: true,
                 currentGameState: result.gameState, // Store the hint states at top level
@@ -162,7 +166,7 @@ const Endless = () => {
         setCurrentGame(nextGame);
         setCurrentGameNumber(nextGameNumber);
 
-        // Update state
+        // Update state - don't include currentGameState so it starts fresh
         const newState = {
             gameResults,
             lives,
@@ -170,9 +174,11 @@ const Endless = () => {
             currentStreak,
             longestStreak,
             currentGameNumber: nextGameNumber,
-            currentGame: nextGame,
+            currentGameReleaseDate: nextGame.releaseDate,
             usedReleaseDates: [...usedReleaseDates, nextGame.releaseDate],
             gameCompleted: false,
+            // Explicitly set to null to clear previous game state
+            currentGameState: null,
         };
 
         setState(newState);
