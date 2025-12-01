@@ -129,7 +129,7 @@ const Endless = () => {
         if (newLives === 0) {
             updateStats(newTotalScore, newLongestStreak);
             setShowSummary(true);
-            clearState(); // Clear the saved state
+            // Don't clear state yet - wait for user to click Play Again or Back to Menu
         } else {
             // Save updated state with current game still active (completed)
             const updatedState = {
@@ -162,7 +162,7 @@ const Endless = () => {
         if (!nextGame) {
             updateStats(totalScore, longestStreak);
             setShowSummary(true);
-            clearState();
+            // Don't clear state yet - wait for user action
             return;
         }
         
@@ -194,15 +194,18 @@ const Endless = () => {
         if (confirm('Are you sure you want to give up this run? Your progress will be lost.')) {
             updateStats(totalScore, longestStreak);
             setShowSummary(true);
-            clearState();
+            // Don't clear state yet - wait for user action
         }
     };
 
     const handlePlayAgain = () => {
+        clearState(); // Clear the old run's state
+        setShowSummary(false);
         startNewRun();
     };
 
     const handleBackToMenu = () => {
+        clearState(); // Clear state when leaving endless mode
         router.push('/');
     };
 

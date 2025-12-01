@@ -257,17 +257,20 @@ const EndlessGameSystem = ({
         // Pass the completed game state to parent first
         onGameComplete({ ...result, gameState: completedGameState });
         
-        // Show modal after a brief delay, but only if user has lives remaining
-        setTimeout(() => {
-            // Check if this was the last life - if so, summary modal will show instead
-            const willHaveLivesLeft = lostLife ? lives > 1 : lives > 0;
-            if (willHaveLivesLeft) {
+        // Show modal after animation completes, but only if user has lives remaining
+        // Don't show completion modal immediately - wait for parent to update lives state
+        if (!lostLife || lives > 1) {
+            setTimeout(() => {
                 setShowContinueButton(true);
-            }
-        }, 300);
+            }, 800);
+        }
+        // If lostLife and lives === 1, parent will show summary modal instead
     };
 
     const handleSkip = () => {
+        // Don't allow skipping if already completed
+        if (gameCompleted) return;
+        
         // Trigger animations (heart blink and card shake)
         setIsWrongGuess(true);
         setTimeout(() => {
@@ -414,7 +417,7 @@ const EndlessGameSystem = ({
                     holdDuration={2000}
                     disabled={gameCompleted}
                 >
-                    Skip
+                    {lives === 1 ? 'Give Up' : 'Skip'}
                 </HoldButton>
             </div>
 
