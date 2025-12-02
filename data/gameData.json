@@ -10998,5 +10998,37 @@
     "metacritic": 85,
     "plot": "You are an artificial intelligence in a simulation testing for true sentience after humanity's extinction. By solving puzzles you prove intelligence, and by defying the god-like overseer Elohim, you demonstrate free will and consciousness. Passing these tests allows you to escape into an android body and inherit humanity's legacy."
   }
+  },
+  {
+  "date": "2025-12-03",
+  "region": "WW",
+  "releaseDate": "2016-07-22",
+  "title": "Starbound",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4b19.webp",
+  "hints": {
+    "publisher": [
+      "Chucklefish"
+    ],
+    "developer": [
+      "Chucklefish"
+    ],
+    "genre": [
+      "Sandbox",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "OS X",
+      "Linux"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": "Custom Engine",
+    "metacritic": 81,
+    "plot": "After graduating from an intergalactic peacekeeping organization, you witness Earth's destruction and escape into space with a damaged ship. Stranded in a procedurally generated universe, you must repair your vessel and choose your own path: save the universe from the forces that destroyed your home, or simply colonize planets and build a new life among the stars."
+  }
   }
 ]
