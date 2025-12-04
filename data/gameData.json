@@ -11030,5 +11030,35 @@
     "metacritic": 81,
     "plot": "After graduating from an intergalactic peacekeeping organization, you witness Earth's destruction and escape into space with a damaged ship. Stranded in a procedurally generated universe, you must repair your vessel and choose your own path: save the universe from the forces that destroyed your home, or simply colonize planets and build a new life among the stars."
   }
+  },
+  {
+  "date": "2025-12-04",
+  "region": "WW",
+  "releaseDate": "2005-09-22",
+  "title": "Ultimate Spider-Man",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rry.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Treyarch"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 74,
+    "plot": "Play as both Spider-Man and his nemesis Venom in this cel-shaded adventure. Peter Parker must stop his childhood friend Eddie Brock, who has bonded with a symbiotic suit created by their fathers. The story alternates between Spider-Man's efforts to protect the city and Venom's struggle to control the alien symbiote while evading capture by S.H.I.E.L.D. and other forces seeking the suit's power."
+  }
   }
 ]
