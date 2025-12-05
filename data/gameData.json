@@ -11089,5 +11089,97 @@
     "metacritic": 79,
     "plot": "Former Imperial Knight Yuri Lowell investigates the theft of a blastia core from his neighborhood, setting off on an adventure with Princess Estelle. Together they form the guild Brave Vesperia and uncover a conspiracy threatening their world of Terca Lumireis, a civilization dependent on ancient magical technology called blastia that powers everything from protective barriers to daily life."
   }
+},
+  {
+  "date": "2025-12-06",
+  "region": "WW",
+  "releaseDate": "1997-09-19",
+  "title": "Oddworld: Abe's Oddysee",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co89fk.webp",
+  "hints": {
+    "publisher": [
+      "GT Interactive"
+    ],
+    "developer": [
+      "Oddworld Inhabitants"
+    ],
+    "genre": [
+      "Puzzle",
+      "Platform",
+      "Stealth"
+    ],
+    "platforms": [
+      "PlayStation",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "A.L.I.V.E.",
+    "metacritic": 85,
+    "plot": "Mudokon floor-waxer working at RuptureFarms meat processing plant overhears plans by his Glukkon boss to turn enslaved workers into a new product line. He must escape the factory and liberate as many fellow Mudokons as possible, undertaking temple trials and gaining spiritual powers to ultimately return and destroy the slaughterhouse while bringing down the corporate exploitation."
+  }
+},
+  {
+  "date": "2025-12-07",
+  "region": "NA",
+  "releaseDate": "2007-10-29",
+  "title": "Manhunt 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lcs.webp",
+  "hints": {
+    "publisher": [
+      "Rockstar Games"
+    ],
+    "developer": [
+      "Rockstar London",
+      "Rockstar Leeds",
+      "Rockstar Toronto"
+    ],
+    "genre": [
+      "Stealth",
+      "Horror",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "PSP",
+      "Wii"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "RenderWare",
+    "metacritic": 67,
+    "plot": "Mental patient Daniel Lamb escapes Dixmor Asylum during a thunderstorm-induced blackout, suffering from amnesia and disorientation. Guided by fellow inmate Leo Kasper, a sociopathic assassin, he embarks on a violent journey through the city of Cottonmouth to uncover his forgotten identity and the dark secrets of the Pickman Project that imprisoned him."
+  }
+},
+  {
+  "date": "2025-12-08",
+  "region": "WW",
+  "releaseDate": "2013-02-19",
+  "title": "Metal Gear Rising: Revengeance",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2l1t.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "PlatinumGames"
+    ],
+    "genre": [
+      "Hack and Slash",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "PlatinumGames Engine",
+    "metacritic": 80,
+    "plot": "Four years after the Guns of the Patriots Incident, cyborg ninja Raiden works for PMC Maverick Security doing VIP protection in a war-torn developing nation. When attacked by cyborg Samuel Rodrigues and the Desperado Enforcement organization, Raiden is left defeated and must be reconstructed. His search for Sam and Desperado drives him into a vengeful quest, wielding his high-frequency katana blade to cut through anything in his path."
+  }
 }
 ]
