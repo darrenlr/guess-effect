@@ -11060,5 +11060,34 @@
     "metacritic": 74,
     "plot": "Play as both Spider-Man and his nemesis Venom in this cel-shaded adventure. Peter Parker must stop his childhood friend Eddie Brock, who has bonded with a symbiotic suit created by their fathers. The story alternates between Spider-Man's efforts to protect the city and Venom's struggle to control the alien symbiote while evading capture by S.H.I.E.L.D. and other forces seeking the suit's power."
   }
+  },
+  {
+  "date": "2025-12-05",
+  "region": "WW",
+  "releaseDate": "2008-08-26",
+  "title": "Tales of Vesperia",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5gb4.webp",
+  "hints": {
+    "publisher": [
+      "Namco Bandai Games"
+    ],
+    "developer": [
+      "Namco Tales Studio"
+    ],
+    "genre": [
+      "Action RPG",
+      "JRPG"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Local Co-op"
+    ],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "Former Imperial Knight Yuri Lowell investigates the theft of a blastia core from his neighborhood, setting off on an adventure with Princess Estelle. Together they form the guild Brave Vesperia and uncover a conspiracy threatening their world of Terca Lumireis, a civilization dependent on ancient magical technology called blastia that powers everything from protective barriers to daily life."
   }
+}
 ]
