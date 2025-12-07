@@ -23,6 +23,8 @@ const Endless = () => {
     const [showStatsModal, setShowStatsModal] = useState(false);
     const [isGameCompleted, setIsGameCompleted] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
+    const [isNewHighScore, setIsNewHighScore] = useState(false);
+    const [isNewStreakRecord, setIsNewStreakRecord] = useState(false);
 
     // Load all games from JSON
     useEffect(() => {
@@ -63,6 +65,16 @@ const Endless = () => {
                 setCurrentGame(game);
             }
             setIsGameCompleted(state.gameCompleted || false);
+
+            console.log(state);
+            
+            // If run was completed (no lives left), show summary modal
+            if (state.lives === 0) {
+                setShowSummary(true);
+                // Restore record flags if they were saved
+                setIsNewHighScore(state.isNewHighScore || false);
+                setIsNewStreakRecord(state.isNewStreakRecord || false);
+            }
         } else {
             // Start new game
             startNewRun();
@@ -103,6 +115,8 @@ const Endless = () => {
         setCurrentGameNumber(1);
         setCurrentGame(firstGame);
         setShowSummary(false);
+        setIsNewHighScore(false);
+        setIsNewStreakRecord(false);
         setIsGameCompleted(false);
         
         setState(newState);
@@ -127,9 +141,32 @@ const Endless = () => {
 
         // Check if run is over
         if (newLives === 0) {
+            // Check for new records BEFORE updating stats
+            const isNewHighScore = newTotalScore > stats.highScore;
+            const isNewStreakRecord = newLongestStreak > stats.longestStreak;
+            
             updateStats(newTotalScore, newLongestStreak);
             setShowSummary(true);
-            // Don't clear state yet - wait for user to click Play Again or Back to Menu
+            
+            // Store the record flags in state so they persist on refresh
+            setIsNewHighScore(isNewHighScore);
+            setIsNewStreakRecord(isNewStreakRecord);
+            // Save the completed run state so it persists on refresh
+            const completedState = {
+                gameResults: newResults,
+                lives: 0,
+                totalScore: newTotalScore,
+                currentStreak: newStreak,
+                longestStreak: newLongestStreak,
+                currentGameNumber: currentGameNumber,
+                currentGameReleaseDate: currentGame.releaseDate,
+                usedReleaseDates: newResults.map(r => r.gameReleaseDate),
+                gameCompleted: true,
+                currentGameState: result.gameState,
+                isNewHighScore: isNewHighScore,
+                isNewStreakRecord: isNewStreakRecord,
+            };
+            setState(completedState);
         } else {
             // Save updated state with current game still active (completed)
             const updatedState = {
@@ -244,17 +281,6 @@ const Endless = () => {
                 onStatsClick={() => setShowStatsModal(true)}
                 isEndlessMode={true}
             />
-            
-            {/* Total Score Display */}
-            <div style={{ 
-                textAlign: 'center', 
-                padding: '1rem',
-                color: 'white',
-                fontSize: '1.5rem',
-                fontWeight: 'bold'
-            }}>
-                Total Score: {totalScore}
-            </div>
 
             {currentGame && !showSummary && (
                 <EndlessGameSystem
@@ -284,6 +310,8 @@ const Endless = () => {
                 onBackToMenu={handleBackToMenu}
                 highScore={stats.highScore}
                 personalBestStreak={stats.longestStreak}
+                isNewHighScore={isNewHighScore}
+                isNewStreakRecord={isNewStreakRecord}
             />
 
             {showStatsModal && (

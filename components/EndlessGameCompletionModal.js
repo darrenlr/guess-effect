@@ -1,5 +1,7 @@
+import { useEffect } from 'react';
 import Image from 'next/image';
 import endlessStyles from '../styles/EndlessMode.module.css';
+import confetti from 'canvas-confetti';
 
 const EndlessGameCompletionModal = ({ 
     show, 
@@ -9,6 +11,37 @@ const EndlessGameCompletionModal = ({
     lives,
     onContinue 
 }) => {
+    useEffect(() => {
+        if (show) {
+            const confettiAnimation = confetti.create(undefined, {
+                resize: true,
+                useWorker: true,
+            });
+
+            if (won) {
+                // Standard confetti for correct guesses
+                confettiAnimation({
+                    zIndex: 101,
+                    particleCount: 1000,
+                    spread: 80,
+                    origin: { y: 0.4, x: 0.5 },
+                    scalar: 0.6,
+                });
+            } else {
+                // Defeated-style confetti for skipped games
+                confettiAnimation({
+                    zIndex: 101,
+                    particleCount: 500,
+                    spread: 80,
+                    colors: ['#FF4500', '#FF6347', '#FFD700', '#FF8C00'],
+                    origin: { y: 0.4, x: 0.5 },
+                    scalar: 0.4,
+                    drift: 0.5,
+                });
+            }
+        }
+    }, [show, won]);
+    
     if (!show) return null;
 
     return (
@@ -43,7 +76,7 @@ const EndlessGameCompletionModal = ({
                     <div style={{ 
                         display: 'flex', 
                         flexDirection: 'column', 
-                        gap: '1rem', 
+                        gap: '2rem',
                         marginBottom: '2rem',
                         fontSize: '1.2rem',
                         fontFamily: 'var(--font-family)',
@@ -60,7 +93,7 @@ const EndlessGameCompletionModal = ({
                             <span>x{lives}</span>
                         </div>
                         <div style={{ fontSize: '1.4rem' }}>
-                            <strong>Total Score:</strong> <span>{totalScore}</span>
+                            <strong>Total:</strong> <span>{totalScore}</span>
                         </div>
                     </div>
 
