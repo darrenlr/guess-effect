@@ -1,6 +1,9 @@
 .releaseDateWrapper {
   margin: 2rem 0.5rem;
   display: inline-block;
+  padding: 1rem;
+  background: #000;
+  border-radius: 8px;
 }
 
 .releaseDate {

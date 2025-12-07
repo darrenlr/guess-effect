@@ -344,37 +344,33 @@ const EndlessGameSystem = ({
             {game && <ReleaseDate date={game.releaseDate} region={game.region} />}
             
             {/* Mobile stats - visible only on mobile */}
-            <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-                    <div className={styles.heartsContainer}>
-                        {gameState.life.hearts.map((heartSrc, index) => (
-                            <Image
-                                key={index}
-                                src={heartSrc}
-                                alt="Heart"
-                                width={30}
-                                height={30}
-                                className={
-                                    isWrongGuess &&
-                                    index === gameState.life.remainingGuessCount - 1
-                                        ? styles.blink
-                                        : ""
-                                }
-                            />
-                        ))}
-                    </div>
-                    <p>Score: {Math.round(animatedScore)}</p>
+            <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
+                <div className={styles.heartsContainer}>
+                    {gameState.life.hearts.map((heartSrc, index) => (
+                        <Image
+                            key={index}
+                            src={heartSrc}
+                            alt="Heart"
+                            width={30}
+                            height={30}
+                            className={
+                                isWrongGuess &&
+                                index === gameState.life.remainingGuessCount - 1
+                                    ? styles.blink
+                                    : ""
+                            }
+                        />
+                    ))}
                 </div>
-                <div style={{ textAlign: 'center' }}>
-                    <p style={{ 
-                        fontSize: '1.3rem', 
-                        fontWeight: 'bold', 
-                        color: '#4CAF50',
-                        fontFamily: 'var(--font-family)'
-                    }}>
-                        Total: {totalScore}
-                    </p>
-                </div>
+                <p style={{ 
+                    fontSize: '1.3rem', 
+                    fontWeight: 'bold', 
+                    color: '#4CAF50',
+                    fontFamily: 'var(--font-family)'
+                }}>
+                    Total: {totalScore}
+                </p>
+                <p>Score: {Math.round(animatedScore)}</p>
             </div>
             
             <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
@@ -397,7 +393,7 @@ const EndlessGameSystem = ({
             )}
             
             <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div className={styles.heartsWrapper}>
                         <div className={styles.heartsContainer}>
                             {gameState.life.hearts.map((heartSrc, index) => (

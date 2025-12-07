@@ -142,15 +142,15 @@ const Endless = () => {
         // Check if run is over
         if (newLives === 0) {
             // Check for new records BEFORE updating stats
-            const isNewHighScore = newTotalScore > stats.highScore;
-            const isNewStreakRecord = newLongestStreak > stats.longestStreak;
+            const newHighScore = newTotalScore > stats.highScore;
+            const newStreakRecord = newLongestStreak > stats.longestStreak;
+            
+            // Store the record flags in state FIRST
+            setIsNewHighScore(newHighScore);
+            setIsNewStreakRecord(newStreakRecord);
             
             updateStats(newTotalScore, newLongestStreak);
             setShowSummary(true);
-            
-            // Store the record flags in state so they persist on refresh
-            setIsNewHighScore(isNewHighScore);
-            setIsNewStreakRecord(isNewStreakRecord);
             // Save the completed run state so it persists on refresh
             const completedState = {
                 gameResults: newResults,
@@ -163,8 +163,8 @@ const Endless = () => {
                 usedReleaseDates: newResults.map(r => r.gameReleaseDate),
                 gameCompleted: true,
                 currentGameState: result.gameState,
-                isNewHighScore: isNewHighScore,
-                isNewStreakRecord: isNewStreakRecord,
+                isNewHighScore: newHighScore,
+                isNewStreakRecord: newStreakRecord,
             };
             setState(completedState);
         } else {
