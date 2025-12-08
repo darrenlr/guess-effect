@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import EndlessGameSystem from "../components/EndlessGameSystem";
 import EndlessSummaryModal from "../components/EndlessSummaryModal";
 import EndlessStatsModal from "../components/EndlessStatsModal";
 import useEndlessMode from "../hooks/useEndlessMode";
+import endlessStyles from "../styles/EndlessMode.module.css";
 
 const Endless = () => {
     const router = useRouter();
@@ -266,9 +268,10 @@ const Endless = () => {
                     onStatsClick={() => setShowStatsModal(true)}
                     isEndlessMode={true}
                 />
-                <div style={{ textAlign: 'center', marginTop: '2rem', color: 'white' }}>
-                    Loading...
+                <div className={endlessStyles.loadingOverlay}>
+                    <div className={endlessStyles.marioLoader}></div>
                 </div>
+                <Footer />
             </>
         );
     }
@@ -320,6 +323,8 @@ const Endless = () => {
                     stats={stats}
                 />
             )}
+
+            <Footer />
         </>
     );
 };

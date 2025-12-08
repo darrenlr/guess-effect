@@ -21,7 +21,7 @@ const ArchiveModal = ({ closeModal, gameHistory }) => {
 
     const getScoreForDate = (date) => {
         const dateString = date.toLocaleDateString('sv-SE');
-        const scoreEntry = gameHistory.scores.find((entry) => entry.date === dateString);
+        const scoreEntry = gameHistory?.scores?.find((entry) => entry.date === dateString);
         return scoreEntry ? scoreEntry.score : null;
     };
     

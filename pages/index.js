@@ -2,9 +2,19 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import ArchiveModal from "../components/ArchiveModal";
+import useLocalStorage from "../hooks/useLocalStorage";
+
+const initialGameHistory = {
+  wins: 0,
+  games: 0,
+  currentStreak: 0,
+  longestStreak: 0,
+  scores: [],
+};
 
 const Home = () => {
   const [showCalendar, setShowCalendar] = useState(false);
+  const [gameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
 
   return (
     <>
@@ -60,7 +70,7 @@ const Home = () => {
       </div>
 
       {showCalendar && (
-        <ArchiveModal closeModal={() => setShowCalendar(false)} />
+        <ArchiveModal closeModal={() => setShowCalendar(false)} gameHistory={gameHistory} />
       )}
 
       <style jsx>{`

@@ -327,21 +327,14 @@ const EndlessGameSystem = ({
     };
 
     return isMounted ? (
-        <div className={styles.container} style={{ opacity: isTransitioning ? 0.5 : 1, transition: 'opacity 0.2s ease' }}>
-            {isTransitioning && (
-                <div style={{ 
-                    position: 'absolute', 
-                    top: '50%', 
-                    left: '50%', 
-                    transform: 'translate(-50%, -50%)',
-                    color: 'white',
-                    fontSize: '1.5rem',
-                    zIndex: 1000
-                }}>
-                    Loading next game...
+        <>
+            {(isLoadingGame || isTransitioning) ? (
+                <div className={endlessStyles.loadingOverlay}>
+                    <div className={endlessStyles.marioLoader}></div>
                 </div>
-            )}
-            {game && <ReleaseDate date={game.releaseDate} region={game.region} />}
+            ) : (
+                <div className={styles.container}>
+                    {game && <ReleaseDate date={game.releaseDate} region={game.region} />}
             
             {/* Mobile stats - visible only on mobile */}
             <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
@@ -375,21 +368,17 @@ const EndlessGameSystem = ({
             
             <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
             
-            {isLoadingGame || isTransitioning ? (
-                <div className={styles.loader}></div>
-            ) : (
-                game && gameState && (
-                    <GameCard
-                        gameData={game}
-                        gameState={gameState}
-                        setGameState={setGameState}
-                        onRevealHint={(points) => onRevealHint(points)}
-                        isWrongGuess={isWrongGuess}
-                        setIsGuessCountUpdated={setIsGuessCountUpdated}
-                        isGameOver={gameCompleted}
-                        onGiveUp={handleSkip}
-                    />
-                )
+            {game && gameState && (
+                <GameCard
+                    gameData={game}
+                    gameState={gameState}
+                    setGameState={setGameState}
+                    onRevealHint={(points) => onRevealHint(points)}
+                    isWrongGuess={isWrongGuess}
+                    setIsGuessCountUpdated={setIsGuessCountUpdated}
+                    isGameOver={gameCompleted}
+                    onGiveUp={handleSkip}
+                />
             )}
             
             <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
@@ -447,9 +436,13 @@ const EndlessGameSystem = ({
                 lives={lives}
                 onContinue={handleContinue}
             />
-        </div>
+                </div>
+            )}
+        </>
     ) : (
-        <div className={styles.loader}></div>
+        <div className={endlessStyles.loadingOverlay}>
+            <div className={endlessStyles.marioLoader}></div>
+        </div>
     );
 };
 
