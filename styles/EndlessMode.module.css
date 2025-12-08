@@ -58,8 +58,36 @@
   height: 50px;
 }
 
-.skipButton {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+/* Skip/Give Up Button - Border shimmer */
+.skipButton,
+.skipButtonOption4 {
+  background: rgba(35, 0, 0, 0.6);
+  border: 2px solid #cc4444;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.skipButton::before,
+.skipButtonOption4::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 100, 100, 0.3) 50%, transparent 70%);
+  animation: skipShimmer 3s linear infinite;
+  z-index: 0;
+}
+
+@keyframes skipShimmer {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
 }
 
 .giveUpButton {
@@ -71,15 +99,29 @@
   bottom: 0;
   left: 0;
   height: 100%;
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(90deg, 
+    rgba(255, 80, 80, 0.4) 0%, 
+    rgba(255, 120, 120, 0.5) 50%, 
+    rgba(255, 80, 80, 0.4) 100%);
+  background-size: 200% 100%;
+  animation: holdShimmer 2s linear infinite;
   transition: width 0.05s linear;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
+}
+
+@keyframes holdShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .buttonText {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .holdButton:active {

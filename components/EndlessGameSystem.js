@@ -334,18 +334,36 @@ const EndlessGameSystem = ({
                 </div>
             ) : (
                 <div className={styles.container}>
-                    {game && <ReleaseDate date={game.releaseDate} region={game.region} />}
+                    {/* Release Date */}
+                    {game && (
+                        <div style={{ display: 'inline-block' }}>
+                            <div style={{
+                                margin: '2rem 0.5rem',
+                                display: 'inline-block',
+                                padding: '1rem',
+                                background: '#000',
+                                borderRadius: '8px',
+                                border: '2px solid rgba(255, 255, 255, 0.3)',
+                                boxShadow: '0 0 15px rgba(255, 255, 255, 0.1)'
+                            }}>
+                                <h2 style={{ margin: 0, fontFamily: 'var(--font-family-main)' }}>
+                                    {new Date(game.releaseDate).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })} ({game.region})
+                                </h2>
+                            </div>
+                        </div>
+                    )}
             
             {/* Mobile stats - visible only on mobile */}
             <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
-                <div className={styles.heartsContainer}>
+                {/* Hearts - No border */}
+                <div style={{ display: 'flex', gap: '0.4rem' }}>
                     {gameState.life.hearts.map((heartSrc, index) => (
                         <Image
                             key={index}
                             src={heartSrc}
                             alt="Heart"
-                            width={30}
-                            height={30}
+                            width={32}
+                            height={32}
                             className={
                                 isWrongGuess &&
                                 index === gameState.life.remainingGuessCount - 1
@@ -355,15 +373,22 @@ const EndlessGameSystem = ({
                         />
                     ))}
                 </div>
-                <p style={{ 
-                    fontSize: '1.3rem', 
-                    fontWeight: 'bold', 
-                    color: '#4CAF50',
-                    fontFamily: 'var(--font-family)'
+                
+                {/* Total Score */}
+                <div style={{ 
+                    background: 'rgba(0, 0, 0, 0.5)',
+                    padding: '0.6rem 1.5rem',
+                    borderRadius: '10px',
+                    border: '2px solid #00ff88',
+                    fontFamily: 'var(--font-family)',
+                    boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
+                    display: 'inline-block',
+                    minWidth: 'fit-content',
+                    textAlign: 'center'
                 }}>
-                    Total: {totalScore}
-                </p>
-                <p>Score: {Math.round(animatedScore)}</p>
+                    <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
+                    <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
+                </div>
             </div>
             
             <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
@@ -383,43 +408,46 @@ const EndlessGameSystem = ({
             
             <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <div className={styles.heartsWrapper}>
-                        <div className={styles.heartsContainer}>
-                            {gameState.life.hearts.map((heartSrc, index) => (
-                                <Image
-                                    key={index}
-                                    src={heartSrc}
-                                    alt="Heart"
-                                    width={30}
-                                    height={30}
-                                    className={
-                                        isWrongGuess &&
-                                        index === gameState.life.remainingGuessCount - 1
-                                            ? styles.blink
-                                            : ""
-                                    }
-                                />
-                            ))}
-                        </div>
+                    {/* Hearts - No border */}
+                    <div style={{ display: 'flex', gap: '0.4rem' }}>
+                        {gameState.life.hearts.map((heartSrc, index) => (
+                            <Image
+                                key={index}
+                                src={heartSrc}
+                                alt="Heart"
+                                width={32}
+                                height={32}
+                                className={
+                                    isWrongGuess &&
+                                    index === gameState.life.remainingGuessCount - 1
+                                        ? styles.blink
+                                        : ""
+                                }
+                            />
+                        ))}
                     </div>
-                    <p>Score: {Math.round(animatedScore)}</p>
-                </div>
-                <div style={{ textAlign: 'center' }}>
-                    <p style={{
-                        fontSize: '1.3rem',
-                        fontWeight: 'bold', 
-                        color: '#4CAF50',
-                        fontFamily: 'var(--font-family)'
+                    
+                    {/* Total Score */}
+                    <div style={{ 
+                        background: 'rgba(0, 0, 0, 0.5)',
+                        padding: '0.6rem 1.5rem',
+                        borderRadius: '10px',
+                        border: '2px solid #00ff88',
+                        fontFamily: 'var(--font-family)',
+                        boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
+                        display: 'inline-block',
+                        textAlign: 'center'
                     }}>
-                        Total: {totalScore}
-                    </p>
+                        <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
+                        <div style={{ fontSize: '1.6rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
+                    </div>
                 </div>
             </div>
 
             {/* Action Buttons */}
             <div className={endlessStyles.buttonContainer}>
                 <HoldButton 
-                    className={endlessStyles.skipButton}
+                    className={endlessStyles.skipButtonOption4}
                     onComplete={handleSkip}
                     holdDuration={2000}
                     disabled={gameCompleted}
