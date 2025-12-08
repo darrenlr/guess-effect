@@ -11181,5 +11181,35 @@
     "metacritic": 80,
     "plot": "Four years after the Guns of the Patriots Incident, cyborg ninja Raiden works for PMC Maverick Security doing VIP protection in a war-torn developing nation. When attacked by cyborg Samuel Rodrigues and the Desperado Enforcement organization, Raiden is left defeated and must be reconstructed. His search for Sam and Desperado drives him into a vengeful quest, wielding his high-frequency katana blade to cut through anything in his path."
   }
-}
+},
+  {
+  "date": "2025-12-09",
+  "region": "NA",
+  "releaseDate": "2009-10-13",
+  "title": "Brütal Legend",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co27c8.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Double Fine Productions"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Real-Time Strategy"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Buddha Engine",
+    "metacritic": 82,
+    "plot": "Legendary roadie Eddie Riggs is transported to a heavy metal fantasy world where mountains are made of amplifiers and demons rule the land. Armed with a broadaxe, guitar that plays face-melting solos, and his hot rod Druid Plow, Eddie must lead humanity's rebellion against barbaric overlords by commanding armies in epic stage battles to become a legend."
+  }
+  }
 ]
