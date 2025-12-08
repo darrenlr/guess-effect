@@ -6,7 +6,8 @@ import confetti from 'canvas-confetti';
 const EndlessGameCompletionModal = ({ 
     show, 
     won, 
-    gameTitle, 
+    gameTitle,
+    boxArt, 
     totalScore, 
     lives,
     onContinue 
@@ -66,12 +67,31 @@ const EndlessGameCompletionModal = ({
                     <p style={{ marginBottom: '0.5rem', fontFamily: 'var(--font-family)' }}>the game was:</p>
                     
                     <h3 style={{ 
-                        marginBottom: '2rem', 
+                        marginBottom: '1rem', 
                         fontSize: '1.5rem',
                         fontFamily: 'var(--font-family)'
                     }}>
                         {gameTitle}
                     </h3>
+
+                    {boxArt && (
+                        <div style={{ 
+                            marginBottom: '2rem',
+                            border: '2px solid #fff',
+                            borderRadius: '8px',
+                            overflow: 'hidden',
+                            width: '200px',
+                            height: '267px',
+                            position: 'relative'
+                        }}>
+                            <Image
+                                src={boxArt}
+                                alt={gameTitle}
+                                fill
+                                style={{ objectFit: 'cover' }}
+                            />
+                        </div>
+                    )}
 
                     <div style={{ 
                         display: 'flex', 
@@ -92,8 +112,17 @@ const EndlessGameCompletionModal = ({
                             />
                             <span>x{lives}</span>
                         </div>
-                        <div style={{ fontSize: '1.4rem' }}>
-                            <strong>Total:</strong> <span>{totalScore}</span>
+                        <div style={{ 
+                            background: 'rgba(0, 0, 0, 0.5)',
+                            padding: '0.6rem 1.5rem',
+                            borderRadius: '10px',
+                            border: '2px solid #00ff88',
+                            fontFamily: 'var(--font-family)',
+                            boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
+                            textAlign: 'center'
+                        }}>
+                            <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
+                            <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{totalScore}</div>
                         </div>
                     </div>
 

@@ -45,7 +45,8 @@ const EndlessGameSystem = ({
     gamesPlayed,
     isCompleted = false,
     savedGameState = null,
-    onGameStateChange = null
+    onGameStateChange = null,
+    onModalStateChange = null
 }) => {
     const [isMounted, setIsMounted] = useState(false);
     const [gameState, setGameState] = useState({
@@ -209,6 +210,13 @@ const EndlessGameSystem = ({
         setIsMounted(true);
     }, []);
 
+    // Notify parent when modal state changes
+    useEffect(() => {
+        if (onModalStateChange) {
+            onModalStateChange(showContinueButton);
+        }
+    }, [showContinueButton, onModalStateChange]);
+
     // Update localStorage whenever gameState changes
     useEffect(() => {
         if (isMounted && game && !gameCompleted && onGameStateChange) {
@@ -335,7 +343,7 @@ const EndlessGameSystem = ({
             ) : (
                 <div className={styles.container}>
                     {/* Release Date */}
-                    {game && (
+                    {game && !showContinueButton && (
                         <div style={{ display: 'inline-block' }}>
                             <div style={{
                                 margin: '2rem 0.5rem',
@@ -354,7 +362,7 @@ const EndlessGameSystem = ({
                     )}
             
             {/* Mobile stats - visible only on mobile */}
-            <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
+            {!showContinueButton && <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
                 {/* Hearts - No border */}
                 <div style={{ display: 'flex', gap: '0.4rem' }}>
                     {gameState.life.hearts.map((heartSrc, index) => (
@@ -389,11 +397,11 @@ const EndlessGameSystem = ({
                     <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
                     <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
                 </div>
-            </div>
+            </div>}
             
-            <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />
+            {!showContinueButton && <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />}
             
-            {game && gameState && (
+            {game && gameState && !showContinueButton && (
                 <GameCard
                     gameData={game}
                     gameState={gameState}
@@ -406,7 +414,7 @@ const EndlessGameSystem = ({
                 />
             )}
             
-            <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
+            {!showContinueButton && <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     {/* Hearts - No border */}
                     <div style={{ display: 'flex', gap: '0.4rem' }}>
@@ -442,10 +450,10 @@ const EndlessGameSystem = ({
                         <div style={{ fontSize: '1.6rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
                     </div>
                 </div>
-            </div>
+            </div>}
 
             {/* Action Buttons */}
-            <div className={endlessStyles.buttonContainer}>
+            {!showContinueButton && <div className={endlessStyles.buttonContainer}>
                 <HoldButton 
                     className={endlessStyles.skipButtonOption4}
                     onComplete={handleSkip}
@@ -454,13 +462,14 @@ const EndlessGameSystem = ({
                 >
                     {lives === 1 ? 'Give Up' : 'Skip'}
                 </HoldButton>
-            </div>
+            </div>}
 
             <EndlessGameCompletionModal
                 show={showContinueButton}
                 won={gameResult?.won || false}
                 gameTitle={game?.title || ''}
-                totalScore={totalScore}
+                boxArt={game?.boxArtUrl ? `https://${game.boxArtUrl}` : ''}
+                totalScore={Math.round(totalScore + animatedScore)}
                 lives={lives}
                 onContinue={handleContinue}
             />

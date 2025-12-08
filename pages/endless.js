@@ -27,6 +27,7 @@ const Endless = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [isNewHighScore, setIsNewHighScore] = useState(false);
     const [isNewStreakRecord, setIsNewStreakRecord] = useState(false);
+    const [isGameModalVisible, setIsGameModalVisible] = useState(false);
 
     // Load all games from JSON
     useEffect(() => {
@@ -299,6 +300,7 @@ const Endless = () => {
                     isCompleted={isGameCompleted}
                     savedGameState={state?.currentGameState}
                     onGameStateChange={handleGameStateChange}
+                    onModalStateChange={setIsGameModalVisible}
                 />
             )}
 
@@ -324,7 +326,7 @@ const Endless = () => {
                 />
             )}
 
-            <Footer />
+            {!showSummary && !isGameModalVisible && <Footer />}
         </>
     );
 };
