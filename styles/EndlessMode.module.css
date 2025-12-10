@@ -507,3 +507,15 @@
     transform: translateY(-260%);
   }
 }
+
+/* Float left animation for lives counter - fades into the number from the right */
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}

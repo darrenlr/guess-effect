@@ -250,11 +250,17 @@ const Endless = () => {
     };
 
     const handleGameStateChange = (newGameState) => {
+        // Update lives from remainingGuessCount if it changed
+        if (newGameState.life && newGameState.life.remainingGuessCount !== lives) {
+            setLives(newGameState.life.remainingGuessCount);
+        }
+        
         // Update localStorage with current game state (for ongoing games)
         if (state) {
             const updatedState = {
                 ...state,
                 currentGameState: newGameState,
+                lives: newGameState.life?.remainingGuessCount || lives,
             };
             setState(updatedState);
         }

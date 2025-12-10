@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import endlessStyles from '../styles/EndlessMode.module.css';
 import confetti from 'canvas-confetti';
@@ -8,10 +8,16 @@ const EndlessGameCompletionModal = ({
     won, 
     gameTitle,
     boxArt, 
-    totalScore, 
+    totalScore,
+    previousScore = 0,
     lives,
+    previousLives,
     onContinue 
 }) => {
+    const [animatedScore, setAnimatedScore] = useState(previousScore);
+    const [animatedLives, setAnimatedLives] = useState(previousLives || lives);
+    const [floatingNumbers, setFloatingNumbers] = useState([]);
+
     useEffect(() => {
         if (show) {
             const confettiAnimation = confetti.create(undefined, {
@@ -40,8 +46,90 @@ const EndlessGameCompletionModal = ({
                     drift: 0.5,
                 });
             }
+
+            // Reset animations when modal shows
+            setAnimatedScore(previousScore);
+            setAnimatedLives(previousLives || lives);
+            setFloatingNumbers([]);
         }
-    }, [show, won]);
+    }, [show, won, previousScore, previousLives, lives]);
+
+    // Animate score counting up
+    useEffect(() => {
+        if (!show) return;
+
+        const startScore = previousScore;
+        const endScore = totalScore;
+        const duration = 1000;
+        const startTime = Date.now();
+
+        const animateScore = () => {
+            const elapsed = Date.now() - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            
+            const easeOutCubic = 1 - Math.pow(1 - progress, 3);
+            const currentScore = Math.round(startScore + (endScore - startScore) * easeOutCubic);
+            
+            setAnimatedScore(currentScore);
+
+            if (progress < 1) {
+                requestAnimationFrame(animateScore);
+            }
+        };
+
+        // Start score animation after a short delay
+        const scoreTimeout = setTimeout(() => {
+            animateScore();
+        }, 500);
+
+        return () => clearTimeout(scoreTimeout);
+    }, [show, previousScore, totalScore]);
+
+    // Animate lives counting down with floating numbers (ENDLESS LOOP FOR TESTING)
+    useEffect(() => {
+        if (!show || !previousLives || previousLives === lives) return;
+
+        const livesDifference = previousLives - lives;
+        
+        const startAnimation = () => {
+            // Show the total lives lost as a single floating number
+            const floatingId = Date.now();
+            setFloatingNumbers([{ id: floatingId, value: -livesDifference }]);
+
+            // Animate the lives counter counting down
+            let currentLives = previousLives;
+            let count = 0;
+
+            const animateLives = () => {
+                if (count < livesDifference) {
+                    currentLives--;
+                    setAnimatedLives(currentLives);
+                    count++;
+                    setTimeout(animateLives, 300);
+                } else {
+                    // Remove floating number after all lives are counted down
+                    setTimeout(() => {
+                        setFloatingNumbers([]);
+                        
+                        // Loop: restart animation after a delay
+                        setTimeout(() => {
+                            setAnimatedLives(previousLives);
+                            startAnimation();
+                        }, 2000);
+                    }, 1500);
+                }
+            };
+
+            animateLives();
+        };
+
+        // Start lives animation after score animation
+        const livesTimeout = setTimeout(() => {
+            startAnimation();
+        }, 1600);
+
+        return () => clearTimeout(livesTimeout);
+    }, [show, previousLives, lives]);
     
     if (!show) return null;
 
@@ -76,7 +164,7 @@ const EndlessGameCompletionModal = ({
 
                     {boxArt && (
                         <div style={{ 
-                            marginBottom: '2rem',
+                            marginBottom: '2.5rem',
                             border: '2px solid #fff',
                             borderRadius: '8px',
                             overflow: 'hidden',
@@ -102,7 +190,7 @@ const EndlessGameCompletionModal = ({
                         fontFamily: 'var(--font-family)',
                         alignItems: 'center'
                     }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center', position: 'relative' }}>
                             <strong>Lives:</strong>
                             <Image
                                 src="/images/heart.png"
@@ -110,7 +198,25 @@ const EndlessGameCompletionModal = ({
                                 width={24}
                                 height={24}
                             />
-                            <span>x{lives}</span>
+                            <span>x{animatedLives}</span>
+                            {/* Floating negative numbers */}
+                            {floatingNumbers.map((num) => (
+                                <div
+                                    key={num.id}
+                                    style={{
+                                        position: 'absolute',
+                                        top: '0',
+                                        right: '-50px',
+                                        color: '#ff4444',
+                                        fontWeight: 'bold',
+                                        fontSize: '1.2rem',
+                                        animation: 'floatUp 1.5s ease-out forwards',
+                                        pointerEvents: 'none'
+                                    }}
+                                >
+                                    {num.value}
+                                </div>
+                            ))}
                         </div>
                         <div style={{ 
                             background: 'rgba(0, 0, 0, 0.5)',
@@ -122,7 +228,7 @@ const EndlessGameCompletionModal = ({
                             textAlign: 'center'
                         }}>
                             <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
-                            <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{totalScore}</div>
+                            <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{animatedScore}</div>
                         </div>
                     </div>
 
