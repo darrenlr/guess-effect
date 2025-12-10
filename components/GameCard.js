@@ -13,7 +13,9 @@ const GameCard = ({
 	isWrongGuess,
 	setIsGuessCountUpdated,
 	isGameOver,
-	onGiveUp
+	onGiveUp,
+	isEndlessMode = false,
+	gameWon = false
 }) => {
 	const [pixelationLevel, setPixelationLevel] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
@@ -160,7 +162,7 @@ const GameCard = ({
 						<div className={styles.boxArtWrapper}>
 							<BoxArtCanvas
 								src={`https://${gameData.boxArtUrl}`}
-								showCleanImage={isGameOver}
+								showCleanImage={isEndlessMode ? gameWon : isGameOver}
 								pixelSize={gameState.hints.boxArt}
 								width={264}
 								height={352}
@@ -246,7 +248,7 @@ const GameCard = ({
 						points={40}
 						isRevealed={gameState.hints.plot}
 					/>
-					{!isGameOver && (
+					{!isGameOver && (!isEndlessMode || !areAllHintsRevealed()) && (
 						<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
 							{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
 						</button>

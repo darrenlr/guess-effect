@@ -243,8 +243,8 @@ const EndlessGameSystem = ({
         setGameResult(result);
         setGameCompleted(true);
 
-        // Reveal all hints
-        const completedGameState = {
+        // Only reveal all hints if the user WON - keep current state if skipped
+        const completedGameState = won ? {
             ...gameState,
             hints: {
                 publisher: true,
@@ -256,6 +256,12 @@ const EndlessGameSystem = ({
                 metacritic: true,
                 plot: true,
                 boxArt: 0,
+                points: score,
+            },
+        } : {
+            ...gameState,
+            hints: {
+                ...gameState.hints,
                 points: score,
             },
         };
@@ -270,7 +276,7 @@ const EndlessGameSystem = ({
         if (!lostLife || lives > 1) {
             setTimeout(() => {
                 setShowContinueButton(true);
-            }, 800);
+            }, 8000);
         }
         // If lostLife and lives === 1, parent will show summary modal instead
     };
@@ -342,11 +348,21 @@ const EndlessGameSystem = ({
                 </div>
             ) : (
                 <div className={styles.container}>
-                    {/* Release Date */}
+                    {/* Game Counter and Release Date */}
                     {game && !showContinueButton && (
-                        <div style={{ display: 'inline-block' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginTop: '1rem', marginBottom: '1rem' }}>
+                            {/* Game Number */}
                             <div style={{
-                                margin: '2rem 0.5rem',
+                                fontFamily: 'var(--font-family)',
+                                fontSize: '1rem',
+                                color: '#fff',
+                                opacity: 0.8
+                            }}>
+                                Game #{currentGameNumber}
+                            </div>
+                            
+                            {/* Release Date */}
+                            <div style={{
                                 display: 'inline-block',
                                 padding: '1rem',
                                 background: '#000',
@@ -411,6 +427,8 @@ const EndlessGameSystem = ({
                     setIsGuessCountUpdated={setIsGuessCountUpdated}
                     isGameOver={gameCompleted}
                     onGiveUp={handleSkip}
+                    isEndlessMode={true}
+                    gameWon={gameResult?.won || false}
                 />
             )}
             
