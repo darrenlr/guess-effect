@@ -11242,5 +11242,37 @@
     "metacritic": 82,
     "plot": "Kronika, the Keeper of Time, seeks to restart the timeline after Raiden's corruption upsets the balance. She brings past versions of fighters to the present, forcing heroes across timelines to battle her manipulation of history. Raiden ultimately transfers his power to Liu Kang, transforming him into a god of fire and thunder to defeat Kronika and forge a new timeline."
   }
+  },
+  {
+  "date": "2025-12-11",
+  "region": "WW",
+  "releaseDate": "2016-10-28",
+  "title": "Titanfall 2",
+  "link": "https://www.igdb.com/games/titanfall-2"
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/fhbeilnghyhhmjqhinqa.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Respawn Entertainment"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Source",
+    "metacritic": 89,
+    "plot": "Militia rifleman Jack Cooper aspires to become an elite Pilot but finds himself stranded behind enemy lines on the IMC planet Typhon. When his mentor Captain Tai Lastimosa is killed in action, Cooper bonds with his mentor's Vanguard-class Titan BT-7274. Together they must complete their mission to stop the IMC from deploying a planet-destroying superweapon that threatens the Militia's base on Harmony."
   }
+}
 ]
