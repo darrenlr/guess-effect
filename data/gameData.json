@@ -11304,5 +11304,37 @@
     "metacritic": 91,
     "plot": "You wake up in a trashed Revachol hotel room with catastrophic amnesia, no memory of your identity, and a corpse hanging from a tree outside. As a disgraced detective, you must investigate the murder alongside Lieutenant Kim Kitsuragi from another precinct while piecing together your own shattered past. Your 24 internal skills manifest as voices in your head, each offering conflicting advice as you navigate political tensions, philosophical questions, and the mystery of who you really are."
   }
+  },
+  {
+  "date": "2025-12-13",
+  "region": "WW",
+  "releaseDate": "2008-11-18",
+  "title": "Tomb Raider: Underworld",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1voc.webp",
+  "link": "igdb.com/games/tomb-raider-underworld",
+    "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Crystal Dynamics"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Puzzle",
+      "Platformer"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Crystal Engine",
+    "metacritic": 76,
+    "plot": "Searching for Avalon to find answers about her mother's disappearance, Lara discovers an underwater Mediterranean temple connected to Norse mythology. With information from the imprisoned Atlantean queen Jacqueline Natla, she learns Avalon is actually Helheim, the Norse underworld. She must recover Thor's hammer, belt, and gauntlets while confronting adversaries including Amanda Evert and a mysterious doppelganger to reach the underworld and uncover her mother's fate."
+  }
   }
 ]
