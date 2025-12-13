@@ -11274,5 +11274,35 @@
     "metacritic": 89,
     "plot": "Militia rifleman Jack Cooper aspires to become an elite Pilot but finds himself stranded behind enemy lines on the IMC planet Typhon. When his mentor Captain Tai Lastimosa is killed in action, Cooper bonds with his mentor's Vanguard-class Titan BT-7274. Together they must complete their mission to stop the IMC from deploying a planet-destroying superweapon that threatens the Militia's base on Harmony."
   }
-}
+},
+  {
+  "date": "2025-12-12",
+  "region": "WW",
+  "releaseDate": "2019-10-15",
+  "title": "Disco Elysium",
+  "link": "https://www.igdb.com/games/disco-elysium",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1sfj.webp",
+  "hints": {
+    "publisher": [
+      "ZA/UM"
+    ],
+    "developer": [
+      "ZA/UM"
+    ],
+    "genre": [
+      "RPG",
+      "Detective",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 91,
+    "plot": "You wake up in a trashed Revachol hotel room with catastrophic amnesia, no memory of your identity, and a corpse hanging from a tree outside. As a disgraced detective, you must investigate the murder alongside Lieutenant Kim Kitsuragi from another precinct while piecing together your own shattered past. Your 24 internal skills manifest as voices in your head, each offering conflicting advice as you navigate political tensions, philosophical questions, and the mystery of who you really are."
+  }
+  }
 ]
