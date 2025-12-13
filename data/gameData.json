@@ -11336,5 +11336,35 @@
     "metacritic": 76,
     "plot": "Searching for Avalon to find answers about her mother's disappearance, Lara discovers an underwater Mediterranean temple connected to Norse mythology. With information from the imprisoned Atlantean queen Jacqueline Natla, she learns Avalon is actually Helheim, the Norse underworld. She must recover Thor's hammer, belt, and gauntlets while confronting adversaries including Amanda Evert and a mysterious doppelganger to reach the underworld and uncover her mother's fate."
   }
+  },
+  {
+  "date": "2025-12-14",
+  "region": "WW",
+  "releaseDate": "2014-09-20",
+  "title": "Bayonetta 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6ffy.webp",
+  "link": "https://www.igdb.com/games/bayonetta-2",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "PlatinumGames"
+    ],
+    "genre": [
+      "Action",
+      "Hack and Slash"
+    ],
+    "platforms": [
+      "Wii U"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Following the events of the first game, Bayonetta and her ally Jeanne battle sporadically appearing demons. When Jeanne intercepts an attack meant for Bayonetta during a failed demon summoning, her soul is dragged into Inferno. Bayonetta must journey through Paradiso and Inferno, fighting both angels and demons, to rescue her friend's soul before it's lost forever."
   }
+}
 ]
