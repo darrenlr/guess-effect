@@ -11366,5 +11366,35 @@
     "metacritic": 91,
     "plot": "Following the events of the first game, Bayonetta and her ally Jeanne battle sporadically appearing demons. When Jeanne intercepts an attack meant for Bayonetta during a failed demon summoning, her soul is dragged into Inferno. Bayonetta must journey through Paradiso and Inferno, fighting both angels and demons, to rescue her friend's soul before it's lost forever."
   }
+},
+  {
+  "date": "2025-12-15",
+  "region": "JP",
+  "releaseDate": "2010-01-09",
+  "title": "Kingdom Hearts Birth by Sleep",
+   "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ych.webp",
+  "link": "https://www.igdb.com/games/kingdom-hearts-birth-by-sleep",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Square Enix"
+    ],
+    "genre": [
+      "Action RPG",
+      "JRPG"
+    ],
+    "platforms": [
+      "PSP"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "Ten years before the original Kingdom Hearts, three Keyblade apprentices—Terra, Ventus, and Aqua—train under Master Eraqus at the Land of Departure. When their exam is manipulated by the mysterious Master Xehanort and he subsequently disappears, the trio embarks on separate journeys across Disney worlds to stop the Unversed creatures and find Xehanort. Their intertwining stories reveal the origins of the Keyblade War and the tragic events that lead to the series' beginning."
+  }
 }
 ]
