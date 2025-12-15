@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import ArchiveModal from "../components/ArchiveModal";
@@ -15,12 +15,32 @@ const initialGameHistory = {
 const Home = () => {
   const [showCalendar, setShowCalendar] = useState(false);
   const [gameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
+  const [subtitleText, setSubtitleText] = useState("");
+
+  useEffect(() => {
+    const text = "> Choose Your Mode";
+    let index = 0;
+    setSubtitleText("");
+
+    const intervalId = setInterval(() => {
+      index++;
+      setSubtitleText(text.slice(0, index));
+      if (index === text.length) {
+        clearInterval(intervalId);
+      }
+    }, 100);
+
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <>
       <Navbar showCalendar={false} showStats={false} />
+      
       <div className="mode-selection-container">
-        <p className="subtitle">Choose Your Mode</p>
+        <p className="subtitle">
+          {subtitleText}<span className="cursor">_</span>
+        </p>
         
         <div className="mode-boxes">
           {/* Daily Mode Box */}
@@ -84,11 +104,25 @@ const Home = () => {
         }
 
         .subtitle {
-          font-family: var(--font-family);
-          font-size: 1.4rem;
-          color: #fff;
+          font-family: 'Courier New', monospace;
+          font-size: 1.5rem;
+          color: #00ff88;
           margin-bottom: 2.5rem;
-          opacity: 0.9;
+          opacity: 1;
+          letter-spacing: 1px;
+          background-color: #000;
+          padding: 0.5rem 1rem;
+          border-radius: 4px;
+          display: inline-block;
+        }
+
+        .cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
         }
 
         .mode-boxes {
