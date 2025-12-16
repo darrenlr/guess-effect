@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <>
-      <Navbar showCalendar={false} showStats={false} />
+      <Navbar showCalendar={false} showStats={false} showHelp={false} showSupport={false} />
       
       <div className="mode-selection-container">
         <p className="subtitle">
@@ -106,7 +106,7 @@ const Home = () => {
         .subtitle {
           font-family: 'Courier New', monospace;
           font-size: 1.5rem;
-          color: #00ff88;
+          color: #ffffff;
           margin-bottom: 2.5rem;
           opacity: 1;
           letter-spacing: 1px;

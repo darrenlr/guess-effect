@@ -20,6 +20,8 @@ const Navbar = ({
 	gameHistory = {scores: [], games: 0, wins: 0, currentStreak: 0, longestStreak: 0}, 
 	showCalendar = true, 
 	showStats = true,
+    showHelp = true,
+    showSupport = true,
 	onStatsClick = null,
 	isEndlessMode = false
 }) => {
@@ -72,13 +74,17 @@ const Navbar = ({
 					<FontAwesomeIcon icon={faCalendar} className={styles.icon} />
 				</button>
 			)}
-			<button className={styles.iconBtn} onClick={handleShowSupportModal}>
-				<FontAwesomeIcon icon={faHeart} className={styles.icon} />
-			</button>
+			{showSupport && (
+				<button className={styles.iconBtn} onClick={handleShowSupportModal}>
+					<FontAwesomeIcon icon={faHeart} className={styles.icon} />
+				</button>
+			)}
 			<h1 className={styles.title} data-text="GUESS_EFFECT">GUESS_EFFECT</h1>
-			<button className={styles.iconBtn} onClick={handleShowGuessEffectModal}>
-				<FontAwesomeIcon icon={faCircleQuestion} className={styles.icon} />
-			</button>
+			{showHelp && (
+				<button className={styles.iconBtn} onClick={handleShowGuessEffectModal}>
+					<FontAwesomeIcon icon={faCircleQuestion} className={styles.icon} />
+				</button>
+			)}
 			{showStats && (
 				<button className={styles.iconBtn} onClick={handleShowStatstModal}>
 					<FontAwesomeIcon icon={faChartColumn} className={styles.icon} />
