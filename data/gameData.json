@@ -11304,5 +11304,158 @@
     "metacritic": 91,
     "plot": "You wake up in a trashed Revachol hotel room with catastrophic amnesia, no memory of your identity, and a corpse hanging from a tree outside. As a disgraced detective, you must investigate the murder alongside Lieutenant Kim Kitsuragi from another precinct while piecing together your own shattered past. Your 24 internal skills manifest as voices in your head, each offering conflicting advice as you navigate political tensions, philosophical questions, and the mystery of who you really are."
   }
+  },
+  {
+  "date": "2025-12-13",
+  "region": "WW",
+  "releaseDate": "2008-11-18",
+  "title": "Tomb Raider: Underworld",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1voc.webp",
+  "link": "igdb.com/games/tomb-raider-underworld",
+    "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Crystal Dynamics"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Puzzle",
+      "Platformer"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Crystal Engine",
+    "metacritic": 76,
+    "plot": "Searching for Avalon to find answers about her mother's disappearance, Lara discovers an underwater Mediterranean temple connected to Norse mythology. With information from the imprisoned Atlantean queen Jacqueline Natla, she learns Avalon is actually Helheim, the Norse underworld. She must recover Thor's hammer, belt, and gauntlets while confronting adversaries including Amanda Evert and a mysterious doppelganger to reach the underworld and uncover her mother's fate."
   }
+  },
+  {
+  "date": "2025-12-14",
+  "region": "WW",
+  "releaseDate": "2014-09-20",
+  "title": "Bayonetta 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6ffy.webp",
+  "link": "https://www.igdb.com/games/bayonetta-2",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "PlatinumGames"
+    ],
+    "genre": [
+      "Action",
+      "Hack and Slash"
+    ],
+    "platforms": [
+      "Wii U"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Following the events of the first game, Bayonetta and her ally Jeanne battle sporadically appearing demons. When Jeanne intercepts an attack meant for Bayonetta during a failed demon summoning, her soul is dragged into Inferno. Bayonetta must journey through Paradiso and Inferno, fighting both angels and demons, to rescue her friend's soul before it's lost forever."
+  }
+},
+  {
+  "date": "2025-12-15",
+  "region": "JP",
+  "releaseDate": "2010-01-09",
+  "title": "Kingdom Hearts Birth by Sleep",
+   "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ych.webp",
+  "link": "https://www.igdb.com/games/kingdom-hearts-birth-by-sleep",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Square Enix"
+    ],
+    "genre": [
+      "Action RPG",
+      "JRPG"
+    ],
+    "platforms": [
+      "PSP"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "Ten years before the original Kingdom Hearts, three Keyblade apprentices—Terra, Ventus, and Aqua—train under Master Eraqus at the Land of Departure. When their exam is manipulated by the mysterious Master Xehanort and he subsequently disappears, the trio embarks on separate journeys across Disney worlds to stop the Unversed creatures and find Xehanort. Their intertwining stories reveal the origins of the Keyblade War and the tragic events that lead to the series' beginning."
+  }
+},
+  {
+  "date": "2025-12-16",
+  "region": "WW",
+  "releaseDate": "2013-05-14",
+  "title": "Metro: Last Light",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.webp",
+  "link": "https://www.igdb.com/games/metro-last-light",
+  "hints": {
+    "publisher": [
+      "Deep Silver"
+    ],
+    "developer": [
+      "4A Games"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Survival Horror",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "4A Engine",
+    "metacritic": 81,
+    "plot": "In 2034, a year after destroying the Dark Ones, Artyom discovers one survived and is ordered to hunt it down. As he journeys through Moscow's irradiated metro tunnels and poisoned surface, station-cities wage war for control of D6's military arsenal. Artyom must prevent a catastrophic civil war that threatens humanity's extinction while confronting his guilt over the Dark Ones' fate and discovering the truth about their telepathic powers."
+  }
+  },
+  {
+  "date": "2025-12-17",
+  "region": "JP",
+  "releaseDate": "1995-03-24",
+  "title": "Mega Man 7",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6o8y.webp",
+  "link": "https://www.igdb.com/games/mega-man-7",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Action",
+      "Platform"
+    ],
+    "platforms": [
+      "SNES"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Six months after Dr. Wily's defeat and imprisonment, four hidden Robot Masters break him out of jail. Mega Man pursues Wily while encountering the mysterious Bass and his wolf companion Treble, who claim to be hunting the villain as well. As the adventure unfolds, Bass and Treble are revealed to be Wily's own creations, sent to challenge and ultimately betray the Blue Bomber."
+  }
+}
 ]
