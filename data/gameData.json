@@ -11396,5 +11396,36 @@
     "metacritic": 82,
     "plot": "Ten years before the original Kingdom Hearts, three Keyblade apprentices—Terra, Ventus, and Aqua—train under Master Eraqus at the Land of Departure. When their exam is manipulated by the mysterious Master Xehanort and he subsequently disappears, the trio embarks on separate journeys across Disney worlds to stop the Unversed creatures and find Xehanort. Their intertwining stories reveal the origins of the Keyblade War and the tragic events that lead to the series' beginning."
   }
-}
+},
+  {
+  "date": "2025-12-16",
+  "region": "WW",
+  "releaseDate": "2013-05-14",
+  "title": "Metro: Last Light",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h9d.webp",
+  "hints": {
+    "publisher": [
+      "Deep Silver"
+    ],
+    "developer": [
+      "4A Games"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Survival Horror",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "4A Engine",
+    "metacritic": 81,
+    "plot": "In 2034, a year after destroying the Dark Ones, Artyom discovers one survived and is ordered to hunt it down. As he journeys through Moscow's irradiated metro tunnels and poisoned surface, station-cities wage war for control of D6's military arsenal. Artyom must prevent a catastrophic civil war that threatens humanity's extinction while confronting his guilt over the Dark Ones' fate and discovering the truth about their telepathic powers."
+  }
+  }
 ]
