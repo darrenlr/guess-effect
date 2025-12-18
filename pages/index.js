@@ -43,9 +43,8 @@ const Home = () => {
         </p>
         
         <div className="mode-boxes">
-          {/* Daily Mode Box */}
           <div className="mode-box">
-            <h2 className="box-title">📅 Daily</h2>
+            <h2 className="box-title">[D] Daily</h2>
             <div className="mode-options">
               <Link href="/daily">
                 <button className="option-button daily-option">
@@ -53,7 +52,6 @@ const Home = () => {
                   <span className="option-description">Play today&apos;s game</span>
                 </button>
               </Link>
-              
               <button className="option-button archive-option" onClick={() => setShowCalendar(true)}>
                 <span className="option-title">Archive</span>
                 <span className="option-description">Play previous games</span>
@@ -61,28 +59,22 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Endless Mode Box */}
           <div className="mode-box">
-            <h2 className="box-title">♾️ Endless</h2>
+            <h2 className="box-title">[∞] Endless</h2>
             <div className="mode-options">
               <Link href="/endless">
                 <button className="option-button easy-option">
-                  <span className="difficulty-badge easy">Easy</span>
-                  <span className="option-title">Endless Mode</span>
-                  <span className="option-description">Test your skills!</span>
+                  <span className="option-title">Easy</span>
+                  <span className="option-description">Test your skills</span>
                 </button>
               </Link>
-              
               <button className="option-button medium-option" disabled>
-                <span className="difficulty-badge medium">Medium</span>
-                <span className="option-title">Coming Soon</span>
-                <span className="option-description">More challenge awaits</span>
+                <span className="option-title">Medium</span>
+                <span className="option-description">Coming Soon</span>
               </button>
-              
               <button className="option-button hard-option" disabled>
-                <span className="difficulty-badge hard">Hard</span>
-                <span className="option-title">Coming Soon</span>
-                <span className="option-description">Ultimate challenge</span>
+                <span className="option-title">Hard</span>
+                <span className="option-description">Coming Soon</span>
               </button>
             </div>
           </div>
@@ -104,7 +96,7 @@ const Home = () => {
         }
 
         .subtitle {
-          font-family: 'Courier New', monospace;
+          font-family: 'Share Tech Mono', monospace;
           font-size: 1.5rem;
           color: #ffffff;
           margin-bottom: 2.5rem;
@@ -134,27 +126,33 @@ const Home = () => {
         }
 
         .mode-box {
-          background: #000;
-          border: 2px solid rgba(255, 255, 255, 0.3);
-          border-radius: 15px;
-          padding: 2rem;
+          background: #050505;
+          border: 1px solid #333;
+          padding: 1rem;
           min-width: 300px;
           max-width: 450px;
           flex: 1;
+          position: relative;
+          box-shadow: -2px 0 0 #00f2fe, 2px 0 0 #ff0050;
+          border-radius: 0;
         }
 
         .box-title {
-          font-family: var(--font-family);
+            font-family: 'Share Tech Mono', monospace;
           font-size: 2rem;
+          font-weight: 700;
           color: #fff;
           margin: 0 0 1.5rem 0;
           text-align: center;
+          letter-spacing: 3px;
+          text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+          text-transform: uppercase;
         }
 
         .mode-options {
           display: flex;
           flex-direction: column;
-          gap: 1rem;
+          gap: 1.25rem;
         }
 
         .mode-options a {
@@ -167,72 +165,71 @@ const Home = () => {
           align-items: center;
           justify-content: center;
           padding: 1.5rem;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-          border: none;
-          border-radius: 10px;
+          background: transparent;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 0;
           cursor: pointer;
-          transition: all 0.3s ease;
-          font-family: var(--font-family);
+          transition: all 0.2s;
+          font-family: 'Share Tech Mono', monospace;
           color: #fff;
-          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
           position: relative;
           min-height: 90px;
           width: 100%;
+          overflow: hidden;
+        }
+
+        .option-button:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4px;
+          height: 100%;
+          background: #00f2fe;
+          transition: all 0.2s;
+          opacity: 0.5;
         }
 
         .option-button:hover:not(:disabled) {
-          transform: translateY(-3px);
-          box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+          background: rgba(0, 242, 254, 0.1);
+          border-color: #00f2fe;
+          transform: translate(4px, -4px);
+          box-shadow: -4px 4px 0 #ff0050;
         }
 
         .option-button:disabled {
           opacity: 0.4;
           cursor: not-allowed;
-          background: linear-gradient(135deg, #555 0%, #333 100%);
         }
 
-        .daily-option {
-          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        .daily-option:before {
+          background: #f5576c;
         }
 
-        .archive-option {
-          background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%);
+        .daily-option:hover:not(:disabled) {
+          border-color: #f5576c;
+          background: rgba(245, 87, 108, 0.1);
         }
 
-        .easy-option {
-          background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        .archive-option:before {
+          background: #6a82fb;
         }
 
-        .medium-option {
-          background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        .archive-option:hover:not(:disabled) {
+          border-color: #6a82fb;
+          background: rgba(106, 130, 251, 0.1);
         }
 
-        .hard-option {
-          background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+        .easy-option:before {
+          background: #00f2fe;
         }
 
-        .difficulty-badge {
-          position: absolute;
-          top: 0.5rem;
-          left: 0.5rem;
-          padding: 0.25rem 0.75rem;
-          border-radius: 12px;
-          font-size: 0.7rem;
-          font-weight: bold;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
+        .medium-option:before {
+          background: #fa709a;
         }
 
-        .difficulty-badge.easy {
-          background: rgba(76, 175, 80, 0.9);
-        }
-
-        .difficulty-badge.medium {
-          background: rgba(255, 152, 0, 0.9);
-        }
-
-        .difficulty-badge.hard {
-          background: rgba(244, 67, 54, 0.9);
+        .hard-option:before {
+          background: #ff6a00;
         }
 
         .option-title {
