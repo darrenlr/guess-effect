@@ -11487,5 +11487,35 @@
     "metacritic": 79,
     "plot": "Amnesiac shapeshifter Alex Mercer awakens in a Manhattan morgue with no memory of his past and superhuman powers. Infected with the Blacklight virus from genetic experiments at Gentek, he can consume people to absorb their memories, appearance, and abilities. As a viral outbreak transforms the city into a warzone filled with monsters, Alex must uncover the conspiracy behind his creation while battling both military forces and infected creatures to discover who he really is."
   }
+  },
+  {
+  "date": "2025-12-19",
+  "region": "WW",
+  "releaseDate": "2022-03-25",
+  "title": "Ghostwire: Tokyo",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co55xn.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Tango Gameworks"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Horror",
+      "First-Person"
+    ],
+    "platforms": [
+      "PlayStation 5",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 75,
+    "plot": "Tokyo's entire population vanishes instantly when occultist Hannya unleashes a supernatural spell. You awaken as Akito, fatally injured in a car crash but possessed by a vengeful spirit named KK who grants you powerful elemental abilities. Together you must battle malevolent Yokai spirits roaming the deserted neon-lit streets, uncover the conspiracy behind the mass disappearance, and save your hospitalized sister before she becomes another victim."
+  }
   }
 ]
