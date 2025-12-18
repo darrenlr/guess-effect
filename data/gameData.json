@@ -11457,5 +11457,35 @@
     "metacritic": null,
     "plot": "Six months after Dr. Wily's defeat and imprisonment, four hidden Robot Masters break him out of jail. Mega Man pursues Wily while encountering the mysterious Bass and his wolf companion Treble, who claim to be hunting the villain as well. As the adventure unfolds, Bass and Treble are revealed to be Wily's own creations, sent to challenge and ultimately betray the Blue Bomber."
   }
-}
+},
+  {
+  "date": "2025-12-18",
+  "region": "NA",
+  "releaseDate": "2009-06-09",
+  "title": "Prototype",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ql2.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Radical Entertainment"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Titanium Engine",
+    "metacritic": 79,
+    "plot": "Amnesiac shapeshifter Alex Mercer awakens in a Manhattan morgue with no memory of his past and superhuman powers. Infected with the Blacklight virus from genetic experiments at Gentek, he can consume people to absorb their memories, appearance, and abilities. As a viral outbreak transforms the city into a warzone filled with monsters, Alex must uncover the conspiracy behind his creation while battling both military forces and infected creatures to discover who he really is."
+  }
+  }
 ]
