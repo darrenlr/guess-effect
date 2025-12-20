@@ -11517,5 +11517,34 @@
     "metacritic": 75,
     "plot": "Tokyo's entire population vanishes instantly when occultist Hannya unleashes a supernatural spell. You awaken as Akito, fatally injured in a car crash but possessed by a vengeful spirit named KK who grants you powerful elemental abilities. Together you must battle malevolent Yokai spirits roaming the deserted neon-lit streets, uncover the conspiracy behind the mass disappearance, and save your hospitalized sister before she becomes another victim."
   }
+  },
+  {
+  "date": "2025-12-20",
+  "region": "JP",
+  "releaseDate": "2006-03-16",
+  "title": "Final Fantasy XII",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3rhx.webp",
+    "link": "https://www.igdb.com/games/final-fantasy-xii",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Square Enix"
+    ],
+    "genre": [
+      "JRPG",
+      "RPG"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "In the war-torn fantasy world of Ivalice, the small kingdom of Dalmasca is conquered and left in ruins by the Archadian Empire. Princess Ashe, presumed dead but sole heir to the throne, joins forces with sky pirate Balthier, street urchin Vaan, and their companions to liberate her homeland. Their quest leads them to discover ancient secrets and confront the political machinations threatening to plunge Ivalice into greater chaos."
   }
+}
 ]
