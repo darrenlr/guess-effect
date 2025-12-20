@@ -11546,5 +11546,35 @@
     "metacritic": 92,
     "plot": "In the war-torn fantasy world of Ivalice, the small kingdom of Dalmasca is conquered and left in ruins by the Archadian Empire. Princess Ashe, presumed dead but sole heir to the throne, joins forces with sky pirate Balthier, street urchin Vaan, and their companions to liberate her homeland. Their quest leads them to discover ancient secrets and confront the political machinations threatening to plunge Ivalice into greater chaos."
   }
+},
+  {
+  "date": "2025-12-21",
+  "region": "WW",
+  "releaseDate": "1997-11-21",
+  "title": "Diddy Kong Racing",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wgj.webp",
+  "hints": {
+    "publisher": [
+      "Rare",
+      "Nintendo"
+    ],
+    "developer": [
+      "Rare"
+    ],
+    "genre": [
+      "Kart Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Real-Time Dynamic Animation Technology (RDA)",
+    "metacritic": 88,
+    "plot": "When Timber the Tiger's parents leave on vacation, the intergalactic wizard pig Wizpig invades their island and seals all the racetracks with magic. Timber calls his friend Diddy Kong for help, assembling a team of racers including Banjo, Conker, and others to defeat Wizpig's challenges. Racing in cars, hovercrafts, and planes across five worlds, they must win races, collect silver coins, and defeat bosses to ultimately chase Wizpig back to his home planet."
+  }
 }
 ]
