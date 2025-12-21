@@ -64,12 +64,10 @@ const Home = () => {
             <div className="terminal-header">C:\GAMES\ENDLESS&gt;_</div>
             <h2 className="box-title">&gt; [∞] ENDLESS.EXE</h2>
             <div className="mode-options">
-              <Link href="/endless">
-                <button className="option-button easy-option">
-                  <span className="option-title">EASY.COM</span>
-                  <span className="option-description">All hints available</span>
-                </button>
-              </Link>
+              <button className="option-button easy-option" disabled>
+                <span className="option-title">EASY.COM</span>
+                <span className="option-description">Coming Soon</span>
+              </button>
               <button className="option-button medium-option" disabled>
                 <span className="option-title">Medium</span>
                 <span className="option-description">Coming Soon</span>
