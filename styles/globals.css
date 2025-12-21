@@ -36,45 +36,42 @@ h1, h2, h3, h4, p {
   color: #fff;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+a * {
+  text-decoration: none !important;
+}
+
 .hintButton {
   width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #00331a;
+  border: 2px solid #00ff41;
   border-radius: 0;
-  color: #fff;
-  font-family: var(--font-family);
+  color: #00ff41;
+  font-family: var(--font-family-main);
   font-size: 12px;
-  padding: 8px 1px 8px 12px;
+  font-weight: bold;
+  padding: 10px 16px;
   transition: all 0.2s;
   cursor: pointer;
   outline: none;
   position: relative;
-  overflow: hidden;
-}
-
-.hintButton::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: #00f2fe;
-  transition: all 0.2s;
-  opacity: 0.8;
 }
 
 .hintButton.revealAll {
   width: auto;
-  font-size: 8px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .hintButton:hover {
-  background: rgba(0, 242, 254, 0.15);
-  border-color: #00f2fe;
-  transform: translate(2px, -2px);
-  box-shadow: -2px 2px 0 #ff0050;
+  background: #004d26;
+  border-color: #00ff66;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 255, 65, 0.3);
 }
 
 .hintButton:disabled {
@@ -121,8 +118,8 @@ h1, h2, h3, h4, p {
 
 @media (hover: none) {
   .hintButton:hover {
-    background: rgba(0, 0, 0, 0.6);
-    border-color: rgba(255, 255, 255, 0.3);
+    background: #00331a;
+    border-color: #00ff41;
     transform: none;
     box-shadow: none;
   }

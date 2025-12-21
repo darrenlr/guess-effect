@@ -151,12 +151,13 @@ const GameCard = ({
 
 	return (
 		<>
-			<div
-				className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}
-				style={{
-					background: `linear-gradient(to bottom, ${primaryColors[0]}, ${primaryColors[1]})`,
-				}}
-			>
+			<div className={styles.gameCardWrapper}>
+				<div
+					className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}
+					style={{
+						background: `linear-gradient(to bottom, ${primaryColors[0]}, ${primaryColors[1]})`,
+					}}
+				>
 				<div className={styles.boxArt}>
 					<div className={styles.scanContainer}>
 						<div className={styles.boxArtWrapper}>
@@ -178,11 +179,11 @@ const GameCard = ({
 					>
 						{gameState.hints.boxArt > 14 && firstClick ? (
 							<>
-								Clear Heavy Smog (-10)
+								[CLEAR_HEAVY_SMOG.exe] (-10)
 							</>
 						) : gameState.hints.boxArt > 11 ? (
 							<>
-								Clear Smog (-20)
+								[CLEAR_SMOG.exe] (-20)
 							</>
 						) : null}
 					</button>
@@ -250,11 +251,12 @@ const GameCard = ({
 					/>
 					{!isGameOver && (!isEndlessMode || !areAllHintsRevealed()) && (
 						<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-							{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
+							{areAllHintsRevealed() ? "[ABORT]" : `[REVEAL_ALL.exe] (-${gameState.hints.points})`}
 						</button>
 					)}
 				</div>
 
+			</div>
 			</div>
 			<RevealAllModal
 				isOpen={isModalOpen}

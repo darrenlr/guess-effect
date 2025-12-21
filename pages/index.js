@@ -44,28 +44,30 @@ const Home = () => {
         
         <div className="mode-boxes">
           <div className="mode-box">
-            <h2 className="box-title">[D] Daily</h2>
+            <div className="terminal-header">C:\GAMES\DAILY&gt;_</div>
+            <h2 className="box-title">&gt; [D] DAILY_MODE.EXE</h2>
             <div className="mode-options">
               <Link href="/daily">
                 <button className="option-button daily-option">
-                  <span className="option-title">Daily Challenge</span>
+                  <span className="option-title">RUN DAILY.BAT</span>
                   <span className="option-description">Play today&apos;s game</span>
                 </button>
               </Link>
               <button className="option-button archive-option" onClick={() => setShowCalendar(true)}>
-                <span className="option-title">Archive</span>
+                <span className="option-title">DIR /ARCHIVE</span>
                 <span className="option-description">Play previous games</span>
               </button>
             </div>
           </div>
 
           <div className="mode-box">
-            <h2 className="box-title">[∞] Endless</h2>
+            <div className="terminal-header">C:\GAMES\ENDLESS&gt;_</div>
+            <h2 className="box-title">&gt; [∞] ENDLESS.EXE</h2>
             <div className="mode-options">
               <Link href="/endless">
                 <button className="option-button easy-option">
-                  <span className="option-title">Easy</span>
-                  <span className="option-description">Test your skills</span>
+                  <span className="option-title">EASY.COM</span>
+                  <span className="option-description">All hints available</span>
                 </button>
               </Link>
               <button className="option-button medium-option" disabled>
@@ -104,7 +106,8 @@ const Home = () => {
           letter-spacing: 1px;
           background-color: #000;
           padding: 0.5rem 1rem;
-          border-radius: 4px;
+          border: 3px double #00ff41;
+          border-radius: 0;
           display: inline-block;
         }
 
@@ -126,27 +129,44 @@ const Home = () => {
         }
 
         .mode-box {
-          background: #050505;
-          border: 1px solid #333;
-          padding: 1rem;
-          min-width: 300px;
-          max-width: 450px;
+          background: #000;
+          border: 3px double #00ff41;
+          padding: 1.5rem;
+          min-width: 380px;
+          max-width: 500px;
           flex: 1;
           position: relative;
-          box-shadow: -2px 0 0 #00f2fe, 2px 0 0 #ff0050;
           border-radius: 0;
         }
 
+        .terminal-header {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 30px;
+          background: #00ff41;
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 12px;
+          color: #000;
+          font-weight: bold;
+        }
+
         .box-title {
-            font-family: 'Share Tech Mono', monospace;
-          font-size: 2rem;
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 1.5rem;
           font-weight: 700;
-          color: #fff;
-          margin: 0 0 1.5rem 0;
-          text-align: center;
-          letter-spacing: 3px;
-          text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+          color: #00ff41;
+          margin: 40px 0 1.5rem 0;
+          text-align: left;
+          letter-spacing: 1px;
           text-transform: uppercase;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
 
         .mode-options {
@@ -157,6 +177,20 @@ const Home = () => {
 
         .mode-options a {
           width: 100%;
+          text-decoration: none;
+          color: inherit;
+        }
+
+        .mode-options a:link,
+        .mode-options a:visited,
+        .mode-options a:hover,
+        .mode-options a:active {
+          text-decoration: none;
+          color: inherit;
+        }
+
+        .mode-options a * {
+          text-decoration: none !important;
         }
 
         .option-button {
@@ -166,7 +200,7 @@ const Home = () => {
           justify-content: center;
           padding: 1.5rem;
           background: transparent;
-          border: 1px solid rgba(255, 255, 255, 0.2);
+          border: 2px solid #00ff41;
           border-radius: 0;
           cursor: pointer;
           transition: all 0.2s;
@@ -185,16 +219,25 @@ const Home = () => {
           left: 0;
           width: 4px;
           height: 100%;
-          background: #00f2fe;
+          background: #00ff41;
           transition: all 0.2s;
           opacity: 0.5;
         }
 
         .option-button:hover:not(:disabled) {
-          background: rgba(0, 242, 254, 0.1);
-          border-color: #00f2fe;
-          transform: translate(4px, -4px);
-          box-shadow: -4px 4px 0 #ff0050;
+          background: rgba(0, 255, 65, 0.15);
+          border-color: #00ff41;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0, 255, 65, 0.3);
+        }
+
+        .option-button:hover:not(:disabled) .option-title::before {
+          content: '> ';
+        }
+
+        .option-button:hover:not(:disabled) .option-title::after {
+          content: '_';
+          animation: blink 1s infinite;
         }
 
         .option-button:disabled {
@@ -203,25 +246,25 @@ const Home = () => {
         }
 
         .daily-option:before {
-          background: #f5576c;
+          background: #00ff41;
         }
 
         .daily-option:hover:not(:disabled) {
-          border-color: #f5576c;
-          background: rgba(245, 87, 108, 0.1);
+          border-color: #00ff41;
+          background: rgba(0, 255, 65, 0.15);
         }
 
         .archive-option:before {
-          background: #6a82fb;
+          background: #00ff41;
         }
 
         .archive-option:hover:not(:disabled) {
-          border-color: #6a82fb;
-          background: rgba(106, 130, 251, 0.1);
+          border-color: #00ff41;
+          background: rgba(0, 255, 65, 0.15);
         }
 
         .easy-option:before {
-          background: #00f2fe;
+          background: #00ff41;
         }
 
         .medium-option:before {
@@ -236,11 +279,17 @@ const Home = () => {
           font-size: 1.3rem;
           font-weight: bold;
           margin-bottom: 0.25rem;
+          color: #fff;
         }
 
         .option-description {
           font-size: 0.85rem;
-          opacity: 0.85;
+          background: #00ff41;
+          color: #000;
+          padding: 4px 8px;
+          display: inline-block;
+          margin-top: 4px;
+          text-decoration: none !important;
         }
 
         @media (max-width: 900px) {
