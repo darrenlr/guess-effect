@@ -16,11 +16,20 @@ class MyDocument extends Document {
           as="style"
         />
         <link
+          rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&family=Share+Tech+Mono&display=swap"
+          as="style"
+        />
+        <link
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
           rel="stylesheet"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Mono:wght@400;700&family=Share+Tech+Mono&display=swap"
           rel="stylesheet"
         />
           {/* <script

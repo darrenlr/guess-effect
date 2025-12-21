@@ -63,7 +63,7 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
 
   return (
     <div className={styles.hint}>
-      <div className={`${styles.hintKey} ${hint === 'plot' ? styles.hintKeyPlot : ''}`}>{hint}: </div>
+      <div className={`${styles.hintKey} ${hint === 'plot' ? styles.hintKeyPlot : ''}`}>&gt; {hint}: </div>
 
       {revealed ? (
         <div>{renderData()}</div>
@@ -71,7 +71,7 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
         <>
           <div className={styles.hintButton}>
             <button className="hintButton" onClick={revealHint}>
-              Reveal (-{points})
+              [DECRYPT] (-{points})
             </button>
           </div>
         </>

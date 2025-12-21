@@ -22,33 +22,43 @@ const usePlayerStats = (triggerUpdate, date = null) => {
   const [lastUpdated, setLastUpdated] = useState(null);
 
   const fetchPlayerStats = async (targetDate) => {
-    const collectionName = getCollectionName();
+    try {
+      const collectionName = getCollectionName();
 
-    const today = targetDate || new Date().toISOString().split("T")[0];
-    const docRef = doc(db, collectionName, today);
-    const docSnap = await getDoc(docRef);
+      const today = targetDate || new Date().toISOString().split("T")[0];
+      const docRef = doc(db, collectionName, today);
+      const docSnap = await getDoc(docRef);
 
-    if (docSnap.exists()) {
-      const { count, totalScore, totalGuesses, totalWinners, highScore, lastUpdated, archiveCount } = docSnap.data();
-      const averageScore = count > 0 ? totalScore / count : 0;
-      const averageGuesses = count > 0 ? totalGuesses / count : 0;
+      if (docSnap.exists()) {
+        const { count, totalScore, totalGuesses, totalWinners, highScore, lastUpdated, archiveCount } = docSnap.data();
+        const averageScore = count > 0 ? totalScore / count : 0;
+        const averageGuesses = count > 0 ? totalGuesses / count : 0;
 
-      return { count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount };
+        return { count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount };
+      }
+
+      return { count: 0, averageScore: 0, averageGuesses: 0, totalWinners: 0, highScore: 0, lastUpdated: null, archiveCount: 0 };
+    } catch (error) {
+      // Handle Firebase errors gracefully (offline, config issues, etc.)
+      console.warn('Failed to fetch player stats:', error.message);
+      return { count: 0, averageScore: 0, averageGuesses: 0, totalWinners: 0, highScore: 0, lastUpdated: null, archiveCount: 0 };
     }
-
-    return { count: 0, averageScore: 0, averageGuesses: 0, totalWinners: 0, highScore: 0, lastUpdated: null, archiveCount: 0 };
   };
 
   useEffect(() => {
-    fetchPlayerStats(date).then(({ count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount }) => {
-      setPlayerCount(count);
-      setArchivePlayerCount(archiveCount);
-      setGlobalAverageScore(Math.round(averageScore));
-      setGlobalAverageGuesses(Math.round(averageGuesses));
-      setGlobalWinners(totalWinners);
-      setGlobalHighScore(highScore);
-      setLastUpdated(lastUpdated)
-    });
+    fetchPlayerStats(date)
+      .then(({ count, averageScore, averageGuesses, totalWinners, highScore, lastUpdated, archiveCount }) => {
+        setPlayerCount(count);
+        setArchivePlayerCount(archiveCount);
+        setGlobalAverageScore(Math.round(averageScore));
+        setGlobalAverageGuesses(Math.round(averageGuesses));
+        setGlobalWinners(totalWinners);
+        setGlobalHighScore(highScore);
+        setLastUpdated(lastUpdated)
+      })
+      .catch((error) => {
+        console.warn('Error in usePlayerStats:', error.message);
+      });
   }, [triggerUpdate, date]);
 
   return {

@@ -12,7 +12,10 @@ const GameCard = ({
 	onRevealHint,
 	isWrongGuess,
 	setIsGuessCountUpdated,
-	isGameOver
+	isGameOver,
+	onGiveUp,
+	isEndlessMode = false,
+	gameWon = false
 }) => {
 	const [pixelationLevel, setPixelationLevel] = useState(gameState.hints.boxArt);
 	const [primaryColors, setPrimaryColors] = useState(["", ""]);
@@ -128,32 +131,39 @@ const GameCard = ({
 	};
 
 	const handleGiveUp = () => {
-		setGameState(prevState => ({
-			...prevState,
-			life: {
-				...prevState.life,
-				remainingGuessCount: 0
-			}
-		}));
+		// If onGiveUp handler is provided (endless mode), use it directly
+		if (onGiveUp) {
+			onGiveUp();
+		} else {
+			// Default behavior for daily mode
+			setGameState(prevState => ({
+				...prevState,
+				life: {
+					...prevState.life,
+					remainingGuessCount: 0
+				}
+			}));
 
-		setIsGuessCountUpdated(true);
+			setIsGuessCountUpdated(true);
+		}
 	};
 
 
 	return (
 		<>
-			<div
-				className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}
-				style={{
-					background: `linear-gradient(to bottom, ${primaryColors[0]}, ${primaryColors[1]})`,
-				}}
-			>
+			<div className={styles.gameCardWrapper}>
+				<div
+					className={`${styles.gameCard} ${isWrongGuess ? styles.flash : ""}`}
+					style={{
+						background: `linear-gradient(to bottom, ${primaryColors[0]}, ${primaryColors[1]})`,
+					}}
+				>
 				<div className={styles.boxArt}>
 					<div className={styles.scanContainer}>
 						<div className={styles.boxArtWrapper}>
 							<BoxArtCanvas
 								src={`https://${gameData.boxArtUrl}`}
-								showCleanImage={isGameOver}
+								showCleanImage={isEndlessMode ? gameWon : isGameOver}
 								pixelSize={gameState.hints.boxArt}
 								width={264}
 								height={352}
@@ -169,11 +179,11 @@ const GameCard = ({
 					>
 						{gameState.hints.boxArt > 14 && firstClick ? (
 							<>
-								Clear Heavy Smog (-10)
+								[CLEAR_HEAVY_SMOG.exe] (-10)
 							</>
 						) : gameState.hints.boxArt > 11 ? (
 							<>
-								Clear Smog (-20)
+								[CLEAR_SMOG.exe] (-20)
 							</>
 						) : null}
 					</button>
@@ -239,13 +249,14 @@ const GameCard = ({
 						points={40}
 						isRevealed={gameState.hints.plot}
 					/>
-					{!isGameOver && (
+					{!isGameOver && (!isEndlessMode || !areAllHintsRevealed()) && (
 						<button className={`hintButton revealAll ${styles.revealAllButton}`} onClick={areAllHintsRevealed() ? handleGiveUp : () => setIsModalOpen(true)}>
-							{areAllHintsRevealed() ? "Give Up" : `Reveal All? (-${gameState.hints.points})`}
+							{areAllHintsRevealed() ? "[ABORT]" : `[REVEAL_ALL.exe] (-${gameState.hints.points})`}
 						</button>
 					)}
 				</div>
 
+			</div>
 			</div>
 			<RevealAllModal
 				isOpen={isModalOpen}

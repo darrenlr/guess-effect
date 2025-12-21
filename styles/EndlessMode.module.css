@@ -1,0 +1,521 @@
+/* Endless Mode Styles */
+.gameInfoBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 95%;
+  max-width: 940px;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.desktopStats {
+  display: none !important;
+}
+
+.mobileOnly {
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopStats {
+    display: flex !important;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.holdButton {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  min-width: 150px;
+  height: 50px;
+}
+
+/* Skip/Give Up Button - Border shimmer */
+.skipButton,
+.skipButtonOption4 {
+  background: rgba(35, 0, 0, 0.6);
+  border: 2px solid #cc4444;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.skipButton::before,
+.skipButtonOption4::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 100, 100, 0.3) 50%, transparent 70%);
+  animation: skipShimmer 3s linear infinite;
+  z-index: 0;
+}
+
+@keyframes skipShimmer {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
+.giveUpButton {
+  background: linear-gradient(135deg, #ff6b6b 0%, #c92a2a 100%);
+}
+
+.holdProgress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    rgba(255, 80, 80, 0.4) 0%, 
+    rgba(255, 120, 120, 0.5) 50%, 
+    rgba(255, 80, 80, 0.4) 100%);
+  background-size: 200% 100%;
+  animation: holdShimmer 2s linear infinite;
+  transition: width 0.05s linear;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes holdShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.buttonText {
+  position: relative;
+  z-index: 2;
+}
+
+.holdButton:active {
+  transform: scale(0.98);
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  box-shadow: 0px 0px 2px #000;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.continueButton,
+.primaryButton {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+  height: 50px;
+}
+
+.continueButton:hover,
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+}
+
+.secondaryButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.gameTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.scoreSection {
+  margin: 1rem 0;
+}
+
+.finalScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scoreLabel {
+  font-size: 1rem;
+}
+
+.scoreValue {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f5576c;
+}
+
+.successMessage {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #00ce7a;
+}
+
+.skipMessage {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffbd3f;
+}
+
+/* Summary Modal Styles */
+.summaryTitle {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.finalScoreSection {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.mainScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scoreLarge {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.newRecord {
+  font-size: 0.9rem;
+  color: gold;
+  margin-top: 0.25rem;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.statValue {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.gamesList {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.gamesList h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gameListToggle {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 0.5rem;
+}
+
+.gameListToggle:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.gamesListScroll {
+  max-height: 200px;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.gameResultItem {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gameWon {
+  background: rgba(0, 206, 122, 0.1);
+  border-left: 3px solid #00ce7a;
+}
+
+.gameLost {
+  background: rgba(255, 104, 116, 0.1);
+  border-left: 3px solid #ff6874;
+}
+
+.gameNumber {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.gameResultTitle {
+  font-size: 0.9rem;
+  font-family: var(--font-family-main);
+  color: white;
+}
+
+.gameResultStatus {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.gameResultScore {
+  text-align: right;
+  font-weight: bold;
+  font-family: var(--font-family-main);
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .endlessHeader {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .endlessInfo {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+  }
+
+  .continueButton,
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+
+  .gameResultItem {
+    grid-template-columns: 1fr 70px;
+    font-size: 0.85rem;
+  }
+  
+  .gameInfoBar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Loading Container */
+.loadingOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+}
+
+/* Mario Loading Animation */
+.marioLoader {
+  width: fit-content;
+  font-size: 17px;
+  font-family: var(--font-family);
+  line-height: 1.4;
+  font-weight: bold;
+  padding: 30px 2px 50px;
+  position: relative;
+  overflow: hidden;
+  animation: marioJump 2s infinite cubic-bezier(1, 175, 0.5, 175);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.marioLoader::before {
+  content: "Loading...";
+  display: inline-block;
+  animation: marioText 2s infinite;
+  color: #fff;
+}
+
+.marioLoader::after {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 28px;
+  top: 110%;
+  left: calc(50% - 16px);
+  background: 
+    linear-gradient(90deg, #0000 12px, #f92033 0 22px, #0000 0 26px, #fdc98d 0 32px, #0000) bottom 26px left 50%,
+    linear-gradient(90deg, #0000 10px, #f92033 0 28px, #fdc98d 0 32px, #0000 0) bottom 24px left 50%,
+    linear-gradient(90deg, #0000 10px, #643700 0 16px, #fdc98d 0 20px, #000 0 22px, #fdc98d 0 24px, #000 0 26px, #f92033 0 32px, #0000 0) bottom 22px left 50%,
+    linear-gradient(90deg, #0000 8px, #643700 0 10px, #fdc98d 0 12px, #643700 0 14px, #fdc98d 0 20px, #000 0 22px, #fdc98d 0 28px, #f92033 0 32px, #0000 0) bottom 20px left 50%,
+    linear-gradient(90deg, #0000 8px, #643700 0 10px, #fdc98d 0 12px, #643700 0 16px, #fdc98d 0 22px, #000 0 24px, #fdc98d 0 30px, #f92033 0 32px, #0000 0) bottom 18px left 50%,
+    linear-gradient(90deg, #0000 8px, #643700 0 12px, #fdc98d 0 20px, #000 0 28px, #f92033 0 30px, #0000 0) bottom 16px left 50%,
+    linear-gradient(90deg, #0000 12px, #fdc98d 0 26px, #f92033 0 30px, #0000 0) bottom 14px left 50%,
+    linear-gradient(90deg, #fdc98d 6px, #f92033 0 14px, #222a87 0 16px, #f92033 0 22px, #222a87 0 24px, #f92033 0 28px, #0000 0 32px, #643700 0) bottom 12px left 50%,
+    linear-gradient(90deg, #fdc98d 6px, #f92033 0 16px, #222a87 0 18px, #f92033 0 24px, #f92033 0 26px, #0000 0 30px, #643700 0) bottom 10px left 50%,
+    linear-gradient(90deg, #0000 10px, #f92033 0 16px, #222a87 0 24px, #feee49 0 26px, #222a87 0 30px, #643700 0) bottom 8px left 50%,
+    linear-gradient(90deg, #0000 12px, #222a87 0 18px, #feee49 0 20px, #222a87 0 30px, #643700 0) bottom 6px left 50%,
+    linear-gradient(90deg, #0000 8px, #643700 0 12px, #222a87 0 30px, #643700 0) bottom 4px left 50%,
+    linear-gradient(90deg, #0000 6px, #643700 0 14px, #222a87 0 26px, #0000 0) bottom 2px left 50%,
+    linear-gradient(90deg, #0000 6px, #643700 0 10px, #0000 0) bottom 0px left 50%;
+  background-size: 34px 2px;
+  background-repeat: no-repeat;
+  animation: inherit;
+  animation-name: marioPosition;
+}
+
+@keyframes marioJump {
+  0%, 30% {
+    background-position: 0 0px;
+  }
+  50%, 100% {
+    background-position: 0 -0.1px;
+  }
+}
+
+@keyframes marioPosition {
+  50%, 100% {
+    top: 109.5%;
+  }
+}
+
+@keyframes marioText {
+  0%, 30% {
+    transform: translateY(0);
+  }
+  80%, 100% {
+    transform: translateY(-260%);
+  }
+}
+
+/* Float left animation for lives counter - fades into the number from the right */
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+}

@@ -9,6 +9,7 @@
 .hintKey {
   text-transform: uppercase;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .hintValue {
@@ -16,7 +17,7 @@
 }
 
 .hintMeta {
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .hintMetaScore {

@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
-import ScoreSystem from "../components/ScoreSystem";
-import ArchivedGame from "../components/ArchivedGame";
-import MessageModal from "../components/MessageModal";
+import ArchiveModal from "../components/ArchiveModal";
 import useLocalStorage from "../hooks/useLocalStorage";
-import Script from "next/script";
-import Footer from "../components/Footer";
 
 const initialGameHistory = {
   wins: 0,
@@ -16,215 +13,320 @@ const initialGameHistory = {
 };
 
 const Home = () => {
-  const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
-  const [game, setGame] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
+  const [showCalendar, setShowCalendar] = useState(false);
+  const [gameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
+  const [subtitleText, setSubtitleText] = useState("");
 
   useEffect(() => {
-    const fetchGameInfo = async (date) => {
-      setLoading(true);
-      try {
-        const res = await fetch(`/api/getGameInfo?date=${date}`);
-        if (!res.ok) {
-          throw new Error(`Failed to fetch game for date: ${date}`);
-        }
-        const data = await res.json();
-        setGame(data);
-      } catch (error) {
-        console.error(error);
-      } finally {
-        setLoading(false);
+    const text = "> Choose Your Mode";
+    let index = 0;
+    setSubtitleText("");
+
+    const intervalId = setInterval(() => {
+      index++;
+      setSubtitleText(text.slice(0, index));
+      if (index === text.length) {
+        clearInterval(intervalId);
       }
-    };
+    }, 100);
 
-    fetchGameInfo(selectedDate);
-  }, [selectedDate]);
-
-  const isArchiveGame = selectedDate !== new Date().toISOString().split("T")[0];
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <>
-      <Navbar gameHistory={gameHistory} setSelectedDate={setSelectedDate} />
-
-
-      {/* SEO: Hidden keyword section */}
-      <section className="sr-only">
-        <h1>Daily Video Game Guessing Game</h1>
-        <p>
-          Welcome to Guess Effect – the daily video game guessing game where you
-          guess the title from its release date, hints, and clues. Trade points
-          for hints, challenge friends, and see if you can keep your streak alive.
+      <Navbar showCalendar={false} showStats={false} showHelp={false} showSupport={false} />
+      
+      <div className="mode-selection-container">
+        <p className="subtitle">
+          {subtitleText}<span className="cursor">_</span>
         </p>
-      </section>
-
-      {/* SEO: Structured Data for Bing/Google */}
-      <Script type="application/ld+json" id="game-schema" strategy="afterInteractive">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Game",
-          "name": "Guess Effect – Daily Video Game Guessing Game",
-          "description":
-            "Play Guess Effect, the daily video game guessing game where you guess the title from its release date and clues.",
-          "url": "https://guesseffect.wtf"
-        })}
-      </Script>
-
-
-      <MessageModal
-        messageKey="message_v1"
-        messageContent={
-          <>
-            <div style={{ fontSize: "1.4rem" }}>
-              Game archives are now <strong>LIVE</strong>!
+        
+        <div className="mode-boxes">
+          <div className="mode-box">
+            <div className="terminal-header">C:\GAMES\DAILY&gt;_</div>
+            <h2 className="box-title">&gt; [D] DAILY_MODE.EXE</h2>
+            <div className="mode-options">
+              <Link href="/daily">
+                <button className="option-button daily-option">
+                  <span className="option-title">RUN DAILY.BAT</span>
+                  <span className="option-description">Play today&apos;s game</span>
+                </button>
+              </Link>
+              <button className="option-button archive-option" onClick={() => setShowCalendar(true)}>
+                <span className="option-title">DIR /ARCHIVE</span>
+                <span className="option-description">Play previous games</span>
+              </button>
             </div>
-            <div style={{ marginTop: "1.8rem" }}>
-              Access via the calendar icon in the nav bar.
+          </div>
+
+          <div className="mode-box">
+            <div className="terminal-header">C:\GAMES\ENDLESS&gt;_</div>
+            <h2 className="box-title">&gt; [∞] ENDLESS.EXE</h2>
+            <div className="mode-options">
+              <button className="option-button easy-option" disabled>
+                <span className="option-title">EASY.COM</span>
+                <span className="option-description">Coming Soon</span>
+              </button>
+              <button className="option-button medium-option" disabled>
+                <span className="option-title">Medium</span>
+                <span className="option-description">Coming Soon</span>
+              </button>
+              <button className="option-button hard-option" disabled>
+                <span className="option-title">Hard</span>
+                <span className="option-description">Coming Soon</span>
+              </button>
             </div>
-          </>
-        }
-      />
-
-      {loading ? (
-        <div className="loading-container">
-          <p className="loader"></p>
-        </div>
-      ) : game ? (
-        isArchiveGame ? (
-          <ArchivedGame
-            game={game}
-            gameHistory={gameHistory}
-            setGameHistory={setGameHistory}
-          />
-        ) : (
-          <ScoreSystem
-            game={game}
-            gameHistory={gameHistory}
-            setGameHistory={setGameHistory}
-          />
-        )
-      ) : (
-        <div className="loading-container">
-
-          <div className="error-container">
-            <p className="error-message">Your princess is in another castle!
-              <br></br>
-              <br></br>
-              No game found for the selected date.
-            </p>
           </div>
         </div>
+      </div>
+
+      {showCalendar && (
+        <ArchiveModal closeModal={() => setShowCalendar(false)} gameHistory={gameHistory} />
       )}
 
-
-      <Footer />
-
       <style jsx>{`
-        .sr-only {
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          padding: 0;
-          margin: -1px;
-          overflow: hidden;
-          clip: rect(0, 0, 0, 0);
-          border: 0;
+        .mode-selection-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 2rem 20px 20px;
+          text-align: center;
         }
-        .loading-container {
-            display: flex;
-            justify-content: center;
+
+        .subtitle {
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 1.5rem;
+          color: #ffffff;
+          margin-bottom: 2.5rem;
+          opacity: 1;
+          letter-spacing: 1px;
+          background-color: #000;
+          padding: 0.5rem 1rem;
+          border: 3px double #00ff41;
+          border-radius: 0;
+          display: inline-block;
+        }
+
+        .cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+
+        .mode-boxes {
+          display: flex;
+          gap: 2rem;
+          flex-wrap: wrap;
+          justify-content: center;
+          max-width: 1000px;
+        }
+
+        .mode-box {
+          background: #000;
+          border: 3px double #00ff41;
+          padding: 1.5rem;
+          min-width: 380px;
+          max-width: 500px;
+          flex: 1;
+          position: relative;
+          border-radius: 0;
+        }
+
+        .terminal-header {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 30px;
+          background: #00ff41;
+          display: flex;
+          align-items: center;
+          padding: 0 10px;
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 12px;
+          color: #000;
+          font-weight: bold;
+        }
+
+        .box-title {
+          font-family: 'Share Tech Mono', monospace;
+          font-size: 1.5rem;
+          font-weight: 700;
+          color: #00ff41;
+          margin: 40px 0 1.5rem 0;
+          text-align: left;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .mode-options {
+          display: flex;
+          flex-direction: column;
+          gap: 1.25rem;
+        }
+
+        .mode-options a {
+          width: 100%;
+          text-decoration: none;
+          color: inherit;
+        }
+
+        .mode-options a:link,
+        .mode-options a:visited,
+        .mode-options a:hover,
+        .mode-options a:active {
+          text-decoration: none;
+          color: inherit;
+        }
+
+        .mode-options a * {
+          text-decoration: none !important;
+        }
+
+        .option-button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 1.5rem;
+          background: transparent;
+          border: 2px solid #00ff41;
+          border-radius: 0;
+          cursor: pointer;
+          transition: all 0.2s;
+          font-family: 'Share Tech Mono', monospace;
+          color: #fff;
+          position: relative;
+          min-height: 90px;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        .option-button:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4px;
+          height: 100%;
+          background: #00ff41;
+          transition: all 0.2s;
+          opacity: 0.5;
+        }
+
+        .option-button:hover:not(:disabled) {
+          background: rgba(0, 255, 65, 0.15);
+          border-color: #00ff41;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0, 255, 65, 0.3);
+        }
+
+        .option-button:hover:not(:disabled) .option-title::before {
+          content: '> ';
+        }
+
+        .option-button:hover:not(:disabled) .option-title::after {
+          content: '_';
+          animation: blink 1s infinite;
+        }
+
+        .option-button:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
+
+        .daily-option:before {
+          background: #00ff41;
+        }
+
+        .daily-option:hover:not(:disabled) {
+          border-color: #00ff41;
+          background: rgba(0, 255, 65, 0.15);
+        }
+
+        .archive-option:before {
+          background: #00ff41;
+        }
+
+        .archive-option:hover:not(:disabled) {
+          border-color: #00ff41;
+          background: rgba(0, 255, 65, 0.15);
+        }
+
+        .easy-option:before {
+          background: #00ff41;
+        }
+
+        .medium-option:before {
+          background: #fa709a;
+        }
+
+        .hard-option:before {
+          background: #ff6a00;
+        }
+
+        .option-title {
+          font-size: 1.3rem;
+          font-weight: bold;
+          margin-bottom: 0.25rem;
+          color: #fff;
+        }
+
+        .option-description {
+          font-size: 0.85rem;
+          background: #00ff41;
+          color: #000;
+          padding: 4px 8px;
+          display: inline-block;
+          margin-top: 4px;
+          text-decoration: none !important;
+        }
+
+        @media (max-width: 900px) {
+          .mode-boxes {
+            flex-direction: column;
             align-items: center;
-            height: 50vh;
           }
 
-.loader {
-  width: fit-content;
-  font-size: 17px;
-   font-family: var(--font-family);
-  line-height: 1.4;
-  font-weight: bold;
-  padding: 30px 2px 50px;
-  position: relative;
-  overflow: hidden;
-  animation: l10-0 2s infinite cubic-bezier(1,175,.5,175);
-   border: 2px solid #fff;
-   border-radius: 5px;
-   background-color: #000;
-}
-.loader::before {
-  content:"Loading...";
-  display:inline-block;
-  animation: l10-2 2s infinite;
-}
-.loader::after {
-  content:"";
-  position: absolute;
-  width: 34px;
-  height: 28px;
-  top: 110%;
-  left: calc(50% - 16px);
-  background:
-    linear-gradient(90deg,#0000 12px,#f92033 0 22px,#0000 0 26px,#fdc98d 0 32px,#0000) bottom 26px left 50%,
-    linear-gradient(90deg,#0000 10px,#f92033 0 28px,#fdc98d 0 32px,#0000 0) bottom 24px  left 50%,
-    linear-gradient(90deg,#0000 10px,#643700 0 16px,#fdc98d 0 20px,#000 0 22px,#fdc98d 0 24px,#000 0 26px,#f92033 0 32px,#0000 0) bottom 22px left 50%,
-    linear-gradient(90deg,#0000 8px,#643700 0 10px,#fdc98d 0 12px,#643700 0 14px,#fdc98d 0 20px,#000 0 22px,#fdc98d 0 28px,#f92033 0 32px,#0000 0) bottom 20px left 50%,
-    linear-gradient(90deg,#0000 8px,#643700 0 10px,#fdc98d 0 12px,#643700 0 16px,#fdc98d 0 22px,#000 0 24px,#fdc98d 0 30px,#f92033 0 32px,#0000 0) bottom 18px left 50%,
-    linear-gradient(90deg,#0000 8px,#643700 0 12px,#fdc98d 0 20px,#000 0 28px,#f92033 0 30px,#0000 0) bottom 16px left 50%,
-    linear-gradient(90deg,#0000 12px,#fdc98d 0 26px,#f92033 0 30px,#0000 0) bottom 14px left 50%,
-    linear-gradient(90deg,#fdc98d 6px,#f92033 0 14px,#222a87 0 16px,#f92033 0 22px,#222a87 0 24px,#f92033 0 28px,#0000 0 32px,#643700 0) bottom 12px left 50%,
-    linear-gradient(90deg,#fdc98d 6px,#f92033 0 16px,#222a87 0 18px,#f92033 0 24px,#f92033 0 26px,#0000 0 30px,#643700 0) bottom 10px left 50%,
-    linear-gradient(90deg,#0000 10px,#f92033 0 16px,#222a87 0 24px,#feee49 0 26px,#222a87 0 30px, #643700 0) bottom 8px left 50%,
-    linear-gradient(90deg,#0000 12px,#222a87 0 18px,#feee49 0 20px,#222a87 0 30px,#643700 0) bottom 6px left 50%,
-    linear-gradient(90deg,#0000 8px,#643700 0 12px,#222a87 0 30px,#643700 0) bottom 4px left 50%,
-    linear-gradient(90deg,#0000 6px,#643700 0 14px,#222a87 0 26px,#0000 0) bottom 2px left 50%,
-    linear-gradient(90deg,#0000 6px,#643700 0 10px,#0000 0 ) bottom 0px left 50%;
-  background-size: 34px 2px;
-  background-repeat: no-repeat;
-  animation: inherit;
-  animation-name: l10-1;
-}
-@keyframes l10-0{
-  0%,30%   { background-position: 0 0px }
-  50%,100% { background-position: 0 -0.1px }
-}
-@keyframes l10-1{
-  50%,100% { top:109.5% };
-}
-@keyframes l10-2{
-  0%,30%   { transform:translateY(0); }
-  80%,100% { transform:translateY(-260%); }
-}
+          .mode-box {
+            width: 100%;
+            max-width: 400px;
+          }
+        }
 
-  .error-container {
-    position: relative;
-    padding: 16px; 
-    background-color: #000;
-    color: #fff; 
-    font-family: "Press Start 2P", cursive;
-    text-align: center; 
-    border: 2px dashed #fff; 
-    border-radius: 8px; 
-    width: max-content; 
-    box-sizing: border-box; 
+        @media (max-width: 768px) {
+          .subtitle {
+            font-size: 1.1rem;
+          }
 
-     @media (max-width: 768px) {
-    width: 90%; 
-  }
+          .box-title {
+            font-size: 1.6rem;
+          }
 
-  }
+          .option-button {
+            padding: 1.25rem;
+            min-height: 80px;
+          }
 
-  .error-message {
-    font-size: 14px;
-    color: #fff;
-    line-height: 1.6;
-    word-wrap: break-word;
-  }
+          .option-title {
+            font-size: 1.1rem;
+          }
 
-        `}</style>
+          .option-description {
+            font-size: 0.75rem;
+          }
+        }
+      `}</style>
     </>
   );
-
 };
 
 export default Home;

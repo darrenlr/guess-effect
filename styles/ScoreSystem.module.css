@@ -6,10 +6,6 @@
 }
 
 .statsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem 0.6rem;
   width: 95%;
   max-width: 940px;
 }
@@ -118,4 +114,67 @@
     display: flex;
   }
   
+}
+
+.terminalStatsBox {
+  margin-top: 1rem;
+  background: #000;
+  border: 3px double #00ff41;
+  width: 100%;
+}
+
+.terminalStatsHeader {
+  background: #00ff41;
+  color: #000;
+  padding: 5px 10px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.terminalStatsContent {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+.missesSection {
+}
+
+.missesTitle {
+  color: #00ff41;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.missesList {
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.missItem {
+  margin-bottom: 0.25rem;
+}
+
+.statsSection {
+  text-align: right;
+}
+
+.statItem {
+  color: #00ff41;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.statsSection .heartsContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
 }
