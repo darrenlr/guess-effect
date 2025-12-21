@@ -62,6 +62,67 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 		return "No Options";
 	};
 
+	const customStyles = {
+		control: (base) => ({
+			...base,
+			background: 'transparent',
+			border: 'none',
+			borderBottom: '2px solid #00ff41',
+			borderRadius: 0,
+			boxShadow: 'none',
+			'&:hover': {
+				borderBottom: '2px solid #00ff41',
+			},
+		}),
+		valueContainer: (base) => ({
+			...base,
+			background: 'transparent',
+			padding: '4px',
+		}),
+		input: (base) => ({
+			...base,
+			color: '#00ff41',
+		}),
+		singleValue: (base) => ({
+			...base,
+			color: '#00ff41',
+		}),
+		placeholder: (base) => ({
+			...base,
+			color: '#00ff41',
+			opacity: 0.6,
+		}),
+		indicatorSeparator: () => ({
+			display: 'none',
+		}),
+		dropdownIndicator: () => ({
+			display: 'none',
+		}),
+		menu: (base) => ({
+			...base,
+			background: '#000',
+			border: '2px solid #00ff41',
+			borderRadius: 0,
+			boxShadow: 'none',
+		}),
+		menuList: (base) => ({
+			...base,
+			background: '#000',
+			padding: 0,
+		}),
+		option: (base, state) => ({
+			...base,
+			background: state.isFocused ? '#00331a' : '#000',
+			color: '#00ff41',
+			fontFamily: 'Share Tech Mono, monospace',
+			fontSize: '14px',
+			cursor: 'pointer',
+			'&:hover': {
+				background: '#00331a',
+			},
+		}),
+	};
+
 	return (
 		<div className={styles.searchWrapper}>
 			<div className={styles.terminalHeader}>
@@ -69,10 +130,12 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 				<span>[█][▓][X]</span>
 			</div>
 			<div className={styles.searchContainer}>
-				<div className={styles.queryPrompt}>QUERY&gt;</div>
-  				<div className={styles.inputWrapper}>
+  				<div className={styles.inputLine}>
+					<span className={styles.promptSymbol}>&gt;</span>
+  					<div className={styles.inputWrapper}>
     				<GameSelect
       					className={styles.searchInput}
+      					styles={customStyles}
       					placeholder="Guess the game..."
       					value={selectedOption}
       					onChange={setSelectedOption}
@@ -93,14 +156,15 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
         					/>
       					</div>
     				)}
-  				</div>
-  				<button
-    				className={styles.submitButton}
-    				onClick={() => handleSubmit(selectedOption)}
-    				disabled={isGameOver || !selectedOption}
-  				>
-    				[SUBMIT]
-  				</button>
+  					</div>
+  					<button
+    					className={styles.submitButton}
+    					onClick={() => handleSubmit(selectedOption)}
+    					disabled={isGameOver || !selectedOption}
+  					>
+    					[RUN]
+  					</button>
+				</div>
 			</div>
 		</div>
 	);

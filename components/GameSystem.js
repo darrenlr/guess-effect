@@ -538,31 +538,26 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
             )}
             <div className={styles.statsContainer}>
                 {!matchedScore && (
-                    <>
-                        <div>
-                            <p>Misses: </p>
-                            {gameState.life.guesses.map((guess, index) => (
-                                <p
-                                    key={index}
-                                    style={{
-                                        marginTop: "1rem",
-                                        fontSize: "0.8rem",
-                                    }}
-                                >
-                                    {guess}
-                                </p>
-                            ))}
-                        </div>
-                        <div className={styles.stats}>
-                            <div className={styles.heartsWrapper}>
+                    <div className={styles.terminalStatsBox}>
+                        <div className={styles.terminalStatsHeader}>GAME STATUS</div>
+                        <div className={styles.terminalStatsContent}>
+                            <div className={styles.missesSection}>
+                                <div className={styles.missesTitle}>&gt; MISSES:</div>
+                                <div className={styles.missesList}>
+                                    {gameState.life.guesses.map((guess, index) => (
+                                        <div key={index} className={styles.missItem}>- {guess}</div>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className={styles.statsSection}>
                                 <div className={styles.heartsContainer}>
                                     {gameState.life.hearts.map((heartSrc, index) => (
                                         <Image
                                             key={index}
                                             src={heartSrc}
                                             alt="Heart"
-                                            width={30}
-                                            height={30}
+                                            width={24}
+                                            height={24}
                                             className={
                                                 isWrongGuess &&
                                                 index === gameState.life.remainingGuessCount
@@ -572,11 +567,11 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
                                         />
                                     ))}
                                 </div>
+                                <div className={styles.statItem}>&gt; BONUS: {Math.round(animatedBonus)}</div>
+                                <div className={styles.statItem}>&gt; SCORE: {Math.round(animatedScore)}</div>
                             </div>
-                            <p>Bonus: {Math.round(animatedBonus)}</p>
-                            <p>Score: {Math.round(animatedScore)}</p>
                         </div>
-                    </>
+                    </div>
                 )}
             </div>
             <GameOverModal
