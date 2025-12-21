@@ -11576,5 +11576,38 @@
     "metacritic": 88,
     "plot": "When Timber the Tiger's parents leave on vacation, the intergalactic wizard pig Wizpig invades their island and seals all the racetracks with magic. Timber calls his friend Diddy Kong for help, assembling a team of racers including Banjo, Conker, and others to defeat Wizpig's challenges. Racing in cars, hovercrafts, and planes across five worlds, they must win races, collect silver coins, and defeat bosses to ultimately chase Wizpig back to his home planet."
   }
+},
+  {
+  "date": "2025-12-22",
+  "region": "WW",
+  "releaseDate": "2021-07-28",
+  "title": "The Forgotten City",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3muu.webp",
+  "hints": {
+    "publisher": [
+      "Dear Villagers"
+    ],
+    "developer": [
+      "Modern Storyteller"
+    ],
+    "genre": [
+      "Adventure",
+      "Mystery",
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 84,
+    "plot": "After being rescued from the Tiber River, you're asked to search for someone who disappeared investigating nearby ruins. Traveling through a portal, you arrive in an ancient Roman city trapped in a time loop where the Golden Rule decrees that if anyone commits a sin, all inhabitants turn to gold statues and die. You must interrogate the city's diverse residents, exploit the time loop to gather clues and items across multiple cycles, and uncover the truth behind the curse before it claims everyone forever."
+  }
 }
 ]
