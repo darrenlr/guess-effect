@@ -42,7 +42,6 @@
   background: #000;
   border: 3px double var(--hud-color);
   padding: 1.5rem;
-  min-width: 380px;
   max-width: 500px;
   flex: 1;
   position: relative;
@@ -229,6 +228,11 @@
   .optionButton {
     padding: 1.25rem;
     min-height: 80px;
+  }
+
+  .modeBox {
+    width: 100%;
+    max-width: 340px;
   }
 
   .optionTitle {
