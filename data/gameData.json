@@ -11609,5 +11609,34 @@
     "metacritic": 84,
     "plot": "After being rescued from the Tiber River, you're asked to search for someone who disappeared investigating nearby ruins. Traveling through a portal, you arrive in an ancient Roman city trapped in a time loop where the Golden Rule decrees that if anyone commits a sin, all inhabitants turn to gold statues and die. You must interrogate the city's diverse residents, exploit the time loop to gather clues and items across multiple cycles, and uncover the truth behind the curse before it claims everyone forever."
   }
-}
+},
+  {
+  "date": "2025-12-23",
+  "region": "JP",
+  "releaseDate": "2000-02-03",
+  "title": "Resident Evil Code: Veronica",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vzv.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom",
+      "NexTech"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "Dreamcast"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "Three months after Raccoon City, Claire Redfield infiltrates Umbrella's Paris headquarters searching for her brother Chris but is captured and imprisoned on Rockfort Island. A sudden viral outbreak unleashes zombies and mutations across the facility, forcing Claire to ally with fellow prisoner Steve Burnside. They must survive the machinations of the deranged Ashford twins—Alfred and his sister Alexia—who wield the deadly T-Veronica virus, while Chris races to rescue Claire from Antarctica as Albert Wesker pursues his own sinister agenda."
+  }
+  }
 ]
