@@ -6,15 +6,17 @@ import {
 	faHeart,
 	faCircleQuestion,
 	faChartColumn,
+	faGear,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faCalendar, faHeart, faCircleQuestion, faChartColumn);
+library.add(faCalendar, faHeart, faCircleQuestion, faChartColumn, faGear);
 
 import styles from "../styles/Navbar.module.css";
 import SupportModal from './SupportModal';
 import ArchiveModal from "./ArchiveModal";
 import GuessEffectModal from "./GuessEffectModal";
 import StatsModal from "./StatsModal";
+import SettingsModal from "./SettingsModal";
 
 const Navbar = ({
 	gameHistory = {scores: [], games: 0, wins: 0, currentStreak: 0, longestStreak: 0}, 
@@ -22,6 +24,7 @@ const Navbar = ({
 	showStats = true,
     showHelp = true,
     showSupport = true,
+	showSettings = false,
 	onStatsClick = null,
 	isEndlessMode = false
 }) => {
@@ -29,6 +32,7 @@ const Navbar = ({
   	const [showArchiveModal, setShowArchiveModal] = useState(false);
 	const [showGuessEffectModal, setShowGuessEffectModal] = useState(false);
 	const [showStatsModal, setShowStatsModal] = useState(false);
+	const [showSettingsModal, setShowSettingsModal] = useState(false);
 
 	const handleShowSupportModal = () => {
 		setShowSupportModal(true);
@@ -48,6 +52,10 @@ const Navbar = ({
 		} else {
 			setShowStatsModal(true);
 		}
+	};
+
+	const handleShowSettingsModal = () => {
+		setShowSettingsModal(true);
 	};
 
 	const highestScore = useMemo(() => {
@@ -80,6 +88,11 @@ const Navbar = ({
 				</button>
 			)}
 			<h1 className={styles.title} data-text="GUESS_EFFECT">GUESS_EFFECT</h1>
+			{showSettings && (
+				<button className={styles.iconBtn} onClick={handleShowSettingsModal}>
+					<FontAwesomeIcon icon={faGear} className={styles.icon} />
+				</button>
+			)}
 			{showHelp && (
 				<button className={styles.iconBtn} onClick={handleShowGuessEffectModal}>
 					<FontAwesomeIcon icon={faCircleQuestion} className={styles.icon} />
@@ -108,6 +121,7 @@ const Navbar = ({
 					currentStreak={gameHistory.currentStreak}
 					longestStreak={gameHistory.longestStreak}
 				 />}
+			{showSettingsModal && <SettingsModal closeModal={() => setShowSettingsModal(false)} />}
 
 		</div>
 	);

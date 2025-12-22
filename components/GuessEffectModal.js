@@ -11,8 +11,8 @@ const GuessEffectModal = ({ closeModal }) => {
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 			<div className={styles.modal}>
+				<div className={styles.terminalHeader}>C:\GAMES\HELP.EXE</div>
 				<div className={styles.modalContainer}>
-					<h3>Guess Effect</h3>
 					<ul className={styles.help}>
 						<li>Guess the videogame based on the initial release date (the earliest release date, considering staggered regional launches).</li>
 						<li>Trade points to reveal hints, including platforms (considering the first platform the game was released on globally).</li>

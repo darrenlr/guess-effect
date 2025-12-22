@@ -1,6 +1,7 @@
 .countdown {
-    font-size: 1rem;
-    display: inline-block;
-    font-family: var(--font-family-main);
-    color: white;
+    font-size: 14px;
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
   }

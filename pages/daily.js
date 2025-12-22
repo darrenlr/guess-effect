@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import GameSystem from "../components/GameSystem";
 import MessageModal from "../components/MessageModal";
 import useLocalStorage from "../hooks/useLocalStorage";
+import useHudColor from "../hooks/useHudColor";
 import Script from "next/script";
 import Footer from "../components/Footer";
 
@@ -16,6 +17,7 @@ const initialGameHistory = {
 };
 
 const Daily = () => {
+  useHudColor();
   const router = useRouter();
   const [gameHistory, setGameHistory] = useLocalStorage("GAME_HISTORY", initialGameHistory);
   const [game, setGame] = useState(null);

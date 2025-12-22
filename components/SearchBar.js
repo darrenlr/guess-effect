@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ThreeDots } from "react-loader-spinner";
 import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
@@ -7,6 +7,16 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 	const [isLoading, setIsLoading] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [options, setOptions] = useState([]);
+	const [hudColor, setHudColor] = useState('#00ff41');
+
+	useEffect(() => {
+		// Get the computed HUD color from CSS variable
+		const computedColor = getComputedStyle(document.documentElement)
+			.getPropertyValue('--hud-color').trim();
+		if (computedColor) {
+			setHudColor(computedColor);
+		}
+	}, []);
 
 	const handleSearch = async (inputValue) => {
 		if (inputValue.length > 2) {
@@ -67,11 +77,11 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 			...base,
 			background: 'transparent',
 			border: 'none',
-			borderBottom: '2px solid #00ff41',
+			borderBottom: `2px solid ${hudColor}`,
 			borderRadius: 0,
 			boxShadow: 'none',
 			'&:hover': {
-				borderBottom: '2px solid #00ff41',
+				borderBottom: `2px solid ${hudColor}`,
 			},
 		}),
 		valueContainer: (base) => ({
@@ -81,15 +91,15 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 		}),
 		input: (base) => ({
 			...base,
-			color: '#00ff41',
+			color: hudColor,
 		}),
 		singleValue: (base) => ({
 			...base,
-			color: '#00ff41',
+			color: hudColor,
 		}),
 		placeholder: (base) => ({
 			...base,
-			color: '#00ff41',
+			color: hudColor,
 			opacity: 0.6,
 		}),
 		indicatorSeparator: () => ({
@@ -101,7 +111,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 		menu: (base) => ({
 			...base,
 			background: '#000',
-			border: '2px solid #00ff41',
+			border: `2px solid ${hudColor}`,
 			borderRadius: 0,
 			boxShadow: 'none',
 		}),
@@ -112,13 +122,13 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
 		}),
 		option: (base, state) => ({
 			...base,
-			background: state.isFocused ? '#00331a' : '#000',
-			color: '#00ff41',
+			background: state.isFocused ? `${hudColor}33` : '#000',
+			color: hudColor,
 			fontFamily: 'Share Tech Mono, monospace',
 			fontSize: '14px',
 			cursor: 'pointer',
 			'&:hover': {
-				background: '#00331a',
+				background: `${hudColor}33`,
 			},
 		}),
 	};
@@ -136,7 +146,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
     				<GameSelect
       					className={styles.searchInput}
       					styles={customStyles}
-      					placeholder="Guess the game..."
+      					placeholder="GUESS THE GAME..."
       					value={selectedOption}
       					onChange={setSelectedOption}
       					onInputChange={handleInputChange}

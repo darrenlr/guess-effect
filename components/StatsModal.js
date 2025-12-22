@@ -11,36 +11,32 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
+			<div className={styles.terminalHeader}>C:\GAMES\STATS.EXE</div>
 			<div className={styles.modalContainer}>
-			  <h3>Stats</h3>
-			  <div className={styles.statsRow}>
-				<div>
-				  <p>{highestScore}</p>
-				  <span>High Score</span>
+			  <div className={styles.fileList}>
+				<div className={styles.fileItem}>
+				  <span>HIGH_SCORE.DAT</span>
+				  <span>{highestScore}</span>
 				</div>
-			  </div>
-			  <div className={styles.statsRow}>
-				<div>
-				  <p>{gamesPlayed}</p>
-				  <span>Games</span>
+				<div className={styles.fileItem}>
+				  <span>GAMES_PLAYED.DAT</span>
+				  <span>{gamesPlayed}</span>
 				</div>
-				<div>
-				  <p>{averageScore}</p>
-				  <span>Avg</span>
+				<div className={styles.fileItem}>
+				  <span>AVG_SCORE.DAT</span>
+				  <span>{averageScore}</span>
 				</div>
-				<div>
-				  <p>{gamesWon}</p>
-				  <span>Wins</span>
+				<div className={styles.fileItem}>
+				  <span>WINS.DAT</span>
+				  <span>{gamesWon}</span>
 				</div>
-			  </div>
-			  <div className={styles.statsRow}>
-				<div>
-					<p>{currentStreak}</p>
-					<span>Streak</span>
+				<div className={styles.fileItem}>
+				  <span>STREAK.DAT</span>
+				  <span>{currentStreak}</span>
 				</div>
-				<div>
-					<p>{longestStreak}</p>
-					<span>Max Streak</span>
+				<div className={styles.fileItem}>
+				  <span>MAX_STREAK.DAT</span>
+				  <span>{longestStreak}</span>
 				</div>
 			  </div>
 			</div>

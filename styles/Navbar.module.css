@@ -124,11 +124,15 @@
 
     .title {
       text-align: center;
-      font-size: 1rem;
+      font-size: 0.8rem;
       letter-spacing: 1px;
     }
   
     .icon {
       font-size: 1.2rem;
+    }
+
+    .iconBtn {
+      padding: 0.2rem;
     }
   }

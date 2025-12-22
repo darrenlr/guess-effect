@@ -11,8 +11,8 @@ const SupportModal = ({ closeModal }) => {
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 			<div className={styles.modal}>
+				<div className={styles.terminalHeader}>C:\GAMES\SUPPORT.EXE</div>
 				<div className={styles.modalContainer}>
-					<h3>Support</h3>
 					<div>Thank you so much for playing!</div>
 					<div>If you&apos;ve enjoyed, please consider supporting, as it will allow me to continue updating and working on the game!</div>
 					<a href='https://ko-fi.com/S6S7EDM09' target='_blank' rel='noreferrer noopener'>

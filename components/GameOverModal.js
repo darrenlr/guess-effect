@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
-import usePlayerStats from "../hooks/usePlayerStats";
+import React, { useEffect, useState } from "react";
 import ShareButton from "./ShareButton";
 import CountdownTimer from './CountdownTimer';
 import styles from "../styles/GameOverModal.module.css";
@@ -25,7 +24,6 @@ const GameOverModal = ({
 }) => {
 	const [animatedScore, setAnimatedScore] = useState(0);
 	const [isScoreAnimationDone, setIsScoreAnimationDone] = useState(false);
-	const [highestScoreScale, setHighestScoreScale] = useState(1);
 
 	const handleClickOutside = (event) => {
 		if (event.target.className === styles.modalOverlay) {
@@ -82,89 +80,64 @@ const GameOverModal = ({
                     drift: 0.5,
                 });
             }
-
-            if (gameWon && score > highestScore) {
-                setHighestScoreScale(2.0); 
-                setTimeout(() => setHighestScoreScale(1), 600);
-			}
-            
         }
-    }, [isScoreAnimationDone, show, gameWon, score, highestScore]);
+    }, [isScoreAnimationDone, show, gameWon]);
 
-	if (! show) {
+	if (!show) {
 		return null;
 	}
 
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
+			<div className={styles.terminalHeader}>C:\GAMES\DAILY\RESULTS.EXE</div>
 			<div className={styles.modalContainer}>
-				<h1 style={{ textAlign: 'center' }} className={gameWon ? styles.victory : styles.defeat}>
-  					{gameWon ? "VICTORY ACHIEVED" : "DEFEATED"}
-				</h1>			
-				<p>the game was:</p>
-				<h2 style={{ textAlign: 'center' }}>{gameTitle}</h2>
-			  	<h3>Score: {animatedScore}</h3>
-			  <div className={styles.statsRow}  style={{ marginBottom: '1.5rem', marginTop: '1rem'}}>
-				<div>
-				  <p>{gamesPlayed}</p>
-				  <span>Played</span>
+			  <div className={styles.gameResultSection}>
+				<div className={gameWon ? styles.victory : styles.defeat}>
+				  {gameWon ? '>>> SUCCESS <<<' : '>>> FAILURE <<<'}
 				</div>
-				<div style={{ transform: `scale(${highestScoreScale})`, transition: 'transform 0.3s ease' }}>
-                    <p>{highestScore}</p>
-                    <span>High</span>
-                </div>
-				<div>
-				  <p>{averageScore}</p>
-				  <span>Avg</span>
-				</div>
-				<div>
-				  <p>{gamesWon}</p>
-				  <span>Wins</span>
-				</div>
+				<div className={styles.gameIdentifiedLabel}>GAME IDENTIFIED:</div>
+				<div className={styles.gameTitle}>{gameTitle}</div>
+                  <div className={styles.scoreLabel}>SCORE.DAT</div>
+                  <div className={styles.scoreValue}>{animatedScore}</div>
 			  </div>
+			  
 			  {!archivedGame && (
-				<>
-			  <h4>Global stats</h4>
-			  <div className={styles.statsRow}>
-				<div>
-					<p>{globalAverageScore}</p>
-					<span>Avg Score</span>
+				<div className={styles.globalStatsSection}>
+				  <div className={styles.globalStatsHeader}>&gt; GLOBAL STATISTICS:</div>
+				  <div className={styles.statLine}>
+					<span>AVG_SCORE:</span>
+					<span>{globalAverageScore}</span>
+				  </div>
+				  <div className={styles.statLine}>
+					<span>AVG_GUESSES:</span>
+					<span>{globalAverageGuesses}</span>
+				  </div>
+				  <div className={styles.statLine}>
+					<span>TOTAL_PLAYERS:</span>
+					<span>{playerCount}</span>
+				  </div>
+				  <div className={styles.statLine}>
+					<span>WIN_RATE:</span>
+					<span>{playerCount > 0 ? ((globalWinners / playerCount) * 100).toFixed(1) : "0"}%</span>
+				  </div>
 				</div>
-				<div>
-					<p>{globalAverageGuesses}</p>
-					<span>Avg Guesses</span>
-				</div>
-			  </div>
-
-			   	</>
 			  )}
-			  
-			  <div className={styles.statsRow}>
-			  <div>
-					<p>{playerCount}</p>
-					<span>Players</span>
-				</div>	
-				<div>
-					<p>{playerCount > 0 ? ((globalWinners / playerCount) * 100).toFixed(1) : "0"}%</p>
-					<span>Win Rate</span>
-				</div>
-			  </div>
+
 			  {!archivedGame && (
 				<>
-			  <ShareButton
-			  	score={score}
-				remainingGuesses={remainingGuesses}
-				releaseDate={releaseDate}
-			  />
-			  
-			  		<CountdownTimer />
-			  	</>
+				  <ShareButton
+					score={score}
+					remainingGuesses={remainingGuesses}
+					releaseDate={releaseDate}
+				  />
+				  <CountdownTimer />
+				</>
 			  )}
 			</div>
 		  </div>
 		</div>
-	  );
-	};
+	);
+};
 	
-	export default GameOverModal;
+export default GameOverModal;

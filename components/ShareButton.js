@@ -34,29 +34,31 @@ const ShareButton = ({ score, remainingGuesses, releaseDate }) => {
   return (
     <div>
         <button onClick={copyToClipboard} className="shareButton">
-            Copy to Share
+            [SHARE]
         </button>
 
         <div className={`toast ${copied ? 'show' : ''}`}>
-            Copied!
+            COPIED!
         </div>
 
         <style jsx>{`
             .shareButton {
-                background-color: #fff;
+                background-color: color-mix(in srgb, var(--hud-color) 20%, #000);
                 cursor: pointer;
-                color: #282c34;
-                font-weight: 600;
-                font-size: calc(10px + 0.3vmin);
-                border-radius: 4px;
-                padding: 4px 8px;
-                font-family: var(--font-family);
+                color: var(--hud-color);
+                font-weight: normal;
+                font-size: 12px;
+                border-radius: 0;
+                border: 2px solid var(--hud-color);
+                padding: 10px 16px;
+                font-family: 'Share Tech Mono', monospace;
                 text-align: center;
-                transition: background-color 0.2s ease;
+                transition: all 0.2s ease;
+                width: 100%;
             }
 
             .shareButton:hover {
-                background-color: #b0b0b0;
+                background-color: color-mix(in srgb, var(--hud-color) 30%, #000);
             }
 
             .toast {
@@ -65,12 +67,12 @@ const ShareButton = ({ score, remainingGuesses, releaseDate }) => {
                 left: 50%;
                 transform: translateX(-50%);
                 background-color: #000;
-                color: white;
+                color: var(--hud-color);
                 padding: 10px 20px;
-                border: 2px solid #fff;
-                border-radius: 5px;
-                font-size: 16px;
-                font-family: var(--font-family);
+                border: 2px solid var(--hud-color);
+                border-radius: 0;
+                font-size: 14px;
+                font-family: 'Share Tech Mono', monospace;
                 transition: top 0.4s ease-in-out, opacity 0.4s;
                 opacity: 0;
                 z-index: 9999;
