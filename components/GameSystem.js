@@ -499,31 +499,31 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
     return isMounted ? (
         <div className={styles.container}>
             {game && <ReleaseDate date={game.releaseDate} region={game.region} archivedOn={isArchive ? game.date : null} />}
-            {!matchedScore && (
-                <>
-                    <div className={`${styles.stats} ${styles.statsMobile}`}>
-                        <div className={styles.heartsContainer}>
-                            {gameState.life.hearts.map((heartSrc, index) => (
-                                <Image
-                                    key={index}
-                                    src={heartSrc}
-                                    alt="Heart"
-                                    width={30}
-                                    height={30}
-                                    className={
-                                        isWrongGuess &&
-                                        index === gameState.life.remainingGuessCount
-                                            ? styles.blink
-                                            : ""
-                                    }
-                                />
-                            ))}
-                        </div>
-                        <p>Bonus: {Math.round(animatedBonus)}</p>
-                        <p>Score: {Math.round(animatedScore)}</p>
-                    </div>
-                </>
-            )}
+            {/*{!matchedScore && (*/}
+            {/*    <>*/}
+            {/*        <div className={`${styles.stats} ${styles.statsMobile}`}>*/}
+            {/*            <div className={styles.heartsContainer}>*/}
+            {/*                {gameState.life.hearts.map((heartSrc, index) => (*/}
+            {/*                    <Image*/}
+            {/*                        key={index}*/}
+            {/*                        src={heartSrc}*/}
+            {/*                        alt="Heart"*/}
+            {/*                        width={30}*/}
+            {/*                        height={30}*/}
+            {/*                        className={*/}
+            {/*                            isWrongGuess &&*/}
+            {/*                            index === gameState.life.remainingGuessCount*/}
+            {/*                                ? styles.blink*/}
+            {/*                                : ""*/}
+            {/*                        }*/}
+            {/*                    />*/}
+            {/*                ))}*/}
+            {/*            </div>*/}
+            {/*            <p>Bonus: {Math.round(animatedBonus)}</p>*/}
+            {/*            <p>Score: {Math.round(animatedScore)}</p>*/}
+            {/*        </div>*/}
+            {/*    </>*/}
+            {/*)}*/}
             <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
             {game && gameState && (
                 <GameCard
