@@ -1,0 +1,82 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background-color: #000;
+  border: 3px double var(--hud-color);
+  border-radius: 0;
+  padding: 0;
+  width: 90%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.terminalHeader {
+  background: var(--hud-color);
+  color: #000;
+  padding: 8px 12px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modalContent {
+  padding: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+
+.confirmText {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button {
+  flex: 1;
+  background: color-mix(in srgb, var(--hud-color) 20%, #000);
+  border: 2px solid var(--hud-color);
+  border-radius: 0;
+  color: var(--hud-color);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  padding: 12px 16px;
+  transition: all 0.2s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background: color-mix(in srgb, var(--hud-color) 30%, #000);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px color-mix(in srgb, var(--hud-color) 30%, transparent);
+}
+
+.cancelButton {
+  background: #1a0000;
+  border-color: #ff4444;
+  color: #ff4444;
+}
+
+.cancelButton:hover {
+  background: #2a0000;
+  box-shadow: 0 4px 8px rgba(255, 68, 68, 0.3);
+}

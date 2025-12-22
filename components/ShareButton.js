@@ -43,13 +43,13 @@ const ShareButton = ({ score, remainingGuesses, releaseDate }) => {
 
         <style jsx>{`
             .shareButton {
-                background-color: #00331a;
+                background-color: color-mix(in srgb, var(--hud-color) 20%, #000);
                 cursor: pointer;
-                color: #00ff41;
+                color: var(--hud-color);
                 font-weight: normal;
                 font-size: 12px;
                 border-radius: 0;
-                border: 2px solid #00ff41;
+                border: 2px solid var(--hud-color);
                 padding: 10px 16px;
                 font-family: 'Share Tech Mono', monospace;
                 text-align: center;
@@ -58,7 +58,7 @@ const ShareButton = ({ score, remainingGuesses, releaseDate }) => {
             }
 
             .shareButton:hover {
-                background-color: #004d26;
+                background-color: color-mix(in srgb, var(--hud-color) 30%, #000);
             }
 
             .toast {
@@ -67,9 +67,9 @@ const ShareButton = ({ score, remainingGuesses, releaseDate }) => {
                 left: 50%;
                 transform: translateX(-50%);
                 background-color: #000;
-                color: #00ff41;
+                color: var(--hud-color);
                 padding: 10px 20px;
-                border: 2px solid #00ff41;
+                border: 2px solid var(--hud-color);
                 border-radius: 0;
                 font-size: 14px;
                 font-family: 'Share Tech Mono', monospace;

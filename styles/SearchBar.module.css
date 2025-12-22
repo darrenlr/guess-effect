@@ -2,13 +2,13 @@
   width: 95%;
   max-width: 940px;
   background: #000;
-  border: 3px double #00ff41;
+  border: 3px double var(--hud-color);
   border-bottom: none;
   position: relative;
 }
 
 .terminalHeader {
-  background: #00ff41;
+  background: var(--hud-color);
   color: #000;
   padding: 5px 10px;
   font-family: var(--font-family-main);
@@ -22,7 +22,7 @@
 .searchContainer {
   padding: 1rem;
   font-family: var(--font-family-main);
-  border-bottom: 3px double #00ff41;
+  border-bottom: 3px double var(--hud-color);
 }
 
 .inputLine {
@@ -32,9 +32,9 @@
 }
 
 .promptSymbol {
-  color: #00ff41;
+  color: var(--hud-color);
   font-family: var(--font-family-main);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .inputWrapper {
@@ -56,7 +56,7 @@
 .select__control {
   background: transparent !important;
   border: none !important;
-  border-bottom: 2px solid #00ff41 !important;
+  border-bottom: 2px solid var(--hud-color) !important;
   box-shadow: none !important;
   border-radius: 0 !important;
   outline: none !important;
@@ -69,17 +69,17 @@
 
 .select__input-container {
   background: transparent !important;
-  color: #00ff41 !important;
+  color: var(--hud-color) !important;
 }
 
 .select__single-value {
   background: transparent !important;
-  color: #00ff41 !important;
+  color: var(--hud-color) !important;
 }
 
 .select__placeholder {
   background: transparent !important;
-  color: #00ff41 !important;
+  color: var(--hud-color) !important;
   opacity: 0.6 !important;
 }
 
@@ -111,10 +111,10 @@
 
 .submitButton {
   text-align: center;
-  background: #00331a;
-  border: 2px solid #00ff41;
+  background: color-mix(in srgb, var(--hud-color) 20%, #000);
+  border: 2px solid var(--hud-color);
   border-radius: 0;
-  color: #00ff41;
+  color: var(--hud-color);
   font-family: var(--font-family);
   font-size: 10px;
   padding: 10px 16px;
@@ -126,10 +126,10 @@
 }
 
 .submitButton:hover {
-  background: #004d26;
-  border-color: #00ff66;
+  background: color-mix(in srgb, var(--hud-color) 30%, #000);
+  border-color: var(--hud-color);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 255, 65, 0.3);
+  box-shadow: 0 4px 8px color-mix(in srgb, var(--hud-color) 30%, transparent);
 }
 
 .submitButton:disabled {

@@ -11,7 +11,7 @@ const ReleaseDate = ({ date, region, archivedOn }) => {
       <div className={styles.terminalHeader}>C:\GAMES\DAILY\DATE.SYS</div>
       <h2 className={styles.releaseDate}>{dateString} ({region})</h2>
       {archivedOn && (
-        <h4 className={styles.releaseDateArchived}>Archived on: {archivedOn}</h4>
+        <h4 className={styles.releaseDateArchived}>[Archived on: {archivedOn}]</h4>
       )}
     </div>
   );

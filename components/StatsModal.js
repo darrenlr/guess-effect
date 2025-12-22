@@ -13,9 +13,6 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 		  <div className={styles.modal}>
 			<div className={styles.terminalHeader}>C:\GAMES\STATS.EXE</div>
 			<div className={styles.modalContainer}>
-			  <div className={styles.directoryHeader}>
-				Directory of C:\GAMES\USER\STATS
-			  </div>
 			  <div className={styles.fileList}>
 				<div className={styles.fileItem}>
 				  <span>HIGH_SCORE.DAT</span>
@@ -41,9 +38,6 @@ const StatsModal = ({ closeModal, gamesPlayed, highestScore, averageScore, games
 				  <span>MAX_STREAK.DAT</span>
 				  <span>{longestStreak}</span>
 				</div>
-			  </div>
-			  <div className={styles.directoryFooter}>
-				6 File(s)     {gamesPlayed} game(s) completed
 			  </div>
 			</div>
 		  </div>

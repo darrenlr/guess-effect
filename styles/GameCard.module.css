@@ -2,7 +2,7 @@
   width: 95%;
   max-width: 940px;
   background: #000;
-  border: 3px double #00ff41;
+  border: 3px double var(--hud-color);
   border-top: none;
   position: relative;
 }
@@ -25,7 +25,7 @@
 
 .boxArtWrapper {
   display: flex;
-  border: 2px solid #00ff41;
+  border: 2px solid var(--hud-color);
   border-radius: 0;
   overflow: hidden;
   width: fit-content;
@@ -43,7 +43,7 @@
   padding: 0.5rem;
   font-family: 'Share Tech Mono', monospace;
   border-radius: 0;
-  border: 1px solid #00ff41;
+  border: 1px solid var(--hud-color);
 }
 
 .hintRow {

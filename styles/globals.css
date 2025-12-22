@@ -16,6 +16,7 @@
 :root {
   --font-family: 'Press Start 2p', cursive;
   --font-family-main: 'Share Tech Mono', monospace;
+  --hud-color: var(--hud-color);
 
   --color-bg: #202225;
   --color-game : #212529;
@@ -47,10 +48,10 @@ a * {
 .hintButton {
   width: 100%;
   text-align: center;
-  background: #00331a;
-  border: 2px solid #00ff41;
+  background: color-mix(in srgb, var(--hud-color) 20%, #000);
+  border: 2px solid var(--hud-color);
   border-radius: 0;
-  color: #00ff41;
+  color: var(--hud-color);
   font-family: var(--font-family-main);
   font-size: 12px;
   font-weight: bold;
@@ -68,10 +69,10 @@ a * {
 }
 
 .hintButton:hover {
-  background: #004d26;
-  border-color: #00ff66;
+  background: color-mix(in srgb, var(--hud-color) 30%, #000);
+  border-color: var(--hud-color);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 255, 65, 0.3);
+  box-shadow: 0 4px 8px color-mix(in srgb, var(--hud-color) 30%, transparent);
 }
 
 .hintButton:disabled {
@@ -118,8 +119,8 @@ a * {
 
 @media (hover: none) {
   .hintButton:hover {
-    background: #00331a;
-    border-color: #00ff41;
+    background: color-mix(in srgb, var(--hud-color) 20%, #000);
+    border-color: var(--hud-color);
     transform: none;
     box-shadow: none;
   }
