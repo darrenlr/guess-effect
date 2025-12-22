@@ -380,31 +380,31 @@ const ArchivedGame = ({ game, gameHistory, setGameHistory }) => {
                     Players today: {playerCount}
 Beatae aperiam et ir
             </div> */}
-            {!matchedScore && (
-					<>
-            <div className={`${styles.stats} ${styles.statsMobile}`}>
-                    <div className={styles.heartsContainer}>
-                        {archivedGameState.life.hearts.map((heartSrc, index) => (
-                            <Image
-                                key={index}
-                                src={heartSrc}
-                                alt="Heart"
-                                width={30}
-                                height={30}
-                                className={
-                                    isWrongGuess &&
-                                    index === archivedGameState.life.remainingGuessCount
-                                        ? styles.blink
-                                        : ""
-                                }
-                            />
-                        ))}
-                    </div>
-                    <p>Bonus: {Math.round(animatedBonus)}</p>
-                    <p>Score: {Math.round(animatedScore)}</p>
-                </div>
-                </>
-				)}
+            {/*{!matchedScore && (*/}
+			{/*		<>*/}
+            {/*<div className={`${styles.stats} ${styles.statsMobile}`}>*/}
+            {/*        <div className={styles.heartsContainer}>*/}
+            {/*            {archivedGameState.life.hearts.map((heartSrc, index) => (*/}
+            {/*                <Image*/}
+            {/*                    key={index}*/}
+            {/*                    src={heartSrc}*/}
+            {/*                    alt="Heart"*/}
+            {/*                    width={30}*/}
+            {/*                    height={30}*/}
+            {/*                    className={*/}
+            {/*                        isWrongGuess &&*/}
+            {/*                        index === archivedGameState.life.remainingGuessCount*/}
+            {/*                            ? styles.blink*/}
+            {/*                            : ""*/}
+            {/*                    }*/}
+            {/*                />*/}
+            {/*            ))}*/}
+            {/*        </div>*/}
+            {/*        <p>Bonus: {Math.round(animatedBonus)}</p>*/}
+            {/*        <p>Score: {Math.round(animatedScore)}</p>*/}
+            {/*    </div>*/}
+            {/*    </>*/}
+			{/*	)}*/}
             <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
             {game && archivedGameState && (
                 <GameCard
