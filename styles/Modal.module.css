@@ -12,14 +12,23 @@
   }
   
   .modal {
-    box-shadow: 0px 0px 2px #000;
     background-color: #000;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    padding: 1rem;
+    border: 3px double #00ff41;
+    border-radius: 0;
+    padding: 0;
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
+  }
+
+  .terminalHeader {
+    background: #00ff41;
+    color: #000;
+    padding: 8px 12px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
   }
 
   .modalContainer {
@@ -28,9 +37,9 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
-    color: white;
-    font-family: var(--font-family-main);
-    margin: 2rem;
+    color: #ffffff;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 2rem;
   }
 
   .modalContainer a {
@@ -44,13 +53,15 @@
   .help {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    color: white;
+    gap: 1.5rem;
+    color: #ffffff;
   }
 
   .help li {
-    font-family: var(--font-family-main);
+    font-family: 'Share Tech Mono', monospace;
     text-align: start;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .dotContainer {

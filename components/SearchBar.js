@@ -136,7 +136,7 @@ const SearchBar = ({ onSubmit, isGameOver }) => {
     				<GameSelect
       					className={styles.searchInput}
       					styles={customStyles}
-      					placeholder="Guess the game..."
+      					placeholder="GUESS THE GAME..."
       					value={selectedOption}
       					onChange={setSelectedOption}
       					onInputChange={handleInputChange}

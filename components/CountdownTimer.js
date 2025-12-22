@@ -29,7 +29,7 @@ const CountdownTimer = () => {
 
   return (
     <div className={styles.countdown}>
-      Next: {String(timeLeft.hours).padStart(2, '0')}:
+      NEXT GAME IN: {String(timeLeft.hours).padStart(2, '0')}:
       {String(timeLeft.minutes).padStart(2, '0')}:
       {String(timeLeft.seconds).padStart(2, '0')}
     </div>
