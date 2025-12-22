@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from "react";
+import Link from "next/link";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -87,7 +88,7 @@ const Navbar = ({
 					<FontAwesomeIcon icon={faHeart} className={styles.icon} />
 				</button>
 			)}
-			<h1 className={styles.title} data-text="GUESS_EFFECT">GUESS_EFFECT</h1>
+			<Link href="/" className={styles.title} data-text="GUESS_EFFECT">GUESS_EFFECT</Link>
 			{showSettings && (
 				<button className={styles.iconBtn} onClick={handleShowSettingsModal}>
 					<FontAwesomeIcon icon={faGear} className={styles.icon} />
