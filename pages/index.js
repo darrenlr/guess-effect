@@ -157,7 +157,7 @@ const Home = () => {
           font-family: 'Share Tech Mono', monospace;
           font-size: 1.5rem;
           font-weight: 700;
-          color: #00ff41;
+          color: #ffffff;
           margin: 40px 0 1.5rem 0;
           text-align: left;
           letter-spacing: 1px;
