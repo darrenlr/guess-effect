@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 1.5rem;
     height: 100%; 
     font-family: 'Share Tech Mono', monospace;
@@ -130,7 +130,6 @@
 
   .gameResultSection {
     text-align: center;
-    margin-bottom: 0.5rem;
   }
 
   .gameResultSection .victory,
@@ -198,4 +197,9 @@
     .statsRow div span {
       font-size: 18px;
     }
+
+      .gameResultSection .victory,
+      .gameResultSection .defeat {
+          font-size: 26px;;
+      }
   }
