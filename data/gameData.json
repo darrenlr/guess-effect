@@ -11638,5 +11638,36 @@
     "metacritic": 94,
     "plot": "Three months after Raccoon City, Claire Redfield infiltrates Umbrella's Paris headquarters searching for her brother Chris but is captured and imprisoned on Rockfort Island. A sudden viral outbreak unleashes zombies and mutations across the facility, forcing Claire to ally with fellow prisoner Steve Burnside. They must survive the machinations of the deranged Ashford twins—Alfred and his sister Alexia—who wield the deadly T-Veronica virus, while Chris races to rescue Claire from Antarctica as Albert Wesker pursues his own sinister agenda."
   }
+  },
+  {
+  "date": "2025-12-24",
+  "region": "WW",
+  "releaseDate": "1997-06-30",
+  "title": "Carmageddon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n5v.webp",
+  "hints": {
+    "publisher": [
+      "Interplay Productions",
+      "Sales Curve Interactive"
+    ],
+    "developer": [
+      "Stainless Games"
+    ],
+    "genre": [
+      "Vehicular Combat",
+      "Racing"
+    ],
+    "platforms": [
+      "PC",
+      "Mac"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "BRender",
+    "metacritic": 74,
+    "plot": "Ranked 99th in a twisted racing championship, you compete against deranged drivers in heavily armored death machines across cities, mines, and industrial zones. Victory comes through completing race laps, wasting all opponent vehicles, or mowing down every pedestrian on the course. Each race features a ticking timer extended by carnage—the more spectacular the destruction and kills, the more time you earn to continue your violent ascent to first place."
+  }
   }
 ]
