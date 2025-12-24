@@ -11669,5 +11669,68 @@
     "metacritic": 74,
     "plot": "Ranked 99th in a twisted racing championship, you compete against deranged drivers in heavily armored death machines across cities, mines, and industrial zones. Victory comes through completing race laps, wasting all opponent vehicles, or mowing down every pedestrian on the course. Each race features a ticking timer extended by carnage—the more spectacular the destruction and kills, the more time you earn to continue your violent ascent to first place."
   }
+  },
+  {
+  "date": "2025-12-25",
+  "region": "WW",
+  "releaseDate": "2011-11-11",
+  "title": "The Elder Scrolls V: Skyrim",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Bethesda Game Studios"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open-World",
+      "Fantasy"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Creation Engine",
+    "metacritic": 96,
+    "plot": "After the assassination of Skyrim's High King triggers a civil war, the ancient dragon Alduin the World-Eater returns from a centuries-long absence to destroy the world. As the Dragonborn—a mortal born with the soul and power of a dragon—you are the only one who can stand against Alduin. You must master the Thu'um (dragon shouts), navigate the political conflict tearing Skyrim apart, and ultimately face the World-Eater to save Tamriel from destruction."
+  }
+  },
+  {
+  "date": "2025-12-26",
+  "region": "WW",
+  "releaseDate": "2015-03-03",
+  "title": "Helldivers",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mo3.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Arrowhead Game Studios"
+    ],
+    "genre": [
+      "Twin-Stick Shooter",
+      "Top-Down Shooter",
+      "Co-op"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "PlayStation 4",
+      "PS Vita"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "Autodesk Stingray",
+    "metacritic": 81,
+    "plot": "As elite soldiers of Super Earth's managed democracy, Helldivers must defend humanity against three hostile alien races across procedurally-generated war zones. The Bugs are space insects harvested for valuable resources, the Cyborgs are socialist separatists augmented with robotic gear, and the Illuminate are squid-like aliens hunted by the government. Squads of up to four players deploy to hostile planets, complete objectives under intense friendly-fire rules, and spread managed democracy throughout the galaxy in an ongoing galactic war."
+  }
   }
 ]
