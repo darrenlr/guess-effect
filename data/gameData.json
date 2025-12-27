@@ -11732,5 +11732,37 @@
     "metacritic": 81,
     "plot": "As elite soldiers of Super Earth's managed democracy, Helldivers must defend humanity against three hostile alien races across procedurally-generated war zones. The Bugs are space insects harvested for valuable resources, the Cyborgs are socialist separatists augmented with robotic gear, and the Illuminate are squid-like aliens hunted by the government. Squads of up to four players deploy to hostile planets, complete objectives under intense friendly-fire rules, and spread managed democracy throughout the galaxy in an ongoing galactic war."
   }
+  },
+  {
+  "date": "2025-12-27",
+  "region": "NA",
+  "releaseDate": "2014-11-18",
+  "title": "LittleBigPlanet 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3t1c.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Sumo Digital"
+    ],
+    "genre": [
+      "Puzzle",
+      "Platform",
+      "Sandbox"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "Sackboy is exploring Craftworld when a portal transports him to the planet Bunkum. Tricked by the charming inventor Newton into freeing three imprisoned Titans—creatures that drain creativity from the world—Sackboy must rescue and team up with Bunkum's three heroes: the speedy quadruped OddSock, the bird Swoop who can glide and carry objects, and Toggle who shifts between large and small forms. Together they must recapture the Titans and stop Newton's true sinister plans."
   }
+}
 ]
