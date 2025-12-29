@@ -11794,5 +11794,35 @@
     "metacritic": 78,
     "plot": "After surviving a passenger jet crash on a remote island, you awaken to find your son Timmy has been kidnapped by a mysterious man covered in red paint. Stranded in a dense forest inhabited by cannibalistic mutants who display eerily human behaviors, you must build shelter, craft weapons, and explore an extensive cave network. As you descend deeper underground searching for your son, you discover increasingly bizarre mutations and an abandoned research facility that holds dark secrets about the island's horrifying inhabitants."
   }
+},
+  {
+  "date": "2025-12-29",
+  "region": "NA",
+  "releaseDate": "2004-06-29",
+  "title": "Spider-Man 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2nc6.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Treyarch"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Next-Generation Libraries (NGL)",
+    "metacritic": 80,
+    "plot": "Peter Parker struggles to balance his dual life as college student and superhero while facing financial troubles and relationship problems with Mary Jane Watson. When brilliant scientist Otto Octavius becomes fused with mechanical arms and transforms into Doctor Octopus after a failed fusion experiment, Spider-Man must stop his rampage across Manhattan. Featuring revolutionary physics-based web-swinging through an open-world New York City, Peter also encounters villains Mysterio, Shocker, Rhino, and Black Cat while ultimately confronting Doc Ock to prevent him from recreating his dangerous reactor."
+  }
 }
 ]
