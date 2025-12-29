@@ -11799,7 +11799,7 @@
   "date": "2025-12-29",
   "region": "NA",
   "releaseDate": "2004-06-29",
-  "title": "Spider-Man 2",
+  "title": "Spider-Man 2: The Game",
   "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2nc6.webp",
   "hints": {
     "publisher": [
@@ -11823,6 +11823,36 @@
     "engine": "Next-Generation Libraries (NGL)",
     "metacritic": 80,
     "plot": "Peter Parker struggles to balance his dual life as college student and superhero while facing financial troubles and relationship problems with Mary Jane Watson. When brilliant scientist Otto Octavius becomes fused with mechanical arms and transforms into Doctor Octopus after a failed fusion experiment, Spider-Man must stop his rampage across Manhattan. Featuring revolutionary physics-based web-swinging through an open-world New York City, Peter also encounters villains Mysterio, Shocker, Rhino, and Black Cat while ultimately confronting Doc Ock to prevent him from recreating his dangerous reactor."
+  }
+},
+  {
+  "date": "2025-12-30",
+  "region": "WW",
+  "releaseDate": "2017-07-21",
+  "title": "Splatoon 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6dn3.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EPD"
+    ],
+    "genre": [
+      "Third-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "Switch"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "Two years after the original Splatfest events, Inkopolis has evolved with new fashion trends and weapon technology. When Callie mysteriously disappears along with the Great Zapfish, her cousin Marie recruits you as Agent 4 to investigate Octo Canyon. DJ Octavio has escaped imprisonment and brainwashed Callie to help him steal the Great Zapfish again. Battle through Octarian forces, rescue Callie from hypnotic sunglasses, and compete in turf wars with the new co-op Salmon Run mode battling deadly Salmonid species."
   }
 }
 ]
