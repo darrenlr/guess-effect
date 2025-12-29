@@ -8,7 +8,7 @@ const ReleaseDate = ({ date, region, archivedOn }) => {
 
   return (
     <div className={styles.releaseDateWrapper}>
-      <div className={styles.terminalHeader}>C:\GAMES\DAILY\DATE.SYS</div>
+      <div className={styles.terminalHeader}>C:\GAMES\DAILY\RELEASE_DATE.SYS</div>
       <h2 className={styles.releaseDate}>{dateString} ({region})</h2>
       {archivedOn && (
         <h4 className={styles.releaseDateArchived}>[Archived on: {archivedOn}]</h4>
