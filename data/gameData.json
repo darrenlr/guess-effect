@@ -11854,5 +11854,39 @@
     "metacritic": 84,
     "plot": "Two years after the original Splatfest events, Inkopolis has evolved with new fashion trends and weapon technology. When Callie mysteriously disappears along with the Great Zapfish, her cousin Marie recruits you as Agent 4 to investigate Octo Canyon. DJ Octavio has escaped imprisonment and brainwashed Callie to help him steal the Great Zapfish again. Battle through Octarian forces, rescue Callie from hypnotic sunglasses, and compete in turf wars with the new co-op Salmon Run mode battling deadly Salmonid species."
   }
-}
+},
+  {
+  "date": "2025-12-31",
+  "region": "WW",
+  "releaseDate": "2020-10-27",
+  "title": "Ghostrunner",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2nbk.webp",
+  "hints": {
+    "publisher": [
+      "505 Games",
+      "All in! Games"
+    ],
+    "developer": [
+      "One More Level",
+      "Slipgate Ironworks",
+      "3D Realms"
+    ],
+    "genre": [
+      "First-Person",
+      "Action",
+      "Platformer"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 81,
+    "plot": "After the apocalyptic Burst cataclysm, humanity survives in Dharma Tower, ruled by the tyrannical Keymaster Mara. A Ghostrunner—an enhanced cybernetic ninja—awakens with amnesia and is tasked by the preserved consciousness of the Architect to scale the megastructure from bottom to top. With one-hit-kill combat on both sides, you must parkour through neon-lit levels, slicing through enemies with a monomolecular katana, to defeat Mara and free the tower from her iron grip."
+  }
+  }
 ]
