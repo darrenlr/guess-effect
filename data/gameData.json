@@ -11888,5 +11888,36 @@
     "metacritic": 81,
     "plot": "After the apocalyptic Burst cataclysm, humanity survives in Dharma Tower, ruled by the tyrannical Keymaster Mara. A Ghostrunner—an enhanced cybernetic ninja—awakens with amnesia and is tasked by the preserved consciousness of the Architect to scale the megastructure from bottom to top. With one-hit-kill combat on both sides, you must parkour through neon-lit levels, slicing through enemies with a monomolecular katana, to defeat Mara and free the tower from her iron grip."
   }
+  },
+  {
+  "date": "2026-01-01",
+  "region": "WW",
+  "releaseDate": "2012-11-20",
+  "title": "Hitman: Absolution",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qrc.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "IO Interactive"
+    ],
+    "genre": [
+      "Stealth",
+      "Action",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Glacier 2",
+    "metacritic": 79,
+    "plot": "Agent 47 is ordered to assassinate his former handler Diana Burnwood, but before dying she tasks him with protecting a mysterious girl named Victoria from the International Contract Agency. Betrayed and hunted by both the ICA and the police, 47 goes rogue, protecting Victoria while pursued across Chicago and South Dakota by Blake Dexter and his mercenaries. He must navigate a corrupt underworld while uncovering the truth about Victoria's connection to genetic experimentation and his own origins."
+  }
   }
 ]
