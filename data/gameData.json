@@ -11919,5 +11919,34 @@
     "metacritic": 79,
     "plot": "Agent 47 is ordered to assassinate his former handler Diana Burnwood, but before dying she tasks him with protecting a mysterious girl named Victoria from the International Contract Agency. Betrayed and hunted by both the ICA and the police, 47 goes rogue, protecting Victoria while pursued across Chicago and South Dakota by Blake Dexter and his mercenaries. He must navigate a corrupt underworld while uncovering the truth about Victoria's connection to genetic experimentation and his own origins."
   }
-  }
+  },
+  {
+    "date": "2026-01-02",
+    "region": "WW",
+    "releaseDate": "2019-11-08",
+    "title": "Death Stranding",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5vq8.webp",
+    "hints": {
+      "publisher": [
+        "Sony Interactive Entertainment"
+      ],
+      "developer": [
+        "Kojima Productions"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "platforms": [
+        "PlayStation 4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Decima",
+      "metacritic": 82,
+      "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
+    }
+
 ]
