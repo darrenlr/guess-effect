@@ -11948,5 +11948,34 @@
       "metacritic": 82,
       "plot": "Sam Bridges must brave a world utterly transformed by the ***** *********. Carrying the stranded remnants of the future in his hands, Sam embarks on a journey to reunite the shattered world one step at a time. What is the mystery of the ***** *********? What will Sam discover on the road ahead? A genre defining gameplay experience holds these answers and more."
     }
+  },
+  {
+  "date": "2026-01-03",
+  "region": "NA",
+  "releaseDate": "1994-12-08",
+  "title": "The Lion King",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co63ny.webp",
+  "hints": {
+    "publisher": [
+      "Virgin Interactive"
+    ],
+    "developer": [
+      "Westwood Studios"
+    ],
+    "genre": [
+      "Platform",
+      "Action"
+    ],
+    "platforms": [
+      "SNES",
+      "Genesis"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Follow Simba's journey from carefree cub to rightful king of Pride Rock. After witnessing his father Mufasa's death orchestrated by his treacherous uncle Scar, young Simba flees into exile where he befriends Timon and Pumbaa. Years later, as an adult lion with powerful claws and devastating roar, Simba must return to the Pridelands to defeat Scar in brutal combat, reclaim his throne, and restore balance to the Circle of Life."
+  }
   }
 ]
