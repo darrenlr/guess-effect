@@ -12008,5 +12008,35 @@
     "metacritic": 82,
     "plot": "You receive a cracked copy of a mysterious game called superhot.exe from a friend. In this minimalist first-person shooter, time moves only when you move, transforming frantic combat into strategic slow-motion chess where you dodge bullets, snatch weapons from enemies, and choreograph balletic violence. As you progress through seemingly disconnected levels, the game glitches and crashes repeatedly, revealing a disturbing meta-narrative where an unseen entity within the game itself wants you to stop playing, blurring the lines between player, character, and the superhot system."
   }
+},
+  {
+  "date": "2026-01-05",
+  "region": "WW",
+  "releaseDate": "2015-05-19",
+  "title": "The Witcher 3: Wild Hunt",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coaarl.webp",
+  "hints": {
+    "publisher": [
+      "CD Projekt"
+    ],
+    "developer": [
+      "CD Projekt Red"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open-World"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "REDengine 3",
+    "metacritic": 93,
+    "plot": "Geralt of Rivia, a monster slayer for hire, searches for his adopted daughter Ciri—the Child of Prophecy whose power can reshape worlds. With the brutal Nilfgaardian Empire ravaging the Northern Kingdoms and the supernatural Wild Hunt riding across the skies hunting Ciri for her Elder Blood, Geralt must navigate war-torn lands, political intrigue, and deadly monsters. His choices will determine not only Ciri's fate but the future of the entire world."
+  }
 }
 ]
