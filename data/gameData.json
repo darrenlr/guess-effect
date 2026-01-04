@@ -11977,5 +11977,36 @@
     "metacritic": null,
     "plot": "Follow Simba's journey from carefree cub to rightful king of Pride Rock. After witnessing his father Mufasa's death orchestrated by his treacherous uncle Scar, young Simba flees into exile where he befriends Timon and Pumbaa. Years later, as an adult lion with powerful claws and devastating roar, Simba must return to the Pridelands to defeat Scar in brutal combat, reclaim his throne, and restore balance to the Circle of Life."
   }
+  },
+  {
+  "date": "2026-01-04",
+  "region": "WW",
+  "releaseDate": "2016-02-25",
+  "title": "SUPERHOT",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7ybp.webp",
+  "hints": {
+    "publisher": [
+      "SUPERHOT Team"
+    ],
+    "developer": [
+      "SUPERHOT Team"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 82,
+    "plot": "You receive a cracked copy of a mysterious game called superhot.exe from a friend. In this minimalist first-person shooter, time moves only when you move, transforming frantic combat into strategic slow-motion chess where you dodge bullets, snatch weapons from enemies, and choreograph balletic violence. As you progress through seemingly disconnected levels, the game glitches and crashes repeatedly, revealing a disturbing meta-narrative where an unseen entity within the game itself wants you to stop playing, blurring the lines between player, character, and the superhot system."
   }
+}
 ]
