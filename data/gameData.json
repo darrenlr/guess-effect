@@ -12038,5 +12038,64 @@
     "metacritic": 93,
     "plot": "Geralt of Rivia, a monster slayer for hire, searches for his adopted daughter Ciri—the Child of Prophecy whose power can reshape worlds. With the brutal Nilfgaardian Empire ravaging the Northern Kingdoms and the supernatural Wild Hunt riding across the skies hunting Ciri for her Elder Blood, Geralt must navigate war-torn lands, political intrigue, and deadly monsters. His choices will determine not only Ciri's fate but the future of the entire world."
   }
+},
+  {
+  "date": "2026-01-06",
+  "region": "JP",
+  "releaseDate": "1995-03-11",
+  "title": "Chrono Trigger",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3plw.webp",
+  "hints": {
+    "publisher": [
+      "Square"
+    ],
+    "developer": [
+      "Square"
+    ],
+    "genre": [
+      "JRPG",
+      "RPG"
+    ],
+    "platforms": [
+      "SNES"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "When a teleportation experiment at the Millennial Fair goes wrong, teenager Crono and his friend Marle are flung through time. Gathering allies across different eras—from prehistoric times to a post-apocalyptic future—they discover that the alien parasite Lavos will emerge in 1999 to destroy the world. The group must journey through time, unraveling the mystery of the ancient magic kingdom of Zeal and collecting the power needed to prevent Lavos from awakening and altering history to save the planet's future."
+  }
+},
+  {
+  "date": "2026-01-07",
+  "region": "NA",
+  "releaseDate": "1999-08-11",
+  "title": "System Shock 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4bak.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Irrational Games",
+      "Looking Glass Studios"
+    ],
+    "genre": [
+      "FPS",
+      "RPG",
+      "Survival Horror"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "Dark Engine",
+    "metacritic": 92,
+    "plot": "You awaken from cryosleep aboard the starship Von Braun after humanity's first interstellar expedition to Tau Ceti. The crew has been slaughtered or mutated into slaves of The Many, a parasitic alien hive mind absorbed from the expedition. Guided by the mysterious Dr. Janice Polito via radio, you explore dimly lit corridors with scarce ammunition and resources. Eventually you discover Polito is actually the rogue AI SHODAN, who manipulates you to destroy The Many so she can control the ship and merge organic and synthetic life."
+  }
 }
 ]
