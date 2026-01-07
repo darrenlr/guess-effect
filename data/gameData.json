@@ -12097,5 +12097,62 @@
     "metacritic": 92,
     "plot": "You awaken from cryosleep aboard the starship Von Braun after humanity's first interstellar expedition to Tau Ceti. The crew has been slaughtered or mutated into slaves of The Many, a parasitic alien hive mind absorbed from the expedition. Guided by the mysterious Dr. Janice Polito via radio, you explore dimly lit corridors with scarce ammunition and resources. Eventually you discover Polito is actually the rogue AI SHODAN, who manipulates you to destroy The Many so she can control the ship and merge organic and synthetic life."
   }
+},
+  {
+  "date": "2026-01-08",
+  "region": "WW",
+  "releaseDate": "2012-03-13",
+  "title": "Journey",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1q8q.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "thatgamecompany"
+    ],
+    "genre": [
+      "Adventure",
+      "Art Game"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Online Co-op"
+    ],
+    "engine": "PhyreEngine",
+    "metacritic": 92,
+    "plot": "A robed figure awakens in a vast desert with only a distant mountain visible on the horizon. Without instructions or dialogue, you journey across ancient ruins and shifting sands toward the glowing peak. Along the way, you may encounter another anonymous traveler—communicating only through musical chimes—and choose to help each other navigate the mysteries of a fallen civilization. The wordless pilgrimage builds toward an emotional crescendo as you ascend the sacred mountain together or alone."
+  }
+}
+  {
+  "date": "2026-01-09",
+  "region": "WW",
+  "releaseDate": "2018-04-20",
+  "title": "God of War (2018)",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Santa Monica Studio"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Hack and Slash"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "Years after destroying Olympus and abandoning Greece, Kratos lives in the Norse realm of Midgard with his young son Atreus. Following the death of Kratos' second wife and Atreus' mother Faye, they embark on a journey to scatter her ashes from the highest peak of the nine realms. As Kratos struggles to control his rage and keep his violent godly past secret from his son, they face Norse gods and monsters, including the relentless Baldur who seeks Kratos for mysterious reasons tied to Odin's paranoia."
+  }
 }
 ]
