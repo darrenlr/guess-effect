@@ -12154,5 +12154,33 @@
     "metacritic": 94,
     "plot": "Years after destroying Olympus and abandoning Greece, Kratos lives in the Norse realm of Midgard with his young son Atreus. Following the death of Kratos' second wife and Atreus' mother Faye, they embark on a journey to scatter her ashes from the highest peak of the nine realms. As Kratos struggles to control his rage and keep his violent godly past secret from his son, they face Norse gods and monsters, including the relentless Baldur who seeks Kratos for mysterious reasons tied to Odin's paranoia."
   }
-}
+},
+  {
+  "date": "2026-01-10",
+  "region": "JP",
+  "releaseDate": "1997-01-31",
+  "title": "Final Fantasy VII",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2kx2.webp",
+  "hints": {
+    "publisher": [
+      "Square"
+    ],
+    "developer": [
+      "Square"
+    ],
+    "genre": [
+      "JRPG",
+      "RPG"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "Mercenary Cloud Strife joins eco-terrorist group AVALANCHE to fight Shinra Corporation, which drains the planet's life energy as a power source. When the superhuman Sephiroth emerges seeking to wound the planet and harness its healing power to become a god, Cloud and his allies—including the mysterious Aerith who holds the key to saving their world—must pursue him across the globe. Their journey forces Cloud to confront his fragmented memories while uncovering Shinra's dark experiments and the truth about his own past."
+  }
+  }
 ]
