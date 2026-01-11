@@ -12211,5 +12211,34 @@
     "metacritic": 79,
     "plot": "After Earth becomes uninhabitable, humanity attempts to colonize the frozen planet E.D.N. III, only to discover it's inhabited by hostile insectoid Akrid aliens that generate valuable thermal energy. Snow pirate Wayne Holden awakens with fragmented memories of his father being killed by the massive Akrid known as Green Eye. Piloting powerful Vital Suits through hostile ice-covered environments, Wayne must uncover his past while confronting the ruthless NEVEC corporation that still seeks control of the planet and its thermal resources."
   }
+},
+  {
+  "date": "2026-01-12",
+  "region": "WW",
+  "releaseDate": "2010-01-26",
+  "title": "Mass Effect 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20ac.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "BioWare"
+    ],
+    "genre": [
+      "Action RPG",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 96,
+    "plot": "Commander Shepard is killed when the Collectors destroy the Normandy but is resurrected two years later by the shadowy Cerberus organization. Entire human colonies are vanishing on the galaxy's fringes, abducted by the insectoid Collectors who work for the Reapers. Shepard must recruit and gain the loyalty of the galaxy's most dangerous operatives—assassins, biotics, mercenaries, and outcasts—to assault the Collectors' base beyond the Omega-4 relay in a suicide mission that could claim the lives of the entire team."
+  }
 }
 ]
