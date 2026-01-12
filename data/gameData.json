@@ -12240,5 +12240,61 @@
     "metacritic": 96,
     "plot": "Commander Shepard is killed when the Collectors destroy the Normandy but is resurrected two years later by the shadowy Cerberus organization. Entire human colonies are vanishing on the galaxy's fringes, abducted by the insectoid Collectors who work for the Reapers. Shepard must recruit and gain the loyalty of the galaxy's most dangerous operatives—assassins, biotics, mercenaries, and outcasts—to assault the Collectors' base beyond the Omega-4 relay in a suicide mission that could claim the lives of the entire team."
   }
+},
+  {
+  "date": "2026-01-13",
+  "region": "JP",
+  "releaseDate": "1998-01-21",
+  "title": "Resident Evil 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vz0.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "Two months after the Spencer Mansion incident, Raccoon City has been overrun by the T-virus outbreak. Rookie cop Leon Kennedy arrives for his first day on the job, while college student Claire Redfield searches for her brother Chris. After a narrow escape from zombies, they reach the police station only to find it infested. Pursued by the unstoppable bio-weapon Tyrant and facing William Birkin's monstrous G-virus mutations, Leon and Claire must uncover Umbrella Corporation's conspiracy, navigate two intertwined storylines, and escape the doomed city alive."
+  }
+},
+  {
+  "date": "2026-01-14",
+  "region": "JP",
+  "releaseDate": "1998-11-21",
+  "title": "The Legend of Zelda: Ocarina of Time",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EAD"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Action RPG"
+    ],
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 99,
+    "plot": "Young Link is tricked by Ganondorf, King of the Gerudo Thieves, into opening the Sacred Realm, allowing the villain to claim the Triforce and transform Hyrule into a wasteland. Awakening seven years later as an adult, Link must travel through time using the Master Sword and Ocarina of Time to awaken the Seven Sages, confront his past mistakes, and defeat Ganondorf to restore peace to the kingdom and fulfill his destiny as the Hero of Time."
+  }
 }
 ]
