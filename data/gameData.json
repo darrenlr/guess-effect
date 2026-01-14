@@ -12296,5 +12296,64 @@
     "metacritic": 99,
     "plot": "Young Link is tricked by Ganondorf, King of the Gerudo Thieves, into opening the Sacred Realm, allowing the villain to claim the Triforce and transform Hyrule into a wasteland. Awakening seven years later as an adult, Link must travel through time using the Master Sword and Ocarina of Time to awaken the Seven Sages, confront his past mistakes, and defeat Ganondorf to restore peace to the kingdom and fulfill his destiny as the Hero of Time."
   }
+},
+  {
+  "date": "2026-01-15",
+  "region": "WW",
+  "releaseDate": "2010-07-21",
+  "title": "Limbo",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios",
+      "Playdead"
+    ],
+    "developer": [
+      "Playdead"
+    ],
+    "genre": [
+      "Puzzle",
+      "Platform"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "An unnamed boy awakens alone in a dark forest on the edge of hell, uncertain of his sister's fate. Navigating through eerie monochromatic environments filled with deadly traps, a menacing giant spider, and disturbing remnants of other children, he moves ever forward through increasingly dangerous industrial settings. The game offers no explanation or dialogue—only the boy's silent, desperate journey through this liminal nightmare as he searches for his lost sister in a world where death comes suddenly and gruesomely at every turn."
+  }
+},
+  {
+  "date": "2026-01-16",
+  "region": "NA",
+  "releaseDate": "2008-10-13",
+  "title": "Dead Space",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2g7w.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "EA Redwood Shores"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Visceral Engine",
+    "metacritic": 86,
+    "plot": "Engineer Isaac Clarke boards the USG Ishimura, a massive mining ship that sent a distress call after discovering an alien artifact on planet Aegis VII. Arriving to find the crew slaughtered and transformed into grotesque Necromorphs—reanimated corpses mutated by an alien contagion—Isaac must survive while searching for his girlfriend Nicole who served aboard the ship. Using engineering tools as improvised weapons and strategic dismemberment to stop the monsters, Isaac uncovers the horrifying connection between the Marker artifact, the Church of Unitology, and the violent outbreak consuming the Ishimura."
+  }
 }
 ]
