@@ -12355,5 +12355,36 @@
     "metacritic": 86,
     "plot": "Engineer Isaac Clarke boards the USG Ishimura, a massive mining ship that sent a distress call after discovering an alien artifact on planet Aegis VII. Arriving to find the crew slaughtered and transformed into grotesque Necromorphs—reanimated corpses mutated by an alien contagion—Isaac must survive while searching for his girlfriend Nicole who served aboard the ship. Using engineering tools as improvised weapons and strategic dismemberment to stop the monsters, Isaac uncovers the horrifying connection between the Marker artifact, the Church of Unitology, and the violent outbreak consuming the Ishimura."
   }
+},
+  {
+  "date": "2026-01-16",
+  "region": "WW",
+  "releaseDate": "2019-08-27",
+  "title": "Control",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2evj.webp",
+  "hints": {
+    "publisher": [
+      "505 Games"
+    ],
+    "developer": [
+      "Remedy Entertainment"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Third-Person Shooter",
+      "Supernatural"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Northlight Engine",
+    "metacritic": 85,
+    "plot": "Jesse Faden arrives at the Federal Bureau of Control—a secretive government agency studying paranormal phenomena—searching for her missing brother. Upon entering the Oldest House, the agency's brutalist headquarters in New York, she discovers the staff has been killed or possessed by the Hiss, a malevolent resonance from another dimension. Inheriting the shapeshifting Service Weapon and becoming the Bureau's new Director, Jesse must master telekinetic powers, explore the reality-bending building, and stop the Hiss invasion while uncovering the truth about her brother's disappearance and her own connection to the supernatural."
+  }
 }
 ]
