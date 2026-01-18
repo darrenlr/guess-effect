@@ -12386,5 +12386,34 @@
     "metacritic": 85,
     "plot": "Jesse Faden arrives at the Federal Bureau of Control—a secretive government agency studying paranormal phenomena—searching for her missing brother. Upon entering the Oldest House, the agency's brutalist headquarters in New York, she discovers the staff has been killed or possessed by the Hiss, a malevolent resonance from another dimension. Inheriting the shapeshifting Service Weapon and becoming the Bureau's new Director, Jesse must master telekinetic powers, explore the reality-bending building, and stop the Hiss invasion while uncovering the truth about her brother's disappearance and her own connection to the supernatural."
   }
-}
+},
+  {
+  "date": "2026-01-18",
+  "region": "NA",
+  "releaseDate": "2002-11-04",
+  "title": "Ratchet & Clank",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1oym.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "Platform",
+      "Action-Adventure",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Lombax mechanic Ratchet dreams of leaving his backwater planet Veldin when a defective but intelligent robot named Clank crash-lands after escaping from a warbot factory. Clank reveals that Chairman Drek of the Blarg race plans to create a new planet for his polluted and overpopulated species by extracting landmasses from other worlds across the Solana Galaxy. Together they seek the help of celebrity superhero Captain Qwark to stop Drek's planet-destroying scheme, collecting bizarre weapons and gadgets as they travel from world to world."
+  }
+  }
 ]
