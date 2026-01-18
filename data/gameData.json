@@ -12415,5 +12415,36 @@
     "metacritic": 88,
     "plot": "Lombax mechanic Ratchet dreams of leaving his backwater planet Veldin when a defective but intelligent robot named Clank crash-lands after escaping from a warbot factory. Clank reveals that Chairman Drek of the Blarg race plans to create a new planet for his polluted and overpopulated species by extracting landmasses from other worlds across the Solana Galaxy. Together they seek the help of celebrity superhero Captain Qwark to stop Drek's planet-destroying scheme, collecting bizarre weapons and gadgets as they travel from world to world."
   }
+  },
+  {
+  "date": "2026-01-19",
+  "region": "WW",
+  "releaseDate": "2013-03-05",
+  "title": "Tomb Raider",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rbu.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Crystal Dynamics"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Survival"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Foundation Engine",
+    "metacritic": 86,
+    "plot": "Archaeology graduate Lara Croft joins an expedition aboard the Endurance to find the lost kingdom of Yamatai near Japan. When a violent storm destroys the ship in the Dragon's Triangle, survivors are stranded on a mysterious island controlled by a violent cult called the Solarii Brotherhood. As Lara fights to survive against hostile scavengers, deadly wildlife, and supernatural forces, she must rescue her kidnapped friend Sam and prevent the cultists from resurrecting the ancient Sun Queen Himiko, whose spirit threatens to possess Sam and escape the island."
   }
+}
 ]
