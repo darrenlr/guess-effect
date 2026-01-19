@@ -12446,5 +12446,36 @@
     "metacritic": 86,
     "plot": "Archaeology graduate Lara Croft joins an expedition aboard the Endurance to find the lost kingdom of Yamatai near Japan. When a violent storm destroys the ship in the Dragon's Triangle, survivors are stranded on a mysterious island controlled by a violent cult called the Solarii Brotherhood. As Lara fights to survive against hostile scavengers, deadly wildlife, and supernatural forces, she must rescue her kidnapped friend Sam and prevent the cultists from resurrecting the ancient Sun Queen Himiko, whose spirit threatens to possess Sam and escape the island."
   }
+},
+  {
+  "date": "2026-01-20",
+  "region": "WW",
+  "releaseDate": "2019-03-22",
+  "title": "Sekiro: Shadows Die Twice",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a23.webp",
+  "hints": {
+    "publisher": [
+      "Activision",
+      "FromSoftware"
+    ],
+    "developer": [
+      "FromSoftware"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Dantelion Engine",
+    "metacritic": 90,
+    "plot": "In late 1500s Sengoku-era Japan, the disgraced shinobi Wolf serves the young lord Kuro, descendant of an ancient bloodline with mystical Dragon Heritage. When the Ashina clan kidnaps Kuro and Wolf loses his arm trying to defend him, a sculptor replaces his limb with a prosthetic equipped with deadly tools. Now known as Sekiro—the one-armed wolf—he must rescue his master, navigate warring factions, and face the immortality-seeking Genichiro Ashina while mastering the art of resurrection through Kuro's power to die and return."
+  }
 }
 ]
