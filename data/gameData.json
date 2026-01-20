@@ -12477,5 +12477,34 @@
     "metacritic": 90,
     "plot": "In late 1500s Sengoku-era Japan, the disgraced shinobi Wolf serves the young lord Kuro, descendant of an ancient bloodline with mystical Dragon Heritage. When the Ashina clan kidnaps Kuro and Wolf loses his arm trying to defend him, a sculptor replaces his limb with a prosthetic equipped with deadly tools. Now known as Sekiro—the one-armed wolf—he must rescue his master, navigate warring factions, and face the immortality-seeking Genichiro Ashina while mastering the art of resurrection through Kuro's power to die and return."
   }
+},
+  {
+  "date": "2026-01-21",
+  "region": "WW",
+  "releaseDate": "2016-05-10",
+  "title": "Uncharted 4: A Thief's End",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r7h.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Several years after retiring from treasure hunting, Nathan Drake is pulled back into adventure when his long-lost brother Samuel resurfaces, claiming he needs Drake's help to save his life. Together with longtime partner Victor Sullivan, they embark on a globe-trotting quest to find Captain Henry Avery's legendary pirate treasure—worth over $400 million. As Drake struggles between his dangerous past and the peaceful life he's built with wife Elena, the pursuit becomes intensely personal when mercenary Rafe Adler and his Shoreline army join the hunt for Libertalia, threatening Drake's family and forcing him to decide what he's truly willing to sacrifice."
+  }
 }
 ]
