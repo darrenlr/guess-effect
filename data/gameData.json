@@ -12506,5 +12506,33 @@
     "metacritic": 93,
     "plot": "Several years after retiring from treasure hunting, Nathan Drake is pulled back into adventure when his long-lost brother Samuel resurfaces, claiming he needs Drake's help to save his life. Together with longtime partner Victor Sullivan, they embark on a globe-trotting quest to find Captain Henry Avery's legendary pirate treasure—worth over $400 million. As Drake struggles between his dangerous past and the peaceful life he's built with wife Elena, the pursuit becomes intensely personal when mercenary Rafe Adler and his Shoreline army join the hunt for Libertalia, threatening Drake's family and forcing him to decide what he's truly willing to sacrifice."
   }
+},
+  {
+  "date": "2026-01-22",
+  "region": "JP",
+  "releaseDate": "2006-09-14",
+  "title": "God Hand",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co55n7.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Clover Studio"
+    ],
+    "genre": [
+      "Beat 'em Up",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 73,
+    "plot": "Drifter Gene has his arm severed by thugs but awakens with the legendary God Hand attached in its place—a divine weapon capable of making its bearer a god or demon. Accompanied by Olivia, whose clan protects the God Hands and whose family was massacred by demons, Gene must battle through hordes of supernatural enemies. Four demonic figures led by Demon King Angra hunt Gene to claim both God Hands and destroy humanity, forcing him into increasingly absurd and violent confrontations across a post-apocalyptic landscape where comedy and carnage collide."
+  }
 }
 ]
