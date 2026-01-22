@@ -12534,5 +12534,95 @@
     "metacritic": 73,
     "plot": "Drifter Gene has his arm severed by thugs but awakens with the legendary God Hand attached in its place—a divine weapon capable of making its bearer a god or demon. Accompanied by Olivia, whose clan protects the God Hands and whose family was massacred by demons, Gene must battle through hordes of supernatural enemies. Four demonic figures led by Demon King Angra hunt Gene to claim both God Hands and destroy humanity, forcing him into increasingly absurd and violent confrontations across a post-apocalyptic landscape where comedy and carnage collide."
   }
+},
+  {
+  "date": "2026-01-23",
+  "region": "JP",
+  "releaseDate": "1997-03-20",
+  "title": "Castlevania: Symphony of the Night",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co53m8.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Konami Computer Entertainment Tokyo"
+    ],
+    "genre": [
+      "Metroidvania",
+      "Action RPG",
+      "Platform"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Four years after Richter Belmont defeated Dracula, the legendary vampire hunter mysteriously disappears and Dracula's castle inexplicably reappears. Alucard, Dracula's dhampir son who once helped Trevor Belmont, awakens from self-imposed slumber to investigate. Discovering Richter under mind control orchestrating the castle's return, Alucard must explore every chamber of his father's domain—navigating an inverted castle and collecting powerful relics—to break the spell, confront Shaft the dark priest manipulating events, and prevent Dracula's resurrection."
+  }
+},
+  {
+  "date": "2026-01-24",
+  "region": "WW",
+  "releaseDate": "2014-06-26",
+  "title": "Shovel Knight",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6pup.webp",
+  "hints": {
+    "publisher": [
+      "Yacht Club Games"
+    ],
+    "developer": [
+      "Yacht Club Games"
+    ],
+    "genre": [
+      "Platform",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "Nintendo 3DS",
+      "Wii U",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "GameMaker Studio",
+    "metacritic": 85,
+    "plot": "The legendary adventurers Shovel Knight and Shield Knight were inseparable partners until Shield Knight was lost in the cursed Tower of Fate. Heartbroken, Shovel Knight goes into seclusion while the evil Enchantress rises to power with her Order of No Quarter—eight villainous knights terrorizing the land. When the Tower unseals, Shovel Knight emerges from retirement, wielding his trusty Shovel Blade to defeat the Order, confront the Enchantress, and rescue his beloved Shield Knight from whatever fate befell her in the tower's depths."
+  }
+},
+  {
+  "date": "2026-01-25",
+  "region": "WW",
+  "releaseDate": "2017-01-24",
+  "title": "Resident Evil 7: Biohazard",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob0ry.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Survival Horror",
+      "First-Person"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "RE Engine",
+    "metacritic": 86,
+    "plot": "Civilian Ethan Winters receives a mysterious message from his wife Mia, who vanished three years ago, leading him to a derelict plantation in Dulvey, Louisiana. Inside the decaying Baker family mansion, Ethan discovers Mia alive but acting violently unstable. Captured by the deranged Bakers—Jack, Marguerite, and their son Lucas—who have been infected by a bio-organic weapon called the Molded, Ethan must survive their sadistic games while uncovering the truth about a mysterious girl named Eveline and the parasitic infection controlling the family."
+  }
 }
 ]
