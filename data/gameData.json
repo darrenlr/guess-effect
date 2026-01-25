@@ -12624,5 +12624,39 @@
     "metacritic": 86,
     "plot": "Civilian Ethan Winters receives a mysterious message from his wife Mia, who vanished three years ago, leading him to a derelict plantation in Dulvey, Louisiana. Inside the decaying Baker family mansion, Ethan discovers Mia alive but acting violently unstable. Captured by the deranged Bakers—Jack, Marguerite, and their son Lucas—who have been infected by a bio-organic weapon called the Molded, Ethan must survive their sadistic games while uncovering the truth about a mysterious girl named Eveline and the parasitic infection controlling the family."
   }
+},
+  {
+  "date": "2026-01-26",
+  "region": "WW",
+  "releaseDate": "2015-09-01",
+  "title": "Metal Gear Solid V: The Phantom Pain",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1v85.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Kojima Productions"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Stealth",
+      "Open-World"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "Xbox 360",
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Fox Engine",
+    "metacritic": 93,
+    "plot": "Nine years after falling into a coma during the destruction of Militaires Sans Frontières, Big Boss awakens in 1984 as Punished \"Venom\" Snake. Seeking revenge against Cipher and the mysterious Skull Face who orchestrated the attack, he rebuilds his private military company as Diamond Dogs. Operating from Mother Base in the Seychelles, Snake ventures into Soviet-occupied Afghanistan and the Angola-Zaire border region to eliminate Skull Face's XOF unit and stop him from unleashing a parasitic bioweapon that targets specific languages, potentially silencing entire peoples."
+  }
 }
 ]
