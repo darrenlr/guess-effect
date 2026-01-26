@@ -12658,5 +12658,33 @@
     "metacritic": 93,
     "plot": "Nine years after falling into a coma during the destruction of Militaires Sans Frontières, Big Boss awakens in 1984 as Punished \"Venom\" Snake. Seeking revenge against Cipher and the mysterious Skull Face who orchestrated the attack, he rebuilds his private military company as Diamond Dogs. Operating from Mother Base in the Seychelles, Snake ventures into Soviet-occupied Afghanistan and the Angola-Zaire border region to eliminate Skull Face's XOF unit and stop him from unleashing a parasitic bioweapon that targets specific languages, potentially silencing entire peoples."
   }
-}
+},
+  {
+  "date": "2026-01-27",
+  "region": "WW",
+  "releaseDate": "1994-12-21",
+  "title": "Marathon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5u0y.webp",
+  "hints": {
+    "publisher": [
+      "Bungie"
+    ],
+    "developer": [
+      "Bungie"
+    ],
+    "genre": [
+      "First-Person Shooter"
+    ],
+    "platforms": [
+      "Mac"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Several centuries in the future, you are a security officer aboard the Marathon, a massive colony ship constructed from Mars' moon Deimos. When the Pfhor—a hostile alien slave empire—and their enslaved cyborg race the S'pht invade the ship, you must fight through hordes of enemies while communicating with the ship's three AIs. As the damaged AI Leela assigns missions and the increasingly unstable Durandal manipulates events for his own mysterious purposes, you must repair critical systems, rescue colonists, and repel the alien invasion while unraveling the AIs' conflicting agendas."
+  }
+  }
 ]
