@@ -12686,5 +12686,126 @@
     "metacritic": null,
     "plot": "Several centuries in the future, you are a security officer aboard the Marathon, a massive colony ship constructed from Mars' moon Deimos. When the Pfhor—a hostile alien slave empire—and their enslaved cyborg race the S'pht invade the ship, you must fight through hordes of enemies while communicating with the ship's three AIs. As the damaged AI Leela assigns missions and the increasingly unstable Durandal manipulates events for his own mysterious purposes, you must repair critical systems, rescue colonists, and repel the alien invasion while unraveling the AIs' conflicting agendas."
   }
+  },
+  {
+  "date": "2026-01-28",
+  "region": "WW",
+  "releaseDate": "2022-02-04",
+  "title": "Dying Light 2 Stay Human",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co65yk.webp",
+  "hints": {
+    "publisher": [
+      "Techland"
+    ],
+    "developer": [
+      "Techland"
+    ],
+    "genre": [
+      "Action RPG",
+      "Survival Horror",
+      "Open-World"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": "C-Engine",
+    "metacritic": 76,
+    "plot": "Fifteen years after the Fall, infected survivor Aiden Caldwell arrives in Villedor—one of humanity's last strongholds—searching for his missing sister Mia. As factions like the Peacekeepers and Survivors battle for control of the city's territories, Aiden must navigate political conflicts while managing his own infection using UV light. His choices determine which faction gains power over different districts, fundamentally altering the city's appearance and available parkour routes as humanity fights to reclaim civilization from the infected hordes that rule the night."
   }
+},
+  {
+  "date": "2026-01-29",
+  "region": "WW",
+  "releaseDate": "2020-07-17",
+  "title": "Ghost of Tsushima",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2crj.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Sucker Punch Productions"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World",
+      "Stealth"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "In 1274 during the first Mongol invasion of Japan, samurai Jin Sakai is one of the last survivors after the Mongols devastate Tsushima Island and slaughter its defenders. As his homeland burns and his uncle Lord Shimura is captured by ruthless Mongol leader Khotun Khan, Jin must abandon the samurai code of honor to become the Ghost—a stealthy warrior using unconventional tactics. Torn between tradition and survival, he must master forbidden techniques, liberate the island one settlement at a time, and rally the people to drive out the invaders before Japan falls."
+  }
+},
+  {
+  "date": "2026-01-30",
+  "region": "WW",
+  "releaseDate": "2017-03-03",
+  "title": "The Legend of Zelda: Breath of the Wild",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EPD"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "Switch",
+      "Wii U"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 97,
+    "plot": "After awakening from a century-long slumber with no memory, Link emerges to find Hyrule devastated by Calamity Ganon. Princess Zelda has been holding the ancient evil at bay inside Hyrule Castle, but her power wanes. Link must explore the vast open world, recover his lost memories, liberate the four Divine Beasts possessed by Ganon's Blight manifestations, and master ancient Sheikah technology. Armed with the Sheikah Slate and guided by mysterious voices, he must grow strong enough to defeat Calamity Ganon and save both Zelda and the ruined kingdom before darkness consumes everything."
+  }
+},
+  {
+  "date": "2026-01-31",
+  "region": "JP",
+  "releaseDate": "2006-07-13",
+  "title": "Persona 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5mo6.webp",
+  "hints": {
+    "publisher": [
+      "Atlus"
+    ],
+    "developer": [
+      "Atlus"
+    ],
+    "genre": [
+      "JRPG",
+      "Social Simulation"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "A high school transfer student joins the Specialized Extracurricular Execution Squad after discovering he can summon a Persona by shooting himself in the head with an Evoker. SEES investigates the Dark Hour—a hidden 25th hour when most people become coffins and Shadows prey on human minds, causing Apathy Syndrome. By day, the protagonist builds Social Links with classmates and townspeople. By night, he explores Tartarus, a massive tower that appears during the Dark Hour, climbing hundreds of floors to defeat powerful Shadows and uncover the truth behind this supernatural phenomenon threatening humanity."
+  }
+}
 ]
