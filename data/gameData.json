@@ -12807,5 +12807,36 @@
     "metacritic": 86,
     "plot": "A high school transfer student joins the Specialized Extracurricular Execution Squad after discovering he can summon a Persona by shooting himself in the head with an Evoker. SEES investigates the Dark Hour—a hidden 25th hour when most people become coffins and Shadows prey on human minds, causing Apathy Syndrome. By day, the protagonist builds Social Links with classmates and townspeople. By night, he explores Tartarus, a massive tower that appears during the Dark Hour, climbing hundreds of floors to defeat powerful Shadows and uncover the truth behind this supernatural phenomenon threatening humanity."
   }
+},
+  {
+  "date": "2026-02-01",
+  "region": "NA",
+  "releaseDate": "2020-11-12",
+  "title": "Sackboy: A Big Adventure",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4522.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Sumo Digital"
+    ],
+    "genre": [
+      "Platform",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 79,
+    "plot": "The dastardly Vex—a near-mythical being born of chaos and fear—tears through the sky above Craftworld's village of Loom and kidnaps the Sackpeople to force them to build his Topsy Turver device. This diabolical machine will transform Craftworld from a fantastical land of pure imagination into a barren nightmare. As prophesied by the ancient order of the Knitted Knights, only Sackboy can rise as the brave hero to rescue his friends, journey across hand-crafted lands filled with dangers and surprises, defeat Vex, and become the legendary Knitted Knight."
+  }
 }
 ]
