@@ -12870,5 +12870,35 @@
     "metacritic": 75,
     "plot": "Detective Sebastian Castellanos responds to a mass murder at Beacon Mental Hospital with his partners Juli Kidman and Joseph Oda. Upon arrival, security footage shows a mysterious hooded figure slaughtering the staff. After Sebastian witnesses the deaths of fellow officers, he's knocked unconscious and awakens in a nightmarish world filled with grotesque creatures and shifting realities. Trapped in the STEM system—a device connecting minds—Sebastian must navigate the twisted psyche of psychopathic patient Ruvik, uncover dark conspiracies, and survive deadly traps and monsters to escape this surreal hellscape."
   }
+},
+  {
+  "date": "2026-02-03",
+  "region": "WW",
+  "releaseDate": "2016-04-05",
+  "title": "Quantum Break",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8gsr.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Studios"
+    ],
+    "developer": [
+      "Remedy Entertainment"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Third-Person Shooter",
+      "Sci-Fi"
+    ],
+    "platforms": [
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Northlight Engine",
+    "metacritic": 77,
+    "plot": "After a time machine experiment catastrophically fails at Riverport University, Jack Joyce gains time manipulation powers while his former best friend Paul Serene obtains the ability to see alternate futures. As a fracture in time threatens to bring about the End of Time—an apocalyptic event where time stops completely—Jack must use his abilities to battle Paul's Monarch Solutions corporation. The game integrates live-action television episodes where player choices at junction points determine the show's direction, revealing different perspectives on the conspiracy to control time itself."
+  }
 }
 ]
