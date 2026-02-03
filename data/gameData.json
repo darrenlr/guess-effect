@@ -12900,5 +12900,37 @@
     "metacritic": 77,
     "plot": "After a time machine experiment catastrophically fails at Riverport University, Jack Joyce gains time manipulation powers while his former best friend Paul Serene obtains the ability to see alternate futures. As a fracture in time threatens to bring about the End of Time—an apocalyptic event where time stops completely—Jack must use his abilities to battle Paul's Monarch Solutions corporation. The game integrates live-action television episodes where player choices at junction points determine the show's direction, revealing different perspectives on the conspiracy to control time itself."
   }
+},
+  {
+  "date": "2026-02-04",
+  "region": "WW",
+  "releaseDate": "2002-10-08",
+  "title": "TimeSplitters 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob1vn.webp",
+  "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Free Radical Design"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "In the year 2401, space marines Sergeant Cortez and Corporal Hart assault a TimeSplitter-controlled space station to recover powerful time crystals. When the alien TimeSplitters escape through a temporal portal with the crystals scattered across different eras, Cortez pursues them through time. He must inhabit various characters across ten historical periods—from 1853 Wild West to 2315 Robot Factory—completing era-specific missions to recover each crystal, prevent the TimeSplitters from altering human history, and stop their plot to enslave mankind."
+  }
 }
 ]
