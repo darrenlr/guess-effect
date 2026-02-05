@@ -12964,5 +12964,36 @@
     "metacritic": 88,
     "plot": "Eight years after the first game, Subject Delta—a prototype Big Daddy—awakens in Rapture after being forced to kill himself when separated from his bonded Little Sister, Eleanor Lamb. Now controlled by collectivist psychiatrist Dr. Sofia Lamb and her followers, the city faces new threats including the agile Big Sisters who hunt remaining Little Sisters. Delta must navigate the decaying underwater metropolis, fighting through Splicers and Lamb's cultists, to reunite with Eleanor before Lamb uses her daughter in a twisted experiment to create the ultimate collectivist being."
   }
+  },
+  {
+  "date": "2026-02-06",
+  "region": "NA",
+  "releaseDate": "2012-02-07",
+  "title": "Kingdoms of Amalur: Reckoning",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co25rk.webp",
+  "hints": {
+    "publisher": [
+      "38 Studios",
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Big Huge Games"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open-World"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Big Huge Engine",
+    "metacritic": 81,
+    "plot": "Resurrected by the experimental Well of Souls, you awaken as the Fateless One—the only being in Amalur freed from the bindings of destiny. In a world where fate determines all lives and the immortal Fae wage endless war against mortal Alfar in the Tuatha Deohn, your unprecedented existence allows you to change predetermined outcomes. You must master fluid combat, choose between Might, Finesse, and Sorcery skill trees, and forge your own path through the Faelands to defeat Gadflow and end the Crystal War threatening to destroy all of Amalur."
   }
+}
 ]
