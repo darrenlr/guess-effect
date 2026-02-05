@@ -12932,5 +12932,37 @@
     "metacritic": 90,
     "plot": "In the year 2401, space marines Sergeant Cortez and Corporal Hart assault a TimeSplitter-controlled space station to recover powerful time crystals. When the alien TimeSplitters escape through a temporal portal with the crystals scattered across different eras, Cortez pursues them through time. He must inhabit various characters across ten historical periods—from 1853 Wild West to 2315 Robot Factory—completing era-specific missions to recover each crystal, prevent the TimeSplitters from altering human history, and stop their plot to enslave mankind."
   }
-}
+},
+  {
+  "date": "2026-02-05",
+  "region": "WW",
+  "releaseDate": "2010-02-09",
+  "title": "BioShock 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mlj.webp",
+  "hints": {
+    "publisher": [
+      "2K Games"
+    ],
+    "developer": [
+      "2K Marin"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action",
+      "Survival Horror"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 2.5",
+    "metacritic": 88,
+    "plot": "Eight years after the first game, Subject Delta—a prototype Big Daddy—awakens in Rapture after being forced to kill himself when separated from his bonded Little Sister, Eleanor Lamb. Now controlled by collectivist psychiatrist Dr. Sofia Lamb and her followers, the city faces new threats including the agile Big Sisters who hunt remaining Little Sisters. Delta must navigate the decaying underwater metropolis, fighting through Splicers and Lamb's cultists, to reunite with Eleanor before Lamb uses her daughter in a twisted experiment to create the ultimate collectivist being."
+  }
+  }
 ]
