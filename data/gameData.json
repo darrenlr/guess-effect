@@ -13023,5 +13023,34 @@
     "metacritic": 89,
     "plot": "A royal guardsman is the sole survivor when the evil jester Dhoulmagus steals an ancient scepter from Trodain Castle, cursing King Trode into a toad-like creature, Princess Medea into a horse, and the entire kingdom into thorny ruins. Accompanied by the cursed royals, the Hero pursues Dhoulmagus across a vast cel-shaded world, joined by former bandit Yangus, vengeful mage Jessica, and Templar Angelo. Their quest reveals Dhoulmagus is merely a pawn possessed by Rhapthorne, the ancient Lord of Darkness, forcing them to prevent his resurrection and save the world."
   }
+},
+  {
+  "date": "2026-02-08",
+  "region": "WW",
+  "releaseDate": "2021-06-11",
+  "title": "Ratchet & Clank: Rift Apart",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2str.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "Platform",
+      "Third-Person Shooter",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 5"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "At a celebration honoring their heroics, Clank unveils a rebuilt Dimensionator to help Ratchet find the other Lombaxes. Dr. Nefarious steals the device, accidentally shattering it and tearing rifts across dimensions, transporting everyone to a reality where he always wins. Separated from Clank, Ratchet meets Rivet—a Lombax resistance fighter from this dimension battling Emperor Nefarious's tyranny. Using the Rift Tether to traverse dimensions instantly, they must prevent a catastrophic dimensional collapse, stop both Nefariouses, reunite with their partners, and find a way home."
+  }
 }
 ]
