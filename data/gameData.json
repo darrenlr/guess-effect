@@ -12995,5 +12995,33 @@
     "metacritic": 81,
     "plot": "Resurrected by the experimental Well of Souls, you awaken as the Fateless One—the only being in Amalur freed from the bindings of destiny. In a world where fate determines all lives and the immortal Fae wage endless war against mortal Alfar in the Tuatha Deohn, your unprecedented existence allows you to change predetermined outcomes. You must master fluid combat, choose between Might, Finesse, and Sorcery skill trees, and forge your own path through the Faelands to defeat Gadflow and end the Crystal War threatening to destroy all of Amalur."
   }
+},
+  {
+  "date": "2026-02-07",
+  "region": "JP",
+  "releaseDate": "2004-11-27",
+  "title": "Dragon Quest VIII: Journey of the Cursed King",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7vf2.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Level-5"
+    ],
+    "genre": [
+      "JRPG",
+      "RPG"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "A royal guardsman is the sole survivor when the evil jester Dhoulmagus steals an ancient scepter from Trodain Castle, cursing King Trode into a toad-like creature, Princess Medea into a horse, and the entire kingdom into thorny ruins. Accompanied by the cursed royals, the Hero pursues Dhoulmagus across a vast cel-shaded world, joined by former bandit Yangus, vengeful mage Jessica, and Templar Angelo. Their quest reveals Dhoulmagus is merely a pawn possessed by Rhapthorne, the ancient Lord of Darkness, forcing them to prevent his resurrection and save the world."
+  }
 }
 ]
