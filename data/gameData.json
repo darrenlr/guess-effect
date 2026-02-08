@@ -13052,5 +13052,35 @@
     "metacritic": 88,
     "plot": "At a celebration honoring their heroics, Clank unveils a rebuilt Dimensionator to help Ratchet find the other Lombaxes. Dr. Nefarious steals the device, accidentally shattering it and tearing rifts across dimensions, transporting everyone to a reality where he always wins. Separated from Clank, Ratchet meets Rivet—a Lombax resistance fighter from this dimension battling Emperor Nefarious's tyranny. Using the Rift Tether to traverse dimensions instantly, they must prevent a catastrophic dimensional collapse, stop both Nefariouses, reunite with their partners, and find a way home."
   }
+},
+  {
+  "date": "2026-02-09",
+  "region": "NA",
+  "releaseDate": "2008-09-30",
+  "title": "Silent Hill: Homecoming",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vyn.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Double Helix Games"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Slayer",
+    "metacritic": 71,
+    "plot": "Special Forces soldier Alex Shepherd returns to his hometown of Shepherd's Glen to find his younger brother Joshua missing and his mother catatonic. The town is plagued by nightmarish creatures and mysterious disappearances connected to a dark pact with Silent Hill. As Alex searches for Joshua through fog-shrouded streets and twisted otherworldly dimensions, he uncovers the horrifying truth about The Order's ancient sacrificial rituals binding four founding families together, ultimately confronting his own suppressed memories and the fate that awaits him."
+  }
 }
 ]
