@@ -13082,5 +13082,131 @@
     "metacritic": 71,
     "plot": "Special Forces soldier Alex Shepherd returns to his hometown of Shepherd's Glen to find his younger brother Joshua missing and his mother catatonic. The town is plagued by nightmarish creatures and mysterious disappearances connected to a dark pact with Silent Hill. As Alex searches for Joshua through fog-shrouded streets and twisted otherworldly dimensions, he uncovers the horrifying truth about The Order's ancient sacrificial rituals binding four founding families together, ultimately confronting his own suppressed memories and the fate that awaits him."
   }
+},
+  {
+  "date": "2026-02-10",
+  "region": "WW",
+  "releaseDate": "2025-09-04",
+  "title": "Hollow Knight: Silksong",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobebu.webp",
+  "hints": {
+    "publisher": [
+      "Team Cherry"
+    ],
+    "developer": [
+      "Team Cherry"
+    ],
+    "genre": [
+      "Metroidvania",
+      "Action",
+      "Platform"
+    ],
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Switch",
+      "Switch 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 92,
+    "plot": "Princess-protector Hornet is captured by outsider bugs and spirited away to the unfamiliar kingdom of Pharloom, ruled by silk and song. Escaping her cage before reaching her captors' destination, she must battle over 150 new foes, hunt rare beasts, solve ancient mysteries, and undertake a deadly pilgrimage ascending from mossy grottos and gilded cities to the shining citadel at the kingdom's peak. Armed with needle and thread, Hornet must uncover secrets tied to her nature and past while restoring hope to the haunted kingdom."
+  }
+},
+  {
+  "date": "2026-02-11",
+  "region": "NA",
+  "releaseDate": "2005-04-12",
+  "title": "Jade Empire",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co21x1.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "BioWare"
+    ],
+    "genre": [
+      "Action RPG",
+      "Martial Arts"
+    ],
+    "platforms": [
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Aurora Engine",
+    "metacritic": 89,
+    "plot": "Training at a remote martial arts school under Master Li's guidance, you are the last surviving Spirit Monk—a legendary warrior with the power to channel Chi. When your school is attacked and Master Li kidnapped, you journey across a mythical empire inspired by ancient China to rescue him. Along the way, you discover a conspiracy involving the corrupt Emperor Sun Hai, the drought he supposedly ended, and dark forces threatening the balance between the mortal realm and the spirit world as you follow either the Way of the Open Palm or the Way of the Closed Fist."
+  }
+},
+  {
+  "date": "2026-02-12",
+  "region": "NA",
+  "releaseDate": "2011-01-25",
+  "title": "Dead Space 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20xq.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Visceral Games"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Third-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Visceral Engine",
+    "metacritic": 90,
+    "plot": "Three years after escaping the Ishimura, Isaac Clarke awakens from a coma on the Sprawl—a massive space station orbiting Saturn's moon Titan—with no memory of recent events and tormented by visions of his dead girlfriend Nicole. When a new Necromorph outbreak erupts across the civilian metropolis, Isaac discovers he unwittingly helped construct the Marker causing the infection. Hunted by both government forces who want to dissect his Marker-corrupted mind and Unitologists seeking to exploit him, Isaac must fight through the chaos while battling his own deteriorating sanity to destroy the Marker and end the nightmare."
+  }
+},
+  {
+  "date": "2026-02-13",
+  "region": "NA",
+  "releaseDate": "2006-11-19",
+  "title": "The Legend of Zelda: Twilight Princess",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3w1h.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EAD"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Action RPG"
+    ],
+    "platforms": [
+      "Wii",
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 95,
+    "plot": "Farmhand Link is pulled into the Twilight Realm when the evil Zant invades Hyrule, transforming him into a wolf and imprisoning him in Hyrule Castle. With the mysterious imp Midna's help, he escapes and learns that Princess Zelda surrendered to save her people from Zant's Shadow Beasts. To restore light to Hyrule's twilight-covered provinces and return to human form, Link must collect Tears of Light, defeat twilit beasts, and retrieve the Fused Shadows—ancient artifacts Midna needs to defeat Zant and save both realms from merging into eternal darkness."
+  }
 }
 ]
