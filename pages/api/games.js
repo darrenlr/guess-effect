@@ -7,7 +7,7 @@ export default async (req, res) => {
 
   console.log(search);
 
-  const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&search=${search}&exclude_additions=true`);
+  const response = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&search=${search}&ordering=-rating`);
 
   const text = await response.text();
 
