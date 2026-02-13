@@ -13208,5 +13208,36 @@
     "metacritic": 95,
     "plot": "Farmhand Link is pulled into the Twilight Realm when the evil Zant invades Hyrule, transforming him into a wolf and imprisoning him in Hyrule Castle. With the mysterious imp Midna's help, he escapes and learns that Princess Zelda surrendered to save her people from Zant's Shadow Beasts. To restore light to Hyrule's twilight-covered provinces and return to human form, Link must collect Tears of Light, defeat twilit beasts, and retrieve the Fused Shadows—ancient artifacts Midna needs to defeat Zant and save both realms from merging into eternal darkness."
   }
+},
+  {
+  "date": "2026-02-14",
+  "region": "WW",
+  "releaseDate": "2019-02-04",
+  "title": "Apex Legends",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coa93z.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Respawn Entertainment"
+    ],
+    "genre": [
+      "Battle Royale",
+      "Hero Shooter",
+      "First-Person Shooter"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "engine": "Source",
+    "metacritic": 89,
+    "plot": "Set decades after the Frontier War between the Militia and IMC, former mercenary leader Kuben Blisk establishes the Apex Games—a televised bloodsport on the fringes of the Outlands backed by the Mercenary Syndicate. Squads of three legendary competitors with unique abilities drop onto remote arenas like Kings Canyon and World's Edge, battling for fame, fortune, and glory. As the Apex champion title draws fighters from across the galaxy, they compete in intense matches where teamwork, tactics, and survival instincts determine who becomes the last squad standing."
+  }
 }
 ]
