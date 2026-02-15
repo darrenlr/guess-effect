@@ -13239,5 +13239,64 @@
     "metacritic": 89,
     "plot": "Set decades after the Frontier War between the Militia and IMC, former mercenary leader Kuben Blisk establishes the Apex Games—a televised bloodsport on the fringes of the Outlands backed by the Mercenary Syndicate. Squads of three legendary competitors with unique abilities drop onto remote arenas like Kings Canyon and World's Edge, battling for fame, fortune, and glory. As the Apex champion title draws fighters from across the galaxy, they compete in intense matches where teamwork, tactics, and survival instincts determine who becomes the last squad standing."
   }
+},
+  {
+  "date": "2026-02-15",
+  "region": "WW",
+  "releaseDate": "2022-09-02",
+  "title": "The Last of Us Part I",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coa1gq.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Survival Horror",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 5",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Twenty years after a Cordyceps fungal outbreak has decimated civilization, hardened smuggler Joel is hired to escort 14-year-old Ellie out of a quarantine zone in Boston. Ellie is immune to the infection that transforms humans into aggressive creatures, making her humanity's potential cure. As they journey across the post-apocalyptic United States to reach the Fireflies—a resistance group seeking to develop a vaccine—their bond deepens while facing hostile survivors, military forces, and hordes of infected. The prequel Left Behind follows Ellie and her best friend Riley's adventure before the main events."
+  }
+},
+  {
+  "date": "2026-02-16",
+  "region": "JP",
+  "releaseDate": "2003-06-26",
+  "title": "Viewtiful Joe",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6nqo.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Beat 'em Up",
+      "Platform",
+      "Action"
+    ],
+    "platforms": [
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "Movie enthusiast Joe takes his girlfriend Silvia to see his favorite superhero Captain Blue on the big screen. When the villainous Jadow organization invades the theater and kidnaps Silvia, pulling her into the film's world of Movieland, Joe must follow to rescue her. Captain Blue entrusts Joe with a V-Watch, allowing him to transform into the superhero Viewtiful Joe with the catchphrase \"Henshin-a-go-go, baby!\" Using VFX Powers that manipulate time—Slow, Mach Speed, and Zoom—Joe battles through cinematic stages to defeat Jadow and save Silvia."
+  }
 }
 ]
