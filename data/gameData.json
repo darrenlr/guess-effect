@@ -13298,5 +13298,33 @@
     "metacritic": 93,
     "plot": "Movie enthusiast Joe takes his girlfriend Silvia to see his favorite superhero Captain Blue on the big screen. When the villainous Jadow organization invades the theater and kidnaps Silvia, pulling her into the film's world of Movieland, Joe must follow to rescue her. Captain Blue entrusts Joe with a V-Watch, allowing him to transform into the superhero Viewtiful Joe with the catchphrase \"Henshin-a-go-go, baby!\" Using VFX Powers that manipulate time—Slow, Mach Speed, and Zoom—Joe battles through cinematic stages to defeat Jadow and save Silvia."
   }
+},
+  {
+  "date": "2026-02-17",
+  "region": "JP",
+  "releaseDate": "2012-06-14",
+  "title": "Persona 4 Golden",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1n1x.webp",
+  "hints": {
+    "publisher": [
+      "Atlus"
+    ],
+    "developer": [
+      "Atlus"
+    ],
+    "genre": [
+      "JRPG",
+      "Social Simulation"
+    ],
+    "platforms": [
+      "PS Vita"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 93,
+    "plot": "A high school student moves from the city to rural Inaba for a year, staying with his uncle and young cousin. Strange murders plague the quiet town, coinciding with mysterious Midnight Channel broadcasts where victims appear on foggy nights before dying. Awakening to the power of Persona after entering a TV world filled with Shadows, he forms the Investigation Team with classmates Yosuke, Chie, Yukiko, and others. Balancing school life and Social Links by day with dungeon crawling by night, they must rescue victims trapped in their own psyches, uncover the killer's identity, and confront the truth behind Inaba's fog before time runs out."
+  }
 }
 ]
