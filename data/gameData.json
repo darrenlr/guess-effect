@@ -13326,5 +13326,35 @@
     "metacritic": 93,
     "plot": "A high school student moves from the city to rural Inaba for a year, staying with his uncle and young cousin. Strange murders plague the quiet town, coinciding with mysterious Midnight Channel broadcasts where victims appear on foggy nights before dying. Awakening to the power of Persona after entering a TV world filled with Shadows, he forms the Investigation Team with classmates Yosuke, Chie, Yukiko, and others. Balancing school life and Social Links by day with dungeon crawling by night, they must rescue victims trapped in their own psyches, uncover the killer's identity, and confront the truth behind Inaba's fog before time runs out."
   }
+},
+  {
+  "date": "2026-02-18",
+  "region": "NA",
+  "releaseDate": "2005-02-28",
+  "title": "Star Wars: Republic Commando",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2au4.webp",
+  "hints": {
+    "publisher": [
+      "LucasArts"
+    ],
+    "developer": [
+      "LucasArts"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Tactical Shooter"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "Unreal Engine 2.5",
+    "metacritic": 78,
+    "plot": "You are RC-1138, callsign Boss, leading Delta Squad—an elite unit of four genetically enhanced clone commandos trained by Mandalorian mercenaries. Deployed during the Clone Wars between Episodes II and III, your squad undertakes special operations across Geonosis, a derelict Republic assault ship, and Kashyyyk. Assassinate Separatist leaders, sabotage droid factories, rescue Wookiee chieftains, and complete precision missions behind enemy lines. The squad is your weapon—command Scorch, Fixer, and Sev as you infiltrate, dominate, and annihilate the enemy from inside your commando helmet."
+  }
 }
 ]
