@@ -13356,5 +13356,35 @@
     "metacritic": 78,
     "plot": "You are RC-1138, callsign Boss, leading Delta Squad—an elite unit of four genetically enhanced clone commandos trained by Mandalorian mercenaries. Deployed during the Clone Wars between Episodes II and III, your squad undertakes special operations across Geonosis, a derelict Republic assault ship, and Kashyyyk. Assassinate Separatist leaders, sabotage droid factories, rescue Wookiee chieftains, and complete precision missions behind enemy lines. The squad is your weapon—command Scorch, Fixer, and Sev as you infiltrate, dominate, and annihilate the enemy from inside your commando helmet."
   }
-}
+},
+  {
+  "date": "2026-02-19",
+  "region": "JP",
+  "releaseDate": "2017-02-07",
+  "title": "Nioh",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20xg.webp",
+  "hints": {
+    "publisher": [
+      "Koei Tecmo",
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Team Ninja"
+    ],
+    "genre": [
+      "Action RPG",
+      "Hack and Slash",
+      "Soulslike"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "In the year 1600 during Japan's violent Sengoku period, Irish sailor William Adams pursues occultist Edward Kelley to the war-torn island nation. Armed with guardian spirits and mastering the Ki Pulse stamina system, William battles yōkai demons and historical warlords across fantastical versions of real locations. Serving Tokugawa Ieyasu's campaign to unify Japan while investigating the mysterious Amrita substance that grants supernatural powers, William becomes entangled in political intrigue and a conspiracy threatening both the mortal realm and the spirit world as he hunts Kelley through blood-soaked battlefields."
+  }
+  }
 ]
