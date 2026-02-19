@@ -13415,5 +13415,35 @@
     "metacritic": 87,
     "plot": "After eight years of crime-fighting, 23-year-old Peter Parker faces his toughest challenge when villain Martin Li, aka Mister Negative, orchestrates a plot to seize control of New York's criminal underworld using the deadly Devil's Breath bioweapon. Balancing his superhero duties with personal struggles—including his fractured relationship with Mary Jane Watson and working alongside his mentor Otto Octavius—Peter must confront a conspiracy involving corrupt mayor Norman Osborn and the emergence of the Sinister Six. As enemies from his past converge and tragedy strikes close to home, Spider-Man fights to save the city while protecting those he loves."
   }
+},
+  {
+  "date": "2026-02-21",
+  "region": "NA",
+  "releaseDate": "2009-11-17",
+  "title": "Assassin's Creed II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montreal"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Stealth",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Anvil",
+    "metacritic": 91,
+    "plot": "In 2012, modern-day bartender Desmond Miles escapes Abstergo with the help of assassin Lucy Stillman and enters a new Animus 2.0 to relive memories of his ancestor Ezio Auditore da Firenze. In 1476 Renaissance Italy, young nobleman Ezio witnesses his father and brothers executed by a Templar conspiracy led by the Borgia family. Taking up the Assassin mantle left to him, Ezio embarks on a decades-long quest for vengeance across Florence, Venice, and Rome, wielding weapons designed by Leonardo da Vinci while uncovering an ancient conspiracy involving the Apple of Eden and mysterious First Civilization messages."
+  }
 }
 ]
