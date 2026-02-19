@@ -13386,5 +13386,34 @@
     "metacritic": 88,
     "plot": "In the year 1600 during Japan's violent Sengoku period, Irish sailor William Adams pursues occultist Edward Kelley to the war-torn island nation. Armed with guardian spirits and mastering the Ki Pulse stamina system, William battles yōkai demons and historical warlords across fantastical versions of real locations. Serving Tokugawa Ieyasu's campaign to unify Japan while investigating the mysterious Amrita substance that grants supernatural powers, William becomes entangled in political intrigue and a conspiracy threatening both the mortal realm and the spirit world as he hunts Kelley through blood-soaked battlefields."
   }
+  },
+  {
+  "date": "2026-02-20",
+  "region": "WW",
+  "releaseDate": "2018-09-07",
+  "title": "Marvel's Spider-Man",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r77.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open-World",
+      "Superhero"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "After eight years of crime-fighting, 23-year-old Peter Parker faces his toughest challenge when villain Martin Li, aka Mister Negative, orchestrates a plot to seize control of New York's criminal underworld using the deadly Devil's Breath bioweapon. Balancing his superhero duties with personal struggles—including his fractured relationship with Mary Jane Watson and working alongside his mentor Otto Octavius—Peter must confront a conspiracy involving corrupt mayor Norman Osborn and the emergence of the Sinister Six. As enemies from his past converge and tragedy strikes close to home, Spider-Man fights to save the city while protecting those he loves."
   }
+}
 ]
