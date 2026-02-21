@@ -13445,5 +13445,35 @@
     "metacritic": 91,
     "plot": "In 2012, modern-day bartender Desmond Miles escapes Abstergo with the help of assassin Lucy Stillman and enters a new Animus 2.0 to relive memories of his ancestor Ezio Auditore da Firenze. In 1476 Renaissance Italy, young nobleman Ezio witnesses his father and brothers executed by a Templar conspiracy led by the Borgia family. Taking up the Assassin mantle left to him, Ezio embarks on a decades-long quest for vengeance across Florence, Venice, and Rome, wielding weapons designed by Leonardo da Vinci while uncovering an ancient conspiracy involving the Apple of Eden and mysterious First Civilization messages."
   }
+},
+  {
+  "date": "2026-02-22",
+  "region": "NA",
+  "releaseDate": "2007-09-25",
+  "title": "Halo 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1xhc.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Game Studios"
+    ],
+    "developer": [
+      "Bungie"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "Blam!",
+    "metacritic": 94,
+    "plot": "Two weeks after the events of Halo 2, Master Chief crashes to Earth in East Africa while the Prophet of Truth excavates a massive Forerunner artifact beneath the sands. With the Covenant civil war between Elites and Brutes intensifying, Chief allies with the Arbiter and Sergeant Johnson to prevent Truth from activating the Ark—a facility capable of remotely firing all Halo rings and destroying all sentient life. Meanwhile, Cortana remains trapped with the Gravemind. As Chief pursues Truth to the Ark installation beyond the galaxy's edge, he must stop both the Prophet's genocidal plan and the resurgent Flood while attempting to rescue Cortana and finish the fight."
+  }
 }
 ]
