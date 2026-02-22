@@ -13475,5 +13475,33 @@
     "metacritic": 94,
     "plot": "Two weeks after the events of Halo 2, Master Chief crashes to Earth in East Africa while the Prophet of Truth excavates a massive Forerunner artifact beneath the sands. With the Covenant civil war between Elites and Brutes intensifying, Chief allies with the Arbiter and Sergeant Johnson to prevent Truth from activating the Ark—a facility capable of remotely firing all Halo rings and destroying all sentient life. Meanwhile, Cortana remains trapped with the Gravemind. As Chief pursues Truth to the Ark installation beyond the galaxy's edge, he must stop both the Prophet's genocidal plan and the resurgent Flood while attempting to rescue Cortana and finish the fight."
   }
+},
+  {
+  "date": "2026-02-23",
+  "region": "JP",
+  "releaseDate": "1999-09-22",
+  "title": "Resident Evil 3: Nemesis",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vvb.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Two months after surviving the mansion incident, former S.T.A.R.S. officer Jill Valentine finds herself trapped in Raccoon City as the T-virus outbreak consumes the population. While attempting to escape, she's relentlessly pursued by Nemesis—an indestructible bio-organic weapon programmed by Umbrella to hunt down and eliminate all remaining S.T.A.R.S. members. With the help of Umbrella Biohazard Countermeasure Service mercenaries Carlos, Mikhail, and the suspicious Nicholai, Jill must navigate city streets, battle mutated creatures, and survive Nemesis's terrifying attacks before a government missile wipes Raccoon City from existence."
+  }
 }
 ]
