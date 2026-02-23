@@ -13503,5 +13503,37 @@
     "metacritic": 91,
     "plot": "Two months after surviving the mansion incident, former S.T.A.R.S. officer Jill Valentine finds herself trapped in Raccoon City as the T-virus outbreak consumes the population. While attempting to escape, she's relentlessly pursued by Nemesis—an indestructible bio-organic weapon programmed by Umbrella to hunt down and eliminate all remaining S.T.A.R.S. members. With the help of Umbrella Biohazard Countermeasure Service mercenaries Carlos, Mikhail, and the suspicious Nicholai, Jill must navigate city streets, battle mutated creatures, and survive Nemesis's terrifying attacks before a government missile wipes Raccoon City from existence."
   }
+},
+  {
+  "date": "2026-02-24",
+  "region": "NA",
+  "releaseDate": "2007-11-05",
+  "title": "Call of Duty 4: Modern Warfare",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wko.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Infinity Ward"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "IW 3.0",
+    "metacritic": 94,
+    "plot": "In 2011, a civil war erupts in Russia when ultranationalist Imran Zakhaev seeks to restore Soviet-era power. Simultaneously, his ally Khaled Al-Asad seizes control of an unnamed Middle Eastern country through a violent coup. Playing as British SAS Sergeant John \"Soap\" MacTavish and U.S. Marine Sergeant Paul Jackson, you're thrust into global conflict across multiple hotspots. As Captain Price leads your SAS squad hunting Zakhaev and his nuclear ambitions, the mission becomes increasingly desperate when a nuclear device detonates, forcing an international response to prevent World War III and stop Zakhaev's plan to tip the global balance of power."
+  }
 }
 ]
