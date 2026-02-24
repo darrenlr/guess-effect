@@ -13535,5 +13535,33 @@
     "metacritic": 94,
     "plot": "In 2011, a civil war erupts in Russia when ultranationalist Imran Zakhaev seeks to restore Soviet-era power. Simultaneously, his ally Khaled Al-Asad seizes control of an unnamed Middle Eastern country through a violent coup. Playing as British SAS Sergeant John \"Soap\" MacTavish and U.S. Marine Sergeant Paul Jackson, you're thrust into global conflict across multiple hotspots. As Captain Price leads your SAS squad hunting Zakhaev and his nuclear ambitions, the mission becomes increasingly desperate when a nuclear device detonates, forcing an international response to prevent World War III and stop Zakhaev's plan to tip the global balance of power."
   }
-}
+},
+  {
+  "date": "2026-02-25",
+  "region": "JP",
+  "releaseDate": "1999-11-18",
+  "title": "Chrono Cross",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1oj7.webp",
+  "hints": {
+    "publisher": [
+      "Square"
+    ],
+    "developer": [
+      "Square"
+    ],
+    "genre": [
+      "JRPG",
+      "RPG"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "Seventeen-year-old Serge lives a peaceful life in the tropical village of Arni until he's mysteriously transported to an alternate dimension where he drowned ten years ago. In this parallel world, he encounters Kid, a fiery thief seeking the legendary Frozen Flame artifact. Aided by over 40 potential allies across two intertwined realities, Serge must unravel the mystery of the dimensional split, confront the enigmatic Lynx who seeks to capture him, and discover the truth about his own death while navigating choices that determine the fate of both worlds."
+  }
+  }
 ]
