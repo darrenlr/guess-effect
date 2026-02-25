@@ -13563,5 +13563,34 @@
     "metacritic": 94,
     "plot": "Seventeen-year-old Serge lives a peaceful life in the tropical village of Arni until he's mysteriously transported to an alternate dimension where he drowned ten years ago. In this parallel world, he encounters Kid, a fiery thief seeking the legendary Frozen Flame artifact. Aided by over 40 potential allies across two intertwined realities, Serge must unravel the mystery of the dimensional split, confront the enigmatic Lynx who seeks to capture him, and discover the truth about his own death while navigating choices that determine the fate of both worlds."
   }
+  },
+  {
+  "date": "2026-02-26",
+  "region": "JP",
+  "releaseDate": "2004-07-22",
+  "title": "Paper Mario: The Thousand-Year Door",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob9xy.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Intelligent Systems"
+    ],
+    "genre": [
+      "RPG",
+      "JRPG",
+      "Turn-Based"
+    ],
+    "platforms": [
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "Mario receives a treasure map from Princess Peach inviting him to the seedy port town of Rogueport, but she vanishes before his arrival. The map reveals seven Crystal Stars needed to open the ancient Thousand-Year Door beneath Rogueport's ruins. Joined by partners including Goombella, Koops, and others with unique abilities, Mario must collect the Crystal Stars before the villainous X-Nauts—a secret society led by Sir Grodus—can seize them. Meanwhile, Princess Peach and Bowser have their own stories running parallel to Mario's quest to prevent an ancient evil sealed behind the Door from awakening."
+  }
   }
 ]
