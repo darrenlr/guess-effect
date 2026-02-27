@@ -13592,5 +13592,34 @@
     "metacritic": 87,
     "plot": "Mario receives a treasure map from Princess Peach inviting him to the seedy port town of Rogueport, but she vanishes before his arrival. The map reveals seven Crystal Stars needed to open the ancient Thousand-Year Door beneath Rogueport's ruins. Joined by partners including Goombella, Koops, and others with unique abilities, Mario must collect the Crystal Stars before the villainous X-Nauts—a secret society led by Sir Grodus—can seize them. Meanwhile, Princess Peach and Bowser have their own stories running parallel to Mario's quest to prevent an ancient evil sealed behind the Door from awakening."
   }
+  },
+  {
+  "date": "2026-02-27",
+  "region": "WW",
+  "releaseDate": "2011-05-17",
+  "title": "The Witcher 2: Assassins of Kings",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wy4.webp",
+  "hints": {
+    "publisher": [
+      "CD Projekt",
+      "Atari"
+    ],
+    "developer": [
+      "CD Projekt Red"
+    ],
+    "genre": [
+      "Action RPG",
+      "Fantasy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "REDengine",
+    "metacritic": 88,
+    "plot": "Continuing immediately after the first game, Geralt serves as bodyguard to King Foltest during the siege of La Valette Castle. When a mysterious witcher-like assassin murders the king, Geralt becomes the prime suspect and must flee with Foltest's special forces commander Vernon Roche. Tracking the real kingslayer across war-torn Northern Kingdoms, Geralt discovers a conspiracy involving multiple murdered monarchs, the Lodge of Sorceresses, and the Nilfgaardian Empire. His choices between supporting rebel elves or human authorities dramatically alter the story, leading to entirely different second acts and multiple endings."
   }
+}
 ]
