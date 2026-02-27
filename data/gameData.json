@@ -13621,5 +13621,38 @@
     "metacritic": 88,
     "plot": "Continuing immediately after the first game, Geralt serves as bodyguard to King Foltest during the siege of La Valette Castle. When a mysterious witcher-like assassin murders the king, Geralt becomes the prime suspect and must flee with Foltest's special forces commander Vernon Roche. Tracking the real kingslayer across war-torn Northern Kingdoms, Geralt discovers a conspiracy involving multiple murdered monarchs, the Lodge of Sorceresses, and the Nilfgaardian Empire. His choices between supporting rebel elves or human authorities dramatically alter the story, leading to entirely different second acts and multiple endings."
   }
+},
+  {
+  "date": "2026-02-28",
+  "region": "NA",
+  "releaseDate": "2012-11-29",
+  "title": "Far Cry 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Montreal"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Action-Adventure",
+      "Open-World"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "Dunia 2",
+    "metacritic": 88,
+    "plot": "Thrill-seeking tourists Jason Brody and his friends are captured while skydiving onto the Rook Islands for vacation. Imprisoned by the psychotic pirate lord Vaas Montenegro and his gang, Jason escapes with his brother Grant's help, but Grant is killed by Vaas during the escape. Rescued by the indigenous Rakyat tribe led by Dennis Rogers and their warrior leader Citra, Jason receives the tatau—sacred tattoos marking him as a Rakyat warrior. To rescue his captured friends and girlfriend from Vaas and his boss Hoyt Volker's slave trafficking operation, Jason must embrace violence, master survival skills, and descend into madness as the island transforms him from ordinary tourist into deadly predator."
+  }
 }
 ]
