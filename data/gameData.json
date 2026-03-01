@@ -13654,5 +13654,33 @@
     "metacritic": 88,
     "plot": "Thrill-seeking tourists Jason Brody and his friends are captured while skydiving onto the Rook Islands for vacation. Imprisoned by the psychotic pirate lord Vaas Montenegro and his gang, Jason escapes with his brother Grant's help, but Grant is killed by Vaas during the escape. Rescued by the indigenous Rakyat tribe led by Dennis Rogers and their warrior leader Citra, Jason receives the tatau—sacred tattoos marking him as a Rakyat warrior. To rescue his captured friends and girlfriend from Vaas and his boss Hoyt Volker's slave trafficking operation, Jason must embrace violence, master survival skills, and descend into madness as the island transforms him from ordinary tourist into deadly predator."
   }
+},m
+  {
+  "date": "2026-03-01",
+  "region": "NA",
+  "releaseDate": "1997-11-06",
+  "title": "Crash Bandicoot 2: Cortex Strikes Back",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co82vt.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Platform",
+      "3D Platformer"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "GOOL 2",
+    "metacritic": null,
+    "plot": "A year after his defeat, Doctor Neo Cortex crashes onto an island and discovers the Master Crystal. Claiming to have reformed, he tricks Crash Bandicoot into collecting 25 slave crystals allegedly needed to save the world from planetary destruction. Using Warp Rooms to traverse different areas, Crash retrieves crystals while his sister Coco expresses doubts about Cortex's true intentions. Meanwhile, Doctor Nitrus Brio secretly contacts Crash urging him to collect gems to truly save the world, revealing Cortex actually plans to use the crystals to power his new space station and enslave Earth."
+  }
 }
 ]
