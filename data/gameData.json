@@ -13682,5 +13682,34 @@
     "metacritic": null,
     "plot": "A year after his defeat, Doctor Neo Cortex crashes onto an island and discovers the Master Crystal. Claiming to have reformed, he tricks Crash Bandicoot into collecting 25 slave crystals allegedly needed to save the world from planetary destruction. Using Warp Rooms to traverse different areas, Crash retrieves crystals while his sister Coco expresses doubts about Cortex's true intentions. Meanwhile, Doctor Nitrus Brio secretly contacts Crash urging him to collect gems to truly save the world, revealing Cortex actually plans to use the crystals to power his new space station and enslave Earth."
   }
+},
+  {
+  "date": "2026-03-02",
+  "region": "JP",
+  "releaseDate": "2004-03-18",
+  "title": "Katamari Damacy",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co67mq.webp",
+  "hints": {
+    "publisher": [
+      "Namco"
+    ],
+    "developer": [
+      "Namco"
+    ],
+    "genre": [
+      "Puzzle",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "The King of All Cosmos accidentally destroys all the stars in the universe during a drunken stupor. To fix his cosmic mistake, he orders his tiny 5-centimeter son, the Prince, to roll a magical adhesive ball called a katamari around Earth, collecting increasingly larger objects—from thumbtacks to cookies to cars to buildings to clouds—until each katamari grows large enough to become a replacement star or constellation. With quirky characters and surreal humor, the Prince must recreate the entire night sky one sticky ball at a time."
+  }
 }
 ]
