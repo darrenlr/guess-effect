@@ -519,3 +519,91 @@
     transform: translateX(-30px);
   }
 }
+
+/* Skip button pulse glow animation */
+.skipButtonPulse {
+  animation: skipPulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes skipPulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 68, 68, 0.8), 0 0 30px rgba(255, 68, 68, 0.4);
+  }
+}
+
+/* Game Status three-column grid */
+.statusGrid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr 1px 1fr;
+}
+
+.statusCol {
+  padding: 0.85rem 1rem;
+}
+
+.statusColCenter {
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statusColRight {
+  padding: 0.85rem 1rem;
+  display: flex;
+  gap:0.8rem;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.statusDivider {
+  background: var(--hud-color);
+}
+
+.statusScore {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2rem;
+  color: var(--hud-color);
+  line-height: 1;text-shadow: 0 0 10px var(--hud-color);
+}
+
+@media screen and (max-width: 767px) {
+  .statusGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .statusDivider {
+    height: 1px;
+    width: 100%;
+  }
+
+  .statusCol,
+  .statusColCenter,
+  .statusColRight {
+    align-items: center;
+    text-align: center;
+  }
+
+  .statusColRight {
+    align-items: center;
+  }
+}
+
+/* Skip button glitch text animation */
+@keyframes skipGlitchShift {
+  0%   { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(0); }
+  20%  { text-shadow: -2px 0 #ff0040, 2px 0 var(--hud-color); transform: translate(-2px, 1px); }
+  40%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(2px, -1px); }
+  60%  { text-shadow: -2px 0 #ff0040, 2px 0 var(--hud-color); transform: translate(0); }
+  80%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(1px, 2px); }
+  100% { text-shadow: none; transform: translate(0); }
+}
+
+.skipGlitchText {
+  animation: skipGlitchShift 4s steps(1) infinite;
+  font-family: var(--font-family-main);
+}

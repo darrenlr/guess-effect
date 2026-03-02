@@ -11,11 +11,6 @@ import endlessStyles from "../styles/EndlessMode.module.css";
 const Endless = () => {
     const router = useRouter();
     
-    // Redirect to homepage - Endless mode temporarily disabled
-    useEffect(() => {
-        router.push('/');
-    }, [router]);
-    
     const mode = 'easy'; // For now, only easy mode
     const { state, setState, stats, updateStats, clearState } = useEndlessMode(mode);
     

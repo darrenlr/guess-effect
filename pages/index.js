@@ -67,10 +67,12 @@ const Home = () => {
             <div className={styles.terminalHeader}>C:\GAMES\ENDLESS&gt;_</div>
             <h2 className={styles.boxTitle}>&gt; [∞] ENDLESS.EXE</h2>
             <div className={styles.modeOptions}>
-              <button className={`${styles.optionButton} ${styles.easyOption}`} disabled>
+                <Link href="/endless">
+              <button className={`${styles.optionButton} ${styles.easyOption}`}>
                 <span className={styles.optionTitle}>EASY.COM</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
+                </Link>
               <button className={`${styles.optionButton} ${styles.mediumOption}`} disabled>
                 <span className={styles.optionTitle}>Medium</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
