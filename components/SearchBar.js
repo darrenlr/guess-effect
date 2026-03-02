@@ -3,7 +3,7 @@ import { ThreeDots } from "react-loader-spinner";
 import GameSelect from "./GameSelect";
 import styles from "../styles/SearchBar.module.css";
 
-const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate }) => {
+const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate, gameNumber }) => {
 	const [isLoading, setIsLoading] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(null);
 	const [options, setOptions] = useState([]);
@@ -138,7 +138,7 @@ const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate }) 
 			<div className={styles.terminalHeader}>
                 { currentGame ? (
                     <span>C:\GAMES\ENDLESS\GAME_{currentGame}\GAME.EXE</span>
-                ) : <span>C:\GAMES\{isArchived ? "ARCHIVE" : "DAILY"}\{gameDate}\GAME.EXE</span>
+                ) : <span>C:\GAMES\{isArchived ? `ARCHIVE\\#${gameNumber}` : `DAILY\\#${gameNumber}`}\GAME.EXE</span>
                 }
                 <span>[█][▓][X]</span>
 

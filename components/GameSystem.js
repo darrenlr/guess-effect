@@ -498,7 +498,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
 
     return isMounted ? (
         <div className={styles.container}>
-            {game && <ReleaseDate date={game.releaseDate} region={game.region} archivedOn={isArchive ? game.date : null} />}
+            {game && <ReleaseDate date={game.releaseDate} region={game.region} archivedOn={isArchive ? game.date : null} gameNumber={game.gameNumber} />}
             {/*{!matchedScore && (*/}
             {/*    <>*/}
             {/*        <div className={`${styles.stats} ${styles.statsMobile}`}>*/}
@@ -524,7 +524,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
             {/*        </div>*/}
             {/*    </>*/}
             {/*)}*/}
-            <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} isArchived={isArchive} gameDate={game.date} />
+            <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} isArchived={isArchive} gameDate={game.date} gameNumber={game.gameNumber} />
             {game && gameState && (
                 <GameCard
                     gameData={game}
@@ -539,7 +539,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
             <div className={styles.statsContainer}>
                 {!matchedScore && (
                     <div className={styles.terminalStatsBox}>
-                        <div className={styles.terminalStatsHeader}>GAME STATUS</div>
+                        <div className={styles.terminalStatsHeader}>DAILY_STATUS.SYS</div>
                         <div className={styles.terminalStatsContent}>
                             <div className={styles.missesSection}>
                                 <div className={styles.missesTitle}>&gt; MISSES:</div>

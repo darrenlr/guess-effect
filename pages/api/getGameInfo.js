@@ -9,13 +9,13 @@ export default function handler(req, res) {
 
     const date = req.query.date || new Date().toISOString().split('T')[0];
 
-    const gameInfo = gameData.find((game) => game.date === date);
+    const gameIndex = gameData.findIndex((game) => game.date === date);
 
-    if (! gameInfo) {
+    if (gameIndex === -1) {
       return res.status(404).json({ error: 'Game not found' });
     }
 
-    return res.status(200).json(gameInfo);
+    return res.status(200).json({ ...gameData[gameIndex], gameNumber: gameIndex + 1 });
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: 'An error occurred while fetching the game info' });

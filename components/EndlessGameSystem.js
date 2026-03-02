@@ -445,7 +445,7 @@ const EndlessGameSystem = ({
                                 fontWeight: 'bold',
                                 letterSpacing: '0.05em'
                             }}>
-                                C:\GAMES\ENDLESS\STATUS.SYS
+                                ENDLESS_STATUS.SYS
                             </div>
                             {/* Three-column grid */}
                             <div className={endlessStyles.statusGrid}>
