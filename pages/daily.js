@@ -78,21 +78,6 @@ const Daily = () => {
         })}
       </Script>
 
-
-      <MessageModal
-        messageKey="message_v1"
-        messageContent={
-          <>
-            <div style={{ fontSize: "1.4rem" }}>
-              Game archives are now <strong>LIVE</strong>!
-            </div>
-            <div style={{ marginTop: "1.8rem" }}>
-              Access via the calendar icon in the nav bar.
-            </div>
-          </>
-        }
-      />
-
       {loading ? (
         <div className="loading-container">
           <p className="loader"></p>

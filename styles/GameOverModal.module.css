@@ -239,10 +239,20 @@
 
   .victory {
     color: gold;
+    animation: resultGlitch 5s steps(1) infinite;
   }
   
   .defeat {
     color: red;
+    animation: resultGlitch 5s steps(1) infinite;
+  }
+
+  @keyframes resultGlitch {
+    0%   { text-shadow: 2px 0 #ff0040, -2px 0 currentColor; transform: translate(0); }
+    8%   { text-shadow: -3px 0 #ff0040, 3px 0 #00a2ff; transform: translate(-2px, 1px); }
+    16%  { text-shadow: 2px 0 #ff0040, -2px 0 currentColor; transform: translate(2px, 0); }
+    24%  { text-shadow: none; transform: translate(0); }
+    100% { text-shadow: none; transform: translate(0); }
   }
 
   @media screen and (max-width: 768px) {

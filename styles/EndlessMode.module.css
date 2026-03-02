@@ -215,6 +215,15 @@
   font-size: 1.8rem;
   letter-spacing: 0.05em;
   margin-bottom: 0.25rem;
+  animation: resultGlitch 5s steps(1) infinite;
+}
+
+@keyframes resultGlitch {
+  0%   { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(0); }
+  8%   { text-shadow: -3px 0 #ff0040, 3px 0 #00a2ff; transform: translate(-2px, 1px); }
+  16%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(2px, 0); }
+  24%  { text-shadow: none; transform: translate(0); }
+  100% { text-shadow: none; transform: translate(0); }
 }
 
 .modalGameLabel {

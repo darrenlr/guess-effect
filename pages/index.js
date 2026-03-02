@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import ArchiveModal from "../components/ArchiveModal";
+import EndlessAnnouncementModal from "../components/EndlessAnnouncementModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import useHudColor from "../hooks/useHudColor";
 import styles from "../styles/Home.module.css";
@@ -89,6 +90,7 @@ const Home = () => {
       {showCalendar && (
         <ArchiveModal closeModal={() => setShowCalendar(false)} gameHistory={gameHistory} />
       )}
+      <EndlessAnnouncementModal />
     </>
   );
 };
