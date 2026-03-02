@@ -63,6 +63,7 @@
 .skipButtonOption4 {
   background: rgba(35, 0, 0, 0.6);
   border: 2px solid #cc4444;
+    border-radius: 0;
   color: #ffffff;
   position: relative;
   overflow: hidden;
@@ -135,7 +136,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,37 +144,203 @@
 }
 
 .modal {
-  box-shadow: 0px 0px 2px #000;
-  background-color: #000;
-  border: 2px solid #fff;
-  border-radius: 8px;
-  padding: 2rem;
+  background: #000000;
+  border: 3px double var(--hud-color);
   width: 90%;
-  max-width: 500px;
+  max-width: 460px;
   box-sizing: border-box;
   color: white;
+  position: relative;
+  overflow: hidden;
+  animation: modalPulse 4s ease-in-out infinite;
+}
+
+@keyframes modalPulse {
+  0%, 100% { box-shadow: 0 0 8px var(--hud-color); }
+  50%      { box-shadow: 0 0 24px var(--hud-color), 0 0 48px rgba(0, 255, 65, 0.15); }
+}
+
+.modalScanlines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.15) 2px,
+    rgba(0, 0, 0, 0.15) 4px
+  );
+}
+
+.modalScanLine {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--hud-color), transparent);
+  opacity: 0.45;
+  z-index: 3;
+  pointer-events: none;
+  animation: scanDown 3s linear infinite;
+}
+
+@keyframes scanDown {
+  0%   { top: -2%; }
+  100% { top: 102%; }
+}
+
+.modalHeader {
+  background: var(--hud-color);
+  color: #000;
+  padding: 5px 10px;
+  font-family: var(--font-family-main);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  position: relative;
+  z-index: 2;
+}
+
+.modalBody {
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.modalResultText {
+  font-family: var(--font-family-main);
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+  animation: resultGlitch 5s steps(1) infinite;
+}
+
+@keyframes resultGlitch {
+  0%   { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(0); }
+  8%   { text-shadow: -3px 0 #ff0040, 3px 0 #00a2ff; transform: translate(-2px, 1px); }
+  16%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(2px, 0); }
+  24%  { text-shadow: none; transform: translate(0); }
+  100% { text-shadow: none; transform: translate(0); }
+}
+
+.modalGameLabel {
+  font-family: var(--font-family-main);
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+.modalGameTitle {
+    font-family: var(--font-family-main);
+
+    font-size: 26px;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+    color: var(--hud-color);
+}
+
+.modalBoxArtFrame {
+  display: inline-block;
+  border: 1px solid var(--hud-color);
+  padding: 4px;
+  margin-bottom: 1.2rem;
+}
+
+.modalBoxArtInner {
+  width: 160px;
+  height: 213px;
+  position: relative;
+  overflow: hidden;
+}
+
+.modalLivesLabel {
+  font-family: var(--font-family-main);
+  font-size: 0.7rem;
+  color: var(--hud-color);
+  margin-bottom: 0.8rem;
+}
+
+.modalScoreBlock {
+  border: 1px solid var(--hud-color);
+  background: #000000;
+  margin: 1.25rem 0;
+  padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalScoreLabel {
+  font-family: var(--font-family-main);
+  font-size: 14px;
+  color: var(--hud-color);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.6rem;
+}
+
+.modalScoreValue {
+    font-family: var(--font-family-main);
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px var(--hud-color);
+    line-height: 1;
 }
 
 .continueButton,
 .primaryButton {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  border: 2px solid #fff;
-  border-radius: 8px;
-  padding: 0.75rem 1.5rem;
-  color: white;
+  width: 100%;
+  background: #000000;
+  border: 3px double var(--hud-color);
+  color: var(--hud-color);
   font-family: var(--font-family);
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.85rem 1.5rem;
   cursor: pointer;
-  transition: all 0.3s ease;
-  min-width: 150px;
-  height: 50px;
+  letter-spacing: 0.1em;
+  animation: contBtnFlicker 6s steps(1) infinite;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.25s;
+  box-sizing: border-box;
+}
+
+@keyframes contBtnFlicker {
+  0%, 90%, 100% { opacity: 1; }
+  92%            { opacity: 0.5; }
+  94%            { opacity: 1; }
+  96%            { opacity: 0.7; }
+}
+
+.continueButton::after,
+.primaryButton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--hud-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+  z-index: 0;
+}
+
+.continueButton:hover::after,
+.primaryButton:hover::after {
+  transform: scaleX(1);
 }
 
 .continueButton:hover,
 .primaryButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+  color: #000;
+}
+
+.continueButtonText {
+  position: relative;
+    font-size: 0.7rem;
+  z-index: 1;
 }
 
 .secondaryButton {
@@ -387,6 +554,103 @@
   color: white;
 }
 
+/* Summary Modal Classes */
+.summaryStatsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid var(--hud-color);
+}
+
+.summaryStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.85rem 1rem;
+  background: #000;
+  border: 1px solid var(--hud-color);
+  gap: 0.3rem;
+}
+
+.summaryStatValue {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.6rem;
+  color: var(--hud-color);
+  text-shadow: 0 0 8px var(--hud-color);
+  line-height: 1;
+}
+
+.summaryStatLabel {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.62rem;
+  color: var(--hud-color);
+  opacity: 0.6;
+  letter-spacing: 0.08em;
+}
+
+.summaryToggle {
+  width: 100%;
+  background: #000000;
+  border: 1px solid var(--hud-color);
+  color: var(--hud-color);
+  font-family: var(--font-family-main);
+  font-size: 0.8rem;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.2s;
+}
+
+.summaryToggle::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--hud-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+  z-index: 0;
+}
+
+.summaryToggle:hover::after { transform: scaleX(1); }
+.summaryToggle:hover { color: #000; }
+
+.summarySecondaryButton {
+  width: 100%;
+  background: #000000;
+  border: 3px double var(--hud-color);
+  color: var(--hud-color);
+  font-family: var(--font-family);
+  font-size: 0.7rem;
+  padding: 0.85rem 1.5rem;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.25s;
+  box-sizing: border-box;
+}
+
+.summarySecondaryButton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--hud-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+  z-index: 0;
+}
+
+.summarySecondaryButton:hover::after { transform: scaleX(1); }
+.summarySecondaryButton:hover { color: #000; opacity: 1; }
+
 @media screen and (max-width: 767px) {
   .endlessHeader {
     flex-direction: column;
@@ -518,4 +782,93 @@
     opacity: 0;
     transform: translateX(-30px);
   }
+}
+
+/* Skip button pulse glow animation */
+.skipButtonPulse {
+  animation: skipPulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes skipPulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 68, 68, 0.8), 0 0 30px rgba(255, 68, 68, 0.4);
+  }
+}
+
+/* Game Status three-column grid */
+.statusGrid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr 1px 1fr;
+}
+
+.statusCol {
+  padding: 0.85rem 1rem;
+}
+
+.statusColCenter {
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statusColRight {
+  padding: 0.85rem 1rem;
+  display: flex;
+  gap:0.8rem;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.statusDivider {
+  background: var(--hud-color);
+}
+
+.statusScore {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1;
+  text-shadow: 0 0 10px var(--hud-color);
+}
+
+@media screen and (max-width: 767px) {
+  .statusGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .statusDivider {
+    height: 1px;
+    width: 100%;
+  }
+
+  .statusCol,
+  .statusColCenter,
+  .statusColRight {
+    align-items: center;
+    text-align: center;
+  }
+
+  .statusColRight {
+    align-items: center;
+  }
+}
+
+/* Skip button glitch text animation */
+@keyframes skipGlitchShift {
+  0%   { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(0); }
+  20%  { text-shadow: -2px 0 #ff0040, 2px 0 var(--hud-color); transform: translate(-2px, 1px); }
+  40%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(2px, -1px); }
+  60%  { text-shadow: -2px 0 #ff0040, 2px 0 var(--hud-color); transform: translate(0); }
+  80%  { text-shadow: 2px 0 #ff0040, -2px 0 var(--hud-color); transform: translate(1px, 2px); }
+  100% { text-shadow: none; transform: translate(0); }
+}
+
+.skipGlitchText {
+  animation: skipGlitchShift 4s steps(1) infinite;
+  font-family: var(--font-family-main);
 }

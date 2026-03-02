@@ -33,28 +33,28 @@ const initialGameState = {
     },
 };
 
-const EndlessGameSystem = ({ 
-    game, 
-    onNextGame, 
-    onGameComplete,
-    onGiveUp,
-    currentGameNumber,
-    totalScore,
-    lives,
-    currentStreak,
-    gamesPlayed,
-    isCompleted = false,
-    savedGameState = null,
-    onGameStateChange = null,
-    onModalStateChange = null
-}) => {
+const EndlessGameSystem = ({
+                               game,
+                               onNextGame,
+                               onGameComplete,
+                               onGiveUp,
+                               currentGameNumber,
+                               totalScore,
+                               lives,
+                               currentStreak,
+                               gamesPlayed,
+                               isCompleted = false,
+                               savedGameState = null,
+                               onGameStateChange = null,
+                               onModalStateChange = null
+                           }) => {
     const [isMounted, setIsMounted] = useState(false);
     const [gameState, setGameState] = useState({
         ...initialGameState,
         life: {
             ...initialGameState.life,
             remainingGuessCount: lives,
-            hearts: Array.from({ length: 10 }, (_, i) => 
+            hearts: Array.from({ length: 10 }, (_, i) =>
                 i < lives ? "/images/heart.png" : "/images/heart-black.png"
             ),
         }
@@ -72,7 +72,7 @@ const EndlessGameSystem = ({
     const [previousTotalScore, setPreviousTotalScore] = useState(totalScore);
 
     const [animatedScore, setAnimatedScore] = useState(gameState.hints.points);
-    
+
     const previousGameRef = useRef(null);
     const hasRestoredRef = useRef(false);
 
@@ -81,30 +81,30 @@ const EndlessGameSystem = ({
         if (game) {
             // Check if this is actually a new game (release date changed)
             const isNewGame = previousGameRef.current !== game.releaseDate;
-            
+
             if (isNewGame) {
                 // Set loading state when new game starts
                 setIsLoadingGame(true);
-                
+
                 // Capture lives at the START of the round for modal animation
                 setPreviousLives(lives);
-                
+
                 // Only restore completed game state on FIRST load AND if parent says game was completed
                 const isRestoringCompletedGame = !hasRestoredRef.current && isCompleted && savedGameState !== null;
-                
+
                 if (isRestoringCompletedGame) {
                     hasRestoredRef.current = true;
                 }
-                
+
                 previousGameRef.current = game.releaseDate;
-                
+
                 // Reset completion state for new games
                 setGameCompleted(isRestoringCompletedGame);
                 setShowContinueButton(isRestoringCompletedGame);
                 if (!isRestoringCompletedGame) {
                     setGameResult(null);
                 }
-                
+
                 // Use saved game state if available, otherwise create fresh state
                 if (savedGameState) {
                     // Restore the saved state (either in-progress or completed)
@@ -128,7 +128,7 @@ const EndlessGameSystem = ({
                         life: {
                             guesses: [],
                             remainingGuessCount: lives,
-                            hearts: Array.from({ length: 10 }, (_, i) => 
+                            hearts: Array.from({ length: 10 }, (_, i) =>
                                 i < lives ? "/images/heart.png" : "/images/heart-black.png"
                             ),
                         }
@@ -139,7 +139,7 @@ const EndlessGameSystem = ({
                         onGameStateChange(freshState);
                     }
                 }
-                
+
                 // Set gameResult for restoring completed games
                 if (isRestoringCompletedGame) {
                     setGameResult({
@@ -151,10 +151,10 @@ const EndlessGameSystem = ({
                         skipped: true,
                     });
                 }
-                
+
                 setIsGameOverModalVisible(false);
                 setIsTransitioning(false);
-                
+
                 // Preload box art image
                 if (game.boxArtUrl) {
                     const img = document.createElement('img');
@@ -174,7 +174,7 @@ const EndlessGameSystem = ({
     // Animate score (don't animate while modal is showing)
     useEffect(() => {
         if (showContinueButton) return; // Don't animate while modal is showing
-        
+
         const targetScore = gameState.hints.points;
         const duration = 200;
         const stepTime = 50;
@@ -234,10 +234,10 @@ const EndlessGameSystem = ({
 
     const handleGameComplete = (lostLife) => {
         if (gameCompleted) return;
-        
+
         // Store previous total score before parent updates it
         setPreviousTotalScore(totalScore);
-        
+
         const score = lostLife ? 0 : gameState.hints.points;
         const finalScore = score;
         const won = !lostLife;
@@ -253,7 +253,7 @@ const EndlessGameSystem = ({
 
         setGameResult(result);
         setGameCompleted(true);
-        
+
         // Reset animated score to 0 so new game doesn't show +100 until modal closes
         setAnimatedScore(0);
 
@@ -282,13 +282,13 @@ const EndlessGameSystem = ({
                     points: score,
                 },
             };
-            
+
             return completedGameState;
         });
 
         // Pass the completed game state to parent first
         onGameComplete({ ...result, gameState: completedGameState });
-        
+
         // Show modal after animation completes, but only if user has lives remaining
         // Don't show completion modal immediately - wait for parent to update lives state
         if (!lostLife || lives > 1) {
@@ -302,7 +302,7 @@ const EndlessGameSystem = ({
     const handleSkip = () => {
         // Don't allow skipping if already completed
         if (gameCompleted) return;
-        
+
         // Update game state to reduce remaining guess count first
         setGameState((prevState) => {
             const updatedRemainingGuessCount = prevState.life.remainingGuessCount - 1;
@@ -311,7 +311,7 @@ const EndlessGameSystem = ({
                     ? "/images/heart.png"
                     : "/images/heart-black.png"
             );
-            
+
             return {
                 ...prevState,
                 life: {
@@ -321,7 +321,7 @@ const EndlessGameSystem = ({
                 },
             };
         });
-        
+
         // Trigger animations (heart blink and card shake)
         setIsWrongGuess(true);
         setTimeout(() => {
@@ -354,7 +354,7 @@ const EndlessGameSystem = ({
                 let updatedGuesses = [...prevState.life.guesses, guess];
                 let updatedRemainingGuessCount = prevState.life.remainingGuessCount - 1;
                 newRemainingCount = updatedRemainingGuessCount;
-                
+
                 // Update hearts array to reflect the lost life
                 const updatedHearts = Array.from({ length: 10 }, (_, index) =>
                     index < updatedRemainingGuessCount
@@ -377,7 +377,7 @@ const EndlessGameSystem = ({
             setTimeout(() => {
                 setIsGuessCountUpdated(true);
                 setIsWrongGuess(false);
-                
+
                 // Check if run is over (no lives left)
                 if (newRemainingCount === 0) {
                     handleGameComplete(true);
@@ -400,151 +400,124 @@ const EndlessGameSystem = ({
                 </div>
             ) : (
                 <div className={styles.container}>
-                    {/* Game Counter and Release Date */}
+                    {/* Release Date with Game Number */}
                     {game && !showContinueButton && (
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', marginTop: '1rem', marginBottom: '1rem' }}>
-                            {/* Game Number */}
+                        <div style={{ marginBottom: '1rem' }}>
                             <div style={{
                                 fontFamily: 'var(--font-family)',
                                 fontSize: '1rem',
                                 color: '#fff',
-                                opacity: 0.8
+                                opacity: 0.8,
+                                textAlign: 'center',
+                                marginBottom: '0.5rem'
                             }}>
-                                Game #{currentGameNumber}
                             </div>
-                            
-                            {/* Release Date */}
-                            <div style={{
-                                display: 'inline-block',
-                                padding: '1rem',
-                                background: '#000',
-                                borderRadius: '8px',
-                                border: '2px solid rgba(255, 255, 255, 0.3)',
-                                boxShadow: '0 0 15px rgba(255, 255, 255, 0.1)'
-                            }}>
-                                <h2 style={{ margin: 0, fontFamily: 'var(--font-family-main)' }}>
-                                    {new Date(game.releaseDate).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })} ({game.region})
-                                </h2>
-                            </div>
+                            <ReleaseDate date={game.releaseDate} region={game.region} currentGame={currentGameNumber} />
                         </div>
                     )}
-            
-            {/* Mobile stats - visible only on mobile */}
-            {!showContinueButton && <div className={`${styles.stats} ${styles.statsMobile} ${endlessStyles.mobileOnly}`} style={{ flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
-                {/* Hearts - No border */}
-                <div style={{ display: 'flex', gap: '0.4rem' }}>
-                    {gameState.life.hearts.map((heartSrc, index) => (
-                        <Image
-                            key={index}
-                            src={heartSrc}
-                            alt="Heart"
-                            width={32}
-                            height={32}
-                            className={
-                                isWrongGuess &&
-                                index === gameState.life.remainingGuessCount
-                                    ? styles.blink
-                                    : ""
-                            }
+
+                    {!showContinueButton && <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} currentGame={currentGameNumber} />}
+
+                    {game && gameState && !showContinueButton && (
+                        <GameCard
+                            gameData={game}
+                            gameState={gameState}
+                            setGameState={setGameState}
+                            onRevealHint={(points) => onRevealHint(points)}
+                            isWrongGuess={isWrongGuess}
+                            setIsGuessCountUpdated={setIsGuessCountUpdated}
+                            isGameOver={gameCompleted}
+                            onGiveUp={handleSkip}
+                            isEndlessMode={true}
+                            gameWon={gameResult?.won || false}
                         />
-                    ))}
-                </div>
-                
-                {/* Total Score */}
-                <div style={{ 
-                    background: 'rgba(0, 0, 0, 0.5)',
-                    padding: '0.6rem 1.5rem',
-                    borderRadius: '10px',
-                    border: '2px solid #00ff88',
-                    fontFamily: 'var(--font-family)',
-                    boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
-                    display: 'inline-block',
-                    minWidth: 'fit-content',
-                    textAlign: 'center'
-                }}>
-                    <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
-                    <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
-                </div>
-            </div>}
-            
-            {!showContinueButton && <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />}
-            
-            {game && gameState && !showContinueButton && (
-                <GameCard
-                    gameData={game}
-                    gameState={gameState}
-                    setGameState={setGameState}
-                    onRevealHint={(points) => onRevealHint(points)}
-                    isWrongGuess={isWrongGuess}
-                    setIsGuessCountUpdated={setIsGuessCountUpdated}
-                    isGameOver={gameCompleted}
-                    onGiveUp={handleSkip}
-                    isEndlessMode={true}
-                    gameWon={gameResult?.won || false}
-                />
-            )}
-            
-            {!showContinueButton && <div className={`${styles.statsContainer} ${endlessStyles.desktopStats}`} style={{ flexDirection: 'column', gap: '2rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    {/* Hearts - No border */}
-                    <div style={{ display: 'flex', gap: '0.4rem' }}>
-                        {gameState.life.hearts.map((heartSrc, index) => (
-                            <Image
-                                key={index}
-                                src={heartSrc}
-                                alt="Heart"
-                                width={32}
-                                height={32}
-                                className={
-                                    isWrongGuess &&
-                                    index === gameState.life.remainingGuessCount
-                                        ? styles.blink
-                                        : ""
-                                }
-                            />
-                        ))}
-                    </div>
-                    
-                    {/* Total Score */}
-                    <div style={{ 
-                        background: 'rgba(0, 0, 0, 0.5)',
-                        padding: '0.6rem 1.5rem',
-                        borderRadius: '10px',
-                        border: '2px solid #00ff88',
-                        fontFamily: 'var(--font-family)',
-                        boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
-                        display: 'inline-block',
-                        textAlign: 'center'
-                    }}>
-                        <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
-                        <div style={{ fontSize: '1.6rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{Math.round(totalScore + animatedScore)}</div>
-                    </div>
-                </div>
-            </div>}
+                    )}
 
-            {/* Action Buttons */}
-            {!showContinueButton && <div className={endlessStyles.buttonContainer}>
-                <HoldButton 
-                    className={endlessStyles.skipButtonOption4}
-                    onComplete={handleSkip}
-                    holdDuration={2000}
-                    disabled={gameCompleted}
-                >
-                    {lives === 1 ? 'Give Up' : 'Skip'}
-                </HoldButton>
-            </div>}
+                    {!showContinueButton && <div style={{ width: '95%', maxWidth: '940px', margin: '1rem auto 0' }}>
+                        <div style={{ background: '#000', border: '3px double var(--hud-color)' }}>
+                            {/* Terminal header */}
+                            <div style={{
+                                background: 'var(--hud-color)',
+                                color: '#000',
+                                padding: '5px 10px',
+                                fontFamily: "'Share Tech Mono', monospace",
+                                fontSize: '12px',
+                                fontWeight: 'bold',
+                                letterSpacing: '0.05em'
+                            }}>
+                                ENDLESS_STATUS.SYS
+                            </div>
+                            {/* Three-column grid */}
+                            <div className={endlessStyles.statusGrid}>
+                                {/* Column 1: Lives */}
+                                <div className={endlessStyles.statusCol}>
+                                    <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '1.2rem', letterSpacing: '0.05em' }}>
+                                        &gt; LIVES
+                                    </div>
+                                    <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                        {gameState.life.hearts.map((heartSrc, index) => (
+                                            <Image
+                                                key={index}
+                                                src={heartSrc}
+                                                alt="Heart"
+                                                width={20}
+                                                height={20}
+                                                className={
+                                                    isWrongGuess &&
+                                                    index === gameState.life.remainingGuessCount
+                                                        ? styles.blink
+                                                        : ""
+                                                }
+                                            />
+                                        ))}
+                                    </div>
+                                </div>
 
-            <EndlessGameCompletionModal
-                show={showContinueButton}
-                won={gameResult?.won || false}
-                gameTitle={game?.title || ''}
-                boxArt={game?.boxArtUrl ? `https://${game.boxArtUrl}` : ''}
-                totalScore={previousTotalScore + (gameResult?.score || 0)}
-                previousScore={previousTotalScore}
-                lives={lives}
-                previousLives={previousLives}
-                onContinue={handleContinue}
-            />
+                                {/* Divider */}
+                                <div className={endlessStyles.statusDivider} />
+
+                                {/* Column 2: Action */}
+                                <div className={endlessStyles.statusColCenter}>
+                                    <HoldButton
+                                        className={endlessStyles.skipButtonOption4}
+                                        onComplete={handleSkip}
+                                        holdDuration={700}
+                                        disabled={gameCompleted}
+                                        style={{ width: '100%', fontSize: '1.4rem' }}
+                                    >
+                                        <span className={endlessStyles.skipGlitchText}>
+                                            {lives === 1 ? '[GIVE_UP.exe]' : '[SKIP_GAME.exe]'}
+                                        </span>
+                                    </HoldButton>
+                                </div>
+
+                                {/* Divider */}
+                                <div className={endlessStyles.statusDivider} />
+
+                                {/* Column 3: Score */}
+                                <div className={endlessStyles.statusColRight}>
+                                    <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '0.3rem', letterSpacing: '0.05em' }}>
+                                        &gt; TOTAL_SCORE
+                                    </div>
+                                    <div className={endlessStyles.statusScore}>
+                                        {Math.round(totalScore + animatedScore)}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>}
+
+                    <EndlessGameCompletionModal
+                        show={showContinueButton}
+                        won={gameResult?.won || false}
+                        gameTitle={game?.title || ''}
+                        boxArt={game?.boxArtUrl ? `https://${game.boxArtUrl}` : ''}
+                        totalScore={previousTotalScore + (gameResult?.score || 0)}
+                        previousScore={previousTotalScore}
+                        lives={lives}
+                        previousLives={previousLives}
+                        onContinue={handleContinue}
+                    />
                 </div>
             )}
         </>

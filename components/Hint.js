@@ -3,6 +3,7 @@ import styles from "../styles/Hint.module.css";
 
 const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
   const [revealed, setRevealed] = useState(isRevealed);
+  const [animating, setAnimating] = useState(false);
 
   useEffect(() => {
     setRevealed(isRevealed);
@@ -15,8 +16,13 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
   }, [data]);
 
   const revealHint = () => {
-    setRevealed(true);
+    if (animating) return;
+    setAnimating(true);
     onRevealHint(points);
+    setTimeout(() => {
+      setRevealed(true);
+      setAnimating(false);
+    }, 650);
   };
 
   const renderData = () => {
@@ -70,8 +76,15 @@ const Hint = ({ hint, data, onRevealHint, points, isRevealed }) => {
       ) : (
         <>
           <div className={styles.hintButton}>
-            <button className="hintButton" onClick={revealHint}>
-              [DECRYPT] (-{points})
+            <button
+              className={`hintButton ${animating ? styles.decryptAnimating : ""}`}
+              onClick={revealHint}
+              style={animating ? { pointerEvents: 'none' } : {}}
+            >
+              {animating && <span className={styles.decryptFill} />}
+              <span className={styles.decryptLabel}>
+                {animating ? "DECRYPTING..." : `[DECRYPT] (-${points})`}
+              </span>
             </button>
           </div>
         </>

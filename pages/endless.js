@@ -1,20 +1,25 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import { collection, addDoc, updateDoc, serverTimestamp } from 'firebase/firestore';
+import { db } from '../utils/firebase';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import EndlessGameSystem from "../components/EndlessGameSystem";
 import EndlessSummaryModal from "../components/EndlessSummaryModal";
 import EndlessStatsModal from "../components/EndlessStatsModal";
 import useEndlessMode from "../hooks/useEndlessMode";
+import useHudColor from "../hooks/useHudColor";
 import endlessStyles from "../styles/EndlessMode.module.css";
+
+const getEndlessCollectionName = () => {
+    const branch = process.env.NEXT_PUBLIC_BRANCH || 'main';
+    return branch === 'release' ? 'endlessStats-release' : 'endlessStats';
+};
 
 const Endless = () => {
     const router = useRouter();
-    
-    // Redirect to homepage - Endless mode temporarily disabled
-    useEffect(() => {
-        router.push('/');
-    }, [router]);
+    useHudColor();
+    const endlessSessionDocRef = React.useRef(null);
     
     const mode = 'easy'; // For now, only easy mode
     const { state, setState, stats, updateStats, clearState } = useEndlessMode(mode);
@@ -74,8 +79,6 @@ const Endless = () => {
                 setCurrentGame(game);
             }
             setIsGameCompleted(state.gameCompleted || false);
-
-            console.log(state);
             
             // If run was completed (no lives left), show summary modal
             if (state.lives === 0) {
@@ -127,8 +130,62 @@ const Endless = () => {
         setIsNewHighScore(false);
         setIsNewStreakRecord(false);
         setIsGameCompleted(false);
+        endlessSessionDocRef.current = null;
         
         setState(newState);
+    };
+
+    const trackGameResult = async (gamesPlayed, gamesGuessed) => {
+        try {
+            const gamesSkipped = gamesPlayed - gamesGuessed;
+            if (!endlessSessionDocRef.current) {
+                const today = new Date().toISOString().split('T')[0];
+                const docRef = await addDoc(collection(db, getEndlessCollectionName()), {
+                    date: today,
+                    gamesPlayed,
+                    gamesGuessed,
+                    gamesSkipped,
+                });
+                endlessSessionDocRef.current = docRef;
+            } else {
+                await updateDoc(endlessSessionDocRef.current, {
+                    gamesPlayed,
+                    gamesGuessed,
+                    gamesSkipped,
+                });
+            }
+        } catch (error) {
+            console.warn('Endless game tracking failed:', error.message);
+        }
+    };
+
+    const finalizeEndlessSession = async (finalScore, gamesPlayed, gamesGuessed, longestStreak) => {
+        try {
+            const successRate = gamesPlayed > 0 ? Math.round((gamesGuessed / gamesPlayed) * 100) : 0;
+            if (!endlessSessionDocRef.current) {
+                const today = new Date().toISOString().split('T')[0];
+                await addDoc(collection(db, getEndlessCollectionName()), {
+                    date: today,
+                    gamesPlayed,
+                    gamesGuessed,
+                    gamesSkipped: gamesPlayed - gamesGuessed,
+                    finalScore,
+                    longestStreak,
+                    successRate,
+                    lastUpdated: serverTimestamp(),
+                });
+            } else {
+                await updateDoc(endlessSessionDocRef.current, {
+                    finalScore,
+                    longestStreak,
+                    successRate,
+                    lastUpdated: serverTimestamp(),
+                });
+            }
+            endlessSessionDocRef.current = null;
+        } catch (error) {
+            console.warn('Endless session finalize failed:', error.message);
+        }
     };
 
     const handleGameComplete = (result) => {
@@ -157,6 +214,10 @@ const Endless = () => {
             // Store the record flags in state FIRST
             setIsNewHighScore(newHighScore);
             setIsNewStreakRecord(newStreakRecord);
+
+            // Finalize session in Firebase
+            const gamesGuessedCount = newResults.filter(r => r.won).length;
+            finalizeEndlessSession(newTotalScore, newResults.length, gamesGuessedCount, newLongestStreak);
             
             updateStats(newTotalScore, newLongestStreak);
             setShowSummary(true);
@@ -177,6 +238,10 @@ const Endless = () => {
             };
             setState(completedState);
         } else {
+            // Track this game result in Firebase
+            const gamesGuessedCount = newResults.filter(r => r.won).length;
+            trackGameResult(newResults.length, gamesGuessedCount);
+
             // Save updated state with current game still active (completed)
             const updatedState = {
                 gameResults: newResults,

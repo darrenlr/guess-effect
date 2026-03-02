@@ -3,10 +3,12 @@ import ShareButton from "./ShareButton";
 import CountdownTimer from './CountdownTimer';
 import styles from "../styles/GameOverModal.module.css";
 import confetti from "canvas-confetti";
+import endlessStyles from "../styles/EndlessMode.module.css";
 
 const GameOverModal = ({ 
 	show, 
-	gameTitle, 
+	gameTitle,
+   gameDate,
 	score, 
 	gamesPlayed, 
 	highestScore, 
@@ -20,7 +22,8 @@ const GameOverModal = ({
 	playerCount, 
 	gameWon,
 	onClose,
-	archivedGame, 
+	archivedGame,
+    archivedOn,
 }) => {
 	const [animatedScore, setAnimatedScore] = useState(0);
 	const [isScoreAnimationDone, setIsScoreAnimationDone] = useState(false);
@@ -90,15 +93,23 @@ const GameOverModal = ({
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
-			<div className={styles.terminalHeader}>C:\GAMES\DAILY\RESULTS.EXE</div>
+              { archivedGame ? (
+                  <div className={styles.terminalHeader}>C:\GAMES\ARCHIVED\{archivedOn}\RESULTS.EXE</div>
+              ) : <div className={styles.terminalHeader}>C:\GAMES\DAILY\{archivedOn}\RESULTS.EXE</div>
+              }
+
 			<div className={styles.modalContainer}>
+              {/* Scan overlays — contained below header */}
+              <div className={styles.scanOverlay}>
+                  <div className={endlessStyles.modalScanlines} style={{ position: 'absolute', inset: 0 }} />
+                  <div className={endlessStyles.modalScanLine} />
+              </div>
 			  <div className={styles.gameResultSection}>
 				<div className={gameWon ? styles.victory : styles.defeat}>
 				  {gameWon ? '>>> SUCCESS <<<' : '>>> FAILURE <<<'}
 				</div>
-				<div className={styles.gameIdentifiedLabel}>GAME IDENTIFIED:</div>
 				<div className={styles.gameTitle}>{gameTitle}</div>
-                  <div className={styles.scoreLabel}>SCORE.DAT</div>
+                  <div className={styles.scoreLabel}>SCORE</div>
                   <div className={styles.scoreValue}>{animatedScore}</div>
 			  </div>
 			  

@@ -1,14 +1,17 @@
 import React from "react";
 import styles from "../styles/ReleaseDate.module.css";
 
-const ReleaseDate = ({ date, region, archivedOn }) => {
+const ReleaseDate = ({ date, region, archivedOn, currentGame, gameNumber }) => {
   const newDate = new Date(date);
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   const dateString = newDate.toLocaleDateString("en-US", options);
 
   return (
     <div className={styles.releaseDateWrapper}>
-      <div className={styles.terminalHeader}>C:\GAMES\DAILY\RELEASE_DATE.SYS</div>
+        { currentGame ? (
+            <div className={styles.terminalHeaderEndless}>C:\GAMES\ENDLESS\GAME_{currentGame}\RELEASE_DATE.SYS</div>
+        ) : <div className={styles.terminalHeader}>C:\GAMES\{archivedOn ? `ARCHIVE\\#${gameNumber}` : `DAILY\\#${gameNumber}`}\RELEASE_DATE.SYS</div>
+        }
       <h2 className={styles.releaseDate}>{dateString} ({region})</h2>
       {archivedOn && (
         <h4 className={styles.releaseDateArchived}>[Archived on: {archivedOn}]</h4>

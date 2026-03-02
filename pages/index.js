@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import ArchiveModal from "../components/ArchiveModal";
+import EndlessAnnouncementModal from "../components/EndlessAnnouncementModal";
 import useLocalStorage from "../hooks/useLocalStorage";
 import useHudColor from "../hooks/useHudColor";
 import styles from "../styles/Home.module.css";
@@ -57,7 +58,7 @@ const Home = () => {
                 </button>
               </Link>
               <button className={`${styles.optionButton} ${styles.archiveOption}`} onClick={() => setShowCalendar(true)}>
-                <span className={styles.optionTitle}>DIR /ARCHIVE</span>
+                <span className={styles.optionTitle}>DIR /ARCHIVE.BAT</span>
                 <span className={styles.optionDescription}>Play previous games</span>
               </button>
             </div>
@@ -67,16 +68,18 @@ const Home = () => {
             <div className={styles.terminalHeader}>C:\GAMES\ENDLESS&gt;_</div>
             <h2 className={styles.boxTitle}>&gt; [∞] ENDLESS.EXE</h2>
             <div className={styles.modeOptions}>
-              <button className={`${styles.optionButton} ${styles.easyOption}`} disabled>
-                <span className={styles.optionTitle}>EASY.COM</span>
-                <span className={styles.optionDescription}>Coming Soon</span>
+                <Link href="/endless">
+              <button className={`${styles.optionButton} ${styles.easyOption}`}>
+                <span className={styles.optionTitle}>EASY</span>
+                <span className={styles.optionDescription}>All hints available</span>
               </button>
+                </Link>
               <button className={`${styles.optionButton} ${styles.mediumOption}`} disabled>
-                <span className={styles.optionTitle}>Medium</span>
+                <span className={styles.optionTitle}>MEDIUM</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
               <button className={`${styles.optionButton} ${styles.hardOption}`} disabled>
-                <span className={styles.optionTitle}>Hard</span>
+                <span className={styles.optionTitle}>MEDIUM</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
             </div>
@@ -87,6 +90,7 @@ const Home = () => {
       {showCalendar && (
         <ArchiveModal closeModal={() => setShowCalendar(false)} gameHistory={gameHistory} />
       )}
+      <EndlessAnnouncementModal />
     </>
   );
 };
