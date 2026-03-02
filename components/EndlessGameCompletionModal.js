@@ -156,7 +156,6 @@ const EndlessGameCompletionModal = ({
                     </div>
 
                     {/* Game label + title */}
-                    <div className={endlessStyles.modalGameLabel}>&gt; GAME_IDENTIFIED:</div>
                     <div className={endlessStyles.modalGameTitle}>{gameTitle}</div>
 
                     {/* Box art */}
@@ -174,7 +173,7 @@ const EndlessGameCompletionModal = ({
                     )}
 
                     {/* Lives */}
-                    <div className={endlessStyles.modalLivesLabel}>&gt; LIVES_REMAINING</div>
+                    <div className={endlessStyles.modalLivesLabel}>&gt; LIVES</div>
                     <div style={{ display: 'flex', gap: '0.25rem', justifyContent: 'center', flexWrap: 'wrap', position: 'relative' }}>
                         {Array.from({ length: 10 }).map((_, i) => (
                             <Image
@@ -208,7 +207,7 @@ const EndlessGameCompletionModal = ({
 
                     {/* Score block */}
                     <div className={endlessStyles.modalScoreBlock}>
-                        <div className={endlessStyles.modalScoreLabel}>TOTAL_SCORE</div>
+                        <div className={endlessStyles.modalScoreLabel}>&gt; TOTAL_SCORE</div>
                         <div className={endlessStyles.modalScoreValue}>{animatedScore}</div>
                     </div>
 
@@ -217,7 +216,7 @@ const EndlessGameCompletionModal = ({
                         className={endlessStyles.continueButton}
                         onClick={onContinue}
                     >
-                        <span className={endlessStyles.continueButtonText}>[ CONTINUE.EXE ]</span>
+                        <span className={endlessStyles.continueButtonText}>[CONTINUE.EXE]</span>
                     </button>
                 </div>
             </div>

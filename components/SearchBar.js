@@ -137,8 +137,8 @@ const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate }) 
 		<div className={styles.searchWrapper}>
 			<div className={styles.terminalHeader}>
                 { currentGame ? (
-                    <span>C:\\GAMES\\ENDLESS\\GAME_{currentGame}\\GAME.EXE</span>
-                ) : <span>C:\\GAMES\\{isArchived ? "ARCHIVE" : "DAILY"}\\{gameDate}\\GAME.EXE</span>
+                    <span>C:\GAMES\ENDLESS\GAME_{currentGame}\GAME.EXE</span>
+                ) : <span>C:\GAMES\{isArchived ? "ARCHIVE" : "DAILY"}\{gameDate}\GAME.EXE</span>
                 }
                 <span>[█][▓][X]</span>
 

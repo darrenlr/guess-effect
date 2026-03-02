@@ -195,10 +195,10 @@ const EndlessSummaryModal = ({
                     {/* Buttons */}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%' }}>
                         <button className={endlessStyles.continueButton} onClick={onPlayAgain}>
-                            <span className={endlessStyles.continueButtonText}>[ PLAY_AGAIN.EXE ]</span>
+                            <span className={endlessStyles.continueButtonText}>[PLAY_AGAIN.EXE]</span>
                         </button>
                         <button className={endlessStyles.summarySecondaryButton} onClick={onBackToMenu}>
-                            <span className={endlessStyles.continueButtonText}>[ BACK_TO_MENU.EXE ]</span>
+                            <span className={endlessStyles.continueButtonText}>[BACK_TO_MENU.EXE]</span>
                         </button>
                     </div>
                 </div>

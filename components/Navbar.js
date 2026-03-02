@@ -111,7 +111,7 @@ const Navbar = ({
 					closeModal={() => setShowArchiveModal(false)} 
 					gameHistory={gameHistory}
 					/>}
-			{showGuessEffectModal && <GuessEffectModal closeModal={() => setShowGuessEffectModal(false)} />}
+			{showGuessEffectModal && <GuessEffectModal closeModal={() => setShowGuessEffectModal(false)} isEndlessMode={isEndlessMode} />}
 			{showStatsModal 
 				&& <StatsModal  
 					closeModal={() => setShowStatsModal(false)}

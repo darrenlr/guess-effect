@@ -70,7 +70,7 @@ const Home = () => {
                 <Link href="/endless">
               <button className={`${styles.optionButton} ${styles.easyOption}`}>
                 <span className={styles.optionTitle}>EASY</span>
-                <span className={styles.optionDescription}>Coming Soon</span>
+                <span className={styles.optionDescription}>All hints available</span>
               </button>
                 </Link>
               <button className={`${styles.optionButton} ${styles.mediumOption}`} disabled>

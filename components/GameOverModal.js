@@ -90,28 +90,24 @@ const GameOverModal = ({
 		return null;
 	}
 
-    console.log("archivedOn", archivedOn);
-
 	return (
 		<div className={styles.modalOverlay} onClick={handleClickOutside}>
 		  <div className={styles.modal}>
               { archivedGame ? (
-                  <div className={styles.terminalHeader}>C:\\GAMES\\ARCHIVED\\{archivedOn}\\RESULTS.EXE</div>
-              ) : <div className={styles.terminalHeader}>C:\\GAMES\\DAILY\\{archivedOn}\\RESULTS.EXE</div>
+                  <div className={styles.terminalHeader}>C:\GAMES\ARCHIVED\{archivedOn}\RESULTS.EXE</div>
+              ) : <div className={styles.terminalHeader}>C:\GAMES\DAILY\{archivedOn}\RESULTS.EXE</div>
               }
 
-              {/* Scan overlays — contained to modal bounds */}
+			<div className={styles.modalContainer}>
+              {/* Scan overlays — contained below header */}
               <div className={styles.scanOverlay}>
                   <div className={endlessStyles.modalScanlines} style={{ position: 'absolute', inset: 0 }} />
                   <div className={endlessStyles.modalScanLine} />
               </div>
-
-			<div className={styles.modalContainer}>
 			  <div className={styles.gameResultSection}>
 				<div className={gameWon ? styles.victory : styles.defeat}>
 				  {gameWon ? '>>> SUCCESS <<<' : '>>> FAILURE <<<'}
 				</div>
-				<div className={styles.gameIdentifiedLabel}>GAME_IDENTIFIED</div>
 				<div className={styles.gameTitle}>{gameTitle}</div>
                   <div className={styles.scoreLabel}>SCORE</div>
                   <div className={styles.scoreValue}>{animatedScore}</div>

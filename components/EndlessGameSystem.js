@@ -445,14 +445,14 @@ const EndlessGameSystem = ({
                                 fontWeight: 'bold',
                                 letterSpacing: '0.05em'
                             }}>
-                                C:\\GAMES\\ENDLESS\\STATUS.SYS
+                                C:\GAMES\ENDLESS\STATUS.SYS
                             </div>
                             {/* Three-column grid */}
                             <div className={endlessStyles.statusGrid}>
                                 {/* Column 1: Lives */}
                                 <div className={endlessStyles.statusCol}>
                                     <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '1.2rem', letterSpacing: '0.05em' }}>
-                                        &gt; LIVES:
+                                        &gt; LIVES
                                     </div>
                                     <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                         {gameState.life.hearts.map((heartSrc, index) => (
@@ -481,7 +481,7 @@ const EndlessGameSystem = ({
                                     <HoldButton
                                         className={endlessStyles.skipButtonOption4}
                                         onComplete={handleSkip}
-                                        holdDuration={2000}
+                                        holdDuration={700}
                                         disabled={gameCompleted}
                                         style={{ width: '100%', fontSize: '1.4rem' }}
                                     >
@@ -497,7 +497,7 @@ const EndlessGameSystem = ({
                                 {/* Column 3: Score */}
                                 <div className={endlessStyles.statusColRight}>
                                     <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '0.3rem', letterSpacing: '0.05em' }}>
-                                        &gt; TOTAL SCORE:
+                                        &gt; TOTAL_SCORE
                                     </div>
                                     <div className={endlessStyles.statusScore}>
                                         {Math.round(totalScore + animatedScore)}

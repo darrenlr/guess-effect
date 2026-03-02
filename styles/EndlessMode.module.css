@@ -144,7 +144,7 @@
 }
 
 .modal {
-  background: rgba(255, 255, 255, 0.06);
+  background: #000000;
   border: 3px double var(--hud-color);
   width: 90%;
   max-width: 460px;
@@ -212,7 +212,7 @@
 
 .modalResultText {
   font-family: var(--font-family-main);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 0.05em;
   margin-bottom: 0.25rem;
 }
@@ -225,17 +225,20 @@
 }
 
 .modalGameTitle {
-  font-family: var(--font-family);
-  font-size: 1rem;
+    font-family: var(--font-family-main);
+
+    font-size: 26px;
   color: #fff;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+    color: var(--hud-color);
 }
 
 .modalBoxArtFrame {
   display: inline-block;
   border: 1px solid var(--hud-color);
   padding: 4px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .modalBoxArtInner {
@@ -249,8 +252,7 @@
   font-family: var(--font-family-main);
   font-size: 0.7rem;
   color: var(--hud-color);
-  opacity: 0.7;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .modalScoreBlock {
@@ -267,15 +269,14 @@
   font-family: var(--font-family-main);
   font-size: 14px;
   color: var(--hud-color);
-  opacity: 0.7;
   letter-spacing: 0.1em;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.6rem;
 }
 
 .modalScoreValue {
     font-family: var(--font-family-main);
     font-size: 2.5rem;
-    color: var(--hud-color);
+    color: #ffffff;
     text-shadow: 0 0 10px var(--hud-color);
     line-height: 1;
 }
@@ -329,6 +330,7 @@
 
 .continueButtonText {
   position: relative;
+    font-size: 0.7rem;
   z-index: 1;
 }
 
@@ -616,7 +618,7 @@
   border: 3px double var(--hud-color);
   color: var(--hud-color);
   font-family: var(--font-family);
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   padding: 0.85rem 1.5rem;
   cursor: pointer;
   letter-spacing: 0.1em;
@@ -819,7 +821,7 @@
 .statusScore {
   font-family: 'Share Tech Mono', monospace;
   font-size: 2rem;
-  color: var(--hud-color);
+  color: #fff;
   line-height: 1;
   text-shadow: 0 0 10px var(--hud-color);
 }

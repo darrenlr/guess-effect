@@ -9,8 +9,8 @@ const ReleaseDate = ({ date, region, archivedOn, currentGame }) => {
   return (
     <div className={styles.releaseDateWrapper}>
         { currentGame ? (
-            <div className={styles.terminalHeaderEndless}>C:\\GAMES\\ENDLESS\\GAME_{currentGame}\\RELEASE_DATE.SYS</div>
-        ) : <div className={styles.terminalHeader}>C:\\GAMES\\{archivedOn ? "ARCHIVE" : "DAILY"}\\{archivedOn}\\RELEASE_DATE.SYS</div>
+            <div className={styles.terminalHeaderEndless}>C:\GAMES\ENDLESS\GAME_{currentGame}\RELEASE_DATE.SYS</div>
+        ) : <div className={styles.terminalHeader}>C:\GAMES\{archivedOn ? "ARCHIVE" : "DAILY"}\{archivedOn}\RELEASE_DATE.SYS</div>
         }
       <h2 className={styles.releaseDate}>{dateString} ({region})</h2>
       {archivedOn && (
