@@ -102,10 +102,12 @@ const GameCard = ({
 			onRevealHint(points);
 		}
 
-		setGameState((prevState) => {
-			const updatedHints = { ...prevState.hints, [hint]: true };
-			return { ...prevState, hints: updatedHints };
-		});
+		setTimeout(() => {
+			setGameState((prevState) => {
+				const updatedHints = { ...prevState.hints, [hint]: true };
+				return { ...prevState, hints: updatedHints };
+			});
+		}, 650);
 	};
 
 	const handleRevealAll = () => {

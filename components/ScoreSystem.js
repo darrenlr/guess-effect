@@ -417,7 +417,7 @@ const ScoreSystem = ({ game, gameHistory, setGameHistory }) => {
 				<p>Bonus: {Math.round(animatedBonus)}</p>
 				<p>Score: {Math.round(animatedScore)}</p>
 			</div>
-			<SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
+			<SearchBar onSubmit={handleGuess} isGameOver={isGameOver} isArchived={isArchive} gameDate={game.date} />
 			{game && currentGameState && (
 				<GameCard
 					gameData={game}

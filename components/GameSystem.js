@@ -524,7 +524,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
             {/*        </div>*/}
             {/*    </>*/}
             {/*)}*/}
-            <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} />
+            <SearchBar onSubmit={handleGuess} isGameOver={isGameOver} isArchived={isArchive} gameDate={game.date} />
             {game && gameState && (
                 <GameCard
                     gameData={game}
@@ -589,6 +589,7 @@ const GameSystem = ({ game, gameHistory, setGameHistory, isArchive = false }) =>
                     : gameState.life.remainingGuessCount !== 0
                 }
                 archivedGame={isArchive}
+                archivedOn={game.date}
                 globalAverageScore={globalAverageScore}
                 globalAverageGuesses={globalAverageGuesses}
                 globalWinners={globalWinners}

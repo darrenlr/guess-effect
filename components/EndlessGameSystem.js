@@ -411,13 +411,12 @@ const EndlessGameSystem = ({
                                 textAlign: 'center',
                                 marginBottom: '0.5rem'
                             }}>
-                                Game #{currentGameNumber}
                             </div>
                             <ReleaseDate date={game.releaseDate} region={game.region} currentGame={currentGameNumber} />
                         </div>
                     )}
 
-                    {!showContinueButton && <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} />}
+                    {!showContinueButton && <SearchBar onSubmit={handleGuess} isGameOver={gameCompleted} currentGame={currentGameNumber} />}
 
                     {game && gameState && !showContinueButton && (
                         <GameCard
@@ -446,14 +445,14 @@ const EndlessGameSystem = ({
                                 fontWeight: 'bold',
                                 letterSpacing: '0.05em'
                             }}>
-                                C:\\GAMES\\ENDLESS\\GAME_{currentGameNumber}\\STATUS.SYS
+                                C:\\GAMES\\ENDLESS\\STATUS.SYS
                             </div>
                             {/* Three-column grid */}
                             <div className={endlessStyles.statusGrid}>
                                 {/* Column 1: Lives */}
                                 <div className={endlessStyles.statusCol}>
                                     <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '1.2rem', letterSpacing: '0.05em' }}>
-                                        &gt; LIVES
+                                        &gt; LIVES:
                                     </div>
                                     <div style={{ display: 'flex', gap: '0.2rem', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                         {gameState.life.hearts.map((heartSrc, index) => (
@@ -479,9 +478,6 @@ const EndlessGameSystem = ({
 
                                 {/* Column 2: Action */}
                                 <div className={endlessStyles.statusColCenter}>
-                                    <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '6px', letterSpacing: '0.05em' }}>
-                                        &gt; ACTION
-                                    </div>
                                     <HoldButton
                                         className={endlessStyles.skipButtonOption4}
                                         onComplete={handleSkip}
@@ -501,7 +497,7 @@ const EndlessGameSystem = ({
                                 {/* Column 3: Score */}
                                 <div className={endlessStyles.statusColRight}>
                                     <div style={{ fontFamily: "'Share Tech Mono', monospace", fontSize: '14px', color: 'var(--hud-color)', marginBottom: '0.3rem', letterSpacing: '0.05em' }}>
-                                        &gt; TOTAL SCORE
+                                        &gt; TOTAL SCORE:
                                     </div>
                                     <div className={endlessStyles.statusScore}>
                                         {Math.round(totalScore + animatedScore)}

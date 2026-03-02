@@ -57,7 +57,7 @@ const Home = () => {
                 </button>
               </Link>
               <button className={`${styles.optionButton} ${styles.archiveOption}`} onClick={() => setShowCalendar(true)}>
-                <span className={styles.optionTitle}>DIR /ARCHIVE</span>
+                <span className={styles.optionTitle}>DIR /ARCHIVE.BAT</span>
                 <span className={styles.optionDescription}>Play previous games</span>
               </button>
             </div>
@@ -69,16 +69,16 @@ const Home = () => {
             <div className={styles.modeOptions}>
                 <Link href="/endless">
               <button className={`${styles.optionButton} ${styles.easyOption}`}>
-                <span className={styles.optionTitle}>EASY.COM</span>
+                <span className={styles.optionTitle}>EASY</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
                 </Link>
               <button className={`${styles.optionButton} ${styles.mediumOption}`} disabled>
-                <span className={styles.optionTitle}>Medium</span>
+                <span className={styles.optionTitle}>MEDIUM</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
               <button className={`${styles.optionButton} ${styles.hardOption}`} disabled>
-                <span className={styles.optionTitle}>Hard</span>
+                <span className={styles.optionTitle}>MEDIUM</span>
                 <span className={styles.optionDescription}>Coming Soon</span>
               </button>
             </div>

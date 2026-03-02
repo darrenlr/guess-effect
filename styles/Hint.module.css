@@ -32,6 +32,33 @@
   flex-direction: column;
 }
 
+.decryptAnimating {
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  color: #000 !important;
+}
+
+.decryptFill {
+  display: block;
+  position: absolute;
+  inset: 0;
+  background: var(--hud-color);
+  transform-origin: left;
+  animation: decryptFill 0.65s ease forwards;
+  z-index: 0;
+}
+
+@keyframes decryptFill {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.decryptLabel {
+  position: relative;
+  z-index: 1;
+}
+
 @media screen and (max-width: 767px) {
   .hint {
     display: flex;

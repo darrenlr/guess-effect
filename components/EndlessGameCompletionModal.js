@@ -133,111 +133,91 @@ const EndlessGameCompletionModal = ({
     
     if (!show) return null;
 
+    const resultColor = won ? '#00ce7a' : '#ffbd3f';
+    const resultText  = won ? '>>> SUCCESS <<<' : '>>> SKIPPED <<<';
+
     return (
         <div className={endlessStyles.modalOverlay}>
             <div className={endlessStyles.modal}>
-                <div style={{ 
-                    display: 'flex', 
-                    flexDirection: 'column', 
-                    alignItems: 'center', 
-                    justifyContent: 'center',
-                    textAlign: 'center'
-                }}>
-                    <h2 style={{ 
-                        color: won ? '#00ce7a' : '#ffbd3f', 
-                        marginBottom: '1.5rem', 
-                        fontSize: '2rem',
-                        fontFamily: 'var(--font-family)'
-                    }}>
-                        {won ? '✓ Correct!' : '✗ Skipped'}
-                    </h2>
-                    
-                    <p style={{ marginBottom: '0.5rem', fontFamily: 'var(--font-family)' }}>the game was:</p>
-                    
-                    <h3 style={{ 
-                        marginBottom: '1rem', 
-                        fontSize: '1.5rem',
-                        fontFamily: 'var(--font-family)'
-                    }}>
-                        {gameTitle}
-                    </h3>
+                {/* Static scanline texture */}
+                <div className={endlessStyles.modalScanlines} />
+                {/* Animated scan beam */}
+                <div className={endlessStyles.modalScanLine} />
 
+                {/* Terminal header */}
+                <div className={endlessStyles.modalHeader}>
+                    {won ? 'RESULT.EXE — [SUCCESS]' : 'RESULT.EXE — [SKIP]'}
+                </div>
+
+                <div className={endlessStyles.modalBody}>
+                    {/* Result */}
+                    <div className={endlessStyles.modalResultText} style={{ color: resultColor }}>
+                        {resultText}
+                    </div>
+
+                    {/* Game label + title */}
+                    <div className={endlessStyles.modalGameLabel}>&gt; GAME_IDENTIFIED:</div>
+                    <div className={endlessStyles.modalGameTitle}>{gameTitle}</div>
+
+                    {/* Box art */}
                     {boxArt && (
-                        <div style={{ 
-                            marginBottom: '2.5rem',
-                            border: '2px solid #fff',
-                            borderRadius: '8px',
-                            overflow: 'hidden',
-                            width: '200px',
-                            height: '267px',
-                            position: 'relative'
-                        }}>
-                            <Image
-                                src={boxArt}
-                                alt={gameTitle}
-                                fill
-                                style={{ objectFit: 'cover' }}
-                            />
+                        <div className={endlessStyles.modalBoxArtFrame}>
+                            <div className={endlessStyles.modalBoxArtInner}>
+                                <Image
+                                    src={boxArt}
+                                    alt={gameTitle}
+                                    fill
+                                    style={{ objectFit: 'cover' }}
+                                />
+                            </div>
                         </div>
                     )}
 
-                    <div style={{ 
-                        display: 'flex', 
-                        flexDirection: 'column', 
-                        gap: '2rem',
-                        marginBottom: '2rem',
-                        fontSize: '1.2rem',
-                        fontFamily: 'var(--font-family)',
-                        alignItems: 'center'
-                    }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', justifyContent: 'center', position: 'relative' }}>
-                            <strong>Lives:</strong>
+                    {/* Lives */}
+                    <div className={endlessStyles.modalLivesLabel}>&gt; LIVES_REMAINING</div>
+                    <div style={{ display: 'flex', gap: '0.25rem', justifyContent: 'center', flexWrap: 'wrap', position: 'relative' }}>
+                        {Array.from({ length: 10 }).map((_, i) => (
                             <Image
-                                src="/images/heart.png"
-                                alt="Heart"
-                                width={24}
-                                height={24}
+                                key={i}
+                                src={i < animatedLives ? '/images/heart.png' : '/images/heart-black.png'}
+                                alt="heart"
+                                width={22}
+                                height={22}
                             />
-                            <span>x{animatedLives}</span>
-                            {/* Floating negative numbers */}
-                            {floatingNumbers.map((num) => (
-                                <div
-                                    key={num.id}
-                                    style={{
-                                        position: 'absolute',
-                                        top: '0',
-                                        right: '-50px',
-                                        color: '#ff4444',
-                                        fontWeight: 'bold',
-                                        fontSize: '1.2rem',
-                                        animation: 'floatUp 1.5s ease-out forwards',
-                                        pointerEvents: 'none'
-                                    }}
-                                >
-                                    {num.value}
-                                </div>
-                            ))}
-                        </div>
-                        <div style={{ 
-                            background: 'rgba(0, 0, 0, 0.5)',
-                            padding: '0.6rem 1.5rem',
-                            borderRadius: '10px',
-                            border: '2px solid #00ff88',
-                            fontFamily: 'var(--font-family)',
-                            boxShadow: '0 0 15px rgba(0, 255, 136, 0.4), inset 0 0 15px rgba(0, 255, 136, 0.08)',
-                            textAlign: 'center'
-                        }}>
-                            <div style={{ fontSize: '0.7rem', color: '#00ff88', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>TOTAL SCORE</div>
-                            <div style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#00ff88', textShadow: '0 0 8px #00ff88' }}>{animatedScore}</div>
-                        </div>
+                        ))}
+                        {/* Floating negative numbers */}
+                        {floatingNumbers.map((num) => (
+                            <div
+                                key={num.id}
+                                style={{
+                                    position: 'absolute',
+                                    top: 0,
+                                    right: '-50px',
+                                    color: '#ff4444',
+                                    fontFamily: 'var(--font-family)',
+                                    fontWeight: 'bold',
+                                    fontSize: '1.2rem',
+                                    animation: 'floatUp 1.5s ease-out forwards',
+                                    pointerEvents: 'none'
+                                }}
+                            >
+                                {num.value}
+                            </div>
+                        ))}
                     </div>
 
-                    <button 
+                    {/* Score block */}
+                    <div className={endlessStyles.modalScoreBlock}>
+                        <div className={endlessStyles.modalScoreLabel}>TOTAL_SCORE</div>
+                        <div className={endlessStyles.modalScoreValue}>{animatedScore}</div>
+                    </div>
+
+                    {/* Continue button */}
+                    <button
                         className={endlessStyles.continueButton}
                         onClick={onContinue}
-                        style={{ width: '100%', marginTop: '1rem' }}
                     >
-                        Continue
+                        <span className={endlessStyles.continueButtonText}>[ CONTINUE.EXE ]</span>
                     </button>
                 </div>
             </div>
