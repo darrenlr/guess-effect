@@ -13711,5 +13711,34 @@
       "metacritic": 86,
       "plot": "The King of All Cosmos accidentally destroys all the stars in the universe during a drunken stupor. To fix his cosmic mistake, he orders his tiny 5-centimeter son, the Prince, to roll a magical adhesive ball called a katamari around Earth, collecting increasingly larger objects—from thumbtacks to cookies to cars to buildings to clouds—until each katamari grows large enough to become a replacement star or constellation. With quirky characters and surreal humor, the Prince must recreate the entire night sky one sticky ball at a time."
     }
+  },
+  {
+    "date": "2026-03-03",
+    "region": "NA",
+    "releaseDate": "2008-06-03",
+    "title": "Ninja Gaiden II",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2stg.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Team Ninja"
+      ],
+      "genre": [
+        "Hack and Slash",
+        "Action-Adventure"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": null,
+      "metacritic": 81,
+      "plot": "One year after defeating the Dark Dragon, master ninja Ryu Hayabusa's peaceful existence is shattered when the Black Spider Ninja Clan invades his village seeking the Demon Statue stolen by CIA agent Sonia. The Greater Fiends—ancient demonic overlords serving the Archfiend—plan to resurrect their master by opening a portal to the underworld using Sonia as a sacrifice. Armed with the Dragon Sword and legendary weaponry, Ryu embarks on a globe-spanning mission from Tokyo to New York to Mount Fuji, battling ninja clans, demons, and fiends. The fate of humanity rests on preventing the Archfiend's resurrection while protecting those he cares about from supernatural forces."
+    }
   }
 ]
