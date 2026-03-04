@@ -13740,5 +13740,34 @@
       "metacritic": 81,
       "plot": "One year after defeating the Dark Dragon, master ninja Ryu Hayabusa's peaceful existence is shattered when the Black Spider Ninja Clan invades his village seeking the Demon Statue stolen by CIA agent Sonia. The Greater Fiends—ancient demonic overlords serving the Archfiend—plan to resurrect their master by opening a portal to the underworld using Sonia as a sacrifice. Armed with the Dragon Sword and legendary weaponry, Ryu embarks on a globe-spanning mission from Tokyo to New York to Mount Fuji, battling ninja clans, demons, and fiends. The fate of humanity rests on preventing the Archfiend's resurrection while protecting those he cares about from supernatural forces."
     }
+  },
+  {
+    "date": "2026-03-04",
+    "region": "NA",
+    "releaseDate": "2002-01-22",
+    "title": "Medal of Honor: Allied Assault",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7nlr.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "2015, Inc."
+      ],
+      "genre": [
+        "First-Person Shooter",
+        "Action"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "id Tech 3",
+      "metacritic": 91,
+      "plot": "As Lieutenant Mike Powell of the 1st Ranger Battalion working for the Office of Strategic Services, you fight through over 20 missions across the North African and European theaters during World War II. From silencing gun batteries at Port Arzew in Algeria to surviving the devastating Omaha Beach landing on D-Day, you undertake dangerous operations behind enemy lines. Missions include infiltrating Nazi bases in Norway while disguised as a German officer, rescuing Allied POWs from Fort Schmerzen, and sabotaging weapons depots and communications outposts to support the Allied war effort against Nazi Germany."
+    }
   }
 ]
