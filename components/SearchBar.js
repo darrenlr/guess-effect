@@ -115,6 +115,10 @@ const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate, ga
 			borderRadius: 0,
 			boxShadow: 'none',
 		}),
+		menuPortal: (base) => ({
+			...base,
+			zIndex: 9999,
+		}),
 		menuList: (base) => ({
 			...base,
 			background: '#000',
@@ -159,6 +163,8 @@ const SearchBar = ({ onSubmit, isGameOver, currentGame, isArchived, gameDate, ga
       					noOptionsMessage={noOptionsMessage}
       					isClearable
       					isDisabled={isGameOver}
+      					menuPortalTarget={typeof document !== 'undefined' ? document.body : null}
+      					menuPosition="fixed"
     				/>
     				{isLoading && (
       					<div className={styles.loader}>

@@ -5,6 +5,7 @@
   border: 3px double var(--hud-color);
   border-top: none;
   position: relative;
+  z-index: 1;
 }
 
 .gameCard {
