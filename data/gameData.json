@@ -13802,5 +13802,36 @@
     "metacritic": 87,
     "plot": "Nine years after leaving the NYPD, former detective Max Payne works as private security for the wealthy Branco family in São Paulo, Brazil, attempting to escape his troubled past of alcoholism and painkiller addiction. When the Comando Sombra street gang kidnaps Rodrigo Branco's wife Fabiana during a party, Max and his partner Raul Passos are pulled into a deadly conspiracy involving corruption, organ trafficking, and paramilitary death squads that threatens to destroy everyone around him. Navigating São Paulo's dangerous underworld from favelas to nightclubs, Max must rescue Fabiana while confronting shadowy factions that control the city's criminal empire and his own demons."
   }
+},
+  {
+  "date": "2026-03-06",
+  "region": "NA",
+  "releaseDate": "2011-08-23",
+  "title": "Deus Ex: Human Revolution",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rd2.webp",
+  "hints": {
+    "publisher": [
+      "Square Enix"
+    ],
+    "developer": [
+      "Eidos-Montréal"
+    ],
+    "genre": [
+      "Action RPG",
+      "First-Person Shooter",
+      "Stealth"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox 360",
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Crystal Engine",
+    "metacritic": 90,
+    "plot": "In 2027, former SWAT officer Adam Jensen works as security chief for Sarif Industries, a biotechnology firm pioneering human augmentation. When black ops mercenaries attack the facility and leave Jensen mortally wounded, he's rebuilt with extensive cybernetic augmentations against his choice. As Jensen investigates the attack that killed lead scientists and his ex-girlfriend Megan Reed, he uncovers a vast conspiracy involving the Illuminati, corporate warfare, and a social divide between augmented and non-augmented humans that threatens to reshape humanity's future evolution."
+  }
 }
 ]
