@@ -13833,5 +13833,34 @@
     "metacritic": 90,
     "plot": "In 2027, former SWAT officer Adam Jensen works as security chief for Sarif Industries, a biotechnology firm pioneering human augmentation. When black ops mercenaries attack the facility and leave Jensen mortally wounded, he's rebuilt with extensive cybernetic augmentations against his choice. As Jensen investigates the attack that killed lead scientists and his ex-girlfriend Megan Reed, he uncovers a vast conspiracy involving the Illuminati, corporate warfare, and a social divide between augmented and non-augmented humans that threatens to reshape humanity's future evolution."
   }
+},
+  {
+  "date": "2026-03-07",
+  "region": "WW",
+  "releaseDate": "1997-03-20",
+  "title": "Tekken 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8d7q.webp",
+  "hints": {
+    "publisher": [
+      "Namco"
+    ],
+    "developer": [
+      "Namco"
+    ],
+    "genre": [
+      "Fighting",
+      "3D Fighting"
+    ],
+    "platforms": [
+      "Arcade"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "Nineteen years after defeating his son Kazuya, Heihachi Mishima establishes the Tekken Force and learns of a mysterious being called Ogre—a legendary god of fighting—decimating his troops in Central America. Meanwhile, fifteen-year-old Jin Kazama trains under his mother Jun in Yakushima until Ogre attacks their home, leaving Jun missing and everything burned to ash. Following his mother's final instructions, Jin seeks out his grandfather Heihachi for training, unaware that Heihachi plans to use him as bait to lure Ogre into the third King of Iron Fist Tournament and claim its power to rule the world."
+  }
 }
 ]
