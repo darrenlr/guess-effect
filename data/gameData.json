@@ -13862,5 +13862,36 @@
     "metacritic": 96,
     "plot": "Nineteen years after defeating his son Kazuya, Heihachi Mishima establishes the Tekken Force and learns of a mysterious being called Ogre—a legendary god of fighting—decimating his troops in Central America. Meanwhile, fifteen-year-old Jin Kazama trains under his mother Jun in Yakushima until Ogre attacks their home, leaving Jun missing and everything burned to ash. Following his mother's final instructions, Jin seeks out his grandfather Heihachi for training, unaware that Heihachi plans to use him as bait to lure Ogre into the third King of Iron Fist Tournament and claim its power to rule the world."
   }
+},
+  {
+  "date": "2026-03-08",
+  "region": "WW",
+  "releaseDate": "2017-05-05",
+  "title": "Prey",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9aoh.webp",
+  "hints": {
+    "publisher": [
+      "Bethesda Softworks"
+    ],
+    "developer": [
+      "Arkane Studios"
+    ],
+    "genre": [
+      "First-Person Shooter",
+      "Immersive Sim",
+      "Sci-Fi Horror"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "CryEngine",
+    "metacritic": 84,
+    "plot": "In 2032, Morgan Yu awakens aboard Talos I, a luxurious space station orbiting the moon, only to discover they're the key subject in an experiment to alter humanity forever. When hostile shapeshifting aliens called the Typhon break containment and slaughter the crew, Morgan must survive using weapons, tools, and mind-bending neuromods that grant alien abilities. With guidance from different versions of themselves via Operator robots and conflicting instructions from brother Alex Yu, Morgan navigates the station's Art Deco halls uncovering dark conspiracies about TranStar Corporation, the Typhon research program, and their own erased memories while deciding the fate of Earth itself."
+  }
 }
 ]
