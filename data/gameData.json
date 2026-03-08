@@ -13893,5 +13893,35 @@
     "metacritic": 84,
     "plot": "In 2032, Morgan Yu awakens aboard Talos I, a luxurious space station orbiting the moon, only to discover they're the key subject in an experiment to alter humanity forever. When hostile shapeshifting aliens called the Typhon break containment and slaughter the crew, Morgan must survive using weapons, tools, and mind-bending neuromods that grant alien abilities. With guidance from different versions of themselves via Operator robots and conflicting instructions from brother Alex Yu, Morgan navigates the station's Art Deco halls uncovering dark conspiracies about TranStar Corporation, the Typhon research program, and their own erased memories while deciding the fate of Earth itself."
   }
+},
+  {
+  "date": "2026-03-09",
+  "region": "NA",
+  "releaseDate": "2008-11-11",
+  "title": "Mirror's Edge",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5gbw.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "DICE"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Platform",
+      "First-Person"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 3",
+    "metacritic": 79,
+    "plot": "In a gleaming utopian city where information is heavily monitored and surveillance is absolute, Faith Connors works as a Runner—an underground parkour courier delivering sensitive messages beyond the reach of government eyes. When her sister Kate, a police officer investigating corruption in City Protection Force, is framed for the murder of mayoral candidate Robert Pope, Faith must navigate rooftops and evade security forces to uncover the truth. Racing across pristine white skyscrapers while pursued by heavily armed authorities, Faith discovers a conspiracy reaching the highest levels of power and must prove her sister's innocence before time runs out."
+  }
 }
 ]
