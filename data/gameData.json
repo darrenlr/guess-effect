@@ -13923,5 +13923,37 @@
     "metacritic": 79,
     "plot": "In a gleaming utopian city where information is heavily monitored and surveillance is absolute, Faith Connors works as a Runner—an underground parkour courier delivering sensitive messages beyond the reach of government eyes. When her sister Kate, a police officer investigating corruption in City Protection Force, is framed for the murder of mayoral candidate Robert Pope, Faith must navigate rooftops and evade security forces to uncover the truth. Racing across pristine white skyscrapers while pursued by heavily armed authorities, Faith discovers a conspiracy reaching the highest levels of power and must prove her sister's innocence before time runs out."
   }
-}
+},
+  {
+  "date": "2026-03-10",
+  "region": "NA",
+  "releaseDate": "2005-10-17",
+  "title": "The Warriors",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2yzp.webp",
+  "hints": {
+    "publisher": [
+      "Rockstar Games"
+    ],
+    "developer": [
+      "Rockstar Toronto"
+    ],
+    "genre": [
+      "Beat 'em Up",
+      "Action-Adventure",
+      "Brawler"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "RenderWare",
+    "metacritic": 81,
+    "plot": "On a hot summer night in 1979, rival New York City gangs gather in the Bronx for a summit organized by Cyrus, leader of the Griffs, who dreams of uniting all gangs to control the city. When Cyrus is assassinated and the Warriors are falsely blamed, the nine-member Coney Island gang must fight their way across thirty miles of hostile territory to reach home. Hunted by both vengeful rival gangs—the Baseball Furies, the Rogues, the Lizzies, and others—and the NYPD, the Warriors navigate subway stations, city streets, and gang turf while uncovering who framed them and battling to survive the longest night of their lives."
+  }
+  }
 ]
