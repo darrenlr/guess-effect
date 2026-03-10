@@ -13955,5 +13955,33 @@
     "metacritic": 81,
     "plot": "On a hot summer night in 1979, rival New York City gangs gather in the Bronx for a summit organized by Cyrus, leader of the Griffs, who dreams of uniting all gangs to control the city. When Cyrus is assassinated and the Warriors are falsely blamed, the nine-member Coney Island gang must fight their way across thirty miles of hostile territory to reach home. Hunted by both vengeful rival gangs—the Baseball Furies, the Rogues, the Lizzies, and others—and the NYPD, the Warriors navigate subway stations, city streets, and gang turf while uncovering who framed them and battling to survive the longest night of their lives."
   }
+  },
+  {
+  "date": "2026-03-11",
+  "region": "JP",
+  "releaseDate": "1993-12-17",
+  "title": "Mega Man X",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3tu2.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Platform",
+      "Action"
+    ],
+    "platforms": [
+      "Super Nintendo"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "In the year 21XX, Dr. Cain discovers an advanced robot called X in Dr. Light's abandoned laboratory—a machine capable of independent thought and emotion. After replicating this technology to create Reploids who peacefully coexist with humanity, malfunctioning units called Mavericks begin threatening civilization. When Sigma, the legendary leader of the Maverick Hunters' 17th Elite Unit, shockingly turns against humanity and leads a mass Reploid rebellion, X must overcome his pacifist nature to stop Sigma's uprising and save both humans and Reploids from destruction."
+  }
   }
 ]
