@@ -13983,5 +13983,36 @@
     "metacritic": null,
     "plot": "In the year 21XX, Dr. Cain discovers an advanced robot called X in Dr. Light's abandoned laboratory—a machine capable of independent thought and emotion. After replicating this technology to create Reploids who peacefully coexist with humanity, malfunctioning units called Mavericks begin threatening civilization. When Sigma, the legendary leader of the Maverick Hunters' 17th Elite Unit, shockingly turns against humanity and leads a mass Reploid rebellion, X must overcome his pacifist nature to stop Sigma's uprising and save both humans and Reploids from destruction."
   }
+  },
+  {
+  "date": "2026-03-12",
+  "region": "NA",
+  "releaseDate": "2001-06-19",
+  "title": "Sonic Adventure 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobqpd.webp",
+  "hints": {
+    "publisher": [
+      "Sega"
+    ],
+    "developer": [
+      "Sonic Team USA"
+    ],
+    "genre": [
+      "Platform",
+      "Action",
+      "3D Platformer"
+    ],
+    "platforms": [
+      "Dreamcast"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "When the military organization G.U.N. arrests Sonic after mistaking him for a black hedgehog who stole a Chaos Emerald, he teams with Tails and Knuckles to stop Dr. Eggman's world domination plot. Meanwhile, Shadow the Hedgehog—the ultimate life form created by Eggman's grandfather—emerges from suspended animation aboard the Space Colony ARK with Rouge the Bat and Eggman to collect the Chaos Emeralds and unleash the ARK's Eclipse Cannon. As both Hero and Dark teams race to gather all seven Emeralds, they uncover a fifty-year-old conspiracy involving Gerald Robotnik's revenge and an ancient creature threatening to destroy the planet."
   }
+}
 ]
