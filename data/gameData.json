@@ -14014,5 +14014,36 @@
     "metacritic": 89,
     "plot": "When the military organization G.U.N. arrests Sonic after mistaking him for a black hedgehog who stole a Chaos Emerald, he teams with Tails and Knuckles to stop Dr. Eggman's world domination plot. Meanwhile, Shadow the Hedgehog—the ultimate life form created by Eggman's grandfather—emerges from suspended animation aboard the Space Colony ARK with Rouge the Bat and Eggman to collect the Chaos Emeralds and unleash the ARK's Eclipse Cannon. As both Hero and Dark teams race to gather all seven Emeralds, they uncover a fifty-year-old conspiracy involving Gerald Robotnik's revenge and an ancient creature threatening to destroy the planet."
   }
+},
+  {
+  "date": "2026-03-13",
+  "region": "WW",
+  "releaseDate": "2016-12-06",
+  "title": "Shadow Tactics: Blades of the Shogun",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.webp",
+  "hints": {
+    "publisher": [
+      "Daedalic Entertainment"
+    ],
+    "developer": [
+      "Mimimi Productions"
+    ],
+    "genre": [
+      "Real-Time Tactics",
+      "Stealth",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "Mac",
+      "Linux"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 85,
+    "plot": "In 1615 during Japan's Edo period, the newly unified Shogun faces a mysterious warlord known only as Kage-sama who threatens the fragile peace. The Shogun tasks samurai Oshiro Mugen with uncovering Kage-sama's identity, leading Mugen to recruit four specialists—ninja Hayato, thief Yuki, kunoichi Aiko, and sharpshooter Takuma—to infiltrate enemy strongholds and eliminate threats. As the team investigates corrupt daimyo and battles rebel forces, they discover Kage-sama is actually Lord Noboru, the Shogun's own brother, who seeks to plunge Japan back into endless war rather than accept peaceful rule that would make warriors obsolete."
+  }
 }
 ]
