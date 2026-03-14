@@ -14045,5 +14045,35 @@
     "metacritic": 85,
     "plot": "In 1615 during Japan's Edo period, the newly unified Shogun faces a mysterious warlord known only as Kage-sama who threatens the fragile peace. The Shogun tasks samurai Oshiro Mugen with uncovering Kage-sama's identity, leading Mugen to recruit four specialists—ninja Hayato, thief Yuki, kunoichi Aiko, and sharpshooter Takuma—to infiltrate enemy strongholds and eliminate threats. As the team investigates corrupt daimyo and battles rebel forces, they discover Kage-sama is actually Lord Noboru, the Shogun's own brother, who seeks to plunge Japan back into endless war rather than accept peaceful rule that would make warriors obsolete."
   }
+},
+  {
+  "date": "2026-03-14",
+  "region": "NA",
+  "releaseDate": "2001-03-05",
+  "title": "Conker's Bad Fur Day",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1uq6.webp",
+  "hints": {
+    "publisher": [
+      "Rare"
+    ],
+    "developer": [
+      "Rare"
+    ],
+    "genre": [
+      "Platform",
+      "Action",
+      "3D Platformer"
+    ],
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "After a night of heavy drinking, hungover red squirrel Conker awakens lost in an unfamiliar land and must find his way home to girlfriend Berri. Unknown to Conker, the idiotic Panther King's milk table has a broken leg, and his mad scientist Professor Von Kriplespac determines a red squirrel is the perfect replacement. As Conker navigates bizarre locations filled with eccentric characters—battling opera-singing feces, Nazi teddy bears called Tediz, and Alien parodies—he's hunted by the Panther King's minions who want to turn him into furniture while Kriplespac plots his own revenge against his tyrannical boss."
+  }
 }
 ]
