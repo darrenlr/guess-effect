@@ -14075,5 +14075,67 @@
     "metacritic": 92,
     "plot": "After a night of heavy drinking, hungover red squirrel Conker awakens lost in an unfamiliar land and must find his way home to girlfriend Berri. Unknown to Conker, the idiotic Panther King's milk table has a broken leg, and his mad scientist Professor Von Kriplespac determines a red squirrel is the perfect replacement. As Conker navigates bizarre locations filled with eccentric characters—battling opera-singing feces, Nazi teddy bears called Tediz, and Alien parodies—he's hunted by the Panther King's minions who want to turn him into furniture while Kriplespac plots his own revenge against his tyrannical boss."
   }
+},
+  {
+  "date": "2026-03-16",
+  "region": "JP",
+  "releaseDate": "2003-08-29",
+  "title": "Tales of Symphonia",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1peo.webp",
+  "hints": {
+    "publisher": [
+      "Namco"
+    ],
+    "developer": [
+      "Namco"
+    ],
+    "genre": [
+      "JRPG",
+      "Action RPG"
+    ],
+    "platforms": [
+      "GameCube"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "In the dying world of Sylvarant, the Chosen One Colette Brunel embarks on a Journey of World Regeneration to restore mana by unsealing four temples and reaching the Tower of Salvation. Accompanied by childhood friend Lloyd Irving and others, they discover their world coexists with Tethe'alla in a delicate balance—saving one world slowly drains the other. As they uncover the truth about the Desians, the sinister Cruxis organization, and the ancient conflict between angels and humans, the party must decide whether to follow the prophecy or forge a new path that saves both worlds without sacrifice."
+  }
+},
+  {
+  "date": "2026-03-13",
+  "region": "WW",
+  "releaseDate": "2005-11-15",
+  "title": "Need for Speed: Most Wanted",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co209j.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "EA Black Box"
+    ],
+    "genre": [
+      "Racing",
+      "Open World"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "GameCube",
+      "PC",
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "An up-and-coming street racer loses their prized BMW M3 GTR to a rival named Razor after their car is sabotaged. To reclaim their vehicle, they must climb the Blacklist by defeating the city's fifteen most notorious racers while evading an increasingly aggressive police force led by determined Sergeant Cross."
+  }
 }
 ]
