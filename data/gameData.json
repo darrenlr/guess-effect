@@ -14137,5 +14137,34 @@
     "metacritic": 83,
     "plot": "An up-and-coming street racer loses their prized BMW M3 GTR to a rival named Razor after their car is sabotaged. To reclaim their vehicle, they must climb the Blacklist by defeating the city's fifteen most notorious racers while evading an increasingly aggressive police force led by determined Sergeant Cross."
   }
+},
+  {
+  "date": "2026-03-17",
+  "region": "NA",
+  "releaseDate": "2001-12-04",
+  "title": "Jak and Daxter: The Precursor Legacy",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w7q.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Naughty Dog"
+    ],
+    "genre": [
+      "Platform",
+      "Action-Adventure",
+      "3D Platformer"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "After defying warnings and exploring the forbidden Misty Island, Daxter falls into a Dark Eco silo and is transformed from human into an ottsel—a hybrid of an otter and weasel. In their quest to find Gol Acheron, the Dark Eco sage who might reverse Daxter's transformation, Jak and Daxter discover the corrupted sage plans to use the elusive Light Eco to flood the world with Dark Eco. The duo must collect Power Cells and traverse diverse environments from beaches to snowy mountains to stop Gol's world-threatening plot, ultimately choosing between saving the world and returning Daxter to human form."
+  }
 }
 ]
