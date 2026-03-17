@@ -14166,5 +14166,36 @@
     "metacritic": 91,
     "plot": "After defying warnings and exploring the forbidden Misty Island, Daxter falls into a Dark Eco silo and is transformed from human into an ottsel—a hybrid of an otter and weasel. In their quest to find Gol Acheron, the Dark Eco sage who might reverse Daxter's transformation, Jak and Daxter discover the corrupted sage plans to use the elusive Light Eco to flood the world with Dark Eco. The duo must collect Power Cells and traverse diverse environments from beaches to snowy mountains to stop Gol's world-threatening plot, ultimately choosing between saving the world and returning Daxter to human form."
   }
+},
+  {
+  "date": "2026-03-18",
+  "region": "WW",
+  "releaseDate": "2014-10-28",
+  "title": "Sunset Overdrive",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20td.webp",
+  "hints": {
+    "publisher": [
+      "Microsoft Studios"
+    ],
+    "developer": [
+      "Insomniac Games"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Third-Person Shooter",
+      "Open-World"
+    ],
+    "platforms": [
+      "Xbox One"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "In 2027, energy drink corporation FizzCo launches Overcharge Delirium XT at a massive release party in Sunset City, but the contaminated beverage transforms consumers into violent mutants called the OD. As a former FizzCo employee trapped in the quarantined city, you must survive the mutant apocalypse alongside ragtag bands of survivors while battling FizzCo's robotic security forces and ruthless scavenger gangs. Using hyper-agility to grind rails, bounce off cars, and wall-run across the vibrant urban playground, you fight to expose FizzCo's corporate conspiracy and escape the city before it's obliterated to cover up the disaster."
+  }
 }
 ]
