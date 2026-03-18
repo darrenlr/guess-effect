@@ -14197,5 +14197,34 @@
     "metacritic": 82,
     "plot": "In 2027, energy drink corporation FizzCo launches Overcharge Delirium XT at a massive release party in Sunset City, but the contaminated beverage transforms consumers into violent mutants called the OD. As a former FizzCo employee trapped in the quarantined city, you must survive the mutant apocalypse alongside ragtag bands of survivors while battling FizzCo's robotic security forces and ruthless scavenger gangs. Using hyper-agility to grind rails, bounce off cars, and wall-run across the vibrant urban playground, you fight to expose FizzCo's corporate conspiracy and escape the city before it's obliterated to cover up the disaster."
   }
+},
+  {
+  "date": "2026-03-19",
+  "region": "NA",
+  "releaseDate": "1998-03-31",
+  "title": "StarCraft",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9n6m.webp",
+  "hints": {
+    "publisher": [
+      "Blizzard Entertainment"
+    ],
+    "developer": [
+      "Blizzard Entertainment"
+    ],
+    "genre": [
+      "Real-Time Strategy",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Set in the 26th century in the distant Koprulu Sector of the Milky Way, humanity's exiled Terran colonists encounter two powerful alien species: the psychic Protoss warriors seeking to eradicate corruption, and the insectoid Zerg driven to assimilate all life. As mysterious Zerg infestations ravage Terran colonies, all three races become entangled in a brutal struggle for survival and dominance. Through three interconnected campaigns, you command each faction—guiding colonists against invasion, directing Zerg cerebrates to consume planets, and leading Protoss executors to contain the threat—uncovering ancient conspiracies, betrayals, and the terrible truth about the Zerg's origins and their hunger to evolve through conquest."
+  }
 }
 ]
