@@ -14226,5 +14226,34 @@
     "metacritic": null,
     "plot": "Set in the 26th century in the distant Koprulu Sector of the Milky Way, humanity's exiled Terran colonists encounter two powerful alien species: the psychic Protoss warriors seeking to eradicate corruption, and the insectoid Zerg driven to assimilate all life. As mysterious Zerg infestations ravage Terran colonies, all three races become entangled in a brutal struggle for survival and dominance. Through three interconnected campaigns, you command each faction—guiding colonists against invasion, directing Zerg cerebrates to consume planets, and leading Protoss executors to contain the threat—uncovering ancient conspiracies, betrayals, and the terrible truth about the Zerg's origins and their hunger to evolve through conquest."
   }
+},
+  {
+  "date": "2026-03-20",
+  "region": "EU",
+  "releaseDate": "1998-10-09",
+  "title": "MediEvil",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tjk.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "SCE Studio Cambridge"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "3D Platformer",
+      "Hack and Slash"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "In the year 1286, charlatan knight Sir Daniel Fortesque was struck down by the first arrow fired in battle against evil sorcerer Zarok, but King Peregrin declared him a hero who sacrificed himself to defeat the wizard. One hundred years later in 1386, Zarok returns to Gallowmere, casting a spell to raise an army of undead and unwittingly resurrecting the skeletal Dan in the process. Given an unexpected second chance at heroism, the bumbling knight must battle through graveyards, ghost ships, and enchanted forests to stop Zarok's conquest, redeem his fraudulent legacy, and finally earn his place in the Hall of Heroes alongside true warriors."
+  }
 }
 ]
