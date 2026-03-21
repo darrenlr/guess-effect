@@ -14255,5 +14255,38 @@
     "metacritic": null,
     "plot": "In the year 1286, charlatan knight Sir Daniel Fortesque was struck down by the first arrow fired in battle against evil sorcerer Zarok, but King Peregrin declared him a hero who sacrificed himself to defeat the wizard. One hundred years later in 1386, Zarok returns to Gallowmere, casting a spell to raise an army of undead and unwittingly resurrecting the skeletal Dan in the process. Given an unexpected second chance at heroism, the bumbling knight must battle through graveyards, ghost ships, and enchanted forests to stop Zarok's conquest, redeem his fraudulent legacy, and finally earn his place in the Hall of Heroes alongside true warriors."
   }
+},
+  {
+  "date": "2026-03-21",
+  "region": "NA",
+  "releaseDate": "2013-08-20",
+  "title": "Tom Clancy's Splinter Cell Blacklist",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ygp.webp",
+  "hints": {
+    "publisher": [
+      "Ubisoft"
+    ],
+    "developer": [
+      "Ubisoft Toronto"
+    ],
+    "genre": [
+      "Stealth",
+      "Action-Adventure",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "LEAD Engine",
+    "metacritic": 81,
+    "plot": "After a terrorist attack on Andersen Air Force Base in Guam, President Patricia Caldwell disbands Third Echelon and creates Fourth Echelon—a clandestine unit answering solely to her with Sam Fisher as its commander. A terrorist group called The Engineers initiates the Blacklist, a deadly countdown of escalating attacks on U.S. interests worldwide, demanding America withdraw all military forces from foreign soil. Operating from their mobile command center, the Paladin aircraft, Fisher and his team—including pilot Charlie Cole, hacker Briggs, technical expert Grim, and CIA liaison Kobin—must hunt down the Engineers across the globe. With the freedom to defend American laws by breaking them, Fisher employs three combat styles while racing against time to prevent the final devastating attack before the Blacklist countdown reaches zero."
+  }
 }
 ]
