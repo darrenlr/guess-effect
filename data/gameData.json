@@ -14288,5 +14288,35 @@
     "metacritic": 81,
     "plot": "After a terrorist attack on Andersen Air Force Base in Guam, President Patricia Caldwell disbands Third Echelon and creates Fourth Echelon—a clandestine unit answering solely to her with Sam Fisher as its commander. A terrorist group called The Engineers initiates the Blacklist, a deadly countdown of escalating attacks on U.S. interests worldwide, demanding America withdraw all military forces from foreign soil. Operating from their mobile command center, the Paladin aircraft, Fisher and his team—including pilot Charlie Cole, hacker Briggs, technical expert Grim, and CIA liaison Kobin—must hunt down the Engineers across the globe. With the freedom to defend American laws by breaking them, Fisher employs three combat styles while racing against time to prevent the final devastating attack before the Blacklist countdown reaches zero."
   }
+},
+  {
+  "date": "2026-03-22",
+  "region": "NA",
+  "releaseDate": "2006-08-08",
+  "title": "Dead Rising",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20xf.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Survival Horror",
+      "Beat 'em Up",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "Xbox 360"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "MT Framework",
+    "metacritic": 85,
+    "plot": "Freelance photojournalist Frank West charters a helicopter to the small town of Willamette, Colorado, investigating rumors of a riot. Landing on the rooftop of the Willamette Parkview Mall, he discovers the town overrun by zombies and barricades himself inside the shopping complex. With 72 in-game hours until his helicopter pilot returns, Frank must survive endless waves of undead using any makeshift weapons he can find throughout the mall's stores, rescue trapped survivors and escort them to the safe room, battle deranged psychopaths who have succumbed to the chaos, and uncover the truth behind the zombie outbreak while capturing evidence with his camera for the scoop of a lifetime."
+  }
 }
 ]
