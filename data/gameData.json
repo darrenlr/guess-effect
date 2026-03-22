@@ -14318,5 +14318,33 @@
     "metacritic": 85,
     "plot": "Freelance photojournalist Frank West charters a helicopter to the small town of Willamette, Colorado, investigating rumors of a riot. Landing on the rooftop of the Willamette Parkview Mall, he discovers the town overrun by zombies and barricades himself inside the shopping complex. With 72 in-game hours until his helicopter pilot returns, Frank must survive endless waves of undead using any makeshift weapons he can find throughout the mall's stores, rescue trapped survivors and escort them to the safe room, battle deranged psychopaths who have succumbed to the chaos, and uncover the truth behind the zombie outbreak while capturing evidence with his camera for the scoop of a lifetime."
   }
+},
+  {
+  "date": "2026-03-23",
+  "region": "JP",
+  "releaseDate": "1991-11-21",
+  "title": "The Legend of Zelda: A Link to the Past",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.webp",
+  "hints": {
+    "publisher": [
+      "Nintendo"
+    ],
+    "developer": [
+      "Nintendo EAD"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Action RPG"
+    ],
+    "platforms": [
+      "Super Nintendo"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "When the evil wizard Agahnim seizes control of Hyrule Castle and begins kidnapping the descendants of the Seven Sages to break the seal imprisoning Ganon in the Dark World, young Link awakens to Princess Zelda's telepathic plea for help. After Agahnim defeats Link and banishes him to the corrupted parallel dimension, Link must travel between the Light World and Dark World using the Moon Pearl, rescue the seven maidens, obtain the Master Sword, and ultimately defeat both Agahnim and the demon king Ganon to claim the Triforce and restore peace to Hyrule."
+  }
 }
 ]
