@@ -14345,6 +14345,37 @@
     "engine": null,
     "metacritic": null,
     "plot": "When the evil wizard Agahnim seizes control of Hyrule Castle and begins kidnapping the descendants of the Seven Sages to break the seal imprisoning Ganon in the Dark World, young Link awakens to Princess Zelda's telepathic plea for help. After Agahnim defeats Link and banishes him to the corrupted parallel dimension, Link must travel between the Light World and Dark World using the Moon Pearl, rescue the seven maidens, obtain the Master Sword, and ultimately defeat both Agahnim and the demon king Ganon to claim the Triforce and restore peace to Hyrule."
+  },
+    {
+  "date": "2026-03-24",
+  "region": "WW",
+  "releaseDate": "2008-06-12",
+  "title": "Metal Gear Solid 4: Guns of the Patriots",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5eju.webp",
+  "hints": {
+    "publisher": [
+      "Konami"
+    ],
+    "developer": [
+      "Kojima Productions"
+    ],
+    "genre": [
+      "Stealth",
+      "Action-Adventure",
+      "Third-Person Shooter"
+    ],
+    "platforms": [
+      "PlayStation 3"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer",
+      "Co-op"
+    ],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "Five years after the Big Shell incident, a prematurely aged Solid Snake—now known as Old Snake—emerges from retirement for one final mission in a world where war has become big business controlled by private military companies. Equipped with his OctoCamo suit that mimics his surroundings, Snake must stop Liquid Ocelot from seizing control of the Sons of the Patriots AI system that commands the world's PMCs. Traveling from Middle Eastern warzones to South American battlefields and finally to Shadow Moses Island where his legend began, Old Snake confronts his past while racing to prevent Liquid Ocelot's insurrection and resolve the mysteries woven throughout decades of conflict involving Big Boss, The Patriots, and the true meaning of being a soldier."
   }
+}
 }
 ]
