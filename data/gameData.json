@@ -14377,5 +14377,35 @@
     "metacritic": 94,
     "plot": "Five years after the Big Shell incident, a prematurely aged Solid Snake—now known as Old Snake—emerges from retirement for one final mission in a world where war has become big business controlled by private military companies. Equipped with his OctoCamo suit that mimics his surroundings, Snake must stop Liquid Ocelot from seizing control of the Sons of the Patriots AI system that commands the world's PMCs. Traveling from Middle Eastern warzones to South American battlefields and finally to Shadow Moses Island where his legend began, Old Snake confronts his past while racing to prevent Liquid Ocelot's insurrection and resolve the mysteries woven throughout decades of conflict involving Big Boss, The Patriots, and the true meaning of being a soldier."
   }
+},
+  {
+  "date": "2026-03-25",
+  "region": "WW",
+  "releaseDate": "2020-03-11",
+  "title": "Ori and the Will of the Wisps",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e1l.webp",
+  "hints": {
+    "publisher": [
+      "Xbox Game Studios"
+    ],
+    "developer": [
+      "Moon Studios"
+    ],
+    "genre": [
+      "Metroidvania",
+      "Platform",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unity",
+    "metacritic": 90,
+    "plot": "After the events in Nibel, guardian spirit Ori lives peacefully with adoptive mother Naru, friend Gumo, and a young owlet named Ku whom they raise together as family. When a violent storm separates Ori from Ku during her first flight and crash-lands them in the exotic land of Niwen, Ori must navigate this vast new world to rescue Ku and discover what threatens its dying Spirit Willow. Armed with new combat abilities including the Spirit Edge sword and Spirit Arc bow, Ori encounters memorable allies offering quests and aid while battling towering bosses and exploring corrupted biomes. As Ori uncovers the ancient connection between Niwen and Nibel, painful truths emerge about sacrifice, destiny, and what it truly means to heal a broken land."
+  }
 }
 ]
