@@ -14407,5 +14407,35 @@
     "metacritic": 90,
     "plot": "After the events in Nibel, guardian spirit Ori lives peacefully with adoptive mother Naru, friend Gumo, and a young owlet named Ku whom they raise together as family. When a violent storm separates Ori from Ku during her first flight and crash-lands them in the exotic land of Niwen, Ori must navigate this vast new world to rescue Ku and discover what threatens its dying Spirit Willow. Armed with new combat abilities including the Spirit Edge sword and Spirit Arc bow, Ori encounters memorable allies offering quests and aid while battling towering bosses and exploring corrupted biomes. As Ori uncovers the ancient connection between Niwen and Nibel, painful truths emerge about sacrifice, destiny, and what it truly means to heal a broken land."
   }
-}
+},
+  {
+  "date": "2026-03-26",
+  "region": "NA",
+  "releaseDate": "1996-10-31",
+  "title": "Twisted Metal 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9412.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "SingleTrac",
+      "Sony Interactive Studios America"
+    ],
+    "genre": [
+      "Vehicular Combat",
+      "Action"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "One year after the devastating Los Angeles tournament, the mysterious Calypso expands his deadly vehicular combat contest to a global scale, selecting fourteen of the world's most dangerous drivers to compete across international battlegrounds. From the ruins of Los Angeles to the streets of Paris, the rooftops of Hong Kong, frozen Antarctica, and beyond, contestants must destroy all opponents using an arsenal of missiles, machine guns, and special weapons unique to their modified vehicles. The last driver standing earns an audience with Calypso, who promises to grant any wish regardless of size, price, or even reality—though his twisted interpretations often transform winners' dreams into nightmares."
+  }
+  }
 ]
