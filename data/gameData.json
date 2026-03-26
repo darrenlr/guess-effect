@@ -14437,5 +14437,35 @@
     "metacritic": null,
     "plot": "One year after the devastating Los Angeles tournament, the mysterious Calypso expands his deadly vehicular combat contest to a global scale, selecting fourteen of the world's most dangerous drivers to compete across international battlegrounds. From the ruins of Los Angeles to the streets of Paris, the rooftops of Hong Kong, frozen Antarctica, and beyond, contestants must destroy all opponents using an arsenal of missiles, machine guns, and special weapons unique to their modified vehicles. The last driver standing earns an audience with Calypso, who promises to grant any wish regardless of size, price, or even reality—though his twisted interpretations often transform winners' dreams into nightmares."
   }
+  },
+  {
+  "date": "2026-03-27",
+  "region": "NA",
+  "releaseDate": "2004-09-14",
+  "title": "Sly 2: Band of Thieves",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobcx5.webp",
+  "hints": {
+    "publisher": [
+      "Sony Computer Entertainment"
+    ],
+    "developer": [
+      "Sucker Punch Productions"
+    ],
+    "genre": [
+      "Stealth",
+      "Platform",
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 2"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Two years after defeating Clockwerk, master thief Sly Cooper and his gang discover that Interpol has excavated the mechanical owl's parts—and they've been stolen by the international Klaww Gang. To prevent Clockwerk from being reassembled and ensure the villain stays dead, Sly teams with tech expert Bentley and muscle Murray to execute heists across the globe. From nightclubs in Paris to palaces in India, gothic castles in Prague, and lumber camps in Canada, the trio must steal back each Clockwerk part while staying ahead of Inspector Carmelita Fox and uncovering a conspiracy involving a traitorous Interpol agent, hypnotic prisons, and a plot to use the parts' power for world domination."
+  }
   }
 ]
