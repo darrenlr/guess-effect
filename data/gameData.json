@@ -14467,5 +14467,36 @@
     "metacritic": 88,
     "plot": "Two years after defeating Clockwerk, master thief Sly Cooper and his gang discover that Interpol has excavated the mechanical owl's parts—and they've been stolen by the international Klaww Gang. To prevent Clockwerk from being reassembled and ensure the villain stays dead, Sly teams with tech expert Bentley and muscle Murray to execute heists across the globe. From nightclubs in Paris to palaces in India, gothic castles in Prague, and lumber camps in Canada, the trio must steal back each Clockwerk part while staying ahead of Inspector Carmelita Fox and uncovering a conspiracy involving a traitorous Interpol agent, hypnotic prisons, and a plot to use the parts' power for world domination."
   }
+  },
+  {
+  "date": "2026-03-28",
+  "region": "NA",
+  "releaseDate": "2005-09-13",
+  "title": "Burnout Revenge",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2nhp.webp",
+  "hints": {
+    "publisher": [
+      "Electronic Arts"
+    ],
+    "developer": [
+      "Criterion Games"
+    ],
+    "genre": [
+      "Racing",
+      "Arcade Racing",
+      "Vehicular Combat"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": "RenderWare",
+    "metacritic": 90,
+    "plot": "Tear through global cities including Los Angeles, Detroit, and Rome as an aggressive street racer seeking revenge against rivals who've wronged you on the road. Master traffic checking—ramming same-way vehicles into opponents for devastating Traffic Takedowns—while competing in events ranging from circuit races and Road Rage battles to Crash mode junctions where causing maximum destruction earns Crash Dollars. Build your Revenge meter by dominating rivals, then unleash payback when they least expect it through Vertical Takedowns from above or explosive Crashbreakers that detonate your wrecked car to take enemies down with you in a blaze of twisted metal."
   }
+}
 ]
