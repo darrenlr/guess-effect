@@ -1,5 +1,34 @@
 [
   {
+  "date": "2026-03-30",
+  "region": "NA",
+  "releaseDate": "2000-03-23",
+  "title": "Thief II: The Metal Age",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co698n.webp",
+  "hints": {
+    "publisher": [
+      "Eidos Interactive"
+    ],
+    "developer": [
+      "Looking Glass Studios"
+    ],
+    "genre": [
+      "Stealth",
+      "First-Person",
+      "Immersive Sim"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Dark Engine",
+    "metacritic": 87,
+    "plot": "Master thief Garrett returns to his life of larceny in the metropolis known only as the City, where the fanatical Mechanist sect has emerged with advanced steam-powered technology and robotic servants. When newly appointed Sheriff Gorman Truart places a price on Garrett's head, the master burglar must navigate a conspiracy involving the Mechanists, corrupt officials, and an ancient prophecy called the Metal Age. Moving through sprawling urban environments from nobles' mansions to mechanized facilities, Garrett employs stealth and cunning to complete heists, gather intelligence, and uncover the truth about the Mechanists' zealous leader Karras and his plan to cleanse the city with a deadly technological plague while staying one step ahead of authorities determined to see him captured or dead."
+  }
+},
+  {
   "date": "2026-03-29",
   "region": "WW",
   "releaseDate": "2019-03-08",
