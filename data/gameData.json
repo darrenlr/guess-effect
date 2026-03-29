@@ -1,5 +1,38 @@
 [
   {
+  "date": "2026-03-29",
+  "region": "WW",
+  "releaseDate": "2019-03-08",
+  "title": "Devil May Cry 5",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rb4.webp",
+  "hints": {
+    "publisher": [
+      "Capcom"
+    ],
+    "developer": [
+      "Capcom"
+    ],
+    "genre": [
+      "Hack and Slash",
+      "Action-Adventure",
+      "Character Action"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "modes": [
+      "Single-player",
+      "Co-op",
+      "Multiplayer"
+    ],
+    "engine": "RE Engine",
+    "metacritic": 88,
+    "plot": "Several years after the Order of the Sword incident, demon hunter Nero loses his demonic Devil Bringer arm to a mysterious cloaked figure and heads to Red Grave City where a massive demon tree has taken root, spreading a devastating invasion. Equipped with mechanical Devil Breaker arms crafted by partner Nico and joined by legendary demon hunter Dante and the enigmatic poet V, Nero discovers the invasion is led by Urizen—a supremely powerful demon king seeking to consume the Qliphoth tree's fruit to gain ultimate power. As the three demon hunters battle through hordes of demons with their distinct combat styles, they uncover shocking truths about Urizen's identity, V's true nature, and a family conflict that will determine humanity's survival."
+  }
+  },
+  {
     "date": "2026-03-28",
     "region": "NA",
     "releaseDate": "2005-09-13",
