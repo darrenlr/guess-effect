@@ -1,5 +1,35 @@
 [
   {
+  "date": "2026-03-31",
+  "region": "NA",
+  "releaseDate": "2000-09-20",
+  "title": "Tony Hawk's Pro Skater 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y77.webp",
+  "hints": {
+    "publisher": [
+      "Activision"
+    ],
+    "developer": [
+      "Neversoft"
+    ],
+    "genre": [
+      "Skateboarding",
+      "Sports",
+      "Extreme Sports"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "modes": [
+      "Single-player",
+      "Multiplayer"
+    ],
+    "engine": null,
+    "metacritic": 98,
+    "plot": "Competing as one of thirteen professional skateboarders including Tony Hawk, Rodney Mullen, and Bob Burnquist, you travel across iconic locations from Philadelphia's Love Park to Marseilles, France to earn sponsorships and achieve legendary pro status. Each skatepark presents goals like collecting S-K-A-T-E letters, achieving high scores, finding hidden tapes, and pulling off specific trick combos within two-minute runs. As you earn cash from completing objectives and nailing massive trick chains using the revolutionary manual technique to link combos, you invest in stat upgrades and unlock new boards. Between competitions and free skate sessions, you customize your own skater's appearance and create custom skateparks to share, grinding and flipping your way to skateboarding immortality."
+  }
+},
+  {
   "date": "2026-03-30",
   "region": "NA",
   "releaseDate": "2000-03-23",
