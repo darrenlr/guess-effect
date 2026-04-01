@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-02",
+  "region": "WW",
+  "releaseDate": "2011-09-20",
+  "title": "Gears of War 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a21.webp",
+  "hints": {
+    "publisher": ["Microsoft Studios"],
+    "developer": ["Epic Games"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 91,
+    "plot": "With the last human city destroyed and survivors scattered, a soldier learns his scientist father is still alive and being held captive. He leads his squad across a war-torn planet to find him, facing both the Locust Horde and a new, more dangerous mutant threat in a desperate bid to save what remains of humanity."
+  }
+  },
+  {
   "date": "2026-04-01",
   "region": "NA",
   "releaseDate": "2008-11-11",
