@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-03",
+  "region": "JP",
+  "releaseDate": "1990-11-21",
+  "title": "Super Mario World",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Platformer"],
+    "platforms": ["Super Famicom"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Mario and Luigi take a vacation to Dinosaur Land, only to find Princess Peach has been kidnapped by Bowser and the Koopalings. Joining forces with a young dinosaur named Yoshi, Mario sets off across seven worlds to defeat Bowser's children and rescue the princess."
+  }
+},
+  {
   "date": "2026-04-02",
   "region": "WW",
   "releaseDate": "2011-09-20",
