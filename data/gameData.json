@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-04",
+  "region": "NA",
+  "releaseDate": "2009-05-26",
+  "title": "inFamous",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co525t.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Sucker Punch Productions"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "A bike courier survives a massive explosion that devastates several city blocks of a quarantined metropolis, emerging with extraordinary electricity-based superpowers. Trapped in a city overrun by criminal factions, he must decide whether to use his abilities for heroism or self-interest, all while uncovering the dark truth behind the explosion and the mysterious figure who engineered it."
+  }
+  },
+  {
   "date": "2026-04-03",
   "region": "JP",
   "releaseDate": "1990-11-21",
