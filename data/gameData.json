@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-05",
+  "region": "WW",
+  "releaseDate": "2007-10-09",
+  "title": "Portal",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coay61.webp",
+  "hints": {
+    "publisher": ["Valve"],
+    "developer": ["Valve"],
+    "genre": ["Puzzle", "Platformer"],
+    "platforms": ["PC", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Source",
+    "metacritic": 90,
+    "plot": "A test subject wakes inside a vast scientific research facility and is guided through a series of increasingly dangerous puzzle chambers by a passive-aggressive artificial intelligence. Armed with a device capable of creating linked portals on flat surfaces, she must use spatial reasoning and momentum to escape — all while her unseen overseer promises cake as a reward."
+  }
+  },
+  {
   "date": "2026-04-04",
   "region": "NA",
   "releaseDate": "2009-05-26",
