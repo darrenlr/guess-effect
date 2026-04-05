@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-06",
+  "region": "WW",
+  "releaseDate": "2001-11-05",
+  "title": "SSX Tricky",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2sup.webp",
+  "hints": {
+    "publisher": ["EA Sports Big"],
+    "developer": ["EA Canada"],
+    "genre": ["Snowboarding", "Sports"],
+    "platforms": ["PlayStation 2", "GameCube", "Xbox"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "A roster of larger-than-life snowboarders compete across outrageous mountain courses set in locations around the world, from a neon-lit Tokyo pinball machine to the frozen wilds of Alaska. Players race and perform increasingly absurd tricks to fill a boost meter, unlocking devastating Uber moves that defy the laws of physics and propel riders to victory."
+  }
+},
+  {
   "date": "2026-04-05",
   "region": "WW",
   "releaseDate": "2007-10-09",
