@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-07",
+  "region": "NA",
+  "releaseDate": "2004-11-09",
+  "title": "Jak 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6kks.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Naughty Dog"],
+    "genre": ["Action-Adventure", "Platformer"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "Falsely blamed for the destruction of Haven City, a young hero and his wisecracking companion are exiled into a vast, deadly desert wasteland by a scheming count. Rescued by the ruler of a desert city, they must prove their worth while uncovering a conspiracy involving ancient precursor technology, a three-way war back in Haven City, and the origins of the hero's mysterious dark and light powers."
+  }
+},
+  {
   "date": "2026-04-06",
   "region": "WW",
   "releaseDate": "2001-11-05",
