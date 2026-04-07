@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-09",
+  "region": "NA",
+  "releaseDate": "2009-10-27",
+  "title": "Ratchet & Clank: A Crack in Time",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6fjt.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Insomniac Games"],
+    "genre": ["Action-Adventure", "Platformer"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "After his robot companion is abducted by the Zoni and handed over to the villainous Dr. Nefarious, a Lombax mechanic races across the galaxy to stage a rescue. Meanwhile, the robot awakens inside a colossal structure at the centre of the universe designed to maintain time itself, slowly uncovering the truth about his origins as Nefarious schemes to seize control of time for his own ends."
+  }
+},
+  {
   "date": "2026-04-07",
   "region": "NA",
   "releaseDate": "2004-11-09",
