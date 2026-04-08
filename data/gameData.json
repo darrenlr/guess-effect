@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-10",
+  "region": "WW",
+  "releaseDate": "2012-09-18",
+  "title": "Borderlands 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.webp",
+  "hints": {
+    "publisher": ["2K Games"],
+    "developer": ["Gearbox Software"],
+    "genre": ["Action RPG", "First-Person Shooter"],
+    "platforms": ["PC", "PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 89,
+    "plot": "A group of new Vault Hunters arrive on the hostile planet of Pandora, only to be ambushed and left for dead by the planet's charismatic and sadistic corporate dictator. Rescued by a lone robot, they join a ragtag resistance movement to hunt down the tyrant, uncover the secret of a second Vault, and stop him from unleashing a devastating ancient evil upon the galaxy."
+  }
+},
+  {
   "date": "2026-04-08",
   "region": "NA",
   "releaseDate": "2009-10-27",
