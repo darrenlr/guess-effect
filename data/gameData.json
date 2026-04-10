@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-10",
+  "region": "NA",
+  "releaseDate": "2010-10-26",
+  "title": "Fable III",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co231s.webp",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Lionhead Studios"],
+    "genre": ["Action RPG"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Co-op"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "Fifty years after the events of its predecessor, the industrialised kingdom of Albion is ruled by a tyrannical king who is the player character's own brother. A prince or princess must rally allies, spark a revolution, and seize the throne — only to discover that ruling is far harder than rebelling when a devastating threat from beyond Albion demands impossible sacrifices."
+  }
+  },
+  {
   "date": "2026-04-09",
   "region": "WW",
   "releaseDate": "2012-09-18",
