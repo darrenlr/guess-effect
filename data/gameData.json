@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-11",
+  "region": "NA",
+  "releaseDate": "2002-09-30",
+  "title": "Burnout 2: Point of Impact",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2pmn.webp",
+  "hints": {
+    "publisher": ["Acclaim Entertainment"],
+    "developer": ["Criterion Games"],
+    "genre": ["Racing"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "RenderWare",
+    "metacritic": 86,
+    "plot": "Players race high-speed cars through busy US roads and highways, earning boost by taking extreme risks such as driving into oncoming traffic, drifting corners, and catching air. A dedicated Crash mode challenges drivers to cause the most spectacular and costly pile-ups possible at busy junctions, while a Pursuit mode puts players behind the wheel of a police cruiser tasked with wrecking a fleeing criminal's car."
+  }
+},
+  {
   "date": "2026-04-10",
   "region": "NA",
   "releaseDate": "2010-10-26",
