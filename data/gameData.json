@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-13",
+  "region": "EU",
+  "releaseDate": "2009-02-25",
+  "title": "Killzone 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3j9z.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Guerrilla Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Two years after a failed Helghast invasion of the human colony Vekta, the ISA launches a retaliatory assault on the enemy's toxic home world of Helghan. A battle-hardened special forces soldier fights through the ruins of the Helghast capital alongside his squad, with orders to capture the charismatic and ruthless Emperor Visari and bring the Helghast war machine to its knees."
+  }
+},
+  {
   "date": "2026-04-12",
   "region": "WW",
   "releaseDate": "1998-05-22",
