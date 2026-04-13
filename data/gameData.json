@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-14",
+  "region": "NA",
+  "releaseDate": "2013-03-12",
+  "title": "God of War: Ascension",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3die.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Santa Monica Studio"],
+    "genre": ["Action-Adventure", "Hack and Slash"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "Six months after being tricked by the God of War into slaughtering his own wife and daughter, a Spartan warrior breaks his blood oath and is imprisoned and tortured by the three Furies — ancient mythological enforcers of sacred bonds. With the help of a conflicted oath keeper, he fights to escape his chains, confront the Furies, and take his first steps on the long road to vengeance."
+  }
+  },
+  {
   "date": "2026-04-13",
   "region": "EU",
   "releaseDate": "2009-02-25",
