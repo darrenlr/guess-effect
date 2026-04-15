@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-15",
+  "region": "EU",
+  "releaseDate": "2006-04-07",
+  "title": "Tomb Raider: Legend",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nnv.webp",
+  "hints": {
+    "publisher": ["Eidos Interactive"],
+    "developer": ["Crystal Dynamics"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 2", "Xbox", "Xbox 360", "PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "A globe-trotting archaeologist searches for fragments of a mythical sword connected to the disappearance of her mother years earlier, racing across Bolivia, Peru, Japan, Ghana, Kazakhstan, England, and Nepal against her former friend — now a dangerous adversary — who seeks the same artefact for her own mysterious ends."
+  }
+  },
+  {
   "date": "2026-04-14",
   "region": "NA",
   "releaseDate": "2013-03-12",
