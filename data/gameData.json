@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-17",
+  "region": "NA",
+  "releaseDate": "2008-11-04",
+  "title": "Resistance 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39vd.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Insomniac Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "Following a desperate defence of Europe against an alien-like invasion, a soldier infected with the Chimeran virus travels to the United States as the enemy launches a full-scale assault on both coasts. Now part of an elite squad of similarly infected fighters, he must battle the invaders across the country while struggling to contain the virus raging inside him before it consumes him entirely."
+  }
+  },
+  {
   "date": "2026-04-16",
   "region": "NA",
   "releaseDate": "2004-06-01",
