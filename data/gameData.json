@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-16",
+  "region": "NA",
+  "releaseDate": "2004-06-01",
+  "title": "The Chronicles of Riddick: Escape from Butcher Bay",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mp7.webp",
+  "hints": {
+    "publisher": ["Vivendi Universal Games"],
+    "developer": ["Starbreeze Studios", "Tigon Studios"],
+    "genre": ["Action-Adventure", "First-Person Shooter", "Stealth"],
+    "platforms": ["Xbox"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "The notorious fugitive Riddick is captured by a bounty hunter and delivered to Butcher Bay, a triple-maximum security prison on a remote planet — a facility from which no one has ever escaped. Using stealth, brutal hand-to-hand combat, and his extraordinary ability to see in total darkness, he must fight through guards, criminals, and the prison's darkest secrets to find a way out."
+  }
+  },
+  {
   "date": "2026-04-15",
   "region": "EU",
   "releaseDate": "2006-04-07",
