@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-18",
+  "region": "NA",
+  "releaseDate": "2011-01-18",
+  "title": "LittleBigPlanet 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Media Molecule"],
+    "genre": ["Platformer", "Puzzle"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "A mysterious inter-dimensional vacuum cleaner called the Negativitron descends upon Craftworld and begins consuming its inhabitants and worlds. A small fabric creature joins a secret organisation led by the eccentric inventor Larry Da Vinci, teaming up with a colourful cast of Creator Curators across six worlds to push back the Negativitron and save Craftworld from total destruction."
+  }
+  },
+  {
   "date": "2026-04-17",
   "region": "NA",
   "releaseDate": "2008-11-04",
