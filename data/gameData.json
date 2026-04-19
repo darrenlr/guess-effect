@@ -1,5 +1,23 @@
 [
   {
+  "date": "2026-04-19",
+  "region": "JP",
+  "releaseDate": "2006-12-14",
+  "title": "MotorStorm",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26t9.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Evolution Studios"],
+    "genre": ["Racing"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 84,
+    "metacritic_note": "Score based on Japanese import reviews; the JP version lacked online multiplayer at launch.",
+    "plot": "Competitors from around the world descend on the brutal terrain of Monument Valley for the MotorStorm Festival — an anarchic, no-rules off-road racing event. Drivers select from seven vehicle classes, from nimble dirt bikes to monstrous big rigs, and tear across deforming mud tracks, each vying to win by any means necessary."
+  }
+  }
+  {
   "date": "2026-04-18",
   "region": "NA",
   "releaseDate": "2011-01-18",
