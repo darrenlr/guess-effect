@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-20",
+  "region": "WW",
+  "releaseDate": "2013-02-05",
+  "title": "Dead Space 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2int.webp",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Visceral Games"],
+    "genre": ["Survival Horror", "Action"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player", "Co-op"],
+    "engine": "Visceral Tech",
+    "metacritic": 78,
+    "plot": "Engineer Isaac Clarke travels to the frozen, hostile planet of Tau Volantis alongside soldier John Carver to uncover the origins of the Necromorph threat and find a way to stop it permanently. Battling through blizzards, ancient alien ruins, and a fanatical human cult called the Unitologists, the two must confront the truth behind the mysterious Markers before the universe is consumed."
+  }
+  },
+  {
   "date": "2026-04-19",
   "region": "JP",
   "releaseDate": "2006-12-14",
