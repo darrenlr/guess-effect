@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-21",
+  "region": "JP",
+  "releaseDate": "2001-01-25",
+  "title": "Onimusha: Warlords",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4r26.webp",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Capcom"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "A samurai responds to a distress call from his cousin, Princess Yuki, whose castle has been overrun by demonic forces following the death of warlord Nobunaga Oda in battle. Equipped with a mystical gauntlet granted by the Oni clan, he fights through the demon-infested fortress to rescue her, uncovering a supernatural conspiracy to resurrect Nobunaga using dark power."
+  }
+  },
+  {
   "date": "2026-04-20",
   "region": "WW",
   "releaseDate": "2013-02-05",
