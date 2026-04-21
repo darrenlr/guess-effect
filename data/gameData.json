@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-22",
+  "region": "WW",
+  "releaseDate": "2015-02-20",
+  "title": "The Order: 1886",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Ready at Dawn", "SCE Santa Monica Studio"],
+    "genre": ["Action-Adventure", "Third-Person Shooter"],
+    "platforms": ["PlayStation 4"],
+    "modes": ["Single-player"],
+    "engine": "RAD Engine",
+    "metacritic": 63,
+    "plot": "In an alternate-history Victorian London, an ancient order of knights descended from the legends of the Round Table battles a centuries-old war against half-breeds — humans who have evolved supernatural, bestial traits. When a senior knight begins uncovering links between rebel insurgents and the half-breed threat, he sets in motion a conspiracy that reaches to the very heart of the Order itself."
+  }
+},
+  {
   "date": "2026-04-21",
   "region": "JP",
   "releaseDate": "2001-01-25",
