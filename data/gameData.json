@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-23",
+  "region": "NA",
+  "releaseDate": "1998-12-10",
+  "title": "Turok 2: Seeds of Evil",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co24lz.webp",
+  "hints": {
+    "publisher": ["Acclaim Entertainment"],
+    "developer": ["Iguana Entertainment"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["Nintendo 64"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A new warrior chosen by the Lazarus Concordance is summoned to the Lost Land to confront a powerful imprisoned alien entity known as the Primagen, who seeks to destroy the universe rather than allow himself to remain captive. Venturing through six massive environments — from jungle ports to subterranean caverns — the hero must complete objectives, protect sacred energy totems, and ultimately prevent the Primagen from merging his Lightship with the fabric of existence."
+  }
+},
+  {
   "date": "2026-04-22",
   "region": "WW",
   "releaseDate": "2015-02-20",
