@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-25",
+  "region": "NA",
+  "releaseDate": "2002-11-16",
+  "title": "Mortal Kombat: Deadly Alliance",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20kf.webp",
+  "hints": {
+    "publisher": ["Midway"],
+    "developer": ["Midway"],
+    "genre": ["Fighting"],
+    "platforms": ["PlayStation 2", "GameCube", "Xbox", "Game Boy Advance"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "Two of Outworld's most powerful sorcerers — Quan Chi and Shang Tsung — forge a secret pact, swiftly eliminating both the Emperor of Outworld and Earthrealm's greatest champion before retreating to resurrect an ancient, undefeatable army. With Earthrealm's usual protectors scrambling to respond, Raiden rallies a group of warriors to confront the alliance before the undead army can be fully revived and all realms fall under the sorcerers' control."
+  }
+},
+  {
   "date": "2026-04-24",
   "region": "NA",
   "releaseDate": "2007-02-20",
