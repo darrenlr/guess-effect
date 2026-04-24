@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-24",
+  "region": "NA",
+  "releaseDate": "2007-02-20",
+  "title": "Crackdown",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w65.webp",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Realtime Worlds"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Co-op"],
+    "engine": "RenderWare",
+    "metacritic": 83,
+    "plot": "An Agency Agent — a genetically enhanced supersoldier — is deployed to the crime-ridden Pacific City, where three powerful criminal organisations have carved the metropolis into their own territories. As the Agent eliminates bosses and their lieutenants, he grows stronger, faster, and more capable, eventually uncovering a far darker truth about the Agency that sent him."
+  }
+  },
+  {
   "date": "2026-04-23",
   "region": "NA",
   "releaseDate": "1998-12-10",
