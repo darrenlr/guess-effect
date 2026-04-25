@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-26",
+  "region": "NA",
+  "releaseDate": "1998-11-03",
+  "title": "Crash Bandicoot 3: Warped",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co873w.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Naughty Dog"],
+    "genre": ["Platform"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "After the ruins of a villainous scientist's space station crash-land on Earth, they release a powerful ancient evil — a dark spirit who joins forces with the scientist and a time-obsessed doctor to use a massive time machine to scatter powerful crystals across history. Crash and his sister Coco must travel through time — from ancient Egypt to medieval Europe to the far future — to collect the crystals first and prevent the trio from enslaving the world."
+  }
+},
+  {
   "date": "2026-04-25",
   "region": "NA",
   "releaseDate": "2002-11-16",
