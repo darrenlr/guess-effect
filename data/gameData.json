@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-27",
+  "region": "JP",
+  "releaseDate": "2015-05-28",
+  "title": "Splatoon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob8ra.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["Wii U"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 81,
+    "plot": "In a far-future Earth repopulated by evolved marine life, a young Inkling — a humanoid creature capable of transforming into a squid — discovers that a mysterious force has stolen the Great Zapfish powering their city of Inkopolis. Venturing into an underground facility built by the rival Octarian race, the hero must battle through enemy territory to reclaim the stolen electricity source and stop the Octarians from invading the surface world."
+  }
+},
+  {
   "date": "2026-04-26",
   "region": "NA",
   "releaseDate": "1998-11-03",
