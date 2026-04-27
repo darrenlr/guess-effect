@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-28",
+  "region": "WW",
+  "releaseDate": "2010-11-09",
+  "title": "Call of Duty: Black Ops",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.webp",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["Treyarch"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC", "PlayStation 3", "Xbox 360", "Wii"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "IW Engine",
+    "metacritic": 87,
+    "plot": "CIA operative Alex Mason sits strapped to a chair under interrogation, unable to recall key memories that may reveal the location of a devastating numbers station targeting the United States with a chemical weapons sleeper network. As his captors force him to relive missions across Cuba, Vietnam, Laos, and the Soviet Union, Mason struggles to untangle which memories are real — and why a dead man's voice keeps echoing through them."
+  }
+},
+  {
   "date": "2026-04-27",
   "region": "JP",
   "releaseDate": "2015-05-28",
