@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-29",
+  "region": "WW",
+  "releaseDate": "2011-02-22",
+  "title": "Killzone 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mer.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Guerrilla Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "Following the assassination of the Helghast Emperor, ISA soldiers Sev and Rico find themselves stranded deep behind enemy lines on the hostile planet of Helghan, outmanned and fighting for survival. With two ruthless Helghast commanders vying to fill the power vacuum left by their fallen leader, the ISA must battle through arctic wastelands, alien jungles, and orbital space stations in a desperate bid to escape the planet before it tears itself apart."
+  }
+},
+  {
   "date": "2026-04-28",
   "region": "WW",
   "releaseDate": "2010-11-09",
