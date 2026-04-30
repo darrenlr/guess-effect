@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-04-30",
+  "region": "JP",
+  "releaseDate": "2004-11-15",
+  "title": "Tekken 5",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
+  "hints": {
+    "publisher": ["Namco"],
+    "developer": ["Namco"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "In the aftermath of a brutal confrontation between three generations of the Mishima bloodline, a mysterious army of Jack robots attacks the family compound and seemingly kills the patriarch. With the Mishima Zaibatsu seized by an unknown successor, a new King of Iron Fist Tournament is announced — drawing fighters from across the world to compete, while Jin Kazama pursues his own answers about his cursed lineage and the demonic power within him."
+  }
+},
+  {
   "date": "2026-04-29",
   "region": "WW",
   "releaseDate": "2011-02-22",
