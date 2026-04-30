@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-01",
+  "region": "NA",
+  "releaseDate": "2007-10-23",
+  "title": "Ratchet & Clank: Tools of Destruction",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8542.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Insomniac Games"],
+    "genre": ["Platform", "Third-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "After their home city is attacked by Emperor Tachyon — a tyrannical ruler of an ancient insectoid race with a vendetta against the last of the Lombax species — a mechanic and his robot companion steal the emperor's warship and flee to a distant galaxy. As they unravel the mystery of the Lombaxes and the secret weapon Tachyon seeks, the mechanic begins to discover the truth about his own origins and the fate of his people."
+  }
+},
+  {
   "date": "2026-04-30",
   "region": "JP",
   "releaseDate": "2004-11-15",
