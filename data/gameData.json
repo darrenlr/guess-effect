@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-03",
+  "region": "NA",
+  "releaseDate": "2013-08-29",
+  "title": "Rayman Legends",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ma8.webp",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montpellier"],
+    "genre": ["Platform"],
+    "platforms": ["Wii U"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "UbiArt Framework",
+    "metacritic": 91,
+    "plot": "After falling into a century-long slumber, a limbless hero and his companions awaken to find the Glade of Dreams overrun by nightmares — the result of a corrupted Magician who has fractured into five dark entities called the Dark Teensies. Together with a new barbarian ally and a helpful creature named Murfy, the heroes must travel through enchanted worlds trapped inside mysterious paintings to rescue hundreds of imprisoned Teensies and defeat the darkness threatening their realm."
+  }
+  },
+  {
   "date": "2026-05-02",
   "region": "NA",
   "releaseDate": "2012-05-08",
