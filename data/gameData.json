@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-02",
+  "region": "NA",
+  "releaseDate": "2012-05-08",
+  "title": "Starhawk",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4903.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["LightBox Interactive", "SCE Santa Monica Studio"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 77,
+    "plot": "In a lawless frontier of space, a hired gun who was partially exposed to a volatile energy source called Rift Energy — leaving him half-mutated — is summoned back to the mining colony he once called home. Caught between the human Rifters who exploit the resource and the fully mutated Outcasts who worship it, he must confront his corrupted brother, who now leads the Outcast warband threatening to destroy everything that remains of his past life."
+  }
+},
+  {
   "date": "2026-05-01",
   "region": "NA",
   "releaseDate": "2007-10-23",
