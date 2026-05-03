@@ -1,689 +1,1083 @@
 [
   {
-  "date": "2026-05-04",
-  "region": "NA",
-  "releaseDate": "2001-06-18",
-  "title": "Twisted Metal: Black",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3q.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Incognito Entertainment"],
-    "genre": ["Vehicle Combat"],
-    "platforms": ["PlayStation 2"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 87,
-    "plot": "In the fictional dystopian city of Midtown, a mysterious figure called Calypso recruits a cast of deranged and broken souls — plucked from a crumbling mental asylum — to compete in a brutal vehicular combat tournament. Each contestant fights for the chance to have a single wish granted, but behind every desperate desire lies a dark and twisted backstory that unfolds as the carnage escalates."
-  }
-},
-  {
-  "date": "2026-05-03",
-  "region": "NA",
-  "releaseDate": "2013-08-29",
-  "title": "Rayman Legends",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ma8.webp",
-  "hints": {
-    "publisher": ["Ubisoft"],
-    "developer": ["Ubisoft Montpellier"],
-    "genre": ["Platform"],
-    "platforms": ["Wii U"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": "UbiArt Framework",
-    "metacritic": 91,
-    "plot": "After falling into a century-long slumber, a limbless hero and his companions awaken to find the Glade of Dreams overrun by nightmares — the result of a corrupted Magician who has fractured into five dark entities called the Dark Teensies. Together with a new barbarian ally and a helpful creature named Murfy, the heroes must travel through enchanted worlds trapped inside mysterious paintings to rescue hundreds of imprisoned Teensies and defeat the darkness threatening their realm."
-  }
+    "date": "2026-05-04",
+    "region": "NA",
+    "releaseDate": "2001-06-18",
+    "title": "Twisted Metal: Black",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3q.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Incognito Entertainment"
+      ],
+      "genre": [
+        "Vehicle Combat"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 87,
+      "plot": "In the fictional dystopian city of Midtown, a mysterious figure called Calypso recruits a cast of deranged and broken souls — plucked from a crumbling mental asylum — to compete in a brutal vehicular combat tournament. Each contestant fights for the chance to have a single wish granted, but behind every desperate desire lies a dark and twisted backstory that unfolds as the carnage escalates."
+    }
   },
   {
-  "date": "2026-05-02",
-  "region": "NA",
-  "releaseDate": "2012-05-08",
-  "title": "Starhawk",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4903.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["LightBox Interactive", "SCE Santa Monica Studio"],
-    "genre": ["Third-Person Shooter"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Multiplayer", "Co-op"],
-    "engine": null,
-    "metacritic": 77,
-    "plot": "In a lawless frontier of space, a hired gun who was partially exposed to a volatile energy source called Rift Energy — leaving him half-mutated — is summoned back to the mining colony he once called home. Caught between the human Rifters who exploit the resource and the fully mutated Outcasts who worship it, he must confront his corrupted brother, who now leads the Outcast warband threatening to destroy everything that remains of his past life."
-  }
-},
-  {
-  "date": "2026-05-01",
-  "region": "NA",
-  "releaseDate": "2007-10-23",
-  "title": "Ratchet & Clank: Tools of Destruction",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8542.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Insomniac Games"],
-    "genre": ["Platform", "Third-Person Shooter"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 89,
-    "plot": "After their home city is attacked by Emperor Tachyon — a tyrannical ruler of an ancient insectoid race with a vendetta against the last of the Lombax species — a mechanic and his robot companion steal the emperor's warship and flee to a distant galaxy. As they unravel the mystery of the Lombaxes and the secret weapon Tachyon seeks, the mechanic begins to discover the truth about his own origins and the fate of his people."
-  }
-},
-  {
-  "date": "2026-04-30",
-  "region": "JP",
-  "releaseDate": "2004-11-15",
-  "title": "Tekken 5",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
-  "hints": {
-    "publisher": ["Namco"],
-    "developer": ["Namco"],
-    "genre": ["Fighting"],
-    "platforms": ["Arcade"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 88,
-    "plot": "In the aftermath of a brutal confrontation between three generations of the Mishima bloodline, a mysterious army of Jack robots attacks the family compound and seemingly kills the patriarch. With the Mishima Zaibatsu seized by an unknown successor, a new King of Iron Fist Tournament is announced — drawing fighters from across the world to compete, while Jin Kazama pursues his own answers about his cursed lineage and the demonic power within him."
-  }
-},
-  {
-  "date": "2026-04-29",
-  "region": "WW",
-  "releaseDate": "2011-02-22",
-  "title": "Killzone 3",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mer.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Guerrilla Games"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Multiplayer", "Co-op"],
-    "engine": null,
-    "metacritic": 84,
-    "plot": "Following the assassination of the Helghast Emperor, ISA soldiers Sev and Rico find themselves stranded deep behind enemy lines on the hostile planet of Helghan, outmanned and fighting for survival. With two ruthless Helghast commanders vying to fill the power vacuum left by their fallen leader, the ISA must battle through arctic wastelands, alien jungles, and orbital space stations in a desperate bid to escape the planet before it tears itself apart."
-  }
-},
-  {
-  "date": "2026-04-28",
-  "region": "WW",
-  "releaseDate": "2010-11-09",
-  "title": "Call of Duty: Black Ops",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.webp",
-  "hints": {
-    "publisher": ["Activision"],
-    "developer": ["Treyarch"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["PC", "PlayStation 3", "Xbox 360", "Wii"],
-    "modes": ["Single-player", "Multiplayer", "Co-op"],
-    "engine": "IW Engine",
-    "metacritic": 87,
-    "plot": "CIA operative Alex Mason sits strapped to a chair under interrogation, unable to recall key memories that may reveal the location of a devastating numbers station targeting the United States with a chemical weapons sleeper network. As his captors force him to relive missions across Cuba, Vietnam, Laos, and the Soviet Union, Mason struggles to untangle which memories are real — and why a dead man's voice keeps echoing through them."
-  }
-},
-  {
-  "date": "2026-04-27",
-  "region": "JP",
-  "releaseDate": "2015-05-28",
-  "title": "Splatoon",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob8ra.webp",
-  "hints": {
-    "publisher": ["Nintendo"],
-    "developer": ["Nintendo"],
-    "genre": ["Third-Person Shooter"],
-    "platforms": ["Wii U"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 81,
-    "plot": "In a far-future Earth repopulated by evolved marine life, a young Inkling — a humanoid creature capable of transforming into a squid — discovers that a mysterious force has stolen the Great Zapfish powering their city of Inkopolis. Venturing into an underground facility built by the rival Octarian race, the hero must battle through enemy territory to reclaim the stolen electricity source and stop the Octarians from invading the surface world."
-  }
-},
-  {
-  "date": "2026-04-26",
-  "region": "NA",
-  "releaseDate": "1998-11-03",
-  "title": "Crash Bandicoot 3: Warped",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co873w.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Naughty Dog"],
-    "genre": ["Platform"],
-    "platforms": ["PlayStation"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": null,
-    "plot": "After the ruins of a villainous scientist's space station crash-land on Earth, they release a powerful ancient evil — a dark spirit who joins forces with the scientist and a time-obsessed doctor to use a massive time machine to scatter powerful crystals across history. Crash and his sister Coco must travel through time — from ancient Egypt to medieval Europe to the far future — to collect the crystals first and prevent the trio from enslaving the world."
-  }
-},
-  {
-  "date": "2026-04-25",
-  "region": "NA",
-  "releaseDate": "2002-11-16",
-  "title": "Mortal Kombat: Deadly Alliance",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20kf.webp",
-  "hints": {
-    "publisher": ["Midway"],
-    "developer": ["Midway"],
-    "genre": ["Fighting"],
-    "platforms": ["PlayStation 2", "GameCube", "Xbox", "Game Boy Advance"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 79,
-    "plot": "Two of Outworld's most powerful sorcerers — Quan Chi and Shang Tsung — forge a secret pact, swiftly eliminating both the Emperor of Outworld and Earthrealm's greatest champion before retreating to resurrect an ancient, undefeatable army. With Earthrealm's usual protectors scrambling to respond, Raiden rallies a group of warriors to confront the alliance before the undead army can be fully revived and all realms fall under the sorcerers' control."
-  }
-},
-  {
-  "date": "2026-04-24",
-  "region": "NA",
-  "releaseDate": "2007-02-20",
-  "title": "Crackdown",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w65.webp",
-  "hints": {
-    "publisher": ["Microsoft Game Studios"],
-    "developer": ["Realtime Worlds"],
-    "genre": ["Action-Adventure", "Open World"],
-    "platforms": ["Xbox 360"],
-    "modes": ["Single-player", "Co-op"],
-    "engine": "RenderWare",
-    "metacritic": 83,
-    "plot": "An Agency Agent — a genetically enhanced supersoldier — is deployed to the crime-ridden Pacific City, where three powerful criminal organisations have carved the metropolis into their own territories. As the Agent eliminates bosses and their lieutenants, he grows stronger, faster, and more capable, eventually uncovering a far darker truth about the Agency that sent him."
-  }
+    "date": "2026-05-03",
+    "region": "NA",
+    "releaseDate": "2013-08-29",
+    "title": "Rayman Legends",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3ma8.webp",
+    "hints": {
+      "publisher": [
+        "Ubisoft"
+      ],
+      "developer": [
+        "Ubisoft Montpellier"
+      ],
+      "genre": [
+        "Platform"
+      ],
+      "platforms": [
+        "Wii U"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "UbiArt Framework",
+      "metacritic": 91,
+      "plot": "After falling into a century-long slumber, a limbless hero and his companions awaken to find the Glade of Dreams overrun by nightmares — the result of a corrupted Magician who has fractured into five dark entities called the Dark Teensies. Together with a new barbarian ally and a helpful creature named Murfy, the heroes must travel through enchanted worlds trapped inside mysterious paintings to rescue hundreds of imprisoned Teensies and defeat the darkness threatening their realm."
+    }
   },
   {
-  "date": "2026-04-23",
-  "region": "NA",
-  "releaseDate": "1998-12-10",
-  "title": "Turok 2: Seeds of Evil",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co24lz.webp",
-  "hints": {
-    "publisher": ["Acclaim Entertainment"],
-    "developer": ["Iguana Entertainment"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["Nintendo 64"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": null,
-    "plot": "A new warrior chosen by the Lazarus Concordance is summoned to the Lost Land to confront a powerful imprisoned alien entity known as the Primagen, who seeks to destroy the universe rather than allow himself to remain captive. Venturing through six massive environments — from jungle ports to subterranean caverns — the hero must complete objectives, protect sacred energy totems, and ultimately prevent the Primagen from merging his Lightship with the fabric of existence."
-  }
-},
-  {
-  "date": "2026-04-22",
-  "region": "WW",
-  "releaseDate": "2015-02-20",
-  "title": "The Order: 1886",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Ready at Dawn", "SCE Santa Monica Studio"],
-    "genre": ["Action-Adventure", "Third-Person Shooter"],
-    "platforms": ["PlayStation 4"],
-    "modes": ["Single-player"],
-    "engine": "RAD Engine",
-    "metacritic": 63,
-    "plot": "In an alternate-history Victorian London, an ancient order of knights descended from the legends of the Round Table battles a centuries-old war against half-breeds — humans who have evolved supernatural, bestial traits. When a senior knight begins uncovering links between rebel insurgents and the half-breed threat, he sets in motion a conspiracy that reaches to the very heart of the Order itself."
-  }
-},
-  {
-  "date": "2026-04-21",
-  "region": "JP",
-  "releaseDate": "2001-01-25",
-  "title": "Onimusha: Warlords",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4r26.webp",
-  "hints": {
-    "publisher": ["Capcom"],
-    "developer": ["Capcom"],
-    "genre": ["Action-Adventure"],
-    "platforms": ["PlayStation 2"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 86,
-    "plot": "A samurai responds to a distress call from his cousin, Princess Yuki, whose castle has been overrun by demonic forces following the death of warlord Nobunaga Oda in battle. Equipped with a mystical gauntlet granted by the Oni clan, he fights through the demon-infested fortress to rescue her, uncovering a supernatural conspiracy to resurrect Nobunaga using dark power."
-  }
+    "date": "2026-05-02",
+    "region": "NA",
+    "releaseDate": "2012-05-08",
+    "title": "Starhawk",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4903.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "LightBox Interactive",
+        "SCE Santa Monica Studio"
+      ],
+      "genre": [
+        "Third-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "engine": null,
+      "metacritic": 77,
+      "plot": "In a lawless frontier of space, a hired gun who was partially exposed to a volatile energy source called Rift Energy — leaving him half-mutated — is summoned back to the mining colony he once called home. Caught between the human Rifters who exploit the resource and the fully mutated Outcasts who worship it, he must confront his corrupted brother, who now leads the Outcast warband threatening to destroy everything that remains of his past life."
+    }
   },
   {
-  "date": "2026-04-20",
-  "region": "WW",
-  "releaseDate": "2013-02-05",
-  "title": "Dead Space 3",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2int.webp",
-  "hints": {
-    "publisher": ["Electronic Arts"],
-    "developer": ["Visceral Games"],
-    "genre": ["Survival Horror", "Action"],
-    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
-    "modes": ["Single-player", "Co-op"],
-    "engine": "Visceral Tech",
-    "metacritic": 78,
-    "plot": "Engineer Isaac Clarke travels to the frozen, hostile planet of Tau Volantis alongside soldier John Carver to uncover the origins of the Necromorph threat and find a way to stop it permanently. Battling through blizzards, ancient alien ruins, and a fanatical human cult called the Unitologists, the two must confront the truth behind the mysterious Markers before the universe is consumed."
-  }
+    "date": "2026-05-01",
+    "region": "NA",
+    "releaseDate": "2007-10-23",
+    "title": "Ratchet & Clank: Tools of Destruction",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8542.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "Platform",
+        "Third-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 89,
+      "plot": "After their home city is attacked by Emperor Tachyon — a tyrannical ruler of an ancient insectoid race with a vendetta against the last of the Lombax species — a mechanic and his robot companion steal the emperor's warship and flee to a distant galaxy. As they unravel the mystery of the Lombaxes and the secret weapon Tachyon seeks, the mechanic begins to discover the truth about his own origins and the fate of his people."
+    }
   },
   {
-  "date": "2026-04-19",
-  "region": "JP",
-  "releaseDate": "2006-12-14",
-  "title": "MotorStorm",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26t9.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Evolution Studios"],
-    "genre": ["Racing"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 84,
-    "metacritic_note": "Score based on Japanese import reviews; the JP version lacked online multiplayer at launch.",
-    "plot": "Competitors from around the world descend on the brutal terrain of Monument Valley for the MotorStorm Festival — an anarchic, no-rules off-road racing event. Drivers select from seven vehicle classes, from nimble dirt bikes to monstrous big rigs, and tear across deforming mud tracks, each vying to win by any means necessary."
-  }
+    "date": "2026-04-30",
+    "region": "JP",
+    "releaseDate": "2004-11-15",
+    "title": "Tekken 5",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
+    "hints": {
+      "publisher": [
+        "Namco"
+      ],
+      "developer": [
+        "Namco"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "Arcade"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 88,
+      "plot": "In the aftermath of a brutal confrontation between three generations of the Mishima bloodline, a mysterious army of Jack robots attacks the family compound and seemingly kills the patriarch. With the Mishima Zaibatsu seized by an unknown successor, a new King of Iron Fist Tournament is announced — drawing fighters from across the world to compete, while Jin Kazama pursues his own answers about his cursed lineage and the demonic power within him."
+    }
   },
   {
-  "date": "2026-04-18",
-  "region": "NA",
-  "releaseDate": "2011-01-18",
-  "title": "LittleBigPlanet 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Media Molecule"],
-    "genre": ["Platformer", "Puzzle"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Co-op", "Multiplayer"],
-    "engine": null,
-    "metacritic": 91,
-    "plot": "A mysterious inter-dimensional vacuum cleaner called the Negativitron descends upon Craftworld and begins consuming its inhabitants and worlds. A small fabric creature joins a secret organisation led by the eccentric inventor Larry Da Vinci, teaming up with a colourful cast of Creator Curators across six worlds to push back the Negativitron and save Craftworld from total destruction."
-  }
+    "date": "2026-04-29",
+    "region": "WW",
+    "releaseDate": "2011-02-22",
+    "title": "Killzone 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2mer.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Guerrilla Games"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "engine": null,
+      "metacritic": 84,
+      "plot": "Following the assassination of the Helghast Emperor, ISA soldiers Sev and Rico find themselves stranded deep behind enemy lines on the hostile planet of Helghan, outmanned and fighting for survival. With two ruthless Helghast commanders vying to fill the power vacuum left by their fallen leader, the ISA must battle through arctic wastelands, alien jungles, and orbital space stations in a desperate bid to escape the planet before it tears itself apart."
+    }
   },
   {
-  "date": "2026-04-17",
-  "region": "NA",
-  "releaseDate": "2008-11-04",
-  "title": "Resistance 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39vd.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Insomniac Games"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Co-op", "Multiplayer"],
-    "engine": null,
-    "metacritic": 87,
-    "plot": "Following a desperate defence of Europe against an alien-like invasion, a soldier infected with the Chimeran virus travels to the United States as the enemy launches a full-scale assault on both coasts. Now part of an elite squad of similarly infected fighters, he must battle the invaders across the country while struggling to contain the virus raging inside him before it consumes him entirely."
-  }
+    "date": "2026-04-28",
+    "region": "WW",
+    "releaseDate": "2010-11-09",
+    "title": "Call of Duty: Black Ops",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wkl.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Treyarch"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 3",
+        "Xbox 360",
+        "Wii"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "engine": "IW Engine",
+      "metacritic": 87,
+      "plot": "CIA operative Alex Mason sits strapped to a chair under interrogation, unable to recall key memories that may reveal the location of a devastating numbers station targeting the United States with a chemical weapons sleeper network. As his captors force him to relive missions across Cuba, Vietnam, Laos, and the Soviet Union, Mason struggles to untangle which memories are real — and why a dead man's voice keeps echoing through them."
+    }
   },
   {
-  "date": "2026-04-16",
-  "region": "NA",
-  "releaseDate": "2004-06-01",
-  "title": "The Chronicles of Riddick: Escape from Butcher Bay",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mp7.webp",
-  "hints": {
-    "publisher": ["Vivendi Universal Games"],
-    "developer": ["Starbreeze Studios", "Tigon Studios"],
-    "genre": ["Action-Adventure", "First-Person Shooter", "Stealth"],
-    "platforms": ["Xbox"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 89,
-    "plot": "The notorious fugitive Riddick is captured by a bounty hunter and delivered to Butcher Bay, a triple-maximum security prison on a remote planet — a facility from which no one has ever escaped. Using stealth, brutal hand-to-hand combat, and his extraordinary ability to see in total darkness, he must fight through guards, criminals, and the prison's darkest secrets to find a way out."
-  }
+    "date": "2026-04-27",
+    "region": "JP",
+    "releaseDate": "2015-05-28",
+    "title": "Splatoon",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob8ra.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo"
+      ],
+      "genre": [
+        "Third-Person Shooter"
+      ],
+      "platforms": [
+        "Wii U"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 81,
+      "plot": "In a far-future Earth repopulated by evolved marine life, a young Inkling — a humanoid creature capable of transforming into a squid — discovers that a mysterious force has stolen the Great Zapfish powering their city of Inkopolis. Venturing into an underground facility built by the rival Octarian race, the hero must battle through enemy territory to reclaim the stolen electricity source and stop the Octarians from invading the surface world."
+    }
   },
   {
-  "date": "2026-04-15",
-  "region": "EU",
-  "releaseDate": "2006-04-07",
-  "title": "Tomb Raider: Legend",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nnv.webp",
-  "hints": {
-    "publisher": ["Eidos Interactive"],
-    "developer": ["Crystal Dynamics"],
-    "genre": ["Action-Adventure"],
-    "platforms": ["PlayStation 2", "Xbox", "Xbox 360", "PC"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 82,
-    "plot": "A globe-trotting archaeologist searches for fragments of a mythical sword connected to the disappearance of her mother years earlier, racing across Bolivia, Peru, Japan, Ghana, Kazakhstan, England, and Nepal against her former friend — now a dangerous adversary — who seeks the same artefact for her own mysterious ends."
-  }
+    "date": "2026-04-26",
+    "region": "NA",
+    "releaseDate": "1998-11-03",
+    "title": "Crash Bandicoot 3: Warped",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co873w.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Platform"
+      ],
+      "platforms": [
+        "PlayStation"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "After the ruins of a villainous scientist's space station crash-land on Earth, they release a powerful ancient evil — a dark spirit who joins forces with the scientist and a time-obsessed doctor to use a massive time machine to scatter powerful crystals across history. Crash and his sister Coco must travel through time — from ancient Egypt to medieval Europe to the far future — to collect the crystals first and prevent the trio from enslaving the world."
+    }
   },
   {
-  "date": "2026-04-14",
-  "region": "NA",
-  "releaseDate": "2013-03-12",
-  "title": "God of War: Ascension",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3die.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Santa Monica Studio"],
-    "genre": ["Action-Adventure", "Hack and Slash"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 80,
-    "plot": "Six months after being tricked by the God of War into slaughtering his own wife and daughter, a Spartan warrior breaks his blood oath and is imprisoned and tortured by the three Furies — ancient mythological enforcers of sacred bonds. With the help of a conflicted oath keeper, he fights to escape his chains, confront the Furies, and take his first steps on the long road to vengeance."
-  }
+    "date": "2026-04-25",
+    "region": "NA",
+    "releaseDate": "2002-11-16",
+    "title": "Mortal Kombat: Deadly Alliance",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20kf.webp",
+    "hints": {
+      "publisher": [
+        "Midway"
+      ],
+      "developer": [
+        "Midway"
+      ],
+      "genre": [
+        "Fighting"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "GameCube",
+        "Xbox",
+        "Game Boy Advance"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 79,
+      "plot": "Two of Outworld's most powerful sorcerers — Quan Chi and Shang Tsung — forge a secret pact, swiftly eliminating both the Emperor of Outworld and Earthrealm's greatest champion before retreating to resurrect an ancient, undefeatable army. With Earthrealm's usual protectors scrambling to respond, Raiden rallies a group of warriors to confront the alliance before the undead army can be fully revived and all realms fall under the sorcerers' control."
+    }
   },
   {
-  "date": "2026-04-13",
-  "region": "EU",
-  "releaseDate": "2009-02-25",
-  "title": "Killzone 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3j9z.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Guerrilla Games"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 91,
-    "plot": "Two years after a failed Helghast invasion of the human colony Vekta, the ISA launches a retaliatory assault on the enemy's toxic home world of Helghan. A battle-hardened special forces soldier fights through the ruins of the Helghast capital alongside his squad, with orders to capture the charismatic and ruthless Emperor Visari and bring the Helghast war machine to its knees."
-  }
-},
-  {
-  "date": "2026-04-12",
-  "region": "WW",
-  "releaseDate": "1998-05-22",
-  "title": "Unreal",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9er6.webp",
-  "hints": {
-    "publisher": ["GT Interactive"],
-    "developer": ["Epic MegaGames", "Digital Extremes"],
-    "genre": ["First-Person Shooter"],
-    "platforms": ["PC"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": "Unreal Engine",
-    "metacritic": null,
-    "plot": "A prisoner escapes their cell aboard a crashed spacecraft on the surface of an alien world called Na Pali, only to find the planet's peaceful native inhabitants enslaved by a ruthless warrior race. Armed with a translator to decode alien messages and a growing arsenal of exotic weaponry, the lone survivor must fight through ancient temples, mountain villages, and alien installations to find a way off the planet."
-  }
-},
-  {
-  "date": "2026-04-11",
-  "region": "NA",
-  "releaseDate": "2002-09-30",
-  "title": "Burnout 2: Point of Impact",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2pmn.webp",
-  "hints": {
-    "publisher": ["Acclaim Entertainment"],
-    "developer": ["Criterion Games"],
-    "genre": ["Racing"],
-    "platforms": ["PlayStation 2"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": "RenderWare",
-    "metacritic": 86,
-    "plot": "Players race high-speed cars through busy US roads and highways, earning boost by taking extreme risks such as driving into oncoming traffic, drifting corners, and catching air. A dedicated Crash mode challenges drivers to cause the most spectacular and costly pile-ups possible at busy junctions, while a Pursuit mode puts players behind the wheel of a police cruiser tasked with wrecking a fleeing criminal's car."
-  }
-},
-  {
-  "date": "2026-04-10",
-  "region": "NA",
-  "releaseDate": "2010-10-26",
-  "title": "Fable III",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co231s.webp",
-  "hints": {
-    "publisher": ["Microsoft Game Studios"],
-    "developer": ["Lionhead Studios"],
-    "genre": ["Action RPG"],
-    "platforms": ["Xbox 360"],
-    "modes": ["Single-player", "Co-op"],
-    "engine": null,
-    "metacritic": 80,
-    "plot": "Fifty years after the events of its predecessor, the industrialised kingdom of Albion is ruled by a tyrannical king who is the player character's own brother. A prince or princess must rally allies, spark a revolution, and seize the throne — only to discover that ruling is far harder than rebelling when a devastating threat from beyond Albion demands impossible sacrifices."
-  }
+    "date": "2026-04-24",
+    "region": "NA",
+    "releaseDate": "2007-02-20",
+    "title": "Crackdown",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1w65.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Realtime Worlds"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Open World"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 83,
+      "plot": "An Agency Agent — a genetically enhanced supersoldier — is deployed to the crime-ridden Pacific City, where three powerful criminal organisations have carved the metropolis into their own territories. As the Agent eliminates bosses and their lieutenants, he grows stronger, faster, and more capable, eventually uncovering a far darker truth about the Agency that sent him."
+    }
   },
   {
-  "date": "2026-04-09",
-  "region": "WW",
-  "releaseDate": "2012-09-18",
-  "title": "Borderlands 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.webp",
-  "hints": {
-    "publisher": ["2K Games"],
-    "developer": ["Gearbox Software"],
-    "genre": ["Action RPG", "First-Person Shooter"],
-    "platforms": ["PC", "PlayStation 3", "Xbox 360"],
-    "modes": ["Single-player", "Co-op", "Multiplayer"],
-    "engine": "Unreal Engine 3",
-    "metacritic": 89,
-    "plot": "A group of new Vault Hunters arrive on the hostile planet of Pandora, only to be ambushed and left for dead by the planet's charismatic and sadistic corporate dictator. Rescued by a lone robot, they join a ragtag resistance movement to hunt down the tyrant, uncover the secret of a second Vault, and stop him from unleashing a devastating ancient evil upon the galaxy."
-  }
-},
-  {
-  "date": "2026-04-08",
-  "region": "NA",
-  "releaseDate": "2009-10-27",
-  "title": "Ratchet and Clank: A Crack in Time",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6fjt.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Insomniac Games"],
-    "genre": ["Action-Adventure", "Platformer"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 87,
-    "plot": "After his robot companion is abducted by the Zoni and handed over to the villainous Dr. Nefarious, a Lombax mechanic races across the galaxy to stage a rescue. Meanwhile, the robot awakens inside a colossal structure at the centre of the universe designed to maintain time itself, slowly uncovering the truth about his origins as Nefarious schemes to seize control of time for his own ends."
-  }
-},
-  {
-  "date": "2026-04-07",
-  "region": "NA",
-  "releaseDate": "2004-11-09",
-  "title": "Jak 3",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6kks.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Naughty Dog"],
-    "genre": ["Action-Adventure", "Platformer"],
-    "platforms": ["PlayStation 2"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 84,
-    "plot": "Falsely blamed for the destruction of Haven City, a young hero and his wisecracking companion are exiled into a vast, deadly desert wasteland by a scheming count. Rescued by the ruler of a desert city, they must prove their worth while uncovering a conspiracy involving ancient precursor technology, a three-way war back in Haven City, and the origins of the hero's mysterious dark and light powers."
-  }
-},
-  {
-  "date": "2026-04-06",
-  "region": "WW",
-  "releaseDate": "2001-11-05",
-  "title": "SSX Tricky",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2sup.webp",
-  "hints": {
-    "publisher": ["EA Sports Big"],
-    "developer": ["EA Canada"],
-    "genre": ["Snowboarding", "Sports"],
-    "platforms": ["PlayStation 2", "GameCube", "Xbox"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 92,
-    "plot": "A roster of larger-than-life snowboarders compete across outrageous mountain courses set in locations around the world, from a neon-lit Tokyo pinball machine to the frozen wilds of Alaska. Players race and perform increasingly absurd tricks to fill a boost meter, unlocking devastating Uber moves that defy the laws of physics and propel riders to victory."
-  }
-},
-  {
-  "date": "2026-04-05",
-  "region": "WW",
-  "releaseDate": "2007-10-09",
-  "title": "Portal",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coay61.webp",
-  "hints": {
-    "publisher": ["Valve"],
-    "developer": ["Valve"],
-    "genre": ["Puzzle", "Platformer"],
-    "platforms": ["PC", "Xbox 360"],
-    "modes": ["Single-player"],
-    "engine": "Source",
-    "metacritic": 90,
-    "plot": "A test subject wakes inside a vast scientific research facility and is guided through a series of increasingly dangerous puzzle chambers by a passive-aggressive artificial intelligence. Armed with a device capable of creating linked portals on flat surfaces, she must use spatial reasoning and momentum to escape — all while her unseen overseer promises cake as a reward."
-  }
+    "date": "2026-04-23",
+    "region": "NA",
+    "releaseDate": "1998-12-10",
+    "title": "Turok 2: Seeds of Evil",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co24lz.webp",
+    "hints": {
+      "publisher": [
+        "Acclaim Entertainment"
+      ],
+      "developer": [
+        "Iguana Entertainment"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "Nintendo 64"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "A new warrior chosen by the Lazarus Concordance is summoned to the Lost Land to confront a powerful imprisoned alien entity known as the Primagen, who seeks to destroy the universe rather than allow himself to remain captive. Venturing through six massive environments — from jungle ports to subterranean caverns — the hero must complete objectives, protect sacred energy totems, and ultimately prevent the Primagen from merging his Lightship with the fabric of existence."
+    }
   },
   {
-  "date": "2026-04-04",
-  "region": "NA",
-  "releaseDate": "2009-05-26",
-  "title": "inFamous",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co525t.webp",
-  "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Sucker Punch Productions"],
-    "genre": ["Action-Adventure", "Open World"],
-    "platforms": ["PlayStation 3"],
-    "modes": ["Single-player"],
-    "engine": null,
-    "metacritic": 85,
-    "plot": "A bike courier survives a massive explosion that devastates several city blocks of a quarantined metropolis, emerging with extraordinary electricity-based superpowers. Trapped in a city overrun by criminal factions, he must decide whether to use his abilities for heroism or self-interest, all while uncovering the dark truth behind the explosion and the mysterious figure who engineered it."
-  }
+    "date": "2026-04-22",
+    "region": "WW",
+    "releaseDate": "2015-02-20",
+    "title": "The Order: 1886",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Ready at Dawn",
+        "SCE Santa Monica Studio"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Third-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 4"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "RAD Engine",
+      "metacritic": 63,
+      "plot": "In an alternate-history Victorian London, an ancient order of knights descended from the legends of the Round Table battles a centuries-old war against half-breeds — humans who have evolved supernatural, bestial traits. When a senior knight begins uncovering links between rebel insurgents and the half-breed threat, he sets in motion a conspiracy that reaches to the very heart of the Order itself."
+    }
   },
   {
-  "date": "2026-04-03",
-  "region": "JP",
-  "releaseDate": "1990-11-21",
-  "title": "Super Mario World",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.webp",
-  "hints": {
-    "publisher": ["Nintendo"],
-    "developer": ["Nintendo EAD"],
-    "genre": ["Platformer"],
-    "platforms": ["Super Famicom"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": null,
-    "plot": "Mario and Luigi take a vacation to Dinosaur Land, only to find Princess Peach has been kidnapped by Bowser and the Koopalings. Joining forces with a young dinosaur named Yoshi, Mario sets off across seven worlds to defeat Bowser's children and rescue the princess."
-  }
-},
-  {
-  "date": "2026-04-02",
-  "region": "WW",
-  "releaseDate": "2011-09-20",
-  "title": "Gears of War 3",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a21.webp",
-  "hints": {
-    "publisher": ["Microsoft Studios"],
-    "developer": ["Epic Games"],
-    "genre": ["Third-Person Shooter"],
-    "platforms": ["Xbox 360"],
-    "modes": ["Single-player", "Co-op", "Multiplayer"],
-    "engine": "Unreal Engine 3",
-    "metacritic": 91,
-    "plot": "With the last human city destroyed and survivors scattered, a soldier learns his scientist father is still alive and being held captive. He leads his squad across a war-torn planet to find him, facing both the Locust Horde and a new, more dangerous mutant threat in a desperate bid to save what remains of humanity."
-  }
+    "date": "2026-04-21",
+    "region": "JP",
+    "releaseDate": "2001-01-25",
+    "title": "Onimusha: Warlords",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4r26.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "Action-Adventure"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 86,
+      "plot": "A samurai responds to a distress call from his cousin, Princess Yuki, whose castle has been overrun by demonic forces following the death of warlord Nobunaga Oda in battle. Equipped with a mystical gauntlet granted by the Oni clan, he fights through the demon-infested fortress to rescue her, uncovering a supernatural conspiracy to resurrect Nobunaga using dark power."
+    }
   },
   {
-  "date": "2026-04-01",
-  "region": "NA",
-  "releaseDate": "2008-11-11",
-  "title": "Call of Duty: World at War",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wl8.webp",
-  "hints": {
-    "publisher": [
-      "Activision"
-    ],
-    "developer": [
-      "Treyarch"
-    ],
-    "genre": [
-      "First-Person Shooter",
-      "Action"
-    ],
-    "platforms": [
-      "PC",
-      "PlayStation 3",
-      "Xbox 360"
-    ],
-    "modes": [
-      "Single-player",
-      "Co-op",
-      "Multiplayer"
-    ],
-    "engine": "IW 3.0",
-    "metacritic": 85,
-    "plot": "Fighting across two brutal theaters of World War II, you experience war from dual perspectives: as American Marine Private C. Miller battling through the unforgiving Pacific jungles of Makin, Peleliu, and Okinawa against the fanatical Japanese Imperial Army with Banzai charges, Kamikaze attacks, and ambushes; and as Soviet Red Army soldier Private Dimitri Petrenko pushing into Nazi Germany alongside the ruthless Sergeant Viktor Reznov, witnessing the horrors of the Eastern Front from Stalingrad to the apocalyptic Battle of Berlin. From flamethrower assaults on Japanese bunkers to planting the Soviet flag atop the Reichstag, you fight through the bloodiest battles that brought the Axis powers to their knees while uncovering the true cost of total war."
-  }
-},
+    "date": "2026-04-20",
+    "region": "WW",
+    "releaseDate": "2013-02-05",
+    "title": "Dead Space 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2int.webp",
+    "hints": {
+      "publisher": [
+        "Electronic Arts"
+      ],
+      "developer": [
+        "Visceral Games"
+      ],
+      "genre": [
+        "Survival Horror",
+        "Action"
+      ],
+      "platforms": [
+        "PlayStation 3",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": "Visceral Tech",
+      "metacritic": 78,
+      "plot": "Engineer Isaac Clarke travels to the frozen, hostile planet of Tau Volantis alongside soldier John Carver to uncover the origins of the Necromorph threat and find a way to stop it permanently. Battling through blizzards, ancient alien ruins, and a fanatical human cult called the Unitologists, the two must confront the truth behind the mysterious Markers before the universe is consumed."
+    }
+  },
   {
-  "date": "2026-03-31",
-  "region": "NA",
-  "releaseDate": "2000-09-20",
-  "title": "Tony Hawk's Pro Skater 2",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y77.webp",
-  "hints": {
-    "publisher": [
-      "Activision"
-    ],
-    "developer": [
-      "Neversoft"
-    ],
-    "genre": [
-      "Skateboarding",
-      "Sports",
-      "Extreme Sports"
-    ],
-    "platforms": [
-      "PlayStation"
-    ],
-    "modes": [
-      "Single-player",
-      "Multiplayer"
-    ],
-    "engine": null,
-    "metacritic": 98,
-    "plot": "Competing as one of thirteen professional skateboarders including Tony Hawk, Rodney Mullen, and Bob Burnquist, you travel across iconic locations from Philadelphia's Love Park to Marseilles, France to earn sponsorships and achieve legendary pro status. Each skatepark presents goals like collecting S-K-A-T-E letters, achieving high scores, finding hidden tapes, and pulling off specific trick combos within two-minute runs. As you earn cash from completing objectives and nailing massive trick chains using the revolutionary manual technique to link combos, you invest in stat upgrades and unlock new boards. Between competitions and free skate sessions, you customize your own skater's appearance and create custom skateparks to share, grinding and flipping your way to skateboarding immortality."
-  }
-},
+    "date": "2026-04-19",
+    "region": "JP",
+    "releaseDate": "2006-12-14",
+    "title": "MotorStorm",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co26t9.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Evolution Studios"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 84,
+      "metacritic_note": "Score based on Japanese import reviews; the JP version lacked online multiplayer at launch.",
+      "plot": "Competitors from around the world descend on the brutal terrain of Monument Valley for the MotorStorm Festival — an anarchic, no-rules off-road racing event. Drivers select from seven vehicle classes, from nimble dirt bikes to monstrous big rigs, and tear across deforming mud tracks, each vying to win by any means necessary."
+    }
+  },
   {
-  "date": "2026-03-30",
-  "region": "NA",
-  "releaseDate": "2000-03-23",
-  "title": "Thief II: The Metal Age",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co698n.webp",
-  "hints": {
-    "publisher": [
-      "Eidos Interactive"
-    ],
-    "developer": [
-      "Looking Glass Studios"
-    ],
-    "genre": [
-      "Stealth",
-      "First-Person",
-      "Immersive Sim"
-    ],
-    "platforms": [
-      "PC"
-    ],
-    "modes": [
-      "Single-player"
-    ],
-    "engine": "Dark Engine",
-    "metacritic": 87,
-    "plot": "Master thief Garrett returns to his life of larceny in the metropolis known only as the City, where the fanatical Mechanist sect has emerged with advanced steam-powered technology and robotic servants. When newly appointed Sheriff Gorman Truart places a price on Garrett's head, the master burglar must navigate a conspiracy involving the Mechanists, corrupt officials, and an ancient prophecy called the Metal Age. Moving through sprawling urban environments from nobles' mansions to mechanized facilities, Garrett employs stealth and cunning to complete heists, gather intelligence, and uncover the truth about the Mechanists' zealous leader Karras and his plan to cleanse the city with a deadly technological plague while staying one step ahead of authorities determined to see him captured or dead."
-  }
-},
+    "date": "2026-04-18",
+    "region": "NA",
+    "releaseDate": "2011-01-18",
+    "title": "LittleBigPlanet 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2ijw.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Media Molecule"
+      ],
+      "genre": [
+        "Platformer",
+        "Puzzle"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "A mysterious inter-dimensional vacuum cleaner called the Negativitron descends upon Craftworld and begins consuming its inhabitants and worlds. A small fabric creature joins a secret organisation led by the eccentric inventor Larry Da Vinci, teaming up with a colourful cast of Creator Curators across six worlds to push back the Negativitron and save Craftworld from total destruction."
+    }
+  },
   {
-  "date": "2026-03-29",
-  "region": "WW",
-  "releaseDate": "2019-03-08",
-  "title": "Devil May Cry 5",
-  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rb4.webp",
-  "hints": {
-    "publisher": [
-      "Capcom"
-    ],
-    "developer": [
-      "Capcom"
-    ],
-    "genre": [
-      "Hack and Slash",
-      "Action-Adventure",
-      "Character Action"
-    ],
-    "platforms": [
-      "PlayStation 4",
-      "Xbox One",
-      "PC"
-    ],
-    "modes": [
-      "Single-player",
-      "Co-op",
-      "Multiplayer"
-    ],
-    "engine": "RE Engine",
-    "metacritic": 88,
-    "plot": "Several years after the Order of the Sword incident, demon hunter Nero loses his demonic Devil Bringer arm to a mysterious cloaked figure and heads to Red Grave City where a massive demon tree has taken root, spreading a devastating invasion. Equipped with mechanical Devil Breaker arms crafted by partner Nico and joined by legendary demon hunter Dante and the enigmatic poet V, Nero discovers the invasion is led by Urizen—a supremely powerful demon king seeking to consume the Qliphoth tree's fruit to gain ultimate power. As the three demon hunters battle through hordes of demons with their distinct combat styles, they uncover shocking truths about Urizen's identity, V's true nature, and a family conflict that will determine humanity's survival."
-  }
+    "date": "2026-04-17",
+    "region": "NA",
+    "releaseDate": "2008-11-04",
+    "title": "Resistance 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co39vd.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 87,
+      "plot": "Following a desperate defence of Europe against an alien-like invasion, a soldier infected with the Chimeran virus travels to the United States as the enemy launches a full-scale assault on both coasts. Now part of an elite squad of similarly infected fighters, he must battle the invaders across the country while struggling to contain the virus raging inside him before it consumes him entirely."
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "region": "NA",
+    "releaseDate": "2004-06-01",
+    "title": "The Chronicles of Riddick: Escape from Butcher Bay",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1mp7.webp",
+    "hints": {
+      "publisher": [
+        "Vivendi Universal Games"
+      ],
+      "developer": [
+        "Starbreeze Studios",
+        "Tigon Studios"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "First-Person Shooter",
+        "Stealth"
+      ],
+      "platforms": [
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 89,
+      "plot": "The notorious fugitive Riddick is captured by a bounty hunter and delivered to Butcher Bay, a triple-maximum security prison on a remote planet — a facility from which no one has ever escaped. Using stealth, brutal hand-to-hand combat, and his extraordinary ability to see in total darkness, he must fight through guards, criminals, and the prison's darkest secrets to find a way out."
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "region": "EU",
+    "releaseDate": "2006-04-07",
+    "title": "Tomb Raider: Legend",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1nnv.webp",
+    "hints": {
+      "publisher": [
+        "Eidos Interactive"
+      ],
+      "developer": [
+        "Crystal Dynamics"
+      ],
+      "genre": [
+        "Action-Adventure"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "Xbox",
+        "Xbox 360",
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 82,
+      "plot": "A globe-trotting archaeologist searches for fragments of a mythical sword connected to the disappearance of her mother years earlier, racing across Bolivia, Peru, Japan, Ghana, Kazakhstan, England, and Nepal against her former friend — now a dangerous adversary — who seeks the same artefact for her own mysterious ends."
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "region": "NA",
+    "releaseDate": "2013-03-12",
+    "title": "God of War: Ascension",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3die.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Santa Monica Studio"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Hack and Slash"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 80,
+      "plot": "Six months after being tricked by the God of War into slaughtering his own wife and daughter, a Spartan warrior breaks his blood oath and is imprisoned and tortured by the three Furies — ancient mythological enforcers of sacred bonds. With the help of a conflicted oath keeper, he fights to escape his chains, confront the Furies, and take his first steps on the long road to vengeance."
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "region": "EU",
+    "releaseDate": "2009-02-25",
+    "title": "Killzone 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3j9z.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Guerrilla Games"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 91,
+      "plot": "Two years after a failed Helghast invasion of the human colony Vekta, the ISA launches a retaliatory assault on the enemy's toxic home world of Helghan. A battle-hardened special forces soldier fights through the ruins of the Helghast capital alongside his squad, with orders to capture the charismatic and ruthless Emperor Visari and bring the Helghast war machine to its knees."
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "region": "WW",
+    "releaseDate": "1998-05-22",
+    "title": "Unreal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9er6.webp",
+    "hints": {
+      "publisher": [
+        "GT Interactive"
+      ],
+      "developer": [
+        "Epic MegaGames",
+        "Digital Extremes"
+      ],
+      "genre": [
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine",
+      "metacritic": null,
+      "plot": "A prisoner escapes their cell aboard a crashed spacecraft on the surface of an alien world called Na Pali, only to find the planet's peaceful native inhabitants enslaved by a ruthless warrior race. Armed with a translator to decode alien messages and a growing arsenal of exotic weaponry, the lone survivor must fight through ancient temples, mountain villages, and alien installations to find a way off the planet."
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "region": "NA",
+    "releaseDate": "2002-09-30",
+    "title": "Burnout 2: Point of Impact",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2pmn.webp",
+    "hints": {
+      "publisher": [
+        "Acclaim Entertainment"
+      ],
+      "developer": [
+        "Criterion Games"
+      ],
+      "genre": [
+        "Racing"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": "RenderWare",
+      "metacritic": 86,
+      "plot": "Players race high-speed cars through busy US roads and highways, earning boost by taking extreme risks such as driving into oncoming traffic, drifting corners, and catching air. A dedicated Crash mode challenges drivers to cause the most spectacular and costly pile-ups possible at busy junctions, while a Pursuit mode puts players behind the wheel of a police cruiser tasked with wrecking a fleeing criminal's car."
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "region": "NA",
+    "releaseDate": "2010-10-26",
+    "title": "Fable III",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co231s.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Game Studios"
+      ],
+      "developer": [
+        "Lionhead Studios"
+      ],
+      "genre": [
+        "Action RPG"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op"
+      ],
+      "engine": null,
+      "metacritic": 80,
+      "plot": "Fifty years after the events of its predecessor, the industrialised kingdom of Albion is ruled by a tyrannical king who is the player character's own brother. A prince or princess must rally allies, spark a revolution, and seize the throne — only to discover that ruling is far harder than rebelling when a devastating threat from beyond Albion demands impossible sacrifices."
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "region": "WW",
+    "releaseDate": "2012-09-18",
+    "title": "Borderlands 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.webp",
+    "hints": {
+      "publisher": [
+        "2K Games"
+      ],
+      "developer": [
+        "Gearbox Software"
+      ],
+      "genre": [
+        "Action RPG",
+        "First-Person Shooter"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 89,
+      "plot": "A group of new Vault Hunters arrive on the hostile planet of Pandora, only to be ambushed and left for dead by the planet's charismatic and sadistic corporate dictator. Rescued by a lone robot, they join a ragtag resistance movement to hunt down the tyrant, uncover the secret of a second Vault, and stop him from unleashing a devastating ancient evil upon the galaxy."
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "region": "NA",
+    "releaseDate": "2009-10-27",
+    "title": "Ratchet and Clank: A Crack in Time",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6fjt.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Insomniac Games"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Platformer"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 87,
+      "plot": "After his robot companion is abducted by the Zoni and handed over to the villainous Dr. Nefarious, a Lombax mechanic races across the galaxy to stage a rescue. Meanwhile, the robot awakens inside a colossal structure at the centre of the universe designed to maintain time itself, slowly uncovering the truth about his origins as Nefarious schemes to seize control of time for his own ends."
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "region": "NA",
+    "releaseDate": "2004-11-09",
+    "title": "Jak 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6kks.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Naughty Dog"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Platformer"
+      ],
+      "platforms": [
+        "PlayStation 2"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 84,
+      "plot": "Falsely blamed for the destruction of Haven City, a young hero and his wisecracking companion are exiled into a vast, deadly desert wasteland by a scheming count. Rescued by the ruler of a desert city, they must prove their worth while uncovering a conspiracy involving ancient precursor technology, a three-way war back in Haven City, and the origins of the hero's mysterious dark and light powers."
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "region": "WW",
+    "releaseDate": "2001-11-05",
+    "title": "SSX Tricky",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2sup.webp",
+    "hints": {
+      "publisher": [
+        "EA Sports Big"
+      ],
+      "developer": [
+        "EA Canada"
+      ],
+      "genre": [
+        "Snowboarding",
+        "Sports"
+      ],
+      "platforms": [
+        "PlayStation 2",
+        "GameCube",
+        "Xbox"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 92,
+      "plot": "A roster of larger-than-life snowboarders compete across outrageous mountain courses set in locations around the world, from a neon-lit Tokyo pinball machine to the frozen wilds of Alaska. Players race and perform increasingly absurd tricks to fill a boost meter, unlocking devastating Uber moves that defy the laws of physics and propel riders to victory."
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "region": "WW",
+    "releaseDate": "2007-10-09",
+    "title": "Portal",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coay61.webp",
+    "hints": {
+      "publisher": [
+        "Valve"
+      ],
+      "developer": [
+        "Valve"
+      ],
+      "genre": [
+        "Puzzle",
+        "Platformer"
+      ],
+      "platforms": [
+        "PC",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Source",
+      "metacritic": 90,
+      "plot": "A test subject wakes inside a vast scientific research facility and is guided through a series of increasingly dangerous puzzle chambers by a passive-aggressive artificial intelligence. Armed with a device capable of creating linked portals on flat surfaces, she must use spatial reasoning and momentum to escape — all while her unseen overseer promises cake as a reward."
+    }
+  },
+  {
+    "date": "2026-04-04",
+    "region": "NA",
+    "releaseDate": "2009-05-26",
+    "title": "inFamous",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co525t.webp",
+    "hints": {
+      "publisher": [
+        "Sony Computer Entertainment"
+      ],
+      "developer": [
+        "Sucker Punch Productions"
+      ],
+      "genre": [
+        "Action-Adventure",
+        "Open World"
+      ],
+      "platforms": [
+        "PlayStation 3"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": null,
+      "metacritic": 85,
+      "plot": "A bike courier survives a massive explosion that devastates several city blocks of a quarantined metropolis, emerging with extraordinary electricity-based superpowers. Trapped in a city overrun by criminal factions, he must decide whether to use his abilities for heroism or self-interest, all while uncovering the dark truth behind the explosion and the mysterious figure who engineered it."
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "region": "JP",
+    "releaseDate": "1990-11-21",
+    "title": "Super Mario World",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8lo8.webp",
+    "hints": {
+      "publisher": [
+        "Nintendo"
+      ],
+      "developer": [
+        "Nintendo EAD"
+      ],
+      "genre": [
+        "Platformer"
+      ],
+      "platforms": [
+        "Super Famicom"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": null,
+      "plot": "Mario and Luigi take a vacation to Dinosaur Land, only to find Princess Peach has been kidnapped by Bowser and the Koopalings. Joining forces with a young dinosaur named Yoshi, Mario sets off across seven worlds to defeat Bowser's children and rescue the princess."
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "region": "WW",
+    "releaseDate": "2011-09-20",
+    "title": "Gears of War 3",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2a21.webp",
+    "hints": {
+      "publisher": [
+        "Microsoft Studios"
+      ],
+      "developer": [
+        "Epic Games"
+      ],
+      "genre": [
+        "Third-Person Shooter"
+      ],
+      "platforms": [
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": "Unreal Engine 3",
+      "metacritic": 91,
+      "plot": "With the last human city destroyed and survivors scattered, a soldier learns his scientist father is still alive and being held captive. He leads his squad across a war-torn planet to find him, facing both the Locust Horde and a new, more dangerous mutant threat in a desperate bid to save what remains of humanity."
+    }
+  },
+  {
+    "date": "2026-04-01",
+    "region": "NA",
+    "releaseDate": "2008-11-11",
+    "title": "Call of Duty: World at War",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wl8.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Treyarch"
+      ],
+      "genre": [
+        "First-Person Shooter",
+        "Action"
+      ],
+      "platforms": [
+        "PC",
+        "PlayStation 3",
+        "Xbox 360"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": "IW 3.0",
+      "metacritic": 85,
+      "plot": "Fighting across two brutal theaters of World War II, you experience war from dual perspectives: as American Marine Private C. Miller battling through the unforgiving Pacific jungles of Makin, Peleliu, and Okinawa against the fanatical Japanese Imperial Army with Banzai charges, Kamikaze attacks, and ambushes; and as Soviet Red Army soldier Private Dimitri Petrenko pushing into Nazi Germany alongside the ruthless Sergeant Viktor Reznov, witnessing the horrors of the Eastern Front from Stalingrad to the apocalyptic Battle of Berlin. From flamethrower assaults on Japanese bunkers to planting the Soviet flag atop the Reichstag, you fight through the bloodiest battles that brought the Axis powers to their knees while uncovering the true cost of total war."
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "region": "NA",
+    "releaseDate": "2000-09-20",
+    "title": "Tony Hawk's Pro Skater 2",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y77.webp",
+    "hints": {
+      "publisher": [
+        "Activision"
+      ],
+      "developer": [
+        "Neversoft"
+      ],
+      "genre": [
+        "Skateboarding",
+        "Sports",
+        "Extreme Sports"
+      ],
+      "platforms": [
+        "PlayStation"
+      ],
+      "modes": [
+        "Single-player",
+        "Multiplayer"
+      ],
+      "engine": null,
+      "metacritic": 98,
+      "plot": "Competing as one of thirteen professional skateboarders including Tony Hawk, Rodney Mullen, and Bob Burnquist, you travel across iconic locations from Philadelphia's Love Park to Marseilles, France to earn sponsorships and achieve legendary pro status. Each skatepark presents goals like collecting S-K-A-T-E letters, achieving high scores, finding hidden tapes, and pulling off specific trick combos within two-minute runs. As you earn cash from completing objectives and nailing massive trick chains using the revolutionary manual technique to link combos, you invest in stat upgrades and unlock new boards. Between competitions and free skate sessions, you customize your own skater's appearance and create custom skateparks to share, grinding and flipping your way to skateboarding immortality."
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "region": "NA",
+    "releaseDate": "2000-03-23",
+    "title": "Thief II: The Metal Age",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co698n.webp",
+    "hints": {
+      "publisher": [
+        "Eidos Interactive"
+      ],
+      "developer": [
+        "Looking Glass Studios"
+      ],
+      "genre": [
+        "Stealth",
+        "First-Person",
+        "Immersive Sim"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "modes": [
+        "Single-player"
+      ],
+      "engine": "Dark Engine",
+      "metacritic": 87,
+      "plot": "Master thief Garrett returns to his life of larceny in the metropolis known only as the City, where the fanatical Mechanist sect has emerged with advanced steam-powered technology and robotic servants. When newly appointed Sheriff Gorman Truart places a price on Garrett's head, the master burglar must navigate a conspiracy involving the Mechanists, corrupt officials, and an ancient prophecy called the Metal Age. Moving through sprawling urban environments from nobles' mansions to mechanized facilities, Garrett employs stealth and cunning to complete heists, gather intelligence, and uncover the truth about the Mechanists' zealous leader Karras and his plan to cleanse the city with a deadly technological plague while staying one step ahead of authorities determined to see him captured or dead."
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "region": "WW",
+    "releaseDate": "2019-03-08",
+    "title": "Devil May Cry 5",
+    "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rb4.webp",
+    "hints": {
+      "publisher": [
+        "Capcom"
+      ],
+      "developer": [
+        "Capcom"
+      ],
+      "genre": [
+        "Hack and Slash",
+        "Action-Adventure",
+        "Character Action"
+      ],
+      "platforms": [
+        "PlayStation 4",
+        "Xbox One",
+        "PC"
+      ],
+      "modes": [
+        "Single-player",
+        "Co-op",
+        "Multiplayer"
+      ],
+      "engine": "RE Engine",
+      "metacritic": 88,
+      "plot": "Several years after the Order of the Sword incident, demon hunter Nero loses his demonic Devil Bringer arm to a mysterious cloaked figure and heads to Red Grave City where a massive demon tree has taken root, spreading a devastating invasion. Equipped with mechanical Devil Breaker arms crafted by partner Nico and joined by legendary demon hunter Dante and the enigmatic poet V, Nero discovers the invasion is led by Urizen—a supremely powerful demon king seeking to consume the Qliphoth tree's fruit to gain ultimate power. As the three demon hunters battle through hordes of demons with their distinct combat styles, they uncover shocking truths about Urizen's identity, V's true nature, and a family conflict that will determine humanity's survival."
+    }
   },
   {
     "date": "2026-03-28",
