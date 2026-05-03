@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-04",
+  "region": "NA",
+  "releaseDate": "2001-06-18",
+  "title": "Twisted Metal: Black",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1p3q.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Incognito Entertainment"],
+    "genre": ["Vehicle Combat"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "In the fictional dystopian city of Midtown, a mysterious figure called Calypso recruits a cast of deranged and broken souls — plucked from a crumbling mental asylum — to compete in a brutal vehicular combat tournament. Each contestant fights for the chance to have a single wish granted, but behind every desperate desire lies a dark and twisted backstory that unfolds as the carnage escalates."
+  }
+},
+  {
   "date": "2026-05-03",
   "region": "NA",
   "releaseDate": "2013-08-29",
