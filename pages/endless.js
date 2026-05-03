@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import { collection, addDoc, updateDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../utils/firebase';
 import Navbar from "../components/Navbar";
@@ -16,14 +17,82 @@ const getEndlessCollectionName = () => {
     return branch === 'release' ? 'endlessStats-release' : 'endlessStats';
 };
 
+const endlessPageSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebApplication",
+            "name": "Guess Effect — Endless Mode",
+            "url": "https://guesseffect.wtf/endless",
+            "applicationCategory": "GameApplication",
+            "operatingSystem": "Any (browser-based)",
+            "description": "Unlimited rounds of the video game guessing game. Guess as many games as you can before your lives run out. Chase high scores and longest streaks.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "publisher": { "@id": "https://guesseffect.wtf/#org" }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://guesseffect.wtf/" },
+                { "@type": "ListItem", "position": 2, "name": "Endless", "item": "https://guesseffect.wtf/endless" }
+            ]
+        },
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is endless mode?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Endless mode lets you play unlimited rounds of the video game guessing game. Each round uses a random game from our database, and you continue until your lives run out."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How many lives do I get in endless mode?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You start with 10 lives. Each wrong guess or skipped game costs one life. When you run out of lives the session ends and your final score is recorded."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How is my score calculated?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Each round starts with a point pool. Revealing hints reduces the pool, and a correct guess banks whatever points remain. Your total endless score is the sum across every round in the session."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is progress saved between sessions?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Your current session persists if you close the tab and come back later, and your personal best score and longest streak are saved in your browser."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How is endless mode different from daily mode?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Daily mode gives every player the same single puzzle per 24 hours. Endless mode lets you play an unlimited number of random puzzles back-to-back in one session."
+                    }
+                }
+            ]
+        }
+    ]
+};
+
 const Endless = () => {
     const router = useRouter();
     useHudColor();
     const endlessSessionDocRef = React.useRef(null);
-    
+
     const mode = 'easy'; // For now, only easy mode
     const { state, setState, stats, updateStats, clearState } = useEndlessMode(mode);
-    
+
     const [allGames, setAllGames] = useState([]);
     const [currentGame, setCurrentGame] = useState(null);
     const [gameResults, setGameResults] = useState([]);
@@ -57,7 +126,7 @@ const Endless = () => {
                 setIsLoading(false);
             }
         };
-        
+
         loadGames();
     }, []);
 
@@ -79,7 +148,7 @@ const Endless = () => {
                 setCurrentGame(game);
             }
             setIsGameCompleted(state.gameCompleted || false);
-            
+
             // If run was completed (no lives left), show summary modal
             if (state.lives === 0) {
                 setShowSummary(true);
@@ -97,12 +166,12 @@ const Endless = () => {
         const availableGames = allGames.filter(
             game => !excludeReleaseDates.includes(game.releaseDate)
         );
-        
+
         if (availableGames.length === 0) {
             // If all games used, reset and allow repeats
             return allGames[Math.floor(Math.random() * allGames.length)];
         }
-        
+
         return availableGames[Math.floor(Math.random() * availableGames.length)];
     };
 
@@ -118,7 +187,7 @@ const Endless = () => {
             currentGameReleaseDate: firstGame.releaseDate,
             usedReleaseDates: [firstGame.releaseDate],
         };
-        
+
         setGameResults([]);
         setLives(10);
         setTotalScore(0);
@@ -131,7 +200,7 @@ const Endless = () => {
         setIsNewStreakRecord(false);
         setIsGameCompleted(false);
         endlessSessionDocRef.current = null;
-        
+
         setState(newState);
     };
 
@@ -193,7 +262,7 @@ const Endless = () => {
         const newTotalScore = totalScore + result.score;
         const newStreak = result.won ? currentStreak + 1 : 0;
         const newLongestStreak = Math.max(longestStreak, newStreak);
-        
+
         // Don't include gameState in the result stored in gameResults array
         const { gameState: _, ...resultWithoutGameState } = result;
         const newResults = [...gameResults, resultWithoutGameState];
@@ -210,7 +279,7 @@ const Endless = () => {
             // Check for new records BEFORE updating stats
             const newHighScore = newTotalScore > stats.highScore;
             const newStreakRecord = newLongestStreak > stats.longestStreak;
-            
+
             // Store the record flags in state FIRST
             setIsNewHighScore(newHighScore);
             setIsNewStreakRecord(newStreakRecord);
@@ -218,7 +287,7 @@ const Endless = () => {
             // Finalize session in Firebase
             const gamesGuessedCount = newResults.filter(r => r.won).length;
             finalizeEndlessSession(newTotalScore, newResults.length, gamesGuessedCount, newLongestStreak);
-            
+
             updateStats(newTotalScore, newLongestStreak);
             setShowSummary(true);
             // Save the completed run state so it persists on refresh
@@ -265,10 +334,10 @@ const Endless = () => {
             // Summary modal should already be showing
             return;
         }
-        
+
         const usedReleaseDates = gameResults.map(r => r.gameReleaseDate);
         const nextGame = getRandomGame(usedReleaseDates);
-        
+
         // Check if all games have been played (incredibly unlikely but possible)
         if (!nextGame) {
             updateStats(totalScore, longestStreak);
@@ -276,7 +345,7 @@ const Endless = () => {
             // Don't clear state yet - wait for user action
             return;
         }
-        
+
         const nextGameNumber = currentGameNumber + 1;
 
         setIsGameCompleted(false);
@@ -325,7 +394,7 @@ const Endless = () => {
         if (newGameState.life && newGameState.life.remainingGuessCount !== lives) {
             setLives(newGameState.life.remainingGuessCount);
         }
-        
+
         // Update localStorage with current game state (for ongoing games)
         if (state) {
             const updatedState = {
@@ -337,31 +406,118 @@ const Endless = () => {
         }
     };
 
+    // Head contents — same for loading and loaded states
+    const pageHead = (
+        <Head>
+            <title>Endless Video Game Guessing Game — Unlimited Rounds | Guess Effect</title>
+            <meta
+                name="description"
+                content="Play unlimited rounds of the video game guessing game. No daily limit — keep guessing games from their release date and hints until your lives run out. Chase high scores and longest streaks."
+            />
+            <link rel="canonical" href="https://guesseffect.wtf/endless" />
+            <meta property="og:title" content="Endless Mode — Unlimited Video Game Guessing" />
+            <meta
+                property="og:description"
+                content="No daily limit. Guess as many video games as you can. How far can you go?"
+            />
+            <meta property="og:url" content="https://guesseffect.wtf/endless" />
+            <meta name="twitter:title" content="Endless Mode — Unlimited Video Game Guessing" />
+            <meta
+                name="twitter:description"
+                content="No daily limit. Guess as many video games as you can. How far can you go?"
+            />
+
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(endlessPageSchema) }}
+            />
+        </Head>
+    );
+
+    // SEO content — hidden visually to preserve the terminal aesthetic,
+    // but present in the HTML so Google can index what this page is about.
+    const seoContent = (
+        <section className="sr-only">
+            <h1>Endless Video Game Guessing Game</h1>
+            <p>
+                Endless mode is the unlimited version of Guess Effect. There is no
+                daily limit — keep guessing video games from their release date,
+                publisher, genre, platform, developer, engine, Metacritic score
+                and plot until your lives run out. Every correct guess adds to
+                your running score and streak. Every wrong guess costs a life.
+                How far can you go?
+            </p>
+
+            <h2>How to play endless mode</h2>
+            <ol>
+                <li>A hidden video game is chosen at random from the database.</li>
+                <li>You start with 10 lives. Reveal hints to narrow it down — release date, genre, platform, publisher and more.</li>
+                <li>Each hint you reveal costs points from that round&apos;s score pool.</li>
+                <li>Guess correctly to bank the remaining points and advance to the next game.</li>
+                <li>Guess wrong or skip and you lose a life. Out of lives ends the session.</li>
+                <li>Your high score and longest streak are saved locally — try to beat them.</li>
+            </ol>
+
+            <h2>Endless mode versus daily mode</h2>
+            <p>
+                Daily mode gives every player the same single puzzle per 24 hours
+                and is shared by the whole community. Endless mode lets you play
+                an unlimited number of random puzzles back-to-back in one session.
+                Pick endless for unlimited play; pick daily for the shared
+                community challenge.
+            </p>
+
+            <h2>Tips for chasing a high score</h2>
+            <ul>
+                <li>Guess early when you&apos;re confident — you keep more points.</li>
+                <li>Release date plus platform is often enough to narrow things down.</li>
+                <li>Protect your streak: if you don&apos;t know it, a skip costs the same as a wrong guess, so take a shot.</li>
+            </ul>
+        </section>
+    );
+
     if (isLoading) {
         return (
             <>
-                <Navbar 
-                    showCalendar={false} 
+                {pageHead}
+                <Navbar
+                    showCalendar={false}
                     showStats={true}
                     onStatsClick={() => setShowStatsModal(true)}
                     isEndlessMode={true}
                 />
+                {seoContent}
                 <div className={endlessStyles.loadingOverlay}>
                     <div className={endlessStyles.marioLoader}></div>
                 </div>
                 <Footer />
+                <style jsx>{`
+                    .sr-only {
+                        position: absolute;
+                        width: 1px;
+                        height: 1px;
+                        padding: 0;
+                        margin: -1px;
+                        overflow: hidden;
+                        clip: rect(0, 0, 0, 0);
+                        border: 0;
+                    }
+                `}</style>
             </>
         );
     }
 
     return (
         <>
-            <Navbar 
-                showCalendar={false} 
+            {pageHead}
+            <Navbar
+                showCalendar={false}
                 showStats={true}
                 onStatsClick={() => setShowStatsModal(true)}
                 isEndlessMode={true}
             />
+
+            {seoContent}
 
             {currentGame && !showSummary && (
                 <EndlessGameSystem
@@ -404,6 +560,19 @@ const Endless = () => {
             )}
 
             {!showSummary && !isGameModalVisible && <Footer />}
+
+            <style jsx>{`
+                .sr-only {
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    padding: 0;
+                    margin: -1px;
+                    overflow: hidden;
+                    clip: rect(0, 0, 0, 0);
+                    border: 0;
+                }
+            `}</style>
         </>
     );
 };
