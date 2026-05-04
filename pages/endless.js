@@ -412,7 +412,7 @@ const Endless = () => {
             <title>Endless Video Game Guessing Game — Unlimited Rounds | Guess Effect</title>
             <meta
                 name="description"
-                content="Play unlimited rounds of the video game guessing game. No daily limit — keep guessing games from their release date and hints until your lives run out. Chase high scores and longest streaks."
+                content="Unlimited video game guessing with no daily limit. Reveal hints, guess the title, and survive as long as you can. Chase your high score and longest streak."
             />
             <link rel="canonical" href="https://guesseffect.wtf/endless" />
             <meta property="og:title" content="Endless Mode — Unlimited Video Game Guessing" />

@@ -57,7 +57,7 @@ const Home = () => {
         <title>Guess Effect — Daily Video Game Guessing Game & Endless Mode</title>
         <meta
           name="description"
-          content="Guess Effect is a free daily video game guessing game. Identify the title from its release date and hints, or play endless mode for unlimited rounds. No signup."
+          content="Guess Effect is a free daily video game guessing game. Identify the title from its release date and hints, or play endless mode for unlimited rounds."
         />
         <link rel="canonical" href="https://guesseffect.wtf/" />
         <meta property="og:title" content="Guess Effect — Daily Video Game Guessing Game" />
