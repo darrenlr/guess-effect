@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-05",
+  "region": "NA",
+  "releaseDate": "2013-03-19",
+  "title": "Gears of War: Judgment",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2y2a.webp",
+  "hints": {
+    "publisher": ["Microsoft Studios"],
+    "developer": ["People Can Fly", "Epic Games"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 79,
+    "plot": "Just six weeks after Emergence Day — the catastrophic moment the Locust Horde first broke through the surface of Sera — Lieutenant Damon Baird and his Kilo Squad stand before a military tribunal, accused of disobeying orders and the unauthorized use of a Lightmass Missile. As the trial unfolds through flashbacks, Kilo Squad relives their desperate battle to save the coastal city of Halvo Bay from a terrifying Locust general, and the chain of decisions that led them to be branded criminals for choices they believed were necessary to survive."
+  }
+  },
+  {
     "date": "2026-05-04",
     "region": "NA",
     "releaseDate": "2001-06-18",
