@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-06",
+  "region": "NA",
+  "releaseDate": "2010-11-02",
+  "title": "God of War: Ghost of Sparta",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5qi1.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Ready at Dawn"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "Still tormented by visions of his mortal past, the God of War travels to Atlantis in search of answers about his origins, where he discovers that his brother Deimos — believed dead since childhood — is still alive and imprisoned in the Domain of Death by the God Thanatos. Driven by guilt and rage, he descends into the realm of the dead to rescue his brother, confronting the dark truth about a prophecy that has haunted the gods of Olympus since both brothers were children."
+  }
+},
+  {
   "date": "2026-05-05",
   "region": "NA",
   "releaseDate": "2013-03-19",
