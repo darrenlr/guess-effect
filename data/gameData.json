@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-07",
+  "region": "JP",
+  "releaseDate": "2002-07-18",
+  "title": "Ape Escape 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2zhl.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["SCE Japan Studio"],
+    "genre": ["Platform"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "When a bumbling young boy accidentally delivers a batch of mind-enhancing Pipo Helmets to the primates of Monkey Park instead of just their trousers, the villainous white ape Specter seizes the opportunity to build a new army of super-intelligent monkeys bent on world domination. Armed with an arsenal of gadgets and accompanied by a friendly baby monkey named Pipotchi, the boy must travel across dozens of themed stages to recapture the rogue primates — including a sinister elite squad empowered by strength-enhancing Vita-Z bananas."
+  }
+},
+  {
   "date": "2026-05-06",
   "region": "NA",
   "releaseDate": "2010-11-02",
