@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-08",
+  "region": "WW",
+  "releaseDate": "2011-10-25",
+  "title": "Infamous: Festival of Blood",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yh0.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Sucker Punch Productions"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "Trying to impress a woman at a bar, Zeke Dunbar spins an elaborate tall tale set during a gothic festival in New Marais, in which his best friend is bitten and turned by an ancient vampire queen named Bloody Mary. Newly transformed and under Bloody Mary's growing influence, the hero must race against the clock — with only a single night before sunrise — to hunt down and destroy the vampire queen before he loses his humanity forever and becomes her eternal servant."
+  }
+},
+  {
   "date": "2026-05-07",
   "region": "JP",
   "releaseDate": "2002-07-18",
