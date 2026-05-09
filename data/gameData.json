@@ -1,9 +1,26 @@
 [
   {
+  "date": "2026-05-09",
+  "region": "NA",
+  "releaseDate": "2012-02-15",
+  "title": "Wipeout 2048",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobpvf.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Studio Liverpool"],
+    "genre": ["Racing"],
+    "platforms": ["PS Vita"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "Set decades before the events of earlier entries in the series, the game depicts the earliest years of anti-gravity racing in a near-future megalopolis known as Nova State City. As the sport rises from illegal street circuits to sanctioned championship events, pilots compete across rain-slicked urban tracks and elevated highways in increasingly powerful craft, battling rival teams with both speed and weapons to establish dominance in the first Anti-Gravity Racing Championships."
+  }
+  },
+  {
   "date": "2026-05-08",
   "region": "WW",
   "releaseDate": "2011-10-25",
-  "title": "Infamous: Festival of Blood",
+  "title": "Infamous Festival of Blood",
   "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1yh0.webp",
   "hints": {
     "publisher": ["Sony Computer Entertainment"],
