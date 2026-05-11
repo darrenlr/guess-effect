@@ -1,5 +1,56 @@
 [
   {
+  "date": "2026-05-12",
+  "region": "JP",
+  "releaseDate": "2002-07-10",
+  "title": "Soulcalibur II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co62a6.webp",
+  "hints": {
+    "publisher": ["Namco"],
+    "developer": ["Project Soul"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "Three years after the cursed sword Soul Edge was shattered, its fragments have scattered across the world, each radiating malevolent energy and drawing warriors from every corner of history to seek them out. Some pursue the shards to claim Soul Edge's power for themselves, others to destroy the evil sword once and for all, while a resurrected champion of darkness moves quietly to reunite the pieces and unleash catastrophe upon the world."
+  }
+},
+  {
+  "date": "2026-05-11",
+  "region": "NA",
+  "releaseDate": "2012-05-29",
+  "title": "Resistance: Burning Skies",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4c.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Nihilistic Software"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PS Vita"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 60,
+    "plot": "During the Chimera invasion of the American east coast in 1951, a New York City firefighter is swept into the conflict while desperately searching for his wife and daughter amid the chaos. Armed with conventional weapons and salvaged Chimeran technology, he joins a Minutemen resistance cell and battles through overrun cities and military installations, uncovering a secret that could alter the course of the war."
+  }
+},
+  {
+  "date": "2026-05-10",
+  "region": "JP",
+  "releaseDate": "2006-07-12",
+  "title": "Virtua Fighter 5",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9re0.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sega AM2"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "The fifth World Fighting Tournament has been announced, drawing a roster of martial artists from across the globe to compete in one-on-one combat. Among the returning fighters and two new entrants — a young Chinese girl trained in Monkey Kung Fu and a Lucha Libre champion from Mexico — each competitor carries personal ambitions and unresolved rivalries, all converging on a tournament controlled by the shadowy Judgment 6 organisation."
+  }
+},
+  {
   "date": "2026-05-09",
   "region": "NA",
   "releaseDate": "2012-02-15",
