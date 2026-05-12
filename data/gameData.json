@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-13",
+  "region": "NA",
+  "releaseDate": "2013-02-05",
+  "title": "Sly Cooper: Thieves in Time",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2rbv.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Sanzaru Games"],
+    "genre": ["Stealth", "Platform"],
+    "platforms": ["PlayStation 3", "PS Vita"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 75,
+    "plot": "When the pages of the legendary Cooper Clan's ancient book of thieving techniques begin mysteriously vanishing, a master thief and his gang of misfit partners reunite after years apart to investigate. Using a time machine, they travel through five distinct historical eras — from feudal Japan to ancient Arabia — to track down a villainous time traveller who is erasing the Cooper family legacy from history itself."
+  }
+  },
+  {
   "date": "2026-05-12",
   "region": "JP",
   "releaseDate": "2002-07-10",
