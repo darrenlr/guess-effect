@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-14",
+  "region": "EU",
+  "releaseDate": "2013-09-04",
+  "title": "Killzone: Mercenary",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1v41.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Guerrilla Cambridge"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PS Vita"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "During the long war between the ISA and the Helghast Empire, a former soldier turned mercenary is hired to carry out operations too sensitive for regular military personnel — bouncing between both factions as the highest bidder demands. When a mission to extract a Vektan ambassador's family uncovers a biological weapon capable of wiping out an entire planet, the mercenary is forced to question his loyalty to profit and decide whether some outcomes are worth fighting for regardless of pay."
+  }
+},
+  {
   "date": "2026-05-13",
   "region": "NA",
   "releaseDate": "2013-02-05",
