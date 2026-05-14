@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-15",
+  "region": "JP",
+  "releaseDate": "2001-04-28",
+  "title": "Gran Turismo 3: A-Spec",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5xru.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Polyphony Digital"],
+    "genre": ["Sim Racing"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 95,
+    "plot": "Presented without a conventional narrative, the game invites players into an obsessively detailed simulation of real-world motorsport, progressing through a series of licence tests, regional championships, and manufacturer-specific events to become the ultimate driver. Beginning with modest street cars and working toward high-performance prototypes and racing machines, players earn prize money to purchase, upgrade, and tune vehicles from over 150 real manufacturers — each modelled and handled with meticulous attention to authenticity."
+  }
+  },
+  {
   "date": "2026-05-14",
   "region": "EU",
   "releaseDate": "2013-09-04",
