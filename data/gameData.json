@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-16",
+  "region": "JP",
+  "releaseDate": "2010-04-29",
+  "title": "Metal Gear Solid: Peace Walker",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coawb5.webp",
+  "hints": {
+    "publisher": ["Konami"],
+    "developer": ["Kojima Productions"],
+    "genre": ["Action", "Stealth"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "Set in 1974, a legendary mercenary commander known as Big Boss is approached in Costa Rica by a Nicaraguan revolutionary and her professor, who seek his private military company's help in dealing with a mysterious armed force that has occupied their country. Investigating the occupation leads Big Boss to confront the legacy of his fallen mentor, the spectre of nuclear deterrence, and the construction of a bipedal nuclear-armed weapon that will force him to decide what it truly means to build a nation outside the bounds of any government."
+  }
+},
+  {
   "date": "2026-05-15",
   "region": "JP",
   "releaseDate": "2001-04-28",
