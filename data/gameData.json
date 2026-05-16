@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-17",
+  "region": "NA",
+  "releaseDate": "2007-02-13",
+  "title": "Ratchet & Clank: Size Matters",
+  "boxArtUrl": "hlimages.igdb.com/igdb/image/upload/t_cover_big/coankv.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["High Impact Games"],
+    "genre": ["Platform", "Third-Person Shooter"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "While on a well-earned vacation, a heroic duo encounter a young girl writing a school report on legendary heroes — only for her to be abducted by mysterious robots shortly after. Investigating her disappearance leads the pair to uncover the Technomites, a long-dismissed race of tiny genius inventors who have been working in secret throughout history, and whose bitter leader has hatched a scheme using the hero's own DNA to create the ultimate army of cloned soldiers."
+  }
+  },
+  {
   "date": "2026-05-16",
   "region": "JP",
   "releaseDate": "2010-04-29",
