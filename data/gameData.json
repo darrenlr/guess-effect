@@ -1,10 +1,27 @@
 [
   {
+  "date": "2026-05-18",
+  "region": "NA",
+  "releaseDate": "2004-09-14",
+  "title": "Fable",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2q4c.webp",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Big Blue Box"],
+    "genre": ["Action RPG"],
+    "platforms": ["Xbox"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "In the magical land of Albion, a young boy's village is razed by bandits, killing his family and setting him on a path to join the Heroes' Guild — an order of legendary warriors, mages, and rogues for hire. As he grows from child to adult, every action he takes shapes not only his skills but his very body and reputation, culminating in a confrontation with a masked sorcerer whose pursuit of an ancient, all-powerful sword threatens to plunge Albion into darkness."
+  }
+},
+  {
   "date": "2026-05-17",
   "region": "NA",
   "releaseDate": "2007-02-13",
   "title": "Ratchet & Clank: Size Matters",
-  "boxArtUrl": "hlimages.igdb.com/igdb/image/upload/t_cover_big/coankv.webp",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coankv.webp",
   "hints": {
     "publisher": ["Sony Computer Entertainment"],
     "developer": ["High Impact Games"],
