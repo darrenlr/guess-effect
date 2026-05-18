@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-19",
+  "region": "WW",
+  "releaseDate": "2017-10-13",
+  "title": "The Evil Within 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.webp",
+  "hints": {
+    "publisher": ["Bethesda Softworks"],
+    "developer": ["Tango Gameworks"],
+    "genre": ["Survival Horror"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player"],
+    "engine": "STEM Engine",
+    "metacritic": 80,
+    "plot": "Three years after surviving the horrors of Beacon Mental Hospital, a broken detective living in self-imposed exile is approached by a shadowy organisation with a revelation: his daughter, believed dead in a house fire years ago, is alive — and trapped inside a new STEM simulation built around an idyllic small town. Descending once more into the collapsing nightmare world, he must hunt for his daughter before the simulation tears itself apart, navigating twisted enemies, a rogue photographer who turns his victims into art, and a fanatical priest building his own paradise from the inside."
+  }
+},
+  {
   "date": "2026-05-18",
   "region": "NA",
   "releaseDate": "2004-09-14",
