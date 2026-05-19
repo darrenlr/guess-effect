@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-20",
+  "region": "JP",
+  "releaseDate": "2010-04-22",
+  "title": "NieR Replicant",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coayqc.webp",
+  "hints": {
+    "publisher": ["Square Enix"],
+    "developer": ["Cavia"],
+    "genre": ["Action RPG"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "In a post-apocalyptic world overrun by dangerous creatures called Shades, a young man dedicates himself to finding a cure for his younger sister Yonah, who is afflicted with a deadly and incurable illness known as the Black Scrawl. Accompanied by a foul-mouthed, cursed warrior named Kainé, a boy who has been transformed into a living weapon, and a sarcastic magical tome named Grimoire Weiss, he travels a dying world in search of the Sealed Verses needed to break the Shadowlord's power — unaware of the devastating truth behind his sister's disease and humanity's fate."
+  }
+},
+  {
   "date": "2026-05-19",
   "region": "WW",
   "releaseDate": "2017-10-13",
