@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-21",
+  "region": "JP",
+  "releaseDate": "1998-03-29",
+  "title": "Parasite Eve",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4pup.webp",
+  "hints": {
+    "publisher": ["Square"],
+    "developer": ["Square"],
+    "genre": ["Action RPG", "Survival Horror"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "An NYPD rookie officer witnesses a horrific event at Carnegie Hall on Christmas Eve when the audience and performers spontaneously combust — all except herself and a captivating soprano named Eve, who claims to be awakening the true power of mitochondria within all living cells. As Eve begins transforming humans and animals into monstrous creatures while pursuing a catastrophic biological agenda, the officer must pursue her across a devastated New York City, unlocking her own mysterious mitochondrial abilities along the way."
+  }
+  },
+  {
   "date": "2026-05-20",
   "region": "JP",
   "releaseDate": "2010-04-22",
