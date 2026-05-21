@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-22",
+  "region": "NA",
+  "releaseDate": "2007-11-06",
+  "title": "Silent Hill: Origins",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2vyq.webp",
+  "hints": {
+    "publisher": ["Konami"],
+    "developer": ["Climax Studios"],
+    "genre": ["Survival Horror"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "A long-haul trucker passing through a fog-shrouded mountain town on a detour rescues a young girl from a burning house — only for her to vanish before an ambulance arrives, pulling him deeper into the nightmare that has consumed the town. As he searches for answers about the girl and the fire, he begins reliving repressed childhood memories tied to a psychiatric institution, uncovering the traumatic origins of the evil that has made the town a place of damnation."
+  }
+  },
+  {
   "date": "2026-05-21",
   "region": "JP",
   "releaseDate": "1998-03-29",
