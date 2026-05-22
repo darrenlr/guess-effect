@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-23",
+  "region": "JP",
+  "releaseDate": "1999-02-11",
+  "title": "Final Fantasy VIII",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2z7d.webp",
+  "hints": {
+    "publisher": ["Square"],
+    "developer": ["Square"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "A reserved and emotionally detached mercenary named Squall, trained at an elite military academy, is drawn into a world-spanning conflict after being tasked with supporting a resistance group against an expansionist military nation. When a powerful sorceress from a distant future begins reaching back through time to seize control of all eras simultaneously, Squall and his companions must confront both the enemy and their own pasts — as strange dreams begin revealing a shared history none of them can quite explain."
+  }
+},
+  {
   "date": "2026-05-22",
   "region": "NA",
   "releaseDate": "2007-11-06",
