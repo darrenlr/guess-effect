@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-24",
+  "region": "JP",
+  "releaseDate": "2009-03-12",
+  "title": "Resistance: Retribution",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2b4l.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Bend Studio"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 81,
+    "plot": "Set in the weeks following the Chimera's invasion of Britain, a British Royal Marine is forced to kill his own brother inside a Chimeran conversion centre to spare him a fate worse than death — an act that drives him to embark on a solo vendetta against every conversion centre across Europe. Recruited by the Maquis resistance after his rampage proves futile against the Chimera's evolving methods, he joins Operation Overstrike in a desperate campaign to liberate the European continent from alien occupation."
+  }
+},
+  {
   "date": "2026-05-23",
   "region": "JP",
   "releaseDate": "1999-02-11",
