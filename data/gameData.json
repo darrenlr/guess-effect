@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-25",
+  "region": "NA",
+  "releaseDate": "2013-11-15",
+  "title": "Killzone: Shadow Fall",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1v40.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Guerrilla Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 4"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Decima",
+    "metacritic": 73,
+    "plot": "Thirty years after the destruction of the Helghast home planet, a fragile peace holds on the colonised world of Vekta, where surviving Helghast and native Vektans live side by side separated by an enormous security wall. A young Shadow Marshal is drawn into a conspiracy that threatens to collapse the uneasy coexistence into all-out war, forced to operate in moral grey areas between both factions as a powerful Helghast leader pursues a plan of catastrophic retaliation."
+  }
+},
+  {
   "date": "2026-05-24",
   "region": "JP",
   "releaseDate": "2009-03-12",
