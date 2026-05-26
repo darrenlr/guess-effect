@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-26",
+  "region": "NA",
+  "releaseDate": "2013-11-15",
+  "title": "Knack",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4lea.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["SCE Japan Studio"],
+    "genre": ["Platform", "Beat 'em up"],
+    "platforms": ["PlayStation 4"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 54,
+    "plot": "A scientist creates a small but remarkable creature named Knack — built from ancient relics that give him the ability to absorb additional pieces and grow from a tiny three-foot figure into a colossal wrecking machine. When a goblin army launches an attack on human civilisation by raiding armories and weaponising ancient technology, Knack is deployed as humanity's unlikely champion, though a betrayal within the doctor's inner circle threatens to turn the crisis into something far more dangerous."
+  }
+},
+  {
   "date": "2026-05-25",
   "region": "NA",
   "releaseDate": "2013-11-15",
