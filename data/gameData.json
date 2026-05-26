@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-27",
+  "region": "NA",
+  "releaseDate": "2011-11-01",
+  "title": "Uncharted 3: Drake's Deception",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tp8.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Naughty Dog"],
+    "genre": ["Action-Adventure", "Third-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "Treasure hunter Nathan Drake and his mentor Victor Sullivan are drawn into a conspiracy surrounding the legendary lost city of Iram of the Pillars — the so-called Atlantis of the Sands — hidden somewhere in the Arabian Desert. Their pursuit brings them into conflict with a secretive British organisation led by the ruthless Katherine Marlowe, who has manipulated Sullivan into her service, forcing Drake to question everything he thought he knew about his mentor and his own past."
+  }
+},
+  {
   "date": "2026-05-26",
   "region": "NA",
   "releaseDate": "2013-11-15",
