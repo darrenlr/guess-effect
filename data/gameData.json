@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-05-28",
+  "region": "PAL",
+  "releaseDate": "2013-11-20",
+  "title": "Tearaway",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2h0d.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Media Molecule"],
+    "genre": ["Platform", "Adventure"],
+    "platforms": ["PS Vita"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "A small paper messenger named Iota — or Atoi, depending on the player's choice — embarks on a quest across a world made entirely of paper and craft materials to deliver a single message to the only person who exists outside this world: you, the player. Along the way the messenger must contend with Scraps, malevolent creatures made of torn paper who have invaded through a hole in the sky where your face appears, while the world itself reacts and transforms in response to the player's direct physical interaction through the Vita's touch screens and camera."
+  }
+},
+  {
   "date": "2026-05-27",
   "region": "NA",
   "releaseDate": "2011-11-01",
