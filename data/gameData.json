@@ -1,5 +1,32 @@
 [
   {
+  "date": "2026-05-29",
+  "region": "NA",
+  "releaseDate": "2019-10-08",
+  "title": "Concrete Genie",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3u25.webp",
+  "hints": {
+    "publisher": [
+      "Sony Interactive Entertainment"
+    ],
+    "developer": [
+      "PixelOpus"
+    ],
+    "genre": [
+      "Action-Adventure"
+    ],
+    "platforms": [
+      "PlayStation 4"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": "Unreal Engine 4",
+    "metacritic": 75,
+    "plot": "A bullied teenager named Ash discovers a magical paintbrush that brings his artwork to life, and uses it to explore his once-vibrant hometown of Denska — now polluted and abandoned. As he paints living creatures and luminous landscapes across the town's darkened walls, he must also face the bullies who torment him and uncover a creeping supernatural darkness threatening everything. Through creativity and courage, Ash alone has the power to restore light and life to his forgotten home."
+  }
+},
+  {
   "date": "2026-05-28",
   "region": "PAL",
   "releaseDate": "2013-11-20",
