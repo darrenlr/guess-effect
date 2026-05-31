@@ -1,5 +1,39 @@
 [
   {
+  "date": "2026-05-31",
+  "region": "NA",
+  "releaseDate": "2017-08-22",
+  "title": "Uncharted: The Lost Legacy",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1tp9.webp",
+  "hints": {
+    "publisher": ["Sony Interactive Entertainment"],
+    "developer": ["Naughty Dog"],
+    "genre": ["Action-Adventure", "Third-Person Shooter"],
+    "platforms": ["PlayStation 4"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "Treasure hunter Chloe Frazer enlists the aid of mercenary Nadine Ross to recover the Tusk of Ganesh — a priceless ancient Indian artefact — from a ruthless insurgent leader named Asav, who is using the region's civil war as cover to locate the relic for his own destructive ends. Venturing deep into India's Western Ghats mountain range, the two women must overcome their mutual distrust and confront the personal history driving each of them, before Asav can use the tusk to plunge the country into catastrophe."
+  }
+},
+  {
+  "date": "2026-05-30",
+  "region": "PAL",
+  "releaseDate": "2010-05-19",
+  "title": "ModNation Racers",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2i85.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["United Front Games", "San Diego Studio"],
+    "genre": ["Kart Racing"],
+    "platforms": ["PlayStation Portable", "PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 81,
+    "plot": "In the world of ModNation, custom-built Mod racers compete in high-octane kart racing events across a variety of wild tracks. A rookie racer named Tag, accompanied by his mechanic MBK, rises through the ranks of the ModNation circuit to challenge the reigning champion AF — uncovering a conspiracy by a ruthless sponsor to manipulate the championship — in a story that serves primarily as a colourful backdrop for the game's deep player-creation and track-building tools."
+  }
+},
+  {
   "date": "2026-05-29",
   "region": "NA",
   "releaseDate": "2019-10-08",
