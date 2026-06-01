@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-02",
+  "region": "NA",
+  "releaseDate": "2002-07-29",
+  "title": "The Mark of Kri",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7lc5.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["San Diego Studio"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "A hulking warrior named Rau, accompanied by his small bird companion Kuzo who scouts ahead and marks enemies for battle, is drawn into a shadowy conspiracy when a chance encounter in a tavern reveals that a powerful dark magic is being resurrected by a mysterious cult. Travelling across jungle villages, ancient temples, and coastal fortresses, Rau must confront wave after wave of enemies using a fluid combat system that lets him simultaneously engage multiple opponents, while uncovering the sinister meaning behind the mark that has been left upon him."
+  }
+},
+  {
   "date": "2026-06-01",
   "region": "EU",
   "releaseDate": "2002-02-08",
