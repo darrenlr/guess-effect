@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-03",
+  "region": "NA",
+  "releaseDate": "2009-11-03",
+  "title": "Jak and Daxter: The Lost Frontier",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2agh.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["High Impact Games"],
+    "genre": ["Platform", "Action-Adventure"],
+    "platforms": ["PlayStation Portable", "PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 72,
+    "plot": "Jak and his companions travel to the edge of the world — a vast region called the Brink — in search of ancient Precursor technology that may explain why eco, the life force powering their civilisation, is rapidly disappearing. After crash-landing in uncharted territory, they become entangled in a conflict with sky pirates and a ruthless militaristic empire, while Jak wrestles with a dangerous surge of dark eco threatening to consume him from within."
+  }
+},
+  {
   "date": "2026-06-02",
   "region": "NA",
   "releaseDate": "2002-07-29",
