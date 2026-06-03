@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-04",
+  "region": "NA",
+  "releaseDate": "2008-05-20",
+  "title": "Haze",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co28oe.webp",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Free Radical Design"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 55,
+    "plot": "In a near-future world where governments have outsourced all military operations to private corporations, a soldier enlists with the powerful Mantel Global Industries, whose troops are chemically enhanced by a performance drug called Nectar that suppresses fear, boosts strength, and filters out the ugliness of war. When the drug begins to wear off and the sanitised battlefield reveals its true horror, the soldier defects to the rebel faction he was sent to destroy — and discovers the sinister truth behind Nectar and the corporation profiting from endless conflict."
+  }
+},
+  {
   "date": "2026-06-03",
   "region": "NA",
   "releaseDate": "2009-11-03",
