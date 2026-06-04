@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-05",
+  "region": "NA",
+  "releaseDate": "2004-06-14",
+  "title": "Psi-Ops: The Mindgate Conspiracy",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2msx.webp",
+  "hints": {
+    "publisher": ["Midway"],
+    "developer": ["Midway"],
+    "genre": ["Action-Adventure", "Third-Person Shooter"],
+    "platforms": ["PlayStation 2", "Xbox"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "An elite psi-operative named Nick Scryer wakes strapped to a chair with his memory erased, planted inside a terrorist organisation called The Movement as a sleeper agent. As his psychic abilities — including telekinesis, mind control, pyrokinesis, and remote viewing — slowly return, he begins reconstructing his past and unravelling the conspiracy behind Mindgate, the secret programme that created him, racing to stop The Movement's plot to seize control of a devastating psychic weapon."
+  }
+},
+  {
   "date": "2026-06-04",
   "region": "NA",
   "releaseDate": "2008-05-20",
