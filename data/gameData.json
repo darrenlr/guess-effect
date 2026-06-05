@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-06",
+  "region": "WW",
+  "releaseDate": "2021-09-21",
+  "title": "Kena: Bridge of Spirits",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9hwy.webp",
+  "hints": {
+    "publisher": ["Ember Lab"],
+    "developer": ["Ember Lab"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 4", "PlayStation 5", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 83,
+    "plot": "A young spirit guide named Kena travels to a long-abandoned mountain village, seeking the sacred Mountain Shrine at its heart. To reach it, she must help the spirits of the deceased move on from the physical world — uncovering the traumatic events that bound them to the land and collecting a growing army of tiny spirit companions called the Rot, whose abilities become central to both exploration and combat as Kena unravels the village's dark history."
+  }
+},
+  {
   "date": "2026-06-05",
   "region": "NA",
   "releaseDate": "2004-06-14",
