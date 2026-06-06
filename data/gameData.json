@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-07",
+  "region": "NA",
+  "releaseDate": "2007-08-30",
+  "title": "Lair",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1wre.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Factor 5"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 52,
+    "plot": "In a world devastated by catastrophic volcanic eruptions that have poisoned the air and destroyed natural resources, two rival nations — the prosperous Asylia and the impoverished Mokai — wage a brutal war for survival using armies of trained battle dragons. A veteran Asylian sky guard named Rohn begins to question his loyalty after witnessing the cruelty of his own nation, eventually defecting to the Mokai cause and turning his dragon against those he once served."
+  }
+},
+  {
   "date": "2026-06-06",
   "region": "WW",
   "releaseDate": "2021-09-21",
