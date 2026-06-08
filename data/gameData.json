@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-09",
+  "region": "NA",
+  "releaseDate": "2004-03-09",
+  "title": "The Suffering",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4agb.webp",
+  "hints": {
+    "publisher": ["Midway"],
+    "developer": ["Surreal Software"],
+    "genre": ["Survival Horror", "Third-Person Shooter"],
+    "platforms": ["PlayStation 2", "Xbox"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "A convicted murderer named Torque arrives at a maximum-security prison on Carnate Island, Maryland, sentenced to death for allegedly killing his ex-wife and two children — a crime he has no memory of committing. On the night of his arrival, a catastrophic earthquake tears the prison apart and releases monstrous creatures onto the island, each embodying a different form of execution historically used on the island's condemned. Fighting to survive and escape, Torque is haunted by visions of his past that may hold the key to both his innocence and the island's dark history."
+  }
+},
+  {
   "date": "2026-06-07",
   "region": "NA",
   "releaseDate": "2007-08-30",
