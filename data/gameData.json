@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-10",
+  "region": "NA",
+  "releaseDate": "2003-11-11",
+  "title": "Beyond Good & Evil",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2n6b.webp",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montpellier"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": "Jade Engine",
+    "metacritic": 87,
+    "plot": "On the war-ravaged planet Hillys, a young photojournalist named Jade runs an orphanage for children displaced by an endless alien conflict, living under the supposed protection of a government defence force called the Alpha Sections. When a rebel organisation called the IRIS Network recruits her to investigate rumours that the Alpha Sections are secretly in league with the alien enemy, Jade uses her camera and combat skills to infiltrate increasingly dangerous facilities and expose a planet-wide conspiracy that goes all the way to the top of the government she once trusted."
+  }
+},
+  {
   "date": "2026-06-09",
   "region": "NA",
   "releaseDate": "2004-03-09",
