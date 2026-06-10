@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-11",
+  "region": "JP",
+  "releaseDate": "2001-08-08",
+  "title": "Virtua Fighter 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co849r.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sega AM2"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 94,
+    "plot": "The fourth World Fighting Tournament is announced, drawing a roster of martial artists from around the globe to compete in one-on-one combat. Returning fighters are joined by two new combatants — a Chinese martial artist specialising in a fluid, deceptive Shaolin style, and a deadly female mercenary trained in multiple disciplines — while the shadowy organisation J6 continues to manipulate events behind the scenes, pursuing its own agenda through the violence of the tournament."
+  }
+},
+  {
   "date": "2026-06-10",
   "region": "NA",
   "releaseDate": "2003-11-11",
