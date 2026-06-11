@@ -1,5 +1,56 @@
 [
   {
+  "date": "2026-06-14",
+  "region": "JP",
+  "releaseDate": "1997-08-23",
+  "title": "GoldenEye 007",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coa0y2.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Rare"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["Nintendo 64"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "British secret agent James Bond is sent to investigate a weapons control centre in the Soviet Union, where his fellow agent Alec Trevelyan is apparently killed during the mission. Years later, a criminal syndicate wielding control of the deadly GoldenEye satellite weapon threatens to trigger a global financial catastrophe, and Bond is tasked with dismantling the network — only to discover that Trevelyan survived, and is now the enemy orchestrating the entire conspiracy."
+  }
+},
+  {
+  "date": "2026-06-13",
+  "region": "JP",
+  "releaseDate": "2002-03-14",
+  "title": "Wild Arms 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2wi4.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Media.Vision"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "On the dying desert world of Filgaia, a spirited young Drifter named Virginia Maxwell foils an attempted train robbery and crosses paths with three other wanderers — a stoic gunfighter, a rogue sorcerer, and a mysterious lone wolf — each searching for their own answers. United by fate, the four form an unlikely team whose investigation into a series of catastrophic events gradually reveals an ancient conspiracy threatening to accelerate Filgaia's extinction, forcing them to confront both the world's dark past and each other's hidden secrets."
+  }
+},
+  {
+  "date": "2026-06-12",
+  "region": "JP",
+  "releaseDate": "2005-07-14",
+  "title": "Ape Escape 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6b7x.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["SCE Japan Studio"],
+    "genre": ["Platform", "Action-Adventure"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 77,
+    "plot": "Specter and his army of Pipo Helmet-wearing monkeys launch a global takeover by hijacking every television broadcast on the planet, beaming mind-numbing programming that renders the world's population too dazed to resist. A boy named Kei and his sister Yumi are the only two unaffected, and must travel through TV studios themed around different genres — from action films to soap operas to sporting events — to capture the mischievous primates and reclaim control of the airwaves."
+  }
+},
+  {
   "date": "2026-06-11",
   "region": "JP",
   "releaseDate": "2001-08-08",
