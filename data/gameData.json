@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-15",
+  "region": "WW",
+  "releaseDate": "2019-05-14",
+  "title": "A Plague Tale: Innocence",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1lat.webp",
+  "hints": {
+    "publisher": ["Focus Home Interactive"],
+    "developer": ["Asobo Studio"],
+    "genre": ["Action-Adventure", "Stealth"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Zouna",
+    "metacritic": 81,
+    "plot": "In 1349 France, amid the Black Death and the brutal campaign of the Inquisition, a noblewoman named Amicia is forced to flee her family's estate with her young brother Hugo after soldiers slaughter their father. Hugo suffers from a mysterious illness that draws both the Inquisition and supernatural swarms of plague-carrying rats toward him, and as Amicia struggles to protect him across a ravaged countryside, she begins to uncover the terrifying truth behind his condition and the ancient force connected to it."
+  }
+},
+  {
   "date": "2026-06-14",
   "region": "JP",
   "releaseDate": "1997-08-23",
