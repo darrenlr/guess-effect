@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-16",
+  "region": "NA",
+  "releaseDate": "2000-02-04",
+  "title": "The Sims",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8j9a.webp",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Maxis"],
+    "genre": ["Life Simulation", "Social Simulation"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "SmartSim",
+    "metacritic": 90,
+    "plot": "There is no traditional narrative — the player creates and controls virtual people called Sims, guiding them through daily life in a suburban neighbourhood by managing their needs, relationships, careers, and homes. Without direction, Sims will pursue autonomous routines, but their happiness, ambitions, and social lives flourish or decay entirely based on the player's choices, making every household a unique story shaped by whoever is playing."
+  }
+},
+  {
   "date": "2026-06-15",
   "region": "WW",
   "releaseDate": "2019-05-14",
