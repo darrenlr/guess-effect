@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-17",
+  "region": "WW",
+  "releaseDate": "2018-04-24",
+  "title": "Frostpunk",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coar27.webp",
+  "hints": {
+    "publisher": ["11 bit studios"],
+    "developer": ["11 bit studios"],
+    "genre": ["City-building", "Survival"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "Liquid Engine",
+    "metacritic": 84,
+    "plot": "In an alternate Victorian era where a catastrophic volcanic winter has plunged the world into a deep freeze, survivors gather around a massive coal-powered generator — the last source of heat on Earth — and struggle to build a functioning city in its shadow. As the city's leader, the player must manage resources, issue laws, and make increasingly desperate moral choices — balancing the survival of the population against the cost to their humanity — as temperatures continue to drop and the generator's limits are pushed beyond what its designers ever intended."
+  }
+},
+  {
   "date": "2026-06-16",
   "region": "NA",
   "releaseDate": "2000-02-04",
