@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-18",
+  "region": "NA",
+  "releaseDate": "2003-10-27",
+  "title": "Tony Hawk's Underground",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2g2b.webp",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["Neversoft"],
+    "genre": ["Sports", "Skateboarding"],
+    "platforms": ["PlayStation 2", "GameCube", "Xbox", "Game Boy Advance"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "An unknown skateboarder from New Jersey dreams of turning pro alongside his best friend, a talented but egotistical local skater named Eric Sparrow. After catching the attention of touring pros and earning a shot at the big time in New Jersey, Tampa, and eventually New York, the protagonist follows Eric to Hawaii and then Moscow, gradually uncovering Eric's true self-serving nature — as his former friend steals credit, sabotages his career, and escalates from friendly rival to genuine antagonist in a story far more character-driven than anything the series had previously attempted."
+  }
+  },
+  {
   "date": "2026-06-17",
   "region": "WW",
   "releaseDate": "2018-04-24",
