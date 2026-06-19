@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-19",
+  "region": "JP",
+  "releaseDate": "2012-04-19",
+  "title": "Fire Emblem Awakening",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobcko.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Intelligent Systems"],
+    "genre": ["Tactical RPG"],
+    "platforms": ["Nintendo 3DS"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "Prince Chrom of the Halidom of Ylisse leads a band of shepherds tasked with protecting the realm, joined by a mysterious amnesiac tactician found unconscious in a field with no memory of their past. As a war with the neighbouring nation of Plegia escalates and an army of the undead called the Risen spreads across the land, Chrom and his companions discover that a far darker threat — a fell dragon of apocalyptic power — is stirring, and that the tactician's forgotten past may be inextricably tied to the fate of the entire world."
+  }
+},
+  {
   "date": "2026-06-18",
   "region": "NA",
   "releaseDate": "2003-10-27",
