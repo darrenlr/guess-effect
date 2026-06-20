@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-20",
+  "region": "NA",
+  "releaseDate": "2015-11-17",
+  "title": "Star Wars Battlefront",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2res.webp",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["DICE"],
+    "genre": ["First-Person Shooter", "Third-Person Shooter"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Frostbite 3",
+    "metacritic": 73,
+    "plot": "Set within the timeframe of the original Star Wars trilogy, players are dropped into iconic large-scale battles across planets including Hoth, Endor, Tatooine, and Sullust, fighting as either Rebel Alliance or Galactic Empire forces. With no traditional campaign, the experience centres entirely on multiplayer skirmishes involving infantry, vehicles, and playable heroes from the films — from Darth Vader and Boba Fett to Luke Skywalker and Princess Leia — in a cinematic recreation of Star Wars ground and aerial combat."
+  }
+},
+  {
   "date": "2026-06-19",
   "region": "JP",
   "releaseDate": "2012-04-19",
