@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-21",
+  "region": "WW",
+  "releaseDate": "1992-11-24",
+  "title": "Sonic the Hedgehog 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5kkj.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sega Technical Institute"],
+    "genre": ["Platform"],
+    "platforms": ["Sega Genesis"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Doctor Robotnik has discovered a new source of power in the seven Chaos Emeralds buried beneath West Side Island, and launches a full-scale invasion to enslave its animals and convert them into robots for his army. Sonic the Hedgehog, joined for the first time by a young two-tailed fox named Miles Prower, races through eleven zones to dismantle Robotnik's forces and prevent him from launching the deadly Death Egg space station into orbit."
+  }
+  },
+  {
   "date": "2026-06-20",
   "region": "NA",
   "releaseDate": "2015-11-17",
