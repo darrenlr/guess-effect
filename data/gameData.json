@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-24",
+  "region": "WW",
+  "releaseDate": "2018-10-02",
+  "title": "Forza Horizon 4",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2e1a.webp",
+  "hints": {
+    "publisher": ["Microsoft Studios"],
+    "developer": ["Playground Games"],
+    "genre": ["Racing"],
+    "platforms": ["Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "ForzaTech",
+    "metacritic": 92,
+    "plot": "Set in a fictionalised recreation of Great Britain encompassing Edinburgh, the Scottish Highlands, the Lake District, and the Cotswolds, players compete in the Horizon Festival — an open-world automotive celebration featuring hundreds of licensed cars across racing, off-road, and stunt disciplines. The world changes dynamically each week through a real-time seasonal cycle of spring, summer, autumn, and winter, with each season altering the landscape, weather, and available events in a shared online world populated by other players and their Drivatars."
+  }
+},
+  {
   "date": "2026-06-23",
   "region": "WW",
   "releaseDate": "2021-12-08",
