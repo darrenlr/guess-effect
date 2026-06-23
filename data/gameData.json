@@ -1,4 +1,21 @@
 [
+  {
+  "date": "2026-06-22",
+  "region": "JP",
+  "releaseDate": "2006-03-23",
+  "title": "Cooking Mama",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co48t2.webp",
+  "hints": {
+    "publisher": ["Taito"],
+    "developer": ["Office Create"],
+    "genre": ["Simulation", "Minigame Collection"],
+    "platforms": ["Nintendo DS"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 67,
+    "plot": "Players step into a cosy kitchen under the tutelage of an enthusiastic and expressive maternal figure known simply as Mama, who guides them through the preparation of 76 real-world dishes ranging from fried eggs to cabbage meat rolls. Using the Nintendo DS stylus across more than 200 touch-based minigames, players chop, slice, knead, fry, grate, and plate their way through increasingly complex recipes — with Mama reacting warmly to success and with theatrical dismay to mistakes."
+  }
+},
 {
   "date": "2026-06-21",
   "region": "WW",
