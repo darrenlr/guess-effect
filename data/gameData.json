@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-23",
+  "region": "WW",
+  "releaseDate": "2021-12-08",
+  "title": "Halo Infinite",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2dto.webp",
+  "hints": {
+    "publisher": ["Xbox Game Studios"],
+    "developer": ["343 Industries"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["Xbox One", "Xbox Series X/S", "PC"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "Slipspace Engine",
+    "metacritic": 87,
+    "plot": "Set one year after the events of Halo 5, the Master Chief is recovered adrift in space following a catastrophic defeat at the hands of the Banished — a mercenary alien army that has seized control of the Forerunner ringworld Zeta Halo. Deployed back onto the ring with a new AI companion called The Weapon, the Chief must fight across an open landscape to dismantle the Banished leadership, uncover the fate of his former AI partner Cortana, and prevent the Banished from activating the ring's destructive power."
+  }
+},
+  {
   "date": "2026-06-22",
   "region": "JP",
   "releaseDate": "2006-03-23",
