@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-25",
+  "region": "JP",
+  "releaseDate": "1994-08-27",
+  "title": "EarthBound",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6v07.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Ape Inc.", "HAL Laboratory"],
+    "genre": ["JRPG"],
+    "platforms": ["Super Famicom"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A young boy named Ness awakens in the middle of the night to find a meteorite has crashed near his house, and discovers a message from the future warning that an alien force of pure evil called Giygas will destroy all life. Guided by this prophecy, Ness travels across a quirky, satirical version of suburban America — visiting cities named Onett, Twoson, and Fourside — gathering three companions and collecting eight melodies from sacred sanctuaries to gain the power needed to confront the cosmic horror threatening all existence."
+  }
+},
+  {
   "date": "2026-06-24",
   "region": "WW",
   "releaseDate": "2018-10-02",
