@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-26",
+  "region": "WW",
+  "releaseDate": "2020-03-20",
+  "title": "Animal Crossing: New Horizons",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co3wls.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EPD"],
+    "genre": ["Social Simulation", "Life Simulation"],
+    "platforms": ["Nintendo Switch"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "A player character accepts a getaway package from Nook Inc. — the enterprise of a cheerful tanuki named Tom Nook — and moves to a remote deserted island with only a tent, basic tools, and two animal neighbours. Without any fixed objectives, the player is free to gather resources, craft furniture and tools, attract new animal residents, customise their island's landscape and buildings, and participate in seasonal events and real-time celebrations tied to the Nintendo Switch's internal clock — gradually transforming a bare island into a thriving personalised community."
+  }
+},
+  {
   "date": "2026-06-25",
   "region": "JP",
   "releaseDate": "1994-08-27",
