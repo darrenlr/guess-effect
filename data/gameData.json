@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-06-27",
+  "region": "JP",
+  "releaseDate": "1995-08-03",
+  "title": "Tekken 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8cks.webp",
+  "hints": {
+    "publisher": ["Namco"],
+    "developer": ["Namco"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Two years after winning the first King of Iron Fist Tournament and seizing control of the Mishima Zaibatsu, Kazuya Mishima announces a second tournament — using it as cover to consolidate his global power while secretly conducting dark genetic experiments. His father Heihachi, who survived being thrown from a cliff, enters the tournament to reclaim what was taken from him, alongside a cast of fighters with their own grievances against Kazuya's empire, each pursuing a personal reckoning with the new ruler of the Zaibatsu."
+  }
+},
+  {
   "date": "2026-06-26",
   "region": "WW",
   "releaseDate": "2020-03-20",
