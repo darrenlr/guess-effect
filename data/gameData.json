@@ -1,4 +1,37 @@
-[
+[{
+  "date": "2026-06-29",
+  "region": "NA",
+  "releaseDate": "1996-09-09",
+  "title": "Crash Bandicoot",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co555l.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Naughty Dog"],
+    "genre": ["Platform"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "On a group of islands southeast of Australia, a mad scientist named Doctor Neo Cortex and his assistant have been experimenting on local marsupials with a genetic evolution ray and a mind-control device called the Cortex Vortex, building an army of mutated animals to dominate the world. When the procedure fails on a bandicoot named Crash — leaving him uncontrollable — Cortex jettisons him from his castle, but Crash resolves to fight back across the islands to rescue his captured girlfriend Tawna and confront the scientist responsible for his creation."
+  }
+},
+  {
+  "date": "2026-06-28",
+  "region": "NA",
+  "releaseDate": "1998-12-21",
+  "title": "Baldur's Gate",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20gb.webp",
+  "hints": {
+    "publisher": ["Interplay Entertainment"],
+    "developer": ["BioWare"],
+    "genre": ["RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Infinity Engine",
+    "metacritic": null,
+    "plot": "An orphan raised within the fortress library of Candlekeep watches their foster father Gorion die at the hands of a mysterious armoured figure, and is forced to flee into the dangerous Sword Coast wilderness. Gathering a party of companions and uncovering a conspiracy involving a tainted iron supply that is destabilising the region, the young protagonist gradually discovers a dark truth about their own heritage — that they carry the divine blood of Bhaal, the dead god of murder — and must confront a half-sibling who seeks to harness that bloodline to ascend to godhood."
+  }
+},
   {
   "date": "2026-06-27",
   "region": "JP",
