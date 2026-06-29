@@ -1,4 +1,22 @@
-[{
+[
+  {
+  "date": "2026-06-30",
+  "region": "WW",
+  "releaseDate": "2023-10-20",
+  "title": "Marvel's Spider-Man 2",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cobg1k.webp",
+  "hints": {
+    "publisher": ["Sony Interactive Entertainment"],
+    "developer": ["Insomniac Games"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 5"],
+    "modes": ["Single-player"],
+    "engine": "Insomniac Engine",
+    "metacritic": 90,
+    "plot": "When the ruthless hunter Kraven the Hunter arrives in New York City and transforms it into a massive open-air hunting ground for super-powered individuals, both Peter Parker and Miles Morales must balance their lives as Spider-Men against new personal crises. The situation grows more dangerous when an alien symbiote bonds with Peter, gradually corrupting his personality and threatening to destroy his relationships — forcing Miles to step up and ultimately confront whether Peter can be saved before the symbiote's influence becomes permanent."
+  }
+},
+  {
   "date": "2026-06-29",
   "region": "NA",
   "releaseDate": "1996-09-09",
