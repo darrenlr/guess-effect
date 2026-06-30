@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-01",
+  "region": "JP",
+  "releaseDate": "2001-10-26",
+  "title": "Pikmin",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co6nqg.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Real-Time Strategy"],
+    "platforms": ["GameCube"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "A tiny alien astronaut named Captain Olimar is on an interstellar vacation when a meteorite destroys his ship, sending him crash-landing on an unknown Earth-like planet where the oxygen-rich atmosphere is toxic to his species. With only 30 days of life support remaining before his suit fails, Olimar must enlist the help of native plant-animal creatures he dubs Pikmin — growing and commanding armies of them across the planet's varied environments to recover the 30 scattered parts of his ship before time runs out."
+  }
+  },
+  {
   "date": "2026-06-30",
   "region": "WW",
   "releaseDate": "2023-10-20",
