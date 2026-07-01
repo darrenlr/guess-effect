@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-02",
+  "region": "WW",
+  "releaseDate": "2022-03-04",
+  "title": "Gran Turismo 7",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2g84.webp",
+  "hints": {
+    "publisher": ["Sony Interactive Entertainment"],
+    "developer": ["Polyphony Digital"],
+    "genre": ["Sim Racing"],
+    "platforms": ["PlayStation 4", "PlayStation 5"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "Presented without a traditional narrative, the game invites players into an encyclopaedic celebration of automotive history through GT Simulation Mode — a series of café-guided menus that assign car collections and events to educate players on the stories behind different manufacturers, eras, and racing disciplines. Starting with modest road cars and progressing through licences, championships, circuit experiences, and special events, players build a garage of hundreds of meticulously modelled vehicles from over 60 manufacturers — each rendered with obsessive attention to detail across circuits drawn from both real-world motorsport venues and the series' own legendary fictional tracks."
+  }
+},
+  {
   "date": "2026-07-01",
   "region": "JP",
   "releaseDate": "2001-10-26",
