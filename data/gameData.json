@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-03",
+  "region": "JP",
+  "releaseDate": "1994-04-02",
+  "title": "Final Fantasy VI",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8kxj.webp",
+  "hints": {
+    "publisher": ["Square"],
+    "developer": ["Square"],
+    "genre": ["JRPG"],
+    "platforms": ["Super Famicom"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A thousand years after a cataclysmic conflict called the War of the Magi rendered magic extinct, the world has rebuilt itself through technology and iron — but the militaristic Gestahlian Empire has rediscovered magical creatures called Espers and begun weaponising their power to conquer the world. A young woman named Terra, the only human born with innate magical ability, escapes the Empire's control and joins a rebel group called the Returners, triggering a chain of events that eventually brings the world to ruin under the gleeful malevolence of Kefka Palazzo — a deranged former general who ascends to godhood and forces the survivors to find meaning in a shattered world."
+  }
+},
+  {
   "date": "2026-07-02",
   "region": "WW",
   "releaseDate": "2022-03-04",
