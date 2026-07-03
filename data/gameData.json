@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-04",
+  "region": "WW",
+  "releaseDate": "2024-09-26",
+  "title": "Mouthwashing",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co70oi.webp",
+  "hints": {
+    "publisher": ["Critical Reflex"],
+    "developer": ["Wrong Organ"],
+    "genre": ["Horror", "Adventure"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "The five crew members of a cargo spaceship called the Tulpar are stranded in the empty reaches of space following a mysterious crash, with supplies dwindling and no hope of rescue. The captain — alive but catastrophically injured, unable to speak or move — is blamed by the crew for deliberately causing the collision, while the game's non-linear narrative unfolds across disjointed scenes both before and after the crash, slowly revealing the disturbing truth of what happened aboard the ship."
+  }
+},
+  {
   "date": "2026-07-03",
   "region": "JP",
   "releaseDate": "1994-04-02",
