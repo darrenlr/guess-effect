@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-05",
+  "region": "WW",
+  "releaseDate": "2021-10-08",
+  "title": "Metroid Dread",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coba9g.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["MercurySteam", "Nintendo EPD"],
+    "genre": ["Action-Adventure", "Metroidvania"],
+    "platforms": ["Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": "Mercury Engine",
+    "metacritic": 88,
+    "plot": "After a mysterious video transmission shows an X Parasite — a species believed to be extinct — still alive on the remote planet ZDR, bounty hunter Samus Aran is dispatched to investigate, only to find the planet overrun by hostile lifeforms and seven near-indestructible EMMI robots hunting her relentlessly. Stripped of her abilities and forced to rebuild her arsenal as she explores ZDR's interconnected environments, Samus uncovers the origin of the transmission and faces a threat that challenges everything she thought she knew about her own nature."
+  }
+},
+  {
   "date": "2026-07-04",
   "region": "WW",
   "releaseDate": "2024-09-26",
