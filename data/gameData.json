@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-06",
+  "region": "WW",
+  "releaseDate": "2017-03-07",
+  "title": "Tom Clancy's Ghost Recon Wildlands",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1ku7.webp",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Paris"],
+    "genre": ["Tactical Shooter", "Open World"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "AnvilNext 2.0",
+    "metacritic": 73,
+    "plot": "A fictional Bolivia in 2019 has fallen under the control of the Santa Blanca drug cartel, which has corrupted the government and transformed the country into the world's largest cocaine producer. A four-person U.S. Special Forces unit called the Ghosts is deployed covertly to dismantle the cartel from within by eliminating its leaders one by one across a vast open-world environment spanning mountains, jungles, deserts, and salt flats."
+  }
+},
+  {
   "date": "2026-07-05",
   "region": "WW",
   "releaseDate": "2021-10-08",
