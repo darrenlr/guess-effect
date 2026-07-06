@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-07",
+  "region": "JP",
+  "releaseDate": "1998-12-17",
+  "title": "Suikoden II",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1y6a.webp",
+  "hints": {
+    "publisher": ["Konami"],
+    "developer": ["Konami"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A young soldier and his noble best friend Jowy are drawn into a devastating war between the City-States of Jowston and the Kingdom of Highland, ruled by the sadistic Prince Luca Blight — one of gaming's most reviled villains. Each bearing one half of the mystical Rune of the Beginning, the two friends find themselves on opposing sides of the conflict, and the protagonist must rally the 108 Stars of Destiny to build an army capable of ending the war while navigating betrayal, political intrigue, and an impossible friendship torn apart by fate."
+  }
+},
+  {
   "date": "2026-07-06",
   "region": "WW",
   "releaseDate": "2017-03-07",
