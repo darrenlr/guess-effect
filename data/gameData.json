@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-08",
+  "region": "NA",
+  "releaseDate": "1995-09-01",
+  "title": "Rayman",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1waa.webp",
+  "hints": {
+    "publisher": ["Ubi Soft"],
+    "developer": ["Ubi Pictures"],
+    "genre": ["Platform"],
+    "platforms": ["Atari Jaguar"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "In the magical Glade of Dreams, a mysterious villain called Mr. Dark steals the Great Protoon — the source of harmony and balance for the world — and imprisons the tiny Electoon creatures who orbited it inside cages scattered across six fantastical worlds. A limbless hero named Rayman, aided by a fairy named Betilla who gradually grants him new abilities, must travel through jungles, musical landscapes, and caverns to free all the captive Electoons and confront Mr. Dark to restore peace to his world."
+  }
+},
+  {
   "date": "2026-07-07",
   "region": "JP",
   "releaseDate": "1998-12-17",
