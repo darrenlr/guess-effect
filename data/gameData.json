@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-09",
+  "region": "NA",
+  "releaseDate": "1998-11-19",
+  "title": "Half-Life",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/coc2ea.webp",
+  "hints": {
+    "publisher": ["Sierra Entertainment"],
+    "developer": ["Valve"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "GoldSrc",
+    "metacritic": null,
+    "plot": "At the Black Mesa Research Facility in New Mexico, a routine experiment with an alien crystal sample goes catastrophically wrong, tearing open a dimensional rift that floods the complex with hostile extraterrestrial creatures. Theoretical physicist Gordon Freeman — equipped only with a hazard suit and whatever weapons he can scavenge — must fight his way through alien enemies and a government military clean-up team sent to silence all witnesses, navigating deep underground laboratories, surface military zones, and ultimately a portal to the alien homeworld to end the invasion."
+  }
+},
+  {
   "date": "2026-07-08",
   "region": "NA",
   "releaseDate": "1995-09-01",
