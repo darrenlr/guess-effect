@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-10",
+  "region": "WW",
+  "releaseDate": "2019-07-26",
+  "title": "Fire Emblem: Three Houses",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1n8t.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Intelligent Systems", "Koei Tecmo"],
+    "genre": ["Tactical RPG"],
+    "platforms": ["Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "A former mercenary named Byleth is appointed professor at the prestigious Officer's Academy of Garreg Mach Monastery, home to students from three rival nations — the Adrestian Empire, the Holy Kingdom of Faerghus, and the Leicester Alliance. After choosing one of the three noble houses to lead, Byleth guides their students through classroom life and tactical battles, before a timeskip tears the continent apart into full-scale war and forces them to confront the true history of Fódlan — and a mysterious goddess whose voice has guided Byleth since birth."
+  }
+},
+  {
   "date": "2026-07-09",
   "region": "NA",
   "releaseDate": "1998-11-19",
