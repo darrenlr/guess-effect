@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-11",
+  "region": "WW",
+  "releaseDate": "2018-01-26",
+  "title": "Monster Hunter: World",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rst.webp",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Capcom"],
+    "genre": ["Action RPG"],
+    "platforms": ["PlayStation 4", "Xbox One"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "MT Framework",
+    "metacritic": 90,
+    "plot": "A hunter joins the Fifth Fleet of the Research Commission, a vast organisation tasked with investigating a newly discovered continent called the New World, where colossal Elder Dragons periodically migrate for unknown reasons. Tracking the ancient behemoth Zorah Magdaros across living ecosystems that react dynamically to the presence of its creatures, the hunter uncovers the true nature of the New World's ecosystem — an interconnected web of predators and prey shaped by the energy of a mysterious organism that draws the Elder Dragons across the sea."
+  }
+},
+  {
   "date": "2026-07-10",
   "region": "WW",
   "releaseDate": "2019-07-26",
