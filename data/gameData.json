@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-13",
+  "region": "JP",
+  "releaseDate": "2000-03-21",
+  "title": "Wario Land 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4qgc.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo R&D1"],
+    "genre": ["Platform"],
+    "platforms": ["Game Boy Color"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "After his plane crashes in a forest, a greedy anti-hero stumbles upon a mysterious music box and is sucked inside, finding himself in a miniature world within. A hidden figure claiming to be a god promises to return him home and let him keep all the treasure he finds — if he recovers five magical music boxes scattered across the world — but the inhabitants of the world attack him at every turn, and the true nature of the entity he is helping is far more sinister than it first appears."
+  }
+},
+  {
   "date": "2026-07-12",
   "region": "NA",
   "releaseDate": "1998-12-07",
