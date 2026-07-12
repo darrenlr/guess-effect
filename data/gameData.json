@@ -1,5 +1,36 @@
 [
   {
+  "date": "2026-07-12",
+  "region": "NA",
+  "releaseDate": "1998-12-07",
+  "title": "Star Wars: Rogue Squadron",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co7k18.webp",
+  "hints": {
+    "publisher": [
+      "LucasArts",
+      "Nintendo"
+    ],
+    "developer": [
+      "Factor 5",
+      "LucasArts"
+    ],
+    "genre": [
+      "Arcade Flight",
+      "Action"
+    ],
+    "platforms": [
+      "Nintendo 64",
+      "PC"
+    ],
+    "modes": [
+      "Single-player"
+    ],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Six months after the destruction of the first Death Star, a young farm boy turned starfighter ace assembles an elite squadron of the Rebel Alliance's finest pilots to strike back against the Galactic Empire. Across sixteen missions spanning frozen wastes, desert canyons, and forest moons, the squadron carries out dogfights, bombing runs, rescues, and reconnaissance in X-wings, Y-wings, A-wings and snowspeeders. The Rebellion's survival hangs on their ability to outfly the Empire's overwhelming forces."
+  }
+  },
+  {
   "date": "2026-07-11",
   "region": "WW",
   "releaseDate": "2018-01-26",
