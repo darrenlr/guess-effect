@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-14",
+  "region": "WW",
+  "releaseDate": "2013-09-17",
+  "title": "Grand Theft Auto V",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.webp",
+  "hints": {
+    "publisher": ["Rockstar Games"],
+    "developer": ["Rockstar North"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "RAGE",
+    "metacritic": 96,
+    "plot": "In the sprawling fictional city of Los Santos, three criminals with intertwined fates navigate a world of heists, betrayals, and escalating federal pressure: a retired bank robber trying to hold his fractured family together, a street hustler desperate to escape the gang life that defines him, and a volatile, unhinged mercenary with a talent for violence and a deteriorating grip on reality. Pulled together by a series of increasingly audacious jobs, the three men find themselves caught between the FBI, the CIA, and ruthless billionaires — forced to collaborate in order to survive."
+  }
+},
+  {
   "date": "2026-07-13",
   "region": "JP",
   "releaseDate": "2000-03-21",
