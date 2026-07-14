@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-15",
+  "region": "NA",
+  "releaseDate": "2001-09-10",
+  "title": "Advance Wars",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob9nu.webp",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Intelligent Systems"],
+    "genre": ["Tactical Strategy"],
+    "platforms": ["Game Boy Advance"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "The peaceful nation of Orange Star comes under attack from three rival nations — Blue Moon, Yellow Comet, and Green Earth — who have been mysteriously provoked into war against it. A young Commanding Officer named Andy is deployed to lead Orange Star's forces across multiple fronts, working alongside fellow COs as they battle through dozens of tactical maps to uncover the true instigator behind the conflict threatening to engulf the entire continent of Macro Land."
+  }
+},
+  {
   "date": "2026-07-14",
   "region": "WW",
   "releaseDate": "2013-09-17",
