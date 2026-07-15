@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-16",
+  "region": "WW",
+  "releaseDate": "2025-10-02",
+  "title": "Ghost of Yotei",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co9coo.webp",
+  "hints": {
+    "publisher": ["Sony Interactive Entertainment"],
+    "developer": ["Sucker Punch Productions"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 5"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 87,
+    "plot": "Set in 1603 in the rugged, snow-blanketed lands of Ezo in northern Japan, a haunted mercenary named Atsu returns to the region where her family was slaughtered sixteen years earlier by a gang of six outlaws known as the Yōtei Six. Driven by vengeance, she travels across the wilderness surrounding the volcanic peak of Mount Yōtei — encountering the indigenous Ainu people and warring factions including the Matsumae clan — and discovers that her journey for revenge will force her to confront not only her enemies but the person she has become in the years since her family's death."
+  }
+  },
+  {
   "date": "2026-07-15",
   "region": "NA",
   "releaseDate": "2001-09-10",
