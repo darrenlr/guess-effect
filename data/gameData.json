@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-17",
+  "region": "WW",
+  "releaseDate": "2019-04-18",
+  "title": "Katana Zero",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1isp.webp",
+  "hints": {
+    "publisher": ["Devolver Digital"],
+    "developer": ["Askiisoft"],
+    "genre": ["Platform", "Action"],
+    "platforms": ["PC", "Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": "GameMaker Studio 2",
+    "metacritic": 83,
+    "plot": "A brooding, drug-dependent assassin known only as Zero is dispatched on a series of contract killings across a rain-soaked neo-noir city, manipulating time to rewind failed attempts and execute his targets flawlessly. Between missions, he meets with a mysterious psychiatrist who provides him with doses of a time-manipulation drug called Chronos — but as Zero begins questioning his orders and fragmentary visions of his past bleed through, the line between mission and memory begins to collapse, pulling him toward a truth about his identity that powerful people want buried."
+  }
+},
+  {
   "date": "2026-07-16",
   "region": "WW",
   "releaseDate": "2025-10-02",
