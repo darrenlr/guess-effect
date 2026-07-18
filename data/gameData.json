@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-19",
+  "region": "WW",
+  "releaseDate": "2016-05-24",
+  "title": "Overwatch",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.webp",
+  "hints": {
+    "publisher": ["Blizzard Entertainment"],
+    "developer": ["Blizzard Entertainment"],
+    "genre": ["First-Person Shooter", "Hero Shooter"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Multiplayer"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Set on a near-future Earth recovering from a global crisis, a disbanded international peacekeeping organisation called Overwatch has left the world without its heroes. Players choose from a diverse roster of soldiers, scientists, fighters, and outlaws — each with unique abilities — and compete in team-based objective matches across iconic real-world locations, with the broader lore delivered not through the game itself but through animated shorts, comics, and other external media that flesh out the rivalries and histories behind the characters on both sides of every battle."
+  }
+},
+  {
   "date": "2026-07-18",
   "region": "WW",
   "releaseDate": "2017-08-15",
