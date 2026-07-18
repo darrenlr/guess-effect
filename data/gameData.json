@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-18",
+  "region": "WW",
+  "releaseDate": "2017-08-15",
+  "title": "Sonic Mania",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cob1t0.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Christian Whitehead", "Headcannon", "PagodaWest Games"],
+    "genre": ["Platform"],
+    "platforms": ["PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Retro Engine",
+    "metacritic": 86,
+    "plot": "Doctor Eggman discovers a mysterious gemstone called the Phantom Ruby and uses its power to create a squad of robotic enforcers called the Hard-Boiled Heavies, who teleport Sonic, Tails, and Knuckles across time and space to a series of classic and new zones warped by the ruby's reality-distorting energy. Racing to recover the Phantom Ruby before Eggman can harness its full power, the heroes fight through remixed environments drawn from the franchise's history, confronting the rogue Heavies who have developed their own ambitions beyond their creator's control."
+  }
+},
+  {
   "date": "2026-07-17",
   "region": "WW",
   "releaseDate": "2019-04-18",
