@@ -1,5 +1,39 @@
 [
   {
+  "date": "2026-07-21",
+  "region": "WW",
+  "releaseDate": "2022-12-08",
+  "title": "Chained Echoes",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co544u.webp",
+  "hints": {
+    "publisher": ["Deck13 Spotlight"],
+    "developer": ["Matthias Linda"],
+    "genre": ["JRPG"],
+    "platforms": ["PC", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 91,
+    "plot": "On the war-torn continent of Valandis, three warring kingdoms have spent generations locked in bloody conflict, and a group of warriors from opposing sides find themselves unexpectedly united by fate after a devastating magical catastrophe. Travelling across a vast world of sunken cities, wind-blasted plateaus, and forgotten dungeons — aboard giant mechanical suits as well as on foot — they uncover a web of political betrayal and ancient secrets that reaches far deeper than any single kingdom's ambitions, forcing them to confront whether peace is truly possible when the powerful have so much to gain from war."
+  }
+  },
+  {
+  "date": "2026-07-20",
+  "region": "WW",
+  "releaseDate": "2023-08-03",
+  "title": "Baldur's Gate 3",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co670h.webp",
+  "hints": {
+    "publisher": ["Larian Studios"],
+    "developer": ["Larian Studios"],
+    "genre": ["RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Divinity Engine",
+    "metacritic": 96,
+    "plot": "A group of survivors find themselves infected with mind flayer tadpoles — parasites that should transform them into tentacled monsters called illithids — but discover they are somehow immune to the process. Stranded in a dangerous region of Faerûn called the Sword Coast, they must find a cure before the parasite completes its transformation, navigating a vast world of warring factions, ancient gods, and forgotten conspiracies while confronting an emerging threat that could plunge the continent into darkness — and discovering that the power the parasite grants may be the only weapon capable of stopping it."
+  }
+  },
+  {
   "date": "2026-07-19",
   "region": "WW",
   "releaseDate": "2016-05-24",
