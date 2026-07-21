@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-22",
+  "region": "WW",
+  "releaseDate": "2022-11-15",
+  "title": "Pentiment",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4v1e.webp",
+  "hints": {
+    "publisher": ["Xbox Game Studios"],
+    "developer": ["Obsidian Entertainment"],
+    "genre": ["Adventure", "RPG"],
+    "platforms": ["PC", "Xbox One", "Xbox Series X/S"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 87,
+    "plot": "In 16th-century Bavaria, a journeyman artist named Andreas Maler is completing his masterwork at the Kiersau Abbey scriptorium when a prominent monk is found murdered and an innocent man is accused. Choosing to investigate, Andreas becomes enmeshed in the lives of the abbey's monks and the people of the nearby village of Tassing — navigating religious upheaval, political intrigue, and class conflict across three acts spanning twenty-five years, with each decision shaping not only the outcome of the murders but the fates of characters and the community for generations."
+  }
+},
+  {
   "date": "2026-07-21",
   "region": "WW",
   "releaseDate": "2022-12-08",
