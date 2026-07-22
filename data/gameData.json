@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-23",
+  "region": "JP",
+  "releaseDate": "1999-12-02",
+  "title": "The Legend of Dragoon",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co4pan.webp",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["SCE Japan Studio"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 74,
+    "plot": "In the high fantasy world of Endiness, a young warrior named Dart returns to his village only to find it razed and his childhood friend captured by the forces of the militaristic Sandoran Empire. Rescuing her with the help of a mysterious woman named Rose, Dart discovers an ancient power — the ability to transform into a Dragoon, a legendary warrior who merges with the spirit of a dragon — and learns that his own dark past is bound to a cataclysmic conflict between humans and a winged species called the Winglies that occurred ten thousand years ago."
+  }
+},
+  {
   "date": "2026-07-22",
   "region": "WW",
   "releaseDate": "2022-11-15",
