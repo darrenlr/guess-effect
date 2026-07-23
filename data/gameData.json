@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-24",
+  "region": "JP",
+  "releaseDate": "1993-10-30",
+  "title": "Ridge Racer",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co20gc.webp",
+  "hints": {
+    "publisher": ["Namco"],
+    "developer": ["Namco"],
+    "genre": ["Racing"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "There is no traditional narrative — the player chooses from a selection of high-performance cars and races against computer-controlled opponents across a single looping course, with a reverse layout unlocked upon completion. The driving experience centres on a drifting mechanic inspired by Japanese mountain road racing culture, rewarding players who can maintain speed through corners by initiating controlled slides rather than braking — a handling model that would define the arcade racing genre for years to come."
+  }
+},
+  {
   "date": "2026-07-23",
   "region": "JP",
   "releaseDate": "1999-12-02",
