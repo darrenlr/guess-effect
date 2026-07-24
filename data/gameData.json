@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-25",
+  "region": "WW",
+  "releaseDate": "2020-06-02",
+  "title": "Valorant",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/cocbci.webp",
+  "hints": {
+    "publisher": ["Riot Games"],
+    "developer": ["Riot Games"],
+    "genre": ["Tactical Shooter", "Hero Shooter"],
+    "platforms": ["PC"],
+    "modes": ["Multiplayer"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 80,
+    "plot": "Set on a near-future Earth where a cataclysmic event called First Light has granted certain individuals supernatural abilities, two factions of gifted operatives — known as Agents — face off in covert tactical operations across global locations. Each five-player team alternates between planting and defusing a spike device across a series of rounds, with players choosing from a diverse cast of Agents whose unique abilities can shift the momentum of a round — but where precise gunplay remains the decisive factor in every engagement."
+  }
+},
+  {
   "date": "2026-07-24",
   "region": "JP",
   "releaseDate": "1993-10-30",
