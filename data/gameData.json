@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-19",
+  "region": "JP",
+  "releaseDate": "1998-12-23",
+  "title": "Sonic Adventure",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co5jac.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sonic Team"],
+    "genre": ["Platform", "Action-Adventure"],
+    "platforms": ["Dreamcast"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "When a mysterious water creature called Chaos begins terrorising Station Square under the command of Doctor Robotnik — who seeks to harness the power of the seven Chaos Emeralds to transform the creature into its ultimate form and destroy the city — six characters with interconnected stories are drawn into the conflict. Each protagonist follows their own narrative thread: a hedgehog racing to stop the doctor, a two-tailed fox proving his courage, an echidna recovering shattered emerald shards, and others whose paths gradually converge toward a cataclysmic ancient reckoning between Chaos, the echidna tribe, and the Chao they once protected."
+  }
+},
+  {
   "date": "2026-07-25",
   "region": "WW",
   "releaseDate": "2020-06-02",
