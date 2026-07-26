@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-27",
+  "region": "NA",
+  "releaseDate": "2006-03-20",
+  "title": "The Elder Scrolls IV: Oblivion",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8fpz.webp",
+  "hints": {
+    "publisher": ["Bethesda Softworks"],
+    "developer": ["Bethesda Game Studios"],
+    "genre": ["Action RPG", "Open World"],
+    "platforms": ["PC", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Gamebryo",
+    "metacritic": 94,
+    "plot": "When the Emperor of Tamriel is assassinated and his heirs killed, the gates of Oblivion — portals to a hellish dimension ruled by the Daedric Prince Mehrunes Dagon — begin tearing open across the province of Cyrodiil. A prisoner freed from the Imperial dungeons by the dying Emperor is charged with finding his illegitimate heir and lighting the Dragonfires of the Temple of the One before Dagon's forces overwhelm the mortal world, setting off an open-ended adventure across a vast landscape of cities, dungeons, and guilds."
+  }
+},
+  {
   "date": "2026-07-26",
   "region": "JP",
   "releaseDate": "1998-12-23",
