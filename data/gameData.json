@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-28",
+  "region": "NA",
+  "releaseDate": "2002-10-22",
+  "title": "Contra: Shattered Soldier",
+  "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co1otr.webp",
+  "hints": {
+    "publisher": ["Konami"],
+    "developer": ["Konami Computer Entertainment Tokyo"],
+    "genre": ["Run and Gun"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "Set years after the events of a previous alien conflict, legendary soldier Bill Rizer has been imprisoned and held responsible for the deaths of hundreds of millions of people and the murder of his former partner. Released from captivity to combat a new terrorist organisation called Blood Falcon that has seized alien technology to threaten Earth, Bill and a new partner named Lucia must fight through seven stages of relentless side-scrolling combat — with the full truth of Bill's guilt or innocence slowly emerging through the course of the mission."
+  }
+},
+  {
   "date": "2026-07-27",
   "region": "NA",
   "releaseDate": "2006-03-20",
