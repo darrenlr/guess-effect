@@ -121,13 +121,18 @@ async function queryIgdb(query, { clientId, token }) {
 
 /**
  * Pull the top TOP_N main games ranked by total_rating_count (desc).
- * category = 0 excludes expansions, DLC, bundles, episodes, etc.
+ * game_type = 0 ("main game") excludes expansions, DLC, bundles, episodes, etc.
+ *
+ * Note: IGDB deprecated the old `category` field and replaced it with
+ * `game_type` (same integer enum, so 0 still means "main game"). Filtering on
+ * the retired `category` field returns an empty 200 rather than an error, so we
+ * must use `game_type` here.
  */
 async function fetchTopGames(auth) {
   const fields =
     'fields id, name, alternative_names.name, total_rating_count, ' +
     'first_release_date, cover.image_id;';
-  const filter = 'where category = 0 & total_rating_count != null;';
+  const filter = 'where game_type = 0 & total_rating_count != null;';
 
   const games = [];
   for (let offset = 0; offset < TOP_N; offset += PAGE_SIZE) {
@@ -264,6 +269,16 @@ async function main() {
   console.log(`Fetching top ${TOP_N} games by total_rating_count...`);
   const rawGames = await fetchTopGames(auth);
   console.log(`Fetched ${rawGames.length} games from IGDB.`);
+
+  // Guard against a silent empty result: a valid-but-empty IGDB response (e.g. a
+  // wrong/retired filter field) must not quietly produce a curated-only index.
+  if (rawGames.length === 0) {
+    throw new Error(
+      'IGDB returned 0 games. The query was accepted but matched nothing — likely a ' +
+        'wrong filter field (IGDB retired `category` in favour of `game_type`) or ' +
+        'credentials without access. Aborting instead of writing a curated-only index.'
+    );
+  }
 
   // Dedupe on IGDB id (defensive; sort + pagination can rarely repeat a row).
   const seen = new Set();
