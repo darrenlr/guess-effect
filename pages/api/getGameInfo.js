@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { withBoxArt } from '../../utils/resolveBoxArt';
 
 export default function handler(req, res) {
   try {
@@ -15,7 +16,7 @@ export default function handler(req, res) {
       return res.status(404).json({ error: 'Game not found' });
     }
 
-    return res.status(200).json({ ...gameData[gameIndex], gameNumber: gameIndex + 1 });
+    return res.status(200).json(withBoxArt({ ...gameData[gameIndex], gameNumber: gameIndex + 1 }));
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: 'An error occurred while fetching the game info' });
