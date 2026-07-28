@@ -1,5 +1,22 @@
 [
   {
+  "date": "2026-07-29",
+  "region": "JP",
+  "releaseDate": "1995-03-10",
+  "title": "Panzer Dragoon",
+      "boxArtUrl": "images.igdb.com/igdb/image/upload/t_cover_big/co8ixt.webp",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Team Andromeda"],
+    "genre": ["Rail Shooter"],
+    "platforms": ["Sega Saturn"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Thousands of years after an advanced civilisation destroyed itself through wars fought with genetically engineered bio-weapons, a hunter named Keil Fluge stumbles upon a dying man who entrusts him with a mission: ride a powerful armoured dragon and pursue a rogue black dragon carrying a rider of malevolent intent toward a dormant Ancient Age ruin. Flying across seven stages of a ravaged, monster-inhabited world, Keil must intercept the black dragon before it can awaken the ruin's catastrophic weapons and unleash destruction upon what remains of humanity."
+  }
+  },
+  {
   "date": "2026-07-28",
   "region": "NA",
   "releaseDate": "2002-10-22",
