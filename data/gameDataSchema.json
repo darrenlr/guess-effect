@@ -3,7 +3,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["date", "region", "releaseDate", "title", "boxArtUrl", "hints"],
+    "required": ["date", "region", "releaseDate", "title", "hints"],
     "properties": {
       "date": {
         "type": "string",
