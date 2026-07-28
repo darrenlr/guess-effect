@@ -14,12 +14,30 @@ const MAX_RESULTS = 20;
 let fuseInstance = null;
 let fusePromise = null;
 
+// Set of normalized names that appear on more than one game in the index. Only
+// these get a release year appended to their label (to tell e.g. the two
+// "God of War" entries apart); unique titles like "BioShock" stay bare.
+let duplicateNameKeys = new Set();
+
+function nameKey(name) {
+	return String(name || "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
 function getFuse() {
 	if (fuseInstance) return Promise.resolve(fuseInstance);
 	if (!fusePromise) {
 		fusePromise = fetch("/games-index.json")
 			.then((res) => res.json())
 			.then((data) => {
+				const counts = new Map();
+				for (const game of data.games) {
+					const key = nameKey(game.name);
+					counts.set(key, (counts.get(key) || 0) + 1);
+				}
+				duplicateNameKeys = new Set(
+					[...counts.entries()].filter(([, count]) => count > 1).map(([key]) => key)
+				);
+
 				fuseInstance = new Fuse(data.games, {
 					keys: [
 						{ name: "name", weight: 0.7 },
@@ -46,10 +64,12 @@ function releaseYear(firstReleaseDate) {
 	return new Date(firstReleaseDate * 1000).getUTCFullYear();
 }
 
-// Display label: bare title, disambiguated by year when available
-// (e.g. "Doom (2016)"). The submitted value stays the bare title so guess
-// matching against game.title is unchanged.
+// Display label: the bare title, disambiguated by release year only when
+// another game shares the same name (e.g. "God of War (2005)"). Unique titles
+// stay bare. The submitted value is always the bare title, so guess matching
+// against game.title is unchanged.
 function optionLabel(game) {
+	if (!duplicateNameKeys.has(nameKey(game.name))) return game.name;
 	const year = releaseYear(game.firstReleaseDate);
 	return year ? `${game.name} (${year})` : game.name;
 }
