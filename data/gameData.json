@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-07-30",
+  "region": "NA",
+  "releaseDate": "2006-11-09",
+  "title": "Viva Piñata",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Rare"],
+    "genre": ["Life Simulation"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "On a neglected plot of land on Piñata Island, the player is tasked with restoring an overgrown garden to attract and house wild piñata creatures — colourful paper animals that arrive, take up residence, and can be bred into rarer variants as the garden improves. Using gardening tools to cultivate plants, dig ponds, and reshape the terrain, the player must balance the competing needs and territorial conflicts of over sixty piñata species while fending off sour piñatas and human troublemakers who seek to disrupt the garden's flourishing ecosystem."
+  }
+},
+  {
   "date": "2026-07-29",
   "region": "JP",
   "releaseDate": "1995-03-10",
