@@ -1,0 +1,27 @@
+name: Validate Search Index
+
+on:
+  pull_request:
+    paths:
+      - 'data/gameData.json'
+      - 'public/games-index.json'
+  push:
+    paths:
+      - 'data/gameData.json'
+      - 'public/games-index.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate every curated game is in the search index with box art
+        run: node scripts/validate-search-index.js
