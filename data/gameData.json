@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-07-31",
+  "region": "JP",
+  "releaseDate": "1997-12-18",
+  "title": "Grandia",
+  "hints": {
+    "publisher": ["Entertainment Software Publishing"],
+    "developer": ["Game Arts"],
+    "genre": ["JRPG"],
+    "platforms": ["Sega Saturn"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A spirited young boy named Justin lives in a port town, dreaming of adventure and following in the footsteps of his late father — a legendary adventurer who spent his life searching for the ruins of the ancient Angelou civilisation. When Justin discovers a fragment of a magical stone his father left behind that reacts to a mysterious wall of ruins at the edge of the known world, he embarks on a journey across continents with a group of companions, racing against a militaristic organisation called the Garlyle Forces to unlock the secrets of the Angelou before their power can be weaponised."
+  }
+},
+  {
   "date": "2026-07-30",
   "region": "NA",
   "releaseDate": "2006-11-09",
