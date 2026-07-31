@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-01",
+  "region": "NA",
+  "releaseDate": "2004-12-06",
+  "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+  "hints": {
+    "publisher": ["LucasArts"],
+    "developer": ["Obsidian Entertainment"],
+    "genre": ["RPG"],
+    "platforms": ["Xbox"],
+    "modes": ["Single-player"],
+    "engine": "Odyssey Engine",
+    "metacritic": 85,
+    "plot": "Five years after the defeat of the Sith, a former Jedi Knight known only as the Exile — stripped of their connection to the Force and exiled from the Jedi Order for fighting in the Mandalorian Wars — is drawn back into a galaxy where the Sith have hunted the Jedi to near extinction. Accompanied by a morally ambiguous mentor named Kreia and a shifting group of companions, the Exile must relearn the Force, rebuild their strength across seven worlds, and confront the question of whether the Force itself is a wound upon the galaxy — as two powerful Sith Lords close in to finish what the Jedi purge began."
+  }
+},
+  {
   "date": "2026-07-31",
   "region": "JP",
   "releaseDate": "1997-12-18",
