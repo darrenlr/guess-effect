@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-03",
+  "region": "NA",
+  "releaseDate": "2006-11-19",
+  "title": "Wii Sports",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Sports"],
+    "platforms": ["Wii"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 76,
+    "plot": "There is no traditional narrative — the game presents five sports simulations designed to showcase the Wii Remote's motion controls: tennis, baseball, bowling, golf, and boxing. Using physical gestures to swing, throw, punch, and putt, players control Mii avatars — customisable representations of themselves — in simplified but immediately intuitive versions of each sport, with a fitness assessment mode that tracks performance over time and assigns players a Wii Fitness Age based on their results."
+  }
+},
+  {
   "date": "2026-08-02",
   "region": "JP",
   "releaseDate": "1999-12-29",
