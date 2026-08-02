@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-02",
+  "region": "JP",
+  "releaseDate": "1999-12-29",
+  "title": "Shenmue",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sega AM2"],
+    "genre": ["Action-Adventure", "Life Simulation"],
+    "platforms": ["Dreamcast"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "In Yokosuka, Japan in 1986, a teenage martial artist named Ryo Hazuki witnesses his father — a renowned master — being murdered in their own dojo by a mysterious Chinese man named Lan Di, who seizes a relic called the Phoenix Mirror before vanishing. Driven by the need to understand his father's death and avenge it, Ryo begins investigating Lan Di's identity and connection to an ancient Chinese conflict, questioning sailors, local gangs, and shopkeepers across his neighbourhood as he slowly unravels a conspiracy stretching from suburban Japan all the way to Hong Kong."
+  }
+  },
+  {
   "date": "2026-08-01",
   "region": "NA",
   "releaseDate": "2004-12-06",
