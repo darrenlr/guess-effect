@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-04",
+  "region": "JP",
+  "releaseDate": "2004-12-28",
+  "title": "Gran Turismo 4",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Polyphony Digital"],
+    "genre": ["Sim Racing"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 89,
+    "plot": "Presented without a traditional narrative, the game offers an exhaustive automotive experience across over 700 meticulously modelled cars from 80 manufacturers spanning more than a century of automotive history — from a 1886 Daimler Motor Carriage to futuristic concept vehicles. Players progress through licences, manufacturer championships, and endurance races across 51 circuits drawn from real-world venues and the series' own track designs, building a garage of cars that spans road classics, vintage racers, and purpose-built racing machines across the full sweep of motoring culture."
+  }
+},
+  {
   "date": "2026-08-03",
   "region": "NA",
   "releaseDate": "2006-11-19",
