@@ -1,6 +1,23 @@
 [
   {
   "date": "2026-08-04",
+  "region": "JP",
+  "releaseDate": "2002-12-13",
+  "title": "The Legend of Zelda: The Wind Waker",
+  "boxArtUrl": "",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["GameCube"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "Centuries after a great evil was sealed away by the gods who flooded an ancient kingdom beneath a vast ocean, a young boy living on a remote island sets sail across the Great Sea after his sister is kidnapped by a monstrous bird and taken to a fortress. Guided by a mysterious talking boat called the King of Red Lions and aided by a pirate captain named Tetra, he discovers that the ancient evil has awakened once more and is searching the seas for the scattered pieces of a sacred relic — forcing the boy to claim a legendary hero's mantle and confront the darkness threatening to consume the world beneath the waves."
+  }
+},
+  {
+  "date": "2026-08-04",
   "region": "WW",
   "releaseDate": "2023-01-25",
   "title": "Hi-Fi Rush",
