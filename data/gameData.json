@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-07",
+  "region": "JP",
+  "releaseDate": "1999-10-16",
+  "title": "Dead or Alive 2",
+  "hints": {
+    "publisher": ["Tecmo"],
+    "developer": ["Team Ninja"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Rogue ninja Kasumi has escaped her clan after defying their laws and is hunted across the world by her own sister Ayane and former ally Ryu Hayabusa, while being drawn into a second Dead or Alive tournament organised by the shadowy DOATEC corporation. Behind the spectacle of high-speed martial arts competition — featuring fighters from across the globe including a wrestling champion, a military operative, and a French opera singer with ties to DOATEC's founder — the corporation pursues a sinister agenda involving illegal human experimentation and the creation of an unstoppable clone soldier."
+  }
+},
+  {
   "date": "2026-08-06",
   "region": "NA",
   "releaseDate": "2001-12-02",
