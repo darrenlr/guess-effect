@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-08",
+  "region": "JP",
+  "releaseDate": "2009-06-25",
+  "title": "Wii Sports Resort",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Sports"],
+    "platforms": ["Wii"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "There is no traditional narrative — the game transports Mii avatars to the sun-soaked Wuhu Island resort, where twelve sports and activities are available across its beaches, skies, and surrounding waters. Powered by the Wii MotionPlus accessory bundled with the game, each activity — from swordfighting and archery to wakeboarding and air sports — uses one-to-one motion tracking to translate the player's physical gestures directly into the game, offering a significantly more precise and immersive experience than the original Wii Sports controls allowed."
+  }
+},
+  {
   "date": "2026-08-07",
   "region": "JP",
   "releaseDate": "1999-10-16",
