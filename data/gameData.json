@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-09",
+  "region": "WW",
+  "releaseDate": "2022-02-08",
+  "title": "Sifu",
+  "hints": {
+    "publisher": ["Sloclap"],
+    "developer": ["Sloclap"],
+    "genre": ["Beat 'em up"],
+    "platforms": ["PlayStation 4", "PlayStation 5", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 80,
+    "plot": "A young kung fu student watches their father — the master of a martial arts school — murdered by a group of five former students who have since vanished into the criminal underworld. Armed with a magical talisman that resurrects them after each death at the cost of accelerating their age, the student hunts each assassin across five locations in a fictional Chinese city — from drug dens and nightclubs to a museum and corporate tower — growing older with every defeat until time itself becomes the most dangerous enemy they face."
+  }
+},
+  {
   "date": "2026-08-08",
   "region": "JP",
   "releaseDate": "2009-06-25",
