@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-10",
+  "region": "NA",
+  "releaseDate": "2000-05-22",
+  "title": "Perfect Dark",
+  "hints": {
+    "publisher": ["Rare"],
+    "developer": ["Rare"],
+    "genre": ["First-Person Shooter", "Stealth"],
+    "platforms": ["Nintendo 64"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 97,
+    "plot": "In 2023, a young agent named Joanna Dark — codenamed Perfect Dark for her flawless training record — works for the Carrington Institute, a research organisation secretly competing against the powerful and sinister dataDyne corporation for control of alien technology. When a dataDyne scientist defects with knowledge of an extraterrestrial conspiracy linking both corporations to a hostile alien race, Joanna is drawn into a conflict that spans from corporate skyscrapers and Area 51 to an alien spacecraft, as the fate of Earth's sovereignty hangs in the balance."
+  }
+},
+  {
   "date": "2026-08-09",
   "region": "WW",
   "releaseDate": "2022-02-08",
