@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-08-05",
+  "region": "NA",
+  "releaseDate": "2005-10-18",
+  "title": "Age of Empires III",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Ensemble Studios"],
+    "genre": ["Real-Time Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 81,
+    "plot": "Set during the Age of Exploration from the 15th to 19th centuries, the campaign follows three generations of the Black family — a dynasty of explorers and soldiers tied to a secret society called the Circle of Ossus — as they quest for the mythical Fountain of Youth hidden in the Americas. Beyond the campaign, players select one of eight European colonial powers and compete in real-time strategy battles to establish settlements, develop trade routes to a Home City, and field armies drawn from the age of muskets, cavalry, and artillery across the New World."
+  }
+},
+  {
+  "date": "2026-08-11",
+  "region": "NA",
+  "releaseDate": "2000-06-28",
+  "title": "Diablo II",
+  "hints": {
+    "publisher": ["Blizzard Entertainment"],
+    "developer": ["Blizzard North"],
+    "genre": ["Action RPG", "Hack and Slash"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Following the events of the first game, the Dark Wanderer — a warrior who absorbed the soulstone containing the Lord of Terror — travels east across the world of Sanctuary, leaving destruction in his wake as Diablo seeks to free his brothers Mephisto and Baal from their own prisons. A new hero — chosen from five distinct character classes including an Amazon, Necromancer, and Barbarian — pursues the Wanderer through four acts spanning desert cities, jungle temples, and the burning hells themselves, racing to prevent the Prime Evils from reuniting and plunging the mortal realm into eternal darkness."
+  }
+},
+  {
   "date": "2026-08-10",
   "region": "NA",
   "releaseDate": "2000-05-22",
