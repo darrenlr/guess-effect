@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-13",
+  "region": "JP",
+  "releaseDate": "1991-07-19",
+  "title": "Final Fantasy IV",
+  "hints": {
+    "publisher": ["Square"],
+    "developer": ["Square"],
+    "genre": ["JRPG"],
+    "platforms": ["Super Famicom"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Cecil Harvey, the captain of an elite airship fleet serving the kingdom of Baron, begins to question his king's increasingly ruthless orders to seize magical crystals from neighbouring nations by force. Stripped of his command and cast out for his defiance, Cecil embarks on a journey with a changing group of allies — a dragoon, a white mage, a young summoner, and others — to uncover the truth behind the crystal thefts and confront a powerful sorcerer named Golbez whose dark designs extend far beyond the world's surface into the realm of the moon itself."
+  }
+},
+  {
   "date": "2026-08-12",
   "region": "NA",
   "releaseDate": "2005-10-18",
