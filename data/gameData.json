@@ -2,6 +2,22 @@
   {
   "date": "2026-08-13",
   "region": "JP",
+  "releaseDate": "2007-11-26",
+  "title": "Tekken 6",
+  "hints": {
+    "publisher": ["Namco Bandai Games"],
+    "developer": ["Namco Bandai Games"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "OctaveEngine",
+    "metacritic": 80,
+    "plot": "Six months after claiming victory in the previous King of Iron Fist Tournament and inheriting control of the Mishima Zaibatsu, Jin Kazama unexpectedly declares war on the entire world — deploying the corporation's military forces to destabilise every nation and provoke a global conflict. As world powers struggle to respond and a warrior named Lars Alexandersson leads a Zaibatsu rebel faction to uncover Jin's true motives, the tournament itself becomes a stage for fighters from every corner of the earth to settle personal vendettas while the planet descends into chaos."
+  }
+},
+  {
+  "date": "2026-08-13",
+  "region": "JP",
   "releaseDate": "1991-07-19",
   "title": "Final Fantasy IV",
   "hints": {
