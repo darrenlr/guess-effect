@@ -1,6 +1,22 @@
 [
   {
-  "date": "2026-08-13",
+  "date": "2026-08-15",
+  "region": "JP",
+  "releaseDate": "2017-07-29",
+  "title": "Dragon Quest XI: Echoes of an Elusive Age",
+  "hints": {
+    "publisher": ["Square Enix"],
+    "developer": ["Square Enix"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation 4", "Nintendo 3DS"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 86,
+    "plot": "A young man from the village of Cobblestone participates in his town's coming-of-age ceremony and ascends a sacred mountain, where a vision reveals to him that he is the reincarnation of a legendary hero called the Luminary. Upon returning to his village he is immediately seized by the king of Heliodor, who brands him a herald of darkness and sentences him to death — forcing him to escape and embark on a journey across the vast world of Erdrea with a growing band of companions, seeking answers about his true destiny while a malevolent force known as the Dark One stirs from an ancient slumber."
+  }
+},
+  {
+  "date": "2026-08-14",
   "region": "JP",
   "releaseDate": "2007-11-26",
   "title": "Tekken 6",
