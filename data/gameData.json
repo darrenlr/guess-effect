@@ -1,5 +1,133 @@
 [
   {
+  "date": "2026-08-23",
+  "region": "JP",
+  "releaseDate": "1991-08-02",
+  "title": "Streets of Rage",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sega"],
+    "genre": ["Beat 'em up"],
+    "platforms": ["Sega Genesis"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A fictional American city has been taken over by a powerful criminal syndicate that has corrupted the police force and government from within, leaving ordinary citizens at the mercy of organised crime. Three young ex-police officers — Axel Stone, Blaze Fielding, and Adam Hunter — quit the force in disgust and take to the streets as vigilantes, fighting through eight stages of gang members, henchmen, and crime bosses to reach and defeat the elusive kingpin at the top of the organisation."
+  }
+},
+  {
+  "date": "2026-08-22",
+  "region": "JP",
+  "releaseDate": "2020-01-16",
+  "title": "Yakuza: Like a Dragon",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Ryu Ga Gotoku Studio"],
+    "genre": ["JRPG"],
+    "platforms": ["PlayStation 4"],
+    "modes": ["Single-player"],
+    "engine": "Dragon Engine",
+    "metacritic": 84,
+    "plot": "Ichiban Kasuga, a cheerful low-ranking yakuza grunt who idolises Dragon Quest, takes the fall for a murder he didn't commit on the orders of his boss — only to be released from an eighteen-year prison sentence to find his entire yakuza family dissolved and his boss the one who shot him and left him for dead in Yokohama. Penniless and abandoned, Ichiban rallies a ragtag party of outcasts and vagabonds to uncover the truth behind his betrayal and the political conspiracy reshaping Japan's criminal underworld from the shadows."
+  }
+},
+  {
+  "date": "2026-08-21",
+  "region": "WW",
+  "releaseDate": "2010-09-14",
+  "title": "Halo: Reach",
+  "hints": {
+    "publisher": ["Microsoft Game Studios"],
+    "developer": ["Bungie"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "Set in 2552, shortly before the events of the original, a lone SPARTAN-III supersoldier known only as Noble Six joins the elite Noble Team on the human colony world of Reach — humanity's most fortified planet outside of Earth. When the alien Covenant launch a full-scale invasion with overwhelming force, Noble Team fights a desperate rearguard action to protect both the civilian population and a package of critical importance, knowing from the outset that Reach will fall and that their mission is not survival but sacrifice."
+  }
+}
+  {
+  "date": "2026-08-20",
+  "region": "NA",
+  "releaseDate": "2000-09-21",
+  "title": "Baldur's Gate II: Shadows of Amn",
+  "hints": {
+    "publisher": ["Interplay Entertainment"],
+    "developer": ["BioWare"],
+    "genre": ["RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Infinity Engine",
+    "metacritic": 95,
+    "plot": "Continuing shortly after the events of the first game, Gorion's Ward awakens imprisoned in the dungeon of a powerful and enigmatic mage named Jon Irenicus, who has been conducting painful experiments to harness the protagonist's divine bloodline — the heritage of Bhaal, god of murder. After escaping with a group of companions into the sprawling city of Athkatla, the protagonist must raise funds, navigate political intrigue, and ultimately pursue Irenicus across Amn and beyond, as the villain's obsessive quest to reclaim his stolen soul leads toward a confrontation that will determine the fate of both of them."
+  }
+},
+  {
+  "date": "2026-08-19",
+  "region": "NA",
+  "releaseDate": "2003-03-03",
+  "title": "Tenchu: Wrath of Heaven",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["K2 LLC"],
+    "genre": ["Action-Adventure", "Stealth"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "In feudal Japan, the ninja assassins Rikimaru and Ayame serve the lord of Gohda clan, tasked with protecting him and his territory from the forces of a resurrected demon lord named Tenrai — a powerful sorcerer seeking to open the gates of hell and reshape the world according to his will. Across a series of mission-based stealth assassinations spanning rival warlords, corrupt officials, and supernatural enemies, both ninjas pursue Tenrai through different paths, with a third playable character — a rival assassin named Tesshu — pursuing his own agenda through the same conflict."
+  }
+},
+  {
+  "date": "2026-08-18",
+  "region": "WW",
+  "releaseDate": "2022-11-08",
+  "title": "Sonic Frontiers",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Sonic Team"],
+    "genre": ["Platform", "Action-Adventure"],
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch", "PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 72,
+    "plot": "Sonic the Hedgehog and his friends fall through a wormhole and are scattered across the Starfall Islands — a mysterious ancient archipelago inhabited by robotic enemies called Guardians and permeated by a digital dimension called Cyber Space. With Tails, Amy, and Knuckles each trapped in the digital realm, Sonic must explore five open-world islands, collecting Chaos Emeralds and uncovering the islands' ancient history, while being watched by a haunting AI entity named Sage and confronting a force far older and more powerful than anything he has faced before."
+  }
+},
+  {
+  "date": "2026-08-17",
+  "region": "NA",
+  "releaseDate": "1999-10-11",
+  "title": "Jet Force Gemini",
+  "hints": {
+    "publisher": ["Rare"],
+    "developer": ["Rare"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["Nintendo 64"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 80,
+    "plot": "The insectoid tyrant Mizar has unleashed his drone army across the galaxy, devastating the Jet Force fleet and enslaving a peaceful race called the Tribals across multiple planets. The three surviving members of the Jet Force Gemini team — twin siblings Juno and Vela, and their cyborg dog Lupus — must traverse the galaxy independently, each exploring different planets to rescue imprisoned Tribals and dismantle Mizar's forces before converging on his lair to end the invasion."
+  }
+},
+  {
+  "date": "2026-08-16",
+  "region": "JP",
+  "releaseDate": "2001-08-21",
+  "title": "Wario Land 4",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo R&D1"],
+    "genre": ["Platform"],
+    "platforms": ["Game Boy Advance"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "Wario reads a newspaper article about a legendary pyramid hidden deep in the jungle, said to contain an enormous treasure, and immediately sets off to plunder it. Upon entering the structure he discovers a black cat and gives chase, tumbling into the pyramid's depths — where he finds himself compelled to fight through four thematic passages filled with bizarre enemies and bosses in order to gather the treasures needed to unseal the pyramid's inner sanctum and confront the money-crazed Golden Diva who cursed the pyramid's princess long ago."
+  }
+},
+  {
   "date": "2026-08-15",
   "region": "JP",
   "releaseDate": "2017-07-29",
