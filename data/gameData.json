@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-24",
+  "region": "WW",
+  "releaseDate": "2014-06-30",
+  "title": "Divinity: Original Sin",
+  "hints": {
+    "publisher": ["Larian Studios"],
+    "developer": ["Larian Studios"],
+    "genre": ["RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Divinity Engine",
+    "metacritic": 87,
+    "plot": "Two Source Hunters — members of an organisation tasked with eliminating forbidden magic — arrive in the coastal town of Cyseal to investigate a murder, only to find themselves drawn into a conspiracy involving the illegal practice of Source magic, a mysterious artefact, and forces that stretch back through time itself. Working together through a world of political intrigue, elemental combat, and morally ambiguous choices, the hunters discover that the murder is connected to a far greater threat to the very fabric of reality in the world of Rivellon."
+  }
+},
+  {
   "date": "2026-08-23",
   "region": "JP",
   "releaseDate": "1991-08-02",
