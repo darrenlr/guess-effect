@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-25",
+  "region": "JP",
+  "releaseDate": "1993-08-06",
+  "title": "Secret of Mana",
+  "hints": {
+    "publisher": ["Square"],
+    "developer": ["Square"],
+    "genre": ["Action RPG"],
+    "platforms": ["Super Famicom"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A young boy named Randi accidentally pulls a rusty sword from a waterfall stone and is cast out of his village for breaking an ancient taboo, drawing the attention of monsters and setting him on a quest to restore the legendary Mana Sword to its full power. Joined by a girl named Primm searching for her kidnapped boyfriend and a sprite named Popoi with no memory of their past, the three must visit eight elemental palaces to charge the sword's power — while an expanding empire races to seize an ancient flying fortress powered by Mana before the world is consumed by its energy."
+  }
+},
+  {
   "date": "2026-08-24",
   "region": "WW",
   "releaseDate": "2014-06-30",
