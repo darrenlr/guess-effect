@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-26",
+  "region": "NA",
+  "releaseDate": "2010-10-05",
+  "title": "NBA 2K11",
+  "hints": {
+    "publisher": ["2K Sports"],
+    "developer": ["Visual Concepts"],
+    "genre": ["Sports", "Basketball Simulation"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PlayStation 2", "PlayStation Portable", "Wii", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "There is no traditional narrative - the game presents a comprehensive basketball simulation centred on the NBA season, with its standout mode being The Jordan Challenge: ten recreations of Michael Jordan's most iconic performances across his career, from a 1986 playoff game against the Boston Celtics to the 1998 NBA Finals. Players can also manage a franchise, develop a player through a career mode, or compete online - all built around an AI and animation system that critics considered the most realistic representation of professional basketball ever committed to a video game at the time of release."
+  }
+},
+  {
   "date": "2026-08-25",
   "region": "JP",
   "releaseDate": "1993-08-06",
