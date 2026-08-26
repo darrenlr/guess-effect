@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-27",
+  "region": "WW",
+  "releaseDate": "2018-12-13",
+  "title": "Gris",
+  "hints": {
+    "publisher": ["Devolver Digital"],
+    "developer": ["Nomada Studio"],
+    "genre": ["Platform", "Adventure"],
+    "platforms": ["Nintendo Switch", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 84,
+    "plot": "A young woman named Gris wakes in the palm of a crumbling statue and loses her voice, causing her world to drain of all colour. Journeying through a series of increasingly vibrant environments — each representing a different stage of grief — she gradually regains her abilities and the world around her is restored to life, told entirely through movement, animation, and music with no dialogue or explicit narrative text."
+  }
+},
+  {
   "date": "2026-08-26",
   "region": "NA",
   "releaseDate": "2010-10-05",
