@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-28",
+  "region": "JP",
+  "releaseDate": "2005-06-23",
+  "title": "Advance Wars: Dual Strike",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Intelligent Systems"],
+    "genre": ["Tactical Strategy"],
+    "platforms": ["Nintendo DS"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "Black Hole has returned to Omega Land under the command of a new and sinister leader named Von Bolt, an ancient warlord who seeks to drain the vital energy of the land itself to extend his own life indefinitely. The Allied Nations — led by returning Commanding Officers alongside new allies, including a pair of former Black Hole defectors — must fight across a series of tactical map battles on two fronts simultaneously, as the Nintendo DS's dual screens allow warfare to be waged on both the top and bottom displays at once."
+  }
+},
+  {
   "date": "2026-08-27",
   "region": "WW",
   "releaseDate": "2018-12-13",
