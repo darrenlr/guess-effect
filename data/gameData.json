@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-29",
+  "region": "NA",
+  "releaseDate": "1994-07-20",
+  "title": "Star Wars: TIE Fighter",
+  "hints": {
+    "publisher": ["LucasArts"],
+    "developer": ["Totally Games"],
+    "genre": ["Space Combat Simulation"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Set between The Empire Strikes Back and Return of the Jedi, the player assumes the role of an Imperial starfighter pilot serving the Galactic Empire — one of the few games of its era to cast the player as a villain — flying a series of combat missions to suppress Rebel activity, protect Imperial assets, and crush treason within the Empire's own ranks. Progressing through eight campaigns aboard craft including TIE fighters, TIE interceptors, and TIE defenders, the pilot rises through Imperial ranks while a mysterious secret order called the Emperor's Hammer draws them deeper into the Empire's most covert operations."
+  }
+},
+  {
   "date": "2026-08-28",
   "region": "JP",
   "releaseDate": "2005-06-23",
