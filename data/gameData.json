@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-30",
+  "region": "NA",
+  "releaseDate": "1996-08-31",
+  "title": "The Elder Scrolls II: Daggerfall",
+  "hints": {
+    "publisher": ["Bethesda Softworks"],
+    "developer": ["Bethesda Softworks"],
+    "genre": ["RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "XnGine",
+    "metacritic": null,
+    "plot": "The Emperor Uriel Septim VII sends his personal champion to the province of High Rock to fulfil two secret missions: lay to rest the haunting spirit of the murdered King of Daggerfall, and recover a letter the Emperor sent to the king before his death. The investigation unravels a conspiracy surrounding the Numidium — an ancient brass golem of immense destructive power once used to unify the empire — whose activation in the Iliac Bay has drawn every major faction in the region into a desperate race to claim it, forcing the champion to navigate the politics of over a dozen rival kingdoms and guilds to determine its fate."
+  }
+},
+  {
   "date": "2026-08-29",
   "region": "NA",
   "releaseDate": "1994-07-20",
