@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-08-31",
+  "region": "WW",
+  "releaseDate": "2021-06-11",
+  "title": "Guilty Gear: Strive",
+  "hints": {
+    "publisher": ["Arc System Works"],
+    "developer": ["Arc System Works"],
+    "genre": ["Fighting"],
+    "platforms": ["PlayStation 4", "PlayStation 5", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 87,
+    "plot": "Set after the events of the previous games in the series, the world faces a new threat as a mysterious figure with ties to the past sets a catastrophic plan in motion, drawing veteran fighters Sol Badguy and Ky Kiske back into conflict alongside a cast of new and returning warriors. The story unfolds through a cinematic presentation between battles, exploring themes of identity, sacrifice, and legacy as the characters confront both a world-ending conspiracy and unresolved histories with one another."
+  }
+},
+  {
   "date": "2026-08-30",
   "region": "NA",
   "releaseDate": "1996-08-31",
