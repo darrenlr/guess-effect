@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-01",
+  "region": "JP",
+  "releaseDate": "2005-06-09",
+  "title": "Killer7",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Grasshopper Manufacture"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["GameCube", "PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": "RenderWare",
+    "metacritic": 74,
+    "plot": "Harman Smith is a wheelchair-bound elderly assassin who manifests seven distinct killer personalities — each with unique combat abilities — and operates a mysterious murder-for-hire organisation called the killer7. When a supernatural cult of suicidal bombers called Heaven Smiles begins wreaking havoc across America, the killer7 are contracted by the United States government to eliminate them, pulling Harman and his personalities into a surreal conspiracy involving geopolitical manipulation, resurrection, and the fragile balance of power between America and Japan."
+  }
+},
+  {
   "date": "2026-08-31",
   "region": "WW",
   "releaseDate": "2021-06-11",
