@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-02",
+  "region": "NA",
+  "releaseDate": "2005-03-21",
+  "title": "TimeSplitters: Future Perfect",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Free Radical Design"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 2", "GameCube", "Xbox"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "Sergeant Cortez, a time-travelling marine from the 25th century, discovers that alien creatures called TimeSplitters are exploiting time rifts seeded throughout history with mysterious crystals to orchestrate humanity's downfall. Jumping between 1924 Scotland, 1969 California, 1994 Russia, 2019 Japan, and 2243 a space station, Cortez repeatedly encounters past and future versions of himself as he races to destroy each crystal — unravelling a paradox-laden conspiracy in which he discovers that the enemy he must ultimately defeat is also somehow responsible for creating the very threat he is fighting."
+  }
+},
+  {
   "date": "2026-09-01",
   "region": "JP",
   "releaseDate": "2005-06-09",
