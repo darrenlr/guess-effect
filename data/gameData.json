@@ -1,5 +1,101 @@
 [
   {
+  "date": "2026-09-08",
+  "region": "WW",
+  "releaseDate": "2018-10-05",
+  "title": "Assassin's Creed Odyssey",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Quebec"],
+    "genre": ["Action RPG", "Open World"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player"],
+    "engine": "AnvilNext 2.0",
+    "metacritic": 83,
+    "plot": "Set in 431 BC during the Peloponnesian War between Athens and Sparta, a mercenary descended from the legendary warrior Leonidas of Sparta discovers they possess a mysterious Spear of Leonidas imbued with supernatural power — and that they are being hunted by a shadowy cult called the Kosmos, which is secretly manipulating both warring city-states from behind the scenes. Caught between Athenian and Spartan forces, the mercenary fights across a vast recreation of ancient Greece, unravelling the cult's conspiracy and confronting a secret history that reaches back to a civilisation predating recorded memory."
+  }
+},
+  {
+  "date": "2026-09-07",
+  "region": "NA",
+  "releaseDate": "2004-10-26",
+  "title": "Grand Theft Auto: San Andreas",
+  "hints": {
+    "publisher": ["Rockstar Games"],
+    "developer": ["Rockstar North"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "RenderWare",
+    "metacritic": 95,
+    "plot": "In 1992 Los Santos, Carl Johnson returns home from Liberty City after five years away to attend his mother's funeral, only to be immediately framed for murder by corrupt police officers and dumped back in his old neighbourhood. With his gang fractured, his family in danger, and enemies on all sides, Carl must reclaim the streets of Los Santos, rebuild his crew, and uncover the conspiracy that tore his life apart — a journey that eventually takes him across the entire fictional state of San Andreas, from crime-ridden cities to rural backwaters and the Nevada desert."
+  }
+},
+  {
+  "date": "2026-09-06",
+  "region": "JP",
+  "releaseDate": "1996-04-19",
+  "title": "Metal Slug",
+  "hints": {
+    "publisher": ["SNK"],
+    "developer": ["Nazca Corporation"],
+    "genre": ["Run and Gun"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "In the year 2028, the ruthless General Donald Morden leads a massive Rebel Army coup in a bid for world domination, deploying mechanised forces, tanks, and the eponymous armoured vehicle across multiple global theatres. Two elite soldiers from the Peregrine Falcon Strike Force — Marco Rossi and Tarma Roving — are dispatched to infiltrate Rebel-held territory across six missions, fighting through hordes of enemies, rescuing prisoner-of-war hostages, and ultimately confronting Morden himself to end the uprising."
+  }
+},
+  {
+  "date": "2026-09-05",
+  "region": "JP",
+  "releaseDate": "2005-04-20",
+  "title": "Fire Emblem: Path of Radiance",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Intelligent Systems"],
+    "genre": ["Tactical RPG"],
+    "platforms": ["GameCube"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "Ike, the inexperienced son of a mercenary commander, is thrust into leadership when his father is gravely wounded during a mission gone wrong, and his company becomes entangled in the occupation of the kingdom of Crimea by the warmongering nation of Daein. Sheltering the surviving Crimean princess Elincia, Ike and his mercenaries travel the continent of Tellius seeking allies and uncovering deep-rooted tensions between the human Beorc and the shape-shifting Laguz races — tensions that a shadowy power is exploiting to plunge the world into all-out war."
+  }
+},
+  {
+  "date": "2026-09-04",
+  "region": "NA",
+  "releaseDate": "2007-03-06",
+  "title": "Tom Clancy's Ghost Recon Advanced Warfighter 2",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Paris", "Red Storm Entertainment"],
+    "genre": ["Tactical Shooter"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 86,
+    "plot": "Set in 2014, Captain Scott Mitchell and the Ghosts continue their mission along the US-Mexico border as a civil war between Mexican loyalists and rebel forces threatens to spill into American territory. Backed by next-generation military technology including the Integrated Warfighter System, drone support, and advanced squad tactics, Mitchell must neutralise rebel leadership and prevent a full-scale international conflict across a series of large, tactically demanding open environments spanning both sides of the border."
+  }
+},
+  {
+  "date": "2026-09-03",
+  "region": "JP",
+  "releaseDate": "1994-01-21",
+  "title": "Wario Land: Super Mario Land 3",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo R&D1"],
+    "genre": ["Platform"],
+    "platforms": ["Game Boy"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Wario, envious of Mario's castle, travels to Kitchen Island where the Brown Sugar Pirates have hidden a priceless golden statue of Princess Toadstool. Battling through six themed zones of side-scrolling platforming, Wario can use power-up helmets — including a bull horns cap, a jet cap, and a dragon hat — to unlock new abilities and reach hidden areas, collecting as many coins as possible to present to a wish-granting genie, whose reward scales directly with the wealth Wario accumulates."
+  }
+},
+  {
   "date": "2026-09-02",
   "region": "NA",
   "releaseDate": "2005-03-21",
