@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-09",
+  "region": "WW",
+  "releaseDate": "2009-11-10",
+  "title": "Call of Duty: Modern Warfare 2",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["Infinity Ward"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC", "PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "IW 4.0",
+    "metacritic": 94,
+    "plot": "Following the events of Call of Duty 4, a radicalized ultranationalist named Makarov has risen to power in Russia and is orchestrating a series of terrorist attacks to provoke a war between Russia and the United States. Task Force 141, an elite multinational special operations unit led by Captain 'Soap' MacTavish and General Shepherd, pursues Makarov across multiple global theatres — while simultaneously responding to a full-scale Russian invasion of the American east coast — as a deeper conspiracy within their own command begins to surface."
+  }
+},
+  {
   "date": "2026-09-08",
   "region": "WW",
   "releaseDate": "2018-10-05",
