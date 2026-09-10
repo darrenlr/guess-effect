@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-09-11",
+  "region": "JP",
+  "releaseDate": "2014-05-29",
+  "title": "Mario Kart 8",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Kart Racing"],
+    "platforms": ["Wii U"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "There is no traditional narrative — Mario and a cast of characters from the Mushroom Kingdom compete in high-speed kart races across 32 courses drawn from classic and new tracks alike, including underwater sections and anti-gravity segments that allow racing on walls and ceilings. Players collect item boxes to receive weapons and power-ups — from shells and bananas to lightning bolts and bullet bills — using them to hinder rivals or shield themselves in races of up to twelve players online or four locally."
+  }
+},
+  {
+  "date": "2026-09-10",
+  "region": "WW",
+  "releaseDate": "2011-11-18",
+  "title": "Minecraft",
+  "hints": {
+    "publisher": ["Mojang Studios"],
+    "developer": ["Mojang Studios"],
+    "genre": ["Sandbox", "Survival"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "LWJGL",
+    "metacritic": 93,
+    "plot": "There is no traditional narrative — the player is dropped into a procedurally generated world made entirely of blocks, with no objectives or instructions. In Survival mode, they must gather resources, craft tools and shelter, and defend against monsters that emerge at night; in Creative mode, unlimited blocks allow unrestricted building across infinite terrain. Every world is unique, and players shape their own experience entirely through what they choose to build, explore, or destroy."
+  }
+},
+  {
   "date": "2026-09-09",
   "region": "WW",
   "releaseDate": "2009-11-10",
