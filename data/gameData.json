@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-12",
+  "region": "WW",
+  "releaseDate": "2023-05-12",
+  "title": "The Legend of Zelda: Tears of the Kingdom",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EPD"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 96,
+    "plot": "Years after peace was restored to Hyrule, Link and Zelda descend into a hidden passage beneath Hyrule Castle and discover a mummified corpse and a mysterious substance called Gloom that spreads across the land and causes the castle itself to rise into the sky. Zelda vanishes into the past and Link, stripped of his shattered Master Sword, must explore a transformed Hyrule — now spanning underground depths and sky islands above the clouds — using new abilities including the power to fuse objects, reverse time on items, and phase through surfaces, to unravel the ancient history of the Zonai people and confront the reawakened Demon King."
+  }
+},
+  {
   "date": "2026-09-11",
   "region": "JP",
   "releaseDate": "2014-05-29",
