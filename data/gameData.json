@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-13",
+  "region": "WW",
+  "releaseDate": "2019-11-15",
+  "title": "Star Wars Jedi: Fallen Order",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Respawn Entertainment"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 79,
+    "plot": "Five years after the execution of Order 66 decimated the Jedi Order, a young surviving Padawan named Cal Kestis is living in hiding on a junkyard planet when his Force abilities are exposed during an accident. Forced to flee with a former Jedi Knight and her crew aboard a ship called the Mantis, Cal embarks on a mission across multiple planets to recover a Jedi holocron containing a list of Force-sensitive children — a prize that could rebuild the Order, but one that the Empire's fearsome Inquisitors will stop at nothing to prevent him from reaching."
+  }
+},
+  {
   "date": "2026-09-12",
   "region": "WW",
   "releaseDate": "2023-05-12",
