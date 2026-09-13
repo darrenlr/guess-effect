@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-14",
+  "region": "NA",
+  "releaseDate": "2010-11-16",
+  "title": "Need for Speed: Hot Pursuit",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Criterion Games"],
+    "genre": ["Racing"],
+    "platforms": ["PlayStation 3", "Xbox 360", "Wii", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Chameleon",
+    "metacritic": 88,
+    "plot": "There is no traditional narrative — set in the fictional Seacrest County, players take on dual careers as both a racer and a cop across a series of events that pit high-performance exotics against law enforcement vehicles. Racers attempt to evade capture using speed and countermeasures such as EMP jammers and spike strips, while cops employ roadblocks, helicopters, and their own arsenal of disruption tools — with an asynchronous online system called Autolog tracking performance times and sending challenges between friends automatically."
+  }
+},
+  {
   "date": "2026-09-13",
   "region": "WW",
   "releaseDate": "2019-11-15",
