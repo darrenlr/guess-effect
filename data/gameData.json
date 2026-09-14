@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-15",
+  "region": "NA",
+  "releaseDate": "2012-10-30",
+  "title": "Assassin's Creed III",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["Action-Adventure", "Stealth"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "AnvilNext",
+    "metacritic": 84,
+    "plot": "During the American Revolutionary War, a half-Mohawk, half-British man named Ratonhnhaké:ton — who adopts the name Connor — witnesses his village burned by Colonial forces as a child and grows up to become an Assassin, believing the Templars are responsible. Fighting across the battlefields of Boston, New York, and the frontier wilderness alongside real historical figures such as George Washington and Benjamin Franklin, Connor pursues the Templar cell threatening both his people and the new nation's founding — while the modern-day framing story reaches its apocalyptic conclusion."
+  }
+},
+  {
   "date": "2026-09-14",
   "region": "NA",
   "releaseDate": "2010-11-16",
