@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-16",
+  "region": "NA",
+  "releaseDate": "2011-10-25",
+  "title": "Battlefield 3",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["DICE"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC", "PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "Frostbite 2",
+    "metacritic": 86,
+    "plot": "In 2014, US Marine Staff Sergeant Henry Blackburn is interrogated by the CIA after being implicated in the deaths of several fellow soldiers, and recounts a series of operations that took him from Tehran to Paris — during which he uncovered a plot by a former Iraqi Republican Guard officer to detonate two stolen Russian nuclear devices in New York City and Paris. The investigation interweaves Blackburn's story with that of a Russian Spetsnaz operative pursuing the same threat from the other side, converging on a race to prevent a catastrophic false-flag nuclear attack that could trigger World War III."
+  }
+},
+  {
   "date": "2026-09-15",
   "region": "NA",
   "releaseDate": "2012-10-30",
