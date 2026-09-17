@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-17",
+  "region": "JP",
+  "releaseDate": "2008-04-10",
+  "title": "Mario Kart Wii",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo EAD"],
+    "genre": ["Kart Racing"],
+    "platforms": ["Wii"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "There is no traditional narrative — Mario and a cast of characters from the Mushroom Kingdom compete across 32 race tracks, split between 16 new courses and 16 classic tracks from earlier entries in the series. Players collect item boxes to receive weapons including shells, banana peels, lightning bolts, and the new Mega Mushroom, and can race using motorcycles alongside traditional karts for the first time — with the game bundled with the Wii Wheel accessory, allowing motion-controlled steering as an alternative to buttons."
+  }
+},
+  {
   "date": "2026-09-16",
   "region": "NA",
   "releaseDate": "2011-10-25",
