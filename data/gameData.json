@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-18",
+  "region": "WW",
+  "releaseDate": "2014-11-18",
+  "title": "Far Cry 4",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["First-Person Shooter", "Open World"],
+    "platforms": ["PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Dunia 2",
+    "metacritic": 85,
+    "plot": "Ajay Ghale travels to the fictional Himalayan kingdom of Kyrat to scatter his deceased mother's ashes, and is immediately caught up in a civil war between a brutal ruling dictator named Pagan Min — a flamboyant self-styled king with a personal connection to Ajay's family — and a rebel faction called the Golden Path fighting for the country's liberation. Torn between two rival Golden Path leaders with conflicting visions for Kyrat's future, Ajay must navigate jungle villages, fortified outposts, and mountain temples to decide the country's fate while uncovering the truth about his own heritage."
+  }
+},
+  {
   "date": "2026-09-17",
   "region": "JP",
   "releaseDate": "2008-04-10",
