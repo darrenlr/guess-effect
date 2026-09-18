@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-19",
+  "region": "NA",
+  "releaseDate": "2010-04-13",
+  "title": "Tom Clancy's Splinter Cell: Conviction",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["Action-Adventure", "Stealth"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Unreal Engine 2",
+    "metacritic": 83,
+    "plot": "Former Third Echelon operative Sam Fisher has gone rogue, abandoning his government career after discovering that his daughter Sarah — believed killed in a car accident — may still be alive. While pursuing the truth about her apparent death through the streets of Washington D.C. and Malta, Fisher uncovers a conspiracy that reaches into the highest levels of the US government, forcing him to use his lethal skills as a fugitive rather than an agent — while Third Echelon and a shadowy private military organisation close in from all sides."
+  }
+},
+  {
   "date": "2026-09-18",
   "region": "WW",
   "releaseDate": "2014-11-18",
