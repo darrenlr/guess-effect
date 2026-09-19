@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-20",
+  "region": "NA",
+  "releaseDate": "2003-12-02",
+  "title": "Deus Ex: Invisible War",
+  "hints": {
+    "publisher": ["Eidos Interactive"],
+    "developer": ["Ion Storm"],
+    "genre": ["Action RPG", "Stealth"],
+    "platforms": ["PC", "Xbox"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 2",
+    "metacritic": 84,
+    "plot": "Twenty years after a catastrophic global event called The Collapse, a trainee at the elite Tarsus Academy named Alex D is thrust into the middle of a conflict between several powerful factions — including a theocratic world government, a libertarian corporation, and a covert organisation of augmented humans — each seeking to reshape civilisation according to their own vision. With the ability to accept implants from any faction and make choices that alter allegiances throughout the story, Alex must navigate a fragmented world where the line between saviour and pawn is dangerously thin."
+  }
+},
+  {
   "date": "2026-09-19",
   "region": "NA",
   "releaseDate": "2010-04-13",
