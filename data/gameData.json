@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-21",
+  "region": "JP",
+  "releaseDate": "2004-02-26",
+  "title": "Onimusha 3: Demon Siege",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Capcom"],
+    "genre": ["Action-Adventure", "Hack and Slash"],
+    "platforms": ["PlayStation 2"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "Samurai warrior Samanosuke Akechi confronts the resurrected Nobunaga Oda at Honnō-ji Temple, only to be pulled through a time rift and deposited in 2004 Paris — where the Genma demon army has invaded the future. Meanwhile, a French Special Forces officer named Jacques Blanc is transported back to feudal Japan in Samanosuke's place. The two men must adapt to their displaced eras and cooperate across time to destroy the Genma, with actor Jean Reno providing the likeness and voice for Jacques in the Japanese version."
+  }
+},
+  {
   "date": "2026-09-20",
   "region": "NA",
   "releaseDate": "2003-12-02",
