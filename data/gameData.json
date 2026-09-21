@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-22",
+  "region": "NA",
+  "releaseDate": "2007-11-20",
+  "title": "Rock Band",
+  "hints": {
+    "publisher": ["MTV Games"],
+    "developer": ["Harmonix"],
+    "genre": ["Rhythm"],
+    "platforms": ["Xbox 360", "PlayStation 3"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "There is no traditional narrative — players form a band of up to four people, each taking on the role of lead guitarist, bassist, drummer, or vocalist, and perform songs from a setlist of 58 tracks spanning classic and modern rock. Using instrument-shaped controllers and a microphone, the band works through a world tour across increasingly large venues, unlocking new songs and earning in-game currency to customise their band's look — with the game designed around local cooperative play as its centrepiece experience."
+  }
+},
+  {
   "date": "2026-09-21",
   "region": "JP",
   "releaseDate": "2004-02-26",
