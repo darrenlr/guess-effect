@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-24",
+  "region": "WW",
+  "releaseDate": "2011-11-15",
+  "title": "Saints Row: The Third",
+  "hints": {
+    "publisher": ["THQ"],
+    "developer": ["Volition"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "The Third Street Saints have transformed from a Stilwater street gang into a global celebrity brand — complete with energy drinks, merchandise, and movie deals — but their fame attracts the attention of the Syndicate, a vast international criminal organisation that demands a cut of everything. When a robbery gone wrong leads to the Saints' leadership being captured and taken to the fictional city of Steelport, the player must rebuild the gang from scratch, fighting against three Syndicate factions across an increasingly absurd campaign involving wrestling masks, hover bikes, and a professor who stages lethal game shows."
+  }
+},
+  {
   "date": "2026-09-23",
   "region": "JP",
   "releaseDate": "2006-09-28",
