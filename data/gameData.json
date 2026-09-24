@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-25",
+  "region": "NA",
+  "releaseDate": "2002-11-17",
+  "title": "Metroid Fusion",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo R&D1"],
+    "genre": ["Action-Adventure", "Metroidvania"],
+    "platforms": ["Game Boy Advance"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 92,
+    "plot": "While providing mission support on the surface of planet SR388, bounty hunter Samus Aran is infected by an X Parasite — a shapeshifting organism that mimics any life form it infects — and is near death when a vaccine derived from Metroid DNA saves her life, fundamentally altering her physiology. Dispatched to investigate an X outbreak aboard a research space station, Samus finds it overrun by X mimics that have replicated her own abilities, and is stalked throughout the station by a near-perfect clone of herself known as SA-X, while a mysterious computer system called ADAM guides her through increasingly dangerous and restricted areas of the facility."
+  }
+  },
+  {
   "date": "2026-09-24",
   "region": "WW",
   "releaseDate": "2011-11-15",
