@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-26",
+  "region": "NA",
+  "releaseDate": "2007-10-28",
+  "title": "Guitar Hero III: Legends of Rock",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["Neversoft"],
+    "genre": ["Rhythm"],
+    "platforms": ["PlayStation 2", "PlayStation 3", "Xbox 360", "Wii"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "There is no traditional narrative — a fictional guitarist rises through club gigs to sold-out arena shows across a career mode spanning 73 songs spread across eight tiers, culminating in boss battles against legendary real-world guitarists including Tom Morello, Slash, and the Devil himself in a supernatural shred-off. Players use a guitar-shaped controller to hit colour-coded notes scrolling down the screen in time with master recordings from artists including Guns N' Roses, The Rolling Stones, Pearl Jam, and Muse, with a new battle mode that lets players use earned power-ups to disrupt their opponent mid-song."
+  }
+},
+  {
   "date": "2026-09-25",
   "region": "NA",
   "releaseDate": "2002-11-17",
