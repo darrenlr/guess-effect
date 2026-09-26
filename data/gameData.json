@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-27",
+  "region": "NA",
+  "releaseDate": "2006-09-12",
+  "title": "Company of Heroes",
+  "hints": {
+    "publisher": ["THQ"],
+    "developer": ["Relic Entertainment"],
+    "genre": ["Real-Time Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Essence Engine",
+    "metacritic": 93,
+    "plot": "Set during the Allied invasion of Western Europe in 1944, the campaign follows Able Company of the 1st Infantry Division from the Normandy landings through the liberation of France, recreating iconic operations including the D-Day assault on Omaha Beach, the Battle of Carentan, and Operation Cobra. Players command infantry squads, support weapons, and armoured vehicles across a series of missions built around cover-based tactics and dynamic terrain destruction, capturing strategic points to funnel resources into unit production and upgrades on a battlefield where fortifications crumble and the environment changes with every artillery barrage."
+  }
+},
+  {
   "date": "2026-09-26",
   "region": "NA",
   "releaseDate": "2007-10-28",
