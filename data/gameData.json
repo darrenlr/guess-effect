@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-28",
+  "region": "NA",
+  "releaseDate": "1997-10-31",
+  "title": "Tomb Raider II",
+  "hints": {
+    "publisher": ["Eidos Interactive"],
+    "developer": ["Core Design"],
+    "genre": ["Action-Adventure"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Archaeologist-adventurer Lara Croft tracks the legendary Dagger of Xian — an ancient blade said to grant its user the power of a dragon — to the Great Wall of China, where an Italian mobster named Marco Bartoli and his cult of warrior monks are attempting to claim it first. The chase takes Lara from Chinese mountain peaks to the canals of Venice, an oil rig in the South China Sea, and a sunken ocean liner before a final confrontation in a Tibetan monastery, where the true purpose of the Dagger and the nature of the cult are revealed."
+  }
+},
+  {
   "date": "2026-09-27",
   "region": "NA",
   "releaseDate": "2006-09-12",
