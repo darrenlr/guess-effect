@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-29",
+  "region": "NA",
+  "releaseDate": "1999-05-18",
+  "title": "Star Wars: Episode I - Racer",
+  "hints": {
+    "publisher": ["LucasArts"],
+    "developer": ["LucasArts"],
+    "genre": ["Racing"],
+    "platforms": ["PC", "Nintendo 64"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "There is no traditional narrative — set during and after the events of The Phantom Menace, players compete in the sport of podracing across 21 tracks on eight planets, piloting one of 23 available racers including Anakin Skywalker and his Mos Espa rivals. Crafts can be upgraded between races using prize money spent on engine components, fuel injectors, and cooling systems, with the goal of winning the Galactic Podracing Circuit — a progression of increasingly punishing single-lap races through environments spanning the deserts of Tatooine, the jungle cities of Baroonda, and the methane ice cliffs of Ord Ibanna."
+  }
+},
+  {
   "date": "2026-09-28",
   "region": "NA",
   "releaseDate": "1997-10-31",
