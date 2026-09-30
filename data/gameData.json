@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-02",
+  "region": "WW",
+  "releaseDate": "2021-10-28",
+  "title": "Age of Empires IV",
+  "hints": {
+    "publisher": ["Xbox Game Studios"],
+    "developer": ["Relic Entertainment"],
+    "genre": ["Real-Time Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Essence Engine",
+    "metacritic": 81,
+    "plot": "There is no single narrative — the game spans four historically grounded campaigns covering the Norman Conquest, the Mongol Empire, the rise of the Rus, and the Hundred Years' War, each told through real archival footage and dramatised cutscenes that frame the player's battles as pivotal moments in medieval history. Players choose from eight civilisations, each with unique mechanics and architectural styles, building economies and armies across richly detailed maps while documentary-style narration contextualises every battle within its real-world historical setting."
+  }
+},
+  {
   "date": "2026-10-01",
   "region": "WW",
   "releaseDate": "2015-12-01",
