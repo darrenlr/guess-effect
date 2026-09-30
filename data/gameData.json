@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-01",
+  "region": "WW",
+  "releaseDate": "2015-12-01",
+  "title": "Just Cause 3",
+  "hints": {
+    "publisher": ["Square Enix"],
+    "developer": ["Avalanche Studios"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player"],
+    "engine": "APEX Engine",
+    "metacritic": 74,
+    "plot": "Series protagonist Rico Rodriguez returns to his Mediterranean homeland of Medici, a fictional island republic under the iron grip of ruthless dictator General Sebastiano Di Ravello, who has been exploiting a powerful and volatile mineral called Bavarium to build a global military empire. Armed with an upgraded grappling hook and wingsuit, Rico reunites with old allies to liberate Medici's towns and military bases from Di Ravello's forces, dismantling his regime region by region across an open world spanning over 400 square miles of terrain from sea to mountaintop."
+  }
+},
+  {
   "date": "2026-09-30",
   "region": "EU",
   "releaseDate": "2010-09-24",
