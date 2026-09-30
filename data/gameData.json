@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-09-30",
+  "region": "EU",
+  "releaseDate": "2010-09-24",
+  "title": "Dead Rising 2",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Blue Castle Games"],
+    "genre": ["Action", "Survival Horror"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 79,
+    "plot": "Five years after the Willamette incident, former motocross champion Chuck Greene finds himself trapped in the Las Vegas-style gambling resort of Fortune City when a massive zombie outbreak erupts during a zombie-themed game show he was competing in. With his daughter Katey bitten and requiring a dose of the suppression drug Zombrex every 24 hours, Chuck must scavenge the city for medicine, rescue survivors, craft improvised weapons from everyday items, and uncover who deliberately caused the outbreak — all against an ever-ticking countdown before the military arrives to contain the city by any means necessary."
+  }
+},
+  {
   "date": "2026-09-29",
   "region": "NA",
   "releaseDate": "1999-05-18",
