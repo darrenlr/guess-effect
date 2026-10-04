@@ -1,5 +1,53 @@
 [
   {
+  "date": "2026-10-05",
+  "region": "WW",
+  "releaseDate": "2017-02-14",
+  "title": "Sniper Elite 4",
+  "hints": {
+    "publisher": ["Rebellion"],
+    "developer": ["Rebellion"],
+    "genre": ["Tactical Third-Person Shooter", "Stealth"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "Asura Engine",
+    "metacritic": 77,
+    "plot": "In 1943, covert OSS agent and elite marksman Karl Fairburne is deployed to wartime Italy alongside the Italian Resistance to sabotage a Nazi naval base and uncover intelligence on a new German superweapon that threatens to repel the Allied invasion before it can begin. Working across sprawling open maps ranging from coastal towns and ancient forests to mountain monasteries, Karl must use patience, positioning, and long-range marksmanship to eliminate high-value targets — taking out each of eight campaign missions in whatever order and style the player chooses."
+  }
+},
+  {
+  "date": "2026-10-04",
+  "region": "JP",
+  "releaseDate": "2002-11-21",
+  "title": "Pokémon Ruby Version",
+  "hints": {
+    "publisher": ["The Pokémon Company"],
+    "developer": ["Game Freak"],
+    "genre": ["JRPG"],
+    "platforms": ["Game Boy Advance"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "A young trainer arrives in the tropical Hoenn region and sets out on a journey to complete the Pokédex by catching and evolving 135 new Pokémon introduced alongside returning favourites. While earning eight Gym Badges and challenging the Elite Four, the trainer clashes with Team Magma — a fanatical organisation seeking to expand the landmass by awakening the legendary ground-type Pokémon Groudon — and must stop their plan from permanently altering the balance of the world's ecosystem before it is too late."
+  }
+},
+  {
+  "date": "2026-10-03",
+  "region": "EU",
+  "releaseDate": "2005-10-28",
+  "title": "Star Wars: Battlefront II",
+  "hints": {
+    "publisher": ["LucasArts"],
+    "developer": ["Pandemic Studios"],
+    "genre": ["Third-Person Shooter", "First-Person Shooter"],
+    "platforms": ["PlayStation 2", "Xbox", "PC", "PlayStation Portable"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Zero Engine",
+    "metacritic": 84,
+    "plot": "Told from the perspective of a veteran Imperial stormtrooper named Kal Skirata, the campaign chronicles the Clone Army's service from the final battles of the Clone Wars through the rise of the Galactic Empire — including Order 66 and the transformation of the Republic into an authoritarian regime. Beyond the story, players compete across land and space battlefields in locations spanning all six Star Wars films, taking control of hero characters including Darth Vader, Luke Skywalker, and Boba Fett, and piloting iconic ships in fully three-dimensional space combat added to this entry for the first time."
+  }
+},
+  {
   "date": "2026-10-02",
   "region": "WW",
   "releaseDate": "2021-10-28",
