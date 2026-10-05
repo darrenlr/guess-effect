@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-06",
+  "region": "NA",
+  "releaseDate": "1991-11-01",
+  "title": "Metroid II: Return of Samus",
+  "hints": {
+    "publisher": ["Nintendo"],
+    "developer": ["Nintendo R&D1"],
+    "genre": ["Action-Adventure", "Metroidvania"],
+    "platforms": ["Game Boy"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Following the disappearance of several Galactic Federation survey teams sent to the Metroid homeworld of SR388, bounty hunter Samus Aran is contracted to travel to the planet and eradicate the Metroid species before the Space Pirates can claim them as biological weapons. Fighting through the caverns of SR388 and killing a fixed number of Metroids as they evolve through increasingly powerful forms toward their ultimate Queen, Samus completes her mission — only to spare the last surviving hatchling that imprints on her as its mother."
+  }
+},
+  {
   "date": "2026-10-05",
   "region": "WW",
   "releaseDate": "2017-02-14",
