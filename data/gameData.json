@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-10-08",
+  "region": "WW",
+  "releaseDate": "2016-11-15",
+  "title": "Watch Dogs 2",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 4", "Xbox One"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Disrupt Engine",
+    "metacritic": 82,
+    "plot": "In San Francisco, a young hacker named Marcus Holloway is wrongly flagged as a criminal by the city's invasive ctOS 2.0 surveillance system and joins DedSec — a charismatic hacktivist collective — to expose and dismantle Blume Corporation's grip on the city from within. Using drones, remote-controlled robots, and deep hacking skills, Marcus and his crew wage a public-facing campaign against corrupt politicians, criminal organisations, and tech companies while growing DedSec's following and working toward a final attack that could take ctOS down across the entire country."
+  }
+},
+  {
+  "date": "2026-10-07",
+  "region": "NA",
+  "releaseDate": "2008-12-02",
+  "title": "Prince of Persia",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["Action-Adventure", "Platform"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Scimitar Engine",
+    "metacritic": 81,
+    "plot": "A roguish wanderer following a donkey through a desert sandstorm stumbles into a young woman named Elika, who is fleeing soldiers sent by her own father — a corrupted priest who has shattered the seal imprisoning the God of Darkness, Ahriman, releasing his spreading corruption across the land. Aided by Elika's magical abilities, the Prince must traverse eight distinct regions of a dying world, defeating the Corrupted that serve Ahriman and healing each area by restoring its fertile ground, in a story built around the unlikely bond that forms between two mismatched companions."
+  }
+},
+  {
   "date": "2026-10-06",
   "region": "NA",
   "releaseDate": "1991-11-01",
