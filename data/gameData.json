@@ -1,5 +1,53 @@
 [
   {
+  "date": "2026-10-11",
+  "region": "WW",
+  "releaseDate": "2013-08-07",
+  "title": "Brothers: A Tale of Two Sons",
+  "hints": {
+    "publisher": ["505 Games"],
+    "developer": ["Starbreeze Studios"],
+    "genre": ["Adventure", "Puzzle"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 86,
+    "plot": "Two young brothers — a teenager and his younger sibling — set out across a vast fairy tale landscape to find the Water of Life, the only cure for their gravely ill father. The journey takes them through enchanted forests, giant villages, and war-torn battlefields, with each brother controlled simultaneously by a separate thumbstick — a unique single-player co-op mechanic that becomes central to both the puzzles they must solve and the emotional weight of what they are about to face together."
+  }
+},
+  {
+  "date": "2026-10-10",
+  "region": "WW",
+  "releaseDate": "2016-02-25",
+  "title": "Grim Dawn",
+  "hints": {
+    "publisher": ["Crate Entertainment"],
+    "developer": ["Crate Entertainment"],
+    "genre": ["Action RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 83,
+    "plot": "In the dark fantasy world of Cairn, a crumbling empire has been torn apart by an invasion of ethereal beings called Aetherials, who possess human bodies for their own ends, while a second faction of demons called the Chthonians seeks to slaughter all of humanity to deny their rivals a host. Surviving humans are reduced to scattered, desperate communities, and a player character who awakens as a wanted outlaw must build alliances across the blighted landscape, master dual character classes drawn from six disciplines, and battle through hordes of supernatural enemies to survive and uncover the forces reshaping the world."
+  }
+},
+  {
+  "date": "2026-10-09",
+  "region": "JP",
+  "releaseDate": "2014-06-26",
+  "title": "Freedom Wars",
+  "hints": {
+    "publisher": ["Sony Computer Entertainment"],
+    "developer": ["Dimps", "SCE Japan Studio"],
+    "genre": ["Action RPG"],
+    "platforms": ["PS Vita"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 73,
+    "plot": "In a distant dystopian future where resources have been depleted, survivors are confined to authoritarian city-states called Panopticons and classified as Sinners — serving million-year prison sentences for the crime of existing. To reduce their sentence, Sinners must fight alongside fellow inmates and their AI companions called Accessories against colossal mechanical creatures called Abductors that kidnap civilians from rival Panopticons, recovering those hostages and contributing to their Panopticon's war effort in a cycle of combat, resource gathering, and relentless sentence reduction."
+  }
+},
+  {
   "date": "2026-10-08",
   "region": "WW",
   "releaseDate": "2016-11-15",
