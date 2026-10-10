@@ -31,20 +31,20 @@
     "plot": "In the dark fantasy world of Cairn, a crumbling empire has been torn apart by an invasion of ethereal beings called Aetherials, who possess human bodies for their own ends, while a second faction of demons called the Chthonians seeks to slaughter all of humanity to deny their rivals a host. Surviving humans are reduced to scattered, desperate communities, and a player character who awakens as a wanted outlaw must build alliances across the blighted landscape, master dual character classes drawn from six disciplines, and battle through hordes of supernatural enemies to survive and uncover the forces reshaping the world."
   }
 },
-  {
+ {
   "date": "2026-10-09",
   "region": "JP",
-  "releaseDate": "2014-06-26",
-  "title": "Freedom Wars",
+  "releaseDate": "2008-04-24",
+  "title": "Valkyria Chronicles",
   "hints": {
-    "publisher": ["Sony Computer Entertainment"],
-    "developer": ["Dimps", "SCE Japan Studio"],
-    "genre": ["Action RPG"],
-    "platforms": ["PS Vita"],
-    "modes": ["Single-player", "Multiplayer"],
-    "engine": null,
-    "metacritic": 73,
-    "plot": "In a distant dystopian future where resources have been depleted, survivors are confined to authoritarian city-states called Panopticons and classified as Sinners — serving million-year prison sentences for the crime of existing. To reduce their sentence, Sinners must fight alongside fellow inmates and their AI companions called Accessories against colossal mechanical creatures called Abductors that kidnap civilians from rival Panopticons, recovering those hostages and contributing to their Panopticon's war effort in a cycle of combat, resource gathering, and relentless sentence reduction."
+    "publisher": ["Sega"],
+    "developer": ["Sega"],
+    "genre": ["Tactical RPG"],
+    "platforms": ["PlayStation 3"],
+    "modes": ["Single-player"],
+    "engine": "CANVAS Engine",
+    "metacritic": 86,
+    "plot": "In a fictitious continent resembling 1930s Europe, a neutral country called Gallia is invaded by the militaristic East European Imperial Alliance, who seek its abundant reserves of Ragnite ore — the world's most valuable energy source. A young militia commander named Welkin Gunther leads Squad 7, a ragtag unit of ordinary Gallian volunteers, in a desperate defence of their homeland — fighting across turn-based tactical battles that blend real-time movement with strategic positioning, as Welkin and childhood friend Alicia Melchiott uncover the secret power of an ancient race that both sides of the war are trying to harness."
   }
 },
   {
