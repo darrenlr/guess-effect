@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-12",
+  "region": "WW",
+  "releaseDate": "2022-03-16",
+  "title": "Tunic",
+  "hints": {
+    "publisher": ["Finji"],
+    "developer": ["ISOMETRICORP Games"],
+    "genre": ["Action-Adventure", "Puzzle"],
+    "platforms": ["PC", "Xbox One", "Xbox Series X/S"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 85,
+    "plot": "A small fox washes ashore on the edge of a ruined and mysterious land, equipped with nothing but curiosity and a willingness to explore. Without any spoken dialogue or written guidance the player can read, the fox must piece together the world's secrets by collecting pages of an in-game instruction manual — written in an invented language — that gradually reveals the rules of combat, exploration, and the deeper mysteries buried beneath the landscape, in a love letter to the wonder of discovering a game entirely on your own terms."
+  }
+},
+  {
   "date": "2026-10-11",
   "region": "WW",
   "releaseDate": "2013-08-07",
