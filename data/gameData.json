@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-13",
+  "region": "WW",
+  "releaseDate": "2017-06-20",
+  "title": "Nex Machina",
+  "hints": {
+    "publisher": ["Housemarque"],
+    "developer": ["Housemarque"],
+    "genre": ["Twin-stick Shooter"],
+    "platforms": ["PlayStation 4", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 88,
+    "plot": "In a dystopian cablepunk future, humanity has grown so dependent on technology that machines have reached consciousness and surpassed human intelligence — and decided that their former servants are now a threat to be exterminated. A lone warrior tears through six increasingly relentless worlds of robot armies, rescuing the last pockets of surviving humans from mechanical slaughter, in a pure arcade experience designed to test reflexes, chase high scores, and master the chaos of hundreds of enemies filling the screen at once."
+  }
+},
+  {
   "date": "2026-10-12",
   "region": "WW",
   "releaseDate": "2022-03-16",
