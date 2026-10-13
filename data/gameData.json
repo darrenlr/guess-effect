@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-14",
+  "region": "WW",
+  "releaseDate": "2020-04-24",
+  "title": "Trials of Mana",
+  "hints": {
+    "publisher": ["Square Enix"],
+    "developer": ["Xeen"],
+    "genre": ["Action RPG"],
+    "platforms": ["PlayStation 4", "Nintendo Switch", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 4",
+    "metacritic": 76,
+    "plot": "In a world where the power of Mana is fading and the great Mana Tree begins to wither, players choose three protagonists from six available characters — each driven by their own personal quest — who gradually unite against a common threat seeking to revive the God-Beasts and drain the world of its remaining Mana. A full 3D remake of the 1995 Super Famicom title, the game rebuilds its predecessor's branching narrative, real-time action combat, and class upgrade system from the ground up, with full voice acting and a remastered soundtrack across its six interlocking storylines."
+  }
+},
+  {
   "date": "2026-10-13",
   "region": "WW",
   "releaseDate": "2017-06-20",
