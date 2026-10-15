@@ -1,5 +1,53 @@
 [
   {
+  "date": "2026-10-17",
+  "region": "WW",
+  "releaseDate": "2014-09-25",
+  "title": "The Vanishing of Ethan Carter",
+  "hints": {
+    "publisher": ["The Astronauts"],
+    "developer": ["The Astronauts"],
+    "genre": ["Adventure", "Exploration"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 82,
+    "plot": "Occult-minded private detective Paul Prospero receives a disturbing letter from a young boy named Ethan Carter, who claims to be in danger from his own family in the remote valley of Red Creek. Arriving to find Ethan missing and his family dead under mysterious circumstances, Prospero uses his ability to commune with the dead — reconstructing their final moments by piecing together physical clues at each scene — to unravel a dark supernatural secret that Ethan had unwittingly unleashed upon the valley."
+  }
+},
+  {
+  "date": "2026-10-16",
+  "region": "WW",
+  "releaseDate": "2014-11-25",
+  "title": "Tales from the Borderlands",
+  "hints": {
+    "publisher": ["Telltale Games"],
+    "developer": ["Telltale Games"],
+    "genre": ["Adventure", "Point-and-click"],
+    "platforms": ["PC", "PlayStation 3", "PlayStation 4", "Xbox One", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Telltale Tool",
+    "metacritic": 84,
+    "plot": "Set after the events of Borderlands 2, two unreliable narrators — Rhys, an ambitious Hyperion company man, and Fiona, a quick-talking Pandoran con artist — are forced to recount the same story from their opposing perspectives after being captured by a mysterious figure. Their intertwined tale involves a fake Vault Key, a heist gone spectacularly wrong, an unlikely alliance, and a genuinely universe-threatening discovery that neither of them could have predicted when they first crossed paths in the most chaotic way possible."
+  }
+},
+  {
+  "date": "2026-10-15",
+  "region": "NA",
+  "releaseDate": "2007-03-20",
+  "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+  "hints": {
+    "publisher": ["THQ"],
+    "developer": ["GSC Game World"],
+    "genre": ["First-Person Shooter", "RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "X-Ray Engine",
+    "metacritic": 82,
+    "plot": "In 2012, a second catastrophic explosion has struck the Chernobyl Exclusion Zone, creating a nightmarish landscape of deadly anomalies, mutated creatures, and competing factions of scavengers and mercenaries known as Stalkers. A man wakes up in the Zone with total amnesia — his PDA carrying only a cryptic directive to kill a stalker named Strelok — and must survive the hostile environment, navigate faction politics, and piece together fragments of his forgotten past while uncovering the truth about a mysterious phenomenon at the Zone's heavily guarded centre."
+  }
+},
+  {
   "date": "2026-10-14",
   "region": "WW",
   "releaseDate": "2020-04-24",
