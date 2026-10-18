@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-18",
+  "region": "WW",
+  "releaseDate": "2018-10-18",
+  "title": "Return of the Obra Dinn",
+  "hints": {
+    "publisher": ["3909"],
+    "developer": ["Lucas Pope"],
+    "genre": ["Adventure", "Puzzle"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 89,
+    "plot": "In 1807, an East India Company insurance investigator is dispatched to Falmouth after the merchant vessel Obra Dinn drifts into port five years after being declared lost at sea — with damaged sails, no survivors, and sixty crew and passengers unaccounted for. Armed with a supernatural pocket watch that allows him to witness the final moments before any death, the investigator must explore the ghost ship and reconstruct the exact fate of every soul aboard — who died, how they died, and at whose hands — using logic, observation, and the fragmentary memories frozen in each corpse's final second."
+  }
+  },
+  {
   "date": "2026-10-17",
   "region": "WW",
   "releaseDate": "2014-09-25",
