@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-19",
+  "region": "WW",
+  "releaseDate": "2017-02-21",
+  "title": "Night in the Woods",
+  "hints": {
+    "publisher": ["Finji"],
+    "developer": ["Infinite Fall"],
+    "genre": ["Adventure", "Platform"],
+    "platforms": ["PC", "PlayStation 4"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 88,
+    "plot": "College dropout Mae Borowski returns to her crumbling former mining hometown of Possum Springs after failing out of university, seeking to resume her aimless old life and reconnect with the friends she left behind. As she wastes time with her crew, plays bass in a band, and wanders the town's collapsing infrastructure, strange things begin happening at the edge of the woods — and Mae starts to suspect that something deeply wrong has taken root beneath the surface of a community slowly dying around her."
+  }
+},
+  {
   "date": "2026-10-18",
   "region": "WW",
   "releaseDate": "2018-10-18",
