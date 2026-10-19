@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-20",
+  "region": "NA",
+  "releaseDate": "1999-02-28",
+  "title": "Heroes of Might and Magic III: The Restoration of Erathia",
+  "hints": {
+    "publisher": ["The 3DO Company"],
+    "developer": ["New World Computing"],
+    "genre": ["Turn-Based Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Queen Catherine Gryphonheart returns to her homeland of Erathia to find it overrun after the death of her father the king — invaded by the undead Necromancers from Deyja, the Dungeon Overlords from Nighon, and demons from Eofol, while her own people have been raised from the dead against her. Leading the Restoration campaign to reclaim her kingdom, Catherine rallies the surviving noble houses of Erathia and her husband King Roland Ironfist to fight back through six interconnected campaigns across a vast turn-based strategy map of castles, resources, and clashing armies."
+  }
+},
+  {
   "date": "2026-10-19",
   "region": "WW",
   "releaseDate": "2017-02-21",
