@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-22",
+  "region": "NA",
+  "releaseDate": "2008-10-13",
+  "title": "World of Goo",
+  "hints": {
+    "publisher": ["2D Boy"],
+    "developer": ["2D Boy"],
+    "genre": ["Puzzle", "Physics"],
+    "platforms": ["Wii", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "Millions of sticky, living Goo Balls inhabit a whimsical world of rolling hills, industrial wastelands, and strange machinery, unaware that they are part of a game — or that they are extremely delicious to the sinister World of Goo Corporation. The player guides the Goo Balls to build bridges, towers, and sprawling structures that stretch across each chapter's physics-defying landscape, reaching a collection pipe at the end of each level while a mysterious sign painter offers cryptic commentary on the corporation's increasingly sinister plans."
+  }
+},
+  {
   "date": "2026-10-20",
   "region": "NA",
   "releaseDate": "1999-02-28",
