@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-23",
+  "region": "NA",
+  "releaseDate": "2001-11-20",
+  "title": "Return to Castle Wolfenstein",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["Gray Matter Studios", "Nerve Software"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "id Tech 3",
+    "metacritic": 88,
+    "plot": "Captured while investigating Nazi occult research, US Army Ranger B.J. Blazkowicz escapes from the dungeons of the medieval Castle Wolfenstein and learns that the SS Paranormal Division is using dark rituals and experimental technology to raise an undead army. Fighting through occupied villages, secret airfields, ancient crypts, and fortified facilities, Blazkowicz hunts down the Nazi occultists driving the project and attempts to stop the resurrection of an ancient dark knight before it can turn the tide of the war."
+  }
+},
+  {
   "date": "2026-10-22",
   "region": "NA",
   "releaseDate": "2008-10-13",
