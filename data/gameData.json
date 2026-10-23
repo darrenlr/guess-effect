@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-10-25",
+  "region": "NA",
+  "releaseDate": "2010-01-05",
+  "title": "Darksiders",
+  "hints": {
+    "publisher": ["THQ"],
+    "developer": ["Vigil Games"],
+    "genre": ["Action-Adventure", "Hack and Slash"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "Phoenix Engine",
+    "metacritic": 83,
+    "plot": "When the forces of Heaven and Hell clash prematurely in an apocalyptic war that ends with humanity's destruction, War — one of the Four Horsemen of the Apocalypse — is blamed for breaking the sacred laws and is stripped of his powers by the Charred Council. Returning to a ruined Earth a century later to clear his name, War strikes a bargain to hunt down the demonic lords responsible for the betrayal, battling through ruined cities, ancient dungeons, and Hell's own domains to uncover the conspiracy that triggered the apocalypse before the true balance of creation is lost."
+  }
+},
+  {
+  "date": "2026-10-24",
+  "region": "WW",
+  "releaseDate": "2012-09-20",
+  "title": "Torchlight II",
+  "hints": {
+    "publisher": ["Runic Games"],
+    "developer": ["Runic Games"],
+    "genre": ["Action RPG", "Hack and Slash"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer", "Co-op"],
+    "engine": "OGRE",
+    "metacritic": 88,
+    "plot": "After the Alchemist — a hero who conquered the corrupting power of Ember — vanishes while hunting an unknown corrupted force, the original hero of Torchlight is driven to a mad rampage, and a new Guardian-warrior named Syl appears in a prophetic dream to summon a fresh champion to the Estherian Steppes. Setting out across the continent of Vilderan with a loyal pet at their side, the player chases the corrupted Alchemist through randomly generated dungeons and sprawling wilderness, uncovering the dark secret behind the destruction of the Estherian race and the true source of Ember's corruption."
+  }
+},
+  {
   "date": "2026-10-23",
   "region": "NA",
   "releaseDate": "2001-11-20",
