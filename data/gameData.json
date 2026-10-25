@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-26",
+  "region": "NA",
+  "releaseDate": "2011-06-14",
+  "title": "Alice: Madness Returns",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Spicy Horse"],
+    "genre": ["Action-Adventure", "Platform"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 70,
+    "plot": "A year after emerging from catatonia, a traumatised young woman living in a Victorian London orphanage is haunted by memories of the fire that killed her family, her fractured mind still pulling her into a twisted version of Wonderland that is crumbling under a creeping industrial corruption. Guided by a grinning Cheshire Cat, she fights through nightmarish landscapes of broken toys and warped tea parties with a vorpal blade and a pepper grinder, shrinking through keyholes and slipping between reality and delusion to uncover the truth about what really happened the night of the fire."
+  }
+},
+  {
   "date": "2026-10-25",
   "region": "NA",
   "releaseDate": "2010-01-05",
