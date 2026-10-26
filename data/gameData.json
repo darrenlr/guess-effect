@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-27",
+  "region": "WW",
+  "releaseDate": "2014-11-14",
+  "title": "This War of Mine",
+  "hints": {
+    "publisher": ["11 bit studios"],
+    "developer": ["11 bit studios"],
+    "genre": ["Survival", "Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "Liquid Engine",
+    "metacritic": 83,
+    "plot": "In the fictional city of Pogoren, a civil war has trapped a small group of ordinary civilians in a bombed-out building with little food, no medicine, and nobody coming to help. By day, snipers outside force the survivors to stay hidden while they craft tools, barter, and tend to their wounded; by night, they must sneak out to scavenge from ruined homes, hospitals, and supermarkets — often forced to choose between stealing from desperate neighbours and letting their own group starve, until a ceasefire finally ends the siege."
+  }
+},
+  {
   "date": "2026-10-26",
   "region": "NA",
   "releaseDate": "2011-06-14",
