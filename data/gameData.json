@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-29",
+  "region": "EU",
+  "releaseDate": "2002-11-29",
+  "title": "Gothic II",
+  "hints": {
+    "publisher": ["JoWooD Entertainment"],
+    "developer": ["Piranha Bytes"],
+    "genre": ["Action RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "ZenGin",
+    "metacritic": 79,
+    "plot": "After the magical barrier over the Valley of Mines collapses, the nameless hero awakens to find the colony in ruins and the island of Khorinis threatened by an army of dragons gathering in the mountains. With no allies and little more than his wits, he must earn the trust of the city's militia, the mercenaries, or the fire mages, gather proof of the dragon threat, and secure a magical artefact before the forces of darkness — directed by a mysterious evil whose power is tied to the hero's own past — overrun the island."
+  }
+},
+  {
   "date": "2026-10-28",
   "region": "NA",
   "releaseDate": "2011-10-04",
