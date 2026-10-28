@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-10-28",
+  "region": "NA",
+  "releaseDate": "2011-10-04",
+  "title": "Rage",
+  "hints": {
+    "publisher": ["Bethesda Softworks"],
+    "developer": ["id Software"],
+    "genre": ["First-Person Shooter", "Racing"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "id Tech 5",
+    "metacritic": 81,
+    "plot": "After an asteroid strike devastates Earth, a soldier emerges from a hibernation pod — one of a handful of Ark survivors preserved underground — to find a ruined wasteland ruled by bandit gangs and a tyrannical military regime called the Authority. Taking odd jobs for desperate settlements, the lone survivor races armed buggies, fights mutants, and gradually discovers that the Authority's hunt for the Ark survivors is driven by their own enhanced nanotrite biology — forcing a final assault to dismantle the regime before it can be used to subjugate what remains of humanity."
+  }
+},
+  {
   "date": "2026-10-27",
   "region": "WW",
   "releaseDate": "2014-11-14",
