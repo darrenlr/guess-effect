@@ -1,5 +1,53 @@
 [
   {
+  "date": "2026-11-01",
+  "region": "WW",
+  "releaseDate": "2014-04-29",
+  "title": "Child of Light",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Ubisoft Montreal"],
+    "genre": ["JRPG", "Platform"],
+    "platforms": ["PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "Wii U", "PC"],
+    "modes": ["Single-player", "Co-op"],
+    "engine": "UbiArt Framework",
+    "metacritic": 82,
+    "plot": "In 1895 Austria, a young girl named Aurora falls into a deathlike sleep and awakens in the fairy-tale kingdom of Lemuria, where the Queen of the Night has stolen the sun, moon, and stars and cast the land into darkness. Narrated entirely in rhyming verse, Aurora journeys through a hand-painted world of talking mice, forest spirits, and sea serpents, gathering a party of unlikely companions to recover the three stolen lights and find her way home to her grieving father."
+  }
+},
+  {
+  "date": "2026-10-31",
+  "region": "WW",
+  "releaseDate": "2013-06-27",
+  "title": "Rogue Legacy",
+  "hints": {
+    "publisher": ["Cellar Door Games"],
+    "developer": ["Cellar Door Games"],
+    "genre": ["Platform", "Roguelike"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "Microsoft XNA",
+    "metacritic": 85,
+    "plot": "A king is murdered inside a cursed castle, and his descendants take up arms one after another to avenge him and uncover the secret of a mysterious fountain at its centre. Each time a hero falls, their child inherits their gold and takes up the quest as a new heir with randomised classes and quirky genetic traits — from colour-blindness to vertigo — rebuilding the family manor with upgrades and venturing into a randomly generated castle guarded by four punishing zones and their bosses."
+  }
+},
+  {
+  "date": "2026-10-30",
+  "region": "NA",
+  "releaseDate": "1997-10-31",
+  "title": "The Curse of Monkey Island",
+  "hints": {
+    "publisher": ["LucasArts"],
+    "developer": ["LucasArts"],
+    "genre": ["Point-and-Click", "Adventure"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "SCUMM",
+    "metacritic": null,
+    "plot": "After a ring he offers to Elaine Marley turns out to be cursed, wannabe pirate Guybrush Threepwood watches helplessly as the woman he loves is transformed into a solid gold statue and stolen by the demon pirate LeChuck's minions. Setting sail across the Caribbean in search of a legendary ring that can break the curse, Guybrush trades insults in sword fights, outwits the undead, and pursues a trail of clues through pirate-infested islands — all while LeChuck's plot to marry Elaine and claim her as his bride draws ever closer."
+  }
+},
+  {
   "date": "2026-10-29",
   "region": "EU",
   "releaseDate": "2002-11-29",
