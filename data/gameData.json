@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-02",
+  "region": "WW",
+  "releaseDate": "2014-05-20",
+  "title": "Transistor",
+  "hints": {
+    "publisher": ["Supergiant Games"],
+    "developer": ["Supergiant Games"],
+    "genre": ["Action RPG", "Turn-Based Strategy"],
+    "platforms": ["PC", "PlayStation 4"],
+    "modes": ["Single-player"],
+    "engine": "MonoGame",
+    "metacritic": 83,
+    "plot": "In the futuristic city of Cloudbank, a famous singer named Red is attacked by a mysterious group called the Camerata and survives only after her voice is stolen and sealed inside a talking sword — the Transistor — that absorbed the life of the man who tried to save her. Armed with the blade and its commentary, Red fights through the city's collapsing districts against swarms of Process robots, combining abilities from the Transistor's absorbed memories while uncovering why the Camerata wanted her silenced and what is truly happening to Cloudbank."
+  }
+},
+  {
   "date": "2026-11-01",
   "region": "WW",
   "releaseDate": "2014-04-29",
