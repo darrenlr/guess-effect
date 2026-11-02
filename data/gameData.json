@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-03",
+  "region": "WW",
+  "releaseDate": "2016-01-19",
+  "title": "Darkest Dungeon",
+  "hints": {
+    "publisher": ["Red Hook Studios"],
+    "developer": ["Red Hook Studios"],
+    "genre": ["Roguelike", "Turn-Based RPG"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 84,
+    "plot": "Having inherited a crumbling hamlet from a reckless ancestor who opened a gateway to unspeakable horrors beneath the family estate, the player must recruit, equip, and lead teams of flawed adventurers into the surrounding dungeons, forests, and caverns to cleanse the corruption. Every expedition tests more than the heroes' strength — stress, madness, and disease can fracture a party from within, forcing hard choices about who to send back down into the dark as the way to the Darkest Dungeon itself finally opens."
+  }
+},
+  {
   "date": "2026-11-02",
   "region": "WW",
   "releaseDate": "2014-05-20",
