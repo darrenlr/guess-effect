@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-05",
+  "region": "WW",
+  "releaseDate": "2018-08-07",
+  "title": "Dead Cells",
+  "hints": {
+    "publisher": ["Motion Twin"],
+    "developer": ["Motion Twin"],
+    "genre": ["Metroidvania", "Roguelike"],
+    "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": "Heaps",
+    "metacritic": 89,
+    "plot": "A shapeless mass of green cells inhabits the corpse of a decapitated prisoner and awakens on a sprawling, ever-changing island kingdom overrun by mutated monsters and undead guards. With no memory of who he was and no checkpoints to save him, the Prisoner must fight and die his way through shifting castle ramparts, toxic sewers, and clock towers, collecting new weapons and permanent upgrades each run as he works towards the king's throne and the truth about the plague consuming the land."
+  }
+},
+  {
+  "date": "2026-11-04",
+  "region": "WW",
+  "releaseDate": "2013-08-08",
+  "title": "Papers, Please",
+  "hints": {
+    "publisher": ["3909"],
+    "developer": ["Lucas Pope"],
+    "genre": ["Puzzle", "Simulation"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": "OpenFL",
+    "metacritic": 85,
+    "plot": "In 1982, the communist state of Arstotzka has just ended a six-year war with neighbouring Kolechia and reclaimed its half of the border town of Grestin. As a newly assigned immigration inspector, the player must check each traveller's passport, papers, and story against an ever-growing rulebook — turning away smugglers, spies, and terrorists while earning just enough to feed, heat, and shelter a family, and deciding whether to follow the rules, bend them out of compassion, or join a mysterious resistance."
+  }
+},
+  {
   "date": "2026-11-03",
   "region": "WW",
   "releaseDate": "2016-01-19",
