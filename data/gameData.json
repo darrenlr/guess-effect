@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-06",
+  "region": "WW",
+  "releaseDate": "2008-08-27",
+  "title": "Castle Crashers",
+  "hints": {
+    "publisher": ["Microsoft Game Studios", "The Behemoth"],
+    "developer": ["The Behemoth"],
+    "genre": ["Beat 'em up", "Hack and Slash"],
+    "platforms": ["Xbox 360"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": null,
+    "metacritic": 82,
+    "plot": "When an evil wizard steals a magical crystal from a medieval kingdom and kidnaps its four princesses, four knights — red, blue, green, and orange — charge out to rescue them and recover the stolen gem. Fighting through forests, castles, deserts, and haunted swamps against hordes of barbarians, thieves, and magical beasts, the knights level up, unlock new weapons and animal orb companions, and battle their way toward a dark wizard whose power threatens to plunge the entire land into ruin."
+  }
+},
+  {
   "date": "2026-11-05",
   "region": "WW",
   "releaseDate": "2018-08-07",
