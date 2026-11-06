@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-08",
+  "region": "NA",
+  "releaseDate": "2004-08-03",
+  "title": "Doom 3",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["id Software"],
+    "genre": ["First-Person Shooter", "Survival Horror"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "id Tech 4",
+    "metacritic": 87,
+    "plot": "In 2145, a lone Marine arrives at the Union Aerospace Corporation's Mars research facility on his first day of duty, only to be caught in the aftermath of a teleportation experiment gone catastrophically wrong that tears open a portal to Hell. As demons flood the base and possess the staff, he fights through darkened corridors with a flashlight and an arsenal of weapons, working alongside scattered survivors to uncover the scientist behind the experiments and close the gateway before the invasion reaches Earth."
+  }
+},
+  {
+  "date": "2026-11-07",
+  "region": "JP",
+  "releaseDate": "2008-01-31",
+  "title": "Devil May Cry 4",
+  "hints": {
+    "publisher": ["Capcom"],
+    "developer": ["Capcom"],
+    "genre": ["Action-Adventure", "Hack and Slash"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player"],
+    "engine": "MT Framework",
+    "metacritic": 84,
+    "plot": "During a ceremony held by the Order of the Sword — a religious organisation that worships the legendary demon knight Sparda — the legendary demon hunter Dante bursts in and assassinates the Order's leader, sending the Holy Knight Nero on a mission to hunt him down. Wielding a sword and a mysterious demonic right arm called the Devil Bringer, Nero pursues Dante across a world of fortresses and ruins, uncovering the Order's secret plan to harness demonic power and the truth about his own heritage, while his path is repeatedly intertwined with Dante's own."
+  }
+},
+  {
   "date": "2026-11-06",
   "region": "WW",
   "releaseDate": "2008-08-27",
