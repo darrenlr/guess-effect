@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-09",
+  "region": "NA",
+  "releaseDate": "1993-06-25",
+  "title": "Mortal Kombat II",
+  "hints": {
+    "publisher": ["Midway"],
+    "developer": ["Midway"],
+    "genre": ["Fighting"],
+    "platforms": ["Arcade"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "Having lost the first Mortal Kombat tournament, the sorcerer Shang Tsung talks the Outworld emperor Shao Kahn into a bold gambit: lure Earth's champions into Outworld itself for a second tournament, where defeat means the permanent absorption of Earthrealm into Kahn's empire. A roster of returning fighters and newcomers — including the assassin sisters Kitana and Mileena, the Shaolin monk Kung Lao, and the hidden Noob Saibot — compete in brutal duels that end in ever more gruesome Fatalities, leading to a final showdown with the four-armed Kintaro and Kahn himself."
+  }
+},
+  {
   "date": "2026-11-08",
   "region": "NA",
   "releaseDate": "2004-08-03",
