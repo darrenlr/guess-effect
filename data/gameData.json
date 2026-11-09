@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-10",
+  "region": "NA",
+  "releaseDate": "2011-02-22",
+  "title": "Bulletstorm",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["People Can Fly", "Epic Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 84,
+    "plot": "In the 26th century, a disgraced former black-ops soldier turned drunken space pirate named Grayson Hunt crashes his ship into that of the Confederation general who once tricked him into murdering innocents, stranding himself and his cyborg-enhanced partner on the ruined resort planet of Stygia. Working to survive the planet's gang-ridden wasteland, mutant monsters, and collapsing skyscrapers, Grayson uses a leash-like energy whip and creative, over-the-top kills called skillshots to hunt down the general and finally get revenge."
+  }
+  },
+  {
   "date": "2026-11-09",
   "region": "NA",
   "releaseDate": "1993-06-25",
