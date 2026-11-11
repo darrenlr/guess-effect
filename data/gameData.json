@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-11",
+  "region": "WW",
+  "releaseDate": "2013-05-22",
+  "title": "Call of Juarez: Gunslinger",
+  "hints": {
+    "publisher": ["Ubisoft"],
+    "developer": ["Techland"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Chrome Engine",
+    "metacritic": 76,
+    "plot": "In a saloon, an aging bounty hunter named Silas Greaves spins tall tales to a crowd of drinkers about his greatest exploits — the outlaws he hunted, the legends he met, and the grudge that has driven him across the American frontier for decades. As his story unfolds, patrons challenge his claims and the narrative shifts and rewrites itself mid-battle, blurring the line between truth and myth as Greaves works toward the man he's really been hunting and the reason he took up the gun in the first place."
+  }
+},
+  {
   "date": "2026-11-10",
   "region": "NA",
   "releaseDate": "2011-02-22",
