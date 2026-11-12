@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-13",
+  "region": "JP",
+  "releaseDate": "2010-11-25",
+  "title": "Danganronpa: Trigger Happy Havoc",
+  "hints": {
+    "publisher": ["Spike"],
+    "developer": ["Spike"],
+    "genre": ["Visual Novel", "Mystery"],
+    "platforms": ["PlayStation Portable"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": null,
+    "plot": "A high school student with an average life and incredible luck arrives at the elite Hope's Peak Academy, only to find himself and fourteen other gifted classmates locked inside the school by a sadistic robotic bear named Monokuma. The only way out is to commit a murder and get away with it: after each killing, the survivors must investigate the crime scene and hold a class trial to identify the culprit, with the wrong verdict meaning execution for everyone but the killer, and the right one meaning execution for the murderer."
+  }
+},
+  {
   "date": "2026-11-11",
   "region": "WW",
   "releaseDate": "2013-05-22",
