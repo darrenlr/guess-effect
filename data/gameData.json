@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-14",
+  "region": "NA",
+  "releaseDate": "1997-12-09",
+  "title": "Quake II",
+  "hints": {
+    "publisher": ["Activision"],
+    "developer": ["id Software"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "id Tech 2",
+    "metacritic": null,
+    "plot": "Earth's forces launch a massive counter-offensive against the cyborg Strogg, a race that has been abducting humans to harvest them for parts. When the drop pods carrying the invasion strike force are scattered across the alien planet Stroggos, a lone surviving Marine named Bitterman fights through factories, military bases, and a processing complex to disable the planet's defences and ultimately assassinate the Strogg leader, the Makron."
+  }
+},
+  {
   "date": "2026-11-13",
   "region": "JP",
   "releaseDate": "2010-11-25",
