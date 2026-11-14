@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-16",
+  "region": "EU",
+  "releaseDate": "2006-05-26",
+  "title": "Hitman: Blood Money",
+  "hints": {
+    "publisher": ["Eidos Interactive"],
+    "developer": ["IO Interactive"],
+    "genre": ["Stealth", "Action-Adventure"],
+    "platforms": ["PlayStation 2", "Xbox", "Xbox 360", "PC"],
+    "modes": ["Single-player"],
+    "engine": "Glacier",
+    "metacritic": 82,
+    "plot": "When assassins from the ICA, the agency that employs the bald contract killer Agent 47, are being systematically eliminated by a rival organisation, 47 loses contact with his handler and travels to America to continue taking contracts while hunting for who is behind the purge. Told in flashback through an interview between a dying FBI agent and a mysterious stranger, the story follows 47 as he disguises himself and stages deaths to look like accidents across a series of elaborate targets, all while keeping his notoriety low and uncovering a conspiracy aimed at destroying the agency that made him."
+  }
+},
+  {
+  "date": "2026-11-15",
+  "region": "WW",
+  "releaseDate": "2012-08-28",
+  "title": "Guild Wars 2",
+  "hints": {
+    "publisher": ["NCSOFT"],
+    "developer": ["ArenaNet"],
+    "genre": ["MMORPG"],
+    "platforms": ["PC"],
+    "modes": ["Multiplayer", "Co-op"],
+    "engine": null,
+    "metacritic": 90,
+    "plot": "Two and a half centuries after the events of the original game, the continent of Tyria has been shattered by the awakening of the Elder Dragons — colossal beings whose power corrupts land and creatures alike and threatens to consume the world's five great races. As a newly arrived hero of one of those races, the player joins the Pact and fights to push back the dragons' corruption through dynamic public events, personal story missions, and world-spanning campaigns that bring Tyria's scattered peoples together against a common threat."
+  }
+},
+  {
   "date": "2026-11-14",
   "region": "NA",
   "releaseDate": "1997-12-09",
