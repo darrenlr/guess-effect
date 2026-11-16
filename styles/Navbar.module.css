@@ -136,15 +136,21 @@
   }
 }
 
-/* Small phones: six items have to fit in 360px */
+/* Small phones: six items have to fit in 320px */
 @media screen and (max-width: 420px) {
+  .navbar {
+    gap: 0;
+    margin: 0.5rem 0;
+  }
+
   .title {
-    padding: 0 0.3rem;
-    font-size: 0.68rem;
+    padding: 0 0.25rem;
+    font-size: 0.64rem;
     letter-spacing: 0;
   }
 
   .iconBtn {
-    min-width: 36px;
+    min-width: 34px;
+    padding: 0.2rem 0.1rem;
   }
 }

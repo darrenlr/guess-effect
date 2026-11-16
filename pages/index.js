@@ -2,9 +2,9 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Faq from "../components/Faq";
 import SeoHead, { faqSchema, webApp } from "../components/SeoHead";
 import ModeWindow from "../components/home/ModeWindow";
+import Shelf from "../components/home/Shelf";
 import Panel from "../components/ui/Panel";
 import Button from "../components/ui/Button";
 import Stat from "../components/ui/Stat";
@@ -88,7 +88,7 @@ export default function Home() {
         shareDescription="Guess the video game from its box art and hints. New puzzle every day, plus endless mode for unlimited play."
         schema={schema}
       />
-      <Navbar showCalendar={false} showStats={false} showHelp={false} />
+      <Navbar showCalendar={false} showStats={false} faq={HOME_FAQ} />
 
       <main className={styles.page}>
         <section className={styles.intro}>
@@ -206,7 +206,8 @@ export default function Home() {
           </div>
         </section>
 
-        <Faq items={HOME_FAQ} />
+        <Shelf history={history} ready={historyReady} />
+
       </main>
 
       <Footer />

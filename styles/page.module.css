@@ -136,6 +136,11 @@
   justify-content: space-between;
 }
 
+.windowToggleOpen > span:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .windowIcon {
   display: inline-flex;
   align-items: center;
@@ -206,36 +211,6 @@
   border: 1px solid var(--hud-line);
 }
 
-/* ---- FAQ ------------------------------------------------------------------ */
-.faq {
-  margin-top: 8px;
-}
-
-.faqItem {
-  padding: 10px 0;
-  border-bottom: 1px solid var(--edge);
-}
-
-.faqItem:last-child {
-  border-bottom: 0;
-}
-
-.faqItem summary {
-  min-height: 32px;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--ink-strong);
-}
-
-.faqItem p {
-  margin-top: 8px;
-  max-width: 66ch;
-  font-size: 15px;
-  line-height: 1.55;
-  color: var(--ink-muted);
-}
-
 /* ---- Footer --------------------------------------------------------------- */
 .footer {
   display: flex;
@@ -277,4 +252,83 @@
   font-size: 14px;
   font-weight: 700;
   color: var(--hud-color);
+}
+
+/* ---- Shelf --------------------------------------------------------------- */
+.shelfHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.link {
+  min-height: 44px;
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--hud-color);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.shelf {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0 0 8px;
+  overflow-x: auto;
+  list-style: none;
+  scroll-snap-type: x proximity;
+}
+
+.shelfItem {
+  flex: none;
+  width: 84px;
+  scroll-snap-align: start;
+}
+
+.shelfItem a {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.shelfCover {
+  display: block;
+  width: 84px;
+  height: 112px;
+  object-fit: cover;
+  background: var(--surface);
+  border: 1px solid var(--hud-line);
+}
+
+.shelfMissed {
+  border: 1px dashed #5a5a5a;
+  filter: grayscale(1) brightness(0.55);
+}
+
+.shelfTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.shelfScore,
+.shelfMiss {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.shelfScore {
+  color: var(--hud-color);
+}
+
+.shelfMiss {
+  color: var(--ink-dim);
 }

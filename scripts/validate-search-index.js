@@ -11,8 +11,12 @@
  *   2. a cover — either the curated entry's own boxArtUrl, or a coverImageId on
  *      the matched index entry.
  *
- * A curated game that fails either check would be missing from search or would
- * render broken box art. On failure this prints how to fix it and exits 1.
+ * It also checks each curated game has clue data (studio, publisher, genre,
+ * platform) in public/games-meta.json, which is what the guess clues compare.
+ *
+ * A curated game that fails a check would be missing from search, render broken
+ * box art, or show no clues after a wrong guess. On failure this prints how to
+ * fix it and exits 1.
  */
 
 const {
@@ -22,14 +26,17 @@ const {
   indexEntryByName,
   readJson,
 } = require('./lib/searchIndex');
+const { readMeta } = require('./lib/gameMeta');
 
 function main() {
   const curated = readJson(GAME_DATA_PATH);
   const index = readJson(INDEX_PATH);
   const byName = indexEntryByName(index.games);
 
+  const meta = readMeta();
   const missing = []; // not in the index at all
   const noCover = []; // in the index, but no derivable box art
+  const noClues = []; // in the index, but no clue data
 
   curated.forEach((game, i) => {
     if (!game.title) {
@@ -43,11 +50,12 @@ function main() {
     }
     const hasCover = Boolean(game.boxArtUrl) || Boolean(entry.coverImageId);
     if (!hasCover) noCover.push(game.title);
+    if (entry.id == null || !(entry.id in meta.games)) noClues.push(game.title);
   });
 
-  if (missing.length === 0 && noCover.length === 0) {
+  if (missing.length === 0 && noCover.length === 0 && noClues.length === 0) {
     console.log(
-      `✅ All ${curated.length} curated games are in the search index with box art.`
+      `✅ All ${curated.length} curated games are in the search index with box art and clue data.`
     );
     return;
   }
@@ -73,6 +81,18 @@ function main() {
       '\n   Either add a boxArtUrl to the gameData entry, or re-add it to the index ' +
         'with a cover:\n' +
         '     node scripts/add-to-search-index.js "<title>" --cover <coverImageId>'
+    );
+  }
+
+  if (noClues.length) {
+    console.error(
+      `\n❌ ${noClues.length} curated game(s) have no clue data (no IGDB id in the index, or ` +
+        'not in public/games-meta.json):'
+    );
+    for (const title of noClues) console.error(`   - ${title}`);
+    console.error(
+      '\n   Run:  node scripts/build-game-meta.js\n' +
+        '   (if a game has no IGDB id, re-add it with:  node scripts/add-to-search-index.js "<title>" --cover <id> --id <igdbId>)'
     );
   }
 

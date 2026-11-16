@@ -225,3 +225,34 @@
   font-size: 13px;
   color: var(--ink-muted);
 }
+
+/* Questions and answers in the how-to-play window */
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.faqItem {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--edge);
+}
+
+.faqItem:last-child {
+  border-bottom: 0;
+}
+
+.faqItem summary {
+  min-height: 32px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-strong);
+}
+
+.faqItem p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-muted);
+}

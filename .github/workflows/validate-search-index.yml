@@ -5,10 +5,12 @@ on:
     paths:
       - 'data/gameData.json'
       - 'public/games-index.json'
+      - 'public/games-meta.json'
   push:
     paths:
       - 'data/gameData.json'
       - 'public/games-index.json'
+      - 'public/games-meta.json'
 
 jobs:
   validate:
@@ -23,5 +25,5 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Validate every curated game is in the search index with box art
+      - name: Validate every curated game is in the search index with box art and clue data
         run: node scripts/validate-search-index.js

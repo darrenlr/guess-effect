@@ -2,14 +2,12 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Faq from "../components/Faq";
 import SeoHead, { breadcrumbs, faqSchema, webApp } from "../components/SeoHead";
 import Loader from "../components/ui/Loader";
 import DailyGame from "../components/game/DailyGame";
 import { todayUtc } from "../lib/dates";
 import { DAILY_FAQ } from "../lib/content";
 import gameStyles from "../styles/game.module.css";
-import styles from "../styles/page.module.css";
 
 const schema = {
   "@context": "https://schema.org",
@@ -66,7 +64,7 @@ export default function Daily() {
         shareDescription="New puzzle every day. Guess the game from its box art and hints."
         schema={schema}
       />
-      <Navbar />
+      <Navbar faq={DAILY_FAQ} />
 
       <main>
         <h1 className="sr-only">Daily Video Game Guessing Game</h1>
@@ -80,9 +78,6 @@ export default function Daily() {
           </p>
         )}
         {status === "ready" && game && <DailyGame key={game.date} game={game} isArchive={Boolean(date)} />}
-        <div className={styles.page}>
-          <Faq items={DAILY_FAQ} />
-        </div>
       </main>
 
       <Footer />

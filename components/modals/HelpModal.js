@@ -1,39 +1,40 @@
+import { HOW_TO_PLAY } from "../../lib/content";
 import Modal from "../ui/Modal";
 import styles from "../../styles/result.module.css";
 
-export default function HelpModal({ onClose, isEndless = false }) {
+function HelpBody({ bullets, faq }) {
   return (
-    <Modal title={isEndless ? "C:\\GAMES\\ENDLESS\\HELP.EXE" : "C:\\GAMES\\HELP.EXE"} onClose={onClose}>
+    <>
       <ul className={styles.help}>
-        {isEndless ? (
-          <>
-            <li>Guess as many video games as you can before running out of lives.</li>
-            <li>
-              Each game is identified by its earliest global release date, accounting for staggered regional
-              launches.
-            </li>
-            <li>
-              The cover starts zoomed right in. Zoom out a step at a time, or trade points to reveal clues,
-              including platforms (based on the first platform the game launched on globally).
-            </li>
-            <li>You have 10 lives across the entire run. A wrong guess or a skip costs one life.</li>
-            <li>Score as many points as possible before your lives run out.</li>
-          </>
-        ) : (
-          <>
-            <li>
-              Guess the video game based on its initial release date (the earliest release date, considering
-              staggered regional launches).
-            </li>
-            <li>
-              The cover starts zoomed right in. Zoom out a step at a time, or trade points to reveal clues,
-              including platforms (the first platform the game was released on globally).
-            </li>
-            <li>Receive bonus points for making fewer guesses.</li>
-            <li>The game ends after 4 incorrect guesses.</li>
-          </>
-        )}
+        {bullets.map((line) => (
+          <li key={line}>{line}</li>
+        ))}
       </ul>
+      {faq.length > 0 && (
+        <section className={styles.faq} aria-label="Questions and answers">
+          <p className={styles.settingsTitle}>&gt; HOW_IT_WORKS.TXT</p>
+          {faq.map(([question, answer]) => (
+            <details key={question} className={styles.faqItem}>
+              <summary>{question}</summary>
+              <p>{answer}</p>
+            </details>
+          ))}
+        </section>
+      )}
+    </>
+  );
+}
+
+// The how-to-play window behind the (?) icon. It's always in the page, just
+// hidden until opened, so its text is still part of the HTML for search
+// engines and matches the FAQ structured data.
+export default function HelpModal({ open, onClose, mode = "daily", faq = [] }) {
+  const body = <HelpBody bullets={HOW_TO_PLAY[mode === "endless" ? "endless" : "daily"]} faq={faq} />;
+
+  if (!open) return <div hidden>{body}</div>;
+  return (
+    <Modal title={mode === "endless" ? "C:\\GAMES\\ENDLESS\\HELP.EXE" : "C:\\GAMES\\HELP.EXE"} onClose={onClose} wide>
+      {body}
     </Modal>
   );
 }

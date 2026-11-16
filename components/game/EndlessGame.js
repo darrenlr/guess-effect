@@ -192,6 +192,8 @@ export default function EndlessGame() {
     <>
       <RoundView
         key={game.releaseDate}
+        title="ENDLESS.SYS"
+        subtitle={`GAME ${run.currentGameNumber} // RUN IN PROGRESS`}
         path={`ENDLESS\\GAME_${run.currentGameNumber}`}
         statusTitle="ENDLESS_STATUS.SYS"
         game={game}
@@ -200,10 +202,13 @@ export default function EndlessGame() {
         lives={{ total: ENDLESS_LIVES, remaining: run.lives }}
         stats={[
           stat("GAME", run.currentGameNumber),
+          stat("LIVES", `${run.lives}/${ENDLESS_LIVES}`),
           stat("STREAK", run.currentStreak),
+          stat("ZOOM"),
           stat("POINTS", points),
           stat("TOTAL", run.totalScore + (over ? 0 : points)),
         ]}
+        logNote={`> ${run.lives} LIVES LEFT, SHARED ACROSS THE WHOLE RUN.`}
         onGuess={onGuess}
         onRevealHint={(key) => act((current) => revealHint(current, key))}
         onZoomOut={() => act(zoomOut)}

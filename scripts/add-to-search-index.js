@@ -14,7 +14,9 @@
  *   node scripts/add-to-search-index.js "Some Game Title" --cover co1a2b [--year 2011] [--id 12345]
  *
  * It is idempotent: if the title is already in the index, it reports that and
- * exits 0. After adding, commit the updated public/games-index.json.
+ * exits 0. After adding, commit the updated public/games-index.json and
+ * public/games-meta.json (the studio/publisher/genre/platform data behind the
+ * guess clues, fetched here too when the game has an IGDB id).
  */
 
 const {
@@ -29,6 +31,7 @@ const {
   readJson,
   writeAtomic,
 } = require('./lib/searchIndex');
+const { ensureMeta } = require('./lib/gameMeta');
 
 function parseArgs(argv) {
   const args = { title: null, cover: null, year: null, id: null };
@@ -159,7 +162,17 @@ async function main() {
     `Added "${entry.name}" (id: ${entry.id ?? 'none'}, year: ${year}, ` +
       `coverImageId: ${entry.coverImageId}). Index now has ${index.count} games.`
   );
-  console.log('Remember to commit public/games-index.json.');
+  if (entry.id != null) {
+    try {
+      await ensureMeta([entry.id], { log: () => {} });
+      console.log('Added its clue data to public/games-meta.json.');
+    } catch (error) {
+      console.warn(`Couldn't fetch clue data (${error.message}). Run: node scripts/build-game-meta.js`);
+    }
+  } else {
+    console.warn('No IGDB id, so this game has no clue data. Re-add it with --id to fix.');
+  }
+  console.log('Remember to commit public/games-index.json and public/games-meta.json.');
 }
 
 main().catch((err) => {

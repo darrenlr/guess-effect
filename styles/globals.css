@@ -10,6 +10,12 @@
   --hud-glow: color-mix(in srgb, var(--hud-color) 50%, transparent);
   --tile-a: color-mix(in srgb, var(--hud-color) 10%, #000);
   --tile-b: color-mix(in srgb, var(--hud-color) 17%, #000);
+  /* Hatching that marks a "close" clue */
+  --stripe: repeating-linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--hud-color) 26%, transparent) 0 6px,
+    color-mix(in srgb, var(--hud-color) 10%, transparent) 6px 12px
+  );
 
   --bg: #000;
   --surface: #0b0b0b;
@@ -52,6 +58,9 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   font-family: var(--font-sans);
+  /* Safety net: if anything ever overflows sideways, clip it rather than
+     widening the page past the phone screen. */
+  overflow-x: clip;
 }
 
 .app > main {

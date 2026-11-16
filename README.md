@@ -52,3 +52,14 @@ The round shape is documented at the top of `lib/rules.js`. Older saves are read
 
 Puzzles live in `data/gameData.json`; box art is filled in from `public/games-index.json` (see
 `utils/resolveBoxArt.js`). The scripts in `scripts/` and the workflows in `.github/workflows/` validate both files.
+
+## Clue grid data
+
+Every wrong guess is compared with the answer on year, studio, publisher, genre and platform (`lib/clues.js`, shown
+by `components/game/GuessLog.js`). The comparison data lives in `public/games-meta.json`, keyed by IGDB id, which is
+also why every entry in `games-index.json` needs an `id`. The browser loads it only after a first wrong guess.
+
+- `node scripts/build-game-meta.js` fetches any missing games from IGDB and updates the file. It only fetches games
+  it doesn't have yet. It needs `IGDB_CLIENT_ID` and `IGDB_CLIENT_SECRET` in `.env.local`.
+- `node scripts/add-to-search-index.js` (adding a game) does this for the new game as well.
+- `node scripts/validate-search-index.js` runs in CI and fails if a puzzle in `gameData.json` has no clue data.

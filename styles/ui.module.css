@@ -33,6 +33,17 @@
   border-bottom: 1px solid var(--hud-line);
 }
 
+/* Window titles are long paths with no spaces. Let them wrap instead of
+   pushing the page wider than a phone screen. */
+.bar > span:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.bar > span:last-child:not(:first-child) {
+  flex: none;
+}
+
 .barButton {
   appearance: none;
   display: flex;
@@ -181,12 +192,16 @@
 /* ---- Hearts ------------------------------------------------------------- */
 .hearts {
   display: flex;
-  flex-wrap: wrap;
   gap: 4px;
 }
 
+/* Hearts shrink together on a narrow screen so ten still sit on one row. */
 .heart {
   display: block;
+  flex: 0 1 auto;
+  min-width: 0;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .heartBlink {

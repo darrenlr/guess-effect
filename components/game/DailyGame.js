@@ -84,13 +84,21 @@ export default function DailyGame({ game, isArchive }) {
   const stats = finished
     ? [{ label: "FINAL_SCORE", value: result.score }]
     : [
+        { label: "POINTS", value: round.hints.points },
         { label: "BONUS", value: bonus },
-        { label: "SCORE", value: round.hints.points },
+        { label: "ZOOM" },
       ];
+  const subtitle = isArchive
+    ? `ARCHIVE // ${game.date}`
+    : new Date()
+        .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" })
+        .toUpperCase();
 
   return (
     <>
       <RoundView
+        title={isArchive ? "ARCHIVE.SYS" : "DAILY.SYS"}
+        subtitle={subtitle}
         path={`${isArchive ? "ARCHIVE" : "DAILY"}\\#${game.gameNumber}`}
         statusTitle="DAILY_STATUS.SYS"
         archivedOn={isArchive ? game.date : null}

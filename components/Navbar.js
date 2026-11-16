@@ -2,17 +2,19 @@ import { useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import Icon from "./ui/Icons";
+import HelpModal from "./modals/HelpModal";
 import styles from "../styles/Navbar.module.css";
 
 // Windows load only when opened, so they cost nothing on first paint.
 const SupportModal = dynamic(() => import("./modals/SupportModal"), { ssr: false });
 const ArchiveModal = dynamic(() => import("./modals/ArchiveModal"), { ssr: false });
-const HelpModal = dynamic(() => import("./modals/HelpModal"), { ssr: false });
 const StatsModal = dynamic(() => import("./modals/StatsModal"), { ssr: false });
 const SettingsModal = dynamic(() => import("./modals/SettingsModal"), { ssr: false });
 
 // calendar (archive) and heart (support) on the left, the logo, then settings,
 // help and stats on the right. Pages turn icons off with the show* props.
+// `help` picks the how-to-play text ("daily" or "endless") and `faq` is the
+// list of questions shown in the help window.
 export default function Navbar({
   showCalendar = true,
   showSupport = true,
@@ -20,7 +22,8 @@ export default function Navbar({
   showHelp = true,
   showStats = true,
   onStatsClick = null,
-  isEndlessMode = false,
+  help = "daily",
+  faq = [],
 }) {
   const [open, setOpen] = useState(null);
   const close = () => setOpen(null);
@@ -47,7 +50,7 @@ export default function Navbar({
       {open === "archive" && <ArchiveModal onClose={close} />}
       {open === "support" && <SupportModal onClose={close} />}
       {open === "settings" && <SettingsModal onClose={close} />}
-      {open === "help" && <HelpModal onClose={close} isEndless={isEndlessMode} />}
+      {showHelp && <HelpModal open={open === "help"} onClose={close} mode={help} faq={faq} />}
       {open === "stats" && <StatsModal onClose={close} />}
     </header>
   );

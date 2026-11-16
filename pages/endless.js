@@ -1,14 +1,12 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Faq from "../components/Faq";
 import SeoHead, { breadcrumbs, faqSchema, webApp } from "../components/SeoHead";
 import EndlessGame from "../components/game/EndlessGame";
 import { EndlessStatsModal } from "../components/game/EndlessModals";
 import { ENDLESS_FAQ } from "../lib/content";
 import { initialEndlessStats } from "../lib/endless";
 import { KEYS, readJSON } from "../lib/storage";
-import styles from "../styles/page.module.css";
 
 const schema = {
   "@context": "https://schema.org",
@@ -36,14 +34,11 @@ export default function Endless() {
         shareDescription="No daily limit. Guess as many video games as you can. How far can you go?"
         schema={schema}
       />
-      <Navbar showCalendar={false} isEndlessMode onStatsClick={() => setShowStats(true)} />
+      <Navbar showCalendar={false} help="endless" faq={ENDLESS_FAQ} onStatsClick={() => setShowStats(true)} />
 
       <main>
         <h1 className="sr-only">Endless Video Game Guessing Game</h1>
         <EndlessGame />
-        <div className={styles.page}>
-          <Faq items={ENDLESS_FAQ} />
-        </div>
       </main>
 
       <Footer />
