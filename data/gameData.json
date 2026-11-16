@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-17",
+  "region": "NA",
+  "releaseDate": "2016-06-07",
+  "title": "Mirror's Edge Catalyst",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["DICE"],
+    "genre": ["Action-Adventure", "Platform"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Frostbite 3",
+    "metacritic": 69,
+    "plot": "Released from prison, a young Runner named Faith returns to the gleaming, authoritarian city of Glass, where a handful of powerful corporations control every aspect of life and Runners carry data between those who resist them. Reuniting with her old crew and working her way through the city's rooftops and shadowy underbelly, Faith uses fast first-person parkour and martial arts to uncover the secret behind the corporations' surveillance regime and the origin of the conflict that has defined her life."
+  }
+},
+  {
   "date": "2026-11-16",
   "region": "EU",
   "releaseDate": "2006-05-26",
