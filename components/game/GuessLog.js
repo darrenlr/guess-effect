@@ -85,7 +85,15 @@ export default function GuessLog({ rows, slots = 0, note }) {
       <ol className={styles.logList}>
         {rows.map((row, index) => (
           <li key={`${row.name}-${index}`} className={styles.logCard}>
-            <p className={styles.logName}>{row.name}</p>
+            <div className={styles.logHead}>
+              {row.cover ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={row.cover} alt="" width="22" height="30" loading="lazy" className={styles.matchThumb} />
+              ) : (
+                <span className={styles.matchThumb} aria-hidden="true" />
+              )}
+              <p className={styles.logName}>{row.name}</p>
+            </div>
             {row.tiles && (
               <div className={styles.tiles}>
                 {row.tiles.map((tile) => (

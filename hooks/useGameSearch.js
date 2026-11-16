@@ -60,11 +60,18 @@ export function loadSearchIndex() {
   return loading;
 }
 
+// A small cover for a suggestion row, from IGDB's image CDN.
+export const thumbUrl = (coverImageId) =>
+  coverImageId ? `https://images.igdb.com/igdb/image/upload/t_cover_small/${coverImageId}.jpg` : null;
+
 export async function searchGames(query) {
   const index = await loadSearchIndex();
-  return index
-    .search(query, { limit: MAX_RESULTS })
-    .map(({ item }) => ({ value: item.name, label: labelFor(item) }));
+  return index.search(query, { limit: MAX_RESULTS }).map(({ item }) => ({
+    value: item.name,
+    label: labelFor(item),
+    year: releaseYear(item.firstReleaseDate),
+    cover: thumbUrl(item.coverImageId),
+  }));
 }
 
 // The index entry (id, release date...) for a title a player guessed. Only

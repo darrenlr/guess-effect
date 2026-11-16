@@ -194,7 +194,6 @@ export default function EndlessGame() {
         key={game.releaseDate}
         title="ENDLESS.SYS"
         subtitle={`GAME ${run.currentGameNumber} // RUN IN PROGRESS`}
-        path={`ENDLESS\\GAME_${run.currentGameNumber}`}
         statusTitle="ENDLESS_STATUS.SYS"
         game={game}
         round={round}

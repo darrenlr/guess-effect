@@ -99,8 +99,7 @@ export default function DailyGame({ game, isArchive }) {
       <RoundView
         title={isArchive ? "ARCHIVE.SYS" : "DAILY.SYS"}
         subtitle={subtitle}
-        path={`${isArchive ? "ARCHIVE" : "DAILY"}\\#${game.gameNumber}`}
-        statusTitle="DAILY_STATUS.SYS"
+        statusTitle="STATUS.SYS"
         archivedOn={isArchive ? game.date : null}
         game={game}
         round={shown}

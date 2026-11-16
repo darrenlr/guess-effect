@@ -23,8 +23,7 @@ import styles from "../../styles/game.module.css";
 export default function RoundView({
   title, // e.g. "DAILY.SYS"
   subtitle, // e.g. "MON 16 NOV"
-  path, // window-title path, e.g. "DAILY\\#712"
-  statusTitle,
+  statusTitle, // e.g. "STATUS.SYS"
   archivedOn,
   game,
   round,
@@ -83,7 +82,7 @@ export default function RoundView({
 
   let zoomLabel = "[ZOOM_OUT]";
   if (atMax) zoomLabel = "[MAX_ZOOM]";
-  else if (back === 0) zoomLabel = `[ZOOM_OUT] (-${ZOOM_COST})`;
+  else if (back === 0) zoomLabel = `[ZOOM_OUT -${ZOOM_COST}]`;
 
   const cells = stats.map((stat) => (stat.label === "ZOOM" ? { ...stat, value: `${view + 1}/${MAX_ZOOM + 1}` } : stat));
 
@@ -99,14 +98,14 @@ export default function RoundView({
 
       <div className={styles.layout}>
         <div className={styles.left}>
-          <Panel title={`C:\\GAMES\\${path}\\RELEASE_DATE.SYS`} className={styles.date}>
-            <h2 className={styles.releaseDate}>
-              {formatLongDate(game.releaseDate)} ({game.region})
-            </h2>
-            {archivedOn && <p className={styles.archived}>[Archived on: {archivedOn}]</p>}
-          </Panel>
-
           <Panel title={statusTitle} className={styles.status}>
+            <div className={styles.releaseCell}>
+              <span className={styles.releaseLabel}>&gt; RELEASE_DATE</span>
+              <h2 className={styles.releaseDate}>
+                {formatLongDate(game.releaseDate)} ({game.region})
+              </h2>
+              {archivedOn && <p className={styles.archived}>[Archived on: {archivedOn}]</p>}
+            </div>
             {!heartsInTitle && (
               <div className={styles.statusHearts}>
                 <Hearts total={lives.total} remaining={lives.remaining} blinkLast={flash} />
@@ -138,7 +137,10 @@ export default function RoundView({
                 />
               </div>
             </div>
-            {!over && (
+          </Panel>
+
+          {!over && (
+            <div className={styles.zoomBlock}>
               <div className={styles.zoomBar}>
                 <Button variant="solid" onClick={handleZoomOut} disabled={atMax} className={styles.zoomOut}>
                   {zoomLabel}
@@ -146,19 +148,27 @@ export default function RoundView({
                 <Button onClick={() => setBack(back + 1)} disabled={view <= 0}>
                   [ZOOM_IN]
                 </Button>
-                <div className={styles.dots} aria-hidden="true">
+                <div
+                  className={styles.dots}
+                  role="img"
+                  aria-label={`Zoom level ${view + 1} of ${MAX_ZOOM + 1}`}
+                >
                   {Array.from({ length: MAX_ZOOM + 1 }, (_, index) => (
                     <span key={index} className={index <= view ? styles.dotOn : styles.dot} />
                   ))}
                 </div>
               </div>
-            )}
-          </Panel>
+              <p className={styles.zoomNote}>
+                Starts zoomed in on one small detail. Each zoom-out costs {ZOOM_COST} points, and zooming back in
+                doesn&apos;t refund them. The full cover only appears once the game is over.
+              </p>
+            </div>
+          )}
         </div>
 
         <div className={styles.right}>
           <div className={styles.input}>
-            <GuessInput onSubmit={onGuess} disabled={over} />
+            <GuessInput onSubmit={onGuess} disabled={over} guessed={misses} />
           </div>
 
           <HintsPanel hints={round.hints} data={game.hints} onReveal={onRevealHint} disabled={over} />

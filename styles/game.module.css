@@ -1,6 +1,7 @@
 /* ---- Round layout ------------------------------------------------------- */
-/* One column on phones, in the order you need things: release date, status,
-   guess box, cover, clues. Two columns on wide screens. */
+/* One column on phones, in the order you play it: status, cover and zoom
+   controls, guess box, clues, guess log. Two columns on wide screens (status,
+   cover and zoom on the left; guess box, clues and log on the right). */
 .round {
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@
 .layout {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .left,
@@ -44,16 +45,16 @@
   display: contents;
 }
 
-.date {
+.status {
   order: 1;
 }
-.status {
+.cover {
   order: 2;
 }
-.input {
+.zoomBlock {
   order: 3;
 }
-.cover {
+.input {
   order: 4;
 }
 .hints {
@@ -73,36 +74,58 @@
   .layout {
     display: grid;
     grid-template-columns: minmax(300px, 420px) minmax(0, 1fr);
-    gap: 28px;
+    gap: 32px;
     align-items: start;
   }
   .left,
   .right {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     min-width: 0;
+  }
+  .left {
+    gap: 16px;
+  }
+  .right {
+    gap: 32px;
   }
 }
 
 /* ---- Release date & status ---------------------------------------------- */
+.releaseCell {
+  padding: 8px 10px;
+  border: 1px solid var(--hud-line);
+}
+
+.releaseLabel {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
 .releaseDate {
   font-family: var(--font-mono);
-  font-size: clamp(20px, 5.4vw, 30px);
+  font-size: clamp(18px, 5.2vw, 24px);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
   color: var(--ink-strong);
 }
 
 .archived {
-  margin-top: 6px;
+  margin-top: 4px;
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-muted);
 }
 
 .statusHearts {
-  margin-bottom: 10px;
+  margin-top: 12px;
+}
+
+.releaseCell + .statGrid,
+.statusHearts + .statGrid {
+  margin-top: 12px;
 }
 
 .statGrid {
@@ -147,12 +170,22 @@
   opacity: 1;
 }
 
+.zoomBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .zoomBar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  padding: 12px;
+}
+
+.zoomNote {
+  font-size: 14px;
+  color: var(--ink-muted);
 }
 
 .zoomOut {
@@ -209,23 +242,18 @@
   gap: 8px;
 }
 
-.guessField {
-  position: relative;
+.guessInput {
   flex: 1 1 auto;
   min-width: 0;
-}
-
-.guessInput {
-  width: 100%;
-  min-height: 52px;
-  padding: 0 14px;
+  min-height: 54px;
+  padding: 0 16px;
   border: 2px solid var(--hud-color);
   border-radius: 0;
   background: var(--bg);
   color: var(--ink-strong);
   caret-color: var(--hud-color);
   font-family: var(--font-mono);
-  font-size: 16px; /* 16px stops iOS zooming into the field */
+  font-size: 17px; /* 16px or more stops iOS zooming into the field */
 }
 
 .guessInput::placeholder {
@@ -234,39 +262,6 @@
 
 .guessInput:disabled {
   opacity: 0.5;
-}
-
-.guessMenu {
-  position: absolute;
-  top: calc(100% + 2px);
-  left: 0;
-  right: 0;
-  z-index: 20;
-  max-height: 260px;
-  margin: 0;
-  padding: 0;
-  overflow-y: auto;
-  list-style: none;
-  border: 2px solid var(--hud-color);
-  background: var(--bg);
-}
-
-.guessOption,
-.guessEmpty {
-  padding: 12px 14px;
-  font-family: var(--font-mono);
-  font-size: 14px;
-  color: var(--hud-color);
-  cursor: pointer;
-}
-
-.guessEmpty {
-  color: var(--ink-dim);
-  cursor: default;
-}
-
-.guessOptionActive {
-  background: var(--hud-faint);
 }
 
 .guessRun {
@@ -286,53 +281,180 @@
   cursor: not-allowed;
 }
 
-/* ---- Clues -------------------------------------------------------------- */
-.hintRows {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px 16px;
-  margin: 0;
-}
-
-.hintRow {
-  min-width: 0;
-}
-
-.hintRowWide {
-  grid-column: 1 / -1;
-}
-
-.hintKey {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  color: var(--hud-color);
-}
-
-.hintBody {
-  margin: 4px 0 0;
-}
-
-.hintValue,
-.hintList {
-  font-size: 15px;
-  color: var(--ink-strong);
-}
-
-.hintList {
+/* Matches sit in the page under the box, not in a floating menu. */
+.matches {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.plot {
-  font-size: 15px;
-  line-height: 1.55;
-  color: var(--ink);
+.match,
+.matchEmpty {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 6px 14px;
+  border: 1px solid var(--hud-line);
 }
 
-.reveal {
+.match {
+  cursor: pointer;
+}
+
+.matchActive {
+  background: var(--hud-faint);
+}
+
+.matchDone {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.matchEmpty {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+
+.matchThumb {
   display: block;
+  flex: none;
+  width: 22px;
+  height: 30px;
+  background: #2a2a2a;
+  object-fit: cover;
+}
+
+.matchTitle {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink-strong);
+}
+
+.matchYear {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.matchNote {
+  min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-align: right;
+  color: var(--hud-color);
+}
+
+.matchNote:not(:empty) {
+  min-width: 64px;
+}
+
+/* With room to spare, keep the years in one column whether or not a row
+   carries a note. */
+@media (min-width: 600px) {
+  .matchNote {
+    min-width: 64px;
+  }
+}
+
+/* ---- Clues -------------------------------------------------------------- */
+.hints {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hintsHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+.hintsTitle {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--hud-color);
+}
+
+.hintsNote {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.hintBtns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
+  gap: 8px;
+}
+
+.hintBtn {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--hud-line);
+  border-radius: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hintBtn:hover:not(:disabled) {
+  border-color: var(--hud-color);
+  background: var(--hud-faint);
+}
+
+.hintBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.hintBtnOn,
+.hintBtnOn:disabled {
+  border-color: var(--hud-color);
+  background: var(--hud-color);
+  color: #000;
+  opacity: 1;
+  cursor: default;
+}
+
+.hintCost {
+  font-weight: 500;
+}
+
+.line {
+  padding: 10px 14px;
+  border: 1px solid var(--hud-line);
+  font-size: 15px;
+  line-height: 1.5;
   animation: decrypt 0.45s steps(6) 1;
+}
+
+.lineKey {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--hud-color);
+}
+
+.lineValue {
+  color: var(--ink-strong);
 }
 
 @keyframes decrypt {
@@ -344,28 +466,6 @@
     opacity: 1;
     filter: none;
   }
-}
-
-.decrypt {
-  min-height: 44px;
-  padding: 0 14px;
-  border: 2px solid var(--hud-color);
-  border-radius: 0;
-  background: var(--hud-faint);
-  color: var(--hud-color);
-  font-family: var(--font-mono);
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.decrypt:hover:not(:disabled) {
-  background: var(--tile-b);
-}
-
-.decrypt:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
 }
 
 .meta {
@@ -518,6 +618,12 @@
   gap: 8px;
   padding: 10px;
   border: 1px solid var(--hud-line);
+}
+
+.logHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .logName {
