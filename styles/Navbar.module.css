@@ -1,138 +1,150 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.8rem;
-    gap: 1.4rem;
-  }
-  
-  .title {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #fff;
-    position: relative;
-    text-shadow: 2px 0px 0px rgba(255, 0, 80, 0.7), -2px 0px 0px rgba(0, 255, 255, 0.7);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0;
-    font-family: var(--font-family);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  margin: 0.8rem;
+}
 
-  .title::before {
-    content: attr(data-text);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
+/* The glitching logo */
+.title {
+  position: relative;
+  margin: 0;
+  font-family: var(--font-logo);
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 0 0 rgba(255, 0, 80, 0.7), -2px 0 0 rgba(0, 255, 255, 0.7);
+}
+
+.title::before,
+.title::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.title::before {
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
+  animation: glitch-1 2s infinite linear alternate-reverse;
+}
+
+.title::after {
+  clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
+  animation: glitch-2 3s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-1 {
+  0% {
     clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
-    animation: glitch-anim-1 2s infinite linear alternate-reverse;
+    transform: translate(-2px, 0);
   }
+  20% {
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
+    transform: translate(2px, 0);
+  }
+  40% {
+    clip-path: polygon(0 20%, 100% 20%, 100% 60%, 0 60%);
+    transform: translate(-2px, 0);
+  }
+  60% {
+    clip-path: polygon(0 50%, 100% 50%, 100% 80%, 0 80%);
+    transform: translate(2px, 0);
+  }
+  80% {
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
+    transform: translate(-2px, 0);
+  }
+  100% {
+    clip-path: polygon(0 10%, 100% 10%, 100% 40%, 0 40%);
+    transform: translate(2px, 0);
+  }
+}
 
-  .title::after {
-    content: attr(data-text);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
+@keyframes glitch-2 {
+  0% {
     clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
-    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+    transform: translate(2px, 0);
+  }
+  20% {
+    clip-path: polygon(0 60%, 100% 60%, 100% 90%, 0 90%);
+    transform: translate(-2px, 0);
+  }
+  40% {
+    clip-path: polygon(0 40%, 100% 40%, 100% 80%, 0 80%);
+    transform: translate(2px, 0);
+  }
+  60% {
+    clip-path: polygon(0 10%, 100% 10%, 100% 50%, 0 50%);
+    transform: translate(-2px, 0);
+  }
+  80% {
+    clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
+    transform: translate(2px, 0);
+  }
+  100% {
+    clip-path: polygon(0 30%, 100% 30%, 100% 60%, 0 60%);
+    transform: translate(-2px, 0);
+  }
+}
+
+.iconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0.5rem;
+  border: 0;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    gap: 0.1rem;
+    margin: 0.6rem 0.2rem;
   }
 
-  @keyframes glitch-anim-1 {
-    0% {
-      clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
-      transform: translate(-2px, 0);
-    }
-    20% {
-      clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
-      transform: translate(2px, 0);
-    }
-    40% {
-      clip-path: polygon(0 20%, 100% 20%, 100% 60%, 0 60%);
-      transform: translate(-2px, 0);
-    }
-    60% {
-      clip-path: polygon(0 50%, 100% 50%, 100% 80%, 0 80%);
-      transform: translate(2px, 0);
-    }
-    80% {
-      clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
-      transform: translate(-2px, 0);
-    }
-    100% {
-      clip-path: polygon(0 10%, 100% 10%, 100% 40%, 0 40%);
-      transform: translate(2px, 0);
-    }
+  .title {
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
   }
 
-  @keyframes glitch-anim-2 {
-    0% {
-      clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
-      transform: translate(2px, 0);
-    }
-    20% {
-      clip-path: polygon(0 60%, 100% 60%, 100% 90%, 0 90%);
-      transform: translate(-2px, 0);
-    }
-    40% {
-      clip-path: polygon(0 40%, 100% 40%, 100% 80%, 0 80%);
-      transform: translate(2px, 0);
-    }
-    60% {
-      clip-path: polygon(0 10%, 100% 10%, 100% 50%, 0 50%);
-      transform: translate(-2px, 0);
-    }
-    80% {
-      clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
-      transform: translate(2px, 0);
-    }
-    100% {
-      clip-path: polygon(0 30%, 100% 30%, 100% 60%, 0 60%);
-      transform: translate(-2px, 0);
-    }
-  }
-  
-  .iconBtn {
-    background: none;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .iconBtn:focus {
-    outline: none;
-  }
-  
   .icon {
-    width: 1.5rem; 
-    height: 1.5rem;
-    font-size: 1.5rem;
-    color: white;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
-  @media screen and (max-width: 767px) {
-    .navbar {
-      gap: 0.8rem;
-      margin: 0.6rem 0.4rem;
-    }
-
-    .title {
-      text-align: center;
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-    }
-  
-    .icon {
-      font-size: 1.2rem;
-    }
-
-    .iconBtn {
-      padding: 0.2rem;
-    }
+  .iconBtn {
+    min-width: 40px;
+    padding: 0.2rem;
   }
+}
+
+/* Small phones: six items have to fit in 360px */
+@media screen and (max-width: 420px) {
+  .title {
+    padding: 0 0.3rem;
+    font-size: 0.68rem;
+    letter-spacing: 0;
+  }
+
+  .iconBtn {
+    min-width: 36px;
+  }
+}

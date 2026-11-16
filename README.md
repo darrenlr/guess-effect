@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guess Effect
 
-## Getting Started
+A daily video game guessing game ([guesseffect.wtf](https://guesseffect.wtf)): name the game from its release date,
+a zoomed-in piece of its box art, and clues you can buy with points. Modes: **Daily** (plus an archive of past days)
+and **Endless**. Built with Next.js (pages router) and React.
 
-First, run the development server:
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # production build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`.env.local` needs the Firebase keys (`NEXT_PUBLIC_FIREBASE_*`) and `NEXT_PUBLIC_BRANCH`. When `NEXT_PUBLIC_BRANCH` is
+`release`, results are written to the `playerStats-release` / `endlessStats-release` collections so testing never
+touches real stats.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## How it's laid out
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+| Path | What lives there |
+| --- | --- |
+| `pages/` | `index` (mode select), `daily` (today and `?date=` archive games), `endless`, and the API routes |
+| `lib/rules.js` | Scoring and round rules as pure functions: clue costs, zoom levels, lives, daily score |
+| `lib/history.js`, `lib/endless.js` | Daily history/streaks and endless run logic |
+| `lib/storage.js` | Every localStorage key in one place |
+| `lib/tracking.js`, `lib/firebase.js` | Firestore stats. Firebase loads on demand, not with the page |
+| `lib/gameData.js` | Server-side puzzle lookup (parsed once per server instance) |
+| `components/game/` | `RoundView` (the playing screen every mode shares), `DailyGame`, `EndlessGame`, cover zoom, guess box, clues |
+| `components/ui/` | Panel, Button, Modal, Hearts and other building blocks |
+| `components/modals/` | Settings, support, help, stats and archive windows |
+| `styles/globals.css` | Theme tokens. The HUD colour (`--hud-color`) drives everything else |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Daily, archive and endless all render the same `RoundView`; each mode only decides what happens when a round starts
+and ends.
 
-## Learn More
+## Saved data (don't break these)
 
-To learn more about Next.js, take a look at the following resources:
+Players' progress lives in localStorage under these keys, and results in Firestore. Changing a name or a shape
+silently wipes people's streaks and runs, so treat them as a public format:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `GAME_HISTORY`: `{ wins, games, currentStreak, longestStreak, scores: [{ releaseDate, date, score }] }`
+- `CURRENT_GAME_STATE` / `ARCHIVED_GAME_STATE`: the round in progress for today / for an archive game
+- `ENDLESS_<MODE>_STATE` / `ENDLESS_<MODE>_STATS`: the endless run and its best score, streak and run count
+- `USER_SETTINGS`: `{ hud_colour }`
+- Firestore: `playerStats` (one document per date) and `endlessStats`, plus their `-release` twins
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The round shape is documented at the top of `lib/rules.js`. Older saves are read tolerantly (`readRound`).
 
-## Deploy on Vercel
+## Puzzles and search
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Puzzles live in `data/gameData.json`; box art is filled in from `public/games-index.json` (see
+`utils/resolveBoxArt.js`). The scripts in `scripts/` and the workflows in `.github/workflows/` validate both files.

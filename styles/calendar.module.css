@@ -1,0 +1,123 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.month {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink-strong);
+}
+
+.nav {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--hud-line);
+  border-radius: 0;
+  background: var(--bg);
+  color: var(--hud-color);
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.weekdays,
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.weekdays {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-align: center;
+  color: var(--ink-muted);
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 2px;
+  border: 1px solid transparent;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.score {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* Fill level shows how well you did */
+.open {
+  border: 2px solid var(--hud-color);
+  color: var(--hud-color);
+}
+
+.lost {
+  border: 1px dashed #5a5a5a;
+  color: var(--ink-dim);
+}
+
+.low {
+  background: var(--hud-faint);
+  border-color: var(--hud-line);
+  color: var(--hud-color);
+}
+
+.mid {
+  background: var(--hud-dim);
+  color: #000;
+}
+
+.high {
+  background: var(--hud-color);
+  color: #000;
+}
+
+.out {
+  border-color: #1c1c1c;
+  color: var(--ink-ghost);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
