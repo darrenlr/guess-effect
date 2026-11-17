@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-18",
+  "region": "NA",
+  "releaseDate": "2009-02-10",
+  "title": "F.E.A.R. 2: Project Origin",
+  "hints": {
+    "publisher": ["Warner Bros. Interactive Entertainment"],
+    "developer": ["Monolith Productions"],
+    "genre": ["First-Person Shooter", "Survival Horror"],
+    "platforms": ["PlayStation 3", "Xbox 360", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "LithTech Jupiter EX",
+    "metacritic": 77,
+    "plot": "Thirty minutes before the events that ended the original game, a Delta Force operator named Michael Becket is sent into a doomed city on a mission to extract the head of the Armacham Technology Corporation. As a paranormal crisis tears through the metropolis and the vengeful psychic Alma tightens her grip on his mind, Becket fights through collapsing streets, offices, and research facilities against hostile soldiers and supernatural horrors, uncovering Armacham's role in creating Alma and the fate that awaits him."
+  }
+},
+  {
+  "date": "2026-11-17",
+  "region": "NA",
+  "releaseDate": "2016-06-07",
+  "title": "Mirror's Edge Catalyst",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["DICE"],
+    "genre": ["Action-Adventure", "Platform"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Frostbite 3",
+    "metacritic": 69,
+    "plot": "Released from prison, a young Runner named Faith returns to the gleaming, authoritarian city of Glass, where a handful of powerful corporations control every aspect of life and Runners carry data between those who resist them. Reuniting with her old crew and working her way through the city's rooftops and shadowy underbelly, Faith uses fast first-person parkour and martial arts to uncover the secret behind the corporations' surveillance regime and the origin of the conflict that has defined her life."
+  }
+},
+  {
   "date": "2026-11-16",
   "region": "EU",
   "releaseDate": "2006-05-26",
