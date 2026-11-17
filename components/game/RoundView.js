@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { MAX_ZOOM, ZOOM_COST, allHintsRevealed, zoomStep } from "../../lib/rules";
+import { MAX_ZOOM, ZOOM_COST, allHintsRevealed, zoomFocusCandidates, zoomStep } from "../../lib/rules";
 import { formatLongDate } from "../../lib/dates";
 import useGuessClues from "../../hooks/useGuessClues";
 import Panel from "../ui/Panel";
@@ -78,7 +78,7 @@ export default function RoundView({
   };
 
   const background = palette ? `linear-gradient(to bottom, ${palette[0]}, ${palette[1] || palette[0]})` : undefined;
-  const focus = Array.isArray(game.zoomFocus) ? game.zoomFocus : undefined;
+  const focus = zoomFocusCandidates(game);
 
   let zoomLabel = "[ZOOM_OUT]";
   if (atMax) zoomLabel = "[MAX_ZOOM]";

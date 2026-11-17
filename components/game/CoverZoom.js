@@ -18,21 +18,79 @@ const candidates = (url) => [
   url,
 ];
 
-function drawCrop(canvas, image, zoom, focus) {
-  const ctx = canvas.getContext("2d");
+// The part of the image a crop shows at a zoom, centred on `focus` (fractions
+// of the image's width and height) and kept inside the image.
+function cropRect(image, zoom, focus) {
   const base = Math.max(CANVAS_W / image.naturalWidth, CANVAS_H / image.naturalHeight);
   const sw = CANVAS_W / (base * zoom);
   const sh = CANVAS_H / (base * zoom);
   const sx = Math.min(Math.max(focus[0] * image.naturalWidth - sw / 2, 0), image.naturalWidth - sw);
   const sy = Math.min(Math.max(focus[1] * image.naturalHeight - sh / 2, 0), image.naturalHeight - sh);
+  return { sx, sy, sw, sh };
+}
+
+function drawCrop(canvas, image, zoom, focus) {
+  const ctx = canvas.getContext("2d");
+  const { sx, sy, sw, sh } = cropRect(image, zoom, focus);
   ctx.imageSmoothingEnabled = true;
   ctx.imageSmoothingQuality = "high";
   ctx.drawImage(image, sx, sy, sw, sh, 0, 0, CANVAS_W, CANVAS_H);
 }
 
-export default function CoverZoom({ src, step, revealed, focus = [0.5, 0.48], label, onPalette, onLoaded }) {
+// How much is going on in the opening crop: the spread of its brightness on a
+// 0-255 scale. A black or flat patch scores near zero.
+const SAMPLE = 32;
+const MIN_DETAIL = 12;
+
+function detailAt(image, focus) {
+  const sample = document.createElement("canvas");
+  sample.width = SAMPLE;
+  sample.height = SAMPLE;
+  const ctx = sample.getContext("2d", { willReadFrequently: true });
+  const { sx, sy, sw, sh } = cropRect(image, ZOOM_LEVELS[0], focus);
+  ctx.drawImage(image, sx, sy, sw, sh, 0, 0, SAMPLE, SAMPLE);
+  const { data } = ctx.getImageData(0, 0, SAMPLE, SAMPLE);
+  let sum = 0;
+  let sumSquares = 0;
+  for (let i = 0; i < data.length; i += 4) {
+    const luma = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+    sum += luma;
+    sumSquares += luma * luma;
+  }
+  const count = SAMPLE * SAMPLE;
+  const mean = sum / count;
+  return Math.sqrt(Math.max(0, sumSquares / count - mean * mean));
+}
+
+// Many covers have a plain or black corner, which would make a poor first
+// clue. Take the first candidate whose opening crop has something in it, or
+// the busiest one if none do. The same pixels give every player the same pick.
+function pickFocus(image, candidates) {
+  if (candidates.length === 1) return candidates[0];
+  try {
+    let best = candidates[0];
+    let bestDetail = -1;
+    for (const candidate of candidates) {
+      const detail = detailAt(image, candidate);
+      if (detail >= MIN_DETAIL) return candidate;
+      if (detail > bestDetail) {
+        best = candidate;
+        bestDetail = detail;
+      }
+    }
+    return best;
+  } catch {
+    return candidates[0]; // pixels unreadable: keep the preferred corner
+  }
+}
+
+const CENTRE = [[0.5, 0.48]];
+
+// `focus` is a list of places to centre the crop, in order of preference.
+export default function CoverZoom({ src, step, revealed, focus = CENTRE, label, onPalette, onLoaded }) {
   const canvasRef = useRef(null);
   const imageRef = useRef(null);
+  const focusRef = useRef(focus[0]); // the candidate chosen once the image is in
   const zoomRef = useRef(null); // zoom currently on screen
   const frameRef = useRef(0);
   const [ready, setReady] = useState(false);
@@ -53,6 +111,7 @@ export default function CoverZoom({ src, step, revealed, focus = [0.5, 0.48], la
       image.onload = () => {
         if (cancelled) return;
         imageRef.current = image;
+        focusRef.current = pickFocus(image, focus);
         setReady(true);
         onLoaded?.();
         if (onPalette) {
@@ -87,8 +146,9 @@ export default function CoverZoom({ src, step, revealed, focus = [0.5, 0.48], la
 
     cancelAnimationFrame(frameRef.current);
     const from = zoomRef.current ?? targetZoom;
+    const point = focusRef.current;
     if (from === targetZoom) {
-      drawCrop(canvas, image, targetZoom, focus);
+      drawCrop(canvas, image, targetZoom, point);
       zoomRef.current = targetZoom;
       return undefined;
     }
@@ -99,7 +159,7 @@ export default function CoverZoom({ src, step, revealed, focus = [0.5, 0.48], la
       const eased = 1 - Math.pow(1 - t, 3);
       // Interpolate in log space so each step feels the same size.
       const zoom = from * Math.pow(targetZoom / from, eased);
-      drawCrop(canvas, image, zoom, focus);
+      drawCrop(canvas, image, zoom, point);
       zoomRef.current = zoom;
       if (t < 1) frameRef.current = requestAnimationFrame(tick);
     };
