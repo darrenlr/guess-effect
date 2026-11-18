@@ -1,5 +1,53 @@
 [
   {
+  "date": "2026-11-21",
+  "region": "WW",
+  "releaseDate": "2014-04-01",
+  "title": "Goat Simulator",
+  "hints": {
+    "publisher": ["Coffee Stain Studios"],
+    "developer": ["Coffee Stain Studios"],
+    "genre": ["Simulation", "Open World"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Co-op"],
+    "engine": "Unreal Engine 3",
+    "metacritic": 62,
+    "plot": "There is no traditional narrative — the player takes control of a goat named Pilgor and is dropped into the suburban town of Goatville with a single objective: cause as much chaos as possible. Using a headbutt, a long sticky tongue, and a ragdoll physics engine that was never meant to be taken seriously, the goat wrecks cars, launches itself into the sky, and completes absurd quests, with unlockable mutators like jetpacks, mutant forms, and satanic goats appearing throughout."
+  }
+},
+  {
+  "date": "2026-11-20",
+  "region": "WW",
+  "releaseDate": "2016-08-02",
+  "title": "Overcooked!",
+  "hints": {
+    "publisher": ["Team17"],
+    "developer": ["Ghost Town Games"],
+    "genre": ["Simulation", "Action Puzzle"],
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "modes": ["Single-player", "Co-op", "Multiplayer"],
+    "engine": "Unity",
+    "metacritic": 78,
+    "plot": "When the ancient, ravenous Spaghetti Demon threatens to devour the Onion Kingdom, the Onion King summons a team of chefs to travel back in time and master the art of cooking to defeat it. Working together in chaotic kitchens filled with moving platforms, fire hazards, and ever-shifting layouts, players must chop, cook, plate, and serve increasingly demanding orders before the timer runs out and the customers storm off in a huff."
+  }
+},
+  {
+  "date": "2026-11-19",
+  "region": "WW",
+  "releaseDate": "2008-04-29",
+  "title": "Grand Theft Auto IV",
+  "hints": {
+    "publisher": ["Rockstar Games"],
+    "developer": ["Rockstar North"],
+    "genre": ["Action-Adventure", "Open World"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "RAGE",
+    "metacritic": 98,
+    "plot": "A war veteran from Eastern Europe named Niko Bellic arrives in Liberty City, lured by his cousin Roman's tales of wealth and luxury in the land of opportunity, only to find Roman drowning in debt and surrounded by criminals. Drawn into the city's underworld of loan sharks, mobsters, and corrupt officials, Niko takes on increasingly violent jobs to protect his cousin while hunting the man who betrayed his unit back home, forced to decide whether revenge is worth the cost of the American Dream."
+  }
+},
+  {
   "date": "2026-11-18",
   "region": "NA",
   "releaseDate": "2009-02-10",
