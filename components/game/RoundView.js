@@ -140,28 +140,18 @@ export default function RoundView({
           </Panel>
 
           {!over && (
-            <div className={styles.zoomBlock}>
-              <div className={styles.zoomBar}>
-                <Button variant="solid" onClick={handleZoomOut} disabled={atMax} className={styles.zoomOut}>
-                  {zoomLabel}
-                </Button>
-                <Button onClick={() => setBack(back + 1)} disabled={view <= 0}>
-                  [ZOOM_IN]
-                </Button>
-                <div
-                  className={styles.dots}
-                  role="img"
-                  aria-label={`Zoom level ${view + 1} of ${MAX_ZOOM + 1}`}
-                >
-                  {Array.from({ length: MAX_ZOOM + 1 }, (_, index) => (
-                    <span key={index} className={index <= view ? styles.dotOn : styles.dot} />
-                  ))}
-                </div>
+            <div className={styles.zoomBar}>
+              <Button variant="solid" onClick={handleZoomOut} disabled={atMax} className={styles.zoomOut}>
+                {zoomLabel}
+              </Button>
+              <Button onClick={() => setBack(back + 1)} disabled={view <= 0}>
+                [ZOOM_IN]
+              </Button>
+              <div className={styles.dots} role="img" aria-label={`Zoom level ${view + 1} of ${MAX_ZOOM + 1}`}>
+                {Array.from({ length: MAX_ZOOM + 1 }, (_, index) => (
+                  <span key={index} className={index <= view ? styles.dotOn : styles.dot} />
+                ))}
               </div>
-              <p className={styles.zoomNote}>
-                Starts zoomed in on one small detail. Each zoom-out costs {ZOOM_COST} points, and zooming back in
-                doesn&apos;t refund them. The full cover only appears once the game is over.
-              </p>
             </div>
           )}
         </div>

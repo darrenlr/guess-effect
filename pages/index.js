@@ -95,10 +95,6 @@ export default function Home() {
           <h1 className={styles.title}>
             Guess the video game<span className={styles.cursor}>_</span>
           </h1>
-          <p className={styles.lead}>
-            A free daily video game guessing game. You get the release date and a tiny, zoomed-in piece of the
-            box art. Zoom out and buy clues to find the game, but every one costs points.
-          </p>
         </section>
 
         <Panel title="C:\GAMES\DAILY>_" aside="1_GAME_PER_DAY">

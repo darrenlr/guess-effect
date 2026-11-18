@@ -51,7 +51,7 @@
 .cover {
   order: 2;
 }
-.zoomBlock {
+.zoomBar {
   order: 3;
 }
 .input {
@@ -170,22 +170,11 @@
   opacity: 1;
 }
 
-.zoomBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
 .zoomBar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-}
-
-.zoomNote {
-  font-size: 14px;
-  color: var(--ink-muted);
 }
 
 .zoomOut {

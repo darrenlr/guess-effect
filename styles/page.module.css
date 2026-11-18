@@ -29,12 +29,6 @@
   color: var(--ink-strong);
 }
 
-.lead {
-  max-width: 62ch;
-  font-size: 16px;
-  color: var(--ink-muted);
-}
-
 .cursor {
   color: var(--hud-color);
   animation: blink 1s steps(2) infinite;
