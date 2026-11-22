@@ -1,5 +1,21 @@
 [
   {
+  "date": "2026-11-23",
+  "region": "NA",
+  "releaseDate": "2010-03-30",
+  "title": "Mount & Blade: Warband",
+  "hints": {
+    "publisher": ["Paradox Interactive"],
+    "developer": ["TaleWorlds Entertainment"],
+    "genre": ["Action RPG", "Strategy"],
+    "platforms": ["PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 78,
+    "plot": "There is no fixed storyline — the player creates a lone adventurer in the medieval land of Calradia and chooses their own path to power, taking on trading, bounty-hunting, mercenary work, or conquest. Starting with a handful of recruits, the character builds an army and swears allegiance to one of six warring kingdoms — or founds their own — to besiege castles, win tournaments, marry nobility, and fight real-time mounted battles in a vast sandbox that responds to every alliance made and broken."
+  }
+},
+  {
   "date": "2026-11-21",
   "region": "WW",
   "releaseDate": "2014-04-01",
