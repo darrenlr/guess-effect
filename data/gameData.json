@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-25",
+  "region": "JP",
+  "releaseDate": "2012-02-16",
+  "title": "Binary Domain",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["Ryu Ga Gotoku Studio"],
+    "genre": ["Third-Person Shooter"],
+    "platforms": ["PlayStation 3", "Xbox 360"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 74,
+    "plot": "In 2080, with much of the world's coastlines drowned and humanity relying on robotic labour, a UN treaty forbids building machines that are indistinguishable from people — until a rogue manufacturer is suspected of doing just that in Tokyo. An American soldier named Dan Marshall and his international Rust Crew squad are sent into the city's derelict lower levels to find the engineer behind the illegal \"Hollow Children\" androids, fighting through hordes of increasingly human-like robots while questioning who among them is truly human."
+  }
+},
+  {
+  "date": "2026-11-24",
+  "region": "EU",
+  "releaseDate": "2006-02-24",
+  "title": "Black",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["Criterion Games"],
+    "genre": ["First-Person Shooter"],
+    "platforms": ["PlayStation 2", "Xbox"],
+    "modes": ["Single-player"],
+    "engine": "RenderWare",
+    "metacritic": 77,
+    "plot": "Disgraced US Army special forces operative Jack Kellar sits in an interrogation room, pressed by a mysterious government agent to account for the string of unauthorised missions that have landed him in trouble. As he recounts each operation in flashback — from a terrorist-held farmhouse to a snowy fortress to the streets of Chechnya — Kellar reveals his involvement with a black ops team and the shadowy arms dealer his unit has been chasing, while his interrogator probes for the real reason he disobeyed orders."
+  }
+},
+  {
   "date": "2026-11-23",
   "region": "NA",
   "releaseDate": "2010-03-30",
@@ -13,6 +45,22 @@
     "engine": null,
     "metacritic": 78,
     "plot": "There is no fixed storyline — the player creates a lone adventurer in the medieval land of Calradia and chooses their own path to power, taking on trading, bounty-hunting, mercenary work, or conquest. Starting with a handful of recruits, the character builds an army and swears allegiance to one of six warring kingdoms — or founds their own — to besiege castles, win tournaments, marry nobility, and fight real-time mounted battles in a vast sandbox that responds to every alliance made and broken."
+  }
+},
+  {
+  "date": "2026-11-22",
+  "region": "WW",
+  "releaseDate": "2019-09-10",
+  "title": "Blasphemous",
+  "hints": {
+    "publisher": ["Team17"],
+    "developer": ["The Game Kitchen"],
+    "genre": ["Metroidvania", "Action-Adventure"],
+    "platforms": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "modes": ["Single-player"],
+    "engine": "Unity",
+    "metacritic": 77,
+    "plot": "In the nightmarish, religion-obsessed land of Cvstodia, a mute penitent warrior known as the Penitent One is the lone survivor of a massacre that wiped out his silent order. Bearing a sword called Mea Culpa, he must wander a world cursed by a mysterious affliction called the Miracle — fighting grotesque, twisted enemies and fulfilling the dying wishes of the few who remain — to break the cycle of punishment and uncover the truth behind the Miracle that has plagued the land."
   }
 },
   {
