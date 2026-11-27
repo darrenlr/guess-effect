@@ -1,5 +1,37 @@
 [
   {
+  "date": "2026-11-27",
+  "region": "PAL",
+  "releaseDate": "2003-09-25",
+  "title": "Freedom Fighters",
+  "hints": {
+    "publisher": ["Electronic Arts"],
+    "developer": ["IO Interactive"],
+    "genre": ["Third-Person Shooter", "Tactical"],
+    "platforms": ["PlayStation 2", "Xbox", "GameCube", "PC"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": "Glacier",
+    "metacritic": 81,
+    "plot": "In an alternate timeline where the Soviet Union won the Cold War, Red Army troops invade the United States after a nuclear strike on Washington D.C., occupying New York City. A plumber named Chris Stone is dragged into the resistance while looking for his missing brother and, as the city's underground rallies around him, rises to lead a growing band of freedom fighters — recruiting followers through his charisma, commanding squads through occupied streets, and striking against the occupying forces to liberate the city block by block."
+  }
+},
+  {
+  "date": "2026-11-26",
+  "region": "NA",
+  "releaseDate": "2009-03-10",
+  "title": "MadWorld",
+  "hints": {
+    "publisher": ["Sega"],
+    "developer": ["PlatinumGames"],
+    "genre": ["Beat 'em up", "Hack and Slash"],
+    "platforms": ["Wii"],
+    "modes": ["Single-player", "Multiplayer"],
+    "engine": null,
+    "metacritic": 81,
+    "plot": "In the besieged Varrigan City, a terrorist group called the Organizers has turned the island into a lethal TV game show known as Death Watch, where contestants fight for viewers' bets and survival. A chainsaw-armed mercenary named Jack Cayman — who enters the contest for a hefty bounty and his own hidden reasons — carves a path through a black-and-white city of bizarre killers and hazards, racking up points through increasingly brutal kills and uncovering the real conspiracy behind the games."
+  }
+},
+  {
   "date": "2026-11-25",
   "region": "JP",
   "releaseDate": "2012-02-16",
