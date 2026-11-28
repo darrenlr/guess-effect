@@ -1,4 +1,19 @@
-[
+{
+  "date": "2026-11-28",
+  "region": "EU",
+  "releaseDate": "1999-11-18",
+  "title": "The Longest Journey",
+  "hints": {
+    "publisher": ["IQ Media Nordic"],
+    "developer": ["Funcom"],
+    "genre": ["Point-and-Click", "Adventure"],
+    "platforms": ["PC"],
+    "modes": ["Single-player"],
+    "engine": null,
+    "metacritic": 91,
+    "plot": "A young art student named April Ryan, haunted by strange dreams in the science-driven world of Stark, discovers that reality has been split into two halves: Stark, ruled by technology, and Arcadia, ruled by magic. Travelling between the worlds, April learns she is a Shifter — one who can pass freely between them — and must find the missing Guardian of the Balance, collect the artefacts needed to restore the Equilibrium, and fulfil an ancient prophecy before the forces of chaos tear the two realms apart."
+  }
+},
   {
   "date": "2026-11-27",
   "region": "PAL",
